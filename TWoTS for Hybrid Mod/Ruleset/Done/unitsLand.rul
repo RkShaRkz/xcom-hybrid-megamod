@@ -1587,9 +1587,9 @@ units:
       - - STR_LMG
         - STR_LMG_CLIP
         - STR_LMG_CLIP
-      - - STR_SHOTGUN
-        - STR_SHOTGUN_SHELLS
-        - STR_SHOTGUN_SHELLS
+      - - STR_AUTOSHOTGUN
+        - STR_AUTOSHOTGUN_SHELLS
+        - STR_AUTOSHOTGUN_SHELLS
       - - STR_LASER_RIFLE
   - type: STR_HUMAN_OFFICER
     race: STR_HUMAN

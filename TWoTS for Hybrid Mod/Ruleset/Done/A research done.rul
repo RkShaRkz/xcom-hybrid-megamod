@@ -808,7 +808,7 @@ research:
     needItem: true
     unlocks:
       - STR_OLD_WEAPONS
-  - name: STR_SHOTGUN
+  - name: STR_AUTOSHOTGUN
     cost: 50
     points: 10
     needItem: true
@@ -841,7 +841,7 @@ research:
     points: 10
     dependencies:
       - STR_REVOLVER
-      - STR_SHOTGUN
+      - STR_AUTOSHOTGUN
       - STR_AK
       - STR_LMG
       - STR_FLAMETHROWER

@@ -101,9 +101,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets: 
           -
-            - STR_SHOTGUN
-            - STR_SHOTGUN_SHELLS
-            - STR_SHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN
+            - STR_AUTOSHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN_SHELLS
           -
             - STR_SHARD_PISTOL
             - STR_SHARD_FLASK
@@ -3460,13 +3460,13 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets: 
           -
-            - STR_SHOTGUN
-            - STR_SHOTGUN_SHELLS
-            - STR_SHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN
+            - STR_AUTOSHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN_SHELLS
           -
-            - STR_SHOTGUN
-            - STR_SHOTGUN_SHELLS
-            - STR_SHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN
+            - STR_AUTOSHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN_SHELLS
           -
             - STR_LASER_CARBINE
             - STR_DYNAMITE
@@ -3504,13 +3504,13 @@ alienDeployments:
             - STR_REVOLVER_DRUM
             - STR_REVOLVER_DRUM
           -
-            - STR_SHOTGUN
-            - STR_SHOTGUN_SHELLS
-            - STR_SHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN
+            - STR_AUTOSHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN_SHELLS
           -
-            - STR_SHOTGUN
-            - STR_SHOTGUN_SHELLS
-            - STR_SHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN
+            - STR_AUTOSHOTGUN_SHELLS
+            - STR_AUTOSHOTGUN_SHELLS
           -
             - STR_SHARD_CANNON
             - STR_SHARD_FLASK

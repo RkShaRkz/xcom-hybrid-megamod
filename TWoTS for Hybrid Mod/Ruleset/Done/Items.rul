@@ -2443,7 +2443,7 @@ items:
      - STR_AK
     listOrder: 1815
     recover: true
-  - type: STR_SHOTGUN
+  - type: STR_AUTOSHOTGUN
     categories: [STR_SURFACE_WEAPONS]
     landOnly: true	
     size: 0.1
@@ -2456,10 +2456,12 @@ items:
     fireSound: 92
     accuracySnap: 80
     accuracyAimed: 100
+    accuracyAuto: 50
     tuSnap: 45
     tuAimed: 65
+    tuAuto: 90
     compatibleAmmo:
-      - STR_SHOTGUN_SHELLS
+      - STR_AUTOSHOTGUN_SHELLS
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -2468,11 +2470,13 @@ items:
     maxRange: 15
     aimRange: 10
     snapRange: 5
+    autoRange: 8
+    autoShots: 5
     requiresBuy:
-     - STR_SHOTGUN
+     - STR_AUTOSHOTGUN
     listOrder: 1816
     recover: true
-  - type: STR_SHOTGUN_SHELLS
+  - type: STR_AUTOSHOTGUN_SHELLS
     categories: [STR_SURFACE_WEAPONS]
     landOnly: true	
     size: 0.2
@@ -2496,7 +2500,7 @@ items:
     invHeight: 1
     armor: 70
     requiresBuy:
-     - STR_SHOTGUN
+     - STR_AUTOSHOTGUN
     listOrder: 1817
     recover: true
   - type: STR_LMG
