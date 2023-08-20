@@ -1,0 +1,168 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_GUILD_OUTPOST: TransGolbal Outpost
+      STR_LOC_GUILD_OUTPOST_TEMPERATE: TransGolbal Outpost
+      STR_MARKER_GUILD_OUTPOST: TransGolbal Outpost
+      STR_ALERT_GUILD_OUTPOST: TransGolbal Outpost
+      STR_LOC_GUILD_OUTPOST_TEMPERATE_BRIEFING: "The TransGolbal is expanding of their operation by building an outpost here. Some Goverment faction has out a reward to get rid of them. The Merc Guild has recommened the mission to us because we are able to do the job, plus we get a share of the reward money once we complete it."
+      STR_MISSION_GUILD_OUTPOST: "TransGolbal Outpost"
+      STR_MISSION_GUILD_OUTPOST_UFOPEDIA: "The TransGolbal is expanding of their operation by building an outpost here. Some Goverment faction has out a reward to get rid of them. The Merc Guild has recommened the mission to us because we are able to do the job, plus we get a share of the reward money once we complete it."
+alienDeployments:
+  - type: STR_LOC_GUILD_OUTPOST_TEMPERATE
+    alert: STR_ALERT_GUILD_OUTPOST
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      		
+    alertDescription: STR_LOC_GUILD_OUTPOST_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 6
+      music: GMTACDRY  
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_GUILD_OUTPOST   
+      desc: STR_LOC_GUILD_OUTPOST_TEMPERATE_BRIEFING
+    markerName: STR_MARKER_GUILD_OUTPOST
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    script: COMMS_TOWER_LANDING
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_GUILD_OUTPOST
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_PASSENGERS: 33	  
+          STR_TRANS_STELLAR: 34
+          STR_GUILD: 33	  
+    waves:
+      - ufo: STR_LOC_GUILD_OUTPOST_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:	  
+  - type: COMMS_TOWER_LANDING
+    commands:
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: [1,1,5]
+      executions: 1  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [1,1,5]
+        terrain: OUTPOSTTOWERFACTION
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	  
+missionScripts:
+  - type: guildOutpost
+    firstMonth: 2  
+    missionWeights:
+      0:
+        STR_LOC_GUILD_OUTPOST: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

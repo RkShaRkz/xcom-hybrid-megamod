@@ -1,0 +1,234 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DOWNTOWN_ATTACK: "Alien City Assault"
+      STR_ALERT_DOWNTOWN_ATTACK: "Alien City Assault"
+      STR_DOWNTOWN_ATTACK_DESCRIPTION: "The Merc Guild got the scoop that the Aliens are attacking a city. You must send a unit to repel the attack. As usual, our news crew is covering this scoop. Keep them safe and you will be rewarded."
+      STR_DOWNTOWN_ATTACK_BRIEFING: "The Merc Guild got the scoop that the Aliens are attacking a city. You must send a unit to repel the attack. As usual, our news crew is covering this scoop. Keep them safe and you will be rewarded."
+alienDeployments:
+  - type: STR_DOWNTOWN_ATTACK  
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_DOWNTOWN_ATTACK
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DOWNTOWN_ATTACK_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+      showTarget: false
+    markerName: STR_DOWNTOWN_ATTACK
+    duration: [100, 200]
+    despawnPenalty: 2000
+    enviroEffects: STR_LANDARMOURTOLAND
+    civilians: 18
+    script: DOWNTOWNATTACK
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+    width: 60
+    length: 60
+    height: 16
+mapScripts:		
+  - type: DOWNTOWNATTACK
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1	
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		  
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+      terrain: URBAN		
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+      terrain: URBAN	
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+      terrain: URBAN		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN
+    - type: fillArea
+      terrain: URBAN		
+alienMissions:
+  - type: STR_DOWNTOWN_ATTACK
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+        STR_FLOATER: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P21
+        timer: 8000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P21
+        timer: 9600
+      - ufo: STR_CRUISER
+        count: 1
+        trajectory: P21
+        timer: 9000
+        objective: true  
+missionScripts:
+  - type: alienDowntownAttack
+    firstMonth: 3
+    executionOdds: 10
+    missionWeights:
+      0:
+        STR_DOWNTOWN_ATTACK: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

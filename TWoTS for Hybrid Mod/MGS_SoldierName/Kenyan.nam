@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - MGS Abasi
+  - MGS Adin
+  - MGS Akili
+  - MGS Amali
+  - MGS Amaziah
+  - MGS Ashura
+  - MGS Chege
+  - MGS Chilemba
+  - MGS Chitundu
+  - MGS Chiumbo
+  - MGS Darweshi
+  - MGS Etana
+  - MGS Fadhili
+  - MGS Feruzi
+  - MGS Gachora
+  - MGS Gacoki
+  - MGS Gakere
+  - MGS Gakuru
+  - MGS Gatete
+  - MGS Gathee
+  - MGS Gathii
+  - MGS Gatimu
+  - MGS Gethii
+  - MGS Gichinga
+  - MGS Gicicio
+  - MGS Gikuyu
+  - MGS Githinji
+  - MGS Githogori
+  - MGS Gitonga
+  - MGS Haji
+  - MGS Hala
+  - MGS Hamisi
+  - MGS Hiuhu
+  - MGS Ikinya
+  - MGS Iregi
+  - MGS Irungu
+  - MGS Ita
+  - MGS Itimu
+  - MGS Jaramogi
+  - MGS Jalil
+  - MGS Jimiyu
+  - MGS Jomo
+  - MGS Jamil
+  - MGS Juahar
+  - MGS Jimiyu
+  - MGS Jina
+  - MGS Jirani
+  - MGS Jomo
+  - MGS Kafil
+  - MGS Kagai
+  - MGS Kagunda
+  - MGS Kahiga
+  - MGS Kairu
+  - MGS Kamau
+  - MGS Kamili
+  - MGS Kanja
+  - MGS Kanoro
+  - MGS Karani
+  - MGS Karega
+  - MGS Kariuki
+  - MGS Kereenyaga
+  - MGS Kiambiroiro
+  - MGS Kianjahe
+  - MGS Kiano
+  - MGS Kianyandaarwa
+  - MGS Kiara
+  - MGS Kifimbo
+  - MGS Kihara
+  - MGS Kihiga
+  - MGS Kimathi
+  - MGS Kimotho
+  - MGS Kinoro
+  - MGS Kinyua
+  - MGS Kioi
+  - MGS Kirimi
+  - MGS Kirinyaga
+  - MGS Kithingi
+  - MGS Kiwonto
+  - MGS Koigi
+  - MGS Kuguru
+  - MGS Kwasi
+  - MGS Lipapwiche
+  - MGS Lisimba
+  - MGS Lusala
+  - MGS Macaria
+  - MGS Maina
+  - MGS Maitho
+  - MGS Makalani
+  - MGS Makori
+  - MGS Mathaathi
+  - MGS Matu
+  - MGS Matunde
+  - MGS Maundu
+  - MGS Mbogo
+  - MGS Mbui
+  - MGS Miano
+  - MGS Migwi
+  - MGS Mokabi
+  - MGS Morani
+  - MGS Mosi
+  - MGS Muenda
+  - MGS Muga
+  - MGS Mugendi
+  - MGS Mugi
+  - MGS Mugo
+  - MGS Muiru
+  - MGS Muiruri
+  - MGS Mukanda
+  - MGS Mukiri
+  - MGS Mukuru
+  - MGS Munene
+  - MGS Munoru
+  - MGS Muraguri
+  - MGS Murathi
+  - MGS Muraya
+  - MGS Muriithi
+  - MGS Murimi
+  - MGS Muriu
+  - MGS Muriuki
+  - MGS Muroki
+  - MGS Muruthi
+  - MGS Mutahi
+  - MGS Mutegi
+  - MGS Mutemi
+  - MGS Muthee
+  - MGS Muthemba
+  - MGS Muthengi
+  - MGS Mutheru
+  - MGS Muthomi
+  - MGS Muthuri
+  - MGS Mutira
+  - MGS Mutiri
+  - MGS Mutitu
+  - MGS Mutonyi
+  - MGS Mutua
+  - MGS Muturi
+  - MGS Muugi
+  - MGS Mwaka
+  - MGS Mwangi
+  - MGS Mwara
+  - MGS Mwarania
+  - MGS Mwaria
+  - MGS Mwenda
+  - MGS Nangila
+  - MGS Nangwaya
+  - MGS Ndegwa
+  - MGS Ndemi
+  - MGS Nderu
+  - MGS Ndwiga
+  - MGS Ngare
+  - MGS Ngigi
+  - MGS Ngumo
+  - MGS Njama
+  - MGS Njanu
+  - MGS Njata
+  - MGS Njau
+  - MGS Njiraini
+  - MGS Njiru
+  - MGS Njogu
+  - MGS Njora
+  - MGS Njowga
+  - MGS Njururi
+  - MGS Nyachae
+  - MGS Nyaga
+  - MGS Nyamu
+  - MGS Nyatui
+  - MGS Nyoike
+  - MGS Obama
+  - MGS Obuya
+  - MGS Ochieng
+  - MGS Odikinyi
+  - MGS Odinga
+  - MGS Odonga
+  - MGS Odour
+  - MGS Ohon
+  - MGS Ojwang
+  - MGS Okello
+  - MGS Okeyo
+  - MGS Okoth
+  - MGS Oluoch
+  - MGS Omariba
+  - MGS Omondi
+  - MGS Omwancha
+  - MGS Ongweng
+  - MGS Onindo
+  - MGS Onkwani
+  - MGS Onyango
+  - MGS Opiyo
+  - MGS Osogo
+  - MGS Othiambo
+  - MGS Otenio
+  - MGS Owino
+  - MGS Owiti
+  - MGS Owuor
+  - MGS Pili
+  - MGS Radhi
+  - MGS Riitho
+  - MGS Ruguru
+  - MGS Ruhiu
+  - MGS Runo
+  - MGS Sabra
+  - MGS Safi
+  - MGS Shamim
+  - MGS Shani
+  - MGS Simba
+  - MGS Sokoro
+  - MGS Thabiti
+  - MGS Tumaini
+  - MGS Tuwile
+  - MGS Wachiru
+  - MGS Waga
+  - MGS Waithaka
+  - MGS Waitimu
+  - MGS Waiyaki
+  - MGS Wamai
+  - MGS Wambua
+  - MGS Wamugunda
+  - MGS Wamukota
+  - MGS Wamwara
+  - MGS Wangombe
+  - MGS Wangondu
+  - MGS Wanjala
+  - MGS Wanjohi
+  - MGS Wanyanga
+  - MGS Waruhiu
+  - MGS Warui
+  - MGS Waweru
+  - MGS Wekesa
+femaleFirst:
+  - MGS Aaliyah
+  - MGS Adhra
+  - MGS Adila
+  - MGS Adimu
+  - MGS Adin
+  - MGS Adla
+  - MGS Afaafa
+  - MGS Afifa
+  - MGS Afifah
+  - MGS Afiya
+  - MGS Afrika
+  - MGS Afya
+  - MGS Ahadi
+  - MGS Aida
+  - MGS Ainra
+  - MGS Ajia
+  - MGS Akello
+  - MGS Akila
+  - MGS Akilah
+  - MGS Akili
+  - MGS Aliya
+  - MGS Almasi
+  - MGS Aluna
+  - MGS Amali
+  - MGS Amana
+  - MGS Amaziah
+  - MGS Amina
+  - MGS Aminah
+  - MGS Aminali
+  - MGS Aminifu
+  - MGS Amira
+  - MGS Amne
+  - MGS Angavu
+  - MGS Anisun
+  - MGS Arafa
+  - MGS Arifa
+  - MGS Arusi
+  - MGS Asali
+  - MGS Asatira
+  - MGS Asha
+  - MGS Ashura
+  - MGS Asilia
+  - MGS Asiya
+  - MGS Asma
+  - MGS Asmahani
+  - MGS Asumini
+  - MGS Asya
+  - MGS Awena
+  - MGS Aza
+  - MGS Aziza
+  - MGS Badriya
+  - MGS Bahati
+  - MGS Bahiya
+  - MGS Barke
+  - MGS Basha
+  - MGS Bashaam
+  - MGS Bashira
+  - MGS Basma
+  - MGS Basmah
+  - MGS Batuuli
+  - MGS Baya
+  - MGS Bayyina
+  - MGS Bebi
+  - MGS Bia
+  - MGS Bimbaya
+  - MGS Bimdogo
+  - MGS Bimkubwa
+  - MGS Bimnono
+  - MGS Bishara
+  - MGS Bitisururu
+  - MGS Bititi
+  - MGS Biubwa
+  - MGS Buqisi
+  - MGS Busara
+  - MGS Bushira
+  - MGS Chaniya
+  - MGS Chausiku
+  - MGS Chiku
+  - MGS Chuki
+  - MGS Dabiku
+  - MGS Dafina
+  - MGS Dalila
+  - MGS Dalili
+  - MGS Damisi
+  - MGS Dhakiya
+  - MGS Dhambizao
+  - MGS Dhuriya
+  - MGS Dodo
+  - MGS Ducha
+  - MGS Duni
+  - MGS Durah
+  - MGS Durra
+  - MGS Eidi
+  - MGS Eshe
+  - MGS Etana
+  - MGS Fadhila
+  - MGS Fadhili
+  - MGS Fadiya
+  - MGS Fadari
+  - MGS Fahima
+  - MGS Fahimah
+  - MGS Faida
+  - MGS Faika
+  - MGS Faiza
+  - MGS Faizah
+  - MGS Fanaka
+  - MGS Fanikia
+  - MGS Faraja
+  - MGS Farashuu
+  - MGS Farida
+  - MGS Farisi
+  - MGS Fasaha
+  - MGS Fathiya
+  - MGS Fatima
+  - MGS Fatuma
+  - MGS Fauziya
+  - MGS Feruzi
+  - MGS Fila
+  - MGS Firdawsi
+  - MGS Firyali
+  - MGS Fujo
+  - MGS Furaha
+  - MGS Gasira
+  - MGS Ghalyela
+  - MGS Ghanima
+  - MGS Gharibuu
+  - MGS Gheche
+  - MGS Ghinjo
+  - MGS Ghipe
+  - MGS Habeebah
+  - MGS Habiba
+  - MGS Habibah
+  - MGS Hadhi
+  - MGS Hadiya
+  - MGS Hafidha
+  - MGS Hafsa
+  - MGS Hafsah
+  - MGS Haiba
+  - MGS Haifa
+  - MGS Hakika
+  - MGS Hakima
+  - MGS Hala
+  - MGS Halili
+  - MGS Halima
+  - MGS Halisi
+  - MGS Hamida
+  - MGS Hanaa
+  - MGS Hanifa
+  - MGS Hanuni
+  - MGS Haoniyao
+  - MGS Harbuu
+  - MGS Hartha
+  - MGS Hasanati
+  - MGS Hashiki
+  - MGS Hasijna
+  - MGS Hasina
+  - MGS Hasnaa
+  - MGS Hawa
+  - MGS Hawla
+  - MGS Hazina
+  - MGS Hediye
+  - MGS Hiari
+  - MGS Hiba
+  - MGS Hidaya
+  - MGS Himidi
+  - MGS Hisani
+  - MGS Huruma
+  - MGS Ibtisam
+  - MGS Ikinya
+  - MGS Ilham
+  - MGS Inaya
+  - MGS Intisar
+  - MGS Ita
+  - MGS Itidal
+  - MGS Jaha
+  - MGS Jahi
+  - MGS Jamila
+  - MGS Jana
+  - MGS Jauhar
+  - MGS Jina
+  - MGS Jirani
+  - MGS Johanna
+  - MGS Johari
+  - MGS Jokha
+  - MGS Jumapili
+  - MGS Juwayria
+  - MGS Kabisa
+  - MGS Kadija
+  - MGS Kainda
+  - MGS Kamaria
+  - MGS Kamili
+  - MGS Kanai
+  - MGS Kanika
+  - MGS Karama
+  - MGS Karima
+  - MGS Karimu
+  - MGS Kaweria
+  - MGS Kesi
+  - MGS Khadija
+  - MGS Kibibi
+  - MGS Kifimbo
+  - MGS Kijakazi
+  - MGS Kinaya
+  - MGS Kioni
+  - MGS Kipenzi
+  - MGS Kisima
+  - MGS Kito
+  - MGS Lamia
+  - MGS Latifa
+  - MGS Latifah
+  - MGS Latifu
+  - MGS Layla
+  - MGS Lela
+  - MGS Lila
+  - MGS Madaha
+  - MGS Madiha
+  - MGS Maisha
+  - MGS Makena
+  - MGS Makini
+  - MGS Malaika
+  - MGS Malia
+  - MGS Malika
+  - MGS Malkia
+  - MGS Mariamu
+  - MGS Marini
+  - MGS Marjani
+  - MGS Mashavu
+  - MGS Masika
+  - MGS Maskini
+  - MGS Maulidi
+  - MGS Merah
+  - MGS Mila
+  - MGS Mosi
+  - MGS Muna
+  - MGS Munira
+  - MGS Murua
+  - MGS Mwajuma
+  - MGS Mwamini
+  - MGS Mwasaa
+  - MGS Nabila
+  - MGS Nadra
+  - MGS Nafula
+  - MGS Naima
+  - MGS Najia
+  - MGS Najma
+  - MGS Nana
+  - MGS Ndege
+  - MGS Neema
+  - MGS Nena
+  - MGS Ngina
+  - MGS Nia
+  - MGS Niara
+  - MGS Njeri
+  - MGS Nuha
+  - MGS Nura
+  - MGS Nuru
+  - MGS Paka
+  - MGS Panya
+  - MGS Pasua
+  - MGS Pili
+  - MGS Rabia
+  - MGS Radhi
+  - MGS Rahma
+  - MGS Ramla
+  - MGS Raziya
+  - MGS Reem
+  - MGS Rehema
+  - MGS Rim
+  - MGS Rukiya
+  - MGS Ruqayah
+  - MGS Saada
+  - MGS Sabiha
+  - MGS Sabra
+  - MGS Sadaka
+  - MGS Sadiki
+  - MGS Saida
+  - MGS Sakina
+  - MGS Sala
+  - MGS Salama
+  - MGS Salima
+  - MGS Samiha
+  - MGS Samira
+  - MGS Sanaa
+  - MGS Sanura
+  - MGS Sauda
+  - MGS Shahida
+  - MGS Shamim
+  - MGS Shani
+  - MGS Sharifa
+  - MGS Shawana
+  - MGS Shukura
+  - MGS Siham
+  - MGS Sikudhani
+  - MGS Siri
+  - MGS Sisya
+  - MGS Siti
+  - MGS Subira
+  - MGS Suhaila
+  - MGS Tabia
+  - MGS Tamasha
+  - MGS Tatu
+  - MGS Tawa
+  - MGS Tuhfa
+  - MGS Tumaini
+  - MGS Wambui
+  - MGS Waseme
+  - MGS Yumna
+  - MGS Pusra
+  - MGS Zahra
+  - MGS Zaida
+  - MGS Zaina
+  - MGS Zainabu
+  - MGS Zakiya
+  - MGS Zalika
+  - MGS Zarifa
+  - MGS Zarina
+  - MGS Zawadi
+  - MGS Zera
+  - MGS Zulaykha
+  - MGS Zulekha
+  - MGS Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

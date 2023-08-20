@@ -1,0 +1,1241 @@
+﻿armors:
+  - type: STR_SLAVE_ARMOR_PIRATE_UC
+    spriteSheet: PIR_518.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    customArmorPreviewIndex: 109
+    corpseBattle:
+      - STR_CORPSE_SLAVE_PIRATE
+    visibilityAtDark: 10
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    stats:
+       bravery: 10
+       psiStrength: 2
+       melee: 10
+       stamina: 5
+       tu: 5
+       firing: 5
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.15
+      bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.1
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_SLAVE_ARMOR_TAC_VEST_UC
+    spriteSheet: PIR_511.PCK
+    customArmorPreviewIndex: 159
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    corpseBattle:
+      - STR_CORPSE_SLAVE_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 10
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        #ManaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_PEASANT_ARMOR_JUMPSUIT_UC
+    spriteSheet: PIR_555.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 130
+    corpseBattle:
+      - STR_CORPSE_PEASANT_JUMPSUIT
+    weight: -4
+    visibilityAtDark: 9
+    camouflageAtDay: -6
+    camouflageAtDark: -2
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    stats:
+       reactions: 10
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        flatOne: 2.0
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 1.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_TAC_VEST_PEASANT_UC
+    spriteSheet: PIR_561.PCK
+    customArmorPreviewIndex: 136
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    corpseBattle:
+      - STR_CORPSE_PEASANT_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_PEASANT_ARMOR_MILITIA_UC
+    spriteSheet: PIR_562.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 141
+    corpseBattle:
+      - STR_CORPSE_PEASANT_MILITIA
+    weight: 5
+    visibilityAtDark: 9
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 12
+    underArmor: 6
+    stats:
+       tu: 5
+       reactions: 5
+       health: 5
+       melee: 10
+       throwing: 5
+       bravery: 10
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.25
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+      flatHundred: 0.05
+    damageModifier:
+      - 0.35
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.9
+      - 3.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_PEASANT_ARMOR_LEGION_UC
+    spriteSheet: PIR_524.PCK
+    customArmorPreviewIndex: 135
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    corpseBattle:
+      - STR_CORPSE_PEASANT_LEGION
+    forcedTorso: 2
+    weight: 10
+    visibilityAtDark: 16
+    personalLight: 5
+    heatVision: 30
+    overKill: 0.75
+    stats:
+       tu: -5
+       stamina: -10
+       firing: 10
+       health: 5
+       bravery: 10
+       melee: 5
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 15
+    meleeDodge:
+      melee: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.0
+      - 0.9
+      - 0.75
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_SLAVE_ARMOR_GI_UC
+    spriteSheet: PIR_522.PCK
+    customArmorPreviewIndex: 101
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    corpseBattle:
+      - STR_CORPSE_SLAVE_GI
+    weight: 2
+    visibilityAtDark: 10
+    camouflageAtDay: -12
+    camouflageAtDark: -3
+    personalLight: 5
+    overKill: 0.75
+    stats:
+       reactions: 25
+       firing: 5
+       health: 5
+       bravery: 10
+    frontArmor: 16
+    sideArmor: 9
+    rearArmor: 12
+    underArmor: 9
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+      energy:
+        #ManaNormalized: 24.0
+        healthCurrent: 0.3
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        #ManaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 0.85
+      - 0.75
+      - 1.1
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_SLAVE_ARMOR_LEGION_UC
+    spriteSheet: PIR_524.PCK
+    customArmorPreviewIndex: 134
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    corpseBattle:
+      - STR_CORPSE_SLAVE_LEGION
+    forcedTorso: 1
+    weight: 10
+    visibilityAtDark: 16
+    heatVision: 30
+    personalLight: 5
+    overKill: 0.75
+    stats:
+       tu: -5
+       stamina: -10
+       firing: 10
+       health: 5
+       bravery: 10
+       melee: 5
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 15
+    meleeDodge:
+      melee: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        #ManaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.9
+      - 0.75
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_PEASANT_ARMOR_MILITIAM
+    spriteSheet: PIR_562.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 141
+    forcedTorso: 1
+    corpseBattle:
+      - STR_CORPSE_PEASANT_MILITIA
+    weight: 5
+    visibilityAtDark: 9
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 12
+    underArmor: 6
+    stats:
+       tu: 5
+       reactions: 5
+       health: 5
+       melee: 10
+       throwing: 5
+       bravery: 10
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.25
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+      flatHundred: 0.05
+    damageModifier:
+      - 0.35
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.9
+      - 3.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_PEASANT_ARMOR_MILITIAF
+    spriteSheet: PIR_562.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 141
+    forcedTorso: 2
+    corpseBattle:
+      - STR_CORPSE_PEASANT_MILITIA
+    weight: 5
+    visibilityAtDark: 9
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 12
+    underArmor: 6
+    stats:
+       tu: 5
+       reactions: 5
+       health: 5
+       melee: 10
+       throwing: 5
+       bravery: 10
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.25
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+      flatHundred: 0.05
+    damageModifier:
+      - 0.35
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.9
+      - 3.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_TAC_VEST_PEASANTM
+    spriteSheet: PIR_561.PCK
+    customArmorPreviewIndex: 136
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    forcedTorso: 1
+    corpseBattle:
+      - STR_CORPSE_PEASANT_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_TAC_VEST_PEASANTF
+    spriteSheet: PIR_561.PCK
+    customArmorPreviewIndex: 136
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    forcedTorso: 2
+    corpseBattle:
+      - STR_CORPSE_PEASANT_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]		
+  - type: STR_PEASANT_ARMOR_JUMPSUITM
+    spriteSheet: PIR_555.PCK
+    forcedTorso: 1	
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 130
+    corpseBattle:
+      - STR_CORPSE_PEASANT_JUMPSUIT
+    weight: -4
+    visibilityAtDark: 9
+    camouflageAtDay: -6
+    camouflageAtDark: -2
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    stats:
+       reactions: 10
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        flatOne: 2.0
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 1.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_PEASANT_ARMOR_JUMPSUITF
+    spriteSheet: PIR_555.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 130
+    corpseBattle:
+      - STR_CORPSE_PEASANT_JUMPSUIT
+    forcedTorso: 2	
+    weight: -4
+    visibilityAtDark: 9
+    camouflageAtDay: -6
+    camouflageAtDark: -2
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    stats:
+       reactions: 10
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        flatOne: 2.0
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 1.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]		
+  - type: STR_PEASANT_ARMOR_LEGIONM
+    spriteSheet: PIR_524.PCK
+    customArmorPreviewIndex: 135
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    #storeItem: STR_LEGION_ARMOR
+    corpseBattle:
+      - STR_CORPSE_PEASANT_LEGION
+    forcedTorso: 1
+    weight: 10
+    visibilityAtDark: 16
+    personalLight: 5
+    heatVision: 30
+    overKill: 0.75
+    stats:
+       tu: -5
+       stamina: -10
+       firing: 10
+       health: 5
+       bravery: 10
+       melee: 5
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 15
+    meleeDodge:
+      melee: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.0
+      - 0.9
+      - 0.75
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_PEASANT_ARMOR_LEGIONF
+    spriteSheet: PIR_524.PCK
+    customArmorPreviewIndex: 135
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    #storeItem: STR_LEGION_ARMOR
+    corpseBattle:
+      - STR_CORPSE_PEASANT_LEGION
+    forcedTorso: 2
+    weight: 10
+    visibilityAtDark: 16
+    personalLight: 5
+    heatVision: 30
+    overKill: 0.75
+    stats:
+       tu: -5
+       stamina: -10
+       firing: 10
+       health: 5
+       bravery: 10
+       melee: 5
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 15
+    meleeDodge:
+      melee: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.0
+      - 0.9
+      - 0.75
+      - 1.0
+      - 0.8
+      - 0.75
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+items:	
+  - type: STR_CORPSE_SLAVE_PIRATE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3518
+    floorSprite: 3518
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true
+  - type: STR_CORPSE_SLAVE_TAC_VEST
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3511
+    floorSprite: 3511
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true	
+  - type: STR_CORPSE_PEASANT_JUMPSUIT
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3504
+    floorSprite: 3504
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recoveryPoints: 5
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11	
+    recover: true
+    recoverCorpse: true	
+  - type: STR_CORPSE_PEASANT_TAC_VEST
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3561
+    floorSprite: 3561
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 5	
+    recover: true
+    recoverCorpse: true		
+  - type: STR_CORPSE_PEASANT_MILITIA
+    #supportedInventorySections: *InventorySectionsStandard
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 3562
+    floorSprite: 3562
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 40
+    recoveryPoints: 5
+    battleType: 11
+    recover: true
+    recoverCorpse: true		
+  - type: STR_CORPSE_PEASANT_LEGION
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 50
+    bigSprite: 3574
+    floorSprite: 3574
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 55
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true		
+  - type: STR_CORPSE_SLAVE_GI
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3522
+    floorSprite: 3522
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true
+  - type: STR_CORPSE_SLAVE_LEGION
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 50
+    bigSprite: 3524
+    floorSprite: 3524
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 55
+    battleType: 11
+    recoveryPoints: 5	
+    recover: true
+    recoverCorpse: true	

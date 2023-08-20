@@ -1,0 +1,833 @@
+extraSprites:
+  - type: Projectiles
+    width: 105
+    height: 66
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/More Bullets/Reavers_Bullets_faithful.png
+  - type: DETBORD2.PCK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversEquipment/MotionScannerParallels.gif
+  - type: Avalanche
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Avalanche_UFOpedia.gif
+  - type: Tornado_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Tornado_UFOpedia.gif
+  - type: Stingray
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Stingray_UFOpedia.gif
+  - type: Barracuda_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Barracuda_UFOpedia.gif
+  - type: Cannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Cannon_UFOpedia.gif
+  - type: ALLOY_CANNON_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/AlloyCannon_UFOpedia.gif
+  # Laser image for UFOpedia
+  - type: LaserCannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/LaserCannon_UFOpedia.gif
+  # Plasma image for UFOpedia
+  - type: PlasmaCannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Plasma_UFOpedia.gif
+  # inticons - weapons
+  - type: INTICON.PCK
+    files:
+      16: Resources/ReaversArmada/Pulse_Cannon_inticon.gif
+      17: Resources/ReaversArmada/Plasma_Autocannon_inticon.gif
+      18: Resources/ReaversArmada/Light_Fusion_Ball_inticon.gif
+      19: Resources/ReaversArmada/Heavy_Fusion_Ball_inticon.gif
+  - type: BASEBITS.PCK
+    files:
+      59: Resources/ReaversArmada/Pulse_Cannon_basebit.gif
+      60: Resources/ReaversArmada/Plasma_Autocannon_basebit.gif
+      61: Resources/ReaversArmada/Light_Fusion_Ball_basebit.gif
+      62: Resources/ReaversArmada/Heavy_Fusion_Ball_basebit.gif
+# LargeFacilities
+  - type: BASEBITS.PCK
+    files:
+      400: Resources/ImprovedLivingQuarters/GS2_1.png
+      401: Resources/ImprovedLivingQuarters/GS2_2.png
+      402: Resources/ImprovedLivingQuarters/GS2_3.png
+      403: Resources/ImprovedLivingQuarters/GS2_4.png
+      404: Resources/ImprovedLivingQuarters/LQ2_b_1.png
+      405: Resources/ImprovedLivingQuarters/LQ2_b_2.png
+      406: Resources/ImprovedLivingQuarters/LQ2_b_3.png
+      407: Resources/ImprovedLivingQuarters/LQ2_b_4.png
+      408: Resources/ImprovedLivingQuarters/LQ2_1.png
+      409: Resources/ImprovedLivingQuarters/LQ2_2.png
+      410: Resources/ImprovedLivingQuarters/LQ2_3.png
+      411: Resources/ImprovedLivingQuarters/LQ2_4.png
+      412: Resources/ImprovedLivingQuarters/LQ2_b_1.png
+      413: Resources/ImprovedLivingQuarters/LQ2_b_2.png
+      414: Resources/ImprovedLivingQuarters/LQ2_b_3.png
+      415: Resources/ImprovedLivingQuarters/LQ2_b_4.png
+      416: Resources/XenoOperations/Basebits/LargeLabP1.gif
+      417: Resources/XenoOperations/Basebits/LargeLabP2.gif
+      418: Resources/XenoOperations/Basebits/LargeLabP3.gif
+      419: Resources/XenoOperations/Basebits/LargeLabP4.gif
+      420: Resources/XenoOperations/Basebits/LargeLabPC1.gif
+      421: Resources/XenoOperations/Basebits/LargeLabPC2.gif
+      422: Resources/XenoOperations/Basebits/LargeLabPC3.gif
+      423: Resources/XenoOperations/Basebits/LargeLabPC4.gif
+      432: Resources/XenoOperations/Basebits/LargeRadarP1.gif
+      433: Resources/XenoOperations/Basebits/LargeRadarP2.gif
+      434: Resources/XenoOperations/Basebits/LargeRadarP3.gif
+      435: Resources/XenoOperations/Basebits/LargeRadarP4.gif
+      436: Resources/XenoOperations/Basebits/LargeRadarPC1.gif
+      437: Resources/XenoOperations/Basebits/LargeRadarPC2.gif
+      438: Resources/XenoOperations/Basebits/LargeRadarPC3.gif
+      439: Resources/XenoOperations/Basebits/LargeRadarPC4.gif
+      440: Resources/XenoOperations/Basebits/LargeHyperP1.gif
+      441: Resources/XenoOperations/Basebits/LargeHyperP2.gif
+      442: Resources/XenoOperations/Basebits/LargeHyperP3.gif
+      443: Resources/XenoOperations/Basebits/LargeHyperP4.gif
+      444: Resources/XenoOperations/Basebits/LargeHyperPC1.gif
+      445: Resources/XenoOperations/Basebits/LargeHyperPC2.gif
+      446: Resources/XenoOperations/Basebits/LargeHyperPC3.gif
+      447: Resources/XenoOperations/Basebits/LargeHyperPC4.gif
+      448: Resources/XenoOperations/Basebits/Corridor.gif
+      524: Resources/LargeFacilities/rbasebits_12.gif
+      525: Resources/LargeFacilities/rbasebits_13.gif
+      526: Resources/LargeFacilities/rbasebits_14.gif
+      527: Resources/LargeFacilities/rbasebits_15.gif
+      528: Resources/ImprovedLivingQuarters/LQ2_b_1.png
+      529: Resources/ImprovedLivingQuarters/LQ2_b_2.png
+      530: Resources/ImprovedLivingQuarters/LQ2_b_3.png
+      531: Resources/ImprovedLivingQuarters/LQ2_b_4.png
+      532: Resources/LargeFacilities/rbasebits_16.gif
+      533: Resources/LargeFacilities/rbasebits_17.gif
+      534: Resources/LargeFacilities/rbasebits_18.gif
+      535: Resources/LargeFacilities/rbasebits_19.gif
+      536: Resources/LargeFacilities/rbasebitsx_16.gif
+      537: Resources/LargeFacilities/rbasebitsx_17.gif
+      538: Resources/LargeFacilities/rbasebitsx_18.gif
+      539: Resources/LargeFacilities/rbasebitsx_19.gif
+      548: Resources/LargeFacilities/rbasebits_24.gif
+# XComFiles Vessels
+  - type: INTICON.PCK
+    files:
+      822: Resources/XComFiles/Vessels/Inticon/AWACS_minimised.png
+      833: Resources/XComFiles/Vessels/Inticon/AWACS_dogfight.png
+      823: Resources/XComFiles/Vessels/Inticon/Darkstar_minimised.png
+      834: Resources/XComFiles/Vessels/Inticon/Darkstar_dogfight.png
+      824: Resources/XComFiles/Vessels/Inticon/Dragonfly_minimised.png
+      835: Resources/XComFiles/Vessels/Inticon/Dragonfly_dogfight.png
+      825: Resources/XComFiles/Vessels/Inticon/Dropship_minimised.png
+      836: Resources/XComFiles/Vessels/Inticon/Dropship_dogfight.png
+      826: Resources/XComFiles/Vessels/Inticon/Hawkeye_minimised.png
+      837: Resources/XComFiles/Vessels/Inticon/Hawkeye_dogfight.png
+      827: Resources/XComFiles/Vessels/Inticon/MiG31_minimised.png
+      838: Resources/XComFiles/Vessels/Inticon/MiG31_dogfight.png
+      828: Resources/XComFiles/Vessels/Inticon/Raven_minimised.png
+      839: Resources/XComFiles/Vessels/Inticon/Raven_dogfight.png
+      829: Resources/XComFiles/Vessels/Inticon/Skyraider_minimised.png
+      840: Resources/XComFiles/Vessels/Inticon/Skyraider_dogfight.png
+      830: Resources/XComFiles/Vessels/Inticon/Thunder_minimised.png
+      841: Resources/XComFiles/Vessels/Inticon/Thunder_dogfight.png
+      831: Resources/XComFiles/Vessels/Inticon/Tormentor_minimised.png
+      842: Resources/XComFiles/Vessels/Inticon/Tormentor_dogfight.png
+      832: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_minimised.png
+      843: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_dogfight.png
+      866: Resources/ReaversArmada/Heracles_minimised.gif
+      867: Resources/ReaversArmada/Stalker_minimised.gif
+#      868: Resources/ReaversArmada/_minimised.gif
+      877: Resources/ReaversArmada/Heracles_dogfight.gif
+      878: Resources/ReaversArmada/Stalker_dogfight.gif
+#      879: Resources/ReaversArmada/_dogfight.gif
+  - type: BASEBITS.PCK
+    files:
+      855: Resources/XComFiles/Vessels/Basebits/AWACS_base.png
+      856: Resources/XComFiles/Vessels/Basebits/Darkstar_base.png
+      857: Resources/XComFiles/Vessels/Basebits/Dragonfly_base.png
+      858: Resources/XComFiles/Vessels/Basebits/Dropship_base.png
+      859: Resources/XComFiles/Vessels/Basebits/Hawkeye_base.png
+      860: Resources/XComFiles/Vessels/Basebits/MiG31_base.png
+      861: Resources/XComFiles/Vessels/Basebits/Raven_base.png
+      862: Resources/XComFiles/Vessels/Basebits/Skyraider_base.png
+      863: Resources/XComFiles/Vessels/Basebits/Thunder_base.png
+      864: Resources/XComFiles/Vessels/Basebits/Tormentor_base.png
+      865: Resources/XComFiles/Vessels/Basebits/Dragonfly_Dark_base.png
+      899: Resources/ReaversArmada/Heracles_base.gif
+      900: Resources/ReaversArmada/Stalker_base.gif
+#      901: Resources/ReaversArmada/_base.gif
+  - type: AWACS_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/AWACS_ufopedia.png
+  - type: DARKSTAR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/DARKSTAR_ufopedia.png
+  - type: DRAGONFLY_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Dragonfly_ufopedia.gif
+  - type: DROPSHIP_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Dropship.png
+  - type: HAWKEYE_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/HAWKEYE_ufopedia.png
+  - type: MIG31_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/MiG31_ufopedia.gif
+  - type: RAVEN_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Raven_ufopedia.gif
+  - type: SKYRAIDER_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Skyraider_ufopedia.png
+  - type: THUNDER_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Thunder_ufopedia.gif
+  - type: TORMENTOR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Tormentor_ufopedia.gif
+# armored_vest
+  - type: XCOM_4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/armored_vest/XCOM_4_2.png
+  - type: MAN_4F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f0.png
+  - type: MAN_4F1.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f1.png
+  - type: MAN_4F2.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f2.png
+  - type: MAN_4F3.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f3.png
+  - type: MAN_4M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m0.png
+  - type: MAN_4M1.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m1.png
+  - type: MAN_4M2.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m2.png
+  - type: MAN_4M3.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m3.png
+  - type: BIGOBS.PCK
+    files:
+      299: Resources/armored_vest/bigobs_XCOM4_CORPSE.png
+  - type: FLOOROB.PCK
+    files:
+      299: Resources/armored_vest/floorob_XCOM4_CORPSE.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      332: Resources/RedBlueLasers/RedBlueLaser2_handob.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      340: Resources/RedBlueLasers/RedBlueLaser3_handob.png
+# alienterranplasma
+  - type: BIGOBS.PCK
+    width: 384
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      1022: Resources/AlienAlloyammo/bigob_AAheavy.png
+      1023: Resources/AlienAlloyammo/bigob_AArifle.png
+      1024: Resources/AlienAlloyammo/bigob_AApistol.png
+      300: Resources/TerranPlasmaWeapons/alienterranplasma.gif
+  - type: FLOOROB.PCK
+    files:
+      1774: Resources/AlienAlloyammo/floorob_AAheavy.png
+      1775: Resources/AlienAlloyammo/floorob_AApistolClip.png
+      1776: Resources/AlienAlloyammo/floorob_AArifle.png
+  - type: HANDOB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 160
+    files:
+      1395: Resources/AlienAlloyammo/handob_AAheavyclip.png  
+      1405: Resources/AlienAlloyammo/handob_AApistolclip.png  
+      1415: Resources/AlienAlloyammo/handob_AArifleclip.png
+# AwesomeGuns.Laser
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      312: Resources/AwesomeGuns.Laser/bigob1.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      313: Resources/AwesomeGuns.Laser/bigob2alt.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      314: Resources/AwesomeGuns.Laser/bigob3.gif
+# RedBlueLasers
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      315: Resources/RedBlueLasers/RedBlueLasers_bigobs.gif
+#  - type: BIGOBS.PCK
+#      318:
+#      319:
+# ConventionalStun/Blaster
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      320: Resources/ConventionalStun/ConventionalStun_bigobs.gif
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      323: Resources/ConventionalBlaster/ConventionalBlaster_bigobs.gif
+# AwesomeGuns
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      326: Resources/AwesomeGuns/Bigob1.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      327: Resources/AwesomeGuns/Bigob_CLIP1.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      328: Resources/AwesomeGuns/Bigob2.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      329: Resources/AwesomeGuns/Bigob_CLIP2.gif
+# BluePlasmas
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      330: Resources/BluePlasmas/BluePlasmas_bigobs.gif
+  - type: BIGOBS.PCK
+    width: 96
+    height: 16
+    subX: 32
+    subY: 16
+    files:
+      333: Resources/BluePlasmas/BluePlasmaClips_bigobs.gif
+# AlienFusionRockets
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      336: Resources/AlienFusionRockets/AlienFusionRockets_bigobs.gif
+# AlienExplosiveCannon
+  - type: BIGOBS.PCK
+    width: 64
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      339: Resources/AlienFusionRockets/AlienExplosiveCannon_bigobs.gif
+# Pistol Swap
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      341: Resources/AwesomeGuns/Pistol_Swap.gif
+# Grenades
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      342: Resources/ReaversEquipment/AE_charge_bigob.gif
+      343: Resources/ReaversEquipment/AE_prox_bigob.gif
+      344: Resources/ReaversEquipment/Fusion_demo_bigob.gif
+      345: Resources/ReaversEquipment/Stun_grenade_bigob.gif
+      346: Resources/ReaversEquipment/Stun_prox_bigob.gif
+# Psi Amp
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      347: Resources/ReaversEquipment/PsiAmp.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      302: Resources/TerranPlasmaWeapons/heavyplasma_floorob.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      303: Resources/AwesomeGuns.Laser/floorob1.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      304: Resources/AwesomeGuns.Laser/floorob2.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      305: Resources/AwesomeGuns.Laser/floorob3.gif
+  - type: FLOOROB.PCK
+    width: 64
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      306: Resources/AlienFusionRockets/AlienFusionRockets_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 96
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      308: Resources/ConventionalStun/ConventionalStun_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 96
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      311: Resources/ConventionalBlaster/ConventionalBlaster_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 96
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      314: Resources/RedBlueLasers/RedBlueLasers_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      317: Resources/AwesomeGuns/Floorob1.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      318: Resources/AwesomeGuns/Floorob_CLIP1.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      319: Resources/AwesomeGuns/Floorob2.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      320: Resources/AwesomeGuns/Floorob_CLIP2.gif
+  - type: FLOOROB.PCK
+    width: 96
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      321: Resources/BluePlasmas/BluePlasmas_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 64
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      324: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 96
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      326: Resources/BluePlasmas/BluePlasmaClips_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 64
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      329: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaPistol_floorobs.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      331: Resources/ReaversEquipment/AE_charge_floorob.gif
+      332: Resources/ReaversEquipment/AE_prox_floorob.gif
+      333: Resources/ReaversEquipment/Fusion_demo_floorob.gif
+      334: Resources/ReaversEquipment/Stun_grenade_floorob.gif
+      335: Resources/ReaversEquipment/Stun_prox_floorob.gif
+# TerranPlasmaWeapons/heavyplasma
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      316: Resources/TerranPlasmaWeapons/heavyplasma2_handob.gif
+# RedBlueLasers
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      324: Resources/RedBlueLasers/RedBlueLaser1_handob.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      332: Resources/RedBlueLasers/RedBlueLaser2_handob.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      340: Resources/RedBlueLasers/RedBlueLaser3_handob.png
+# AwesomeGuns.Laser
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      348: Resources/AwesomeGuns.Laser/handobs1.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      356: Resources/AwesomeGuns.Laser/handobs2.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      364: Resources/AwesomeGuns.Laser/handobs3.gif
+# AwesomeGuns
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      428: Resources/AwesomeGuns/Handobs1.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      436: Resources/AwesomeGuns/Handobs_CLIP1.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      444: Resources/AwesomeGuns/Handobs2.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      452: Resources/AwesomeGuns/Handobs_CLIP2.gif
+# BluePlasmas
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      460: Resources/BluePlasmas/BluePlasmas_handob1.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      476: Resources/BluePlasmas/BluePlasmas_handob3.gif
+# BluePlasmas/ReaversTerranPlasma
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      484: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_handob.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      492: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifleTerran_handob.gif
+# ConventionalStun/OneHandSmallLauncher
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      500: Resources/ConventionalStun/OneHandSmallLauncher_handob.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/TerranPlasmaWeapons/terranplasma_hit.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      66: Resources/SectopodLaser/SectopodLaserHit.gif
+  - type: BIGOBS.PCK
+    width: 32
+    height: 32
+    files:
+      700: Resources/Advanced Medikit/BigOb_FieldMediPack.gif
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      700: Resources/Advanced Medikit/FloorOb_FieldMediPack.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      700: Resources/Advanced Medikit/HandOb_FieldMediPack.png
+# GuardianBattleAssaultTanks
+  - type: GTANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/GuardianTanks.png
+  - type: BTANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/BattleTanks.png
+  - type: ATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/AssaultTanks.png
+  - type: GATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/GuardianAlloyTanks.png
+  - type: BATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/BattleAlloyTanks.png
+  - type: AATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/AssaultAlloyTanks.png
+  - type: FLOOROB.PCK
+    width: 128
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      800: Resources/GuardianBattleAssaultTanks/CorpseAlloy_0.png
+      801: Resources/GuardianBattleAssaultTanks/CorpseAlloy_1.png
+      802: Resources/GuardianBattleAssaultTanks/CorpseAlloy_2.png
+      803: Resources/GuardianBattleAssaultTanks/CorpseAlloy_3.png
+      804: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_0.png
+      805: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_1.png
+      806: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_2.png
+      807: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_3.png
+      808: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_0.png
+      809: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_1.png
+      810: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_2.png
+      811: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_3.png
+      812: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_0.png
+      813: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_1.png
+      814: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_2.png
+      815: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_3.png
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      800: Resources/GuardianBattleAssaultTanks/bigobs_AlienRocketTurret.png
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      801: Resources/GuardianBattleAssaultTanks/bigobs_AlloyLaserTurret.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      216: Resources/AlienAlloyammo/Harpoon_hit.png
+  - type: Projectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      1225: Resources/AlienAlloyammo/harpoon_bullet.png
+  - type: UnderwaterProjectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      1225: Resources/AlienAlloyammo/harpoon_bullet.png
+  - type: ALIEN_HABITAT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AlienHabitat/Alien_Habitat.png
+  - type: WELCOME_GIFT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/LargeFacilities/Welcome_Gift.png
+  - type: Projectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      700: Resources/Projectiles/BlueLaser_bullet.png
+      735: Resources/Projectiles/BlueHeavyLaser_bullet.png
+  - type: UnderwaterProjectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      700: Resources/Projectiles/BlueLaser_bullet.png
+      735: Resources/Projectiles/BlueHeavyLaser_bullet.png

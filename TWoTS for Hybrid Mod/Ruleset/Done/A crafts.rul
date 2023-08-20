@@ -1,0 +1,487 @@
+crafts:
+#moving vanilla
+  - delete: STR_TRITON
+  - delete: STR_BARRACUDA
+  - delete: STR_MANTA
+  - delete: STR_HAMMERHEAD
+  - delete: STR_LEVIATHAN
+  - type: STR_TRITON
+    requires:
+     - STR_TRITON
+  - type: STR_BARRACUDA
+    sprite: 3
+    fuelMax: 800
+    damageMax: 120
+    speedMax: 2400
+    accel: 3
+    weapons: 3
+    weaponTypes: [1,2,2]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_TORPEDO, STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 2
+    costRent: 100000
+    costSell: 500000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxAltitude: 3
+    radarRange: 350
+    radarChance: 75
+    allowLanding: false
+    requires:
+     - STR_BARRACUDA
+#adding new
+  - type: STR_P6M
+    sprite: 22
+    fuelMax: 800
+    damageMax: 90
+    speedMax: 900
+    accel: 2
+    weapons: 1
+    weaponTypes: [2]
+    weaponStrings: [STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 8
+    maxSmallSoldiers: 8
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 7
+    maxLargeVehicles: 0
+    maxSmallUnits: 8
+    maxLargeUnits: 0	
+    vehicles: 0
+    costRent: 350000
+    costBuy: 400000
+    refuelRate: 60
+    transferTime: 96
+    score: 200
+    maxAltitude: 1
+    listOrder: 205
+    radarRange: 450
+    radarChance: 75
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: DEPP
+      mapDataSets:
+        - BLANKS_EMPTY
+        - LANDING1
+      mapBlocks:
+        - name: DEPP
+          width: 10
+          length: 10
+    deployment:
+      - [6, 2, 0, 0]
+      - [6, 4, 0, 1]
+      - [6, 6, 0, 2]
+      - [6, 8, 0, 3]
+      - [3, 1, 0, 7]
+      - [3, 3, 0, 6]
+      - [3, 5, 0, 5]
+      - [3, 7, 0, 4]
+  - type: STR_CORM
+    sprite: 23
+    fuelMax: 800
+    damageMax: 80
+    speedMax: 1100
+    accel: 2
+    weapons: 2
+    weaponTypes: [1,1]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON]
+    avoidBonus: 10
+    costSell: 300000
+    refuelRate: 80
+    transferTime: 96
+    score: 180
+    maxAltitude: 2
+    radarRange: 200
+    radarChance: 70
+    allowLanding: false
+    listOrder: 206
+    
+  - type: STR_MORAY
+    sprite: 24
+    fuelMax: 1200
+    damageMax: 180
+    speedMax: 2650
+    costSell: 550000
+    costRent: 150000
+    accel: 4
+    weapons: 3
+    weaponTypes: [1,2,2]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_TORPEDO, STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 2
+    maxSmallSoldiers: 2
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 1
+    maxLargeVehicles: 0
+    maxSmallUnits: 2
+    maxLargeUnits: 0	
+    refuelRate: 60
+    repairRate: 3
+    transferTime: 96
+    score: 250
+    maxAltitude: 4
+    radarRange: 450
+    radarChance: 85
+    allowLanding: false
+    listOrder: 205
+
+  - type: STR_POSEIDON
+    sprite: 25
+    fuelMax: 1600
+    damageMax: 300
+    speedMax: 760
+    accel: 2
+    soldiers: 20
+    vehicles: 3
+    maxSmallSoldiers: 20
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 18
+    maxLargeVehicles: 3
+    maxSmallUnits: 18
+    maxLargeUnits: 3	
+    costRent: 130000
+    costSell: 700000
+    refuelRate: 60
+    transferTime: 72
+    score: 200
+    maxAltitude: 4
+    radarRange: 250
+    radarChance: 65
+    battlescapeTerrainData:
+      name: POSEIDON
+      mapDataSets:
+        - BLANKS_EMPTY
+        - NEW_POSEIDON
+      mapBlocks:
+        - name: POSEIDON
+          width: 10
+          length: 20
+    deployment:
+      - [5, 10, 0, 2]
+      - [4, 10, 0, 4]
+      - [3, 10, 0, 6]
+      - [5, 9, 0, 2]
+      - [4, 9, 0, 4]
+      - [3, 9, 0, 6]
+      - [5, 8, 0, 2]
+      - [4, 8, 0, 4]
+      - [3, 8, 0, 6]
+      - [5, 7, 0, 2]
+      - [4, 7, 0, 4]
+      - [3, 7, 0, 6]
+      - [5, 6, 0, 2]
+      - [4, 6, 0, 4]
+      - [3, 6, 0, 6]
+      - [5, 5, 0, 2]
+      - [4, 5, 0, 4]
+      - [3, 5, 0, 6]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [3, 4, 0, 6]
+     
+  - type: STR_ANGEL
+    sprite: 26
+    fuelMax: 25
+    refuelItem: STR_ZRBITE
+    damageMax: 160
+    speedMax: 3200
+    costSell: 500000
+    costRent: 180000
+    accel: 4
+    weapons: 3
+    weaponTypes: [1,1,2]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 2
+    maxSmallSoldiers: 2
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 0
+    maxLargeVehicles: 0
+    maxSmallUnits: 2
+    maxLargeUnits: 0		
+    avoidBonus: 20
+    refuelRate: 5
+    repairRate: 3
+    transferTime: 96
+    score: 250
+    maxAltitude: 3
+    radarRange: 700
+    radarChance: 65
+    allowLanding: false
+    listOrder: 206
+    
+  - type: STR_TYPHON
+    sprite: 27
+    fuelMax: 75
+    damageMax: 380
+    speedMax: 1800
+    accel: 3
+    weapons: 1
+    weaponTypes: [1]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON]
+    soldiers: 14
+    vehicles: 0
+    maxSmallSoldiers: 14
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 14
+    maxLargeVehicles: 3
+    maxSmallUnits: 14
+    maxLargeUnits: 3	
+    costRent: 20000
+    costSell: 1400000
+    refuelRate: 5
+    refuelItem: STR_ZRBITE
+    transferTime: 72
+    score: 200
+    maxAltitude: 4
+    radarRange: 350
+    radarChance: 65
+    battlescapeTerrainData:
+      name: TYPHON
+      mapDataSets:
+#        - BLANKS_EMPTY
+        - BLANKS
+        - TRITON_typhonX
+        - PLANE2		
+      mapBlocks:
+        - name: TYPHON
+          width: 10
+          length: 20
+#    deployment:
+#      - [5, 6, 0, 2]
+#      - [4, 6, 0, 6]
+#      - [5, 4, 0, 2]
+#      - [4, 4, 0, 6]
+#      - [5, 7, 0, 2]
+#      - [4, 7, 0, 6]
+#      - [5, 5, 0, 2]
+#      - [4, 5, 0, 6]
+#      - [5, 3, 0, 2]
+#      - [4, 3, 0, 6]
+#      - [5, 8, 0, 2]
+#      - [4, 8, 0, 6]
+#      - [5, 9, 0, 2]
+#      - [4, 9, 0, 6]
+    
+  - type: STR_MANTA
+    sprite: 4
+    fuelMax: 30
+    damageMax: 400
+    armor: 5
+    speedMax: 4600
+    accel: 10
+    weapons: 4
+    weaponTypes: [1,1,2,2]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_TORPEDO, STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 1
+    pilots: 1
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 250
+    allowLanding: false
+    maxAltitude: 4
+  - type: STR_HAMMERHEAD
+    sprite: 1
+    fuelMax: 60
+    damageMax: 960
+    speedMax: 4030
+    accel: 9
+    weapons: 2
+    weaponTypes: [1,1]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON]
+    pilots: 1
+    soldiers: 12
+    vehicles: 2
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 300
+    maxAltitude: 4
+  - type: STR_LEVIATHAN
+    sprite: 2
+    fuelMax: 50
+    damageMax: 1250
+    speedMax: 5800
+    accel: 9
+    weapons: 4
+    weaponTypes: [1,1,1,2]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_TORPEDO]
+    shieldCapacity: 150
+    shieldRecharge: 0
+    shieldRechargeInGeoscape: 0
+    shieldBleedThrough: 100
+    armor: 5
+    pilots: 3
+    soldiers: 26
+    vehicles: 4
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 400
+    maxAltitude: 4
+    spacecraft: false
+  - type: STR_UD
+    sprite: 29
+    fuelMax: 50
+    refuelItem: STR_ZRBITE
+    damageMax: 240
+    speedMax: 3000
+    costSell: 650000
+    costRent: 220000
+    accel: 4
+    weapons: 3
+    weaponTypes: [2,2,2]
+    weaponStrings: [STR_WEAPON_TYPE_TORPEDO, STR_WEAPON_TYPE_TORPEDO, STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 2
+    pilots: 2
+    avoidBonus: -10
+    refuelRate: 10
+    repairRate: 3
+    score: 250
+    maxAltitude: 4
+    radarRange: 750
+    radarChance: 65
+    allowLanding: false
+    listOrder: 208
+  - type: STR_STINGER
+    sprite: 30
+    fuelMax: 50
+    refuelItem: STR_ZRBITE
+    damageMax: 450
+    speedMax: 2600
+    costSell: 700000
+    costRent: 210000
+    accel: 3
+    weapons: 3
+    weaponTypes: [1,1,1]
+    weaponStrings: [STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON, STR_WEAPON_TYPE_CANNON]
+    soldiers: 4
+    #pilots: 2
+    maxSmallSoldiers: 4
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 3
+    maxLargeVehicles: 0
+    maxSmallUnits: 4
+    maxLargeUnits: 0		
+    avoidBonus: -10
+    armor: 10
+    refuelRate: 10
+    repairRate: 3
+    transferTime: 96
+    score: 250
+    maxAltitude: 4
+    radarRange: 700
+    radarChance: 65
+    allowLanding: true
+    battlescapeTerrainData:
+      name: STINGRAY
+      mapDataSets:
+        - BLANKS_EMPTY
+        - STINGRAY
+      mapBlocks:
+        - name: STINGRAY
+          width: 10
+          length: 10
+    deployment:
+      - [4, 7, 0, 4]
+      - [4, 6, 0, 4]
+    listOrder: 207
+
+  - type: STR_BUOY_UC
+    sprite: 31
+    fuelMax: 2000
+    damageMax: 50
+    speedMax: 100
+    costBuy: 200000
+    costSell: 70000
+    costRent: 1000
+    accel: 1
+    weapons: 0
+    soldiers: 0
+    pilots: 0
+    avoidBonus: -10
+    armor: 0
+    refuelRate: 100
+    transferTime: 96
+    score: 10
+    maxAltitude: 1
+    radarRange: 600
+    radarChance: 50
+    sightRange: 0
+    allowLanding: false
+    requires:
+     - STR_BUOY
+    listOrder: 202
+
+  - type: STR_BUOY_ARM_UC
+    sprite: 44
+    fuelMax: 2000
+    damageMax: 100
+    speedMax: 100
+    costSell: 80000
+    costRent: 1000
+    accel: 1
+    weapons: 1
+    weaponTypes: [2]
+    weaponStrings: [STR_WEAPON_TYPE_TORPEDO]
+    soldiers: 0
+    pilots: 0
+    avoidBonus: -10
+    armor: 0
+    refuelRate: 100
+    transferTime: 96
+    score: 10
+    maxAltitude: 1
+    radarRange: 550
+    radarChance: 45
+    sightRange: 0
+    allowLanding: false
+    listOrder: 202
+
+  - type: STR_BUOY_A_UC
+    sprite: 32
+    fuelMax: 2000
+    damageMax: 50
+    speedMax: 100
+    costSell: 170000
+    accel: 1
+    weapons: 0
+    soldiers: 0
+    pilots: 0
+    avoidBonus: -10
+    armor: 0
+    refuelRate: 100
+    transferTime: 96
+    score: 10
+    maxAltitude: 1
+    radarRange: 1000
+    radarChance: 65
+    sightRange: 1000
+    allowLanding: false
+    listOrder: 203
+    
+  - type: STR_LINERCRAFT #unused, experiment not going well.
+    sprite: 0
+    fuelMax: 1
+    damageMax: 1
+    speedMax: 0
+    costSell: 0
+    costRent: 0
+    accel: 0
+    weapons: 0
+    armor: 0
+    score: 0
+    maxAltitude: 0
+    allowLanding: true
+    battlescapeTerrainData:
+      name: LINERT01
+      mapDataSets:
+        - BLANKS_EMPTY
+        - DECKC
+        - LINERA
+        - LINERB
+        - LINERC
+        - LINERD
+        - DECKC
+      mapBlocks:
+        - name: LINERT01
+          width: 30
+          length: 50
+#    deployment:
+#      - [4, 4, 0, 4]
+#      - [5, 4, 0, 4]

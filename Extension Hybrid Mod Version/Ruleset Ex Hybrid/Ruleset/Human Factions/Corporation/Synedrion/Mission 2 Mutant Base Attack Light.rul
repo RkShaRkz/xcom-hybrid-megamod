@@ -1,0 +1,347 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_SYNEDRIONAGENT: "Synderion Agent"	
+      STR_SYNEDRIONAGENT_UFOPEDIA: "Apparently, this Dr X, whose true name that only her personal assistant will know, so desperate was she to recover of her lost mutants, that she has forced of her Assistant to hire expensive renegade Mercs to hunt them down. The mutants' safe recovery is the personal responsibillity of the Agent, should she fails, she has Dr X's personal assistant in answering to. So, we now need to capture X's personal location, whose location is revealed by the agent, while under drug interrogation."	
+      STR_MUTANTATTACKMERC: "Synderion Mercs"
+      STR_MUTANTVILLAGMISSION2: "Syn Mission 2: Mutant Village Rescue"
+      STR_MARKER_MUTANTVILLAGE: "Mutant Village Rescue from Synedrion Light Assault"
+      STR_ALERT_MUTANTVILLAGE: "Mutant Village Rescue from Synedrion Light Assault"
+      STR_LOC_MUTANTVILLAGE_BRIEFING: "This is the Merc guild here. The rescue of those Mutants has an unfortunate side efect. It unfortunately has trigger the anger of the Synderion. Apparently, those Mutants are highly valued by a certain induvidual from within of that mind-fucked Bio-tech Organization. Now, they are sending renegade Mercenaries to hunt them down. The Merc guild is pulling all stops to ask of any Mercenary units whom can help. This of course is with the usual fee paid for a successful Mutant settlement defense. Also we must capture the Synderion Agents whom are in charge of these renegade Mercenaries during the raid. So we can find out where these raids are launch from."    
+alienDeployments:
+  - type: STR_MUTANTVILLAGMISSION2 
+    alert: STR_ALERT_MUTANTVILLAGE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_MUTANTVILLAGE_BRIEFING
+    briefing:
+      palette: 4
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_MUTANTVILLAGE
+      desc: STR_LOC_MUTANTVILLAGE_BRIEFING
+    markerName: STR_MARKER_MUTANTVILLAGE
+    duration: [20, 50]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_MUTANTCAMPS
+    script: GENERALSPAWN
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 2
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []				
+alienRaces:			
+  - id: STR_MUTANTATTACKMERC
+    members:
+      - STR_SYNEDRIONAGENT
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+  - id: STR_MUTANTATTACKMERC_UNDERWATER	
+    members:
+      - STR_SYNEDRIONAGENT
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER			
+ufopaedia:	
+  - id: STR_SYNEDRIONAGENT
+    requires:
+      - STR_SYNEDRIONAGENT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNEDRIONAGENT_UFOPEDIA	
+research:
+  - name: STR_SYNEDRIONAGENT
+    requiresBaseFunc: [INTERROGATION]	 
+    cost: 1
+    points: 40
+    needItem: true
+items:	
+  - type: STR_MUTANTCAPTIVE_SPAWNER
+    spawnUnit: STR_MUTANT_CAPTIVES
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_MUTANT_CAPTIVES
+    size: 0.0
+    recover: true
+    #prisonType: 1	
+    liveAlien: true
+    costSell: 405000	
+units:	
+  - type: STR_SYNEDRIONAGENT
+    race: STR_ACADEMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 30
+      bravery: 50
+      reactions: 45
+      firing: 45
+      throwing: 40
+      strength: 33
+      psiStrength: 35
+      psiSkill: 0
+      melee: 55
+      #Mana: 47
+    armor: SECTOID_ARMOR_P12  
+    #armor: STR_FEMALE_DOCTOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 3
+    aggression: 5
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE		
+ufos:		
+  - type: STR_MUTANTCAMPS
+    battlescapeTerrainData:
+      name: Mutantcamp
+      mapDataSets:
+        - BLANKS
+        - Nuke1
+        - Nuke2
+        - Nuke3
+        - NUKE_WATER_2
+        - NUKE_UNDERGROUND
+        - PORTURBITS
+        - FRNITURE
+      mapBlocks:
+        - name: MUTANTCAMPSMALL2
+          width: 20
+          length: 20   
+          items:	
+            STR_WHOREGALC_SPAWNER:  		  
+              - [2, 6, 2]
+              - [8, 9, 2]			  
+              - [2, 2, 1]	
+              - [2, 18, 1]	
+              - [18, 2, 1]	
+              - [18, 18, 1]
+              - [4, 18, 2]
+            STR_TOUGHGALC_SPAWNER:			
+              - [10, 9, 2]	
+              - [10, 10, 2]	
+              - [11, 10, 2]				
+            STR_MUTANTMADAMC_SPAWNER:
+              - [17, 8, 2]	
+              - [13, 9, 2]	
+              - [13,17, 2]	
+              - [5,17, 2]					
+          fuseTimers:
+            STR_WHOREGALC_SPAWNER: [0, 0]		
+            STR_TOUGHGALC_SPAWNER: [0, 0]
+            STR_MUTANTMADAMC_SPAWNER: [0, 0]			  
+alienMissions:
+  - type: STR_LOC_MUTANTVILLAGEMISSION2
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MUTANTATTACKMERC: 100	  
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 15000
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO 
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 9600
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 12000	
+      - ufo: STR_MUTANTVILLAGMISSION2
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+terrains:
+  - name: STR_VESSEL_RAIDERMUTANTMERC
+    mapDataSets:
+      - BLANKS
+      - C_EXT_WALL
+      - C_EXT_ROOF
+      - C_EXT_ENGINE_E
+      - C_EXT_ENGINE_S
+      - C_EXT_NOSE
+      - C_EXT_NOSE_BUMPER
+      - C_EXT_NOSE_BUMPLESS
+      - C_EXT_NOSE_SIDE 
+      - C_BITS2
+      - C_INT
+      - DOORSSEC
+      - DOORS2
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - PLANEENGINES	  
+    mapBlocks:
+      - name: VESSEL_CC2
+        width: 10
+        length: 10		 		
+missionScripts:
+  - type: syndmutantbaseattacklight
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_MUTANTVILLAGEMISSION2: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 90
+    startDelay: 1000
+    randomDelay: 40000
+    researchTriggers:
+      STR_MUTANT_CAPTIVES: true
+      STR_MISSION3END: false  
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:			
+  - type: GENERALSPAWN
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		  
+    - type: addUFO
+      executions: 1
+      executionChances: 30  	  
+      terrain: globeTerrain
+      groups: 1	
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 11
+      label: 11
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: STR_VESSEL_RAIDERMUTANTMERC
+        maxRepeats: 1 	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain		  

@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - MGS Abderus
+  - MGS Absyrtus
+  - MGS Abydos
+  - MGS Acastus
+  - MGS Achates
+  - MGS Achelous
+  - MGS Acheron
+  - MGS Achilles
+  - MGS Achlys
+  - MGS Acrisius
+  - MGS Actaeon
+  - MGS Acteon
+  - MGS Adelphos
+  - MGS Admes
+  - MGS Admetus
+  - MGS Adonis
+  - MGS Adras
+  - MGS Adrastos
+  - MGS Adrastus
+  - MGS Adrian
+  - MGS Aeacus
+  - MGS Aeetes
+  - MGS Aegeus
+  - MGS Aegis
+  - MGS Aegisthus
+  - MGS Aegyptus
+  - MGS Aeneas
+  - MGS Aeolus
+  - MGS Aesculapius
+  - MGS Aeson
+  - MGS Aetos
+  - MGS Agamedes
+  - MGS Agape
+  - MGS Agatone
+  - MGS Aindreas
+  - MGS Aindriu
+  - MGS Ajax
+  - MGS Akil
+  - MGS Alasd
+  - MGS Alcander
+  - MGS Alcinoos
+  - MGS Alcinous
+  - MGS Alcnaeon
+  - MGS Alcyoneus
+  - MGS Alddes
+  - MGS Alessandro
+  - MGS Alex
+  - MGS Alexander
+  - MGS Alexandras
+  - MGS Alexandros
+  - MGS Alexandrukas
+  - MGS Alexei
+  - MGS Alexio
+  - MGS Alix
+  - MGS Aloeus
+  - MGS Alpheus
+  - MGS Altair
+  - MGS Amaoebus
+  - MGS Ambrocio
+  - MGS Ambrose
+  - MGS Ambrus
+  - MGS Amphiaraus
+  - MGS Amphion
+  - MGS Amphitryon
+  - MGS Ampyx
+  - MGS Amycus
+  - MGS Anastagio
+  - MGS Anastasio
+  - MGS Anastasios
+  - MGS Anastasius
+  - MGS Anasztaz
+  - MGS Anatol
+  - MGS Anatole
+  - MGS Anatoli
+  - MGS Anatolijus
+  - MGS Anatolio
+  - MGS Ancaeus
+  - MGS Anchises
+  - MGS Andor
+  - MGS Andreas
+  - MGS Andres
+  - MGS Andreus
+  - MGS Andrew
+  - MGS Andries
+  - MGS Androgeus
+  - MGS Androu
+  - MGS Anstice
+  - MGS Anstiss
+  - MGS Antaeus
+  - MGS Antares
+  - MGS Anteros
+  - MGS Antilochus
+  - MGS Antinous
+  - MGS Antiphates
+  - MGS Anton
+  - MGS Antony
+  - MGS Aonghas
+  - MGS Apollo
+  - MGS Apoloniusz
+  - MGS Apostolos
+  - MGS Arcadicus
+  - MGS Arcas
+  - MGS Arcenio
+  - MGS Archemorus
+  - MGS Ares
+  - MGS Argo
+  - MGS Argos
+  - MGS Argus
+  - MGS Arion
+  - MGS Aristaeus
+  - MGS Aristo
+  - MGS Arsen
+  - MGS Arsenio
+  - MGS Artemas
+  - MGS Artemesio
+  - MGS Artemus
+  - MGS Ascalaphus
+  - MGS Asklepios
+  - MGS Asopus
+  - MGS Athamas
+  - MGS Athan
+  - MGS Athanasios
+  - MGS Athanasius
+  - MGS Atlas
+  - MGS Atreus
+  - MGS Attis
+  - MGS Autolycus
+  - MGS Avernus
+  - MGS Baccaus
+  - MGS Baccus
+  - MGS Balasi
+  - MGS Baltsaros
+  - MGS Baptiste
+  - MGS Basil
+  - MGS Basile
+  - MGS Basilio
+  - MGS Baste
+  - MGS Bastiaan
+  - MGS Bastien
+  - MGS Baucis
+  - MGS Bazyli
+  - MGS Bemus
+  - MGS Biton
+  - MGS Boreas
+  - MGS Brasidas
+  - MGS Briareus
+  - MGS Brygus
+  - MGS Butades
+  - MGS Cadmus
+  - MGS Caesare
+  - MGS Calchas
+  - MGS Calisto
+  - MGS Capaneus
+  - MGS Caseareo
+  - MGS Castor
+  - MGS Cecrops
+  - MGS Celeus
+  - MGS Cenon
+  - MGS Cephalus
+  - MGS Cepheus
+  - MGS Cesare
+  - MGS Cetus
+  - MGS Ceyx
+  - MGS Chris
+  - MGS Christan
+  - MGS Christiano
+  - MGS Christoph
+  - MGS Christopher
+  - MGS Christophoros
+  - MGS Christos
+  - MGS Chruse
+  - MGS Chrysostom
+  - MGS Cimon
+  - MGS Cirio
+  - MGS Ciro
+  - MGS Claas
+  - MGS Claus
+  - MGS Cleobis
+  - MGS Cleon
+  - MGS Cletus
+  - MGS Cleytus
+  - MGS Clio
+  - MGS Cocytus
+  - MGS Coeus
+  - MGS Coireall
+  - MGS Cole
+  - MGS Colin
+  - MGS Colum
+  - MGS Corban
+  - MGS Coridan
+  - MGS Corybantes
+  - MGS Corydon
+  - MGS Cos
+  - MGS Cosmas
+  - MGS Cosmo
+  - MGS Cottus
+  - MGS Creon
+  - MGS Cretien
+  - MGS Cristoforo
+  - MGS Cristophe
+  - MGS Cronus
+  - MGS Ctesippus
+  - MGS Cyrano
+  - MGS Cyrek
+  - MGS Cyril
+  - MGS Cyrus
+  - MGS Cyryl
+  - MGS Damae
+  - MGS Damalis
+  - MGS Damaris
+  - MGS Damaskenos
+  - MGS Damaskinos
+  - MGS Damen
+  - MGS Dameon
+  - MGS Damian
+  - MGS Damion
+  - MGS Damon
+  - MGS Danaus
+  - MGS Dardanus
+  - MGS Darian
+  - MGS Darien
+  - MGS Darion
+  - MGS Darrian
+  - MGS Darrien
+  - MGS Darrion
+  - MGS Daymon
+  - MGS Deke
+  - MGS Dekel
+  - MGS Dekle
+  - MGS Delbin
+  - MGS Demetre
+  - MGS Demetri
+  - MGS Demetrios
+  - MGS Demetrius
+  - MGS Demitri
+  - MGS Demitrius
+  - MGS Demodocus
+  - MGS Demophon
+  - MGS Demoritus
+  - MGS Denes
+  - MGS Dennis
+  - MGS Deo
+  - MGS Deucalion
+  - MGS Doran
+  - MGS Dorian
+  - MGS Dorion
+  - MGS Drakon
+  - MGS Drew
+  - MGS Dymas
+  - MGS Eachann
+  - MGS Efterpi
+  - MGS Egidio
+  - MGS Eleftherios
+  - MGS Elek
+  - MGS Eleutherios
+  - MGS Eli
+  - MGS Enceladus
+  - MGS Endre
+  - MGS Endymion
+  - MGS Eneas
+  - MGS Eoghan
+  - MGS Epeius
+  - MGS Erasmus
+  - MGS Erebus
+  - MGS Erechtheus
+  - MGS Erichthonius
+  - MGS Erymanthus
+  - MGS Erysichthon
+  - MGS Eryx
+  - MGS Estevao
+  - MGS Eteocles
+  - MGS Etor
+  - MGS Eubuleus
+  - MGS Eugen
+  - MGS Eugene
+  - MGS Eugenio
+  - MGS Eugenios
+  - MGS Eumaeus
+  - MGS Eupeithes
+  - MGS Euphrosyne
+  - MGS Eurus
+  - MGS Euryalus
+  - MGS Eurylochus
+  - MGS Eurymachus
+  - MGS Eurypylus
+  - MGS Eurystheus
+  - MGS Euryton
+  - MGS Eusebius
+  - MGS Eustace
+  - MGS Eustachy
+  - MGS Eustis
+  - MGS Evan
+  - MGS Evzen
+  - MGS Fedor
+  - MGS Feodor
+  - MGS Feodras
+  - MGS Filippo
+  - MGS Filips
+  - MGS Flip
+  - MGS Fulop
+  - MGS Gaelan
+  - MGS Galan
+  - MGS Galen
+  - MGS Galinthias
+  - MGS Galyn
+  - MGS Gelasius
+  - MGS Georg
+  - MGS George
+  - MGS Georges
+  - MGS Giles
+  - MGS Glaucus
+  - MGS Goran
+  - MGS Graeae
+  - MGS Gregoire
+  - MGS Gregoly
+  - MGS Gregor
+  - MGS Gregorie
+  - MGS Gregorior
+  - MGS Gregory
+  - MGS Gregos
+  - MGS Grigor
+  - MGS Grigorov
+  - MGS Gruev
+  - MGS Guilio
+  - MGS Gyes
+  - MGS Gyoergy
+  - MGS Gyorgy
+  - MGS Gyuri
+  - MGS Haemon
+  - MGS Hali
+  - MGS Halithersis
+  - MGS Hector
+  - MGS Helios
+  - MGS Herodotus
+  - MGS Homar
+  - MGS Homer
+  - MGS Homeros
+  - MGS Homerus
+  - MGS Hypnos
+  - MGS Ibycus
+  - MGS Icarius
+  - MGS Icarus
+  - MGS Icelos
+  - MGS Icos
+  - MGS Idas
+  - MGS Igorr
+  - MGS Inachus
+  - MGS Iorgas
+  - MGS Iphitus
+  - MGS Istvan
+  - MGS Ivan
+  - MGS Ivankor
+  - MGS Ixion
+  - MGS Jaison
+  - MGS Jase
+  - MGS Jasen
+  - MGS Jason
+  - MGS Jayce
+  - MGS Jayr
+  - MGS Jaysen
+  - MGS Jayson
+  - MGS Jencir
+  - MGS Jeno
+  - MGS Jeroenr
+  - MGS Jerome
+  - MGS Jerzyr
+  - MGS Jirkar
+  - MGS Jorenr
+  - MGS Julius
+  - MGS Jurgisr
+  - MGS Kadmus
+  - MGS Kairos
+  - MGS Khristos
+  - MGS Khrystiyanr
+  - MGS Kit
+  - MGS Klaasr
+  - MGS Klaus
+  - MGS Korudon
+  - MGS Kosmosr
+  - MGS Kratos
+  - MGS Krikor
+  - MGS Krischnan
+  - MGS Kristian
+  - MGS Kristofr
+  - MGS Krystupasr
+  - MGS Krzysztofr
+  - MGS Kuirilr
+  - MGS Kyrillos
+  - MGS Kyrillosr
+  - MGS Kyros
+  - MGS Ladon
+  - MGS Laertes
+  - MGS Laestrygones
+  - MGS Laius
+  - MGS Lander
+  - MGS Laocoon
+  - MGS Laomedon
+  - MGS Leander
+  - MGS Leandro
+  - MGS Leonidas
+  - MGS Lichas
+  - MGS Linus
+  - MGS Lippio
+  - MGS Lotus
+  - MGS Loxias
+  - MGS Luke
+  - MGS Lycaon
+  - MGS Lycomedes
+  - MGS Lycurgus
+  - MGS Lynceus
+  - MGS Lysander
+  - MGS Marcario
+  - MGS Maurice
+  - MGS Medus
+  - MGS Melampus
+  - MGS Melancton
+  - MGS Melanthius
+  - MGS Menelaus
+  - MGS Menoeceus
+  - MGS Mentor
+  - MGS Midas
+  - MGS Mikolas
+  - MGS Miles
+  - MGS Milo
+  - MGS Minos
+  - MGS Momus
+  - MGS Mopsus
+  - MGS Moses
+  - MGS Myles
+  - MGS Myron
+  - MGS Narkis
+  - MGS Nauplius
+  - MGS Neleus
+  - MGS Nemo
+  - MGS Nemos
+  - MGS Neo
+  - MGS Nicholas
+  - MGS Nicholaus
+  - MGS Nicias
+  - MGS Nick
+  - MGS Nicodemus
+  - MGS Nicolas
+  - MGS Nicolaus
+  - MGS Nik
+  - MGS Nike
+  - MGS Niklaus
+  - MGS Nikodem
+  - MGS Nikolai
+  - MGS Nikolajis
+  - MGS Nikolos
+  - MGS Niles
+  - MGS Nilo
+  - MGS Nilos
+  - MGS Nisus
+  - MGS Notus
+  - MGS Obiareus
+  - MGS Oighrig
+  - MGS Oles
+  - MGS Orrin
+  - MGS Orthros
+  - MGS Otis
+  - MGS Pan
+  - MGS Panagiotis
+  - MGS Pancratius
+  - MGS Panos
+  - MGS Panteleimon
+  - MGS Papandrou
+  - MGS Paris
+  - MGS Patroclus
+  - MGS Patroklos
+  - MGS Pavlos
+  - MGS Peadair
+  - MGS Peder
+  - MGS Pegeen
+  - MGS Peleus
+  - MGS Pelias
+  - MGS Pello
+  - MGS Pelops
+  - MGS Pero
+  - MGS Perrin
+  - MGS Peterke
+  - MGS Petrelis
+  - MGS Petros
+  - MGS Petter
+  - MGS Phantasos
+  - MGS Phaon
+  - MGS Philemon
+  - MGS Philip
+  - MGS Philipp
+  - MGS Philippe
+  - MGS Phillip
+  - MGS Philo
+  - MGS Phineas
+  - MGS Phineus
+  - MGS Phrixus
+  - MGS Phylo
+  - MGS Piero
+  - MGS Pierro
+  - MGS Pieter
+  - MGS Pietr
+  - MGS Pietro
+  - MGS Pilib
+  - MGS Piotr
+  - MGS Pippo
+  - MGS Pirithous
+  - MGS Pirro
+  - MGS Pittheus
+  - MGS Plato
+  - MGS Platon
+  - MGS Plexippus
+  - MGS Plutus
+  - MGS Pollux
+  - MGS Poseidon
+  - MGS Preben
+  - MGS Priam
+  - MGS Priapus
+  - MGS Procrustes
+  - MGS Prokopios
+  - MGS Prometheus
+  - MGS Prophyrios
+  - MGS Protesilaus
+  - MGS Ptolemy
+  - MGS Pyramus
+  - MGS Rasmus
+  - MGS Rhodes
+  - MGS Risto
+  - MGS Sabastian
+  - MGS Salmoneus
+  - MGS Scopas
+  - MGS Sebasten
+  - MGS Sebastian
+  - MGS Sebastiano
+  - MGS Simon
+  - MGS Sinon
+  - MGS Socrates
+  - MGS Sofronio
+  - MGS Soterios
+  - MGS Spyridon
+  - MGS Stamitos
+  - MGS Stavros
+  - MGS Steafan
+  - MGS Stefan
+  - MGS Stefano
+  - MGS Stefanos
+  - MGS Stefford
+  - MGS Stefon
+  - MGS Stephano
+  - MGS Stephanos
+  - MGS Stephen
+  - MGS Stephon
+  - MGS Steven
+  - MGS Steverino
+  - MGS Takis
+  - MGS Talos
+  - MGS Talus
+  - MGS Tantalus
+  - MGS Tarasios
+  - MGS Teague
+  - MGS Telamon
+  - MGS Telegonus
+  - MGS Telemachus
+  - MGS Telephus
+  - MGS Tellus
+  - MGS Teodors
+  - MGS Teofile
+  - MGS Teuthras
+  - MGS Thad
+  - MGS Thaddeus
+  - MGS Thaddius
+  - MGS Thadeus
+  - MGS Thais
+  - MGS Thanatos
+  - MGS Thanos
+  - MGS Thaumas
+  - MGS Theo
+  - MGS Theociymenus
+  - MGS Theodon
+  - MGS Theodore
+  - MGS Theodosios
+  - MGS Theodrekr
+  - MGS Theodric
+  - MGS Theon
+  - MGS Theophile
+  - MGS Theophilus
+  - MGS Theron
+  - MGS Therron
+  - MGS Thersites
+  - MGS Theseus
+  - MGS Thomas
+  - MGS Thyestes
+  - MGS Tiege
+  - MGS Tim
+  - MGS Timeus
+  - MGS Timmy
+  - MGS Timocrates
+  - MGS Timoleon
+  - MGS Timon
+  - MGS Timotheos
+  - MGS Timothy
+  - MGS Timun
+  - MGS Tiomoid
+  - MGS Tito
+  - MGS Titos
+  - MGS Titus
+  - MGS Tityus
+  - MGS Tivadar
+  - MGS Todor
+  - MGS Toxeus
+  - MGS Triton
+  - MGS Trophonius
+  - MGS Turannos
+  - MGS Tydeus
+  - MGS Tylissus
+  - MGS Tymek
+  - MGS Tymon
+  - MGS Tyndareus
+  - MGS Typhoeus
+  - MGS Typhon
+  - MGS Tyrone
+  - MGS Ulysses
+  - MGS Urian
+  - MGS Vasileios
+  - MGS Vasilios
+  - MGS Vasilis
+  - MGS Vasos
+  - MGS VasyItso
+  - MGS Vasyklo
+  - MGS Vasyl
+  - MGS Xanthus
+  - MGS Xeno
+  - MGS Xenophon
+  - MGS Xenos
+  - MGS Xerxes
+  - MGS Xuthus
+  - MGS Xylon
+  - MGS Yanni
+  - MGS Yehor
+  - MGS Yuri
+  - MGS Zale
+  - MGS Zarek
+  - MGS Zelotes
+  - MGS Zeno
+  - MGS Zenobio
+  - MGS Zenon
+  - MGS Zenos
+  - MGS Zephyr
+  - MGS Zero
+  - MGS Zerro
+  - MGS Zetes
+  - MGS Zoltan
+  - MGS Zoltar
+  - MGS Zorba
+  - MGS Zotico
+femaleFirst:
+  - MGS Acacia
+  - MGS Acantha
+  - MGS Aegea
+  - MGS Aeola
+  - MGS Agalia
+  - MGS Alala
+  - MGS Aldora
+  - MGS Aleni
+  - MGS Anatolia
+  - MGS Andrianna
+  - MGS Anemone
+  - MGS Angeline
+  - MGS Aphrodite
+  - MGS Athena
+  - MGS Athenagora
+  - MGS Calantha
+  - MGS Calida
+  - MGS Cassia
+  - MGS Cyra
+  - MGS Damia
+  - MGS Daphne
+  - MGS Deianira
+  - MGS Delia
+  - MGS Dido
+  - MGS Dimitra
+  - MGS Echo
+  - MGS Elma
+  - MGS Elpida
+  - MGS Emalia
+  - MGS Erianthe
+  - MGS Euphemia
+  - MGS Euphenia
+  - MGS Evadne
+  - MGS Evanthe
+  - MGS Fotini
+  - MGS Galatea
+  - MGS Georgia
+  - MGS Halcyone
+  - MGS Helena
+  - MGS Helia
+  - MGS Hera
+  - MGS Hermione
+  - MGS Isadora
+  - MGS Jocasta
+  - MGS Kalidas
+  - MGS Kaligenia
+  - MGS Kalligenia
+  - MGS Kallirrhoe
+  - MGS Kalonice
+  - MGS Kyriakoula
+  - MGS Lalage
+  - MGS Leandra
+  - MGS Leda
+  - MGS Lycoris
+  - MGS Lyris
+  - MGS Marina
+  - MGS Medora
+  - MGS Melantha
+  - MGS Melina
+  - MGS Melissa
+  - MGS Mona
+  - MGS Neola
+  - MGS Neona
+  - MGS Nerissa
+  - MGS Niobe
+  - MGS Olga
+  - MGS Orthia
+  - MGS Pandora
+  - MGS Pangiota
+  - MGS Pelagia
+  - MGS Penelope
+  - MGS Persephone
+  - MGS Philantha
+  - MGS Philomela
+  - MGS Philomena
+  - MGS Philothea
+  - MGS Phoebe
+  - MGS Rhea
+  - MGS Saphhira
+  - MGS Sofronia
+  - MGS Stamata
+  - MGS Stella
+  - MGS Tassia
+  - MGS Tassula
+  - MGS Tessa
+  - MGS Thaddea
+  - MGS Thalassa
+  - MGS Tharsia
+  - MGS Theodosia
+  - MGS Theophilia
+  - MGS Thetis
+  - MGS Timothea
+  - MGS Toula
+  - MGS Xantippe
+  - MGS Yana
+  - MGS Zenaida
+  - MGS Zenobia
+  - MGS Zephyra
+  - MGS Zoe
+maleLast:
+  - Alexopoulos
+  - Anagyros
+  - Anastassios
+  - Andreadis
+  - Andreos
+  - Andriopoulos
+  - Andronikos
+  - Andros
+  - Androuchelli
+  - Androupolos
+  - Androutsos
+  - Angelis
+  - Angelomatis
+  - Angelos
+  - Anistonopoulos
+  - Anninos
+  - Antikatzides
+  - Antonatos
+  - Antonious
+  - Argyra
+  - Athanasiadis
+  - Athanassiadi
+  - Averoff
+  - Axelos
+  - Bakirdzis
+  - Bakogianni
+  - Balanos
+  - Bazignos
+  - Bessarion
+  - Bizos
+  - Borbokis
+  - Botsaris
+  - Boudouris
+  - Bourgani
+  - Capodistria
+  - Carides
+  - Castriota
+  - Catalactus
+  - Chacoliades
+  - Chakiris
+  - Christodoulos
+  - Clerides
+  - Constandouros
+  - Constantinis
+  - Cosmatos
+  - Costanduros
+  - Costi
+  - Cotsadis
+  - Couloumbis
+  - Coulouris
+  - Deligiannis
+  - Deligiorgis
+  - Delivorias
+  - Dellas
+  - Demertzis
+  - Demosthenous
+  - Dimas
+  - Dimitrakos
+  - Dimitriades
+  - Dimitris
+  - Dimotsios
+  - Diomedes
+  - Dontas
+  - Doxiadis
+  - Dukakis
+  - Duvis
+  - Economakis
+  - Economos
+  - Eliades
+  - Elipandas
+  - Ellinas
+  - Farakos
+  - Fettas
+  - Florakis
+  - Galonopoulas
+  - Gatsioudis
+  - Gatzioudis
+  - Gavrielides
+  - Gennadios
+  - Genovelis
+  - Georghios
+  - Giorgiou
+  - Gislenus
+  - Gizikis
+  - Glezos
+  - Gogos
+  - Gonatas
+  - Goulandris
+  - Gounaris
+  - Gousetti
+  - Grivas
+  - Hagiorgis
+  - Hajiyanni
+  - Halara
+  - Harteros
+  - Iakovakis
+  - Iakovos
+  - Iatrides
+  - Ioannidis
+  - Ioannos
+  - Issigonis
+  - Joakimides
+  - Kairis
+  - Kaklamanakis
+  - Kakoulli
+  - Kalergi
+  - Kallabis
+  - Kalvos
+  - Kanaris
+  - Kanellopoulos
+  - Kaphandaris
+  - Karahi
+  - Karaiskakis
+  - Karamanlis
+  - Karatossos
+  - Karoki
+  - Karyoti
+  - Kasomoulis
+  - Katsantonis
+  - Katsaris
+  - Kenteris
+  - Khadjikyriakos
+  - Klaras
+  - Kochalakos
+  - Koffa
+  - Kokkinos
+  - Kokotis
+  - Kolettis
+  - Kollias
+  - Kolokotronis
+  - Kondylis
+  - Kontoghiorghes
+  - Korais
+  - Korkizoglu
+  - Korres
+  - Koryzis
+  - Koskotas
+  - Kostanopoulos
+  - Kostopulos
+  - Kotaridos
+  - Koukodimos
+  - Koukoudimos
+  - Koumoundouros
+  - Koundouriotis
+  - Kourniakis
+  - Kousoulas
+  - Kozani
+  - Kritopoulos
+  - Kyprianos
+  - Kyriacos
+  - Kyriakos
+  - Kyriazis
+  - Lambrakis
+  - Lambrianos
+  - Lambrinos
+  - Lathouris
+  - Lazardis
+  - Leonidis
+  - Lianis
+  - Logotheti
+  - Louca
+  - Louganis
+  - Louvaris
+  - Lyssarides
+  - Maganas
+  - Magos
+  - Maharis
+  - Makarezos
+  - Makrigiannis
+  - Malachias
+  - Maliagros
+  - Mangakis
+  - Marcoullides
+  - Mardas
+  - Marinatos
+  - Markezinis
+  - Markoulides
+  - Markoullides
+  - Marsolais
+  - Martis
+  - Matacena
+  - Mavridos
+  - Mavrogordatos
+  - Mavrokordatos
+  - Mavromikhalis
+  - Mavros
+  - Mavroudis
+  - Maximos
+  - Melas
+  - Meletoglos
+  - Melikis
+  - Melissanides
+  - Mercouri
+  - Merukides
+  - Messimeris
+  - Metaxas
+  - Michaelis
+  - Mikalis
+  - Mikhalakopoulos
+  - Militis
+  - Mitros
+  - Mitsotakis
+  - Monomachus
+  - Moscopolis
+  - Moumoulidis
+  - Muscouri
+  - Mylonas
+  - Nafpliotis
+  - Negris
+  - Niarkhos
+  - Nikolaides
+  - Onassis
+  - Orphanides
+  - Oxinos
+  - Palamas
+  - Pallis
+  - Panagiatopoulos
+  - Panagiopoulos
+  - Panagiotopos
+  - Panagou
+  - Panagoulias
+  - Panagoulis
+  - Panaotis
+  - Panavoglos
+  - Panayi
+  - Panayides
+  - Panayiotopoulos
+  - Panayiotos
+  - Pangalos
+  - Papadakis
+  - Papademetrios
+  - Papadias
+  - Papadopolos
+  - Papadopoulos
+  - Papadoupolos
+  - Papafagos
+  - Papageorgios
+  - Papagos
+  - Papakostas
+  - Papamichael
+  - Papanastasiou
+  - Papandreou
+  - Papasotiriou
+  - Papatamelis
+  - Papathanassios
+  - Papoulias
+  - Pappas
+  - Parastadidis
+  - Pattakos
+  - Pavlakakis
+  - Pentzopoulos
+  - Pesmazoglos
+  - Pheraios
+  - Philipousis
+  - Pierides
+  - Pietris
+  - Pipinelis
+  - Pittakis
+  - Pittakys
+  - Plastiras
+  - Polides
+  - Polycarpous
+  - Polychroniadis
+  - Polychronios
+  - Polydoros
+  - Polymeropoulos
+  - Polymeros
+  - Polyzos
+  - Popotas
+  - Porpurogenitos
+  - Pratkanis
+  - Prevalakis
+  - Primikynos
+  - Psara
+  - Psaros
+  - Psaroulakis
+  - Rallis
+  - Saltsidis
+  - Samos
+  - Sampras
+  - Sanassis
+  - Sarakatsani
+  - Saraphis
+  - Sardzetakis
+  - Sarris
+  - Sartzetakis
+  - Sarus
+  - Savakis
+  - Savalos
+  - Savvides
+  - Sbokos
+  - Senteildis
+  - Siantos
+  - Sicilianos
+  - Simopoulos
+  - Sirtis
+  - Skandalis
+  - Skiotis
+  - Skouloudis
+  - Skouphas
+  - Solomos
+  - Sophoulis
+  - Souvaltzis
+  - Stamanakis
+  - Stasi
+  - Stavrakis
+  - Stavrianakis
+  - Stavrianos
+  - Stephanopoulos
+  - Stoikos
+  - Strapoudopolos
+  - Stratis
+  - Stroubakos
+  - Taliadoros
+  - Tathouris
+  - Tavoularis
+  - Terzin
+  - Theodopoulos
+  - Theodorakis
+  - Theophanous
+  - Theothanos
+  - Theotokis
+  - Touliatos
+  - Tournikiotis
+  - Tragianopoulos
+  - Trikoupis
+  - Tsakolov
+  - Tsaldaris
+  - Tsatsos
+  - Tsavdaridos
+  - Tsiamita
+  - Tsigakos
+  - Tsikouna
+  - Tsiolakoudi
+  - Tsirigolis
+  - Tsirimokos
+  - Tsolakoglos
+  - Tsoni
+  - Tsouderos
+  - Tsougarakis
+  - Tsoutsouvas
+  - Tsyoma
+  - Tzannetakis
+  - Tzivas
+  - Vadeki
+  - Valaoritis
+  - Valvis
+  - Vaphiadis
+  - Vardakastanis
+  - Varvaressos
+  - Vasdeki
+  - Vasdekis
+  - Vasiliou
+  - Vassilides
+  - Vatatzes
+  - Veloukhiotis
+  - Venizelos
+  - Verdanis
+  - Vergopoulos
+  - Vlakhos
+  - Voulgaris
+  - Voulgaropoulos
+  - Vouris
+  - Xanthos
+  - Xenakis
+  - Xydis
+  - Yannopoulos
+  - Yialouris
+  - Ypsilantis
+  - Zafiropoulos
+  - Zaimis
+  - Zakhariadis
+  - Zarikos
+  - Zervakos
+  - Zervas
+  - Zikos
+  - Zindilis
+  - Zisimides
+  - Zographas
+  - Zoitakis
+  - Zolotas

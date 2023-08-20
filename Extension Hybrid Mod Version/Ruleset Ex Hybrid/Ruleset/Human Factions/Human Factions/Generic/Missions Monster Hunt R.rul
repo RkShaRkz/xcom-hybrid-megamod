@@ -1,0 +1,343 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MONSTER_HUNT: "Strange Life Form"
+      STR_MONSTERS_HUNT_SINGLE_TEMPERATE: "Strange Life Form Alert"
+      STR_MONSTERS_HUNT_FEW_TEMPERATE: "Strange Life Form Alert"
+      STR_MONSTERS_HUNT_SEVERAL_TEMPERATE: "Strange Life Form Alert"
+      STR_MONSTERS_HUNT_PACK_TEMPERATE: "Strange Life Form Alert"
+      STR_MONSTERS_HUNT_LOTS_TEMPERATE: "Strange Life Form Alert"
+      STR_MONSTERS_HUNT_DESCRIPTION: "The Mercenary guild has received news that some goverment or major factions has put up a bounty on the hunt for some unidentified creatures is terrorising their population. These factions and govt require a unit with the firepower to investigate and pacify the problem. Money will be paid upon the completion of the job. Do remember to protect of the documentary crew that's covering this mission. "
+      STR_MONSTERS_HUNT_SINGLE_BRIEFING: "The Mercenary guild has received news that some goverment or major factions has put up a bounty on the hunt for some unidentified creatures is terrorising their population. These factions and govt require a unit with the firepower to investigate and pacify the problem. Money will be paid upon the completion of the job. Do remember to protect of the documentary crew that's covering this mission. "
+      STR_MONSTERS_HUNT_GENERIC_BRIEFING: "The Mercenary guild has received news that some goverment or major factions has put up a bounty on the hunt for some unidentified creatures is terrorising their population. These factions and govt require a unit with the firepower to investigate and pacify the problem. Money will be paid upon the completion of the job. Do remember to protect of the documentary crew that's covering this mission. "
+      STR_MONSTERS_HUNT_LOTS_BRIEFING: "The Mercenary guild has received news that some goverment or major factions has put up a bounty on the hunt for some unidentified creatures is terrorising their population. These factions and govt require a unit with the firepower to investigate and pacify the problem. Money will be paid upon the completion of the job. Do remember to protect of the documentary crew that's covering this mission. "
+alienDeployments:
+  - type: STR_MONSTERS_HUNT_SINGLE_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL  
+    width: 60
+    length: 60
+    height: 18
+    civilians: 3
+    alert: STR_MONSTER_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MONSTERS_HUNT_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      desc: STR_MONSTERS_HUNT_SINGLE_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_MONSTER_HUNT
+    duration: [72, 144]
+    despawnPenalty: 150
+    script: GENERALSPAWNXP1
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+           -
+            []
+  - type: STR_MONSTERS_HUNT_FEW_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL    
+    width: 60
+    length: 60
+    height: 18
+    civilians: 3
+    alert: STR_MONSTER_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MONSTERS_HUNT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_MONSTERS_HUNT_GENERIC_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_MONSTER_HUNT
+    duration: [72, 144]
+    despawnPenalty: 150
+    script: GENERICSPAWN
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_MONSTERS_HUNT_SEVERAL_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL    
+    width: 60
+    length: 60
+    height: 18
+    civilians: 3
+    alert: STR_MONSTER_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MONSTERS_HUNT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_MONSTERS_HUNT_GENERIC_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_MONSTER_HUNT
+    duration: [72, 144]
+    despawnPenalty: 150
+    script: GENERICSPAWN
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_MONSTERS_HUNT_PACK_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    civilians: 3
+    alert: STR_MONSTER_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MONSTERS_HUNT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_MONSTERS_HUNT_GENERIC_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_MONSTER_HUNT
+    duration: [72, 144]
+    despawnPenalty: 150
+    script: GENERICSPAWN
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 14
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_MONSTERS_HUNT_LOTS_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    civilians: 3
+    alert: STR_MONSTER_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MONSTERS_HUNT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_MONSTERS_HUNT_LOTS_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_MONSTER_HUNT
+    duration: [72, 144]
+    despawnPenalty: 150
+    script: GENERICSPAWN
+    data:
+      - alienRank: 5
+        lowQty: 16
+        highQty: 40
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+           -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 9
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_MONSTERS_HUNT_SINGLE_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_WEREWOLF: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_ZOMBIE_STERILE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_SHAMBLER: 6		  
+    waves:
+      - ufo: STR_MONSTERS_HUNT_SINGLE_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_MONSTERS_HUNT_FEW_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_WEREWOLF: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_ZOMBIE_STERILE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_SHAMBLER: 6		
+    waves:
+      - ufo: STR_MONSTERS_HUNT_FEW_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_MONSTERS_HUNT_SEVERAL_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_WEREWOLF: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_ZOMBIE_STERILE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_SHAMBLER: 6		
+    waves:
+      - ufo: STR_MONSTERS_HUNT_SEVERAL_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_MONSTERS_HUNT_PACK_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_WEREWOLF: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_ZOMBIE_STERILE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_SHAMBLER: 6		
+    waves:
+      - ufo: STR_MONSTERS_HUNT_PACK_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_MONSTERS_HUNT_LOTS_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_WEREWOLF: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_ZOMBIE_STERILE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_SHAMBLER: 6
+    waves:
+      - ufo: STR_MONSTERS_HUNT_LOTS_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: MonsterHuntSingleTemperate
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_MONSTERS_HUNT_LOTS_TEMPERATE: 20
+        STR_MONSTERS_HUNT_SINGLE_TEMPERATE: 20
+        STR_MONSTERS_HUNT_FEW_TEMPERATE: 20	
+        STR_MONSTERS_HUNT_SEVERAL_TEMPERATE: 20
+        STR_MONSTERS_HUNT_PACK_TEMPERATE: 20		
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

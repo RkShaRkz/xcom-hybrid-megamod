@@ -1,0 +1,148 @@
+items: 
+  - type: STR_COELACANTH_GAS_CANNON
+    size: 6
+    costBuy: 420000
+    costSell: 340000
+    transferTime: 96
+    weight: 1
+    bigSprite: 974
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 39
+    fireSound: 119
+    compatibleAmmo:
+      - STR_HWP_SOLID_HARPOON_BOLTS
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 0
+  - type: STR_HWP_SOLID_HARPOON_BOLTS
+    size: 0.1
+    costBuy: 200
+    costSell: 100
+    transferTime: 48
+    weight: 1
+    hitSound: 13
+    hitAnimation: 26
+    power: 50
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 0
+    vaporDensity: 15
+  - type: STR_COELACANTH_AQUA_JET
+    size: 6
+    costBuy: 480000
+    costSell: 360000
+    transferTime: 96
+    bigSprite: 973
+    fireSound: 119
+    bulletSprite: 36
+    compatibleAmmo:
+      - STR_HWP_AQUA_JET_MISSILES
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 1
+    underwaterOnly: true
+  - type: STR_HWP_AQUA_JET_MISSILES
+    size: 0.6
+    costBuy: 3000
+    costSell: 2250
+    transferTime: 48
+    power: 90
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    hitSound: 0
+    hitAnimation: 8
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_COELACANTH_GAUSS
+    size: 6
+    costSell: 594000
+    transferTime: 96
+    bigSprite: 967
+    bulletSprite: 11
+    fireSound: 122
+    accuracySnap: 50
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+    battleType: 1
+    # special behaviour here: for a HWP with compatible ammo, setting a clipSize
+    # defines the max ammo for the HWP, and the clipSize on the weapon dictates
+    # how many rounds it adds.
+    compatibleAmmo:
+      - STR_HEAVY_GAUSS_CLIP
+    clipSize: 50
+  - type: STR_DISPLACER_SONIC
+    size: 6
+    costSell: 980000
+    transferTime: 96
+    bigSprite: 570
+    bulletSprite: 8
+    fireSound: 960
+    power: 130
+    damageType: 10
+    hitAnimation: 150
+    hitSound: 980
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    clipSize: 100
+    invWidth: 2
+    invHeight: 3
+    turretType: 3
+    vaporColor: 3
+    vaporDensity: 30
+  - type: STR_DISPLACER_PWT
+    size: 6
+    costSell: 1043000
+    transferTime: 96
+    bigSprite: 987
+    bulletSprite: 38
+    fireSound: 120	
+    compatibleAmmo:
+      - STR_HWP_DISPLACER_PWT
+    accuracyAimed: 100
+    tuAimed: 66
+    battleType: 1
+    fixedWeapon: true
+    waypoints: 9
+    invWidth: 2
+    invHeight: 3
+    turretType: 4
+    underwaterOnly: true
+  - type: STR_HWP_DISPLACER_PWT
+    size: 0.6
+    costSell: 31500
+    transferTime: 48
+    power: 140
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    blastRadius: 11
+    hitSound: 0	
+    hitAnimation: 8
+    vaporColor: 1
+    vaporDensity: 15

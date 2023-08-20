@@ -1,0 +1,96 @@
+lookWeight:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - CS Johan
+  - CS Fredrik
+  - CS Sten
+  - CS Olof
+  - CS Anders
+  - CS Sven
+  - CS Mattias
+  - CS Jesper
+  - CS David
+  - CS Henrik
+  - CS Lars
+  - CS Mikael
+  - CS Andreas
+  - CS Robin
+  - CS Christian
+  - CS Joakim
+  - CS John
+  - CS Linus
+  - CS Mats
+  - CS Tommy
+  - CS Per
+  - CS Sebastian
+  - CS Edvin
+  - CS Bo
+  - CS Leif
+  - CS Jens
+  - CS Jonas  
+  - CS Peter
+  - CS Thomas
+  - CS Erik
+femaleFirst:
+  - CS Christine
+  - CS Annika
+  - CS Isabel
+  - CS Anna
+  - CS Lena
+  - CS Mia
+  - CS Pia
+  - CS Petra
+  - CS Madeleine
+  - CS Johanna
+  - CS Gunilla
+  - CS Eva
+  - CS Ellinor
+  - CS Elisabet
+  - CS Amanda
+  - CS Carin
+  - CS Mikaela
+  - CS Magdalena
+  - CS Ellen
+  - CS Ingrid
+  - CS Inger
+  - CS Linda
+  - CS Karin
+  - CS Maria  
+  - CS Sara
+  - CS Emma  
+  - CS Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

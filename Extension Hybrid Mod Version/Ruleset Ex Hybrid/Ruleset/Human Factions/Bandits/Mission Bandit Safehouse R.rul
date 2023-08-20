@@ -1,0 +1,133 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_HIGHWAY_STATION: "Bandit Safehouse"
+      STR_ALERT_HIGHWAY_STATION: "Bandit Safehouse"
+      STR_MARKER_LOC_HIGHWAY_STATION: "Bandit Safehouse"
+      STR_LOC_HIGHWAY_STATION_BRIEFING: "The Merc Guild has located a safehouse use by the bandit. Raid it and destroy it. Some Goverment Faction will pay you well for the job."  
+alienDeployments:
+  - type: STR_HIGHWAY_STATION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	    
+    alert: STR_ALERT_HIGHWAY_STATION
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_HIGHWAY_STATION_BRIEFING
+    briefing:
+      palette: 6
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_LOC_HIGHWAY_STATION_BRIEFING
+    markerName: STR_MARKER_LOC_HIGHWAY_STATION
+    duration: [25, 50]
+    width: 70
+    length: 70
+    height: 9
+    script: GENERALSPAWNSTATION
+    data:
+      - alienRank: 3
+        lowQty: 6
+        highQty: 12
+        dQty: 6
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_HIGHWAY_STATION
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10
+    waves:
+      - ufo: STR_HIGHWAY_STATION
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: GENERALSPAWNSTATION
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_HIGHWAYHOUSE
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain
+ufos:
+  - type: STR_HIGHWAYHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: RECRUITHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10		 
+missionScripts:
+  - type: highwayStation
+    firstMonth: 2  
+    missionWeights:
+      0:
+        STR_LOC_HIGHWAY_STATION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

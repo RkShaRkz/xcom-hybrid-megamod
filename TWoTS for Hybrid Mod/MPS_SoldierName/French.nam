@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - MPS Alain
+  - MPS Alban
+  - MPS Armand
+  - MPS Benoit
+  - MPS Bruno
+  - MPS Calvin
+  - MPS Christian
+  - MPS Claude
+  - MPS Corentin
+  - MPS Damien
+  - MPS Denis
+  - MPS Emile
+  - MPS Etienne
+  - MPS Ethan
+  - MPS Fabien
+  - MPS Francis
+  - MPS Frederic
+  - MPS Gaston
+  - MPS Gerard
+  - MPS Guillaume
+  - MPS Henri
+  - MPS Hugo
+  - MPS Jacques
+  - MPS Jean
+  - MPS Jules
+  - MPS Leon
+  - MPS Lionel
+  - MPS Louis
+  - MPS Lucas
+  - MPS Mathis
+  - MPS Marc
+  - MPS Marcel
+  - MPS Michel
+  - MPS Nathan
+  - MPS Nicolas
+  - MPS Olivier
+  - MPS Pascal
+  - MPS Paul
+  - MPS Pierre
+  - MPS Philippe
+  - MPS Quentin
+  - MPS Raphael
+  - MPS Remi
+  - MPS Rene
+  - MPS Robert
+  - MPS Roger
+  - MPS Sebastien
+  - MPS Simon
+  - MPS Sylvain
+  - MPS Thibault
+  - MPS Victor
+  - MPS Vincent
+  - MPS Yves
+femaleFirst:
+  - MPS Anne
+  - MPS Audrey
+  - MPS Brigitte
+  - MPS Camille
+  - MPS Catherine
+  - MPS Chantal
+  - MPS Claire
+  - MPS Clara
+  - MPS Cloe
+  - MPS Danielle
+  - MPS Dominique
+  - MPS Elisabeth
+  - MPS Eva
+  - MPS Florence
+  - MPS Francoise
+  - MPS Gaelle
+  - MPS Geraldine
+  - MPS Helene
+  - MPS Isabelle
+  - MPS Ludivine
+  - MPS Lydia
+  - MPS Jacqueline
+  - MPS Jeanne
+  - MPS Julie
+  - MPS Laure
+  - MPS Lina
+  - MPS Lilou
+  - MPS Maelys
+  - MPS Marie
+  - MPS Marion
+  - MPS Marguerite
+  - MPS Maud
+  - MPS Murielle
+  - MPS Nathalie
+  - MPS Odile
+  - MPS Rachel
+  - MPS Rose
+  - MPS Sabine
+  - MPS Sandrine
+  - MPS Stephanie
+  - MPS Sonia
+  - MPS Sylvie
+  - MPS Valerie
+  - MPS Veronique
+  - MPS Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

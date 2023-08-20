@@ -1,0 +1,85 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_FIGHTER: Heavy Fighter
+      STR_VESSEL_FIGHTER_UFOPEDIA: "The most potent of the Ufo fighter class. This ufo is design to attack in packs against of any that stand in its way. "
+ufopaedia:
+  - id: STR_VESSEL_FIGHTER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_FIGHTER
+    text: STR_VESSEL_FIGHTER_UFOPEDIA
+research:
+  - name: STR_VESSEL_FIGHTER
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_FIGHTER
+ufos:
+  - type: STR_VESSEL_FIGHTER
+    size: STR_SMALL
+    modSprite: InterceptionFighter
+    hitBonus: 30
+    damageMax: 350
+    speedMax: 5000
+    avoidBonus: 20
+    accel: 9
+    range: 40
+    power: 55
+    reload: 19
+    score: 200
+    radarRange: 200
+    hunterKillerPercentage: 100
+    huntBehavior: 0
+    huntAlertSound: 89
+    breakOffTime: 400
+    battlescapeTerrainData:
+      name: VES_200
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_BITS_G
+      mapBlocks:
+        - name: VES_200
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [4, 8, 0]
+              - [8, 4, 0]
+alienDeployments:
+  - type: STR_VESSEL_FIGHTER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_FIGHTER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_FIGHTER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_FIGHTER
+    depth: [1, 1]		
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

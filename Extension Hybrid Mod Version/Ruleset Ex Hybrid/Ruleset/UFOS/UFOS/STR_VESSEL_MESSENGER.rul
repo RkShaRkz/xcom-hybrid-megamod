@@ -1,0 +1,144 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_MESSENGER: Messenger  
+      STR_VESSEL_MESSENGER_UFOPEDIA: "The Messenger as what it is name, a courier ufo that's design to race from one base to another with vital and important cargo." 
+ufopaedia:
+  - id: STR_VESSEL_MESSENGER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_MESSENGER
+    text: STR_VESSEL_MESSENGER_UFOPEDIA
+research:
+  - name: STR_VESSEL_MESSENGER
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_MESSENGER
+ufos:
+  - type: STR_VESSEL_MESSENGER
+    size: STR_SMALL
+    modSprite: InterceptionMessenger
+    hitBonus: 20
+    damageMax: 400
+    speedMax: 4400
+    accel: 9
+    power: 55
+    range: 55
+    reload: 27
+    score: 500
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: VES_220
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - U_DISEC2
+      mapBlocks:
+        - name: VES_220
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [9, 9, 0]	
+alienDeployments:
+  - type: STR_VESSEL_MESSENGER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_MESSENGER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_MESSENGER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_MESSENGER	
+    depth: [1, 1]	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

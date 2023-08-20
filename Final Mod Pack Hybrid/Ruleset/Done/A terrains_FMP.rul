@@ -1,0 +1,2217 @@
+﻿terrains:
+  - delete: CULTA
+  - delete: DESERT
+  - delete: FOREST
+  - delete: JUNGLE
+  - delete: MOUNT
+  - delete: POLAR
+  - delete: URBAN
+  - name: URBAN
+    enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN6
+      - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+    script: URBAN
+    mapBlocks: &AnchorVanillaUrban
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR00 #Landingzone Dirt 1
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR01 #Landingzone Dirt 2
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR02 #Landing Zone Grass
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR03 #Road WE
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR04 #Road WE with Garbage
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR05 #Road WE with Bus Station
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR06 #Road WE with Postbox
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR07 #Road NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR08 #Road NS 2 Sewer
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR09 #Road NS Bus Station
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR10 #Road NS Garbage
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR11 #Crossroad Garbage
+        width: 10
+        length: 10
+        groups: 4
+      - name: EXPANDEDTERROR12 #Crossroad Telephon Box
+        width: 10
+        length: 10
+        groups: 4
+      - name: EXPANDEDTERROR13 #2 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR14 #1 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR15 #NS Small Park
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR16 #2 Level Small Appartment
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR17 #2 Level Large Storage and Shop
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR18 #Parking Lot with Shop
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR19 #Large Park with Telephon Box
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR20 #2 Level Slum Buildings with Telephone Box
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR21 #Restaurant
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR22 #2 Level Appartment with Parking Lot
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR23 #4 Level Appartment Building
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR24 #2 Level Family House with Garage
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR25 #2 Level Storage with Office
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR26 #2 Level Double Family House
+        width: 20
+        length: 20
+      - name: SOLBAN39
+        width: 10
+        length: 10
+      - name: SOLBAN40
+        width: 10
+        length: 10
+      - name: CIVURBAN41 # house by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN42 # house by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN43 # house by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN44 # house by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN45 # small park by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN46 # small dump by Civilian
+        width: 10
+        length: 10
+      - name: CIVURBAN47 # tiny store by Civilian
+        width: 10
+        length: 10
+      - name: URBANSANYASKILLPRO00 # school by Sanya Skill Pro
+        width: 40
+        length: 40
+      - name: URBANSANYASKILLPRO01 # restaurant by Sanya Skill Pro
+        width: 20
+        length: 20
+      - name: URBANAMUYS00 # bar by Amuys
+        width: 20
+        length: 20
+  - name: URBAN_DAWN
+    enviroEffects: STR_LAND  
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS_DAWN
+      - URBAN_DAWN
+      - FRNITURE
+      - MADDECOR
+    script: URBAN
+    mapBlocks: *AnchorVanillaUrban
+  - name: INDUSTRIALSLUM
+    enviroEffects: STR_LAND  
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN4
+      - FEMALE_CIVILIAN
+    script: INDUSTRIALSLUM
+    mapBlocks: &AnchorIndustrialSlum
+      - name: INDUSTRIALSLUM00
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM01
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM02
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM03
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM04
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM05
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM06
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM07
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM08
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM09
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM10
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM11
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM12
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM13
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM16
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM17
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM19
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM30
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM31
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM32
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM33
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM34
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM35
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO16
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO17
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUMDIO18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO19
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO20
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO21
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO22
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO23
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMROADWE2
+        width: 10
+        length: 10
+        groups: 2
+      - name: INDUSTRIALSLUMROADNS2
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALSLUMROADCROSS2
+        width: 10
+        length: 10
+        groups: 4
+      - name: INDUSTRIALSLUMROADRAILNS
+        width: 10
+        length: 10
+        groups: 7
+      - name: INDUSTRIALSLUMROADRAILCROSS
+        width: 10
+        length: 10
+        groups: 8
+  - name: COMRCURBAN
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    script: COMRCURBAN
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: [0, 4, 5]
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: [1, 4]
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN21
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN22
+        width: 10
+        length: 10
+      - name: COMRCURBAN23
+        width: 10
+        length: 10
+      - name: COMRCURBAN24
+        width: 20
+        length: 20
+      - name: COMRCURBAN25
+        width: 10
+        length: 10
+      - name: COMRCURBAN26
+        width: 20
+        length: 20
+        groups: [0, 6]
+      - name: COMRCURBAN27
+        width: 20
+        length: 20
+        groups: [0, 7]
+      - name: COMRCURBAN28
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN29
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN30
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN31
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN32
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN33
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN34
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN35
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN36
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN37
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN38
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN39
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN40
+        width: 10
+        length: 10
+      - name: COMRCURBAN41
+        width: 10
+        length: 10
+      - name: COMRCURBAN42
+        width: 20
+        length: 20
+      - name: COMRCURBAN43
+        width: 20
+        length: 20
+      - name: COMRCURBAN44
+        width: 10
+        length: 10
+        groups: [4]
+      - name: COMRCURBAN45
+        width: 10
+        length: 10
+      - name: COMRCURBAN46
+        width: 10
+        length: 10
+      - name: COMRCURBAN47
+        width: 10
+        length: 10
+      - name: COMRCURBAN50
+        width: 10
+        length: 10
+      - name: COMRCURBAN51
+        width: 10
+        length: 10
+  - name: RURAL
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: RURAL
+    mapBlocks: &AnchorRural
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN37
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+      - name: VILBAN56
+        width: 20
+        length: 20
+      - name: VILBAN57
+        width: 10
+        length: 10
+  - name: URBANJUNK
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN_JUNK
+      - FRNITURE
+      - URBITS_JUNK
+      - CULTIVAT
+    script: URBANJUNK
+    mapBlocks: &AnchorUrbanJunk
+      - name: URBANJUNK00
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBANJUNK01
+        width: 10
+        length: 10
+      - name: URBANJUNK02
+        width: 10
+        length: 10
+      - name: URBANJUNK03
+        width: 10
+        length: 10
+      - name: URBANJUNK04
+        width: 10
+        length: 10
+      - name: URBANJUNK05
+        width: 10
+        length: 10
+      - name: URBANJUNK06
+        width: 10
+        length: 10
+      - name: URBANJUNK07
+        width: 10
+        length: 10
+      - name: URBANJUNK08
+        width: 10
+        length: 10
+      - name: URBANJUNK09
+        width: 10
+        length: 10
+      - name: URBANJUNK10
+        width: 10
+        length: 10
+      - name: URBANJUNK11
+        width: 10
+        length: 10
+      - name: URBANJUNK12
+        width: 10
+        length: 10
+      - name: URBANJUNK13
+        width: 10
+        length: 10
+      - name: URBANJUNK14
+        width: 10
+        length: 10
+      - name: URBANJUNK15
+        width: 10
+        length: 10
+      - name: URBANJUNK16
+        width: 10
+        length: 10
+      - name: URBANJUNK17
+        width: 10
+        length: 10
+      - name: URBANJUNK18
+        width: 10
+        length: 10
+      - name: URBANJUNK19
+        width: 10
+        length: 10
+      - name: URBANJUNK20
+        width: 10
+        length: 10
+      - name: URBANJUNK21
+        width: 20
+        length: 20
+      - name: URBANJUNK22
+        width: 20
+        length: 20
+      - name: URBANJUNK23
+        width: 20
+        length: 20
+      - name: URBANJUNK24
+        width: 20
+        length: 20
+      - name: URBANJUNK25
+        width: 20
+        length: 20
+      - name: URBANJUNK26
+        width: 20
+        length: 20
+      - name: URBANJUNK27
+        width: 20
+        length: 20
+      - name: URBANJUNK28
+        width: 20
+        length: 20
+      - name: URBANJUNK29
+        width: 20
+        length: 20
+      - name: URBANJUNK30
+        width: 20
+        length: 20
+      - name: URBANJUNK31
+        width: 20
+        length: 20
+      - name: URBANJUNK32
+        width: 10
+        length: 10
+      - name: URBANJUNK33
+        width: 10
+        length: 10
+      - name: URBANJUNK34
+        width: 10
+        length: 10
+      - name: URBANJUNK35
+        width: 10
+        length: 10
+      - name: URBANJUNK36
+        width: 10
+        length: 10
+      - name: URBANJUNK37
+        width: 20
+        length: 20
+      - name: URBANJUNK38
+        width: 20
+        length: 20
+      - name: URBANJUNK39
+        width: 20
+        length: 20
+      - name: URBANJUNK40
+        width: 20
+        length: 20
+      - name: URBANJUNK41
+        width: 20
+        length: 20
+      - name: URBANJUNK42
+        width: 20
+        length: 20
+      - name: URBANJUNK43
+        width: 20
+        length: 20
+      - name: URBANJUNK44
+        width: 20
+        length: 20
+      - name: URBANJUNK45
+        width: 10
+        length: 10
+      - name: URBANJUNK46
+        width: 10
+        length: 10
+      - name: URBANJUNKDIO_00
+        width: 20
+        length: 20
+      - name: URBANJUNK_ROAD_00a
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANJUNK_ROAD_00b
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANJUNK_ROAD_00c
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANJUNK_ROAD_00d
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBANJUNK_ROAD_01a
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANJUNK_ROAD_01b
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANJUNK_ROAD_01c
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANJUNK_ROAD_01d
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBANJUNK_ROAD_02
+        width: 10
+        length: 10
+        groups: 4
+  - name: URBANNATIVE
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: URBANJUNK
+    civilianTypes:
+      - STR_MALE_CIVILIAN_HUNTER
+      - STR_FEMALE_CIVILIAN_HUNTER
+      - MALE_CIVILIAN
+      - STR_MALE_GREASER
+      - STR_MALE_ENGINEER
+      - STR_FEMALE_CASUAL
+      - STR_HOSTESS
+      - STR_BIKINI_BABE
+      - STR_POLICEMAN
+      - STR_POLICEWOMAN
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_PRIEST
+      - STR_MALE_DOCTOR
+      - STR_FEMALE_DOCTOR
+      - STR_DOGE
+    mapBlocks: *AnchorUrbanJunk
+  - name: CULTA
+    enviroEffects: STR_LAND    
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+      - ROADS
+      - CULTMACHINES
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+      - name: CULT_NEW00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULT_NEW01
+        width: 10
+        length: 10
+      - name: CULT_NEW02
+        width: 10
+        length: 10
+      - name: CULT_NEW03
+        width: 10
+        length: 10
+      - name: CULT_NEW04
+        width: 10
+        length: 10
+      - name: CULT_NEW05
+        width: 10
+        length: 10
+      - name: CULT_NEW06
+        width: 10
+        length: 10
+      - name: CULT_NEW07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULT_NEW08
+        width: 10
+        length: 10
+      - name: CULT_NEW09
+        width: 10
+        length: 10
+      - name: CULT_NEW10
+        width: 10
+        length: 10
+      - name: CULT_NEW11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULT_NEW12
+        width: 10
+        length: 10
+      - name: CULT_NEW13
+        width: 10
+        length: 10
+      - name: CULT_NEW14
+        width: 10
+        length: 10
+      - name: CULT_NEW15
+        width: 10
+        length: 10
+      - name: CULT_NEW16
+        width: 10
+        length: 10
+      - name: CULT_NEW17
+        width: 10
+        length: 10
+      - name: CULT_NEW18
+        width: 10
+        length: 10
+      - name: CULTAFARM00
+        width: 20
+        length: 20
+      - name: CULTAFARM01
+        width: 10
+        length: 10
+      - name: CULTAFARM02
+        width: 10
+        length: 10
+      - name: CULTAFARM03
+        width: 10
+        length: 10
+      - name: CULTAFARM04
+        width: 10
+        length: 10
+      - name: CULTAFARM05
+        width: 10
+        length: 10
+      - name: CULTAFARM06
+        width: 10
+        length: 10
+      - name: CULTAFARM07
+        width: 20
+        length: 20
+      - name: CULTAFARM08
+        width: 20
+        length: 20
+      - name: CULTAFARM09
+        width: 20
+        length: 20
+      - name: CULTAFARM10
+        width: 10
+        length: 10
+      - name: CULTAFARM11
+        width: 10
+        length: 10
+      - name: CULTAFARM12
+        width: 10
+        length: 10
+      - name: CULTAFARM13
+        width: 10
+        length: 10
+      - name: CULTAFARM14
+        width: 20
+        length: 20
+      - name: CULTAFARM15
+        width: 20
+        length: 20
+      - name: CULTAFARM16
+        width: 10
+        length: 10
+      - name: CULTAFARM17
+        width: 20
+        length: 20
+      - name: CULTAFARM18
+        width: 20
+        length: 20
+      - name: CULTAFARM19
+        width: 10
+        length: 10
+      - name: CULTAFARM20
+        width: 10
+        length: 10
+      - name: CULTAFARM21
+        width: 10
+        length: 10
+      - name: CULTAFARM22
+        width: 20
+        length: 20
+      - name: CULTASOL00
+        width: 20
+        length: 20
+      - name: CULTASOL01
+        width: 10
+        length: 10
+      - name: CULTASOL02
+        width: 20
+        length: 20
+      - name: CULTABIG01
+        width: 20
+        length: 20
+      - name: CULTABIG02
+        width: 20
+        length: 20
+      - name: CULTABIG03
+        width: 20
+        length: 20
+      - name: CULTABIG04
+        width: 20
+        length: 20
+      - name: CULTABIG05
+        width: 20
+        length: 20
+      - name: CULTABIG06
+        width: 20
+        length: 20
+      - name: CULTABIG07
+        width: 20
+        length: 20
+      - name: CULTABIG08
+        width: 20
+        length: 20
+      - name: CULT_FINNIK00
+        width: 10
+        length: 10
+      - name: CULTACIV00
+        width: 10
+        length: 10
+      - name: CULTACIV01
+        width: 10
+        length: 10
+      - name: CULTACIV02
+        width: 10
+        length: 10
+      - name: CULTA_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: CULTA_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
+  - name: POLAR
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - POLAR
+    script: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+      - name: POLAR04
+        width: 10
+        length: 10
+      - name: POLAR05
+        width: 10
+        length: 10
+      - name: POLAR06
+        width: 10
+        length: 10
+      - name: POLAR07
+        width: 10
+        length: 10
+      - name: POLAR08
+        width: 10
+        length: 10
+      - name: POLAR09
+        width: 10
+        length: 10
+      - name: POLAR10
+        width: 10
+        length: 10
+      - name: POLAR11
+        width: 10
+        length: 10
+      - name: POLAR12
+        width: 20
+        length: 20
+      - name: POLAR13
+        width: 20
+        length: 20
+      - name: POLAR14
+        width: 10
+        length: 10
+      - name: POLAR15
+        width: 10
+        length: 10
+      - name: POLAR16
+        width: 10
+        length: 10
+      - name: POLAR17
+        width: 20
+        length: 20
+  - name: DESERT
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - DESERT
+      - DESERTBITS
+    script: DESERT
+    mapBlocks: &AnchorVanillaDesert
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERT12
+        width: 10
+        length: 10
+      - name: DESERT13
+        width: 10
+        length: 10
+      - name: DESERT14
+        width: 20
+        length: 20
+      - name: DESERT15
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT16
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT17
+        width: 10
+        length: 10
+  - name: XOPSDESERT_NOCACTI
+    enviroEffects: STR_LAND    
+    startingCondition: STR_DESERT_GEAR
+    mapDataSets:
+      - BLANKS
+      - XOPSDESERT_NOCACTI
+      - DESERTBITS
+    script: DESERT
+    mapBlocks: *AnchorVanillaDesert
+  - name: FOREST
+    mapDataSets:
+      - BLANKS
+      - FOREST
+      - FORESTBITS
+      - ROADS
+    script: FOREST
+    mapBlocks: &AnchorVanillaForest
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: SOLFOREST12
+        width: 10
+        length: 10
+      - name: SOLFOREST13
+        width: 10
+        length: 10
+      - name: SOLFOREST14
+        width: 10
+        length: 10
+      - name: SOLFOREST15
+        width: 10
+        length: 10
+      - name: SOLFOREST16
+        width: 10
+        length: 10
+      - name: SOLFOREST17
+        width: 20
+        length: 20
+      - name: FINNIKFOREST00
+        width: 10
+        length: 10
+      - name: FINNIKFOREST01
+        width: 10
+        length: 10
+      - name: FINNIKFOREST02
+        width: 10
+        length: 10
+      - name: FINNIKFOREST03
+        width: 10
+        length: 10
+      - name: FINNIKFOREST04
+        width: 10
+        length: 10
+      - name: FINNIKFOREST05
+        width: 10
+        length: 10
+      - name: FINNIKFOREST06
+        width: 10
+        length: 10
+      - name: CIVFOREST00
+        width: 20
+        length: 20
+      - name: CIVFOREST01
+        width: 10
+        length: 10
+      - name: CIVFOREST02
+        width: 10
+        length: 10
+      - name: CIVFOREST03
+        width: 20
+        length: 20
+      - name: FOREST_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE01 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE02 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN01 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN02 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
+  - name: FORESTSWAMP
+    enviroEffects: STR_LAND  
+    mapDataSets:
+      - BLANKS
+      - FOREST
+      - FORESTSWAMPBITS
+      - ROADS
+      - FORESTSWAMP
+    script: FOREST
+    mapBlocks: &AnchorForestSwamp
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: SOLFOREST12
+        width: 10
+        length: 10
+      - name: SOLFOREST13
+        width: 10
+        length: 10
+      - name: SOLFOREST14
+        width: 10
+        length: 10
+      - name: SOLFOREST15
+        width: 10
+        length: 10
+      - name: SOLFOREST16
+        width: 10
+        length: 10
+      - name: SOLFOREST17
+        width: 20
+        length: 20
+      - name: FINNIKFOREST00
+        width: 10
+        length: 10
+      - name: FINNIKFOREST01
+        width: 10
+        length: 10
+      - name: FINNIKFOREST02
+        width: 10
+        length: 10
+      - name: FINNIKFOREST03
+        width: 10
+        length: 10
+      - name: FINNIKFOREST04
+        width: 10
+        length: 10
+      - name: FINNIKFOREST05
+        width: 10
+        length: 10
+      - name: FINNIKFOREST06
+        width: 10
+        length: 10
+      - name: CIVFOREST00
+        width: 20
+        length: 20
+      - name: CIVFOREST01
+        width: 10
+        length: 10
+      - name: CIVFOREST02
+        width: 10
+        length: 10
+      - name: CIVFOREST03
+        width: 20
+        length: 20
+      - name: FOREST_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE01 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE02 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN01 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN02 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
+      - name: FORESTSWAMP00
+        width: 10
+        length: 10
+      - name: FORESTSWAMP01
+        width: 20
+        length: 20
+      - name: FORESTSWAMP02
+        width: 20
+        length: 20
+      - name: FORESTSWAMP03
+        width: 10
+        length: 10
+      - name: FORESTSWAMP04
+        width: 10
+        length: 10
+      - name: FORESTSWAMP05
+        width: 10
+        length: 10
+      - name: FORESTSWAMP06
+        width: 10
+        length: 10
+      - name: FORESTSWAMP07
+        width: 20
+        length: 20
+      - name: FORESTSWAMP08
+        width: 20
+        length: 20
+      - name: FORESTSWAMP09
+        width: 10
+        length: 10
+      - name: FORESTSWAMP10
+        width: 20
+        length: 20
+      - name: FORESTSWAMP11
+        width: 20
+        length: 20
+      - name: FORESTSWAMP12
+        width: 20
+        length: 20
+      - name: FORESTSWAMP13
+        width: 10
+        length: 10
+      - name: FORESTSWAMP14
+        width: 10
+        length: 10
+      - name: FORESTSWAMP15
+        width: 10
+        length: 10
+      - name: FORESTSWAMP16
+        width: 10
+        length: 10
+      - name: FORESTSWAMP17
+        width: 20
+        length: 20
+      - name: FORESTSWAMP18
+        width: 20
+        length: 20
+      - name: FORESTSWAMP19
+        width: 10
+        length: 10
+      - name: FORESTSWAMP20
+        width: 20
+        length: 20
+  - name: FOREST_SNOW
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - FOREST_SNOW
+      - FORESTBITS_SNOW
+      - ROADS_SNOW
+    script: FOREST
+    mapBlocks: *AnchorVanillaForest
+  - name: FORESTSWAMP_SNOW
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - FOREST_SNOW
+      - FORESTBITS_SNOW
+      - ROADS_SNOW
+      - FORESTSWAMP_SNOW
+    script: FOREST
+    mapBlocks: *AnchorForestSwamp
+  - name: JUNGLE
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+      - name: JUNGLE12
+        width: 10
+        length: 10
+      - name: JUNGLE13
+        width: 10
+        length: 10
+      - name: JUNGLE14
+        width: 10
+        length: 10
+        groups: 1
+  - name: MOUNT
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - MOUNT
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+  - name: XBASE
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASE2
+      - XCOMWALL
+      - XCOMBITS
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+      - name: XBASE_05
+        width: 10
+        length: 10
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10
+        type: 5
+      - name: XBASS_01
+        width: 10
+        length: 10
+      - name: XBASS_02
+        width: 10
+        length: 10
+      - name: XBASS_03
+        width: 10
+        length: 10
+      - name: XBASS_04
+        width: 10
+        length: 10
+      - name: XBASS_05
+        width: 10
+        length: 10
+      - name: XBASS_06
+        width: 10
+        length: 10
+      - name: XBASS_07
+        width: 10
+        length: 10
+      - name: XBASS_08
+        width: 10
+        length: 10
+      - name: XBASS_09
+        width: 10
+        length: 10
+      - name: XBASS_21
+        width: 10
+        length: 10
+      - name: XBASS_24
+        width: 10
+        length: 10
+  - name: UBASE
+    enviroEffects: STR_LAND    
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+      - U_BASE2
+    mapBlocks: &AnchorAlienBase
+      - name: UBASE_00
+        width: 20
+        length: 20
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+        groups: 3
+      - name: UBASE_01
+        width: 20
+        length: 20
+      - name: UBASE_02
+        width: 20
+        length: 20
+      - name: UBASE_03
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [2, 14, 1]
+      - name: UBASE_04
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: SUBASE_04
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_05
+        width: 10
+        length: 10
+      - name: UBASE_06
+        width: 10
+        length: 10
+      - name: UBASE_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: UBASE_08
+        width: 10
+        length: 10
+      - name: UBASE_09
+        width: 10
+        length: 10
+      - name: UBASE_10
+        width: 10
+        length: 10
+      - name: UBASE_11
+        width: 10
+        length: 10
+      - name: UBASE_12
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_13
+        width: 10
+        length: 10
+      - name: UBASE_14
+        width: 10
+        length: 10
+      - name: UBASE_15
+        width: 20
+        length: 20
+        groups: 4
+      - name: UBASE_19
+        width: 20
+        length: 20
+        type: 7
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [5, 13, 1]
+      - name: UBASE_20
+        width: 20
+        length: 20
+        type: 7
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [12, 12, 1]
+      - name: UBASE_21
+        width: 20
+        length: 20
+      - name: UBASE_22
+        width: 20
+        length: 20
+      - name: UBASE_23
+        width: 20
+        length: 20
+      - name: UBASE_24
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_25
+        width: 10
+        length: 10
+      - name: UBASE_26
+        width: 10
+        length: 10
+      - name: UBASE_27
+        width: 10
+        length: 10
+      - name: UBASE_28
+        width: 10
+        length: 10
+      - name: UBASE_29
+        width: 10
+        length: 10
+      - name: UBASE_30
+        width: 10
+        length: 10
+      - name: UBASE_12
+        width: 10
+        length: 10
+      - name: UBASE_33
+        width: 10
+        length: 10
+      - name: UBASE_34
+        width: 20
+        length: 20
+      - name: UBASE_35
+        width: 20
+        length: 20
+      - name: UBASE_36
+        width: 10
+        length: 10
+      - name: UBASE_37
+        width: 10
+        length: 10
+      - name: UBASE_38
+        width: 10
+        length: 10
+      - name: UBASE_NEW_00
+        width: 20
+        length: 20
+        type: 7
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_NEW_01
+        width: 20
+        length: 20
+      - name: UBASE_NEW_02
+        width: 20
+        length: 20
+      - name: UBASE_NEW_03
+        width: 20
+        length: 20
+      - name: UBASE_NEW_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_NEW_05
+        width: 10
+        length: 10
+      - name: UBASE_NEW_06
+        width: 10
+        length: 10
+      - name: UBASE_NEW_07
+        width: 10
+        length: 10
+        groups: 4
+      - name: UBASE_NEW_08
+        width: 10
+        length: 10
+      - name: UBASE_NEW_09
+        width: 10
+        length: 10
+      - name: UBASE_NEW_10
+        width: 10
+        length: 10
+      - name: UBASE_NEW_11
+        width: 10
+        length: 10
+      - name: TUBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 6
+      - name: UBASE_NEW_12
+        width: 10
+        length: 10
+      - name: UBASE_NEW_13
+        width: 10
+        length: 10
+      - name: UBASE_NEW_14
+        width: 10
+        length: 10
+      - name: TUBASE_15
+        width: 20
+        length: 20
+        type: 7
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [10, 17, 1]
+      - name: TUBASE_03
+        width: 20
+        length: 20
+        type: 7
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [12, 6, 1]
+      - name: VUBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: 2UBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: 3UBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: XUBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+      - name: YYUBASE_04
+        width: 10
+        length: 10
+        type: 6
+        groups: 2
+        revealedFloors: 1
+      - name: PUBASE_06
+        width: 10
+        length: 10
+      - name: PUBASE_10
+        width: 10
+        length: 10
+      - name: UBASE_00b
+        width: 20
+        length: 20
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+        groups: 3
+      - name: UBASE_02b
+        width: 20
+        length: 20
+      - name: UBASE_04b
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_05b
+        width: 10
+        length: 10
+      - name: UBASE_06b
+        width: 10
+        length: 10
+      - name: UBASE_06c
+        width: 10
+        length: 10
+      - name: UBASE_07b
+        width: 10
+        length: 10
+        groups: 1
+      - name: UBASE_08b
+        width: 10
+        length: 10
+      - name: UBASE_09b
+        width: 10
+        length: 10
+      - name: UBASE_09c
+        width: 10
+        length: 10
+      - name: UBASE_09d
+        width: 10
+        length: 10
+      - name: UBASE_12b
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM_115:
+            - [4, 4, 0]
+      - name: UBASE_16
+        width: 10
+        length: 10
+      - name: UBASE_17
+        width: 10
+        length: 10
+      - name: UBASE_17b
+        width: 10
+        length: 10
+      - name: UBASE_00
+        width: 20
+        length: 20
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+        groups: 3
+      - name: UBASE_01b
+        width: 20
+        length: 20
+      - name: UBASE_41
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [15, 9, 1]
+          STR_ELERIUM_115:
+            - [3, 9, 1]
+  - name: GOLDBASE
+    enviroEffects: STR_LAND  
+    mapDataSets:
+      - BLANKS
+      - U_BASEGOLD
+      - U_WALL02GOLD
+      - U_PODSGOLD
+      - BRAIN
+      - U_BASE2GOLD
+    mapBlocks: *AnchorAlienBase

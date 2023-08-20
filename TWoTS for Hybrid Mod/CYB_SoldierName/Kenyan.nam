@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - CS Abasi
+  - CS Adin
+  - CS Akili
+  - CS Amali
+  - CS Amaziah
+  - CS Ashura
+  - CS Chege
+  - CS Chilemba
+  - CS Chitundu
+  - CS Chiumbo
+  - CS Darweshi
+  - CS Etana
+  - CS Fadhili
+  - CS Feruzi
+  - CS Gachora
+  - CS Gacoki
+  - CS Gakere
+  - CS Gakuru
+  - CS Gatete
+  - CS Gathee
+  - CS Gathii
+  - CS Gatimu
+  - CS Gethii
+  - CS Gichinga
+  - CS Gicicio
+  - CS Gikuyu
+  - CS Githinji
+  - CS Githogori
+  - CS Gitonga
+  - CS Haji
+  - CS Hala
+  - CS Hamisi
+  - CS Hiuhu
+  - CS Ikinya
+  - CS Iregi
+  - CS Irungu
+  - CS Ita
+  - CS Itimu
+  - CS Jaramogi
+  - CS Jalil
+  - CS Jimiyu
+  - CS Jomo
+  - CS Jamil
+  - CS Juahar
+  - CS Jimiyu
+  - CS Jina
+  - CS Jirani
+  - CS Jomo
+  - CS Kafil
+  - CS Kagai
+  - CS Kagunda
+  - CS Kahiga
+  - CS Kairu
+  - CS Kamau
+  - CS Kamili
+  - CS Kanja
+  - CS Kanoro
+  - CS Karani
+  - CS Karega
+  - CS Kariuki
+  - CS Kereenyaga
+  - CS Kiambiroiro
+  - CS Kianjahe
+  - CS Kiano
+  - CS Kianyandaarwa
+  - CS Kiara
+  - CS Kifimbo
+  - CS Kihara
+  - CS Kihiga
+  - CS Kimathi
+  - CS Kimotho
+  - CS Kinoro
+  - CS Kinyua
+  - CS Kioi
+  - CS Kirimi
+  - CS Kirinyaga
+  - CS Kithingi
+  - CS Kiwonto
+  - CS Koigi
+  - CS Kuguru
+  - CS Kwasi
+  - CS Lipapwiche
+  - CS Lisimba
+  - CS Lusala
+  - CS Macaria
+  - CS Maina
+  - CS Maitho
+  - CS Makalani
+  - CS Makori
+  - CS Mathaathi
+  - CS Matu
+  - CS Matunde
+  - CS Maundu
+  - CS Mbogo
+  - CS Mbui
+  - CS Miano
+  - CS Migwi
+  - CS Mokabi
+  - CS Morani
+  - CS Mosi
+  - CS Muenda
+  - CS Muga
+  - CS Mugendi
+  - CS Mugi
+  - CS Mugo
+  - CS Muiru
+  - CS Muiruri
+  - CS Mukanda
+  - CS Mukiri
+  - CS Mukuru
+  - CS Munene
+  - CS Munoru
+  - CS Muraguri
+  - CS Murathi
+  - CS Muraya
+  - CS Muriithi
+  - CS Murimi
+  - CS Muriu
+  - CS Muriuki
+  - CS Muroki
+  - CS Muruthi
+  - CS Mutahi
+  - CS Mutegi
+  - CS Mutemi
+  - CS Muthee
+  - CS Muthemba
+  - CS Muthengi
+  - CS Mutheru
+  - CS Muthomi
+  - CS Muthuri
+  - CS Mutira
+  - CS Mutiri
+  - CS Mutitu
+  - CS Mutonyi
+  - CS Mutua
+  - CS Muturi
+  - CS Muugi
+  - CS Mwaka
+  - CS Mwangi
+  - CS Mwara
+  - CS Mwarania
+  - CS Mwaria
+  - CS Mwenda
+  - CS Nangila
+  - CS Nangwaya
+  - CS Ndegwa
+  - CS Ndemi
+  - CS Nderu
+  - CS Ndwiga
+  - CS Ngare
+  - CS Ngigi
+  - CS Ngumo
+  - CS Njama
+  - CS Njanu
+  - CS Njata
+  - CS Njau
+  - CS Njiraini
+  - CS Njiru
+  - CS Njogu
+  - CS Njora
+  - CS Njowga
+  - CS Njururi
+  - CS Nyachae
+  - CS Nyaga
+  - CS Nyamu
+  - CS Nyatui
+  - CS Nyoike
+  - CS Obama
+  - CS Obuya
+  - CS Ochieng
+  - CS Odikinyi
+  - CS Odinga
+  - CS Odonga
+  - CS Odour
+  - CS Ohon
+  - CS Ojwang
+  - CS Okello
+  - CS Okeyo
+  - CS Okoth
+  - CS Oluoch
+  - CS Omariba
+  - CS Omondi
+  - CS Omwancha
+  - CS Ongweng
+  - CS Onindo
+  - CS Onkwani
+  - CS Onyango
+  - CS Opiyo
+  - CS Osogo
+  - CS Othiambo
+  - CS Otenio
+  - CS Owino
+  - CS Owiti
+  - CS Owuor
+  - CS Pili
+  - CS Radhi
+  - CS Riitho
+  - CS Ruguru
+  - CS Ruhiu
+  - CS Runo
+  - CS Sabra
+  - CS Safi
+  - CS Shamim
+  - CS Shani
+  - CS Simba
+  - CS Sokoro
+  - CS Thabiti
+  - CS Tumaini
+  - CS Tuwile
+  - CS Wachiru
+  - CS Waga
+  - CS Waithaka
+  - CS Waitimu
+  - CS Waiyaki
+  - CS Wamai
+  - CS Wambua
+  - CS Wamugunda
+  - CS Wamukota
+  - CS Wamwara
+  - CS Wangombe
+  - CS Wangondu
+  - CS Wanjala
+  - CS Wanjohi
+  - CS Wanyanga
+  - CS Waruhiu
+  - CS Warui
+  - CS Waweru
+  - CS Wekesa
+femaleFirst:
+  - CS Aaliyah
+  - CS Adhra
+  - CS Adila
+  - CS Adimu
+  - CS Adin
+  - CS Adla
+  - CS Afaafa
+  - CS Afifa
+  - CS Afifah
+  - CS Afiya
+  - CS Afrika
+  - CS Afya
+  - CS Ahadi
+  - CS Aida
+  - CS Ainra
+  - CS Ajia
+  - CS Akello
+  - CS Akila
+  - CS Akilah
+  - CS Akili
+  - CS Aliya
+  - CS Almasi
+  - CS Aluna
+  - CS Amali
+  - CS Amana
+  - CS Amaziah
+  - CS Amina
+  - CS Aminah
+  - CS Aminali
+  - CS Aminifu
+  - CS Amira
+  - CS Amne
+  - CS Angavu
+  - CS Anisun
+  - CS Arafa
+  - CS Arifa
+  - CS Arusi
+  - CS Asali
+  - CS Asatira
+  - CS Asha
+  - CS Ashura
+  - CS Asilia
+  - CS Asiya
+  - CS Asma
+  - CS Asmahani
+  - CS Asumini
+  - CS Asya
+  - CS Awena
+  - CS Aza
+  - CS Aziza
+  - CS Badriya
+  - CS Bahati
+  - CS Bahiya
+  - CS Barke
+  - CS Basha
+  - CS Bashaam
+  - CS Bashira
+  - CS Basma
+  - CS Basmah
+  - CS Batuuli
+  - CS Baya
+  - CS Bayyina
+  - CS Bebi
+  - CS Bia
+  - CS Bimbaya
+  - CS Bimdogo
+  - CS Bimkubwa
+  - CS Bimnono
+  - CS Bishara
+  - CS Bitisururu
+  - CS Bititi
+  - CS Biubwa
+  - CS Buqisi
+  - CS Busara
+  - CS Bushira
+  - CS Chaniya
+  - CS Chausiku
+  - CS Chiku
+  - CS Chuki
+  - CS Dabiku
+  - CS Dafina
+  - CS Dalila
+  - CS Dalili
+  - CS Damisi
+  - CS Dhakiya
+  - CS Dhambizao
+  - CS Dhuriya
+  - CS Dodo
+  - CS Ducha
+  - CS Duni
+  - CS Durah
+  - CS Durra
+  - CS Eidi
+  - CS Eshe
+  - CS Etana
+  - CS Fadhila
+  - CS Fadhili
+  - CS Fadiya
+  - CS Fadari
+  - CS Fahima
+  - CS Fahimah
+  - CS Faida
+  - CS Faika
+  - CS Faiza
+  - CS Faizah
+  - CS Fanaka
+  - CS Fanikia
+  - CS Faraja
+  - CS Farashuu
+  - CS Farida
+  - CS Farisi
+  - CS Fasaha
+  - CS Fathiya
+  - CS Fatima
+  - CS Fatuma
+  - CS Fauziya
+  - CS Feruzi
+  - CS Fila
+  - CS Firdawsi
+  - CS Firyali
+  - CS Fujo
+  - CS Furaha
+  - CS Gasira
+  - CS Ghalyela
+  - CS Ghanima
+  - CS Gharibuu
+  - CS Gheche
+  - CS Ghinjo
+  - CS Ghipe
+  - CS Habeebah
+  - CS Habiba
+  - CS Habibah
+  - CS Hadhi
+  - CS Hadiya
+  - CS Hafidha
+  - CS Hafsa
+  - CS Hafsah
+  - CS Haiba
+  - CS Haifa
+  - CS Hakika
+  - CS Hakima
+  - CS Hala
+  - CS Halili
+  - CS Halima
+  - CS Halisi
+  - CS Hamida
+  - CS Hanaa
+  - CS Hanifa
+  - CS Hanuni
+  - CS Haoniyao
+  - CS Harbuu
+  - CS Hartha
+  - CS Hasanati
+  - CS Hashiki
+  - CS Hasijna
+  - CS Hasina
+  - CS Hasnaa
+  - CS Hawa
+  - CS Hawla
+  - CS Hazina
+  - CS Hediye
+  - CS Hiari
+  - CS Hiba
+  - CS Hidaya
+  - CS Himidi
+  - CS Hisani
+  - CS Huruma
+  - CS Ibtisam
+  - CS Ikinya
+  - CS Ilham
+  - CS Inaya
+  - CS Intisar
+  - CS Ita
+  - CS Itidal
+  - CS Jaha
+  - CS Jahi
+  - CS Jamila
+  - CS Jana
+  - CS Jauhar
+  - CS Jina
+  - CS Jirani
+  - CS Johanna
+  - CS Johari
+  - CS Jokha
+  - CS Jumapili
+  - CS Juwayria
+  - CS Kabisa
+  - CS Kadija
+  - CS Kainda
+  - CS Kamaria
+  - CS Kamili
+  - CS Kanai
+  - CS Kanika
+  - CS Karama
+  - CS Karima
+  - CS Karimu
+  - CS Kaweria
+  - CS Kesi
+  - CS Khadija
+  - CS Kibibi
+  - CS Kifimbo
+  - CS Kijakazi
+  - CS Kinaya
+  - CS Kioni
+  - CS Kipenzi
+  - CS Kisima
+  - CS Kito
+  - CS Lamia
+  - CS Latifa
+  - CS Latifah
+  - CS Latifu
+  - CS Layla
+  - CS Lela
+  - CS Lila
+  - CS Madaha
+  - CS Madiha
+  - CS Maisha
+  - CS Makena
+  - CS Makini
+  - CS Malaika
+  - CS Malia
+  - CS Malika
+  - CS Malkia
+  - CS Mariamu
+  - CS Marini
+  - CS Marjani
+  - CS Mashavu
+  - CS Masika
+  - CS Maskini
+  - CS Maulidi
+  - CS Merah
+  - CS Mila
+  - CS Mosi
+  - CS Muna
+  - CS Munira
+  - CS Murua
+  - CS Mwajuma
+  - CS Mwamini
+  - CS Mwasaa
+  - CS Nabila
+  - CS Nadra
+  - CS Nafula
+  - CS Naima
+  - CS Najia
+  - CS Najma
+  - CS Nana
+  - CS Ndege
+  - CS Neema
+  - CS Nena
+  - CS Ngina
+  - CS Nia
+  - CS Niara
+  - CS Njeri
+  - CS Nuha
+  - CS Nura
+  - CS Nuru
+  - CS Paka
+  - CS Panya
+  - CS Pasua
+  - CS Pili
+  - CS Rabia
+  - CS Radhi
+  - CS Rahma
+  - CS Ramla
+  - CS Raziya
+  - CS Reem
+  - CS Rehema
+  - CS Rim
+  - CS Rukiya
+  - CS Ruqayah
+  - CS Saada
+  - CS Sabiha
+  - CS Sabra
+  - CS Sadaka
+  - CS Sadiki
+  - CS Saida
+  - CS Sakina
+  - CS Sala
+  - CS Salama
+  - CS Salima
+  - CS Samiha
+  - CS Samira
+  - CS Sanaa
+  - CS Sanura
+  - CS Sauda
+  - CS Shahida
+  - CS Shamim
+  - CS Shani
+  - CS Sharifa
+  - CS Shawana
+  - CS Shukura
+  - CS Siham
+  - CS Sikudhani
+  - CS Siri
+  - CS Sisya
+  - CS Siti
+  - CS Subira
+  - CS Suhaila
+  - CS Tabia
+  - CS Tamasha
+  - CS Tatu
+  - CS Tawa
+  - CS Tuhfa
+  - CS Tumaini
+  - CS Wambui
+  - CS Waseme
+  - CS Yumna
+  - CS Pusra
+  - CS Zahra
+  - CS Zaida
+  - CS Zaina
+  - CS Zainabu
+  - CS Zakiya
+  - CS Zalika
+  - CS Zarifa
+  - CS Zarina
+  - CS Zawadi
+  - CS Zera
+  - CS Zulaykha
+  - CS Zulekha
+  - CS Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

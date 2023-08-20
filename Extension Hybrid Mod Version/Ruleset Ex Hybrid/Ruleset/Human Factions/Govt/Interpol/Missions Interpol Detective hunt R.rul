@@ -1,0 +1,207 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_LOC_DETECTIVE_HUNT: "Interpol Detective Hunt"
+      STR_ALERT_DETECTIVE_HUNT: "Interpol Detective Hunt"
+      STR_LOC_DETECTIVE_HUNT_TITLE: "Interpol Detective Hunt"
+      STR_MARKER_LOC_DETECTIVE_HUNT: "Interpol Detective Hunt"
+      STR_LOC_DETECTIVE_HUNT_BRIEFING: "The Merc Guild has picked up information of some corrupt Interpol police or Govt official in town nearby. Some wealthy faction wants him eliminated. However, the police offical may have some corrupted friends with him. Wipe them out."	  
+alienDeployments:
+  - type: STR_LOC_DETECTIVE_HUNT
+    alert: STR_ALERT_DETECTIVE_HUNT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_DETECTIVE_HUNT_BRIEFING
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false 
+      title: STR_LOC_DETECTIVE_HUNT_TITLE
+      desc: STR_LOC_DETECTIVE_HUNT_BRIEFING
+    markerName: STR_MARKER_LOC_DETECTIVE_HUNT
+    duration: [25, 50]
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      
+    width: 60
+    length: 60
+    height: 9
+    script: DETECTIVE_HUNT
+    terrains:
+      - URBAN
+    data:
+      - alienRank: 1
+        lowQty: 2
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 8
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+    reinforcements:
+      - type: firstwave
+        minTurn: 7
+        maxTurn: 13
+        maxRuns: 1
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            lowQty: 8
+            highQty: 12
+            dQty: 0
+            itemSets:
+              -
+                []
+alienMissions:
+  - type: STR_LOC_DETECTIVE_HUNT
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MEGAPOL: 20
+          STR_MEGAPOL_LATE: 20
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 20
+          STR_GOVT_ELITES: 20
+          STR_GOVT_INDUSTRIAL: 20		  
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: DETECTIVE_HUNT
+    commands:
+    - type: resize
+      size: [6,6,12]
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+      terrain: URBANROADSNEW	
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+      terrain: URBANROADSNEW		
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]	
+      terrain: URBANROADSNEW		  
+    - type: addBlock
+      size: [1,1,5]
+      executionChances: 100
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain  
+        groups: 1
+      - type: middle
+        size: [1,1,5]
+        terrain: DTAVERNX
+    - type: addUFO
+      UFOName: STR_VESSEL_POL_PATROL
+    - type: fillArea
+      randomTerrain: [SLUMURBAN,URBAN,COMRCURBAN1X]		
+missionScripts:
+  - type: technocracyDetectiveHunt
+    missionWeights:
+      0:
+        STR_LOC_DETECTIVE_HUNT: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 1
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

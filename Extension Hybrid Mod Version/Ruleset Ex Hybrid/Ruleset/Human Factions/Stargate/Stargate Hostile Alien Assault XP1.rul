@@ -1,0 +1,282 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVILLAGE: "Stargate Command Cheyenne Mountain Complex"
+      STR_CRAZED_ANTMEN_VILLAGE: "Stargate Hostile Alien Assault"
+      STR_ALERT_CRAZED_ANTMEN_VILLAGE: "Stargate Hostile Alien Assault"
+      STR_CRAZED_ANTMEN_VILLAGE_DESCRIPTION: "This is Stargate Command. Our gate has gated into a hostile gate address with an army of aliens intending on invading through the gate. We don't know when the hostile gate will dial in. We need a team to urgently reinforce and even take the fight to them. Standard payment upon job completion."
+      STR_CRAZED_ANTMEN_VILLAGE_BRIEFING: "This is Stargate Command. Our gate has gated into a hostile gate address with an army of aliens intending on invading through the gate. We don't know when the hostile gate will dial in. We need a team to urgently reinforce and even take the fight to them. Standard payment upon job completion."
+      STR_CRAZED_ANTMEN_VILLAGE_COMPLETE: "Stargate Hostile Alien Assault "
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVILLAGE
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 		
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    duration: [25, 10000000000000]		
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_CRAZED_ANTMEN_VILLAGE
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_CRAZED_ANTMEN_VILLAGE_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_CRAZED_ANTMEN_VILLAGE
+    randomRace: [STR_CEREBREAL,STR_CEREBREAL]  
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    width: 60
+    length: 80
+    height: 16
+    shade: 9
+    alert: STR_ALERT_CRAZED_ANTMEN_VILLAGE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CRAZED_ANTMEN_VILLAGE_DESCRIPTION
+    unlockedResearch: STR_ANTMEN_COMPLETE
+    terrains:
+      - SHOGG_CAVE_SETTLEMENT
+    script: SHOGG_CAVE_SETTLEMENTX
+    music:
+      - GMTACTIC	
+    briefing:
+      background: BACK04.SCR
+      textOffset: -16
+      showTarget: false
+    markerName: STR_CRAZED_ANTMEN_VILLAGE
+    duration: [200, 300]
+    despawnPenalty: 100
+    enviroEffects: STR_LANDARMOURTOLAND
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 9
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_CRAZED_ANTMEN_VILLAGE
+    #interruptResearch: STR_CRAZED_ANTMEN_VILLAGE_COMPLETE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_BLACKMARKETCONTACT: 35
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVILLAGE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:	  
+  - type: SHOGG_CAVE_SETTLEMENTX
+    commands:
+    - type: addBlock
+      groups: 2
+      terrain: STARGATECAVEENTRY
+    - type: addBlock # 20x20 blocks in center of village
+      rects:
+        - [1, 1, 4, 4]
+      executionChances: 50
+      executions: 2
+      size: 2
+      groups: 0
+    - type: addBlock # 20x20 blocks in center of village
+      rects:
+        - [1, 1, 4, 4]
+      executionChances: 50
+      size: 2
+      groups: 0
+    - type: fillArea # fill in center of village
+      rects:
+        - [1, 1, 4, 4]
+      groups: 0
+      #terrain: CULTA
+    - type: addBlock # north center
+      rects:
+        - [2, 0 , 2, 1]
+      size: [2, 1, 4]
+      groups: 1
+    - type: fillArea # north center
+      rects:
+        - [1, 0, 4, 1]
+      groups: 1
+    - type: addBlock # east center
+      rects:
+        - [5, 2 , 1, 2]
+      size: [1, 2, 4]
+      groups: 2
+    - type: fillArea # east center
+      rects:
+        - [5, 1, 1, 4]
+      groups: 2
+    - type: addBlock # south center
+      rects:
+        - [2, 5 , 2, 1]
+      size: [2, 1, 4]
+      groups: 3
+    - type: fillArea # south center
+      rects:
+        - [1, 5, 4, 1]
+      groups: 3
+    - type: addBlock # west center
+      rects:
+        - [0, 2 , 1, 2]
+      size: [1, 2, 4]
+      groups: 4
+    - type: fillArea # west center
+      rects:
+        - [0, 1, 1, 4]
+      groups: 4
+    - type: fillArea # north west
+      rects:
+        - [0, 0, 1, 1]
+      groups: 5
+    - type: fillArea # north east
+      rects:
+        - [5, 0, 1, 1]
+      groups: 6
+    - type: fillArea # south east
+      rects:
+        - [5, 5, 1, 1]
+      groups: 7
+    - type: fillArea # south west
+      rects:
+        - [0, 5, 1, 1]
+      groups: 8
+    - type: fillArea
+      terrain: STARGATECAVEPASSAGE
+research:		
+  - name: STR_ANTMEN_COMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true  
+missionScripts:
+  - type: crazedAntmenVillage
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_CRAZED_ANTMEN_VILLAGE: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: hosalienassa
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_STARGATE: true
+      STR_ANTMEN_COMPLETE: false	  
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

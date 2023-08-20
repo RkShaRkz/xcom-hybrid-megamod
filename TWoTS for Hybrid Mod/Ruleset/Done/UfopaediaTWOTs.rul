@@ -1,0 +1,1159 @@
+ufopaedia:
+  - delete: STR_COELACANTH_GAUSS
+  - delete: HALLUCINOID_ARMOR
+  - delete: XARQUID_ARMOR   
+#moving vanilla
+  #- id: STR_POSIDON
+  #  text: STR_POSIDON_UFOPEDIA_NEW
+  #  image_id: POSEIDONUPIMAGE	
+  #  requires:
+  #   - STR_POSIDON
+  #  type_id: 11
+  #  section: STR_XCOM_CRAFT_ARMAMENT_TWOTS	 
+  - id: STR_ALIEN_RETALIATION_S
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ALIEN_RETALIATION_S
+    text: STR_ALIEN_RETALIATION_S_UFOPEDIA
+    text_width: 308
+    image_id: UP105.BDY
+#ADDING NEW
+  - id: STR_INTRODUC
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_INTRODUC_UFOPEDIA
+    image_id: INTROUPIMAGE
+    listOrder: 1
+    text_width: 308
+  - id: STR_OCEAN1
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    pages:
+     - title: STR_OCEAN1
+       text: STR_OCEAN1_UFOPEDIA
+     - title: STR_OCEAN1_1
+       text: STR_OCEAN1_UFOPEDIA_1
+    image_id: AURORAUPIMAGE
+    listOrder: 2
+  - id: STR_OCEAN2
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN2_UFOPEDIA
+    image_id: GULPUPIMAGE
+    listOrder: 3
+  - id: STR_OCEAN3
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN3_UFOPEDIA
+    image_id: BURNUPIMAGE
+    listOrder: 4
+  - id: STR_OCEAN4
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN4_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 5
+  - id: STR_OCEAN5
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN5_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 6
+  - id: STR_OCEAN6
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN6_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 7
+  - id: STR_OCEAN7
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN7_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 8
+  - id: STR_OCEAN8
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN8_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 9
+  - id: STR_OCEAN9
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OCEAN9_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 10
+  - id: STR_HOTKEYS_GEOSCAPE
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_HOTKEYS_GEOSCAPE_UFOPEDIA
+    image_id: PULT2IMAGE
+    listOrder: 11
+  - id: STR_HOTKEYS_BATTLESCAPE
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_HOTKEYS_BATTLESCAPE_UFOPEDIA
+    image_id: PULT1IMAGE
+    listOrder: 12
+  - id: STR_SPECWEAP
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SPECWEAP_DUMMY
+    text: STR_SPECWEAP_UFOPEDIA
+    image_id: SPECWEAPUPIMAGE
+    listOrder: 48
+  - id: STR_OLD_WEAPONS
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_OLD_WEAPONS_UFOPEDIA
+    image_id: OLDWEAPUPIMAGE
+    requires:
+      - STR_OLD_WEAPONS
+    listOrder: 49
+  - id: STR_SORESO_DUMMY
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SORESO_DUMMY
+    text: STR_SORESO_UFOPEDIA
+    image_id: USO2UPIMAGE
+    listOrder: 13
+  - id: STR_SORESO_WRECK
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SORESO_WRECK
+    text: STR_SORESO_WRECK_UFOPEDIA
+    image_id: BLACKBOXUPIMAGE
+    listOrder: 14
+  - id: STR_ALIEN_WRECK
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ALIEN_WRECK
+    text: STR_ALIEN_WRECK_UFOPEDIA
+    image_id: ALIENWRECKUPIMAGE
+    listOrder: 15
+  - id: STR_SUPCAV_AMMO_DUMMY
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SUPCAV_AMMO_DUMMY
+    text: STR_SUPCAV_AMMO_UFOPEDIA
+    image_id: SCAMMOUPIMAGE
+    listOrder: 55
+  - id: STR_H_ACID_WEAPONS
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_H_ACID_WEAPONS
+    text: STR_H_ACID_WEAPONS_UFOPEDIA
+    image_id: GREENUPIMAGE
+    listOrder: 56
+  - id: STR_PLASTIC_WEAPONS
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_PLASTIC_WEAPONS
+    text: STR_PLASTIC_WEAPONS_UFOPEDIA
+    image_id: HEAVYWEAPUPIMAGE
+    listOrder: 12580
+  - id: STR_ZRBITE_AMMO_DUMMY
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_ZRBITE_AMMO_DUMMY
+    text: STR_ZRBITE_AMMO_UFOPEDIA
+    image_id: YELLOWUPIMAGE
+    listOrder: 58
+  - id: STR_MUTATIONS
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_MUTATIONS
+    text: STR_MUTATIONS_UFOPEDIA
+    image_id: UPMUTA
+    listOrder: 57
+#    text_width: 308
+  - id: STR_ALIEN_CODES
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ALIEN_CODES
+    text: STR_ALIEN_CODES_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_CLONE_CHAMBER
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_CLONE_CHAMBER
+    text: STR_CLONE_CHAMBER_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_DOWN_TO_ABYSS
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_DOWN_TO_ABYSS
+    text: STR_DOWN_TO_ABYSS_UFOPEDIA
+    image_id: TLETHCITYUPIMAGE
+    text_width: 308
+  - id: STR_MC_LAB_PRE
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_MC_LAB_PRE
+    text: STR_MC_LAB_PRE_UFOPEDIA
+    image_id: BRAINUPIMAGE
+    listOrder: 252
+    text_width: 308
+  - id: STR_MC_BIO
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_MC_BIO
+    text: STR_MC_BIO_UFOPEDIA
+    image_id: UP105.BDY
+    listOrder: 256
+    text_width: 308
+  #- id: STR_MC_SOLDIERS
+  #  type_id: 10
+  #  section: STR_UFO_COMPONENTS_TWOTS
+  #  requires:
+  #    - STR_MC_SOLDIERS
+  #  text: STR_MC_SOLDIERS_UFOPEDIA
+  #  image_id: UP105.BDY
+  #  listOrder: 254
+  #  text_width: 308
+    
+#Crafts    
+  #- id: STR_POSEIDON
+  #  type_id: 11
+  #  section: STR_XCOM_CRAFT_ARMAMENT_TWOTS
+  #  image_id: POSEIDONUPIMAGE
+  #  text: STR_POSEIDON_UFOPEDIA
+  #  listOrder: 102
+  #  requires:
+  #    - STR_POSEIDON
+  - id: STR_STINGERSTONE
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT_TWOTS	
+    image_id: STINGERUPIMAGE
+    text: STR_STINGERSTONE_UFOPEDIA
+    listOrder: 409
+    requires:
+      - STR_STINGER_SUB     
+  - id: STR_AQUAWEAP_DUMMY
+    type_id: 10
+    image_id: S_P_P_IMAGE
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_AQUAWEAP_UFOPEDIA
+    listOrder: 51
+    requires:
+     - STR_AQUAWEAP_DUMMY
+  - id: STR_SUPCAV_DUMMY
+    type_id: 10
+    image_id: SUPCAV_IMAGE
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_SUPCAV_UFOPEDIA
+    listOrder: 54
+    requires:
+     - STR_SUPCAV_DUMMY
+  - id: STR_ALIEN_MOLECTRONIC_DUMMY
+    type_id: 10
+    image_id: MOLECUPIMAGE
+    section: STR_ALIEN_RESEARCH_TWOTS
+    text: STR_ALIEN_MOLECTRONIC_UP
+    requires:
+     - STR_ALIEN_MOLECTRONIC_DUMMY
+     
+  - id: STR_ALIEN_IMPLANTS_DUMMY
+    type_id: 10
+    image_id: UP105.BDY
+    text_width: 308
+    section: STR_ALIEN_RESEARCH_TWOTS
+    text: STR_ALIEN_IMPLANTS_UP
+    requires:
+     - STR_ALIEN_IMPLANTS_DUMMY
+  - id: STR_FL_SUBS_DUMMY
+    type_id: 10
+    image_id: UFS_IMAGE
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_FL_SUBS_UFOPEDIA
+    listOrder: 56
+    requires:
+     - STR_FL_SUBS_DUMMY
+  - id: STR_AQUAWEAP_2
+    type_id: 10
+    image_id: HEAVYWEAPUPIMAGE
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_AQUAWEAP_2_UFOPEDIA
+    listOrder: 53
+    requires:
+     - STR_AQUAWEAP_2
+#additional ammo
+#ALIENS
+  - id: AQUATOID_ARMOR0
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_AQUATOID
+      - STR_SECTOID_AUTOPSY
+    image_id: UP006.BDY
+    text: AQUATOID_ARMOR0_UFOPEDIA
+    listOrder: 8510
+  - id: GILLMAN_ARMOR0
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_GILLMAN
+      - STR_GILLMAN_AUTOPSY
+    image_id: UP008.BDY
+    text: GILLMAN_ARMOR0_UFOPEDIA
+    listOrder: 8710
+  - id: LOBSTERMAN_ARMOR0
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_LOBSTERMAN
+      - STR_LOBSTERMAN_AUTOPSY
+    image_id: UP010.BDY
+    text: LOBSTERMAN_ARMOR0_UFOPEDIA
+    listOrder: 8910
+  - id: CALCINITE_PROTO_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_CALCINITE
+      - STR_CALCINITE_AUTOPSY
+    image_id: PROTOUPIMAGE
+    text: CALCINITE_PROTO_ARMOR_UFOPEDIA
+    listOrder: 9312
+#  - id: TRISCENE_ARMOR0
+#    type_id: 15
+#    section: STR_ALIEN_LIFE_FORMS_TWOTS
+#    requires:
+#      - STR_TRISCENE
+#      - STR_TRISCENE_AUTOPSY
+#    image_id: UP017.BDY
+#    text: TRISCENE_ARMOR0_UFOPEDIA
+#    listOrder: 10110
+  - id: STR_HALLUCINOID_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HALLUCINOID
+      - STR_HALLUCINOID_AUTOPSY
+    #image_id: UP018.BDY
+    text: HALLUCINOID_ARMOR0_UFOPEDIA
+    listOrder: 10300
+  - id: XARQUID_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_XARQUID
+      - STR_XARQUID_AUTOPSY
+    image_id: UP020.BDY
+    text: XARQUID_ARMOR0_UFOPEDIA
+    listOrder: 10510
+  - id: STR_PALADIN_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_PALADIN
+    image_id: PALADINUPIMAGE
+    text: STR_PALADIN_ARMOR_UFOPEDIA
+    listOrder: 8390
+  - id: STR_OUTCAST_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_OUTCAST
+    image_id: OUTCASTUPIMAGE
+    pages:
+     - title: STR_OUTCAST_ARMOR
+       text: STR_OUTCAST_UFOPEDIA
+     - title: STR_OUTCAST_ARMOR2P
+       text: STR_OUTCAST_UFOPEDIA2P
+    listOrder: 8395
+  - id: STR_SLIME
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_SLIME
+    image_id: UPSLIME.BDY
+    text: STR_SLIME_UFOPEDIA
+    listOrder: 9170
+  - id: STR_SLIME_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_SLIME_AUTOPSY
+    image_id: UPSLIMEAUTOPSY.BDY
+    text: STR_SLIME_AUTOPSY_UFOPEDIA
+    listOrder: 9172
+  - id: SLIME_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_SLIME
+      - STR_SLIME_AUTOPSY
+    image_id: UPSLIME.BDY
+    text: SLIME_ARMOR_UFOPEDIA
+    listOrder: 9174
+
+  - id: STR_POLYPH
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_POLYPH
+    image_id: UPPOLYPH.BDY
+    text: STR_POLYPH_UFOPEDIA
+    listOrder: 9176
+  - id: STR_POLYPH_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_POLYPH_AUTOPSY
+    image_id: UPPOLYPHAUTOPSY.BDY
+    text: STR_POLYPH_AUTOPSY_UFOPEDIA
+    listOrder: 9178
+  - id: POLYPH_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_POLYPH
+      - STR_POLYPH_AUTOPSY
+    image_id: UPPOLYPH.BDY
+    text: POLYPH_ARMOR_UFOPEDIA
+    listOrder: 9180
+    
+  - id: STR_NAGA
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NAGA
+    image_id: NAGAUPIMAGE
+    text: STR_NAGA_UFOPEDIA
+    listOrder: 8750
+  - id: STR_NAGA_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NAGA_AUTOPSY
+    image_id: NAGAAUTOPSYUPIMAGE
+    text: STR_NAGA_AUTOPSY_UFOPEDIA
+    listOrder: 8755
+  - id: NAGA_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NAGA
+      - STR_NAGA_AUTOPSY
+    image_id: NAGAUPIMAGE
+    text: NAGA_ARMOR_UFOPEDIA
+    listOrder: 8760
+  - id: STR_DROWN
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_DROWN
+    image_id: DROWNUPIMAGE
+    text: STR_DROWN_UFOPEDIA
+    listOrder: 9550
+  - id: STR_DROWN_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_DROWN_AUTOPSY
+    image_id: DROWNAUTOPSYUPIMAGE
+    text: STR_DROWN_AUTOPSY_UFOPEDIA
+    listOrder: 9555
+  - id: DROWN_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_DROWN
+      - STR_DROWN_AUTOPSY
+    image_id: DROWNUPIMAGE
+    text: DROWN_ARMOR_UFOPEDIA
+    listOrder: 9560
+    
+  - id: STR_HELLCRAB
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HELLCRAB
+    image_id: CRABUPIMAGE
+    text: STR_HELLCRAB_UFOPEDIA
+    listOrder: 10550
+  - id: STR_HELLCRAB_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HELLCRAB_AUTOPSY
+    image_id: CRABAUPIMAGE
+    text: STR_HELLCRAB_AUTOPSY_UFOPEDIA
+    listOrder: 10555
+  - id: HELLCRAB_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HELLCRAB
+      - STR_HELLCRAB_AUTOPSY
+    image_id: CRABUPIMAGE
+    text: HELLCRAB_ARMOR_UFOPEDIA
+    listOrder: 10560
+    
+  - id: STR_ABOMINATIONTFTD
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_ABOMINATIONTFTD
+    image_id: FREAKUPIMAGE
+    text: STR_ABOMINATIONTFTD_UFOPEDIA
+    listOrder: 9110
+  - id: STR_ABOMINATIONTFTD_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_ABOMINATIONTFTD_AUTOPSY
+    image_id: FREAKAUPIMAGE
+    text: STR_ABOMINATIONTFTD_AUTOPSY_UFOPEDIA
+    listOrder: 9115
+  - id: ABOMINATION_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_ABOMINATIONTFTD
+      - STR_ABOMINATIONTFTD_AUTOPSY
+    image_id: FREAKUPIMAGE
+    text: ABOMINATION_ARMOR_UFOPEDIA
+    listOrder: 9120
+  - id: OCT_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_OCT
+      - STR_OCT_AUTOPSY
+    image_id: OCTUPIMAGE
+    text: OCT_ARMOR_UFOPEDIA
+    listOrder: 9760   
+  - id: STR_GHOST
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_GHOST
+    image_id: GHOSTUPIMAGE
+    text: STR_GHOST_UFOPEDIA
+    listOrder: 9520
+  - id: STR_GHOST_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_GHOST_AUTOPSY
+    image_id: GHOSTAUPIMAGE
+    text: STR_GHOST_AUTOPSY_UFOPEDIA
+    listOrder: 9525 
+  - id: GHOST_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_GHOST
+      - STR_GHOST_AUTOPSY
+    image_id: GHOSTUPIMAGE
+    text: GHOST_ARMOR_UFOPEDIA
+    listOrder: 9530
+    
+  - id: STR_NEEDLER
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NEEDLER
+    image_id: NEEDLERUPIMAGE
+    text: STR_NEEDLER_UFOPEDIA
+    listOrder: 9320
+  - id: STR_NEEDLER_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NEEDLER_AUTOPSY
+    image_id: NEEDLERAUPIMAGE
+    text: STR_NEEDLER_AUTOPSY_UFOPEDIA
+    listOrder: 9325
+  - id: NEEDLER_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_NEEDLER
+      - STR_NEEDLER_AUTOPSY
+    image_id: NEEDLERUPIMAGE
+    text: NEEDLER_ARMOR_UFOPEDIA
+    listOrder: 9330
+    
+  - id: STR_MINDWORMS
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_MINDWORMS
+    image_id: MINDWORMSUPIMAGE
+    text: STR_MINDWORMS_UFOPEDIA
+    listOrder: 10565
+  - id: STR_MINDWORMS_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_MINDWORMS_AUTOPSY
+    image_id: MINDWORMSAUPIMAGE
+    text: STR_MINDWORMS_AUTOPSY_UFOPEDIA
+    listOrder: 10567
+  - id: MINDWORMS_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_MINDWORMS
+      - STR_MINDWORMS_AUTOPSY
+    image_id: MINDWORMSUPIMAGE
+    text: MINDWORMS_ARMOR_UFOPEDIA
+    listOrder: 10569
+    
+  - id: STR_LOCUST
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_LOCUST
+    image_id: LOCUSTUPIMAGE
+    text: STR_LOCUST_UFOPEDIA
+    listOrder: 10571
+  - id: STR_LOCUST_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_LOCUST_AUTOPSY
+    image_id: LOCUSTAUPIMAGE
+    text: STR_LOCUST_AUTOPSY_UFOPEDIA
+    listOrder: 10573
+  - id: LOCUST_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_LOCUST
+      - STR_LOCUST_AUTOPSY
+    image_id: LOCUSTUPIMAGE
+    text: LOCUST_ARMOR_UFOPEDIA
+    listOrder: 10575
+    
+  - id: STR_ZOMBIE_WORMS_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_ZOMBIE_WORMS_AUTOPSY
+    image_id: UP105.BDY
+    text_width: 308
+    text: STR_ZOMBIE_WORMS_AUTOPSY_UFOPEDIA
+    listOrder: 10575
+  - id: ZOMBIE_WORMS_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_ZOMBIE_WORMS_AUTOPSY
+    image_id: WZUPIMAGE
+    text: ZOMBIE_WORMS_ARMOR_UFOPEDIA
+    listOrder: 10577
+    
+  - id: STR_WORMS_EVOLVE
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    text: STR_WORMS_EVOLVE_UFOPEDIA
+    image_id: UP105.BDY
+    requires:
+      - STR_WORMS_EVOLVE
+    listOrder: 10579
+    text_width: 308
+  - id: STR_WORMS_HATCHERY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    text: STR_WORMS_HATCHERY_UFOPEDIA
+    image_id: UP105.BDY
+    requires:
+      - STR_WORMS_HATCHERY
+    listOrder: 10581
+    text_width: 308
+  - id: STR_CARCHARODON
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_CARCHARODON
+    image_id: CARCHARODONUFOP
+    text: STR_CARCHARODON_UFOPEDIA
+    listOrder: 8770
+  - id: STR_CARCHARODON_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_CARCHARODON_AUTOPSY
+    image_id: CARCHARODONUFOPAUTO
+    text: STR_CARCHARODON_AUTOPSY_UFOPEDIA
+    listOrder: 8775
+  - id: CARCHARODON_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_CARCHARODON
+      - STR_CARCHARODON_AUTOPSY
+    image_id: CARCHARODONUFOP
+    text: CARCHARODON_ARMOR_UFOPEDIA
+    listOrder: 8780
+    
+  - id: STR_TASOTHGUARD
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_TASOTHGUARD
+    image_id: TASOTHGUARDUP
+    text: STR_TASOTHGUARD_UFOPEDIA
+    listOrder: 9102
+  - id: TASOTHGUARD_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_TASOTHGUARD
+      - STR_TASOTH_AUTOPSY
+    image_id: TASOTHGUARDUP
+    text: TASOTHGUARD_ARMOR_UFOPEDIA
+    listOrder: 9104
+    
+  - id: STR_HEAVYGILLMAN
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HEAVYGILLMAN
+    image_id: HEAVYGILLMANUP
+    text: STR_HEAVYGILLMAN_UFOPEDIA
+    listOrder: 8720
+  - id: HEAVY_GILLMAN_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HEAVYGILLMAN
+      - STR_GILLMAN_AUTOPSY
+    image_id: HEAVYGILLMANUP
+    text: HEAVY_GILLMAN_ARMOR_UFOPEDIA
+    listOrder: 8722
+    
+  - id: STR_HEAVYAQUATOID
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HEAVYAQUATOID
+    image_id: HEAVYAQUATOIDUP
+    text: STR_HEAVYAQUATOID_UFOPEDIA
+    listOrder: 8520
+  - id: HEAVYAQUATOID_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_HEAVYAQUATOID
+      - STR_SECTOID_AUTOPSY1
+    image_id: HEAVYAQUATOIDUP
+    text: HEAVYAQUATOID_ARMOR_UFOPEDIA
+    listOrder: 8522
+  - id: JELLY_ARMOR
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS_TWOTS
+    requires:
+      - STR_JELLYMEN
+      - STR_JELLYMEN_AUTOPSY
+    image_id: UPABYSSIAN.BDY
+    text: ABYSSIAN_ARMOR_UFOPEDIA
+    listOrder: 10592  
+#Other stuff    
+  - id: STR_SPEAR
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT_TWOTS
+    image_id: SPEARUPIMAGE
+    text: STR_SPEAR_UFOPEDIA
+    requires:
+     - STR_SPEAR
+    listOrder: 4956
+  - id: STR_TRIDENT
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    image_id: TRIDENTUPIMAGE
+    text: STR_TRIDENT_UFOPEDIA
+    requires:
+     - STR_TRIDENT
+    listOrder: 4959
+#  - id: STR_DIVING_SUIT
+#    type_id: 15
+#    section: STR_WEAPONS_AND_EQUIPMENT_TWOTS
+#    text: STR_DIVING_SUIT_UFOPEDIA
+#    image_id: NOARMUPIMAGE
+#    listOrder: 1639    
+  - id: STR_WALKER_UC
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT_TWOTS
+    text: STR_WALKER_UFOPEDIA
+    image_id: WALKERUPIMAGE
+    requires:
+     - STR_WALKER
+    listOrder: 1904
+  - id: STR_WALKER2_UC
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT_TWOTS
+    text: STR_WALKER2_UFOPEDIA
+    image_id: WALKER2UPIMAGE
+    requires:
+     - STR_WALKER2
+    listOrder: 1905
+#Artifacts
+
+  - id: STR_SHARD_PISTOL
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SHARD_PISTOL
+    text: STR_SHARD_PISTOL_UFOPEDIA
+    image_id: SHARDPISTOLUPIMAGE
+  - id: STR_SHARD_RIFLE
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SHARD_RIFLE
+    text: STR_SHARD_RIFLE_UFOPEDIA
+    image_id: SHARDRIFLEUPIMAGE
+  - id: STR_SHARD_CANNON
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SHARD_CANNON
+    text: STR_SHARD_CANNON_UFOPEDIA
+    image_id: SHARDCANNONUPIMAGE
+  - id: STR_SHARD_FLASK
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SHARD_FLASK
+    text: STR_SHARD_FLASK_UFOPEDIA
+    image_id: SHARDFLASKUPIMAGE
+  - id: STR_SUPRESSOR
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SUPRESSOR
+    text: STR_SUPRESSOR_UFOPEDIA
+    image_id: SUPRESSORUPIMAGE
+    listOrder: 6391
+  - id: STR_SPAWNER
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_SPAWNER
+    text: STR_SPAWNER_UFOPEDIA
+    image_id: SPAWNERUPIMAGE
+    listOrder: 6392
+  - id: STR_TANGLER
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_TANGLER
+    text: STR_TANGLER_UFOPEDIA
+    image_id: TANGLERUPIMAGE
+    listOrder: 6393
+  - id: STR_INFECTOR
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_INFECTOR
+    text: STR_INFECTOR_UFOPEDIA
+    image_id: INFECTORUPIMAGE
+    listOrder: 6394
+  - id: STR_VAMPIRE_WEAPON
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_VAMPIRE_WEAPON
+    text: STR_VAMPIRE_WEAPON_UFOPEDIA
+    image_id: VAMPIREUPIMAGE
+    listOrder: 6395
+
+  - id: STR_BRAIN
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_BRAIN
+    text: STR_BRAIN_UFOPEDIA
+    image_id: BRAINSUPIMAGE
+    listOrder: 6396
+  - id: STR_COCOON
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_COCOON
+    text: STR_COCOON_UFOPEDIA
+    image_id: COCOONUPIMAGE
+    listOrder: 6397
+  - id: STR_ELERIUM_EXCHANGE
+    type_id: 10
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_ELERIUM_EXCHANGE
+    text: STR_ELERIUM_EXCHANGE_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308   
+#Ufo components
+
+  - id: STR_ALIEN_REANIMATION_ZONE
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_ALIEN_REANIMATION_ZONE
+    image_id: REANIMUPIMAGE
+    text: STR_ALIEN_REANIMATION_ZONE_UFOPEDIA
+    listOrder: 12005
+  - id: STR_BREEDER
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_BREEDER
+    image_id: BREEDUPIMAGE
+    text: STR_BREEDER_UFOPEDIA
+    listOrder: 12007
+  - id: STR_NEURAL_COMPONENTS
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_NEURAL_COMPONENTS
+    image_id: COMPONENTSUPIMAGE
+    text: STR_NEURAL_COMPONENTS_UFOPEDIA
+    listOrder: 12008
+  - id: STR_SYNOM_U
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SYNOM
+    image_id: SYNOMUPIMAGE
+    text: STR_SYNOM_UFOPEDIA
+    listOrder: 12009
+# Alien research
+  - id: STR_SONIC_WM
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_SONIC_WM
+    text: STR_SONIC_WM_UFOPEDIA
+    image_id: SONICWMUPIMAGE
+  - id: STR_AQPL_FAB
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_AQPL_FAB
+    text: STR_AQPL_FAB_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_ULTRADENSE
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    requires:
+      - STR_ULTRADENSE
+    text: STR_ULTRADENSE_UFOPEDIA
+    image_id: ULTRAUPIMAGE
+  - id: STR_SONIC_TECH
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_SONIC_TECH
+    text: STR_SONIC_TECH_UFOPEDIA
+    image_id: SONICTECHUPIMAGE
+  - id: STR_SOLITONE_TECH
+    type_id: 10
+    section: STR_UFO_COMPONENTS_TWOTS
+    text: STR_SOLITONE_TECH_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    requires:
+      - STR_SOLITONE_TECH
+    
+  - id: STR_CULT_FHTAGN
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_CULT_FHTAGN
+    text: STR_CULT_FHTAGN_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    
+  - id: STR_MUTANT_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_MUTANT_AUTOPSY
+    text: STR_MUTANT_AUTOPSY_UFOPEDIA
+    image_id: MUTANTUPIMAGE
+  - id: STR_MUTANT_INTERROGATION
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_MUTANT_INTERROGATION
+    text: STR_MUTANT_INTERROGATION_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_CHURCH_OF_SIRIUS
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_CHURCH_OF_SIRIUS
+    text: STR_CHURCH_OF_SIRIUS_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_CHURCH_DATA
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_CHURCH_DATA
+    text: STR_CHURCH_DATA_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+  - id: STR_NAGA_SOCIETY
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_NAGA_SOCIETY
+    text: STR_NAGA_SOCIETY_UFOPEDIA
+    image_id: STATUEUPIMAGE
+  - id: STR_ALIEN_CRUISE
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ALIEN_CRUISE
+    text: STR_ALIEN_CRUISE_UFOPEDIA
+    image_id: USO3UPIMAGE
+#    text_width: 308
+  - id: STR_ALIEN_INTERCEPTION
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ALIEN_INTERCEPTION
+    text: STR_ALIEN_INTERCEPTION_UFOPEDIA
+    image_id: BACKTOBASEUPIMAGE
+    text_width: 308
+  - id: STR_ANCIENT_HORRORS
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_ANCIENT_HORRORS
+    text: STR_ANCIENT_HORRORS_UFOPEDIA
+    image_id: HORRORUPIMAGE
+    text_width: 168
+  - id: STR_JELLYMEN_ORIGINS
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_JELLYMEN_ORIGINS
+    text: STR_JELLYMEN_ORIGINS_UFOPEDIA
+    image_id: JAUPIMAGE
+    text_width: 308
+  - id: STR_JELLYMEN_TREATY
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_JELLYMEN_TREATY
+    text: STR_JELLYMEN_TREATY_UFOPEDIA
+    image_id: TREATYUPIMAGE
+    text_width: 308
+  - id: STR_JELLYMEN_TRADE
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_JELLYMEN_TRADE
+    text: STR_JELLYMEN_TRADE_UFOPEDIA
+    image_id: TRADEUPIMAGE
+
+    text_width: 308
+  - id: STR_PROTOBIONT
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_TWOTS
+    requires:
+      - STR_PROTOBIONT
+    text: STR_PROTOBIONT_UFOPEDIA
+    image_id: CALTRONUPIMAGE
+    text_width: 308
+  - id: STR_ALIEN_KEY
+    type_id: 14
+    section: STR_ALIEN_ARTIFACTS_TWOTS
+    requires:
+      - STR_ALIEN_KEY
+    text: STR_ALIEN_KEY_UFOPEDIA
+    image_id: KEYUPIMAGE
+    #text_width: 308
+#USO
+    
+  - id: STR_PATROLUFO
+    type_id: 17
+    section: STR_UFOS_TWOTS
+    requires:
+      - STR_PATROLUFO
+    text: STR_PATROL_UFOPEDIA
+    image_id: UPTINYUSO
+  - id: STR_FIGHTER
+    type_id: 17
+    section: STR_UFOS_TWOTS
+    requires:
+      - STR_FIGHTER
+    text: STR_FIGHTER_UFOPEDIA
+    image_id: UPVSUSO
+  - id: STR_SEEKER
+    type_id: 17
+    section: STR_UFOS_TWOTS
+    requires:
+      - STR_SEEKER
+    text: STR_SEEKER_UFOPEDIA
+    image_id: UPVSUSO
+  - id: STR_ENVOY
+    type_id: 17
+    section: STR_UFOS_TWOTS
+    requires:
+      - STR_ENVOY
+    text: STR_ENVOY_UFOPEDIA
+    image_id: UPENVOYUSO
+  - id: STR_BOMBER
+    type_id: 17
+    section: STR_UFOS_TWOTS
+    requires:
+      - STR_BOMBER
+    text: STR_BOMBER_UFOPEDIA
+    image_id: UPBOMBERUSO
+#Extended facilities by Blank(c)
+#  - id: STR_LIVING_QUARTERS_2
+#    type_id: 16
+#    section: STR_BASE_FACILITIES
+#    text: STR_LIVING_QUARTERS_2_UFOPEDIA
+#    image_id: UP076L.png
+#  - id: STR_GENERAL_STORES_2
+#    type_id: 16
+#    section: STR_BASE_FACILITIES
+#    image_id: UP081G.png
+#    text: STR_GENERAL_STORES_2_UFOPEDIA
+#  - id: STR_CORRIDOR_NS
+#    type_id: 16
+#    section: STR_NOT_AVAILABLE
+#    text: STR_CORRIDOR_NS_UFOPEDIA
+#  - id: STR_CORRIDOR_EW
+#    type_id: 16
+#    section: STR_NOT_AVAILABLE
+#    text: STR_CORRIDOR_EW_UFOPEDIA
+#  - id: STR_CORRIDOR_PROXY
+#    type_id: 16
+#    section: STR_BASE_FACILITIES
+#    text: STR_CORRIDOR_PROXY_UFOPEDIA
+#    image_id: UP078C.png
+#New facilities

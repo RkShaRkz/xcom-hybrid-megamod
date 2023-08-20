@@ -1,0 +1,264 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_POLAR_BASE_THE_THING: "Synedrion Antartica Horror"
+      STR_POLAR_BASE_THE_THING_SOLVED: "Synedrion Antartica Horror"
+      STR_ALERT_POLAR_BASE_THE_THING: "Synedrion Antartica Horror"
+      STR_POLAR_BASE_THE_THING_DESCRIPTION: "Sources from the Merc Guild has located that the Synedrion is conducting a secret lab operation in the south pole. It would have remained undetected, until one of our agent has received reports of deaths in their base. Apparently, the experiment has gone horribly wrong and there are many deaths. Your job is to drop into the Syndedrion secret base and investigate. The guild will pay a good bounty for the destruction of this lab."
+      STR_POLAR_BASE_THE_THING_BRIEFING: "Sources from the Merc Guild has located that the Synedrion is conducting a secret lab operation in the south pole. It would have remained undetected, until one of our agent office has received reports of deaths in their base. Apparently, the experiment has gone horribly wrong and there are many deaths. Your job is to drop into the Syndedrion secret base and investigate. The guild will pay a good bounty for the destruction of this lab."
+alienDeployments:
+  - type: STR_POLAR_BASE_THE_THING
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE
+    width: 50
+    length: 50
+    height: 16
+    civiliansByType:
+      STR_THE_THING_POLARNIK: 4
+      STR_MALE_CIVILIAN_POLARNIK: 6
+      STR_THE_THING_DOG: 3
+    alert: STR_ALERT_POLAR_BASE_THE_THING
+    alertBackground: BACK04.SCR
+    alertDescription: STR_POLAR_BASE_THE_THING_DESCRIPTION
+    briefing:
+      desc: STR_POLAR_BASE_THE_THING_BRIEFING
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    music:
+      - GMTACTIC
+    markerName: STR_POLAR_BASE_THE_THING
+    duration: [25, 10000000000000]
+    despawnPenalty: 250
+    script: THETHING
+    unlockedResearch: STR_POLAR_BASE_THE_THING_SOLVED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 4
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_POLAR_BASE_THE_THING
+    despawnEvenIfTargeted: false
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+         STR_ACADEMY: 100
+    waves:
+      - ufo: STR_POLAR_BASE_THE_THING
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 13000
+        objective: true
+research:		
+  - name: STR_POLAR_BASE_THE_THING_SOLVED
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 300
+    needItem: true
+ufos:
+  - type: STR_THINGLAB
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: HTHOUSE_01
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: SYNBIORESEARCHFACILITY
+          width: 10
+          length: 10
+mapScripts:
+  - type: THETHING
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: POLAR
+      groups: 1		
+    - type: addUFO
+      terrain: POLAR
+      groups: 1		
+    - type: addBlock
+      executions: 1		
+      terrain: LABSKIDNAPTHING
+      executionChances: 100	
+    - type: addBlock
+      size: [1,1,4]
+      executions: 1
+      executionChances: 100
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: POLAR
+      - type: middle
+        size: [1,1,4]
+        terrain: LABSTEALBASETHING	  
+    - type: addBlock
+      executions: 2
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: POLAR
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESSYNDICATEXP1
+        maxRepeats: 1 	
+    - type: addBlock
+      executions: 3
+      size: [1,1,4]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: POLAR
+        groups: 1 
+      - type: middle
+        size: [1,1,4]
+        terrain: LABSTEAL  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: POLAR	  
+    - type: fillArea
+      terrain: POLAR	  
+terrains:		  
+  - name: LABSKIDNAPTHING
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - XBASE1
+    mapBlocks:
+      - name: SCIENCEBUILDING
+        width: 10
+        length: 10	
+  - name: LABSTEALBASETHING
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - XBASE1
+    mapBlocks:
+      - name: SCIENCEBUILDINGBASE
+        width: 10
+        length: 10				  
+  - name: LABSTEALTHING
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - XBASE1
+    mapBlocks:
+      - name: SCIENCEBUILDING
+        width: 10
+        length: 10  
+missionScripts:
+  - type: horrorsOfAntarctica
+    firstMonth: 16
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_POLAR_BASE_THE_THING: 100
+    regionWeights:
+      0:
+        STARGATESPAWNS: 100
+    useTable: false
+    maxRuns: 1 
+    varName: polarbasethedthing
+    startDelay: 20
+    randomDelay: 43500
+    researchTriggers:
+      STR_POLAR_BASE_THE_THING_SOLVED: false
+    facilityTriggers:
+      STR_MERCFACILITY: true

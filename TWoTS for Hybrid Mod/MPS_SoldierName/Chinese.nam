@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - MPS An
+  - MPS Ang
+  - MPS Ao
+  - MPS Au
+  - MPS Au Yeung
+  - MPS Bai
+  - MPS Ban
+  - MPS Bao
+  - MPS Bau
+  - MPS Bi
+  - MPS Bo
+  - MPS Bu
+  - MPS Cai
+  - MPS Cao
+  - MPS Cha
+  - MPS Chai
+  - MPS Cham
+  - MPS Chan
+  - MPS Chang
+  - MPS Chao
+  - MPS Chau
+  - MPS Che
+  - MPS Cheah
+  - MPS Chee
+  - MPS Chen
+  - MPS Cheng
+  - MPS Cheong
+  - MPS Chern
+  - MPS Cheung
+  - MPS Chew
+  - MPS Chi
+  - MPS Chia
+  - MPS Chiang
+  - MPS Chiao
+  - MPS Chien
+  - MPS Chim
+  - MPS Chin
+  - MPS Ching
+  - MPS Chiong
+  - MPS Chiou
+  - MPS Chiu
+  - MPS Cho
+  - MPS Choi
+  - MPS Chong
+  - MPS Choo
+  - MPS Chou
+  - MPS Chow
+  - MPS Choy
+  - MPS Chu
+  - MPS Chua
+  - MPS Cheang
+  - MPS Chui
+  - MPS Chun
+  - MPS Chung
+  - MPS Cong
+  - MPS Cui
+  - MPS Dai
+  - MPS Dang
+  - MPS Dea
+  - MPS Deng
+  - MPS Ding
+  - MPS Do
+  - MPS Dong
+  - MPS Doo
+  - MPS Du
+  - MPS Duan
+  - MPS Dung
+  - MPS Eng
+  - MPS Fan
+  - MPS Fang
+  - MPS Fei
+  - MPS Feng
+  - MPS Fok
+  - MPS Fong
+  - MPS Foo
+  - MPS Fu
+  - MPS Fung
+  - MPS Gan
+  - MPS Gang
+  - MPS Gao
+  - MPS Gau
+  - MPS Ge
+  - MPS Geng
+  - MPS Go
+  - MPS Goh
+  - MPS Gong
+  - MPS Gu
+  - MPS Guan
+  - MPS Guo
+  - MPS Ha
+  - MPS Hai
+  - MPS Han
+  - MPS Hang
+  - MPS Hao
+  - MPS Hau
+  - MPS He
+  - MPS Ho
+  - MPS Hoh
+  - MPS Hom
+  - MPS Hon
+  - MPS Hong
+  - MPS Hoo
+  - MPS Hou
+  - MPS Hsi
+  - MPS Hsia
+  - MPS Hsiao
+  - MPS Hsieh
+  - MPS Hsiung
+  - MPS Hsu
+  - MPS Hsueh
+  - MPS Hu
+  - MPS Hua
+  - MPS Huang
+  - MPS Hui
+  - MPS Huie
+  - MPS Hum
+  - MPS Hung
+  - MPS Huo
+  - MPS Hwang
+  - MPS Hy
+  - MPS Ing
+  - MPS Ip
+  - MPS Jan
+  - MPS Jang
+  - MPS Jen
+  - MPS Jeng
+  - MPS Jeung
+  - MPS Jew
+  - MPS Ji
+  - MPS Jia
+  - MPS Jian
+  - MPS Jiang
+  - MPS Jiao
+  - MPS Jim
+  - MPS Jin
+  - MPS Jing
+  - MPS Jo
+  - MPS Joe
+  - MPS Jong
+  - MPS Joo
+  - MPS Jou
+  - MPS Jow
+  - MPS Ju
+  - MPS Jue
+  - MPS Jung
+  - MPS Kam
+  - MPS Kan
+  - MPS Kang
+  - MPS Kao
+  - MPS Kau
+  - MPS Ke
+  - MPS Keng
+  - MPS Kho
+  - MPS Khoo
+  - MPS Kiang
+  - MPS King
+  - MPS Ko
+  - MPS Koh
+  - MPS Kong
+  - MPS Koo
+  - MPS Kook
+  - MPS Kou
+  - MPS Ku
+  - MPS Kuan
+  - MPS Kuang
+  - MPS Kuk
+  - MPS Kung
+  - MPS Kuang
+  - MPS Kuo
+  - MPS Kwan
+  - MPS Kwock
+  - MPS Kwok
+  - MPS Kwon
+  - MPS Kwong
+  - MPS Lai
+  - MPS Lam
+  - MPS Lan
+  - MPS Lang
+  - MPS Lao
+  - MPS Lau
+  - MPS Lee
+  - MPS Lei
+  - MPS Leng
+  - MPS Leong
+  - MPS Leung
+  - MPS Lew
+  - MPS Li
+  - MPS Lian
+  - MPS Liang
+  - MPS Liao
+  - MPS Liaw
+  - MPS Lien
+  - MPS Liew
+  - MPS Lim
+  - MPS Lin
+  - MPS Ling
+  - MPS Liou
+  - MPS Liu
+  - MPS Lo
+  - MPS Loh
+  - MPS Lok
+  - MPS Long
+  - MPS Loo
+  - MPS Lou
+  - MPS Louie
+  - MPS Lu
+  - MPS Lua
+  - MPS Lui
+  - MPS Luk
+  - MPS Lum
+  - MPS Lung
+  - MPS Luo
+  - MPS Ma
+  - MPS Mah
+  - MPS Mai
+  - MPS Mak
+  - MPS Man
+  - MPS Mao
+  - MPS Mar
+  - MPS Mau
+  - MPS May
+  - MPS Mei
+  - MPS Meng
+  - MPS Miao
+  - MPS Min
+  - MPS Ming
+  - MPS Miu
+  - MPS Mo
+  - MPS Mok
+  - MPS Mon
+  - MPS Mou
+  - MPS Moy
+  - MPS Mu
+  - MPS Mui
+  - MPS Na
+  - MPS Ng
+  - MPS Ngai
+  - MPS Ngan
+  - MPS Ngo
+  - MPS Ni
+  - MPS Nie
+  - MPS Ning
+  - MPS Niu
+  - MPS On
+  - MPS Ong
+  - MPS Ou
+  - MPS Ou Yang
+  - MPS Ow
+  - MPS Owyang
+  - MPS Pan
+  - MPS Pang
+  - MPS Pao
+  - MPS Pei
+  - MPS Peng
+  - MPS Pi
+  - MPS Ping
+  - MPS Po
+  - MPS Pon
+  - MPS Pong
+  - MPS Poon
+  - MPS Pu
+  - MPS Pun
+  - MPS Qi
+  - MPS Qian
+  - MPS Qiao
+  - MPS Qin
+  - MPS Qiu
+  - MPS Qu
+  - MPS Quan
+  - MPS Que
+  - MPS Rao
+  - MPS Ren
+  - MPS Rong
+  - MPS Ruan
+  - MPS Sam
+  - MPS San
+  - MPS Sang
+  - MPS Seto
+  - MPS Sha
+  - MPS Sham
+  - MPS Shan
+  - MPS Shang
+  - MPS Shao
+  - MPS Shaw
+  - MPS Shek
+  - MPS Shen
+  - MPS Sheng
+  - MPS Sheu
+  - MPS Shi
+  - MPS Shiau
+  - MPS Shieh
+  - MPS Shih
+  - MPS Shing
+  - MPS Shiu
+  - MPS Shu
+  - MPS Shum
+  - MPS Shy
+  - MPS Shyu
+  - MPS Si
+  - MPS Sieh
+  - MPS Sin
+  - MPS Sing
+  - MPS Sit
+  - MPS Situ
+  - MPS Siu
+  - MPS So
+  - MPS Soh
+  - MPS Song
+  - MPS Soo
+  - MPS Soo Hoo
+  - MPS Soon
+  - MPS Soong
+  - MPS Su
+  - MPS Suen
+  - MPS Sui
+  - MPS Sum
+  - MPS Sun
+  - MPS Sung
+  - MPS Sze
+  - MPS Szeto
+  - MPS Tai
+  - MPS Tam
+  - MPS Tan
+  - MPS Tang
+  - MPS Tao
+  - MPS Tay
+  - MPS Te
+  - MPS Teh
+  - MPS Teng
+  - MPS Teo
+  - MPS Tian
+  - MPS Tien
+  - MPS Tin
+  - MPS Ting
+  - MPS Tiu
+  - MPS To
+  - MPS Toh
+  - MPS Tom
+  - MPS Tong
+  - MPS Tsai
+  - MPS Tsang
+  - MPS Tsao
+  - MPS Tsay
+  - MPS Tse
+  - MPS Tseng
+  - MPS Tso
+  - MPS Tsoi
+  - MPS Tsou
+  - MPS Tsu
+  - MPS Tsui
+  - MPS Tu
+  - MPS Tuan
+  - MPS Tung
+  - MPS Tzeng
+  - MPS U
+  - MPS Un
+  - MPS Ung
+  - MPS Wah
+  - MPS Wai
+  - MPS Wan
+  - MPS Wang
+  - MPS Wee
+  - MPS Wei
+  - MPS Wen
+  - MPS Weng
+  - MPS Wing
+  - MPS Wong
+  - MPS Woo
+  - MPS Woon
+  - MPS Wu
+  - MPS Xi
+  - MPS Xia
+  - MPS Xiang
+  - MPS Xiao
+  - MPS Xie
+  - MPS Xin
+  - MPS Xing
+  - MPS Xiong
+  - MPS Xu
+  - MPS Xue
+  - MPS Yam
+  - MPS Yan
+  - MPS Yang
+  - MPS Yao
+  - MPS Yap
+  - MPS Yau
+  - MPS Yaw
+  - MPS Ye
+  - MPS Yee
+  - MPS Yeh
+  - MPS Yen
+  - MPS Yep
+  - MPS Yeung
+  - MPS Yi
+  - MPS Yim
+  - MPS Yin
+  - MPS Ying
+  - MPS Yip
+  - MPS Yiu
+  - MPS Yong
+  - MPS Yoo
+  - MPS Yoon
+  - MPS You
+  - MPS Young
+  - MPS Yu
+  - MPS Yuan
+  - MPS Yue
+  - MPS Yuen
+  - MPS Yun
+  - MPS Yung
+  - MPS Zang
+  - MPS Zeng
+  - MPS Zha
+  - MPS Zhan
+  - MPS Zhang
+  - MPS Zhao
+  - MPS Zhen
+  - MPS Zheng
+  - MPS Zhong
+  - MPS Zhou
+  - MPS Zhu
+  - MPS Zhuang
+  - MPS Zhuo
+  - MPS Zong
+  - MPS Zou
+femaleFirst:
+  - MPS An
+  - MPS Ang
+  - MPS Ao
+  - MPS Au
+  - MPS Au Yeung
+  - MPS Bai
+  - MPS Ban
+  - MPS Bao
+  - MPS Bau
+  - MPS Bi
+  - MPS Bo
+  - MPS Bu
+  - MPS Cai
+  - MPS Cao
+  - MPS Cha
+  - MPS Chai
+  - MPS Cham
+  - MPS Chan
+  - MPS Chang
+  - MPS Chao
+  - MPS Chau
+  - MPS Che
+  - MPS Cheah
+  - MPS Chee
+  - MPS Chen
+  - MPS Cheng
+  - MPS Cheong
+  - MPS Chern
+  - MPS Cheung
+  - MPS Chew
+  - MPS Chi
+  - MPS Chia
+  - MPS Chiang
+  - MPS Chiao
+  - MPS Chien
+  - MPS Chim
+  - MPS Chin
+  - MPS Ching
+  - MPS Chiong
+  - MPS Chiou
+  - MPS Chiu
+  - MPS Cho
+  - MPS Choi
+  - MPS Chong
+  - MPS Choo
+  - MPS Chou
+  - MPS Chow
+  - MPS Choy
+  - MPS Chu
+  - MPS Chua
+  - MPS Cheang
+  - MPS Chui
+  - MPS Chun
+  - MPS Chung
+  - MPS Cong
+  - MPS Cui
+  - MPS Dai
+  - MPS Dang
+  - MPS Dea
+  - MPS Deng
+  - MPS Ding
+  - MPS Do
+  - MPS Dong
+  - MPS Doo
+  - MPS Du
+  - MPS Duan
+  - MPS Dung
+  - MPS Eng
+  - MPS Fan
+  - MPS Fang
+  - MPS Fei
+  - MPS Feng
+  - MPS Fok
+  - MPS Fong
+  - MPS Foo
+  - MPS Fu
+  - MPS Fung
+  - MPS Gan
+  - MPS Gang
+  - MPS Gao
+  - MPS Gau
+  - MPS Ge
+  - MPS Geng
+  - MPS Go
+  - MPS Goh
+  - MPS Gong
+  - MPS Gu
+  - MPS Guan
+  - MPS Guo
+  - MPS Ha
+  - MPS Hai
+  - MPS Han
+  - MPS Hang
+  - MPS Hao
+  - MPS Hau
+  - MPS He
+  - MPS Ho
+  - MPS Hoh
+  - MPS Hom
+  - MPS Hon
+  - MPS Hong
+  - MPS Hoo
+  - MPS Hou
+  - MPS Hsi
+  - MPS Hsia
+  - MPS Hsiao
+  - MPS Hsieh
+  - MPS Hsiung
+  - MPS Hsu
+  - MPS Hsueh
+  - MPS Hu
+  - MPS Hua
+  - MPS Huang
+  - MPS Hui
+  - MPS Huie
+  - MPS Hum
+  - MPS Hung
+  - MPS Huo
+  - MPS Hwang
+  - MPS Hy
+  - MPS Ing
+  - MPS Ip
+  - MPS Jan
+  - MPS Jang
+  - MPS Jen
+  - MPS Jeng
+  - MPS Jeung
+  - MPS Jew
+  - MPS Ji
+  - MPS Jia
+  - MPS Jian
+  - MPS Jiang
+  - MPS Jiao
+  - MPS Jim
+  - MPS Jin
+  - MPS Jing
+  - MPS Jo
+  - MPS Joe
+  - MPS Jong
+  - MPS Joo
+  - MPS Jou
+  - MPS Jow
+  - MPS Ju
+  - MPS Jue
+  - MPS Jung
+  - MPS Kam
+  - MPS Kan
+  - MPS Kang
+  - MPS Kao
+  - MPS Kau
+  - MPS Ke
+  - MPS Keng
+  - MPS Kho
+  - MPS Khoo
+  - MPS Kiang
+  - MPS King
+  - MPS Ko
+  - MPS Koh
+  - MPS Kong
+  - MPS Koo
+  - MPS Kook
+  - MPS Kou
+  - MPS Ku
+  - MPS Kuan
+  - MPS Kuang
+  - MPS Kuk
+  - MPS Kung
+  - MPS Kuang
+  - MPS Kuo
+  - MPS Kwan
+  - MPS Kwock
+  - MPS Kwok
+  - MPS Kwon
+  - MPS Kwong
+  - MPS Lai
+  - MPS Lam
+  - MPS Lan
+  - MPS Lang
+  - MPS Lao
+  - MPS Lau
+  - MPS Lee
+  - MPS Lei
+  - MPS Leng
+  - MPS Leong
+  - MPS Leung
+  - MPS Lew
+  - MPS Li
+  - MPS Lian
+  - MPS Liang
+  - MPS Liao
+  - MPS Liaw
+  - MPS Lien
+  - MPS Liew
+  - MPS Lim
+  - MPS Lin
+  - MPS Ling
+  - MPS Liou
+  - MPS Liu
+  - MPS Lo
+  - MPS Loh
+  - MPS Lok
+  - MPS Long
+  - MPS Loo
+  - MPS Lou
+  - MPS Louie
+  - MPS Lu
+  - MPS Lua
+  - MPS Lui
+  - MPS Luk
+  - MPS Lum
+  - MPS Lung
+  - MPS Luo
+  - MPS Ma
+  - MPS Mah
+  - MPS Mai
+  - MPS Mak
+  - MPS Man
+  - MPS Mao
+  - MPS Mar
+  - MPS Mau
+  - MPS May
+  - MPS Mei
+  - MPS Meng
+  - MPS Miao
+  - MPS Min
+  - MPS Ming
+  - MPS Miu
+  - MPS Mo
+  - MPS Mok
+  - MPS Mon
+  - MPS Mou
+  - MPS Moy
+  - MPS Mu
+  - MPS Mui
+  - MPS Na
+  - MPS Ng
+  - MPS Ngai
+  - MPS Ngan
+  - MPS Ngo
+  - MPS Ni
+  - MPS Nie
+  - MPS Ning
+  - MPS Niu
+  - MPS On
+  - MPS Ong
+  - MPS Ou
+  - MPS Ou Yang
+  - MPS Ow
+  - MPS Owyang
+  - MPS Pan
+  - MPS Pang
+  - MPS Pao
+  - MPS Pei
+  - MPS Peng
+  - MPS Pi
+  - MPS Ping
+  - MPS Po
+  - MPS Pon
+  - MPS Pong
+  - MPS Poon
+  - MPS Pu
+  - MPS Pun
+  - MPS Qi
+  - MPS Qian
+  - MPS Qiao
+  - MPS Qin
+  - MPS Qiu
+  - MPS Qu
+  - MPS Quan
+  - MPS Que
+  - MPS Rao
+  - MPS Ren
+  - MPS Rong
+  - MPS Ruan
+  - MPS Sam
+  - MPS San
+  - MPS Sang
+  - MPS Seto
+  - MPS Sha
+  - MPS Sham
+  - MPS Shan
+  - MPS Shang
+  - MPS Shao
+  - MPS Shaw
+  - MPS Shek
+  - MPS Shen
+  - MPS Sheng
+  - MPS Sheu
+  - MPS Shi
+  - MPS Shiau
+  - MPS Shieh
+  - MPS Shih
+  - MPS Shing
+  - MPS Shiu
+  - MPS Shu
+  - MPS Shum
+  - MPS Shy
+  - MPS Shyu
+  - MPS Si
+  - MPS Sieh
+  - MPS Sin
+  - MPS Sing
+  - MPS Sit
+  - MPS Situ
+  - MPS Siu
+  - MPS So
+  - MPS Soh
+  - MPS Song
+  - MPS Soo
+  - MPS Soo Hoo
+  - MPS Soon
+  - MPS Soong
+  - MPS Su
+  - MPS Suen
+  - MPS Sui
+  - MPS Sum
+  - MPS Sun
+  - MPS Sung
+  - MPS Sze
+  - MPS Szeto
+  - MPS Tai
+  - MPS Tam
+  - MPS Tan
+  - MPS Tang
+  - MPS Tao
+  - MPS Tay
+  - MPS Te
+  - MPS Teh
+  - MPS Teng
+  - MPS Teo
+  - MPS Tian
+  - MPS Tien
+  - MPS Tin
+  - MPS Ting
+  - MPS Tiu
+  - MPS To
+  - MPS Toh
+  - MPS Tom
+  - MPS Tong
+  - MPS Tsai
+  - MPS Tsang
+  - MPS Tsao
+  - MPS Tsay
+  - MPS Tse
+  - MPS Tseng
+  - MPS Tso
+  - MPS Tsoi
+  - MPS Tsou
+  - MPS Tsu
+  - MPS Tsui
+  - MPS Tu
+  - MPS Tuan
+  - MPS Tung
+  - MPS Tzeng
+  - MPS U
+  - MPS Un
+  - MPS Ung
+  - MPS Wah
+  - MPS Wai
+  - MPS Wan
+  - MPS Wang
+  - MPS Wee
+  - MPS Wei
+  - MPS Wen
+  - MPS Weng
+  - MPS Wing
+  - MPS Wong
+  - MPS Woo
+  - MPS Woon
+  - MPS Wu
+  - MPS Xi
+  - MPS Xia
+  - MPS Xiang
+  - MPS Xiao
+  - MPS Xie
+  - MPS Xin
+  - MPS Xing
+  - MPS Xiong
+  - MPS Xu
+  - MPS Xue
+  - MPS Yam
+  - MPS Yan
+  - MPS Yang
+  - MPS Yao
+  - MPS Yap
+  - MPS Yau
+  - MPS Yaw
+  - MPS Ye
+  - MPS Yee
+  - MPS Yeh
+  - MPS Yen
+  - MPS Yep
+  - MPS Yeung
+  - MPS Yi
+  - MPS Yim
+  - MPS Yin
+  - MPS Ying
+  - MPS Yip
+  - MPS Yiu
+  - MPS Yong
+  - MPS Yoo
+  - MPS Yoon
+  - MPS You
+  - MPS Young
+  - MPS Yu
+  - MPS Yuan
+  - MPS Yue
+  - MPS Yuen
+  - MPS Yun
+  - MPS Yung
+  - MPS Zang
+  - MPS Zeng
+  - MPS Zha
+  - MPS Zhan
+  - MPS Zhang
+  - MPS Zhao
+  - MPS Zhen
+  - MPS Zheng
+  - MPS Zhong
+  - MPS Zhou
+  - MPS Zhu
+  - MPS Zhuang
+  - MPS Zhuo
+  - MPS Zong
+  - MPS Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

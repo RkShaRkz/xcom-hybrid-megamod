@@ -1,0 +1,3035 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GIANT_RAT: "Giant Rat race"
+      STR_WEREWOLF: "Werewolf race"
+      STR_WERECAT: "Werecat race"
+      STR_BULLFROG: "Bullfrog race"
+      STR_NIGHTMARE: "Nightmare Race"
+      STR_ZOMBIE_FARMER: "Zombie Farmer"
+      STR_ZOMBIE_STERILE: "Zombie Sterile"
+      STR_HORROR: "Horror race"
+      STR_OOZE: "Ooze race"
+      STR_MONGORN: "Mongorn Race"
+      STR_OWLMAN: "Owlman Race"
+      STR_GIANT_SPIDER: "Giant Spider Race"
+      STR_MEGASCORPION: "MegaScorpion Race"
+      STR_GIANT_BEETLE: "Giant Beetle Race"  	
+      STR_THE_THING: "The Thing"
+      STR_FENRIR: "Fenir Race"
+      STR_SHAMBLER: "Shambler Race"
+      STR_SPIKEBOAR: "Spike Boar Race"
+      STR_CHUPACABRA: "Spinetail Race"
+      STR_MUCKSTAR: "Muckstar Race"	
+      STR_MUCKSTAR_TERRORIST: "Muckstar"
+      STR_MUCKSTAR_TERRORIST_UFOPEDIA: "Another Synedrion creation, this time, they modified a starfish and inflated its size. Now, it terrorised the ocean with its size and deadly stings. The creature is an ambush predator, with its outer skin able to sense the movement of its prey and then it stunt or kill it with a powerful bio-electric charge. It usually digest its prey like a spider does."	  
+      STR_MUCKSTAR_AUTOPSY: "Muckstar Autopsy"	
+      STR_MUCKSTAR_CORPSE: "Muckstar Corpse"	  
+      STR_MUCKSTAR_CORPSE_UFOPEDIA: "The autopsy of this creature is exactly what we find from those a starfish. It is just enlarged, with new organs that allow it to kill of its prey differently. Like the bio-electric charge, and venomous digestive system."	
+      STR_CHUPACABRA_TERRORIST: "Spinetail"
+      STR_CHUPACABRA_TERRORIST_UFOPEDIA: "A Weird looking creature of Synedrion creation. To classify it would be hard. For it relate to no other creature on this planet. The creaure itself is a hybrid of a porcupine and some other creature like an armadillo. It has a strong exo-skeleton and sharp spines that shoots at its enemy."	  
+      STR_CHUPACABRA_AUTOPSY: "Spinetail Autopsy"	
+      STR_CHUPACABRA_CORPSE: "Spinetail Corpse"	  
+      STR_CHUPACABRA_CORPSE_UFOPEDIA: "The Genetic analysis and autopsy of this creature fits our visual assessment of it. It is a hybrid of many creature. It has the spine of a Porcupine and exo-skeleton that its closest relative is a armadillo. Again for what purpose the Synedrion has create this creature for, no one knows. But it has escaped from the Synedrion and breeding in the wild. "	  
+      STR_GIANT_RAT_TERRORIST: "Giant Rat"
+      STR_GIANT_RAT_TERRORIST_UFOPEDIA: "Another Synedrion nightmare, this time a rat, modified to the point to be a giant. As to the purpose of this experiment. It defy explanation. The creature is not intelligence, skin is vulnerable to weapon fire. It eat voraciously on anything it finds. Now, after escaping from Synedrion, it breeds agressively. Destroying ecosystems and causing havocs on local wildlife."	  
+      STR_GIANT_RAT_AUTOPSY: "Giant Rat Autopsy"	
+      STR_GIANT_RAT_CORPSE: "Giant Rat Corpse"	  
+      STR_GIANT_RAT_CORPSE_UFOPEDIA: "A rat, genetically engineered to be large and otherwise, everything is the same. Nothing special."
+      STR_SHADOWBATXCOMFILES_TERRORIST: "Shadowbat"
+      STR_SHADOWBATXCOMFILES: "Shadowbat"	  
+      STR_SHADOWBATXCOMFILES_TERRORIST_UFOPEDIA: "These Shadow Bats, is just a massive bat, genetically engineered by Synedrion to be night aerial guardians that it could guard facilities or use offensively against foes. Its food is blood. Like Vampire sucking blood, it is literally a vampire, sucking the blood out from its victim till they die. Its fangs are sharp enough to punture steel."	  
+      STR_SHADOWBATXCOMFILES_AUTOPSY: "Shadowbat Autopsy"	
+      STR_SHADOWBATXCOMFILES_CORPSE: "Shadowbat Corpse"	  
+      STR_SHADOWBATXCOMFILES_CORPSE_UFOPEDIA: "The Synedrion has done it again with another genetic nightmare. This time with bats, or genetically engineered them into massively large creature where its leather skin can resist light weapons. Its sharp fangs can cut through soft tissue with ease. Not a creature to be tangled with."	
+      STR_THE_THING_POLARNIK: "Civilian"
+      STR_THE_THING_POLARNIK_UFOPEDIA: "Civilian"	  
+      STR_THE_THING_POLARNIK_AUTOPSY: "Civilian Remains"	
+      STR_THE_THING_POLARNIK_CORPSE: "Civilian Remains"	  
+      STR_THE_THING_POLARNIK_CORPSE_UFOPEDIA: "Civilian Remains"	  
+      STR_THE_THING_POLARNIK_TRANSFORMED: "Metamorphs"
+      STR_THE_THING_POLARNIK_TRANSFORMED_UFOPEDIA: "This bio-morph is the results of the Synedrion's most advance of experiements. To create the ultimate infiltrator. What the Bio-morph made off is made from, is a complete mystery. Unfortunately, the creature is capable of mimicking human and gets away with it."	  
+      STR_THE_THING_POLARNIK_TRANSFORMED_AUTOPSY: "Metamorph Remains"	
+      STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE: "Metamorphed Civilian Corpse"	  
+      STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE_UFOPEDIA: "The Bio-morph's body is actually human, but the brain and its skin is heavily modified. The brain is riddled with cybernetic implants and its skin is genetically modified with bio-organic layering similar to those of a Chameleon. The bio-morph by default has no personality or even intelligence, but it can be remote controlled by someone else from far away."	  	  
+      STR_THE_THING_HEAD: "Metamorph"
+      STR_THE_THING_HEAD_UFOPEDIA: "Metamorph Ufopedia"	  
+      STR_THE_THING_HEAD_AUTOPSY: "Metamorph Autopsy"	
+      STR_THE_THING_HEAD_CORPSE: "Metamorphed Head Corpse"	  
+      STR_THE_THING_HEAD_CORPSE_UFOPEDIA: "Metamorphed Head Corpse ufopedia"		
+      STR_THE_THING_DOG: "Dog"
+      STR_THE_THING_DOG_UFOPEDIA: "Dog Metamorph"	  
+      STR_THE_THING_DOG_AUTOPSY: "Dog Remains"	
+      STR_THE_THING_DOG_CORPSE: "Dead Dog"	  
+      STR_THE_THING_DOG_CORPSE_UFOPEDIA: "Dog Remains"		
+      STR_THE_THING_SHAPELESS_MASS: "Metamorph Shapeless Mass"
+      STR_THE_THING_SHAPELESS_MASS_UFOPEDIA: "Metamorph Shapeless Mass Ufopedia"	  
+      STR_THE_THING_SHAPELESS_MASS_AUTOPSY: "Metamorph Shapeless Mass Autopsy"	
+      STR_THE_THING_SHAPELESS_MASS_CORPSE: "Metamorph Shapeless Mass Corpse"	  
+      STR_THE_THING_SHAPELESS_MASS_CORPSE_UFOPEDIA: "Metamorph Shapeless Mass Corpse Ufopedia"  
+      STR_WEREWOLF_AUTOPSY: "Werewolf Autopsy"	
+      STR_WEREWOLF_CORPSE: "Werewolf Corpse"	  
+      STR_WEREWOLF_CORPSE_UFOPEDIA: "Another Synedrion creation, the Werewolf is a mix of human and wolf DNA. Where the Werecat is for speed, the Werewolf is strength. Intelligent, with pack like instinct, they hunt with frightening agression wth their stronger than steel canine and fangs. Known to tore a bovine to peices in a few seconds, with the hunger to devour it in minutes. This creature also prey on humans. For some unknown reason, the Synderion has discontinue its experiment with the creature, despite of successes."		
+      STR_WEREWOLF_WHITE_AUTOPSY: "Alpha Werewolf Autopsy"	
+      STR_WEREWOLF_WHITE_CORPSE: "Werewolf Corpse"	  
+      STR_WEREWOLF_WHITE_CORPSE_UFOPEDIA: "Werewolves have both human and canine DNA, combined in ways unknown to science. They have greatly developed muscles, teeth and claws. The brain is large, indicating good senses and intelligence."
+      STR_WEREWOLF_TERRORIST: "Werewolf"
+      STR_WEREWOLF_TERRORIST_UFOPEDIA: "Another Synedrion creation, the Werewolf is a mix of human and wolf DNA. Where the Werecat is for speed, the Werewolf is strength. Intelligent, with pack like instinct, they hunt with frightening agression wth their stronger than steel canine and fangs. Known to tore a bovine to peices in a few seconds, with the hunger to devour it in minutes. This creature also prey on humans. For some unknown reason, the Synderion has discontinue its experiment with the creature, despite of successes."
+      STR_WEREWOLF_WHITE_LEADER: "Alpha Werewolf"
+      STR_WEREWOLF_WHITE_LEADER_UFOPEDIA: "The Alpha Werewolves are pack leaders, the more dominant and aggressive than their smaller brethen. After the escape of a few of these Werewolves, while breeding in the wild, the largest of these werewolves become pack leaders. The females Werewolves will only breed with the Alpha males. Thus by natural selction and evolution, it has made these Alpha Wolves to be larger and more formidable, with the losers and smaller ones are deems as normal Werewolves."
+      STR_WERECAT_TERRORIST: "Werecat"
+      STR_WERECAT_TERRORIST_UFOPEDIA: "The imagination of these Synedrion freaks are formidable. This Werecat is a product of this imagination. They manage to fuse cat with human DNA, the end result is a fast creature with fangs and claws that can rip steels to shreds. A formidable hunter, this creature has enhance intelligence and reflexs. Making it a formidable foe. However, its feline instincts remains, making it can't be control, despite of its intelligence."
+      STR_WERECAT_BLACK_LEADER: "Alpha Werecat"
+      STR_WERECAT_BLACK_LEADER_UFOPEDIA: "The Alpha Werecats is an evolution of the Werecats. Again due to Synedrion's lack of security, some has escape and live in the wild. And as these Werecat's population exploded, some mutation and created the Alpha version. The Alpha version are pack leaders, more aggressive and voracious, with the inteligence to boot. "
+      STR_WERECAT_AUTOPSY: "Werecat Autopsy"	
+      STR_WERECAT_CORPSE: "Werecat Corpse"	  
+      STR_WERECAT_CORPSE_UFOPEDIA: "A Werecat has formidable muscles, fangs and claws. Otherwise, its body is a fusion of human and cat, organs are no exception. Its skeleton is light, agile and strong, built for speed and strength."	 
+      STR_WERECAT_BLACK_AUTOPSY: "Alpha Werecat Autopsy"	
+      STR_WERECAT_BLACK_CORPSE: "Werecat Corpse"	  
+      STR_WERECAT_BLACK_CORPSE_UFOPEDIA: "A Werecat has formidable muscles, fangs and claws. Otherwise, its body is a fusion of human and cat, organs are no exception. Its skeleton is light, agile and strong, built for speed and strength."	 
+      STR_BULLFROG_TERRORIST: "Bullfrog" 
+      STR_BULLFROG_TERRORIST_UFOPEDIA: "Another Synedrion creation, this frog has been hyper-enlarged, making it an amphibious monster. It is still an ambush predator, however, its main weapons are its poison and acid. The Synedrion had hope to make it an ambush predator, but its low intelligence has dashed their hope."
+      STR_BULLFROG_AUTOPSY: "Bullfrog Autopsy"	
+      STR_BULLFROG_CORPSE: "Bullfrog Corpse"	  
+      STR_BULLFROG_CORPSE_UFOPEDIA: "This frog is artificially engineered. Its skin is sensitive to weapon fire, making it easy to kill. However, this frog has special organs that allow it to spit venomous acid that can burn through steel and now, it can survive in salt water and fresh water. It means it can live anywhere, land or sea."	
+      STR_SHAMBLER_TERRORIST: "Abomination"  
+      STR_SHAMBLER_TERRORIST_UFOPEDIA: "This genetic monstrosity defy indentification. It is definately a Synedrion creation, large, with ham like hand that can break or bend steel. It is strong with large canine and eat a lot of meat. The closest creature that resemble it is a Gigantopithecus, yet it is larger and stronger. Pity the intelligence of this creature is no better than a cat. Otherwise it is an extremely agressive and dangerous creature."		  
+      STR_SHAMBLER_AUTOPSY: "Abomination Autopsy"	
+      STR_SHAMBLER_CORPSE: "Abomination Corpse"	  
+      STR_SHAMBLER_CORPSE_UFOPEDIA: "After an autopsy on this creature, we see it has a skeletal structure similar to a large gorila, with the organs matching it too. However, everything about its bones, teeth and hand has been enhance with some kine of organic carbon fibre. Making it extremely tough and strong. Its strong rippling muscles, allows it to carry heavy load and can kill a man with a punch."
+      STR_FENRIR_TERRORIST: "Dire Wolf"  
+      STR_FENRIR_TERRORIST_UFOPEDIA: "Dire Wolves are the larger version of the northern grey wolves. The Synedrion has genetically enhance these wolves to be better guard dogs by making them more aggressive, stronger and tougher. It need to consume a lot of meat every day to survive, thus it eats everything including human. Some has been used successfully for the role they were design to, some has escaped and breed in the wild. Their claws and canine has been made stronger and tougher to even penetrate through body armour, beside hunting in packs."	  
+      STR_FENRIR_AUTOPSY: "Dire Wolf Autopsy"
+      STR_FENRIR_CORPSE: "Dire Wolf Corpse"	  
+      STR_FENRIR_CORPSE_UFOPEDIA: "This creature is an enlarged wolf. Its thick fur and skin protects it from the cold. However, everything else about the creature is just as vulnerable as a normal wolf. The only difference is that its canine and claws are fifty percent larger than those of a wolf. Making it a deadly threat if encountered."
+      STR_MINOTAUR_TERRORIST: "Minotaur"  
+      STR_MINOTAUR_TERRORIST_UFOPEDIA: "Definately a Synedrion creation, this beast draw its inspiration from the legendary Minotaur. It is a fusion of Bovine and Human genetics, made large with limited intelligence. It consume a large amount of meat every day, and it is not picky on what it choose. This creature is part of the Synderion plan in creating a Super Soldier, however, their choice in giving it limited intelligence has backfired. Now this beast has the brain of a bovine, no doubt an escapee from the Synedrion labs, now roaming and breeding free in the wild."	 	  
+      STR_MINOTAUR_AUTOPSY: "Minotaur Autopsy"	
+      STR_MINOTAUR_CORPSE: "Minotaur Corpse"	  
+      STR_MINOTAUR_CORPSE_UFOPEDIA: "The creature is part human and bovine is correct, with organs inside to match. However, its skin is significantly toughen with teeth as sharp as those of a lion and horn can punch through steel. A formidable enemy if cornered."	  
+      STR_BULLFROG_BITE: "Bullfrog Bite"
+      STR_BULLFROG_TONGUE: "Bullfrog Kiss"
+      STR_FENRIR_WEAPON: "Fenrir Weapon"
+      STR_SHAMBLER_WEAPON: "Shambler Weapon"
+      STR_WERECAT_WEAPON: "Werecat Weapon"
+      STR_SPIKEBOAR_TERRORIST: "Spikeboar"
+      STR_SPIKEBOAR_TERRORIST_UFOPEDIA: "A Synedrion creation, this specimen is a descendant of those that escape from one of the Labs. Now, it is breeding in the forest region. This creature consume a lot food and water and it is omnivorous, capable of destroying entire ecosystem with its population. The creature's main weapon is its spikes, which it used to attack any thing close by. It then will consume its victim after they are impaled by its spikes. Humans are not off its menu. "	  
+      STR_SPIKEBOAR_AUTOPSY: "Spikeboar Autopsy"	
+      STR_SPIKEBOAR_CORPSE: "Spikeboar Corpse"	  
+      STR_SPIKEBOAR_CORPSE_UFOPEDIA: "This creature is a crossbreed between a porcupine and a boar, but made more voracious than the original Boar template it copy after. The creature can shoot its steel like spine at its enemy, before eating it. Its hide is armoured with leather like carapace with its back cover in thicken spikes made of ceretin. Make no mistake, those spikes are strong as steel and deadly."			  
+ufopaedia:
+  - id: STR_MUCKSTAR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MUCKSTAR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_MUCKSTAR_TERRORIST
+    listOrder: 56600
+  - id: STR_MUCKSTAR_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MUCKSTAR_CORPSE
+    text: STR_MUCKSTAR_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_CHUPACABRA_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_CHUPACABRA_TERRORIST_UFOPEDIA
+    requires:
+      - STR_CHUPACABRA_TERRORIST
+    listOrder: 56600
+  - id: STR_CHUPACABRA_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_CHUPACABRA_CORPSE
+    text: STR_CHUPACABRA_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_GIANT_RAT_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MUCKSTAR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_RAT_TERRORIST
+    listOrder: 56600
+  - id: STR_GIANT_RAT_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_RAT_CORPSE
+    text: STR_GIANT_RAT_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_SHADOWBATXCOMFILES_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MUCKSTAR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+    listOrder: 56600
+  - id: STR_SHADOWBATXCOMFILES_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SHADOWBATXCOMFILES_CORPSE
+    text: STR_SHADOWBATXCOMFILES_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_THE_THING_POLARNIK
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_THE_THING_POLARNIK_UFOPEDIA
+    requires:
+      - STR_THE_THING_POLARNIK
+    listOrder: 56600
+  - id: STR_THE_THING_POLARNIK_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_THE_THING_POLARNIK_CORPSE
+    text: STR_THE_THING_POLARNIK_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_THE_THING_POLARNIK_TRANSFORMED
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_THE_THING_POLARNIK_TRANSFORMED_UFOPEDIA
+    requires:
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+    listOrder: 56600
+  - id: STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    text: STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_THE_THING_HEAD
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MUCKSTAR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_THE_THING_HEAD
+    listOrder: 56600
+  - id: STR_THE_THING_HEAD_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_THE_THING_HEAD_CORPSE
+    text: STR_THE_THING_HEAD_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_THE_THING_DOG
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_THE_THING_DOG_UFOPEDIA
+    requires:
+      - STR_THE_THING_DOG
+    listOrder: 56600
+  - id: STR_THE_THING_DOG_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_THE_THING_DOG_CORPSE
+    text: STR_THE_THING_DOG_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_THE_THING_SHAPELESS_MASS
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_THE_THING_SHAPELESS_MASS_UFOPEDIA
+    requires:
+      - STR_THE_THING_SHAPELESS_MASS
+    listOrder: 56600
+  - id: STR_THE_THING_SHAPELESS_MASS_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_THE_THING_SHAPELESS_MASS_CORPSE
+    text: STR_THE_THING_SHAPELESS_MASS_CORPSE_UFOPEDIA
+    text_width: 153			
+  - id: STR_WEREWOLF_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_WEREWOLF_CORPSE
+    text: STR_WEREWOLF_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_WEREWOLF_WHITE_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_WEREWOLF_WHITE_CORPSE
+    text: STR_WEREWOLF_WHITE_CORPSE_UFOPEDIA
+    text_width: 153			
+  - id: STR_WEREWOLF_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_WEREWOLF_TERRORIST_UFOPEDIA
+    requires:
+      - STR_WEREWOLF_TERRORIST
+    listOrder: 56600
+  - id: STR_WEREWOLF_WHITE_LEADER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_WEREWOLF_WHITE_LEADER_UFOPEDIA
+    requires:
+      - STR_WEREWOLF_WHITE_LEADER
+    listOrder: 56600
+  - id: STR_WERECAT_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_WERECAT_TERRORIST_UFOPEDIA
+    requires:
+      - STR_WERECAT_TERRORIST
+    listOrder: 56600
+  - id: STR_WERECAT_BLACK_LEADER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_WERECAT_BLACK_LEADER_UFOPEDIA
+    requires:
+      - STR_WERECAT_BLACK_LEADER
+    listOrder: 56600
+  - id: STR_WERECAT_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_WERECAT_CORPSE
+    text: STR_WERECAT_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_WERECAT_BLACK_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_WERECAT_BLACK_CORPSE
+    text: STR_WERECAT_BLACK_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_BULLFROG_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_BULLFROG_TERRORIST_UFOPEDIA
+    requires:
+      - STR_BULLFROG_TERRORIST
+    listOrder: 56600
+  - id: STR_BULLFROG_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_BULLFROG_CORPSE
+    text: STR_BULLFROG_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_SHAMBLER_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SHAMBLER_TERRORIST_UFOPEDIA
+    requires:
+      - STR_SHAMBLER_TERRORIST
+    listOrder: 56600
+  - id: STR_SHAMBLER_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SHAMBLER_CORPSE
+    text: STR_SHAMBLER_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_FENRIR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_FENRIR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_FENRIR_TERRORIST
+    listOrder: 56600
+  - id: STR_FENRIR_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_FENRIR_CORPSE
+    text: STR_FENRIR_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_MINOTAUR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MINOTAUR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_MINOTAUR_TERRORIST
+    listOrder: 56600
+  - id: STR_MINOTAUR_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MINOTAUR_CORPSE
+    text: STR_MINOTAUR_CORPSE_UFOPEDIA
+    text_width: 153	  
+  - id: STR_SPIKEBOAR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SPIKEBOAR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_SPIKEBOAR_TERRORIST
+    listOrder: 56600
+  - id: STR_SPIKEBOAR_CORPSE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SPIKEBOAR_CORPSE
+    text: STR_SPIKEBOAR_CORPSE_UFOPEDIA
+    text_width: 153	 	
+research:	
+  - name: STR_MUCKSTAR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_MUCKSTAR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_MUCKSTAR_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_CHUPACABRA_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_CHUPACABRA_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_CHUPACABRA_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_GIANT_RAT_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GIANT_RAT_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_RAT_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_SHADOWBATXCOMFILES_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_SHADOWBATXCOMFILES_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SHADOWBATXCOMFILES_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_THE_THING_POLARNIK
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_THE_THING_POLARNIK_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_THE_THING_POLARNIK_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_THE_THING_POLARNIK_TRANSFORMED
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350			
+  - name: STR_THE_THING_HEAD
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_THE_THING_HEAD_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_THE_THING_HEAD_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_THE_THING_DOG
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_THE_THING_DOG_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_THE_THING_DOG_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350			
+  - name: STR_THE_THING_SHAPELESS_MASS
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_THE_THING_SHAPELESS_MASS_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_THE_THING_SHAPELESS_MASS_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_WEREWOLF_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_WEREWOLF_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350			
+  - name: STR_WEREWOLF_WHITE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_WEREWOLF_WHITE_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_WEREWOLF_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_WEREWOLF_WHITE_LEADER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_WERECAT_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_WERECAT_BLACK_LEADER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010		
+  - name: STR_WERECAT_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_WERECAT_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_WERECAT_BLACK_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_WERECAT_BLACK_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_BULLFROG_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_BULLFROG_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_BULLFROG_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SHAMBLER_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_SHAMBLER_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SHAMBLER_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_FENRIR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_FENRIR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_FENRIR_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_MINOTAUR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_MINOTAUR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_MINOTAUR_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SPIKEBOAR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SPIKEBOAR_CORPSE
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_SPIKEBOAR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+alienRaces:
+  - id: STR_THE_THING
+    members:
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_SHAPELESS_MASS
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+    retaliationAggression: -100
+  - id: STR_THE_THING
+    members:
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_SHAPELESS_MASS
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+      - STR_THE_THING_POLARNIK_TRANSFORMED
+    retaliationAggression: -100	
+  - id: STR_FENRIR
+    members:
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+    retaliationAggression: -100
+  - id: STR_FENRIR_UNDERWATER
+    members:
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+      - STR_FENRIR_TERRORIST
+    retaliationAggression: -100			
+  - id: STR_SHAMBLER
+    members:
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+    retaliationAggression: -100
+  - id: STR_SHAMBLER_UNDERWATER
+    members:
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+      - STR_SHAMBLER_TERRORIST
+    retaliationAggression: -100		
+  - id: STR_SPIKEBOAR
+    members:
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+    retaliationAggression: -100
+  - id: STR_SPIKEBOAR_UNDERWATER
+    members:
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+      - STR_SPIKEBOAR_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_CHUPACABRA
+    members:
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+    retaliationAggression: -100
+  - id: STR_CHUPACABRA_UNDERWATER
+    members:
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+      - STR_CHUPACABRA_TERRORIST
+    retaliationAggression: -100		
+  - id: STR_MUCKSTAR
+    members:
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+    retaliationAggression: -100
+  - id: STR_MUCKSTAR_UNDERWATER
+    members:
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+      - STR_MUCKSTAR_TERRORIST
+    retaliationAggression: -100			
+  - id: STR_SHADOWBATXCOMFILES
+    members:
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+    retaliationAggression: -100
+  - id: STR_SHADOWBATXCOMFILES_UNDERWATER
+    members:
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+      - STR_SHADOWBATXCOMFILES_TERRORIST
+    retaliationAggression: -100			
+  - id: STR_GIANT_RAT
+    members:
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+    retaliationAggression: -100
+  - id: STR_GIANT_RAT_UNDERWATER
+    members:
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+      - STR_GIANT_RAT_TERRORIST
+    retaliationAggression: -100			
+  - id: STR_WEREWOLF
+    members:
+      - STR_WEREWOLF_WHITE_LEADER
+      - STR_WEREWOLF_WHITE_LEADER
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+    retaliationAggression: -100
+  - id: STR_WEREWOLF_UNDERWATER
+    members:
+      - STR_WEREWOLF_WHITE_LEADER
+      - STR_WEREWOLF_WHITE_LEADER
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+      - STR_WEREWOLF_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_WERECAT
+    members:
+      - STR_WERECAT_BLACK_LEADER
+      - STR_WERECAT_BLACK_LEADER
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+    retaliationAggression: -100
+  - id: STR_WERECAT_UNDERWATER
+    members:
+      - STR_WERECAT_BLACK_LEADER
+      - STR_WERECAT_BLACK_LEADER
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+      - STR_WERECAT_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_BULLFROG
+    members:
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_BULLFROG_UNDERWATER
+    members:
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+      - STR_BULLFROG_TERRORIST
+    retaliationAggression: -100			
+units:	
+  - type: STR_MUCKSTAR_TERRORIST
+    race: STR_MUCKSTAR
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 60
+      stamina: 80
+      health: 34
+      bravery: 80
+      reactions: 70
+      firing: 80
+      throwing: 0
+      strength: 20
+      psiStrength: 70
+      psiSkill: 0
+      melee: 55
+    armor: STR_MUCKSTAR_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 8
+    value: 8
+    deathSound: 7
+    moveSound: 16
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_CHUPACABRA_TERRORIST
+    race: STR_CHUPACABRA
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 110
+      stamina: 140
+      health: 30
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 25
+      psiStrength: 50
+      psiSkill: 0
+      melee: 80
+    armor: STR_CHUPACABRA_ARMOR
+    standHeight: 18
+    kneelHeight: 12
+    value: 10
+    aggroSound: 123
+    deathSound: 200
+    panicSound: 265
+    berserkSound: 266
+    intelligence: 3
+    aggression: 4
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_GIANT_RAT_TERRORIST
+    race: STR_GIANT_RAT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 110
+      health: 20
+      bravery: 80
+      reactions: 85
+      firing: 0
+      throwing: 0
+      strength: 8
+      psiStrength: 35
+      psiSkill: 0
+      melee: 65
+    armor: STR_GIANT_RAT_ARMOR
+    standHeight: 10
+    kneelHeight: 10
+    value: 5
+    aggroSound: 207
+    deathSound: 208
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 50
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_SHADOWBATXCOMFILES_TERRORIST
+    race: STR_SHADOWBATXCOMFILES
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 120
+      stamina: 140
+      health: 10
+      bravery: 90
+      reactions: 90
+      firing: 0
+      throwing: 0
+      strength: 5
+      psiStrength: 45
+      psiSkill: 0
+      melee: 80
+    armor: STR_SHADOWBATXCOMFILES_ARMOR
+    standHeight: 6
+    kneelHeight: 16
+    floatHeight: 12
+    moveSound: 132
+    value: 8
+    deathSound: 9
+    intelligence: 3
+    aggression: 4
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_THE_THING_POLARNIK_TRANSFORMED
+    race: STR_THE_THING
+    stats:
+      tu: 57
+      stamina: 140
+      health: 40
+      bravery: 110
+      reactions: 70
+      firing: 40
+      throwing: 30
+      strength: 35
+      psiStrength: 80
+      psiSkill: 0
+      melee: 68
+      #mana: 300
+    armor: STR_THE_THING_POLARNIK_TRANSFORMED_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: 10
+    intelligence: 5
+    aggression: 6
+    energyRecovery: 90
+    spawnUnit: STR_THE_THING_HEAD
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_THE_THING_HEAD
+    race: STR_THE_THING
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 100
+      health: 15
+      bravery: 110
+      reactions: 80
+      firing: 0
+      throwing: 0
+      strength: 20
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 150
+    armor: STR_THE_THING_HEAD_ARMOR
+    standHeight: 10
+    kneelHeight: 8
+    value: 15
+    deathSound: 10
+    #capturable: true
+    intelligence: 5
+    aggression: 6
+    energyRecovery: 90
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_THE_THING_DOG
+    race: STR_DOGE
+    stats:
+      tu: 80
+      stamina: 90
+      health: 25
+      bravery: 10
+      reactions: 80
+      firing: 0
+      throwing: 0
+      strength: 2
+      psiStrength: 40
+      psiSkill: 0
+      melee: 100
+      #mana: 200
+    armor: STR_THE_THING_DOG_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    value: 2
+    deathSound: [94, 680, 681]
+    aggroSound: 95
+    energyRecovery: 30
+    livingWeapon: true
+    spawnUnit: STR_THE_THING_SHAPELESS_MASS
+    intelligence: 3
+    aggression: 2
+  - type: STR_THE_THING_SHAPELESS_MASS
+    race: STR_THE_THING
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 25
+      stamina: 100
+      health: 40
+      bravery: 110
+      reactions: 72
+      firing: 30
+      throwing: 30
+      strength: 40
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 100
+    armor: STR_THE_THING_SHAPELESS_MASS_ARMOR
+    standHeight: 10
+    kneelHeight: 10
+    moveSound: 0
+    value: 15
+    deathSound: 10
+    #capturable: false
+    intelligence: 5
+    aggression: 6
+    energyRecovery: 130
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_THE_THING_POLARNIK
+    race: STR_CIVILIAN
+    stats:
+      tu: 42
+      stamina: 50
+      health: 40
+      bravery: 70
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 22
+      #mana: 50
+    armor: STR_THE_THING_POLARNIK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: 10
+    intelligence: 5
+    aggression: 6
+    value: 30
+    energyRecovery: 25
+    spawnUnit: STR_THE_THING_POLARNIK_TRANSFORMED
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE
+  - type: STR_WEREWOLF_TERRORIST
+    race: STR_WEREWOLF
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 86
+      stamina: 100
+      health: 130
+      bravery: 90
+      reactions: 50
+      firing: 30
+      throwing: 32
+      strength: 100
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+    armor: STR_WEREWOLF_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 15
+    aggroSound: 119
+    deathSound: 90
+    intelligence: 1
+    aggression: 4
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_WEREWOLF_WHITE_LEADER
+    race: STR_WEREWOLF
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 94
+      stamina: 120
+      health: 150
+      bravery: 90
+      reactions: 50
+      firing: 30
+      throwing: 32
+      strength: 110
+      psiStrength: 50
+      psiSkill: 20
+      melee: 100
+    armor: STR_WEREWOLF_WHITE_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 20
+    aggroSound: 119
+    deathSound: 90
+    intelligence: 1
+    aggression: 5
+    spotter: 1
+    energyRecovery: 35
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+        - STR_WERECAT_WEAPON
+  - type: STR_WERECAT_TERRORIST
+    race: STR_WERECAT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 98
+      stamina: 90
+      health: 100
+      bravery: 90
+      reactions: 60
+      firing: 30
+      throwing: 32
+      strength: 80
+      psiStrength: 45
+      psiSkill: 0
+      melee: 80
+    armor: STR_WERECAT_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 15
+    deathSound: 6
+    intelligence: 1
+    aggression: 4
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_WERECAT_BLACK_LEADER
+    race: STR_WERECAT
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 110
+      stamina: 110
+      health: 120
+      bravery: 90
+      reactions: 74
+      firing: 30
+      throwing: 32
+      strength: 90
+      psiStrength: 50
+      psiSkill: 15
+      melee: 100
+    armor: STR_WERECAT_BLACK_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 20
+    deathSound: 6
+    intelligence: 1
+    aggression: 4
+    spotter: 1
+    energyRecovery: 35
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+        - STR_WERECAT_WEAPON
+  - type: STR_SPIKEBOAR_TERRORIST
+    race: STR_SPIKEBOAR
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 120
+      health: 80
+      bravery: 70
+      reactions: 25
+      firing: 70
+      throwing: 0
+      strength: 90
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_SPIKEBOAR_ARMOR
+    standHeight: 20
+    kneelHeight: 18
+    value: 20
+    aggroSound: 117
+    deathSound: 90
+    intelligence: 2
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+        - STR_WERECAT_WEAPON
+    livingWeapon: true
+  - type: STR_BULLFROG_TERRORIST
+    race: STR_BULLFROG
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 140
+      health: 200
+      bravery: 80
+      reactions: 65
+      firing: 0
+      throwing: 90
+      strength: 85
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+    armor: STR_BULLFROG_ARMOR
+    standHeight: 20
+    kneelHeight: 18
+    value: 20
+    aggroSound: 199
+    deathSound: 90
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_BULLFROG_BITE
+        - STR_BULLFROG_TONGUE
+    livingWeapon: true
+  - type: STR_SHAMBLER_TERRORIST
+    race: STR_SHAMBLER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 150
+      bravery: 80
+      reactions: 40
+      firing: 0
+      throwing: 0
+      strength: 120
+      psiStrength: 30
+      psiSkill: 0
+      melee: 80
+    armor: STR_SHAMBLER_ARMOR
+    standHeight: 24
+    kneelHeight: 18
+    value: 18
+    aggroSound: 269
+    deathSound: 120
+    panicSound: 267
+    berserkSound: 268
+    intelligence: 1
+    aggression: 3
+    builtInWeaponSets:
+      - - STR_SHAMBLER_WEAPON
+  - type: STR_FENRIR_TERRORIST
+    race: STR_FENRIR
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 90
+      stamina: 130
+      health: 110
+      bravery: 80
+      reactions: 60
+      firing: 0
+      throwing: 0
+      strength: 100
+      psiStrength: 40
+      psiSkill: 0
+      melee: 90
+    armor: STR_FENRIR_ARMOR
+    standHeight: 20
+    kneelHeight: 18
+    value: 20
+    aggroSound: 119
+    deathSound: 90
+    intelligence: 1
+    aggression: 4
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_FENRIR_WEAPON
+  - type: STR_MINOTAUR_TERRORIST
+    race: STR_MINOTAUR
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 100
+      stamina: 140
+      health: 200
+      bravery: 100
+      reactions: 40
+      firing: 25
+      throwing: 30
+      strength: 160
+      psiStrength: 30
+      psiSkill: 0
+      melee: 70
+      #mana: 40
+    armor: STR_MINOTAUR_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 18
+    aggroSound: 204
+    deathSound: 74
+    energyRecovery: 30
+    intelligence: 1
+    aggression: 5
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE		
+armors:
+  - type: STR_MUCKSTAR_ARMOR
+    spriteSheet: MUCKSTAR.PCK
+    spriteInv: inventory_MUCKSTAR
+    allowInv: false
+    zombiImmune: true
+    corpseBattle:
+      - STR_MUCKSTAR_CORPSE
+    psiVision: 30
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 16
+    constantAnimation: true
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.7
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.6
+      - 0.7
+      - 0.7
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 5 ]
+  - type: STR_CHUPACABRA_ARMOR
+    spriteSheet: CHUPACABRA.PCK
+    spriteInv: inventory_CHUPACABRA
+    allowInv: false
+    corpseBattle:
+      - STR_CHUPACABRA_CORPSE
+    visibilityAtDark: 20
+    heatVision: 50
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 6
+    #psiDefence: *StandardDynamicPsiDefence
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.7
+    meleeDodgeBackPenalty: 0.4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+  - type: STR_GIANT_RAT_ARMOR
+    spriteSheet: GIANT_RAT.PCK
+    spriteInv: inventory_GIANT_RAT
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_RAT_CORPSE
+    visibilityAtDark: 16
+    heatVision: 50
+    psiVision: 3
+    camouflageAtDay: -15
+    camouflageAtDark: -6
+    antiCamouflageAtDark: 5
+    antiCamouflageAtDay: 5
+    frontArmor: 3
+    sideArmor: 3
+    rearArmor: 3
+    underArmor: 3
+    #psiDefence: *StandardDynamicPsiDefence
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+  - type: STR_SHADOWBATXCOMFILES_ARMOR
+    spriteSheet: SHADOWBAT.PCK
+    spriteInv: inventory_SHADOWBAT
+    allowInv: false
+    corpseBattle:
+      - STR_SHADOWBATXCOMFILES_CORPSE
+    visibilityAtDark: 20
+    camouflageAtDark: -2
+    camouflageAtDay: 30
+    heatVision: 100
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    #psiDefence: *StandardDynamicPsiDefence
+    movementType: 1
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.2
+    meleeDodge:
+      reactions: 0.7
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.2
+      - 0.9
+      - 1.0
+      - 4.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 1 ]
+    scripts:
+      selectUnitSprite: |
+        var int temp;
+        var int walking;
+        unit.isWalking walking;
+        if eq walking 0;
+          unit.getId temp;
+          offsetmod temp 11 0 8; #desync animation of different units
+          add temp anim_frame;
+          wavegen_saw temp 8 8 7;
+          mul sprite_offset 8;
+          add sprite_offset 8;
+          add sprite_offset temp;
+          set sprite_index sprite_offset;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;  
+  - type: STR_THE_THING_POLARNIK_TRANSFORMED_ARMOR
+    spriteSheet: THE_THING_POLARNIK_TRANSFORMED.PCK
+    spriteInv: inventory_THE_THING_POLARNIK_TRANSFORMED_GREEN
+    forcedTorso: 1
+    spriteUtileGroup: 4
+    spriteUtileColor: [160, 160, 144, 144, 224, 239, 239, 0]
+    zombiImmune: true
+    bleedImmune: false
+    fearImmune: true
+    painImmune: true
+    corpseBattle:
+      - STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    psiVision: 40
+    visibilityAtDark: 9
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 7
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.0
+    #psiDefence: *MachineDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.07
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 2.5
+    damageModifier:
+      - 1.0
+      - 0.3
+      - 1.0
+      - 0.8
+      - 0.4
+      - 0.7
+      - 0.15
+      - 0.5
+      - 1.0
+      - 0.3
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_THE_THING_HEAD_ARMOR
+    spriteSheet: THE_THING_HEAD.PCK
+    spriteInv: inventory_THE_THING_HEAD
+    allowInv: false
+    zombiImmune: true
+    bleedImmune: false
+    fearImmune: true
+    painImmune: true
+    corpseBattle:
+      - STR_THE_THING_HEAD_CORPSE
+    psiVision: 40
+    visibilityAtDark: 9
+    frontArmor: 3
+    sideArmor: 3
+    rearArmor: 3
+    underArmor: 3
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      stun:
+        healthCurrent: 0.1
+    meleeDodge:
+      reactions: 0.6
+    meleeDodgeBackPenalty: 0.0
+    overKill: 2.5
+    damageModifier:
+      - 1.0
+      - 0.3
+      - 1.0
+      - 0.8
+      - 0.4
+      - 0.7
+      - 0.15
+      - 0.5
+      - 1.0
+      - 0.3
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]	
+  - type: STR_THE_THING_DOG_ARMOR
+    spriteSheet: THE_THING_DOG.PCK
+    spriteInv: inventory_DOGE
+    allowInv: false
+    bleedImmune: false
+    fearImmune: true
+    painImmune: true
+    corpseBattle:
+      - STR_THE_THING_DOG_CORPSE
+    psiVision: 40
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.3
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+       flatOne: -3.0 # lose 3 HP per turn
+    movementType: 0
+    drawingRoutine: 4
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_DOGE_TRACK
+    builtInWeapons:
+      - STR_WERECAT_WEAPON
+    loftempsSet: [ 2 ]
+  - type: STR_THE_THING_SHAPELESS_MASS_ARMOR
+    spriteSheet: THE_THING_SHAPELESS_MASS.PCK
+    spriteInv: inventory_THE_THING_SHAPELESS_MASS
+    allowInv: false
+    zombiImmune: true
+    bleedImmune: false
+    fearImmune: true
+    painImmune: true
+    corpseBattle:
+      - STR_THE_THING_SHAPELESS_MASS_CORPSE
+    psiVision: 40
+    visibilityAtDark: 9
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
+    drawingRoutine: 16
+    constantAnimation: true
+    movementType: 0
+    #psiDefence: *MachineDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      stun:
+        healthCurrent: 0.1
+    createsMeleeThreat: false
+    overKill: 2.5
+    damageModifier:
+      - 1.0
+      - 0.3
+      - 1.0
+      - 0.8
+      - 0.4
+      - 0.7
+      - 0.15
+      - 0.5
+      - 1.0
+      - 0.3
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_THE_THING_POLARNIK_ARMOR
+    spriteSheet: POLARNIK.PCK
+    spriteInv: inventory_MALE_POLAR
+    forcedTorso: 1
+    spriteUtileGroup: 4
+    spriteUtileColor: [160, 160, 144, 144, 224, 239, 239, 0]
+    corpseBattle:
+      - STR_MALE_CIVILIAN_POLARNIK_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 7
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.05
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.07
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+       flatOne: -5.0 # lose 5 HP per turn
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_POLAR_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_WEREWOLF_ARMOR
+    spriteSheet: WEREWOLF.PCK
+    spriteInv: inventory_WEREWOLF
+    corpseBattle:
+      - STR_WEREWOLF_CORPSE
+    visibilityAtDark: 20
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.3
+    overKill: 1.5
+    damageModifier: &WerewolfResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_WEREWOLF_WHITE_ARMOR
+    spriteSheet: WEREWOLF_WHITE.PCK
+    spriteInv: inventory_WEREWOLF_WHITE
+    corpseBattle:
+      - STR_WEREWOLF_WHITE_CORPSE
+    corpseGeo: STR_WEREWOLF_CORPSE
+    visibilityAtDark: 20
+    psiVision: 2
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.3
+    overKill: 1.5
+    damageModifier: &WerewolfResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 50
+  - type: STR_WERECAT_ARMOR
+    spriteSheet: WERECAT.PCK
+    spriteInv: inventory_WERECAT
+    corpseBattle:
+      - STR_WERECAT_CORPSE
+    visibilityAtDark: 20
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.2
+    overKill: 1.5
+    damageModifier: &WerewolfResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+  - type: STR_WERECAT_BLACK_ARMOR
+    spriteSheet: WERECAT_BLACK.PCK
+    spriteInv: inventory_WERECAT_BLACK
+    corpseBattle:
+      - STR_WERECAT_BLACK_CORPSE
+    corpseGeo: STR_WERECAT_CORPSE
+    visibilityAtDark: 20
+    psiVision: 3
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.2
+    overKill: 1.5
+    damageModifier: &WerewolfResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]	
+  - type: STR_SPIKEBOAR_ARMOR
+    spriteSheet: SPIKEBOAR.PCK
+    spriteInv: inventory_SPIKEBOAR
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - SPIKEBOAR_CORPSE_1
+      - SPIKEBOAR_CORPSE_2
+      - SPIKEBOAR_CORPSE_3
+      - SPIKEBOAR_CORPSE_4
+    corpseGeo: STR_SPIKEBOAR_CORPSE
+    visibilityAtDark: 11
+    frontArmor: 25
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.8
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_BULLFROG_ARMOR
+    spriteSheet: BULLFROG.PCK
+    spriteInv: inventory_BULLFROG
+    allowInv: false
+    bleedImmune: false
+    zombiImmune: true
+    corpseBattle:
+      - BULLFROG_CORPSE_1
+      - BULLFROG_CORPSE_2
+      - BULLFROG_CORPSE_3
+      - BULLFROG_CORPSE_4
+    corpseGeo: STR_BULLFROG_CORPSE
+    visibilityAtDark: 11
+    frontArmor: 18
+    sideArmor: 18
+    rearArmor: 18
+    underArmor: 18
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.7
+      - 1.35
+      - 1.35
+      - 0.8
+      - 1.0
+      - 1.4
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_SHAMBLER_ARMOR
+    spriteSheet: SHAMBLER.PCK
+    spriteInv: inventory_SHAMBLER
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - SHAMBLER_CORPSE_1
+      - SHAMBLER_CORPSE_2
+      - SHAMBLER_CORPSE_3
+      - SHAMBLER_CORPSE_4
+    corpseGeo: STR_SHAMBLER_CORPSE
+    visibilityAtDark: 20
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.2
+      - 0.5
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_FENRIR_ARMOR
+    spriteSheet: FENRIR.PCK
+    spriteInv: inventory_FENRIR
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - FENRIR_CORPSE_1
+      - FENRIR_CORPSE_2
+      - FENRIR_CORPSE_3
+      - FENRIR_CORPSE_4
+    corpseGeo: STR_FENRIR_CORPSE
+    visibilityAtDark: 20
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.3
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.3
+      - 1.2
+      - 0.8
+      - 1.1
+      - 1.0
+      - 1.0
+      - 0.9
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 105, 108, 102, 99 ]
+  - type: STR_MINOTAUR_ARMOR
+    spriteInv: inventory_MINOTAUR
+    spriteSheet: MINOTAUR.PCK
+    corpseBattle:
+      - STR_MINOTAUR_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.7
+      - 0.9
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_MINOTAUR_WEAPON
+    loftempsSet: [ 3 ]		  
+items:	
+  - type: STR_SPIKEBOAR_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 13000
+    battleType: 11
+    listOrder: 62490
+  - type: SPIKEBOAR_CORPSE_1
+    name: STR_SPIKEBOAR_CORPSE
+    floorSprite: 259
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: SPIKEBOAR_CORPSE_2
+    floorSprite: 260
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SPIKEBOAR_CORPSE_3
+    floorSprite: 261
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SPIKEBOAR_CORPSE_4
+    floorSprite: 262
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_MUCKSTAR_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 30000
+    listOrder: 115580
+  - type: STR_MUCKSTAR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 9000
+    weight: 9
+    bigSprite: 715
+    floorSprite: 667
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 7
+    battleType: 11
+    armor: 8
+    listOrder: 62480	
+  - type: STR_CHUPACABRA_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 30000
+    listOrder: 115710
+  - type: STR_CHUPACABRA_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 10000
+    weight: 14
+    bigSprite: 255
+    floorSprite: 226
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62500
+  - type: STR_GIANT_RAT_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 10000
+    listOrder: 115760
+  - type: STR_GIANT_RAT_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 2500
+    weight: 12
+    bigSprite: 854
+    floorSprite: 764
+    invWidth: 2
+    invHeight: 1
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62430
+  - type: STR_SHADOWBATXCOMFILES_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 25000
+    listOrder: 115560
+  - type: STR_SHADOWBATXCOMFILES_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 8000
+    weight: 6
+    bigSprite: 368
+    floorSprite: 326
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    armor: 5
+    listOrder: 62530
+  - type: STR_THE_THING_POLARNIK
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 180000
+  - type: STR_THE_THING_POLARNIK_CORPSE
+    name: STR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 90000
+    weight: 42
+    bigSprite: 519
+    floorSprite: 427
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    recoveryPoints: 20
+    battleType: 11
+    armor: 30
+    recover: false
+  - type: STR_THE_THING_POLARNIK_TRANSFORMED
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 180000
+  - type: STR_THE_THING_POLARNIK_TRANSFORMED_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 90000
+    weight: 42
+    bigSprite: 519
+    floorSprite: 427
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    recoveryPoints: 20
+    battleType: 11
+    armor: 30
+    recover: false	
+  - type: STR_THE_THING_HEAD
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 180000
+  - type: STR_THE_THING_HEAD_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.15
+    costSell: 90000
+    weight: 8
+    bigSprite: 920
+    floorSprite: 816
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 20
+    battleType: 11
+    armor: 18
+    recover: true
+    recoverCorpse: false
+  - type: STR_THE_THING_DOG
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 180000
+  - type: STR_THE_THING_DOG_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.15
+    costSell: 90000
+    weight: 8
+    bigSprite: 920
+    floorSprite: 816
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 20
+    battleType: 11
+    armor: 18
+    recover: false
+  - type: STR_THE_THING_SHAPELESS_MASS
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 180000
+  - type: STR_SPIKEBOAR_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 75000		
+  - type: STR_THE_THING_SHAPELESS_MASS_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 90000
+    weight: 36
+    bigSprite: 921
+    floorSprite: 817
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    recoveryPoints: 20
+    battleType: 11
+    armor: 20
+    recover: true
+    recoverCorpse: false
+  - type: STR_WEREWOLF_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 44
+    bigSprite: 466
+    floorSprite: 389
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+    listOrder: 62610
+  - type: STR_WEREWOLF_WHITE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 44
+    bigSprite: 583
+    floorSprite: 460
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+  - type: STR_WEREWOLF_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115810
+  - type: STR_WEREWOLF_WHITE_LEADER
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 45000
+    listOrder: 115820
+  - type: STR_WERECAT_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115850
+  - type: STR_WERECAT_BLACK_LEADER
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 45000
+    listOrder: 115860
+  - type: STR_WERECAT_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 38
+    bigSprite: 477
+    floorSprite: 399
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+    listOrder: 62620
+  - type: STR_WERECAT_BLACK_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 41
+    bigSprite: 584
+    floorSprite: 459
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+  - type: STR_MALE_CIVILIAN_POLARNIK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 519
+    floorSprite: 427
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false		
+  - type: STR_WERECAT_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 585
+    floorSprite: 31
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 100
+    tuMelee: 10
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_BULLFROG_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 30000
+    listOrder: 115750	
+  - type: STR_BULLFROG_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 10000
+    battleType: 11
+    listOrder: 62450
+  - type: BULLFROG_CORPSE_1
+    name: STR_BULLFROG_CORPSE
+    floorSprite: 771
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+    listOrder: 62450
+  - type: BULLFROG_CORPSE_2
+    floorSprite: 772
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: BULLFROG_CORPSE_3
+    floorSprite: 773
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: BULLFROG_CORPSE_4
+    floorSprite: 774
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false	
+  - type: STR_SHAMBLER_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115570	
+  - type: STR_SHAMBLER_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 15000
+    battleType: 11
+    listOrder: 62460
+  - type: SHAMBLER_CORPSE_1
+    name: STR_SHAMBLER_CORPSE
+    floorSprite: 263
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: SHAMBLER_CORPSE_2
+    floorSprite: 264
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SHAMBLER_CORPSE_3
+    floorSprite: 265
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SHAMBLER_CORPSE_4
+    floorSprite: 266
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_SHAMBLER_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 592
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 109
+    clipSize: -1
+    power: 0
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 80
+    tuMelee: 14
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_FENRIR_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 32000
+    listOrder: 115670
+  - type: STR_FENRIR_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 24000
+    battleType: 11
+    listOrder: 62570
+  - type: FENRIR_CORPSE_1
+    name: STR_FENRIR_CORPSE
+    floorSprite: 267
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: FENRIR_CORPSE_2
+    floorSprite: 268
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: FENRIR_CORPSE_3
+    floorSprite: 269
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: FENRIR_CORPSE_4
+    floorSprite: 270
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_FENRIR_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 590
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 0
+    damageAlter:
+      IgnoreOverKill: false
+      ToTile: 0.33
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_BULLFROG_TONGUE
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 934
+    bulletSprite: 5
+    fireSound: 193
+    hitSound: 1
+    hitAnimation: 106
+    power: 50
+    damageType: 6
+    damageAlter:
+      RandomType: 6
+      FixRadius: 0
+      IgnoreDirection: false
+      ToHealth: 0.25
+      ToTime: 2.0
+      ToMorale: 2.0
+      ToEnergy: 2.0
+      ToArmorPre: 0.1
+      ToTile: 0.1
+    accuracySnap: 125
+    accuracyMultiplier:
+      firing: 0.0
+      throwing: 0.5
+      reactions: 0.5
+    costSnap:
+      time: 30
+      energy: 5
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 12
+    powerRangeThreshold: 13
+    powerRangeReduction: 999
+    bulletSpeed: 50
+    recover: false
+  - type: STR_BULLFROG_BITE
+    categories: [STR_BUILT_INS]
+    weight: 0
+    bigSprite: 742
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 0
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 70
+    tuMelee: 18
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: STR_MINOTAUR_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    prisonType: 2
+   #liveAlien: true
+    recover: true
+    costSell: 42000
+    listOrder: 115800	
+  - type: STR_MINOTAUR_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 20000
+    weight: 100
+    bigSprite: 849
+    floorSprite: 760
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 36
+    listOrder: 62440		

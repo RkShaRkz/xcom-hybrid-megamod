@@ -1,0 +1,202 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_XOFFICE: "Syn Mission 5: Capture X in her office."
+      STR_MARKER_XOFFICE: "Capture X in her office"
+      STR_ALERT_XOFFICE: "Capture X in her office"
+      STR_LOC_XOFFICE_BRIEFING: "This is the Merc guild here. Although your heavy interrogation has manage to drag out of the critical info from X's personal assistant, but the location intel of where X is, is at least a few weeks old. The info says that X's last known location is at a Synedrion Adminstrative hub, a place at where all the admin offices from this degerative Bio-tech company is located. The Merc guild is authorised by the Mutant Alliance for a contract to initiate a raid to kill or Capture X, payment receive upon job completion. "    
+alienDeployments:
+  - type: STR_XOFFICE
+    alert: STR_ALERT_XOFFICE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_XOFFICE_BRIEFING
+    unlockedResearch: STR_MISSION5END		
+    briefing:
+      palette: 4
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_XOFFICE
+      desc: STR_LOC_XOFFICE_BRIEFING
+    markerName: STR_MARKER_XOFFICE
+    duration: [25, 10000000000000]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    script: GENERALSPAWNXOFFICE
+    data:
+      - alienRank: 8
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+      - alienRank: 4
+        lowQty: 4
+        highQty: 4
+        dQty: 4
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []			
+alienMissions:
+  - type: STR_LOC_XOFFICE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_ACADEMY: 100	  
+    waves:
+      - ufo: STR_XOFFICE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+research:
+  - name: STR_MISSION5END 
+    points: 25
+    needItem: true	
+missionScripts:
+  - type: synadmin
+    firstMonth: 0
+    lastMonth: 9
+    missionWeights:
+      0:
+        STR_LOC_XOFFICE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    varName: xassiscap
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_XASSISTANT: true	
+      STR_MISSION5END: false	
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:			
+  - type: GENERALSPAWNXOFFICE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_LOC_ACADEMY_OUTPOSTTOWN
+      executions: 1 
+      groups: 1		  
+      terrain: globeTerrain	  
+    - type: addUFO
+      UFOName: STR_FACTION_ADMIN
+      executions: 4
+      groups: 1		  
+      terrain: globeTerrain	  	
+    - type: addUFO
+      UFOName: STR_FACTION_STORAGE
+      executions: 3
+      groups: 1		  
+      terrain: globeTerrain	
+    - type: addUFO
+      UFOName: STR_FACTION_BARRACK
+      executions: 3
+      groups: 1		  
+      terrain: globeTerrain	 	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain		  

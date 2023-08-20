@@ -1,0 +1,164 @@
+#  - type: example                       # the type/name is used for overwriting or deleting purposes.
+#    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+#    lastMonth: 0                        # don't run after this month. in this context we mean "run once". -1 denotes no limit (default -1)
+#    label: 1                            # label, used for conditionals (default 0)
+#    conditionals: [1, -2]               # conditional list, just like mapscripts (default none)
+#    missionWeights:                     # the type of mission to spawn (omit to pick one from the mission table) (default none)
+#      0:                                # these are split into monthly chunks, and can contain multiple entries,
+#        STR_ALIEN_PROBE_MISSION: 20     # including weighted odds, but there is a caveat here:
+#        STR_ALIEN_INTERDICTION: 30      # you cannot mix and match missions with mission site objectives (ie: terror) with regular missions,
+#        STR_ALIEN_OUTERDICTION: 30      # they are generated too differently. using executionOdds and conditionals instead can achieve
+#        STR_WHALE_WATCHING: 20          # exactly the same thing. similarly, terror missions should not appear in regional mission weights (regions.rul)
+#    executionOdds: 100                  # % chances of this command executing (default 100)
+#    targetBaseOdds: 75                  # % chances of this mission targeting a region containing an xcom base instead of random (default 0)
+#    startDelay: 120                     # number of minutes to delay the start of the mission (rounded down to the nearest 30, 0 to use the wave timer from the mission itself) (default 0)
+#    raceWeights:                        # can override established monthly race weights here if desired (default empty)
+#      0:
+#        STR_AQUATOID: 100               # in this case we want an aquatoid mission, so they get 100%
+#    regionWeights:                      # again, this can override the defined mission region weights (default empty)
+#      0:                                # this won't come into play here unless the mission doesn't target an xcom base, as described above.
+#        STR_SAMPLE_REGION1: 20          # IF OMITTED:
+#        STR_SAMPLE_REGION2: 30          # for a terror type mission, all regions that meet the criteria will be weighed equally.
+#        STR_SAMPLE_REGION3: 50          # for regular missions the normal regional distribution weights will be applied.
+#    minDifficulty: 0                    # this command only applies to difficulty levels of this or above (default 0)
+#    researchTriggers:                   # a list of research topics that can influence the execution of this mission (default empty)
+#      STR_THE_ULTIMATE_THREAT: true     # in this case, the mission would only run if the player has the ultimate threat
+#      STR_TLETH_TH_ALIEN_CITY: false    # and does NOT have T'Leth
+#    maxRuns: 12                         # this mission type can only execute this number of times, -1 for infinite (default -1)
+#    avoidRepeats: 12                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+#    varName: researching                # this is an internal variable name, used for tracking maxruns and avoidRepeats (default none)
+#    useTable: false                     # check this mission type appears in the mission tables, and remove it if it does? (default true)
+
+missionScripts: #done
+  - delete: recon
+  - delete: invasion
+  - delete: gameStart
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation 
+  - type: FACTIONreconHarvestnew
+    missionWeights:
+      0:
+        STR_ALIEN_HARVEST: 100
+    firstMonth: 0
+    varName: FACTIONcontinueHarvestadv
+    maxRuns: -1
+    executionOdds: 50
+  - type: FACTIONreconResearchADV
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    firstMonth: 0
+    varName: FACTIONcontinueResearchADV
+    maxRuns: -1
+    executionOdds: 50
+  - type: FACTIONreconabduction
+    missionWeights:
+      0:
+        STR_ALIEN_ABDUCTION: 100
+    firstMonth: 0
+    varName: FACTIONcontinueaduction
+    maxRuns: -1
+    executionOdds: 50
+  - type: CYDONIAFinalAlienbase
+    researchTriggers:                   
+      STR_THE_MARTIAN_SOLUTION: true 
+    executionOdds: 100 
+    maxRuns: 1
+    varName: researching 
+    useTable: false
+    missionWeights:
+      0:
+        STR_CYDONIA_BASESPAWN: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+  - type: invasionx
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    firstMonth: 6
+    varName: infiltratex
+    maxRuns: -1
+    executionOdds: 50
+  - type: invasionBASE
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    firstMonth: 2
+    varName: invasionBaseland
+    maxRuns: -1
+    executionOdds: 50
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+  - type: invasionBASEsea
+    missionWeights:
+      0:
+        STR_ALIEN_BASE_UNDERWATER: 100
+    firstMonth: 2
+    varName: invasionBasesea
+    maxRuns: -1
+    executionOdds: 50
+    regionWeights:
+      0:
+        SEASPAWNS: 100		
+  - type: superhumanRetaliationALIEN
+    #minDifficulty: 4
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 2
+    targetBaseOdds: 40
+    useTable: false
+    #conditionals: [-1, -2, -3, -4, -5]
+    startDelay: 150
+    executionOdds: 40	
+    varName: ALIENRETALIATION
+    maxRuns: -1	
+  - type: shipTerrorUFO
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_SEASHIPATTACKUFOCARGO: 50
+        STR_SEASHIPATTACKUFOSTRCRUISE: 50	
+    avoidRepeats: -1 
+    maxRuns: -1
+    varName: shippingLanesufo
+    startDelay: 150	
+    useTable: false
+    executionOdds: 30
+    regionWeights:
+      0:
+        SHIPPINGRAIDSUFO: 100
+  - type: recurringTerror
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 80
+        STR_ALIEN_PORT_TERROR: 20	 	
+    useTable: false
+    startDelay: 150
+    varName: ufoislandterror	
+    firstMonth: 0
+    maxRuns: -1	
+    executionOdds: 30
+    regionWeights:
+      0:
+        CITIESUFO: 100		
+  - type: recurringTerrorIsland
+    missionWeights:
+      0:
+        STR_ISLANDATTACKUFO: 70
+        STR_ALIEN_PORT_TERROR: 30		
+    useTable: false
+    startDelay: 150
+    varName: ufoislandterror		
+    firstMonth: 0
+    maxRuns: -1
+    executionOdds: 30
+    regionWeights:
+      0:
+        ISLANDUFO: 100	

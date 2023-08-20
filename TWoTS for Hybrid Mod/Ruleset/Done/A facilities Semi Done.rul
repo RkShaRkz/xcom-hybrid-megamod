@@ -1,0 +1,206 @@
+facilities: 
+  - type: STR_POOL
+    #requiresBaseFunc: [SEABASE]  
+    spriteShape: 1
+    spriteFacility: 200
+    buildCost: 200000
+    buildTime: 20
+    monthlyCost: 10000
+    trainingRooms: 10
+    #mapName: XBASET00
+    listOrder: 850
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		    
+  - type: STR_BIOLAB
+    spriteShape: 1
+    spriteFacility: 201
+    buildCost: 600000
+    buildTime: 26
+    monthlyCost: 50000
+    #mapName: XBASET01
+    listOrder: 853
+    provideBaseFunc: [BIOLAB]
+    maxAllowedPerBase: 1
+    requires: 
+     - STR_ADVANCED_BIONIC
+    labs: 15
+    buildCostItems:
+      STR_ALIEN_CLONING:
+        build: 4
+      STR_ALIEN_IMPLANTER:
+        build: 2
+      STR_EXAMINATION_ROOM:
+        build: 1
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		    
+  - type: STR_BELL
+    spriteShape: 1
+    spriteFacility: 202
+    buildCost: 100000
+    buildTime: 14
+    monthlyCost: 30000
+    #mapName: XBASET02
+    listOrder: 854
+    personnel: 5
+    storage: 25
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_MEDBAY
+    requires:
+      - STR_MEDBAY
+    spriteShape: 1
+    spriteFacility: 203
+    maxAllowedPerBase: 1
+    buildCost: 450000
+    buildTime: 23
+    monthlyCost: 32000
+    sickBayAbsoluteBonus: 0.5
+    sickBayRelativeBonus: 0
+    #mapName: XBASET03
+    canBeBuiltOver: true
+    listOrder: 855
+    #missileAttraction: 0
+    #destroyedFacility: STR_RUBBLE
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_MEDBAY2
+    requires:
+      - STR_MEDBAY2
+    spriteShape: 1
+    spriteFacility: 204
+    maxAllowedPerBase: 1
+    buildCost: 450000
+    buildTime: 21
+    monthlyCost: 32000
+    sickBayAbsoluteBonus: 0
+    sickBayRelativeBonus: 15
+    #mapName: XBASET03
+    removalTime: 5
+    buildOverFacilities:
+      - STR_MEDBAY
+    buildCostItems:
+      STR_ALIEN_CLONING:
+        build: 4
+    listOrder: 855
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	   
+  - type: STR_CONTROL_CENTER
+    requires:
+      - STR_CONTROL_CENTER
+    spriteShape: 210
+    spriteFacility: 210
+    size: 1
+    buildCost: 12000000
+    buildTime: 36
+    monthlyCost: 1050000
+    radarRange: 10800
+    radarChance: 2
+    #mapName: XBASET06
+    maxAllowedPerBase: 1
+    listOrder: 6270
+    buildCostItems:
+      STR_MOLECTRONICS:
+        build: 100
+    canBeBuiltOver: true
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE_2
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_ADVCONTROL_CENTER
+    requires:
+      - STR_ADVCONTROL_CENTER
+    spriteShape: 218
+    spriteFacility: 218
+    size: 1
+    buildCost: 14000000
+    buildTime: 21
+    monthlyCost: 1100000
+    hyper: true
+    radarRange: 10800
+    radarChance: 2
+    removalTime: 5
+    #mapName: XBASET11
+    maxAllowedPerBase: 1
+    listOrder: 6271
+    buildCostItems:
+      STR_MOLECTRONICS:
+        build: 100
+      STR_SYNOM:
+        build: 1
+    buildOverFacilities:
+      - STR_CONTROL_CENTER
+    #missileAttraction: 1
+    #destroyedFacility: STR_RUBBLE_2
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	  

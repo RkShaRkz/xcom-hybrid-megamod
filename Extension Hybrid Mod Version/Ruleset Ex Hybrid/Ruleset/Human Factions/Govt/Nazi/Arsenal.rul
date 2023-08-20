@@ -1,0 +1,134 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_ARSENAL_DONE_UFOPEDIA: "The Fortresss is now a ruin thanks to your hard work. Do enjoy your reward for a job well done."		
+      STR_ARSENAL_DONE: "Forth Reich Mercenary group Fortress Elimination"	
+      STR_LOC_ARSENAL: "Forth Reich Mercenary group Fortress Elimination"
+      STR_LOC_ARSENAL_TITLE: "Forth Reich Mercenary group Fortress Elimination"
+      STR_MARKER_LOC_ARSENAL: "Forth Reich Mercenary group Fortress Elimination"
+      STR_LOC_ARSENAL_BRIEFING: "The Merc guild has located a Forth Reich Mercenary group Fortress, eliminate it and you shall be rewarded handsomely. "  
+ufopaedia:		  
+  - id: STR_ARSENAL_DONE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ARSENAL_DONE
+    text: STR_ARSENAL_DONE_UFOPEDIA
+    text_width: 180
+    listOrder: 24110		  
+alienDeployments:
+  - type: STR_LOC_ARSENAL
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	        
+    alert: STR_ARSENAL_DONE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_ARSENAL_BRIEFING
+    unlockedResearch: STR_ARSENAL_DONE
+    briefing:
+      palette: 4
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_ARSENAL_TITLE
+      desc: STR_LOC_ARSENAL_BRIEFING
+    markerName: STR_MARKER_LOC_ARSENAL
+    duration: [25, 10000000000000]
+    width: 60
+    length: 60
+    height: 10
+    customUfo: STR_LOC_ARSENAL
+    terrains:
+      - INDUSTRIALSLUM
+      - URBANWAR
+      - URBANJUNKWOODUFO
+      - PORTTFTD6
+    data:
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 9
+        highQty: 15
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_ARSENAL
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MIXED_KKK: 33
+          STR_NAZISEXP: 33	
+          STR_NAZIS_TERROR: 34
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+research:
+  - name: STR_ARSENAL_DONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+missionScripts:
+  - type: humanistarsenal
+    missionWeights:
+      0:
+        STR_LOC_ARSENAL: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    varName: arsenalsds
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_ARSENAL_DONE: false	
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,152 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGREPTIFORMERTOWER: "Stargate Command Cheyenne Mountain Complex"	
+      STR_REPTIFORMER_TOWER: "Stargate Tower of Desolation"
+      STR_ALERT_REPTIFORMER_TOWER: "Stargate Tower of Desolation"
+      STR_REPTIFORMER_TOWER_DESCRIPTION: "This is Stargate Command. We have recently established a stable wormhole to a planet with a Stargate. Unfortunately, we don't have sufficient forces to recon it. We need a Merc unit to investgate of a mysterious tower reported by our probe through the gate. Establish what it is, and if it is hostile, destroy it. Pay is standard grade."
+      STR_REPTIFORMER_TOWER_BRIEFING: "This is Stargate Command. We have recently established a stable wormhole to a planet with a Stargate. Unfortunately, we don't have sufficient forces to recon it. We need a Merc unit to investgate of a mysterious tower reported by our probe through the gate. Establish what it is, and if it is hostile, destroy it. Pay is standard grade."
+      STR_REPTIFORMER_CENTER_DESTROYED: "Hostile control Tower destroyed."
+      STR_REPTIFORMER_CONTROL_DESTROYED: "Hostile control Tower destroyed."
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGREPTIFORMERTOWER
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 
+    duration: [25, 10000000000000]	
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_REPTIFORMER_TOWER
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_REPTIFORMER_TOWER
+    randomRace: [STR_REPTOID,STR_REPTOID]   
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_REPTIFORMER_TOWER
+    alertBackground: BACK04.SCR
+    alertDescription: STR_REPTIFORMER_TOWER_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      desc: STR_REPTIFORMER_TOWER_BRIEFING	  
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    markerName: STR_REPTIFORMER_TOWER
+    unlockedResearch: STR_REPTOID_CAVE_SETTLEMENT_COMPLETE
+    objectiveType: 3
+    objectiveComplete: [STR_REPTIFORMER_CONTROL_DESTROYED, 600]
+    objectivePopup: STR_REPTIFORMER_CENTER_DESTROYED
+    duration: [120, 220]
+    despawnPenalty: 350
+    music:
+      - GMTACTIC
+    customUfo: STR_REPTIFORMER_TOWER_UFO
+    terrains:
+      - ASHEN
+    script: STR_TOWERATTACKREP 
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+mapScripts:
+  - type: STR_TOWERATTACKREP
+    commands:
+    - type: resize
+      size: [8, 8, 12]
+    - type: addUFO  
+      groups: 1
+      executions: 1 
+      terrain: globeTerrain	  
+    - type: addBlock
+      size: [1,1,2]
+      executionChances: 100
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain 
+        groups: 1
+      - type: middle
+        size: [1,1,2]
+        terrain: STARGATEENTRYX
+    - type: fillArea	
+      terrain: globeTerrain				
+alienMissions:
+  - type: STR_REPTIFORMER_TOWER
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_REPTOID: 100
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGREPTIFORMERTOWER
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+research:
+  - name: STR_REPTOID_CAVE_SETTLEMENT_COMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 300
+    needItem: true			
+missionScripts:
+  - type: reptiformerTowerEarly
+    firstMonth: 24
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_REPTIFORMER_TOWER: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: reptowwes
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_REPTOID_CAVE_SETTLEMENT_COMPLETE: false
+      STR_STARGATE: true
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

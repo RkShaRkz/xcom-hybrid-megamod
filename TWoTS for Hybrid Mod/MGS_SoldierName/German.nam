@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - MGS Thomas
+  - MGS Andreas
+  - MGS Michael
+  - MGS Frank
+  - MGS Peter
+  - MGS Joerg
+  - MGS Uwe
+  - MGS Matthias
+  - MGS Stefan
+  - MGS Juergen
+  - MGS Ralf
+  - MGS Bernd
+  - MGS Klaus
+  - MGS Torsten
+  - MGS Hans
+  - MGS Rainer
+  - MGS Jens
+  - MGS Martin
+  - MGS Dirk
+  - MGS Wolfgang
+  - MGS Norbert
+  - MGS Holger
+  - MGS Kai
+  - MGS Joachim
+  - MGS Christian
+  - MGS Karsten
+  - MGS Dieter
+femaleFirst:
+  - MGS Susanne
+  - MGS Sabine
+  - MGS Petra
+  - MGS Birgit
+  - MGS Andrea
+  - MGS Gabriele
+  - MGS Martina
+  - MGS Heike
+  - MGS Ute
+  - MGS Barbara
+  - MGS Bettina
+  - MGS Karin
+  - MGS Angelika
+  - MGS Monika
+  - MGS Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier

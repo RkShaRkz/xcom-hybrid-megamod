@@ -1,0 +1,912 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_CYBERWEB_TECHNICIAN_CORPSE: "CyberRobotics Technician Corpse"  	
+        STR_CYBERWEB_ROBOTURRET_ARMOR: "Robot Sentry Combat Analysis"  
+        STR_CYBERWEB_ROBOTURRET_TERRORIST: "CyberRobotics Robot Sentry"
+        STR_CYBERWEB_ROBOTURRET: "CyberRobotics Robot Sentry"
+        STR_CYBERWEB_ROBOTURRET_UFOPEDIA: "This automatic mobile turret is smart enough to participate in battles autonomously and has the firepower to subdue any enemy."
+        STR_CYBERWEB_ROBOTURRET_AUTOPSY: "Wrecked Robot Sentry Examination"
+        STR_CYBERWEB_ROBOTURRET_CORPSE: "Wrecked CyberRobotics Robot Sentry"
+        STR_CYBERWEB_CENTURION_ARMOR: "CyberRobotics Centurion Combat Analysis"
+        STR_CYBERWEB_CENTURION: "Centurion"
+        STR_CYBERWEB_CENTURION_TERRORIST: "CyberRobotics Centurion"
+        STR_CYBERWEB_CENTURION_CORPSE: "Wrecked CyberRobotics Centurion"
+        STR_CYBERWEB_SPACE_TECHNOMAD_PROCESSING: "CyberRobotics Researcher Processing"
+        STR_CYBERWEB_SPACE_TECHNOMAD_ARMOR: "CyberRobotics Researcher Combat Analysis"
+        STR_CYBERWEB_TECHNOMAD_ARMOR: "CyberRobotics Technician Combat Analysis"
+        STR_CYBERWEB_CYBORG: "CyberRobotics Cyborg"
+        STR_CYBERWEB_CYBORG_UFOPEDIA: "CyberRobotics has access to very advanced cybernetic technology. All its members are cyborgs with numerous improvements to their bodies. Unfortunately, installing them is a very long process which takes years to complete and therefore is impractical for our ends."
+        STR_ALERT_CYBERWEB_CENTURION_RAMPAGE: "RAGING ROBOT AT LARGE IN"
+        STR_CYBERWEB_DIMENSIONAL_PORTAL_TAKEN: "CyberRobotics Dimensional Portal is taken."
+        STR_CYBERWEB_DIMENSIONAL_PORTAL: "CyberRobotics Dimensional Portal"
+        STR_CYBERWEB_DIMENSIONAL_PORTAL_BRIEFING: "We are raiding a major CyberRobotics installation where a dimensional portal is located. Our objective is to capture the place and investigate the machinery. To abort the mission return X-Com operatives to the exit area and click on the 'Abort Mission' icon."
+        STR_ALERT_CYBERWEB_DIMENSIONAL_PORTAL: "CYBERWEB DIMENSIONAL PORTAL LOCATED IN"
+        STR_CYBERWEB_DIMENSIONAL_PORTAL_DESCRIPTION: "CyberRobotics has built a portal leading to another dimension. We must secure it and make it our own."
+        STR_CYBERPORTAL: "CyberRobotics Dimensional Portal"
+        STR_CYBERCOMPUTER: "CyberRobotics Computer Core"
+        STR_CYBERWEB_BATTERY_TO_IONIZER_CLIP: "Battery Tuning: Ionizer"
+        STR_IONIZER_CLIP_TO_CYBERWEB_BATTERY: "Ionizer Battery Discharge"
+        STR_LIGHTNING_THROWER_CLIP_TO_CYBERWEB_BATTERY: "Lightning Thrower Battery Discharge"
+        STR_ION_BLASTER_CLIP_TO_CYBERWEB_BATTERY: "Ion Blaster Battery Discharge"	
+        STR_CYBERWEB_BATTERY: "CyberRobotics Battery"
+        STR_CYBERWEB_BATTERY_UFOPEDIA: "High-powered CyberRobotics equipment relies on special batteries that seem to employ some very exotic physics. The battery does not contain any power source; instead it uses some sort of interdimensional suction to procure the energy from another plane, possibly another universe. It is not, however, eternal, as its structure easily crumbles under strain, only allowing for some energy to be transferred before it burns up. On the positive side, the battery is completely invisible to all forms of energy detection, unless it is active. The device seems rather experimental, but is very impressive.{NEWLINE}The same CyberRobotics battery can be used to power various weapons and equipment, but each time it must be calibrated for a particular device. Various configurations are color-coded."	
+        STR_CYBERWEB_BATTERY_TO_ION_BLASTER_CLIP: "Battery Tuning: Ion Blaster"
+        STR_CYBERWEB_BATTERY_TO_LIGHTNING_THROWER_CLIP: "Battery Tuning: Lightning Thrower"	
+        STR_CYBERWEB_ROBOSPHERE_ARMOR: "CyberRobotics Robosphere Combat Analysis"
+        STR_CYBERWEB_ROBOSPHERE_AUTOPSY: "Wrecked Robosphere Examination"
+        STR_CYBERWEB_ROBOSPHERE_CORPSE: "Wrecked CyberRobotics Robosphere"	
+        STR_CYBERWEB_BRAIN_IMPLANT_PREQ: "CyberRobotics Brain Implant Info"
+        STR_CYBERWEB_BRAIN_IMPLANT: "CyberRobotics Brain Implant"
+        STR_CYBERWEB_BRAIN_IMPLANT_UFOPEDIA: "All CyberRobotics members have an implant installed in their brain, used for access to their own global computer network and to operate machines. Contrary to their other cybernetic augmentations, this one seems possible to be installed into a normal human within a reasonable timeframe. We could potentially use it to directly interface with our own machines, as long as we find a volunteer."	
+        STR_CYBERWEB_PORTAL_SYSTEM: "CyberRobotics Portal System"
+        STR_CYBERWEB_PORTAL_SYSTEM_UFOPEDIA: "The CyberRobotics portal we have seized turned out to be one of many on Earth. Apparently the transdimensional tech the CyberRobotics uses has its downsides: it can only be activated at certain times and locations, so in order to maintain a reasonable frequency of travel one must have many such installations around the globe. This means that if we are to travel beyond the portal, we will need to mind the clock as well.{NEWLINE}Another problem with these portals is that they are... leaky, meaning that apart from the main gate, smaller bubbles tend to spontaneously appear in the vicinity. If these miniportals emerge outside of the compound, it often leads to extradimensional creatures infiltrating the Earth. The CyberRobotics doesn't seem to care much, though."
+        STR_CYBERWEB_PLANS: "CyberRobotics Plans"
+        STR_CYBERWEB_PLANS_UFOPEDIA: "The documentation we have procured speaks about CyberRobotics's project of developing portals to other dimensions. As improbable as it sounds, it seems they not only succeeded in doing just that, but have been sending personnel and materials through such 'Dimensional Portals' for a quite long time now, which suggests a major operation" 	
+        STR_CYBERWEB_HQ: "CyberRobotics HQ"
+        STR_CYBERWEB_HQ_UFOPEDIA: "We have located the CyberRobotics's HQ, hidden in the Dimension X. It is not a base, though: it is a giant airship, capable of opening a dimensional gate and wreaking chaos on Earth!{NEWLINE}As it can simply escape into Dimension X when engaged by our craft, we must assault this battleship when it is grounded for maintenance. Until we complete this operation, we must ensure that Earth's skies are well defended from its incursions. Be careful: the Council will hate every second of this ship hanging up in Earth's atmosphere.{NEWLINE}Don't screw this up, Commander! The future of X-Com depends on it!"
+        STR_CYBERDREDNAUGHT: "CyberRobotics Battleship"
+        STR_CYBERDREDNAUGHT_SECURED: "CyberRobotics Battleship is secured."
+        STR_CYBERDREDNAUGHT_SECURED_UFOPEDIA: "Our long battle is over - we took control of the great flying vessel. A miracle of technology, born on this distant, alien world. Although a work of criminals, it still inspires: if a bunch of maniacs built something like this, then how far can all of humanity go with enough determination?"
+        STR_CYBERWEB_FORTRESS_SECURED: "CyberRobotics Fortress is secured."	
+        STR_CYBERWEB_FORTRESS: "CyberRobotics Fortress"
+        STR_CYBERWEB_FORTRESS_UFOPEDIA: "We have finally found a CyberRobotics outpost in Dimension X. This fortified compound is unlikely to be their main base of operations, but it's bound to have some clues about what the CyberRobotics is planning.{NEWLINE}Can I go tell the agents to get ready?"		
+        STR_CYBERWEB_FAILED_GATEWAY: "Failed Gateway"
+        STR_CYBERWEB_FAILED_GATEWAY_DESCRIPTION: "There was a sudden energy discharge in the wilderness of {0}, leaving bits of alien tissue strewn across a large area. Presumably it was some sort of a dimensional gateway experiment gone wrong. The Salvage Corps managed to contain any leaks, but the Council is concerned.{NEWLINE}[-50 points]"	
+        STR_CYBERWEB: "CyberRobotics Industries"
+        STR_CYBERWEB_UFOPEDIA: "CyberRobotics is once the forefront in Cyber Computing and advance prosthesis. At one time this Megacorp command almost forty percent of the world market with its products, until a decade ago, when things turn for the worse. The leadership for the Company suddenly change and transform of the Megacorp into a Mystic, cult like organization. Its workers treats of the company's advance tech like it is some kind of religion and getting Cybernetically modified is compulsory. Nowdays, its sales people are behaving more like a priest with its business operating more like a cult. It is a matter of time, before everything goes nuts in it."	  
+        STR_CYBERWEB_ROBOTURRET_TERRORIST: "CyberRobotics Robot Sentry"
+        STR_CYBERWEB_ROBOTURRET_AUTOPSY_UFOPEDIA: "As we have discover, the vechicle is a lightly armoured track unit with a laser cannon. There is a large power source that's in the chest cavity that powers the Robot's track component and laser cannon. The A.I unit has its own independant power source, but it is too damage to be of salvage or reengineered."
+        STR_CYBERWEB_ROBOTURRET: "Roboturret"
+        STR_CYBERWEB_ROBOTURRET_UFOPEDIA: "The Robot Sentry, is a cheap track vechicle with a sophisticated A.I and armed with a laser cannon. Its job is to patrol the area within of CyberRobotic's facility and mission ground. May look clumsy but it is a deadly area denial sentry."			
+        STR_CYBERWEB_CENTURION_UFOPEDIA: "The Centurion is an assault unit, equiped with heavy armour, rocket launcher and laser cannon. Its mission is to attack and destroy of any intruder, within the field it's sophisticated A.I vision can see. "
+        STR_CYBERWEB_CENTURION_AUTOPSY: "Wrecked Centurion analysis"
+        STR_CYBERWEB_CENTURION_AUTOPSY_UFOPEDIA: "The most complex of CyberRobotics' creation that we have come accross, this unit have a sophisticated A.I, with a powerful power core that power of its laser cannon and rocket launcher. The armour is made of a sophisticated alloy we have yet to encounter before"
+        STR_CYBERWEB_ROBOSPHERE_TERRORIST: "CyberRobotics Robosphere"
+        STR_CYBERWEB_ROBOSPHERE: "Robosphere"
+        STR_CYBERWEB_ROBOSPHERE_UFOPEDIA: "The Robosphere is a hovering sentry unit that has an artificial intelligence which allows it to identify friend or foe. It is also armed with an advance Laser cannon that can do real damage to its foe."	
+        STR_CYBERWEB_ROBOSPHERE_AUTOPSY_UFOPEDIA: "This drone has a few RC Jet engine built in that runs on diesel that allows it to fly. It has a computer circuit board and a heavy power unit for its circuit board and laser cannon."
+        STR_CYBERWEB_SPACE_TECHNOMAD: "CyberRobotics Technician HazMatSuit"
+        STR_CYBERWEB_TECHNOMAD: "CyberRobotics Technician"
+        STR_CYBERWEB_TECHNOMAD_CORPSE: "CyberRobotics Technician Corpse"
+        STR_CYBERWEB_TECHNOMAD_UFOPEDIA: "A CyberRobotic Technician is the core worker within the Megacorp, they are responsible for the Maintenance, repair and upgrade of the Robotics and computer systems within of CyberRobotic facilities. For their job, these techicians are also cybernetically enhance, to allow of them at better interfacing with the machines."	
+        STR_CYBERWEB_TECHNOMADID: "CyberRobotic Technician ID"
+        STR_CYBERWEB_MYSTEKID: "CyberRobotics Researcher ID"
+        STR_CYBERWEB_MYSTEK_CORPSE: "CyberRobotics Researcher Corpse"
+        STR_CYBERWEB_MYSTEK: "CyberRobotics Researcher"
+        STR_CYBERWEB_MYSTEK_UFOPEDIA: "The Researcher's job is to invent and experiment with cutting edge techs that makes CyberRobotics the forefront in Cyber Technologies. Unfortunately, most of the recent advances are just upgrade and upgrades, nothing revolutionary or ground breaking in tech has been invented recently. These Researcher themselves are heavily augumented with Cybernetics, especially their heads, you can barely find  of any hair or skin anymore with the amount of prosthetics everywhere."	
+alienRaces:
+  - id: STR_CYBERWEB
+    members:
+      - STR_CYBERWEB_MYSTEK #Maybe.. it is a future jumpsuit.
+      - STR_CYBERWEB_TECHNOMAD #Need replacement
+      - STR_CYBERWEB_ROBOTURRET_TERRORIST
+      - STR_CYBERWEB_ROBOTURRET_TERRORIST
+      - STR_CYBERWEB_ROBOSPHERE_TERRORIST
+      - STR_CYBERWEB_ROBOSPHERE_TERRORIST
+      - STR_CYBERWEB_CENTURION #Need replacement
+      - STR_CYBERWEB_CENTURION #Need replacement
+      - STR_CYBERWEB_SPACE_TECHNOMAD #Need replacement
+      - STR_CYBERWEB_SPACE_TECHNOMAD 
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+    retaliationAggression: -100
+  - id: STR_CYBERWEB_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_CYBERWEB_MYSTEK
+      - STR_CYBERWEB_TECHNOMAD
+      - STR_CYBERWEB_ROBOTURRET_TERRORIST
+      - STR_CYBERWEB_ROBOTURRET_TERRORIST
+      - STR_CYBERWEB_ROBOSPHERE_TERRORIST
+      - STR_CYBERWEB_ROBOSPHERE_TERRORIST
+      - STR_CYBERWEB_CENTURION
+      - STR_CYBERWEB_CENTURION
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+ufopaedia:	
+  - id: STR_CYBERWEB_ROBOSPHERE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CYBERWEB_ROBOSPHERE
+    image_id: UFOPEDIA_IMG_CYBERWEB_ROBOSPHERE
+    text: STR_CYBERWEB_ROBOSPHERE_UFOPEDIA
+    text_width: 158
+    listOrder: 165920
+  - id: STR_CYBERWEB_ROBOSPHERE_AUTOPSY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CYBERWEB_ROBOSPHERE_AUTOPSY
+    image_id: UFOPEDIA_IMG_CYBERWEB_ROBOSPHERE_AUTOPSY
+    text: STR_CYBERWEB_ROBOSPHERE_AUTOPSY_UFOPEDIA
+    text_width: 154
+    listOrder: 165930
+  - id: STR_CYBERWEB_ROBOTURRET
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_CYBERWEB_ROBOTURRET
+    text: STR_CYBERWEB_ROBOTURRET_UFOPEDIA
+    text_width: 154
+    requires:
+      - STR_CYBERWEB_ROBOTURRET
+    listOrder: 165940
+  - id: STR_CYBERWEB_ROBOTURRET_AUTOPSY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CYBERWEB_ROBOTURRET_AUTOPSY
+    image_id: UFOPEDIA_IMG_CYBERWEB_ROBOTURRET_AUTOPSY
+    text: STR_CYBERWEB_ROBOTURRET_AUTOPSY_UFOPEDIA
+    text_width: 154
+    listOrder: 165950
+  - id: STR_CYBERWEB_CENTURION
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CYBERWEB_CENTURION_UFOPEDIA
+    requires:
+      - STR_CYBERWEB_CENTURION
+    listOrder: 165960
+  - id: STR_CYBERWEB_CENTURION_AUTOPSY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CYBERWEB_CENTURION_AUTOPSY
+    text: STR_CYBERWEB_CENTURION_AUTOPSY_UFOPEDIA
+    listOrder: 165970	 	
+  - id: STR_CYBERWEB_MYSTEKID
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CYBERWEB_MYSTEK_UFOPEDIA
+    requires:
+      - STR_CYBERWEB_MYSTEKID
+    listOrder: 151010
+  - id: STR_CYBERWEB_TECHNOMADID
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CYBERWEB_TECHNOMAD_UFOPEDIA
+    requires:
+      - STR_CYBERWEB_TECHNOMADID
+    listOrder: 151000
+  - id: STR_CYBERWEB_SPACE_TECHNOMADID
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CYBERWEB_TECHNOMAD_UFOPEDIA
+    requires:
+      - STR_CYBERWEB_SPACE_TECHNOMADID
+    listOrder: 151000	
+  - id: STR_CYBERWEB
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    image_id: CYBERWEB_CPAL
+    text: STR_CYBERWEB_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_CYBERWEB
+    listOrder: 181110	
+research:
+  - name: STR_CYBERWEB 
+    cost: 10
+    points: 200
+    dependencies:
+      - STR_CYBERWEB_MYSTEK
+      - STR_CYBERWEB_TECHNOMAD
+      - STR_CYBERWEB_SPACE_TECHNOMAD
+  - name: STR_CYBERWEB_MYSTEK
+    cost: 30
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CYBERWEB	
+  - name: STR_CYBERWEB_SPACE_TECHNOMAD
+    cost: 30	
+    points: 50
+    lookup: STR_CYBERWEB_SPACE_TECHNOMAD
+    needItem: true
+    unlocks:
+      - STR_CYBERWEB	
+  - name: STR_CYBERWEB_TECHNOMAD
+    cost: 30	
+    points: 50
+    lookup: STR_CYBERWEB_TECHNOMAD
+    needItem: true	
+    unlocks:
+      - STR_CYBERWEB	
+  - name: STR_CYBERWEB_ROBOTURRET
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_CYBERWEB_ROBOTURRET_TERRORIST
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 110
+    points: 50
+    lookup: STR_CYBERWEB_ROBOTURRET
+    needItem: true
+    destroyItem: true
+    listOrder: 144720	
+  - name: STR_CYBERWEB_ROBOSPHERE_TERRORIST
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 110
+    points: 50
+    lookup: STR_CYBERWEB_ROBOSPHERE
+    needItem: true
+    destroyItem: true
+    listOrder: 144710	
+  - name: STR_CYBERWEB_ROBOSPHERE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_CYBERWEB_CENTURION
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 110
+    points: 100
+    needItem: true
+    destroyItem: true
+    listOrder: 144730	
+  - name: STR_CYBERWEB_CENTURION_CORPSE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 200
+    points: 100
+    lookup: STR_CYBERWEB_CENTURION_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 75353
+  - name: STR_CYBERWEB_ROBOSPHERE_CORPSE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 100
+    points: 40
+    lookup: STR_CYBERWEB_ROBOSPHERE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 75250
+  - name: STR_CYBERWEB_ROBOTURRET_CORPSE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 160
+    points: 50
+    lookup: STR_CYBERWEB_ROBOTURRET_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 75300	  
+units:
+  - type: STR_CYBERWEB_ROBOSPHERE_TERRORIST
+    race: STR_ROBOT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 82
+      stamina: 140
+      health: 14
+      bravery: 110
+      reactions: 50
+      firing: 70
+      throwing: 0
+      strength: 10
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: STR_CYBERWEB_ROBOSPHERE_ARMOR
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 5
+    deathSound: 23
+    moveSound: 40
+    intelligence: 1
+    aggression: 0
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_HEAVY_LASERCANNONX
+  - type: STR_CYBERWEB_ROBOTURRET_TERRORIST
+    race: STR_ROBOT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 42
+      stamina: 110
+      health: 55
+      bravery: 110
+      reactions: 90
+      firing: 50
+      throwing: 0
+      strength: 30
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: STR_CYBERWEB_ROBOTURRET_ARMOR
+    standHeight: 19
+    kneelHeight: 19
+    value: 13
+    deathSound: 23
+    moveSound: 14
+    intelligence: 1
+    aggression: 0
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_HEAVY_LASERCANNONX
+  - type: STR_CYBERWEB_CENTURION
+    race: STR_ROBOT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 54
+      stamina: 110
+      health: 75
+      bravery: 110
+      reactions: 100
+      firing: 45
+      throwing: 40
+      strength: 70
+      psiStrength: 110
+      psiSkill: 0
+      melee: 60
+    armor: STR_CYBERWEB_CENTURION_ARMOR
+    standHeight: 24
+    kneelHeight: 24
+    value: 30
+    deathSound: 23
+    moveSound: 182
+    intelligence: 3
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    builtInWeapons:
+      - STR_HEAVY_LASERCANNONX
+    livingWeapon: true
+  - type: STR_CYBERWEB_MYSTEK
+    race: STR_CYBERWEB
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 55
+      bravery: 70
+      reactions: 70
+      firing: 65
+      throwing: 65
+      strength: 55
+      psiStrength: 85
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_CYBERWEB_MYSTEK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    deathSound: [41, 42, 43]
+    energyRecovery: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 65
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LASER_PISTOL
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_CYBERWEB_TECHNOMAD
+    race: STR_CYBERWEB
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 75
+      stamina: 90
+      health: 55
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 65
+      strength: 50
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_CYBERWEB_TECHNOMAD_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 60
+    intelligence: 5
+    aggression: 1
+    sniper: 35
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE	
+  - type: STR_CYBERWEB_SPACE_TECHNOMAD
+    race: STR_CYBERWEB
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 80
+      health: 55
+      bravery: 80
+      reactions: 55
+      firing: 65
+      throwing: 65
+      strength: 50
+      psiStrength: 80
+      psiSkill: 0
+      melee: 40
+      #mana: 50
+    armor: STR_CYBERWEB_SPACE_TECHNOMAD_ARMOR
+    standHeight: 18
+    kneelHeight: 18
+    value: 30
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 10
+    spawnUnit: STR_CYBERWEB_TECHNOMAD
+    deathSound: [41, 42, 43]
+    sniper: 35
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_GRENADE
+        - STR_GRENADE	
+armors:
+  - type: STR_CYBERWEB_ROBOSPHERE_ARMOR
+    spriteSheet: CYBERWEB_ROBOSPHERE.PCK
+    spriteInv: inventory_CYBERWEB_ROBOSPHERE
+    corpseBattle:
+      - STR_CYBERWEB_ROBOSPHERE_CORPSE
+    visibilityAtDark: 16
+    heatVision: 60
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 4
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    movementType: 1
+    drawingRoutine: 19
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.3
+      - 1.1
+      - 0.25
+      - 1.4
+      - 0.4
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_CYBERWEB_ROBOTURRET_ARMOR
+    spriteSheet: CYBERWEB_ROBOTURRET.PCK
+    spriteInv: inventory_CYBERWEB_ROBOTURRET_LASER
+    allowInv: false
+    corpseBattle:
+      - STR_CYBERWEB_ROBOTURRET_CORPSE
+    visibilityAtDark: 16
+    heatVision: 60
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 50
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    drawingRoutine: 19
+    createsMeleeThreat: false
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.8
+      - 1.3
+      - 1.1
+      - 0.25
+      - 1.4
+      - 0.4
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 4 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_CYBERWEB_CENTURION_ARMOR
+    spriteSheet: CENTURION.PCK
+    spriteInv: inventory_Centurion
+    allowInv: false
+    corpseBattle:
+      - CYBERWEB_CENTURION_CORPSE_1
+      - CYBERWEB_CENTURION_CORPSE_2
+      - CYBERWEB_CENTURION_CORPSE_3
+      - CYBERWEB_CENTURION_CORPSE_4
+    corpseGeo: STR_CYBERWEB_CENTURION_CORPSE
+    visibilityAtDark: 20
+    heatVision: 60
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 60
+    underArmor: 60
+    fearImmune: true
+    painImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    drawingRoutine: 5
+    size: 2
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.8
+      - 1.3
+      - 1.1
+      - 0.1
+      - 1.4
+      - 0.4
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_CYBERWEB_MYSTEK_ARMOR
+    spriteSheet: CYBERWEB_MYSTEK.PCK
+    spriteInv: inventory_TECHNOMAD
+    corpseBattle:
+      - STR_CYBERWEB_MYSTEK_CORPSE
+    #corpseGeo: STR_CYBERWEB_TECHNOMAD_CORPSE
+    visibilityAtDark: 15
+    heatVision: 20
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.2
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.1
+      - 0.7
+      - 1.0
+      - 1.0
+      - 2.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    loftempsSet: [ 3 ]
+  - type: STR_CYBERWEB_SPACE_TECHNOMAD_ARMOR	
+    spriteInv: INV_MALE_WORKER
+    spriteSheet: WORKERSHEET.PCK
+    corpseBattle:
+      - STR_CYBERWEB_TECHNICIAN_CORPSE          
+    visibilityAtDark: 6    
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_CYBERWEB_TECHNOMAD_ARMOR
+    spriteSheet: CYBERSHEET.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 95, 163, 160, 176, 96, 98, 96, 160, 95, 163, 163, 97, 96, 97, 96, 159, 95, 161, 161] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225, 82, 144, 98, 246, 246, 246, 163, 246, 246, 146, 147, 20, 4, 164, 246, 246] #M0 F0 M1 F1 M2 F2 M3 F3  
+    allowInv: true
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_CYBERWEB_TECHNOMAD_CORPSE
+    visibilityAtDark: 14
+    heatVision: 20
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.2
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.1
+      - 0.7
+      - 1.0
+      - 1.0
+      - 2.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]  		
+items:
+  - type: STR_HEAVY_LASERCANNONX
+    turretType: 2
+    weight: 25
+    bigSprite: 
+      mod: FullHybridgame
+      index: 6
+    floorSprite: 
+      mod: FullHybridgame
+      index: 6	
+    handSprite: 503
+    bulletSprite: 21
+    fireSound: 11
+    hitSound: 19
+    fixedWeapon: true	
+    hitAnimation: 36
+    power: 85
+    damageType: 4
+    accuracySnap: 75
+    accuracyAimed: 120
+    snapRange: 20
+    aimRange: 35
+    tuSnap: 40
+    tuAimed: 80
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    recoveryPoints: 4		
+    invHeight: 3
+    bulletSpeed: 5	
+  - type: STR_CYBERWEB_MYSTEK_CORPSE
+    categories: [STR_CORPSES]
+    costSell: 1000
+    size: 0.4
+    weight: 34
+    bigSprite: 409
+    floorSprite: 347
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 17
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true	
+  - type: STR_CYBERWEB_TECHNOMAD_CORPSE
+    categories: [STR_CORPSES]
+    costSell: 1000
+    size: 0.4
+    weight: 34
+    bigSprite: 2873
+    floorSprite: 2873
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 17
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    listOrder: 62950
+  - type: STR_CYBERWEB_TECHNICIAN_CORPSE
+    categories: [STR_CORPSES]
+    costSell: 1000
+    size: 0.4
+    weight: 34
+    bigSprite: 2874
+    floorSprite: 2874
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 17
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    listOrder: 62950	
+  - type: STR_CYBERWEB_FORTRESS
+    bigSprite: 307
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_CYBERWEB_HQ
+    bigSprite: 307
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_CYBERWEB_ROBOSPHERE_CORPSE
+    categories: [STR_HUMAN_TECH, STR_WRECKS]
+    size: 0.2
+    costSell: 5000
+    weight: 10
+    bigSprite: 412
+    floorSprite: 349
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 2
+    battleType: 11
+    armor: 18
+    listOrder: 75250
+  - type: STR_CYBERWEB_ROBOTURRET_CORPSE
+    categories: [STR_HUMAN_TECH, STR_WRECKS]
+    size: 0.7
+    costSell: 18000
+    weight: 60
+    bigSprite: 410
+    floorSprite: 348
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 48
+    listOrder: 75300
+  - type: STR_CYBERWEB_CENTURION
+    categories: [STR_HUMAN_TECH, STR_WRECKS]
+    size: 0.0
+    recover: true
+    costSell: 50000
+    listOrder: 144730
+  - type: STR_CYBERWEB_ROBOSPHERE_TERRORIST
+    categories: [STR_HUMAN_TECH, STR_ROBOTS]
+    size: 0.0
+    recover: true
+    costSell: 50000
+    listOrder: 144710
+  - type: STR_CYBERWEB_ROBOTURRET_TERRORIST
+    categories: [STR_HUMAN_TECH, STR_ROBOTS]
+    size: 0.0
+    recover: true
+    costSell: 20000
+    listOrder: 144720		
+  - type: STR_CYBERWEB_CENTURION_CORPSE
+    size: 1
+    costSell: 38000
+    battleType: 11
+    listOrder: 75350
+  - type: CYBERWEB_CENTURION_CORPSE_1
+    name: STR_CYBERWEB_CENTURION_CORPSE
+    categories: [STR_HUMAN_TECH, STR_WRECKS]
+    floorSprite: 354
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 5
+  - type: CYBERWEB_CENTURION_CORPSE_2
+    floorSprite: 355
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: CYBERWEB_CENTURION_CORPSE_3
+    floorSprite: 356
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: CYBERWEB_CENTURION_CORPSE_4
+    floorSprite: 357
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_CYBERWEB_PORTAL_SYSTEM
+    bigSprite: 307
+    weight: 0
+    invWidth: 2
+    invHeight: 3		
+  - type: STR_CYBERWEB_TECHNOMAD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+  - type: STR_CYBERWEB_SPACE_TECHNOMAD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 110000
+    listOrder: 151005
+    recoveryTransformations:
+      STR_CYBERWEB_TECHNOMAD: [1]  	
+  - type: STR_CYBERWEB_MYSTEK
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 100000
+    listOrder: 151010 	

@@ -1,0 +1,1010 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MIB: "Independent Intelligence Agency"
+      STR_MIBTANK: "I.I.A. HWP"
+      STR_MIB_AGENT_ARMOR: "I.I.A. Agent Combat Analysis"
+      STR_MIB_ENFORCER_ARMOR: "I.I.A. Enforcer Combat Analysis"
+      STR_MIB_COMBAT_ARMOR: "I.I.A. Specialist Combat Analysis"
+      STR_MIB_COORDINATOR_ARMOR: "I.I.A. Coordinator Combat Analysis"
+      STR_MIB_COMMANDER_ARMOR: "I.I.A. Commander Combat Analysis"
+      STR_MIB_POWER_SUIT: "I.I.A. Heavy Trooper Combat Analysis"
+      STR_MIB_STORMTROOPER_ARMOR: "I.I.A. Stormtrooper Combat Analysis"
+      STR_MIB_PSI_OPS_CORPSE: "I.I.A. Psi-Ops Corpse"
+      STR_MIBTANK_TERRORIST: "I.I.A. Tank Terrorist"
+      STR_MIB1_CORPSE: "I.I.A. Enforcer Corpse"
+      STR_MIB2_CORPSE: "I.I.A. Scientist Corpse"
+      STR_MIB_COORDINATOR_CORPSE: "I.I.A. Elite Corpse"
+      STR_MIB4_CORPSE: "I.I.A. Heavy Trooper Corpse"
+      STR_MIB5_CORPSE: "I.I.A. Stormtrooper Corpse"
+      STR_MIBTANK_CORPSE: "I.I.A. Tank Wreck"
+      STR_MIB_TRANSPORTER: "I.I.A. Transporter"
+      STR_MIB_DROPSHIP: "I.I.A. Dropship"
+      STR_MIB_STEALTH_BOMBER: "I.I.A. Stealth Bomber"
+      STR_MIB_STRIKE_SHIP: "I.I.A. Strike Ship"
+      STR_MIB_TERROR_MISSION: "I.I.A. Terror Mission"
+      STR_MIB_BASE_ASSAULT: "I.I.A. Base Assault"
+      STR_MIB_COVERUP: "I.I.A. Coverup"
+      STR_MIB_TERROR: "I.I.A. Terrorize"
+      STR_MIB_BASE: "I.I.A. Base"
+      STR_MIB_RETALIATION: "I.I.A. Retaliation"
+      STR_MIB_ACTIVITY: "Independent Intelligence Agency"
+      STR_MIB_ACTIVITY_UFOPEDIA: "Starved of state funding for decades, the C.I.A. decided to enter the marketplace and contract out its services to the highest bidder. Using the espionage and counter-terrorism skills the organisation had gained keeping the free world secure, the I.I.A. (Independent Intelligence Agency) soon became the favourite third-party agency of international crime associations. Assassinations, blackmail and the overthrow of governments to order was a very lucrative business and, following a hugely successful and over-subscribed flotation, the I.I.A. entered the corporate arena. Everything was in place for their ascendancy to the top of North America's corporate tree and it was a natural progression into full-time Syndicate operations.I.I.A. operatives are chosen for their massive muscularity. Heavy armaments are the order of the day, the logic being that a few civilian casualties helps keep the rest of the citizens in line. Expect no mercy.The I.I.A. since the domimance of the Eurocorp Syndicate in world stage, was left to obscurity. It would have been left that way. Had not for the disconnection. Now out from its hiding for the first time. This Syndicate wasn't what it was. Its agents and soldiers, with their organization's signature suit and business attires. Has now involved of themselves in the world's most strangest of activities. Whatever their organization's motive is, it might come in conflit with ours. Rumor has it that there's a schism happening in the ranks. If it is, it is wise of us to seek out of the rebel elements and see if we can allied with them to find out of the organization's current true motive."
+      STR_MIB_AGENT_UFOPEDIA: "These individuals may seem average at first, but they are trained and equipped to the highest level possible, and beyond. They are also programmed for maximum efficiency, tenacity and ruthlessness. Do not expect them to break in combat.{NEWLINE}I.I.A. Agents seem to regularly undergo some sort of memory wipe or blockade that is very hard to break through, so extracting specific information from them is highly problematic."
+      STR_MIB_ENFORCER_UFOPEDIA: "I.I.A. Enforcers are supersoldiers, tough and well-equipped. They regularly engage in shadow activity, mostly as bodyguards and assassins, and therefore may possess some relevant information on their organization."
+      STR_MIB_SCIENTIST_UFOPEDIA: "Scientists are the faceless masterminds leading Intelligence Agency knowledge projects. They are not particularly well-trained, but are extremely intelligent and have access to very interesting data. Some of the brightest minds of our century are I.I.A. Scientists, even though the world will never know their names."
+      STR_MIB_EXECUTOR_UFOPEDIA: "Executors can be ranked as junior officers, but they report to the highest echelons of the Intelligence Agency - or perhaps their employers. They lead small teams of I.I.A. agents in operations against humanity and also possess rare skills. Their bodies are visibly augmented with cybernetics and drugs."
+      STR_MIB_COORDINATOR_UFOPEDIA: "Coordinators are mid-ranking officers in the Intelligence Agency secret army. They are appointed to aid, and sometimes take command for major operations. They are all extremely dangerous on many levels: military, social, psychological and others."
+      STR_MIB_COMMANDER_UFOPEDIA: "These men should be considered generals of the Intelligence Agency forces: they are the most powerful, informed and influential. As senior officers, they have access to the most profound I.I.A. secrets a field operative can ever know."
+      STR_MIB_STORMTROOPER_UFOPEDIA: "Stormtroopers are the most elite assault specialist among the powerful Intelligence Agency agents. They wear a light power suit equipped with an anti-grav module and a near-perfect cloaking field. The latter is sadly incompatible with our agents' equipment."
+      STR_MIB_HEAVY_TROOPER_UFOPEDIA: "These individuals are Enforcers who further specialize in power suit operations. While their equipment is formidable, they possess no special qualities - for I.I.A. agents, that is."
+      STR_MIB_PSI_OPS_ARMOR: "I.I.A. Psi Ops Combat Analysis"
+      STR_MIB_PSI_OPS_ARMOR_UFOPEDIA: "I.I.A. Psi Ops are strong enough to produce Green type force shields (Capacity: 125, restoration: 20/turn)."
+      STR_MIB_PSI_OPS_UFOPEDIA: "Psi-Ops are Executors who specialize in psi combat. They are top-notch psionics, able to cause mass panic events and break the will of an average person in seconds. We should eliminate them as soon as we spot them."
+      STR_MIB_SCIENTIST: "I.I.A. Scientist"
+      STR_MIB_ENFORCER: "I.I.A. Enforcer"	  
+      STR_MIB_EXECUTOR: "I.I.A. Executor"
+      STR_MIB_COORDINATOR: "I.I.A. Coordinator"
+      STR_MIB_COMMANDER: "I.I.A. Commander"
+      STR_MIB_STORMTROOPER: "I.I.A. Stormtrooper"	  
+      STR_MIB_AGENT: "I.I.A. Agent"	  
+      STR_MIB_PSI_OPS: "I.I.A. Psi-Ops"	  
+      STR_MIB_HEAVY_TROOPER: "I.I.A. Heavy Trooper"	  
+      STR_MIB_SCIENTISTID: "I.I.A. Scientist ID"
+      STR_MIB_ENFORCERID: "I.I.A. Enforcer ID"	  
+      STR_MIB_EXECUTORID: "I.I.A. Executor ID"
+      STR_MIB_COORDINATORID: "I.I.A. Coordinator ID"
+      STR_MIB_COMMANDERID: "I.I.A. Commander ID"
+      STR_MIB_STORMTROOPERID: "I.I.A. Stormtrooper ID"	  
+      STR_MIB_AGENTID: "I.I.A. Agent ID"	  
+      STR_MIB_PSI_OPSID: "I.I.A. Psi-Ops ID"	  
+      STR_MIB_HEAVY_TROOPERID: "I.I.A. Heavy Trooper ID"	  
+alienRaces:
+  - id: STR_MIB
+    members:
+      - STR_MIB_COORDINATOR
+      - STR_MIB_COMMANDER
+      - STR_MIB_EXECUTOR #2
+      - STR_MIB_EXECUTOR #2
+      - STR_MIB_ENFORCER #4
+      - STR_MIB_AGENT #5
+      - STR_MIB_STORMTROOPER #11 SWAT armour.
+      - STR_MIB_PSI_OPS #10 #Speial ops
+      - STR_MIB_SCIENTIST
+      - STR_MIB_SCIENTIST #9
+      - STR_MIB_PSI_OPS #10 Special ops
+      - STR_MIB_STORMTROOPER #11
+      - STR_MIB_STORMTROOPER #11
+      - STR_MIB_STORMTROOPER #11
+    retaliationMission: STR_MIB_RETALIATION
+  - id: STR_MIB_UNDERWATER	  	
+    retaliationAggression: -100
+    members:
+      - STR_MIB_COORDINATOR
+      - STR_MIB_COMMANDER
+      - STR_MIB_EXECUTOR #2
+      - STR_MIB_EXECUTOR #2
+      - STR_MIB_ENFORCER #4
+      - STR_MIB_AGENT #5
+      - STR_MIB_STORMTROOPER #11 SWAT armour.
+      - STR_MIB_PSI_OPS #10 #Speial ops
+      - STR_MIB_SCIENTIST
+      - STR_MIB_SCIENTIST #9
+      - STR_MIB_PSI_OPS #10 Special ops
+      - STR_MIB_STORMTROOPER #11
+      - STR_MIB_STORMTROOPER #11
+      - STR_MIB_STORMTROOPER #11
+ufopaedia:	  
+  - id: STR_MIB_AGENT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_AGENT_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_AGENT
+    listOrder: 146000
+  - id: STR_MIB_ENFORCER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_ENFORCER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_ENFORCER
+    listOrder: 146030
+  - id: STR_MIB_SCIENTIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_SCIENTIST_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_SCIENTIST
+    listOrder: 146020
+  - id: STR_MIB_EXECUTOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_EXECUTOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_EXECUTOR
+    listOrder: 146030
+  - id: STR_MIB_COORDINATOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_COORDINATOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_COORDINATOR
+    listOrder: 146040
+  - id: STR_MIB_COMMANDER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_COMMANDER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_COMMANDER
+    listOrder: 146050
+  - id: STR_MIB_PSI_OPS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_PSI_OPS_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_PSI_OPS
+    listOrder: 146060
+  - id: STR_MIB_POWER_SUIT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MIB_POWER_SUIT
+    listOrder: 146065
+  - id: STR_MIB_STORMTROOPER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MIB_STORMTROOPER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MIB_STORMTROOPER
+    listOrder: 146066
+  - id: STR_MIB_ACTIVITY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MIB_ACTIVITY
+    text: STR_MIB_ACTIVITY_UFOPEDIA
+    text_width: 308
+    listOrder: 179600	  
+research:  
+  - name: STR_MIB_ACTIVITY
+    cost: 300
+    points: 300
+    dependencies:
+      - STR_MIB_COORDINATOR
+      - STR_MIB_COMMANDER
+      - STR_MIB_PSI_OPS
+      - STR_MIB_ENFORCER
+      - STR_MIB_AGENT
+      - STR_MIB_SCIENTIST
+      - STR_MIB_EXECUTOR
+      - STR_MIB_STORMTROOPER
+    listOrder: 179610	
+  - name: STR_MIB_ENFORCER
+    cost: 180
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146030
+  - name: STR_MIB_AGENT
+    cost: 180
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146000	
+  - name: STR_MIB_SCIENTIST
+    cost: 180
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146020		
+  - name: STR_MIB_EXECUTOR
+    cost: 180
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146010	
+  - name: STR_MIB_STORMTROOPER
+    cost: 180
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146066
+  - name: STR_MIB_PSI_OPS
+    cost: 192
+    points: 70
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146060
+  - name: STR_MIB_COORDINATOR
+    cost: 192
+    points: 75
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146040
+  - name: STR_MIB_COMMANDER
+    cost: 200
+    points: 100
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MIB_ACTIVITY
+    listOrder: 146050
+units:
+  - type: STR_MIB_AGENT
+    race: STR_MIB
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 90
+      reactions: 46
+      firing: 55
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+      #mana: 80
+    armor: STR_MIB_AGENT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_MIB_ENFORCER
+    race: STR_MIB
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 90
+      health: 30
+      bravery: 90
+      reactions: 49
+      firing: 58
+      throwing: 64
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+      #mana: 80
+    armor: STR_MIB_ENFORCER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_MIB_SCIENTIST
+    race: STR_MIB
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      #mana: 80
+    armor: STR_MIB_COMBAT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 0
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_STUN_ROD		
+        - STR_MOTION_SCANNER
+        - STR_MEDI_KIT			
+  - type: STR_MIB_EXECUTOR
+    race: STR_MIB
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 55
+      firing: 64
+      throwing: 72
+      strength: 49
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+      #mana: 80
+    armor: STR_MIB_COMBAT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE	
+  - type: STR_MIB_STORMTROOPER
+    race: STR_MIB
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 75
+      firing: 84
+      throwing: 72
+      strength: 49
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+      #mana: 80
+    armor: STR_MIB_STORMTROOPER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 70
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP		
+  - type: STR_MIB_PSI_OPS
+    race: STR_MIB
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 110
+      health: 45
+      bravery: 90
+      reactions: 58
+      firing: 64
+      throwing: 76
+      strength: 42
+      psiStrength: 55
+      psiSkill: 50
+      melee: 45
+      #mana: 80
+    armor: STR_MIB_PSI_OPS_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 80
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 2
+    sniper: 75
+    spotter: 3
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP		
+  - type: STR_MIB_COORDINATOR
+    race: STR_MIB
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 90
+      reactions: 58
+      firing: 67
+      throwing: 76
+      strength: 56
+      psiStrength: 45
+      psiSkill: 0
+      melee: 45
+      #mana: 100
+    armor: STR_MIB_COORDINATOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 80
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+  - type: STR_MIB_COMMANDER
+    race: STR_MIB
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 90
+      health: 50
+      bravery: 90
+      reactions: 61
+      firing: 70
+      throwing: 80
+      strength: 65
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+      #mana: 100
+    armor: STR_MIB_COMMANDER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 100
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 0
+    sniper: 75
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_GRENADE
+        - STR_GRENADE			
+armors:
+  - type: STR_MIB_ENFORCER_ARMOR
+    spriteSheet: MIB_1.PCK
+    spriteInv: inventory_MIB_ENFORCER
+    corpseBattle:
+      - STR_MIB1_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 40
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.07
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.8
+      - 0.65
+      - 0.9
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_COMBAT_ARMOR
+    spriteSheet: MIB_2.PCK
+    spriteInv: inventory_MIB2
+    corpseBattle:
+      - STR_MIB2_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 40
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.09
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.8
+      - 0.65
+      - 0.9
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_COORDINATOR_ARMOR
+    spriteSheet: MIB_COORDINATOR.PCK
+    spriteInv: inventory_MIB_COORDINATOR
+    corpseBattle:
+      - STR_MIB_COORDINATOR_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 45
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 25
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.09
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.8
+      - 0.65
+      - 0.9
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_PERSONAL_ARMOR
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_COMMANDER_ARMOR
+    spriteSheet: MIB_COMMANDER.PCK
+    spriteInv: inventory_MIB_COMMANDER
+    corpseBattle:
+      - STR_MIB_COMMANDER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 45
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 25
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.09
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.8
+      - 0.65
+      - 0.9
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_PERSONAL_ARMOR
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_STORMTROOPER_ARMOR
+    spriteSheet: MIB_5.PCK
+    spriteInv: inventory_MIB5
+    movementType: 1
+    corpseBattle:
+      - STR_MIB5_CORPSE
+    visibilityAtDark: 20
+    heatVision: 30
+    camouflageAtDay: 20
+    camouflageAtDark: -4
+    frontArmor: 70
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 45
+    meleeDodge:
+      reactions: 0.35
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &AnchorStormtrooperSuitRes
+      - 1.0
+      - 1.0
+      - 0.15
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_STORMTROOPER_ARMOR
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_PSI_OPS_ARMOR
+    spriteSheet: MIB_PSI_OPS.PCK
+    spriteInv: inventory_MIB_PSI_OPS
+    corpseBattle:
+      - STR_MIB_PSI_OPS_CORPSE
+    visibilityAtDark: 10
+    psiVision: 12
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    overKill: 1.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.7
+    meleeDodgeBackPenalty: 0.0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_KARATE
+    loftempsSet: [ 3 ]
+  - type: STR_MIB_AGENT_ARMOR
+    spriteSheet: MIB_AGENT.PCK
+    spriteInv: inventory_MIB_AGENT
+    corpseBattle:
+      - STR_MIB0_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 15
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT
+    loftempsSet: [ 3 ]
+items:	 
+  - type: STR_MIB0_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 32
+    bigSprite: 142
+    floorSprite: 132
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+    listOrder: 67800 
+  - type: STR_MIB1_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 1000
+    weight: 37
+    bigSprite: 143
+    floorSprite: 133
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67810
+  - type: STR_MIB2_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 1000
+    weight: 37
+    bigSprite: 144
+    floorSprite: 134
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67820
+  - type: STR_MIB_COORDINATOR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 1000
+    weight: 37
+    bigSprite: 145
+    floorSprite: 135
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67830
+  - type: STR_MIB_COMMANDER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 1000
+    weight: 35
+    bigSprite: 1155
+    floorSprite: 986
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67835
+  - type: STR_MIB_PSI_OPS_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 1000
+    weight: 32
+    bigSprite: 511
+    floorSprite: 423
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67860
+  - type: STR_MIB_STORMTROOPER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 46000
+    listOrder: 146066
+  - type: STR_MIB5_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 35000
+    weight: 62
+    bigSprite: 210
+    floorSprite: 187
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 67850
+  - type: STR_MIB_ACTIVITY
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_MIB_PSI_OPS
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 60000
+    listOrder: 146060		
+  - type: STR_MIB_AGENT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 10000
+    listOrder: 146000		
+  - type: STR_MIB_ENFORCER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 15000
+    listOrder: 146030		
+  - type: STR_MIB_SCIENTIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 30000
+    listOrder: 146020		
+  - type: STR_MIB_EXECUTOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 30000
+    listOrder: 146010		
+  - type: STR_MIB_COORDINATOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 50000
+    listOrder: 146040		
+  - type: STR_MIB_COMMANDER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    prisonType: 1
+    costSell: 90000
+    listOrder: 146050		

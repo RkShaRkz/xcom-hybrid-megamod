@@ -1,0 +1,15 @@
+#
+# metadata.yaml for TWoTS
+
+name: "The world of (terrifying) silence for Hybrid Mod as Expansion"
+version: 2.45
+description: "Expansion of TFTD/TWoTS for the Hybridmod. OXCE included."
+author: Nord/ Conversion Author Precentor Appolyon
+id: TWoTS
+requiredExtendedVersion: "6.4"
+reservedSpace: 3
+
+isMaster: false
+master: xcom1
+loadResources:
+  - UFO

@@ -1,0 +1,217 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALIEN_PURGEMISSION: "Alien Purge"
+      STR_ALIEN_PURGE_UFOPEDIA: "This is the Merc Guild. we have report that the Alien forces has sent their hard hitters to intimidate a faction govt that has yet to join the Alien cause. We need a strong Mercenary unit to intervene and to eliminate these Alien forces."
+      STR_ALERT_ALIEN_PURGE: "Alien Purge"
+      STR_ALIEN_PURGE_BRIEFING: "This is the Merc Guild. we have report that the Alien forces has sent their hard hitters to intimidate a faction govt that has yet to join the Alien cause. We need a strong Mercenary unit to intervene and to eliminate these Alien forces."
+      STR_ALIEN_PURGE_DESCRIPTION: "This is the Merc Guild. we have report that the Alien forces has sent their hard hitters to intimidate a faction govt that has yet to join the Alien cause. We need a strong Mercenary unit to intervene and to eliminate these Alien forces."
+alienDeployments:
+  - type: STR_ALIEN_PURGEMISSION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_ALIEN_PURGE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_ALIEN_PURGE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+      showTarget: false
+      desc: STR_ALIEN_PURGE_BRIEFING	  
+    markerName: STR_ALIEN_PURGE
+    duration: [100, 200]
+    despawnPenalty: 2000
+    enviroEffects: STR_LANDARMOURTOLAND
+    civilians: 34
+    script: ALIENPURGES
+    music:
+      - GMTACTIC	
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+alienMissions:
+  - type: STR_ALIEN_PURGE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MUTON: 100
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P21
+        timer: 8000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P21
+        timer: 9600	
+      - ufo: STR_TERROR_SHIP 
+        count: 1
+        trajectory: P21
+        timer: 9000
+      - ufo: STR_ALIEN_PURGEMISSION
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true 
+mapScripts:
+  - type: ALIENPURGES
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_MANSION4
+      executions: 1	  
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN		
+missionScripts:
+  - type: alienPurge
+    firstMonth: 32
+    executionOdds: 10
+    missionWeights:
+      0:
+        STR_ALIEN_PURGE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,90 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ASSASSIN_CLANS_BANK_ROBBERY: "Bank Robberies detected!"
+      STR_ALERT_ASSASSIN_CLANS_BANK_ROBBERY: "Bank Robberies detected!"
+      STR_ASSASSIN_CLANS_BANK_ROBBERY_DESCRIPTION: "There has been report of a hostile faction trying to rob a govt Faction bank. They are calling for any Mercenary units to help, because their own police force has been overwhelmed. Pay will be as standard, for the Mercenary guild has been contacted to cover the contract hire."
+      STR_ASSASSIN_CLANS_BANK_ROBBERY_BRIEFING: "There has been report of a hostile faction trying to rob a govt Faction bank. They are calling for any Mercenary units to help, because their own police force has been overwhelmed. Pay will be as standard, for the Mercenary guild has been contacted to cover the contract hire."
+alienDeployments:
+  - type: STR_ASSASSIN_CLANS_BANK_ROBBERY   
+    width: 50
+    length: 50
+    height: 16
+    alert: STR_ALERT_ASSASSIN_CLANS_BANK_ROBBERY
+    alertBackground: BACK04.SCR
+    alertDescription: STR_ASSASSIN_CLANS_BANK_ROBBERY_DESCRIPTION
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_ASSASSIN_CLANS_BANK_ROBBERY_BRIEFING 
+    markerName: STR_BANK_ROBBERY
+    duration: [130, 180]
+    despawnPenalty: 200
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  
+    civiliansByType:
+      STR_MEGAPOL_DETECTIVE: 8
+      STR_POLICEWOMAN: 8
+    customUfo: STR_BANK
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 6
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_ASSASSIN_CLANS_BANK_ROBBERY
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 10
+          STR_EXALT: 10
+          STR_OSIRON: 10
+          STR_BLACK_LOTUS: 10
+          STR_RAIDER_TERROR: 10			  
+          STR_RAIDER: 10
+          STR_BANDIT: 10
+          STR_NINJA: 10	
+          STR_SMUGGLER: 10
+          STR_SPARTANS: 10  
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: assassinClansBankRobbery
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_ASSASSIN_CLANS_BANK_ROBBERY: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_HQ: true

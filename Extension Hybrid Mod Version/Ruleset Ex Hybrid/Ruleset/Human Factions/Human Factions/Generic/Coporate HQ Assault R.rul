@@ -1,0 +1,124 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_HQ_ZSRR: "Corporate HQ Assault"
+      STR_CULT_HQ_COLD_ZSRR: "Corporate HQ Assault"
+      STR_CULT_HQ_COLD_ZSRR_DESCRIPTION: "The Mercenary guild has received report of a high level faction leadership meeting in a mansion in this region. Some major rival wealthy organization has pay good bounty for any Merc unit that are willing to interupt this meeting. We will pay us good money in getting the job done as usual. "
+      STR_CULT_HQ_COLD_ZSRR_BRIEFING: "The Mercenary guild has received report of a high level faction leadership meeting in a mansion in this region. Some major rival wealthy organization has pay good bounty for any Merc unit that are willing to interupt this meeting. We will pay us good money in getting the job done as usual."
+alienDeployments:
+  - type: STR_CULT_HQ_COLD_ZSRR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED   
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND 
+    width: 60
+    length: 60
+    height: 18
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_CULT_HQ_COLD_ZSRR_BRIEFING	  
+    alert: STR_ALERT_CULT_HQ_ZSRR
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_HQ_COLD_ZSRR_DESCRIPTION
+    markerName: STR_CULT_HQ
+    duration: [54, 100]
+    despawnPenalty: 100
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1
+    customUfo: STR_MANSION4	 
+    data:
+      - alienRank: 4
+        lowQty: 14
+        highQty: 30
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 9
+        highQty: 18
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 6
+        highQty: 14
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 4
+        highQty: 10
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 4
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            [] 
+alienMissions:
+  - type: STR_CULT_HQ_ZSRR
+    #interruptResearch: STR_DESTROY_ZSRR
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_UAC: 20
+          STR_TRANS_STELLAR: 20		  
+          STR_GUILD: 20
+          STR_CYBERWEB: 20		  
+          STR_MARSEC: 10
+          STR_SYNDICATE: 10		  
+    waves:
+      - ufo: STR_CULT_HQ_COLD_ZSRR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: CultHQZSRR
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_CULT_HQ_ZSRR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    executionOdds: 2		
+    useTable: false
+    startDelay: 900
+    randomDelay: 1100
+    facilityTriggers:
+      STR_MERCFACILITY: true

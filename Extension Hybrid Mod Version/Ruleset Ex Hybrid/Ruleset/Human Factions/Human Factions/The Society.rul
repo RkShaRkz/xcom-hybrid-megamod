@@ -1,0 +1,408 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MALE_VIP_REPTOID: "Very Important Person Reptile"	
+      STR_CIVILIAN_CORPSE: "Civilian Corpse"
+      STR_MALE_CIVILIAN_WHISTLEBLOWER_CORPSE: "Civilian Corpse"
+      STR_FEMALE_CIVILIAN_WHISTLEBLOWER_CORPSE: "Civilian Corpse"	
+      STR_LEAGUE: "Protesters and Rioteers"
+      STR_LEAGUE_UFOPEDIA: "Protesters"	  
+      STR_LEAGUE_SUICIDAL_CONFESSIONS: "Suicidal Confessions"
+      STR_LEAGUE_SUICIDAL_CONFESSIONS_DESCRIPTION: "In {0}, a woman took her own life by jumping off a tall building while shouting uncomfortable truths about the state of the world. We believe she was a member of the Society, a grassroots organization aiming to expose the Shadow War to the public. Let's hope the press won't follow the scent too far.{NEWLINE}[-50 points]"
+      STR_LEAGUE_THE_IMMORTALIST: "The Immortalist"
+      STR_LEAGUE_THE_IMMORTALIST_DESCRIPTION: "A madman in {0} has been mailing his local news stations about 'the secret to immortality'. Finally he received attention from local investigators who looked into his claims and found strange substances and samples in his home. The Council Salvagers, who are covering up this one, sent us what they found." 
+      STR_FEMALE_CIVILIAN_WHISTLEBLOWER: "Female Protester"	
+      STR_FEMALE_CIVILIAN_WHISTLEBLOWERID: "Female Protester ID"		
+      STR_MALE_CIVILIAN_WHISTLEBLOWER: "Male Protester"		  
+      STR_MALE_CIVILIAN_WHISTLEBLOWERID: "Male Protester ID"
+      STR_MALE_VIPID: "Protest Organizer ID"	  
+      STR_MALE_VIP: "Protest Organizer"		  
+      STR_MALE_VIP_DESCRIPTION: "The Capture of the Protest Organizer is the most important part in solving of the puzzle, as to where the genetically engineered virus has came from. The Synedrion has been hiring people to disperse of their virus that's stored in aerosol cans. After it is sprayed unsuspectingly to the human population, the infected humans will display of their most violent behavior out in the open. This is another sick Synedrion experiment in human genetics. One that is well hidden and orchastrated with results coming out in the open. "	  
+      STR_MALE_CIVILIAN_WHISTLEBLOWER_UFOPEDIA: "From the Protester that we have capture, after analysing his saliva and blood, we found the faint trace of genetically engineered virus. This virus disrupts the brain function of a male human, causing them to behave more aggressively than usual and getting annoyed in the very smallest of matters. We don't know the origin of this virus. But we will find out."	  
+      STR_FEMALE_CIVILIAN_WHISTLEBLOWER_UFOPEDIA: "From the Protester that we have capture, after analysing her saliva and blood, we found the faint trace of genetically engineered virus. This virus disrupts the brain function of a female human, causing them to behave more emotionally aggressive than usual and getting moody from the smallest of matters. We don't know the origin of this virus. But we will find out."		  
+alienRaces:
+  - id: STR_LEAGUE
+    membersRandom:
+      - [STR_MALE_VIP]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [MALE_CIVILIAN, MALE_CIVILIAN, MALE_CIVILIAN, MALE_CIVILIAN, STR_MALE_GREASER, STR_MALE_ENGINEER, STR_MALE_FORESTER, STR_MALE_FORESTER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_FEMALE_CASUAL, STR_FEMALE_CASUAL, STR_FEMALE_CASUAL, STR_FEMALE_GLAMOUR, STR_FEMALE_GLAMOUR, STR_HOSTESS, STR_PRIEST, STR_MALE_DOCTOR, STR_FEMALE_DOCTOR, STR_FEMALE_CIVILIAN_CITY_GIRL, STR_FEMALE_CIVILIAN_CITY_GIRL, STR_MALE_CIVILIAN_CITY_BOY, STR_MALE_CIVILIAN_CITY_BOY, STR_MALE_CIVILIAN_BLACK, STR_MALE_CIVILIAN_BLACK]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_MALE_VIP]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+    retaliationAggression: -100
+  - id: STR_LEAGUE_UNDERWATER	  	
+    membersRandom:
+      - [STR_MALE_VIP]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [MALE_CIVILIAN, MALE_CIVILIAN, MALE_CIVILIAN, MALE_CIVILIAN, STR_MALE_GREASER, STR_MALE_ENGINEER, STR_MALE_FORESTER, STR_MALE_FORESTER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_WORKER, STR_FEMALE_CASUAL, STR_FEMALE_CASUAL, STR_FEMALE_CASUAL, STR_FEMALE_GLAMOUR, STR_FEMALE_GLAMOUR, STR_HOSTESS, STR_PRIEST, STR_MALE_DOCTOR, STR_FEMALE_DOCTOR, STR_FEMALE_CIVILIAN_CITY_GIRL, STR_FEMALE_CIVILIAN_CITY_GIRL, STR_MALE_CIVILIAN_CITY_BOY, STR_MALE_CIVILIAN_CITY_BOY, STR_MALE_CIVILIAN_BLACK, STR_MALE_CIVILIAN_BLACK]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_MALE_VIP]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+      - [STR_FEMALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER,STR_MALE_CIVILIAN_WHISTLEBLOWER]
+    retaliationAggression: -100
+ufopaedia:	
+  - id: STR_LEAGUE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_LEAGUE_UFOPEDIA
+    requires:
+      - STR_LEAGUE
+    listOrder: 57900	
+  - id: STR_MALE_VIP
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_VIP_DESCRIPTION	
+    requires:
+      - STR_MALE_VIP
+    listOrder: 154310	
+  - id: STR_MALE_CIVILIAN_WHISTLEBLOWER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_WHISTLEBLOWER_UFOPEDIA	
+    requires:
+      - STR_MALE_CIVILIAN_WHISTLEBLOWER
+    listOrder: 154310	
+  - id: STR_FEMALE_CIVILIAN_WHISTLEBLOWER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_CIVILIAN_WHISTLEBLOWER_UFOPEDIA	
+    requires:
+      - STR_FEMALE_CIVILIAN_WHISTLEBLOWER
+    listOrder: 154310		
+research:
+  - name: STR_LEAGUE  
+    cost: 10
+    points: 200
+    dependencies:
+      - STR_MALE_VIP
+      - STR_MALE_CIVILIAN_WHISTLEBLOWER
+      - STR_FEMALE_CIVILIAN_WHISTLEBLOWER
+  - name: STR_MALE_VIP
+    cost: 1
+    points: 1
+    needItem: true
+    destroyItem: true
+    listOrder: 154309	
+    unlocks:
+      - STR_LEAGUE	
+  - name: STR_MALE_CIVILIAN_WHISTLEBLOWER	 
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    listOrder: 153900
+    unlocks:
+      - STR_LEAGUE
+  - name: STR_FEMALE_CIVILIAN_WHISTLEBLOWER 
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    listOrder: 153910
+    unlocks:
+      - STR_LEAGUE
+units:
+  - type: STR_MALE_VIP
+    race: STR_HUMAN
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_VIP_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 50
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    spotter: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_MALE_CIVILIAN_WHISTLEBLOWER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_WHISTLEBLOWER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_ALLOY_KNIFE
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_FEMALE_CIVILIAN_WHISTLEBLOWER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_WHISTLEBLOWER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_COMBAT_KNIFE
+armors:
+  - type: STR_MALE_VIP_ARMOR
+    spriteSheet: MALE_VIP.PCK
+    spriteInv: inventory_MALE_VIP
+    corpseBattle:
+      - STR_MALE_VIP_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_WHISTLEBLOWER_ARMOR
+    spriteSheet: FEMALE_CASUAL.PCK
+    spriteInv: inventory_FEMALE_CASUAL
+    corpseBattle:
+      - STR_FEMALE_CIVILIAN_WHISTLEBLOWER_CORPSE
+    #corpseGeo: STR_CIVILIAN_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_WHISTLEBLOWER_ARMOR
+    spriteSheet: MALE_CIVILIAN.PCK
+    spriteInv: inventory_MALE_CIVILIAN
+    corpseBattle:
+      - STR_MALE_CIVILIAN_WHISTLEBLOWER_CORPSE
+    #corpseGeo: STR_CIVILIAN_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+items:
+  - type: STR_MALE_VIP_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 58000
+    weight: 30
+    bigSprite: 474
+    floorSprite: 396
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_MALE_CIVILIAN_WHISTLEBLOWER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: -15000
+    size: 0.4
+    weight: 30
+    bigSprite: 739
+    floorSprite: 50
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoveryPoints: -90
+  - type: STR_FEMALE_CIVILIAN_WHISTLEBLOWER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: -15000
+    size: 0.4
+    weight: 28
+    bigSprite: 1168
+    floorSprite: 51
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 12
+    recover: true
+    recoveryPoints: -90	
+  - type: STR_MALE_CIVILIAN_WHISTLEBLOWER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 15000
+    listOrder: 153900
+  - type: STR_FEMALE_CIVILIAN_WHISTLEBLOWER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 15000
+    listOrder: 153910	
+  - type: STR_MALE_VIP
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+    liveAlien: true
+    costSell: 80000

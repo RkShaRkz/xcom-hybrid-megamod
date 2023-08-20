@@ -1,0 +1,475 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_EXALT_RATIONALE: "The Osiron rationale"
+        STR_EXALT_RATIONALE_UFOPEDIA: "The Osiron is private security company with its hands dipped in many lucrative and sometimes illegal activities all over the world. Its operations has span into bounty hunting, Mercenary, Private Security and other untracable activities including assassination, drug trafficking, hacking and among other illegal activities. Their most recent lucrative venture is the selling of Psiclones. This has brought them into conflict with the other gangs out there. This organization, in other words, are nothing but white collar criminals looking to make big bucks through any means necessary."	
+        STR_EXALT_INFILTRATOR_ARMOR: "Osiron Infiltrator Combat Analysis"
+        STR_EXALT_ENFORCER_ARMOR: "Osiron Enforcer Combat Analysis"
+        STR_EXALT_LIQUIDATOR_ARMOR: "Osiron Liquidator Combat Analysis"
+        STR_EXALT_MASTER_ARMOR: "Osiron Master Combat Analysis"
+        STR_EXALT_GOON_ARMOR: "Osiron Goon Combat Analysis"
+        STR_DESTROY_EXALT: "Terminate Osiron!"
+        STR_DESTROY_EXALT_UFOPEDIA: "Our operation is a success! With the right settings, we managed to make Psiclone addicts even more addicted, so now they favor our stuff over alien stuff and refuse their orders. It may be morally ambiguous, but it certainly helped contain a great danger to humanity. Osiron's Masters are now pretty much alone except for their most faithful servants and shouldn't give us any further trouble.{NEWLINE}Since we're done with them, we should now move on to the next level: the hybrids."	
+        STR_BUY_EXALT_WEAPONS_UFOPEDIA: "Careful investigation of the Osiron weapon supply chains allowed us to meet their contractors. Predictably, these people do not care about politics, religion or even aliens, they are only into money. And we have ample amounts of it, making it easy to convince them to include us in their customer list. We can now negotiate acquisition of several weapon types.{NEWLINE}The Council will grumble about us making deals behind their backs, but since the weapons we buy are perfectly ordinary, it should not be a huge deal to them. [-50 points]"
+        STR_BUY_EXALT_WEAPONS: "Purchase from Osiron Suppliers" 	
+        STR_EXALT_OPERATIONS_PREQ: "Osiron Operations Prerequisite"
+        STR_EXALT_OPERATIONS: "Osiron Operations"
+        STR_EXALT_OPERATIONS_UFOPEDIA: "We now have enough data to finally uncover some channels to the ruling elite of Osiron. They are rich men with extremely well protected identities, but sometimes we can pinpoint a safe house or gathering where important information is passed to underlings. Attacking such a location would be tough with all that security present, but it's our only chance.{NEWLINE}{NEWLINE}{NEWLINE}Also from now on, we will not bother with Osiron safehouses; such tasks will be delegated to Council Salvagers instead."
+        STR_EXALT_NETWORK: "Osiron Network"
+        STR_EXALT_NETWORK_UFOPEDIA: "With a monopoly on Psiclone and backed by wealthy people, Osiron is very influential. Its agents hail from all social strata, but generally it is governed by individuals connected to the political elites of the Americas. If we want to get to these people, we should locate their delegates who supervise Psiclone distribution, command mid-level operations and so on. Finding them shouldn't be too hard; I'll let you know if something comes up."
+        STR_EXALT_CANE: "Osiron Master's Cane"
+        STR_EXALT_CANE_UFOPEDIA: "This masterwork walking cane was tailor-made for its user. We can't order these things just like that, and honestly, why would we? It's extremely classy though.{NEWLINE}>Concealable"
+        STR_EXALT_ENFORCER_ARMOR_ADAPTATION: "Osiron Enforcer Processing" 
+        STR_EXALT_ARMORED_CAR: "Osiron Armored Car"	
+        STR_CORRUPT_POLITICIAN_EXALT: "Corrupt Politician"
+        STR_CORRUPT_POLITICIAN_EXALT_DESCRIPTION: "A local politician from {0} was arrested and is now awaiting trial on grounds of corruption. The true reason behind this arrest was evidence that the individual secretly supported Osiron, carefully put together by your trusted operatives. It feels good to be on top of things.{NEWLINE}[150 points]"	
+        STR_EXALT_INDUSTRIAL_ACCIDENT: "Industrial Accident"
+        STR_EXALT_INDUSTRIAL_ACCIDENT_DESCRIPTION: "Explosion tore apart a Psiclone assembly plant in {0}, causing many casualties among the cult members and attracting a lot of attention. It is likely that many Psiclones went missing. The Council is mildly frustrated with our inability to prevent such mishaps.{NEWLINE}[-100 points, Psiclone x1 acquired]"	
+        STR_EXALT_HQ: "Osiron HQ"
+        STR_EXALT_HQ_UFOPEDIA: "We now understand that Osiron does not produce Psiclone by itself; the devices are being supplied to them through an even more secretive network. This network has a permanent representative that can be found in Osiron's main base of operations. What's more, this representative is supposedly a half-alien! If we capture and interrogate this mysterious hybrid, we should be able to destroy the Psiclone chain of supply. Without Psiclone, Osiron will surely collapse.{NEWLINE}We now possess enough data to find the Osiron main base soon. You will be notified when we are able to strike. Naturally, this operation will be quite demanding, so prepare your best agents and equipment."	 
+        STR_EXALT_BRAINER_CORPSE: "Goa'uld Symbiote Corpse"		
+        STR_EXALT_BRAINER: "Goa'uld Symbiote Brainer"
+        STR_EXALT_BRAINER_UFOPEDIA: "These Goa'uld controled Osiron are mostly controlled with Psiclone distribution, there is a way to win without a prolonged war: use this Osiron weapon against them. We can now understand how the Psiclone works well enough to develop a counter-wave that will disrupt the functioning of these devices over large swathes of land. Before our enemies adjust their signal, we will flood the market with our cracked Psiclones which will be just as good but functioning and, you know, not forcing you into an alien army in exchange. This should render Osiron harmless enough for us to no longer care about it. Just give the order, Commander."	
+        STR_BRAINER_AUTOPSY: "Goa'uld Symbiote Corpse Autopsy"
+        STR_BRAINER_AUTOPSY_UFOPEDIA: "The Goa'uld Symbiote is a parasite living in a host animal such as a human. In biology a symbiote is an organism that lives with or off another organism receiving and/or giving benefits. Parasitism, a form of symbiosis in which one organism benefits while the other is harmed, describes the Goa'uld relationship with their hosts because they take control of another being's body against their will."
+        STR_HYBRID_BRAINER: "Goa'uld Symbiote Hybrid"
+        STR_BRAINER: "Goa'uld Symbiote"
+        STR_BRAINER_UFOPEDIA: "Goa'uld Symbiote is a small parasite that has made a stealth infiltration into our society. These parasites are mostly targeting human leaders and then take control of them. Through the control of these leaders while appearing everything is still normal. They will execute agendas that will benefit the goals of these aliens, whatever they are."
+        STR_EXALT_INFILTRATOR: "Osiron Manager"
+        STR_EXALT_ENFORCER: "Osiron Guard"
+        STR_EXALT_GOON: "Osiron Hacker"		
+        STR_EXALT_MASTER: "Osiron CEO"	
+        STR_EXALT_LIQUIDATOR: "Osiron Security" 	
+        STR_EXALT_INFILTRATORID: "Osiron Manager ID"
+        STR_EXALT_ENFORCERID: "Osiron Guard ID"
+        STR_EXALT_GOONID: "Osiron Hacker ID"		
+        STR_EXALT_MASTERID: "Osiron CEO ID"	
+        STR_EXALT_LIQUIDATORID: "Osiron Security ID"
+        STR_EXALT_GOON_UFOPEDIA: "The Company Hackers are the life blood of the megaconglomerate. They are the best hackers anywhere in the world. Their roles is to hack of any network that is vulnerable, so to loot of any crypto or moneys they can easily get their hands on."	
+        STR_EXALT_LIQUIDATOR_UFOPEDIA: "The Osirion Security are mostly ex-soldiers and mercenaries that Osirion can hire, they can afford some of the best and highly talented Mercs in the world, because they can."	
+        STR_EXALT_MASTER_UFOPEDIA: "The Osiron CEOS are some of the most powerful and influential induviduals in the world. The position they holds can influence of a country's politics and authorities with money and power. They can commit crimes and get away with it by buying off authorities. Their goals, is nothing but total dominance, not just over the other gangs but other business megaconglomerate"
+        STR_EXALT_INFILTRATOR_UFOPEDIA: "The Osiron Managers are high level executives that runs the departments in the megaconglomerate. They are rich and powerful. Protected by heavy security to where ever they are."
+        STR_EXALT_ENFORCER_UFOPEDIA: "An Osirion guard is just a hired security, a temporary contractor. They are totally unaware of the criminal activities from the higher up and is just there to do the job which they are hired for. Not knowing that their job can mean breaking of the law or even getting of themselves kill."
+        STR_EXALT: "Osiron INC"
+        STR_EXALT_UFOPEDIA: "The Osiron, is more a business than a gang, a corrupt Syndicate or megaconglomerate that runs a vast enterprise of criminal activities while seemly hidden in legit businesses. This megaconglomerate is run by white collar criminals. Instead of bullies in T-Shirt or shorts, these Criminals wears business suits and tuxedos. The megaconglomerate has its own in-house security."	
+alienRaces:
+  - id: STR_EXALT
+    members:
+      - STR_EXALT_MASTER
+      - STR_EXALT_INFILTRATOR	  
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+    retaliationAggression: -100		
+  - id: STR_EXALT_UNDERWATER	  	
+    retaliationAggression: -100
+    members:
+      - STR_EXALT_MASTER
+      - STR_EXALT_INFILTRATOR	  
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+      - STR_EXALT_LIQUIDATOR
+ufopaedia:	  
+  - id: STR_EXALT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_EXALT_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_EXALT
+    listOrder: 180290
+  - id: STR_EXALT_INFILTRATOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_EXALT_INFILTRATOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_INFILTRATOR
+    listOrder: 150300
+  - id: STR_EXALT_LIQUIDATOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_EXALT_LIQUIDATOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_LIQUIDATOR
+    listOrder: 150325
+  - id: STR_EXALT_MASTER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_EXALT_MASTER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_MASTER
+    listOrder: 150340
+research:
+  - name: STR_EXALT
+    #requiresBaseFunc: [RESEARCH]   
+    cost: 10
+    points: 200
+    dependencies:
+      - STR_EXALT_MASTER
+      - STR_EXALT_INFILTRATOR
+      - STR_EXALT_LIQUIDATOR
+  - name: STR_EXALT_INFILTRATOR
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_EXALT
+    listOrder: 150300
+  - name: STR_EXALT_LIQUIDATOR
+    requiresBaseFunc: [INTERROGATION]
+    cost: 20
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_EXALT
+    listOrder: 150325
+  - name: STR_EXALT_MASTER
+    requiresBaseFunc: [INTERROGATION]
+    cost: 50
+    points: 30
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_EXALT
+    listOrder: 150340
+units:
+  - type: STR_EXALT_INFILTRATOR
+    race: STR_EXALT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 40
+      throwing: 35
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 25
+      #mana: 50
+    armor: STR_EXALT_INFILTRATOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 4
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_EXALT_LIQUIDATOR
+    race: STR_EXALT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 60
+      health: 40
+      bravery: 90
+      reactions: 45
+      firing: 55
+      throwing: 50
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_EXALT_LIQUIDATOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 3
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP		
+  - type: STR_EXALT_MASTER
+    race: STR_EXALT
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 40
+      stamina: 50
+      health: 40
+      bravery: 90
+      reactions: 45
+      firing: 60
+      throwing: 30
+      strength: 30
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+      #mana: 50
+    armor: STR_EXALT_MASTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 20
+    intelligence: 6
+    aggression: 1
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PSICLONE
+armors:
+  - type: STR_EXALT_INFILTRATOR_ARMOR
+    spriteSheet: BLACK_LOTUS_WARRIOR.PCK
+    spriteInv: inventory_BLACK_LOTUS_WARRIOR
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]	
+    corpseBattle:
+      - STR_EXALT_INFILTRATOR_CORPSE
+    visibilityAtDark: 12
+    camouflageAtDay: 4
+    camouflageAtDark: 4
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 5
+    meleeDodge:
+      reactions: 1.0
+    meleeDodgeBackPenalty: 0.0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+  - type: STR_EXALT_LIQUIDATOR_ARMOR
+    spriteSheet: EXALT_LIQUIDATOR.PCK
+    spriteInv: inventory_EXALT_LIQUIDATOR
+    corpseBattle:
+      - STR_EXALT_LIQUIDATOR_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 12
+    frontArmor: 28
+    sideArmor: 12
+    rearArmor: 16
+    underArmor: 12
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.05
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_EXALT_MASTER_ARMOR
+    spriteSheet: EXALT_MASTER.PCK
+    spriteInv: inventory_EXALT_MASTER
+    corpseBattle:
+      - STR_EXALT_MASTER_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 11
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+items:
+  - type: STR_EXALT_MASTER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 34
+    bigSprite: 347
+    floorSprite: 303
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 17
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_EXALT_INFILTRATOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 266
+    floorSprite: 234
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+    armor: 30
+  - type: STR_EXALT_LIQUIDATOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 327
+    floorSprite: 287
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false		
+  - type: STR_EXALT_LIQUIDATOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 26000
+    listOrder: 150325	
+  - type: STR_EXALT_MASTER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 150000
+    listOrder: 150340	
+  - type: STR_EXALT_INFILTRATOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 4000
+    listOrder: 150300	

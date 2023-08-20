@@ -1,0 +1,363 @@
+crafts: #done
+  - type: STR_AVENGER
+    maxSmallSoldiers: 26  
+    maxLargeSoldiers: 4
+    maxSmallVehicles: 26 
+    maxLargeVehicles: 4
+    maxSmallUnits: 26 
+    maxLargeUnits: 4
+    deployment:
+      - [3, 5, 1, 4]
+      - [3, 4, 1, 4]
+      - [3, 6, 1, 4]
+      - [3, 7, 1, 4]
+      - [3, 8, 1, 4]
+      - [3, 9, 1, 4]	  
+      - [6, 5, 1, 4]
+      - [6, 4, 1, 4]	  
+      - [6, 6, 1, 4]
+      - [6, 7, 1, 4]
+      - [6, 8, 1, 4]
+      - [6, 9, 1, 4]
+      - [5, 5, 1, 4]
+      - [5, 4, 1, 4]
+      - [5, 6, 1, 4]
+      - [5, 7, 1, 4]
+      - [5, 8, 1, 4]
+      - [5, 9, 1, 4]	  
+      - [4, 5, 1, 4]
+      - [4, 4, 1, 4]
+      - [4, 6, 1, 4]
+      - [4, 7, 1, 4]
+      - [4, 8, 1, 4]
+      - [4, 9, 1, 4]	  
+      - [4, 11, 1, 4]
+      - [5, 11, 1, 4]
+  - type: STR_SKYRANGER
+    maxSmallSoldiers: 14  
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 14
+    maxLargeVehicles: 3
+    maxSmallUnits: 14 
+    maxLargeUnits: 3			
+  - type: STR_LIGHTNING
+    maxSmallSoldiers: 24 
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 24 
+    maxLargeVehicles: 0
+    maxSmallUnits: 24 
+    maxLargeUnits: 0
+    battlescapeTerrainData:
+      name: LIGHTNIN
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+      mapBlocks:
+        - name: LIGHTNIN
+          width: 10
+          length: 10	
+    deployment:
+      - [2, 4, 1, 4]
+      - [2, 5, 1, 4]
+      - [2, 6, 1, 4]
+      - [3, 3, 1, 4]
+      - [3, 4, 1, 4]
+      - [3, 5, 1, 4]
+      - [3, 6, 1, 4]
+      - [3, 7, 1, 4]
+      - [5, 3, 1, 4]
+      - [4, 3, 1, 4]
+      - [5, 7, 1, 4]
+      - [4, 7, 1, 4]	  
+      - [6, 2, 1, 4]
+      - [6, 3, 1, 4]		  
+      - [6, 7, 1, 4]
+      - [6, 8, 1, 4]
+      - [7, 3, 1, 4]
+      - [7, 4, 1, 4]		  
+      - [7, 5, 1, 4]
+      - [7, 6, 1, 4]	
+      - [7, 7, 1, 4]
+      - [8, 4, 1, 4]
+      - [8, 5, 1, 4]	
+      - [8, 6, 1, 4]	 	  
+  - type: STR_TRITON
+    sprite: 150
+    fuelMax: 1400
+    damageMax: 160
+    speedMax: 790
+    accel: 2
+    soldiers: 14
+    vehicles: 3
+    maxSmallSoldiers: 14  
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 13 
+    maxLargeVehicles: 3
+    maxSmallUnits: 14
+    maxLargeUnits: 3		
+    costBuy: 500000
+    costRent: 500000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    maxAltitude: 4
+    battlescapeTerrainData:
+      name: TRITON
+      mapDataSets:
+        - BLANKS
+        - TRITON
+      mapBlocks:
+        - name: TRITON
+          width: 10
+          length: 20
+    deployment:
+      - [5, 7, 0, 4]
+      - [4, 7, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 3, 0, 4]
+      - [4, 3, 0, 4]
+      - [5, 2, 0, 4]
+      - [4, 2, 0, 4]
+      - [3, 7, 0, 4]
+      - [3, 6, 0, 4]
+  - type: STR_BARRACUDA
+    sprite: 184
+    fuelMax: 800
+    damageMax: 120
+    speedMax: 2400
+    accel: 3
+    weapons: 2
+    allowLanding: true
+    costRent: 600000
+    forceShowInMonthlyCosts: true
+    costBuy: 600000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxAltitude: 3
+    soldiers: 15
+    vehicles: 13
+    maxSmallSoldiers: 15
+    maxLargeSoldiers: 2
+    maxSmallVehicles: 13
+    maxLargeVehicles: 2
+    maxSmallUnits: 15
+    maxLargeUnits: 2	
+    battlescapeTerrainData:
+      name: BARACUDA
+      mapDataSets:
+        - BLANKS
+        - BARACUDA
+        - TRITON_2X
+        - PLANE6X
+      mapBlocks:
+        - name: BARACUDAOLD
+          width: 10
+          length: 10	
+    deployment:
+      - [3, 1, 0, 2]
+      - [4, 1, 0, 2]
+      - [5, 1, 0, 2]
+      - [3, 2, 0, 2]
+      - [4, 2, 0, 2]
+      - [5, 2, 0, 2]
+      - [3, 3, 0, 2]
+      - [4, 3, 0, 2]
+      - [5, 3, 0, 2]
+      - [3, 4, 0, 2]
+      - [4, 4, 0, 2]
+      - [5, 4, 0, 2]
+      - [4, 5, 0, 2]
+      - [5, 5, 0, 2]		  
+  - type: STR_MANTA
+    sprite: 187
+    fuelMax: 30
+    damageMax: 400
+    speedMax: 4600
+    accel: 10
+    weapons: 2
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 250
+    maxAltitude: 4
+    allowLanding: true	
+    maxSmallSoldiers: 10
+    maxLargeSoldiers: 2
+    maxSmallVehicles: 9
+    maxLargeVehicles: 2
+    maxSmallUnits: 10
+    maxLargeUnits: 2
+    soldiers: 10
+    vehicles: 9	
+    battlescapeTerrainData:
+      name: MANTAX
+      mapDataSets:
+        - BLANKS
+        - MANTAX
+      mapBlocks:
+        - name: MANTAX
+          width: 10
+          length: 10
+    deployment:
+      - [4, 7, 0, 4]
+      - [5, 7, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 8, 0, 4]
+      - [5, 8, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 4, 0, 4]		  
+  - type: STR_HAMMERHEAD
+    sprite: 185
+    fuelMax: 60
+    damageMax: 960
+    speedMax: 4030
+    accel: 9
+    weapons: 1
+    soldiers: 12
+    maxSmallSoldiers: 12  
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 12 
+    maxLargeVehicles: 0
+    maxSmallUnits: 12
+    maxLargeUnits: 0		
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 300
+    maxAltitude: 4
+    battlescapeTerrainData:
+      name: HAMMER
+      mapDataSets:
+        - BLANKS
+        - HAMMER
+      mapBlocks:
+        - name: HAMMER
+          width: 10
+          length: 10
+    deployment:
+      - [5, 7, 0, 4]
+      - [4, 7, 0, 4]
+      - [3, 7, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [3, 6, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 5, 0, 4]
+      - [3, 5, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [3, 4, 0, 4]
+  - type: STR_LEVIATHAN
+    sprite: 186
+    fuelMax: 50
+    damageMax: 1250
+    speedMax: 5800
+    accel: 9
+    weapons: 2
+    soldiers: 26
+    maxSmallSoldiers: 26  
+    maxLargeSoldiers: 4
+    maxSmallVehicles: 26 
+    maxLargeVehicles: 4
+    maxSmallUnits: 26 
+    maxLargeUnits: 4		
+    vehicles: 4
+    refuelItem: STR_ZRBITE
+    spacecraft: true
+    refuelRate: 5
+    score: 400
+    maxAltitude: 4
+    battlescapeTerrainData:
+      name: LEVIATH
+      mapDataSets:
+        - BLANKS
+        - LEVIATH
+      mapBlocks:
+        - name: LEVIATH
+          width: 10
+          length: 20
+    deployment:
+      - [5, 10, 0, 4]
+      - [4, 10, 0, 4]
+      - [5, 9, 0, 4]
+      - [4, 9, 0, 4]
+      - [5, 8, 0, 4]
+      - [4, 8, 0, 4]
+      - [5, 7, 0, 4]
+      - [4, 7, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 3, 0, 4]
+      - [4, 3, 0, 4]
+      - [6, 8, 0, 4]
+      - [3, 8, 0, 4]
+      - [6, 7, 0, 4]
+      - [3, 7, 0, 4]
+      - [6, 6, 0, 4]
+      - [3, 6, 0, 4]
+      - [6, 5, 0, 4]
+      - [3, 5, 0, 4]
+      - [6, 4, 0, 4]
+      - [3, 4, 0, 4]
+  #- type: STR_SMALL_BOAT
+  #  size: STR_SMALL
+  #  sprite: 1
+  #  damageMax: 2
+  #  speedMax: 2
+  #  accel: 1
+  #  score: 80
+  #  soldiers: 8
+  #  costBuy: 0
+  #  costRent: 0
+  #  refuelRate: 0
+  #  transferTime: 0
+  #  score: 0
+  #  maxAltitude: 0
+  #  battlescapeTerrainData:
+  #    name: BOAT00
+  #    mapDataSets:
+  #      - BLANKS
+  #      - BOAT
+  #      - BOAT_FURN
+  #      - PENTAS
+  #      - TRITON
+  #    mapBlocks:
+  #      - name: BOAT00
+  #        width: 10
+  #        length: 20
+  - type: MARSENTRYLAND
+    sprite: 0
+    fuelMax: 0
+    damageMax: 0
+    speedMax: 0
+    accel: 0	
+    weapons: 0	
+    soldiers: 0
+    vehicles: 0
+    costBuy: 0
+    costRent: 0
+    refuelRate: 0
+    transferTime: 0
+    score: 0
+    maxAltitude: 0
+    battlescapeTerrainData:
+      name: MARSENTRYLAND
+      mapDataSets:
+        - BLANKS
+        - MARS
+      mapBlocks:
+        - name: MARSENTRYLAND
+          width: 20
+          length: 20	  

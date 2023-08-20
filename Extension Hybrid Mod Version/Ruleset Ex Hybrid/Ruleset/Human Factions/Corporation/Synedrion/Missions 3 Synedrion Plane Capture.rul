@@ -1,0 +1,440 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_XASSISTANT_UFOPEDIA: The capture of Dr X assistant is a goldmine. We are now able to firmly deduced of Dr X true name, Gudrun Xioxin, one of Synedrion' top scientist. She has a depraved personality, with love of pornography and political allignment toward old nazism. Right now, these mutants are her prize speicmens from her research and she wanted them bad. Since the only way to end this search is to kill her, the assistant was force to surrender the locations of where X might be hiding.
+      STR_SYNEDRIONBASEADMINDEFENSE: Synedrion Mission 3 Base Defense
+      STR_SYNEDRIONBASEASSAULT_DRX: Synedrion Master Agent Capture
+      STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE: "Syn Mission 3: Synedrion Master Agent Capture"
+      STR_MARKER_ACADEMY_TOWN: Synedrion Master Agent Capture
+      STR_ALERT_ACADEMY_TOWN: Synedrion Master Agent Capture
+      STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE_BRIEFING: "This is the Merc Guild here. The Synedrion agent you captured was directing of these raids to recapture of the missing mutants we had rescued. One of the Synedrion lead Scientist, by the name of Dr X, is wanting them bad. The Mutant Alliance is wanting for these punishing raids to stop. However, for this to happen, X has to die. However, X need to be found first. X's assistant should help in finding X, whom the Agent give of her last location. Capture her and you get paid." 
+      STR_MISSION_ACADEMY_TOWN: "Synedrion Master Agent Capture"
+      STR_MISSION_ACADEMY_TOWN_UFOPEDIA: "This is the Merc Guild here. The Synedrion agent you captured was directing of these raids to recapture of the missing mutants we had rescued. One of the Synedrion lead Scientist, by the name of Dr X, is wanting them bad. The Mutant Alliance is wanting for these punishing raids to stop. However, for this to happen, X has to die. However, X need to be found first. X's assistant should help in finding X, whom the Agent give of her last location. Capture her and you get paid." 
+alienDeployments:
+  - type: STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE
+    alert: STR_SYNEDRIONBASEASSAULT_DRX
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	     		
+    alertDescription: STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 1
+      music: GMTACDRY    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_SYNEDRIONBASEASSAULT_DRX
+      desc: STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE_BRIEFING
+    markerName: STR_SYNEDRIONBASEASSAULT_DRX
+    duration: [25, 10000000000000]
+    unlockedResearch: STR_MISSION3END	
+    despawnPenalty: 0
+    width: 70
+    length: 70
+    height: 10
+    script: SYNEDRIONMAINBASE
+    data: &LoadoutAcademyTown
+      - alienRank: 7
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 8
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+      - alienRank: 5
+        lowQty: 4
+        highQty: 4
+        dQty: 4
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 2
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienRaces:			
+  - id: STR_SYNEDRIONBASEADMINDEFENSE
+    membersRandom:
+      - [STR_XASSISTANT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]	  
+  - id: STR_SYNEDRIONBASEADMINDEFENSE_UNDERWATER	
+    membersRandom:
+      - [STR_XASSISTANT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]	
+      - [STR_ACADEMY_THRALL]	  
+ufos:
+  - type: STR_LOC_ACADEMY_OUTPOSTTOWN
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: HTHOUSE_01
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: SYNBIORESEARCHFACILITY
+          width: 10
+          length: 10
+          items:
+            STR_SYNENGINEER_SPAWNER:
+              - [3, 3, 0] 
+              - [3, 4, 0] 
+              - [3, 5, 0] 			
+            STR_SYNSCIENTIST_SPAWNER:	  
+              - [3, 3, 1] 
+              - [3, 4, 1] 
+              - [3, 5, 1] 			
+            STR_GUARD_SPAWNER:   
+              - [1, 1, 3]
+              - [1, 7, 3]  
+              - [8, 7, 3]  
+          fuseTimers:
+            STR_SYNSCIENTIST_SPAWNER: [0, 0]
+            STR_SYNENGINEER_SPAWNER: [0, 0]
+            STR_GUARD_SPAWNER: [0, 0]
+ufopaedia:	
+  - id: STR_XASSISTANT
+    requires:
+      - STR_XASSISTANT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_XASSISTANT_UFOPEDIA				
+research:
+  - name: STR_XASSISTANT
+    requiresBaseFunc: [INTERROGATION]	 
+    cost: 1
+    points: 40
+    needItem: true
+  - name: STR_MISSION3END 
+    points: 25
+    needItem: true					
+items:	
+  - type: STR_XASSISTANT
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 405000				
+units:
+  - type: STR_XASSISTANT
+    race: STR_ACADEMY
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 62
+      stamina: 100
+      health: 33
+      bravery: 80
+      reactions: 60
+      firing: 75
+      throwing: 55
+      strength: 55
+      psiStrength: 60
+      psiSkill: 0
+      melee: 30
+      #Mana: 75
+    armor: SECTOID_ARMOR_P9  
+    #armor: MALE_SCIENTIST_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 8
+    aggression: 1
+    sniper: 50
+    spotter: 1
+    canSurrender: true  
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE			
+mapScripts:
+  - type: SYNEDRIONMAINBASE
+    commands:
+    - type: addCraft
+      groups: 1	  	  
+      terrain: globeTerrain
+    - type: addUFO
+      UFOName: STR_FACTION_OUTPOST
+      executions: 4
+      groups: 1		  
+      terrain: globeTerrain	
+    - type: addUFO
+      UFOName: STR_FACTION_ADMIN
+      executions: 3
+      groups: 1		  
+      terrain: globeTerrain	  	
+    - type: addUFO
+      UFOName: STR_FACTION_STORAGE
+      executions: 1
+      groups: 1		  
+      terrain: globeTerrain		  
+    - type: addUFO
+      UFOName: STR_FACTION_BARRACK
+      executions: 2
+      groups: 1		  
+      terrain: globeTerrain	 	    
+    - type: fillArea
+      terrain: globeTerrain	
+alienMissions:
+  - type: STR_SYNEDRIONBASEASSAULT_DRX
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_SYNEDRIONBASEADMINDEFENSE: 100
+    waves:
+      - ufo: STR_SYNEDRIONBASEASSAULT_DRX_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: syndmission3
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_SYNEDRIONBASEASSAULT_DRX: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    varName: synbasecam
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_SYNEDRIONAGENT: true
+      STR_MISSION3END: false  
+    facilityTriggers:
+      STR_MERCFACILITY: true

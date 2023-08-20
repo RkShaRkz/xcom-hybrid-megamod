@@ -1,0 +1,206 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DAVID_VINCENT: "Fugitive Scientist"
+      STR_DAVID_VINCENT_HOUSE: "Capture Fugitive Scientist"
+      STR_ALERT_DAVID_VINCENT_HOUSE: "Capture Fugitive Scientist"
+      STR_DAVID_VINCENT_HOUSE_DESCRIPTION: "The Mercenary guild has got the scoop that a wanted fugitive scientist has been found. He has been wanted by a few big factions. Capture him, you shall be well rewarded."
+      STR_DAVID_VINCENT_HOUSE_BRIEFING: "We managed to find David Vincent, a fugitive scientist hiding from a lot of Bounty Hunters funding him. Apparently, he learned something very important regarding the plans of some factions and that is why he's hunted. We must save him and find out what he has learned. Be careful, as we expect to encounter hostile forces in the area. We will not be able to retreat from this mission."
+alienDeployments:
+  - type: STR_DAVID_VINCENT_HOUSE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL  
+    width: 50
+    length: 50
+    height: 16
+    alert: STR_ALERT_DAVID_VINCENT_HOUSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DAVID_VINCENT_HOUSE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR 
+      palette: 2 
+      music: GMENBASE 
+      showTarget: false
+      desc: STR_DAVID_VINCENT_HOUSE_BRIEFING
+    markerName: STR_DAVID_VINCENT_HOUSE
+    duration: [25, 10000000000000]
+    unlockedResearch: STR_DAVID_VINCENT_DONE		
+    despawnPenalty: 50
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1
+    customUfo: STR_VINCENTHOUSE
+    data:
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 5
+        dQty: 1
+        extraQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []	
+ufos:
+  - type: STR_VINCENTHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: RECRUITHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10			
+          items:
+          STR_SPAWN_DAVID_VINCENT:
+            - [4, 3, 0]
+          fuseTimers:
+          STR_SPAWN_DAVID_VINCENT: [0, 0]
+items:
+  - type: STR_SPAWN_DAVID_VINCENT
+    spawnUnit: DAVID_VINCENT
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+  - type: DAVID_VINCENT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 154000				 
+units:
+  - type: DAVID_VINCENT
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_TECHNICIAN_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    deathSound: [44, 45, 46]		  
+mapScripts:			
+  - type: GENERALSPAWNXP1
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,1]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1
+      - type: decoration
+        size: [1,1,1]
+        terrain: STR_IINEWSCREW
+        maxRepeats: 1 	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	
+alienMissions:
+  - type: STR_DAVID_VINCENT_HOUSE
+    despawnEvenIfTargeted: false
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIB: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: davidVincentHouse
+    firstMonth: 0
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_DAVID_VINCENT_HOUSE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    maxRuns: 1
+    varName: scientist_house
+    researchTriggers:
+      STR_DAVID_VINCENT_DONE: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_HQ: true
+research:			
+  - name: STR_DAVID_VINCENT_DONE
+    ##requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 50
+    needItem: true 

@@ -1,0 +1,160 @@
+# Note: It's not a coincidence that the last names mirror the male names, traditionally "last" names in ethiopia are the father or grandfather's first name.
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - MGS Abebe
+  - MGS Adamu
+  - MGS Ahadu
+  - MGS Alem
+  - MGS Alemu
+  - MGS Alem Neh
+  - MGS Amara
+  - MGS Amare
+  - MGS Assefa
+  - MGS Asnake
+  - MGS Bekele
+  - MGS Berhanu
+  - MGS Berihun
+  - MGS Bogale
+  - MGS Brehan
+  - MGS Brehanu
+  - MGS Dabir
+  - MGS Dahnay
+  - MGS Daniachew
+  - MGS Dawit
+  - MGS Demeke
+  - MGS Demissie
+  - MGS Desta
+  - MGS Gebra Hana
+  - MGS Gebre Kiristos
+  - MGS Gere Mariam
+  - MGS Geriel
+  - MGS Getachew
+  - MGS Geteye
+  - MGS Girma
+  - MGS Hagos
+  - MGS Hakim
+  - MGS Iskinder
+  - MGS Kaleb
+  - MGS Kebede
+  - MGS Kelile
+  - MGS Lake
+  - MGS Lebna
+  - MGS Lemma
+  - MGS Li'ol
+  - MGS Mebrete
+  - MGS Mebreatu
+  - MGS Mechela
+  - MGS Melku
+  - MGS Mulu Alem
+  - MGS Negasi
+  - MGS Nigus
+  - MGS Tesfa
+  - MGS Tesfaye
+  - MGS Wendimu
+  - MGS Werkneh
+  - MGS Yonas
+femaleFirst:
+  - MGS Aamina
+  - MGS Abeba
+  - MGS Abebech
+  - MGS Abrihet
+  - MGS Adina
+  - MGS Afework
+  - MGS Afeworki
+  - MGS Aisha
+  - MGS Alem Nesh
+  - MGS Amira
+  - MGS Asnaku
+  - MGS Aster
+  - MGS Ayana
+  - MGS Berta
+  - MGS Bogalech
+  - MGS Brehane
+  - MGS Brihan
+  - MGS Dahnay
+  - MGS Demeku
+  - MGS Desta
+  - MGS Edom
+  - MGS Eldana
+  - MGS Eleni
+  - MGS Elhanan
+  - MGS Elsa
+  - MGS Gabra
+  - MGS Genet
+  - MGS Hagos
+  - MGS Helen
+  - MGS Kassa
+  - MGS Kebedech
+  - MGS Lakech
+  - MGS Lielit
+  - MGS Makeda
+  - MGS Martha
+  - MGS Melke
+  - MGS Meseret
+  - MGS Mihret
+  - MGS Mulu Ken
+  - MGS Nigest
+  - MGS Rahel
+  - MGS Samrawit
+  - MGS Sara
+  - MGS Tenagne
+  - MGS Werknesh
+  - MGS Yenee
+  - MGS Zema
+maleLast:
+  - Abebe
+  - Adamu
+  - Ahadu
+  - Alem
+  - Alemu
+  - Alem Neh
+  - Amara
+  - Amare
+  - Assefa
+  - Asnake
+  - Bekele
+  - Berhanu
+  - Berihun
+  - Bogale
+  - Brehan
+  - Brehanu
+  - Dabir
+  - Dahnay
+  - Daniachew
+  - Dawit
+  - Demeke
+  - Demissie
+  - Desta
+  - Gebra Hana
+  - Gebre Kiristos
+  - Gere Mariam
+  - Geriel
+  - Getachew
+  - Geteye
+  - Girma
+  - Hagos
+  - Hakim
+  - Iskinder
+  - Kaleb
+  - Kebede
+  - Kelile
+  - Lake
+  - Lebna
+  - Lemma
+  - Li'ol
+  - Mebrete
+  - Mebreatu
+  - Mechela
+  - Melku
+  - Mulu Alem
+  - Negasi
+  - Nigus
+  - Tesfa
+  - Tesfaye
+  - Wendimu
+  - Werkneh
+  - Yonas

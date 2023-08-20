@@ -1,0 +1,131 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_LOC_HT_HOUSE: Hostile Faction Outpost
+      STR_MARKER_HT_HOUSE: Hostile Faction Outpost
+      STR_ALERT_HT_HOUSE: Hostile Faction Outpost
+      STR_LOC_HT_HOUSE_BRIEFING: "Words from The Mercenary guild that some Hostile Faction set up shop nearby. Its presence has intrude into the territory of a paying customer. Eliminate it and you get pay."  
+alienDeployments:
+  - type: STR_LOC_HT_HOUSE
+    alert: STR_ALERT_HT_HOUSE
+    alertBackground: BACK04.SCR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertDescription: STR_LOC_HT_HOUSE_BRIEFING
+    script: FACTIONOUTPOST
+    briefing:
+      palette: 6
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_HT_HOUSE
+      desc: STR_LOC_HT_HOUSE_BRIEFING
+    markerName: STR_MARKER_HT_HOUSE
+    music:
+      - GMTACTIC	
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_FACTION_OUTPOST
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_HT_HOUSE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_LOC_HT_HOUSE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:	  
+  - type: FACTIONOUTPOST
+    commands:
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addUFO
+      UFOName: STR_FACTION_OUTPOST
+      executions: 1	  
+      groups: 1		  
+      terrain: globeTerrain  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain 		
+missionScripts:
+  - type: watchTowerLate
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_HT_HOUSE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 8
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+ufos:
+  - type: STR_FACTION_OUTPOST
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: OUTPOST
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: OUTPOST
+          width: 10
+          length: 10

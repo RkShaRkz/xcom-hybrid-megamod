@@ -1,0 +1,108 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_APPREHENSION_ZSRR_BRIEFING: "The Mercenary guild has intercept information that a hostile faction has recently hired of some new recruits and they are awaiting pick up in a safehouse. Investigate and eliminate."
+      STR_CULT_APPREHENSION_BLACK_LOTUS_BRIEFING: "The Mercenary guild has intercept information that a hostile faction has recently hired of some new recruits and they are awaiting pick up in a safehouse. Investigate and eliminate."	  
+      STR_ALERT_CULT_APPREHENSION: "Hostile faction New Recruits Elimination"	  
+      STR_CULT_APPREHENSION: "Hostile faction New Recruits Elimination"
+      STR_CULT_APPREHENSION_BLACK_LOTUS: "Hostile faction New Recruits Elimination"
+      STR_CULT_APPREHENSION_BLACK_LOTUS_DESCRIPTION: "The Mercenary guild has intercept information that a hostile faction has recently hired of some new recruits and they are awaiting pick up in a safehouse. Investigate and eliminate."
+alienDeployments:
+  - type: STR_CULT_APPREHENSION_BLACK_LOTUS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 40
+    length: 40
+    height: 16
+    alert: STR_ALERT_CULT_APPREHENSION
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_APPREHENSION_BLACK_LOTUS_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_CULT_APPREHENSION_BLACK_LOTUS_BRIEFING 
+    markerName: STR_CULT_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 200
+    music:
+      - GMTACTIC
+    customUfo: STR_SUSPECTHOUSE
+    script: GENERALSPAWNXP1	  
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+ufos:	  
+  - type: STR_SUSPECTHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10			
+alienMissions:
+  - type: STR_CULT_APPREHENSION_BLACK_LOTUS
+    #despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_CULT_APPREHENSION_BLACK_LOTUS
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: CultApprehensionLotus
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_CULT_APPREHENSION_BLACK_LOTUS: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

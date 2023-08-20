@@ -1,0 +1,100 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_GOVT_CAR: "Govt Agent Rescue"
+      STR_MARKER_GOVT_CAR: "Govt Agent Rescue"
+      STR_ALERT_GOVT_CAR: "Govt Agent Rescue"
+      STR_LOC_GOVT_CAR_BRIEFING: "The Merc Guild has a job for you. One of the goverment faction has lost their diplomatic agent in a hostile territory. Their swift rescue would earh you reward from them."    
+alienDeployments:
+  - type: STR_GOVT_CAR
+    alert: STR_ALERT_GOVT_CAR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_GOVT_CAR_BRIEFING
+    briefing:
+      palette: 4
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_GOVT_CAR
+      desc: STR_LOC_GOVT_CAR_BRIEFING
+    markerName: STR_MARKER_GOVT_CAR
+    duration: [20, 50]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_LOSTCARGOVT
+    script: GENERALSPAWN
+    data:
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+ufos:		
+  - type: STR_LOSTCARGOVT
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: LOSTCAR
+      mapDataSets:
+        - BLANKS
+        - XCARS
+      mapBlocks:
+        - name: AUNDERCARPIRATEZ
+          width: 10
+          length: 10
+alienMissions:
+  - type: STR_LOC_GOVT_CAR
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10
+    waves:
+      - ufo: STR_GOVT_CAR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: govtAgentRescue
+    firstMonth: 0
+    #lastMonth: 9
+    missionWeights:
+      0:
+        STR_LOC_GOVT_CAR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

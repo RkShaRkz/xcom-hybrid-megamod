@@ -1,0 +1,241 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_CHURCH_OUTPOST: Sisterhod of Steel Temple Raid
+      STR_LOC_CHURCH_OUTPOST_TEMPERATE: Sisterhod of Steel Temple Raid
+      STR_LOC_CHURCH_OUTPOST_JUNGLE: Sisterhod of Steel Temple Raid
+      STR_LOC_CHURCH_OUTPOST_COLD: Sisterhod of Steel Temple Raid
+      STR_LOC_CHURCH_OUTPOST_DESERT: Sisterhod of Steel Temple Raid
+      STR_MARKER_CHURCH_OUTPOST: Sisterhod of Steel Temple Raid
+      STR_ALERT_CHURCH_OUTPOST: Sisterhod of Steel Temple Raid
+      STR_LOC_CHURCH_OUTPOST_TEMPERATE_BRIEFING: "Words from The Merc Guildthat the Church of the Nine is sponsoring a satelite Temple to encourage the spread of their machine god love. Not every one share the Church of the Nine love of their machine god. Some faction has paid of a bounty for anyone, to get rid of these Cultist and their machine god love. Exterminate them all."
+alienDeployments:
+  - type: STR_CHURCH_OUTPOST
+    alert: STR_ALERT_CHURCH_OUTPOST
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertDescription: STR_LOC_CHURCH_OUTPOST_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    customUfo: STR_CHURCHMAINBASESATPIRATEZ
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 6
+      music: GMTACDRY    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_CHURCH_OUTPOST   
+      desc: STR_LOC_CHURCH_OUTPOST_TEMPERATE_BRIEFING
+    markerName: STR_MARKER_CHURCH_OUTPOST
+    mapScripts: [MISSIONAPOCTEMPLEASSAULT, GENERICSPAWNTEMPLEOUTPOST]	
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    data:
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_CHURCH_OUTPOST
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_CHURCH_INDUSTRIAL: 20			  
+          STR_CHURCH_NONCOM: 20	
+          STR_CHURCHPIRATE: 20	
+          STR_CHURCH_TERROR: 20	
+          STR_CHURCH_MANSION: 20	
+    waves:
+      - ufo: STR_CHURCH_OUTPOST
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true 
+mapScripts:	
+  - type: GENERICSPAWNTEMPLEOUTPOST
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1	   
+    - type: addCraft
+      groups: 1	
+      terrain: globeTerrain	  
+    - type: addBlock
+      executions: 2	
+      size: 2	  
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain  
+  - type: MISSIONAPOCTEMPLEASSAULT
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		  
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+      terrain: URBANROADSNEW	
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+      terrain: URBANROADSNEW		
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]	
+      terrain: URBANROADSNEW	
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1			
+    - type: addBlock
+      terrain: URBAN
+      executions: 8
+      executionChances: 100		  
+    - type: fillArea
+      randomTerrain: [SLUMURBAN,URBAN,COMRCURBAN1X]	
+ufos:	  
+  - type: STR_CHURCHMAINBASESATPIRATEZ
+    size: STR_MEDIUM_UC	  
+    battlescapeTerrainData:
+      name: DRAKKAR
+      mapDataSets:
+        - BLANKS
+        - CULTAN
+        - CULTBITS
+        - EASTER
+        - BATHBITZ_HT
+        - LIFTER
+        - XBASEN_BEDS
+        - FLOORSET
+        - DOORS2	 
+        - ROADS	  
+      mapBlocks:
+        - name: CSHOUSE_SMALL
+          width: 10
+          length: 10 
+missionScripts:
+  - type: churchOutpost
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_CHURCH_OUTPOST: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000	
+    facilityTriggers:
+      STR_MERCFACILITY: true 

@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - MGS Alain
+  - MGS Alban
+  - MGS Armand
+  - MGS Benoit
+  - MGS Bruno
+  - MGS Calvin
+  - MGS Christian
+  - MGS Claude
+  - MGS Corentin
+  - MGS Damien
+  - MGS Denis
+  - MGS Emile
+  - MGS Etienne
+  - MGS Ethan
+  - MGS Fabien
+  - MGS Francis
+  - MGS Frederic
+  - MGS Gaston
+  - MGS Gerard
+  - MGS Guillaume
+  - MGS Henri
+  - MGS Hugo
+  - MGS Jacques
+  - MGS Jean
+  - MGS Jules
+  - MGS Leon
+  - MGS Lionel
+  - MGS Louis
+  - MGS Lucas
+  - MGS Mathis
+  - MGS Marc
+  - MGS Marcel
+  - MGS Michel
+  - MGS Nathan
+  - MGS Nicolas
+  - MGS Olivier
+  - MGS Pascal
+  - MGS Paul
+  - MGS Pierre
+  - MGS Philippe
+  - MGS Quentin
+  - MGS Raphael
+  - MGS Remi
+  - MGS Rene
+  - MGS Robert
+  - MGS Roger
+  - MGS Sebastien
+  - MGS Simon
+  - MGS Sylvain
+  - MGS Thibault
+  - MGS Victor
+  - MGS Vincent
+  - MGS Yves
+femaleFirst:
+  - MGS Anne
+  - MGS Audrey
+  - MGS Brigitte
+  - MGS Camille
+  - MGS Catherine
+  - MGS Chantal
+  - MGS Claire
+  - MGS Clara
+  - MGS Cloe
+  - MGS Danielle
+  - MGS Dominique
+  - MGS Elisabeth
+  - MGS Eva
+  - MGS Florence
+  - MGS Francoise
+  - MGS Gaelle
+  - MGS Geraldine
+  - MGS Helene
+  - MGS Isabelle
+  - MGS Ludivine
+  - MGS Lydia
+  - MGS Jacqueline
+  - MGS Jeanne
+  - MGS Julie
+  - MGS Laure
+  - MGS Lina
+  - MGS Lilou
+  - MGS Maelys
+  - MGS Marie
+  - MGS Marion
+  - MGS Marguerite
+  - MGS Maud
+  - MGS Murielle
+  - MGS Nathalie
+  - MGS Odile
+  - MGS Rachel
+  - MGS Rose
+  - MGS Sabine
+  - MGS Sandrine
+  - MGS Stephanie
+  - MGS Sonia
+  - MGS Sylvie
+  - MGS Valerie
+  - MGS Veronique
+  - MGS Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

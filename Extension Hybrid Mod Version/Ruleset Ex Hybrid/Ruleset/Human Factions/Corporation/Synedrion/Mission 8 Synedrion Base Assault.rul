@@ -1,0 +1,728 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_CORPSE_GRAVBALL: "Corpse"
+      STR_LOC_GDX_DUEL: "Final Duel"
+      STR_SYNXDEFENSE: "Dr X forces"		
+      STR_DRX: "Gudrun Xioxin"	
+      STR_LOC_GDX_PRISON_UPPER: "Syn Mission 8: X Final Retreat"	
+      STR_MARKER_GDX_PRISON: X Final Retreat
+      STR_ALERT_GDX_PRISON: X Final Retreat
+      STR_LOC_GDX_PRISON: "Syn Mission 8: X Final Retreat Part 2"
+      STR_LOC_GDX_PRISON_BRIEFING: "The Assault on the Forth Reich base did yeild the final clue of where X is, in her old Laboratory to where the Madam was once held. The Madam could'nt believe of her own short sightness for missing this important clue. Anyway, this Synedrion base is where Dr X absolutely is. It is most definately she's hole up in the Base's basement."  
+      STR_LOC_GDX_PRISON2_BRIEFING: "This is where Dr X's final hiding place is. This basement facility is where she conduct all of her vile experiments and also serve as her main living quarters. It is heavily defended by Synedrion and Mercenary security. Wipe them out."  
+      STR_LOC_GDX_DUEL_BRIEFING: "X wasn't in her basement, but in another level below of the basement. She has demanded that we send our greatest champions to fight her. Just kill her and get on with it. We just want the reward."  	  
+alienDeployments:
+  - type: STR_LOC_GDX_PRISON_UPPER
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_GDX_PRISON
+    alertBackground: BACK01.SCR
+    alertDescription: STR_LOC_GDX_PRISON_BRIEFING	
+    briefing:
+      palette: 3
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_GDX_PRISON
+      desc: STR_LOC_GDX_PRISON_BRIEFING
+    markerName: STR_MARKER_GDX_PRISON
+    duration: [25, 10000000000000]
+    despawnPenalty: 0
+    width: 70
+    length: 70
+    height: 10
+    script: ACADEMY_MAINBASE
+    nextStage: STR_LOC_GDX_PRISON
+    data: &LoadoutAcademyTown
+      - alienRank: 9
+        lowQty: 5
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+      - alienRank: 4
+        lowQty: 4
+        highQty: 4
+        dQty: 4
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+  - type: STR_LOC_GDX_PRISON
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE   
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_GDX_PRISON
+    briefing:
+      palette: 3
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_GDX_PRISON
+      desc: STR_LOC_GDX_PRISON2_BRIEFING	
+    alertBackground: BACK01.SCR
+    alertDescription: STR_LOC_GDX_PRISON_BRIEFING
+    randomRace: [STR_SYNXDEFENSE,STR_SYNXDEFENSE]		
+    music:
+      - GMTACTIC 
+    briefing:
+      palette: 3
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_GDX_PRISON
+      desc: STR_LOC_GDX_PRISON_BRIEFING
+    markerName: STR_MARKER_GDX_PRISON
+    duration: [25, 10000000000000]
+    nextStage: STR_LOC_GDX_DUEL	
+    width: 40
+    length: 40
+    height: 17
+    shade: 13
+    terrains:
+      - GDX_PRISON  
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []			
+      - alienRank: 7
+        lowQty: 4
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []			
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+  - type: STR_LOC_GDX_DUEL
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE   
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_GDX_PRISON
+    briefing:
+      palette: 4
+      music: GMTACDRY    
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_GDX_DUEL
+      desc: STR_LOC_GDX_DUEL_BRIEFING
+    alertBackground: BACK01.SCR
+    alertDescription: STR_LOC_GDX_PRISON_BRIEFING
+    unlockedResearch: STR_LOC_GDX_PRISON_DONE	
+    randomRace: [STR_DRX,STR_DRX]		
+    music:
+      - GMTACTIC 
+    briefing:
+      palette: 3
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_GDX_PRISON
+      desc: STR_LOC_GDX_PRISON_BRIEFING
+    markerName: STR_MARKER_GDX_PRISON
+    duration: [25, 10000000000000]
+    nextStage: STR_LOC_GDX_DUEL	
+    width: 40
+    length: 40
+    height: 17
+    shade: 13
+    terrains:
+      - GDX_DUEL	  
+    data:	
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		 
+armors:
+  - type: GDX_ARMOR_GRAVBALL
+    spriteSheet: GDX_01.PCK
+    spriteInv: inventory_BLANK 
+    corpseBattle:
+      - STR_CORPSE_GRAVBALL
+    movementType: 1
+    visibilityAtDark: 16
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.35
+      psiStrength: 0.2
+    meleeDodgeBackPenalty: 0.0
+    recovery:
+      stun:
+        healthCurrent: 0.175
+        health: -0.1
+        stunCurrent: 0.09
+    damageModifier:
+      - 1.35
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.65
+      - 1.0
+      - 4.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.25
+      - 1.1
+      - 1.0
+      - 0.9
+      - 0.8
+      - 2.0
+    loftempsSet: [ 2 ]			
+alienRaces:			
+  - id: STR_SYNXDEFENSE
+    members:
+      - STR_ACADEMY_COUNSELLOR
+      - STR_ACADEMY_EXPLORER
+      - STR_ACADEMY_EXPLORER
+      - STR_ACADEMY_STUDENT
+      - STR_ACADEMY_STUDENT
+      - STR_ACADEMY_STUDENT	  
+      - STR_ACADEMY_THRALL
+      - STR_ACADEMY_THRALL
+      - STR_ACADEMY_THRALL 
+      - STR_ACADEMY_THRALL   
+  - id: STR_SYNXDEFENSE_UNDERWATER	
+    members:
+      - STR_ACADEMY_COUNSELLOR
+      - STR_ACADEMY_EXPLORER
+      - STR_ACADEMY_EXPLORER
+      - STR_ACADEMY_STUDENT
+      - STR_ACADEMY_STUDENT
+      - STR_ACADEMY_STUDENT	  
+      - STR_ACADEMY_THRALL
+      - STR_ACADEMY_THRALL
+      - STR_ACADEMY_THRALL 
+      - STR_ACADEMY_THRALL		
+  - id: STR_DRX
+    members:
+      - STR_DRX     
+  - id: STR_DRX_UNDERWATER	
+    members:
+      - STR_DRX 		  
+alienMissions:
+  - type: STR_LOC_GDX_PRISON
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIXED_KKK: 100
+    waves:
+      - ufo: STR_LOC_GDX_PRISON_UPPER
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+research:
+  - name: STR_MISSION8END 
+    points: 25
+    needItem: true	
+units:
+  - type: STR_DRX
+    race: STR_ACADEMY
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 110
+      bravery: 90
+      reactions: 80
+      firing: 90
+      throwing: 90
+      strength: 40
+      psiStrength: 85
+      psiSkill: 0
+      melee: 125
+      mana: 100
+    armor: GDX_ARMOR_GRAVBALL
+    standHeight: 21
+    kneelHeight: 14
+    value: 50
+    deathSound: [41, 42, 43]
+    energyRecovery: 42
+    intelligence: 9
+    aggression: 7
+    canSurrender: true	
+    builtInWeaponSets:
+      - - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_AC_HE_AMMO
+        - STR_AC_HE_AMMO	
+items:
+  - type: STR_CORPSE_GRAVBALL
+    name: STR_CORPSE
+    weight: 45
+    bigSprite: 2156
+    floorSprite: 2156
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 9
+  - type: STR_DRX
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 405000		
+  - type: STR_SYNCOMANDER_SPAWNER
+    spawnUnit: STR_SPARTAN_CAPTAIN
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_SYNTHRALL_SPAWNER
+    spawnUnit: STR_ACADEMY_THRALL
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+  - type: STR_SYNSOLDIER_SPAWNER
+    spawnUnit: STR_SPARTAN_RIFLEMAN
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+terrains:	
+  - name: SYNEDRIONENTRY	
+    mapDataSets:
+      - BLANKS
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - MOON
+      - ORGANIC2		
+    mapBlocks:
+      - name: SYNENTRY
+        width: 10
+        length: 10
+ufos:
+  - type: STR_FACTION_ADMIN
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: ADMIN
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: SYNADMIN
+          width: 10
+          length: 10
+  - type: STR_FACTION_STORAGE
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: STORAGE
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: SYNSTORAGE
+          width: 10
+          length: 10
+  - type: STR_FACTION_BARRACK
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: BARRACK
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: SYNBARRACK
+          width: 10
+          length: 10
+          items:
+            STR_SYNCOMANDER_SPAWNER:
+              - [4, 6, 1] 
+              - [4, 3, 1] 		
+            STR_SYNSOLDIER_SPAWNER:	
+              - [5, 5, 2] 				
+              - [5, 3, 2] 
+              - [4, 3, 2] 
+              - [3, 3, 0] 			
+            STR_SYNTHRALL_SPAWNER:   
+              - [6, 2, 0]
+              - [6, 4, 0]  
+              - [6, 6, 0]  
+          fuseTimers:
+            STR_SYNCOMANDER_SPAWNER: [0, 0]
+            STR_SYNSOLDIER_SPAWNER: [0, 0]
+            STR_SYNTHRALL_SPAWNER: [0, 0]
+mapScripts:
+  - type: ACADEMY_MAINBASE
+    commands:
+    - type: resize
+      size: [8, 8, 18]		
+    - type: addCraft
+      groups: 1	  	  
+      terrain: globeTerrain
+    - type: addBlock
+      size: [1,1,2]
+      executions: 1 
+      executionChances: 100 	  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [1,1,2]
+        terrain: SYNEDRIONENTRY	  
+    - type: addUFO
+      UFOName: STR_FACTION_ADMIN
+      executions: 1
+      groups: 1		  
+      terrain: globeTerrain	  	
+    - type: addUFO
+      UFOName: STR_FACTION_STORAGE
+      executions: 1
+      groups: 1		  
+      terrain: globeTerrain	
+    - type: addUFO
+      UFOName: STR_FACTION_BARRACK
+      executions: 2
+      groups: 1		  
+      terrain: globeTerrain	 	  
+    - type: addUFO
+      UFOName: STR_LOC_ACADEMY_OUTPOSTTOWN
+      executions: 1 
+      groups: 1		  
+      terrain: globeTerrain  
+    - type: addUFO
+      UFOName: STR_FACTION_OUTPOST
+      executions: 2
+      groups: 1		  
+      terrain: globeTerrain	  
+    - type: addBlock
+      size: [1,1,2]
+      executions: 3
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain 
+        groups: 1      	
+      - type: middle
+        size: [1, 1, 2]
+        terrain: TURRETBASECOUNTRY		  			
+    - type: fillArea
+      terrain: globeTerrain				
+missionScripts:
+  - type: gdxPrisonMission
+    missionWeights:
+      0:
+        STR_LOC_GDX_PRISON: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    varName: synbaseassasfinal
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_GENERALKOL: true
+      STR_LOC_GDX_PRISON_DONE: false  		
+      STR_MISSION7END: true		  
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_PUBSANDBROTHEL: true

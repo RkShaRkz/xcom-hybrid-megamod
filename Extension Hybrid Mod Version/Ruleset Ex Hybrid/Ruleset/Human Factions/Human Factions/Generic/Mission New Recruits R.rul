@@ -1,0 +1,148 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_NEWRECRUITS: New Recruits Elimination
+      STR_MARKER_PREPPERS: New Recruits Elimination
+      STR_ALERT_PREPPERS: New Recruits Elimination
+      STR_LOC_PREPPERS_BRIEFING: "Some big faction has recently recruited a bunch of new recruits. Now the are waiting for pick up at a safehouse nearby before commencing with their faction. The Mercenary guild wants them eliminated."   
+alienDeployments:
+  - type: STR_NEWRECRUITS
+    alert: STR_ALERT_PREPPERS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_PREPPERS_BRIEFING
+    briefing:
+      palette: 1
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_PREPPERS
+      desc: STR_LOC_PREPPERS_BRIEFING
+    markerName: STR_MARKER_PREPPERS
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 12
+    music:
+      - GMTACTIC	
+    customUfo: STR_RECRUITHOUSE
+    data:
+      - alienRank: 5
+        lowQty: 0
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 6
+        highQty: 16
+        dQty: 6
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_PREPPERS
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:		  
+      - ufo: STR_NEWRECRUITS
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+ufos:
+  - type: STR_RECRUITHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: RECRUITHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10						
+missionScripts:
+  - type: prepperBunker
+    firstMonth: 2
+    missionWeights:
+      0:
+        STR_LOC_PREPPERS: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 4
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

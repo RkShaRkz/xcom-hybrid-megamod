@@ -1,0 +1,317 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVAMPIRECASTLE: "Stargate Command Cheyenne Mountain Complex"		
+      STR_VAMPIRE_CASTLE: "Explore new planet"
+      STR_ALERT_VAMPIRE_CASTLE: "Explore new planet"
+      STR_VAMPIRE_CASTLE_BRIEFING: "This is Stargate Command, we have established a solid wormhole connection to a new planet. We need a competant Mercenary unit to check out this new world. If the inhabitant proven to be hostile, you are to use whatever means neccessary to pacify them."
+      STR_VAMPIRE_CASTLE_DESCRIPTION: "This is Stargate Command, we have established a solid wormhole connection to a new planet. We need a competant Mercenary unit to check out this new world. If the inhabitant proven to be hostile, you are to use whatever means neccessary to pacify them."
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVAMPIRECASTLE
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 	
+    duration: [25, 10000000000000]	
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_VAMPIRE_CASTLE	
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_VAMPIRE_CASTLE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    shade: 9
+    alert: STR_ALERT_VAMPIRE_CASTLE
+    alertBackground: BACK01.SCR
+    alertDescription: STR_VAMPIRE_CASTLE_DESCRIPTION
+    unlockedResearch: STR_VAMPIRECASTLECOMPLETE
+    briefing:
+      palette: 2
+      music: GMENBASE
+      showTarget: false
+      background: BACK01.SCR
+    music:
+      - GMTACTIC
+    markerName: STR_VAMPIRE_CASTLE
+    duration: [150, 240]
+    despawnPenalty: 20
+    enviroEffects: STR_LANDARMOURTOLAND
+    script: VAMPCASTLESCRIPT
+    terrains:
+      - VAMPIRE_CASTLE
+    data:
+      - alienRank: 9
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 20
+        highQty: 35
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 11
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 4
+        highQty: 9
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+mapScripts:
+  - type: VAMPCASTLESCRIPT
+    commands:
+    - type: addBlock
+      groups: 6
+      size: 2
+      rects:
+        - [0,0,2,2]
+      executions: 1
+    - type: addBlock
+      groups: 6
+      size: 2
+      rects:
+        - [2,0,2,2]
+      executions: 1
+    - type: addBlock
+      groups: 6
+      size: 2
+      rects:
+        - [4,0,2,2]
+      executions: 1
+    - type: addBlock
+      groups: 4
+      size: 3
+      rects:
+        - [0,2,3,3]
+      executions: 1
+    - type: addBlock
+      groups: 5
+      size: 3
+      rects:
+        - [3,2,3,3]
+      executions: 1
+    - type: addBlock
+      groups: 20
+      size: 1
+      rects:
+        - [3,5,1,1]
+      executions: 1
+      terrain: VAMPIRE_ENTRY
+    - type: fillArea
+      groups: 1
+terrains:	  
+  - name: VAMPIRE_CASTLE
+    mapDataSets:
+        - BLANKS
+        - CAVEBLACK
+        - CATACOMB
+        - CATACDECOR
+        - LAVA_GREEN
+        - DUNGEON
+        - StargateX		
+    mapBlocks:
+      - name: VAMPCASTLE_01
+        width: 30
+        length: 30
+        groups: [4]
+      - name: VAMPCASTLE_02
+        width: 30
+        length: 30
+        groups: [5]
+      - name: VAMPCASTLE_03
+        width: 30
+        length: 30
+        groups: [5]
+      - name: VAMPCASTLE_04
+        width: 30
+        length: 30
+        groups: [5]
+      - name: VAMPCASTLE_11
+        width: 20
+        length: 20
+        groups: [6]
+      - name: VAMPCASTLE_12
+        width: 20
+        length: 20
+        groups: [6]
+      - name: VAMPCASTLE_13
+        width: 20
+        length: 20
+        groups: [6]
+      - name: VAMPCASTLE_14
+        width: 20
+        length: 20
+        groups: [6]
+      - name: VAMPCASTLE_21
+        width: 10
+        length: 10
+        groups: [1]
+      - name: VAMPCASTLE_22
+        width: 10
+        length: 10
+        groups: [1]
+      - name: VAMPCASTLE_23
+        width: 10
+        length: 10
+        groups: [1]
+      - name: VAMPCASTLE_24
+        width: 10
+        length: 10
+        groups: [1]
+      - name: VAMPCASTLE_31
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: VAMPCASTLE_32
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: VAMPCASTLE_33
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: VAMPCASTLE_34
+        width: 10
+        length: 10
+        groups: [0]
+      - name: VAMPCASTLE_35
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: VAMPCASTLE_36
+        width: 10
+        length: 10
+        groups: [1]	
+  - name: VAMPIRE_ENTRY
+    mapDataSets:
+        - BLANKS
+        - StargateX		
+        - CAVEBLACK
+        - CATACOMB
+        - CATACDECOR
+        - LAVA
+        - DUNGEON
+    mapBlocks:		
+      - name: VAMPCASTLEENTRY
+        width: 10
+        length: 10
+        groups: 20		
+alienMissions:
+  - type: STR_VAMPIRE_CASTLE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_NIGHTMARE: 100
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGVAMPIRECASTLE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+research:		
+  - name: STR_VAMPIRECASTLECOMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+missionScripts:
+  - type: vampireCastle
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_VAMPIRE_CASTLE: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: vamcas
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_STARGATE: true
+      STR_VAMPIRECASTLECOMPLETE: false
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

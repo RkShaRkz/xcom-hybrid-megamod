@@ -1,0 +1,149 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_SNAKEBOAT: Dominator  
+      STR_VESSEL_SNAKEBOAT_UFOPEDIA: "The Dominator UFOs are more like a miniture mothership, design as a mobile resupply base for other ufos. However, it is heavily armed and dangerous, not just because of its size."
+ufopaedia:
+  - id: STR_VESSEL_SNAKEBOAT
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_SNAKEBOAT
+    text: STR_VESSEL_SNAKEBOAT_UFOPEDIA
+research:
+  - name: STR_VESSEL_SNAKEBOAT
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_SNAKEBOAT
+ufos:
+  - type: STR_VESSEL_SNAKEBOAT
+    size: STR_VERY_LARGE
+    modSprite: InterceptionSnakeboat
+    hitBonus: 15
+    fireSound: 43
+    damageMax: 3250
+    speedMax: 2500
+    accel: 6
+    range: 55
+    power: 135
+    reload: 31
+    score: 1600
+    armor: 10
+    radarRange: 150
+    hunterKillerPercentage: 0
+    huntBehavior: 2
+    breakOffTime: 2500
+    battlescapeTerrainData:
+      name: VES_SNAKEBOAT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83
+        - U_DISEC2
+        - U_OPER2
+      mapBlocks:
+        - name: VES_SNAKEBOAT
+          width: 40
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_SNAKEBOAT
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_SNAKEBOAT 
+    width: 60
+    length: 60
+    height: 19
+    data: &SECTION_DEPLOYMENT_SNAKEMAN_RAID
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 20
+        highQty: 32
+        dQty: 12
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_SNAKEBOAT_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_SNAKEBOAT
+    depth: [1, 1]		
+    width: 60
+    length: 60
+    height: 19
+    data: &SECTION_DEPLOYMENT_SNAKEMAN_RAID
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 20
+        highQty: 32
+        dQty: 12
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

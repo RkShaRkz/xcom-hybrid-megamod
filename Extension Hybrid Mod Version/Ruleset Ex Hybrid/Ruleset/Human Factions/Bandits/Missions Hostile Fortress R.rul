@@ -1,0 +1,180 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_BANDITFORTRESSRAID: "Fortress Raid"	
+      STR_MISSION_LOC_KEEP: "Fortress Raid"	 
+      STR_LOC_KEEP_BRIEFING: "The Merc Guild has receive word that a govt faction has posted a job in regards of a bandit or Raider faction having a fort in their newly conquered territory. The govt faction wanted that fortress to be neutralised. We get to keep the loot and get paid for the job." 	  
+alienDeployments:
+  - type: STR_BANDITFORTRESSRAID
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    #startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDARMOURTOLAND	
+    briefing:
+      palette: 6
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_KEEP
+      desc: STR_LOC_KEEP_BRIEFING
+    script: LOCSCRIPTS
+    customUfo: STR_BANDITFORTRESSPIRATE	
+    width: 50
+    length: 50
+    height: 7
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_MISSION_LOC_KEEP
+      desc: STR_LOC_DARK_ONES_BRIEFING
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 5
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+alienMissions:
+  - type: STR_MISSION_LOC_KEEP
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10		  
+    waves:
+      - ufo: BANDITFORTRESSRAID
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true
+ufos:		
+  - type: STR_BANDITFORTRESSPIRATE
+    battlescapeTerrainData:
+      name: D_KEEP
+      mapDataSets:
+        - BLANKS
+        - JUNGLE
+        - BARN_JUNK
+        - FRNITURE
+        - URBITS_JUNK
+        - CULTIVAT
+        - CUNTTRYROAD_LT
+      mapBlocks:
+        - name: URBANJUNK24M
+          width: 20
+          length: 20
+missionScripts:
+  - type: DoomKeep
+    missionWeights:
+      0:
+        STR_MISSION_LOC_KEEP: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,506 @@
+armors:
+  - type: STR_POWER_SUIT_UC_UNDERWATER
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_2
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    frontArmor: 100
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 0.7 #NormalBullets
+      - 0.0 #Fire
+      - 0.8 #HE
+      - 0.8 #Laser
+      - 0.9 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 0.9 #Electric
+      - 0.9 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+    drawBubbles: true	
+  - type: STR_FLYING_SUIT_UC_UNDERWATER
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_3
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
+    movementType: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 0.0 #Fire
+      - 0.7 #HE
+      - 0.7 #Laser
+      - 0.9 #Plasma
+      - 0.8 #Stunt
+      - 0.9 #Melee 
+      - 0.9 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 0.9 #Electric
+      - 0.9 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+    drawBubbles: true	
+  - type: SECTOID_ARMOR0_UNDERWATER
+    spriteSheet: SECTOIDUNDERWATER.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    drawBubbles: true	
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.1 #GaussAP
+      - 0.0 #Electric
+      - 1.4 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 2 ]
+  - type: FLOATER_ARMOR0_UNDERWATER
+    spriteSheet: FLOATERUNDERWATER.PCK
+    corpseBattle:
+      - STR_FLOATER_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    drawingRoutine: 1
+    movementType: 1
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.95 #Fire
+      - 0.95 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.2 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: FLOATER_ARMOR1_UNDERWATER
+    spriteSheet: FLOATERUNDERWATER.PCK
+    corpseBattle:
+      - STR_FLOATER_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 8
+    underArmor: 12
+    drawingRoutine: 1
+    movementType: 1
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.95 #Fire
+      - 0.95 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.2 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: FLOATER_ARMOR2_UNDERWATER
+    spriteSheet: FLOATERUNDERWATER.PCK
+    corpseBattle:
+      - STR_FLOATER_CORPSE
+    frontArmor: 24
+    sideArmor: 18
+    rearArmor: 12
+    underArmor: 16
+    drawingRoutine: 1
+    movementType: 1
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.95 #Fire
+      - 0.95 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.2 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: SNAKEMAN_ARMOR0_UNDERWATER
+    spriteSheet: SNAKEMANUNDERWATER.PCK
+    corpseBattle:
+      - STR_SNAKEMAN_CORPSE
+    frontArmor: 20
+    sideArmor: 18
+    rearArmor: 16
+    underArmor: 12
+    drawingRoutine: 6
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.25 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: SNAKEMAN_ARMOR1_UNDERWATER
+    spriteSheet: SNAKEMANUNDERWATER.PCK
+    corpseBattle:
+      - STR_SNAKEMAN_CORPSE
+    frontArmor: 20
+    sideArmor: 24
+    rearArmor: 22
+    underArmor: 20
+    drawingRoutine: 6
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.25 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: SNAKEMAN_ARMOR2_UNDERWATER
+    spriteSheet: SNAKEMANUNDERWATER.PCK
+    corpseBattle:
+      - STR_SNAKEMAN_CORPSE
+    frontArmor: 26
+    sideArmor: 26
+    rearArmor: 22
+    underArmor: 20
+    drawingRoutine: 6
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.25 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: MUTON_ARMOR0_UNDERWATER
+    spriteSheet: MUTONUNDERWATER.PCK
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 10
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 0.9 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 0.9 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.1 #Sonic
+      - 1.35 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: MUTON_ARMOR1_UNDERWATER
+    spriteSheet: MUTONUNDERWATER.PCK
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 24
+    sideArmor: 24
+    rearArmor: 24
+    underArmor: 15
+    drawingRoutine: 10
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 0.9 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 0.9 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.1 #Sonic
+      - 1.35 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: MUTON_ARMOR2_UNDERWATER
+    spriteSheet: MUTONUNDERWATER.PCK
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 28
+    sideArmor: 28
+    rearArmor: 28
+    underArmor: 20
+    drawingRoutine: 10
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 0.9 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 0.9 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.1 #Sonic
+      - 1.35 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: ETHEREAL_ARMOR0_UNDERWATER
+    spriteSheet: ETHEREALUNDERWATER.PCK
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 35
+    movementType: 1
+    drawingRoutine: 4
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.2 #Sonic
+      - 1.1 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: ETHEREAL_ARMOR1_UNDERWATER
+    spriteSheet: ETHEREALUNDERWATER.PCK
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    movementType: 1
+    drawingRoutine: 4
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.2 #Sonic
+      - 1.1 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: ETHEREAL_ARMOR2_UNDERWATER
+    spriteSheet: ETHEREALUNDERWATER.PCK
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 45
+    sideArmor: 45
+    rearArmor: 45
+    underArmor: 45
+    movementType: 1
+    drawingRoutine: 4
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.9 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.2 #Sonic
+      - 1.1 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: CHRYSSALID_ARMOR_UNDERWATER
+    spriteSheet: CHRYS.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_CHRYSSALID_CORPSE
+    frontArmor: 34
+    sideArmor: 34
+    rearArmor: 34
+    underArmor: 34
+    drawingRoutine: 7
+    drawBubbles: true	
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.8 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 0.9 #Stunt
+      - 1.0 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.1 #GaussAP
+      - 0.0 #Electric
+      - 1.2 #BiorganicSpikes
+      - 35.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]

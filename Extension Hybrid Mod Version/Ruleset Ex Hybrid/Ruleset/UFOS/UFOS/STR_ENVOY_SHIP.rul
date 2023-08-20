@@ -1,0 +1,147 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ENVOY_SHIP: "Envoy ship"
+      STR_ENVOY_SHIP_UFOPEDIA: "Envoy Ships are extremely rare on Earth, it usually carrying higher ranking aliens to their destination. They are not dedicated warships, but should not be underestimated. Since they usually carry valuable aliens on board, we should attempt to seize them at all costs."
+ufopaedia:
+  - id: STR_ENVOY_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_ENVOY_SHIP
+    text: STR_ENVOY_SHIP_UFOPEDIA
+    listOrder: 160600
+research:
+  - name: STR_ENVOY_SHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_ENVOY_SHIP
+ufos:
+  - type: STR_ENVOY_SHIP
+    size: STR_SMALL
+    modSprite: InterceptionEnvoyShip
+    damageMax: 500
+    speedMax: 4900
+    armor: 10
+    accel: 9
+    power: 45
+    range: 50
+    score: 500
+    reload: 75
+    breakOffTime: 500
+    hitBonus: 10
+    battlescapeTerrainData:
+      name: UFS_123
+      mapDataSets:
+        - BLANKS
+        - U_EXT02GOLD
+        - U_WALL02GOLD
+        - U_BITSGOLD
+        - UFOL83GOLD
+      mapBlocks:
+        - name: ENVOY1
+          width: 20
+          length: 20
+        - name: ENVOY2
+          width: 20
+          length: 20
+        - name: ENVOY3
+          width: 20
+          length: 20
+  - type: STR_ENVOY_SHIP_UNDERWATER	
+    battlescapeTerrainData:
+      name: UFS_123
+      mapDataSets:
+        - BLANKS
+        - U_EXT02GOLD
+        - U_WALL02GOLD
+        - U_BITSGOLD
+        - UFOL83GOLD
+      mapBlocks:
+        - name: ENVOY1
+          width: 20
+          length: 20		  
+alienDeployments:
+  - type: STR_ENVOY_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_ENVOY_SHIP	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_ENVOY_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_ENVOY_SHIP		
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: ENVOYSHIPEAX	
+mapScripts:	
+  - type: ENVOYSHIPEAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENVOY_SHIP_UNDERWATER	
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain  

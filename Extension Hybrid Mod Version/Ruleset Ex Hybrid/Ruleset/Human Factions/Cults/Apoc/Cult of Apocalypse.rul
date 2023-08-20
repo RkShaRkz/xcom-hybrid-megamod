@@ -1,0 +1,1838 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GANG_CAVEMEN: "Tribals"		
+      STR_GANG_LUCHADORES: "Luchadores"		
+      STR_GANG_TECH_WIZARDS: "Cult of Apocalypse Scientists"	  
+      STR_GANG_EASY_RIDERS: "Hired Raiders"	  
+      STR_GANG_WESTMEN: "Hired Rogues"		  
+      STR_GANG_STORMIES: "Brainwashed Thugs"	
+      STR_FARMER: "Brainwashed Farmers"	
+      STR_PONTIFF_OF_APOCALYPSE: "Pontiff of Apocalypse"	  
+      STR_CLERIC_OF_APOCALYPSE: "Cleric of Apocalypse"	  
+      STR_BROTHER_OF_APOCALYPSE: "Sister of Apocalypse"
+      STR_PONTIFF_OF_APOCALYPSEID: "Pontiff of Apocalypse ID"	  
+      STR_CLERIC_OF_APOCALYPSEID: "Cleric of Apocalypse ID"	  
+      STR_BROTHER_OF_APOCALYPSEID: "Sister of Apocalypse ID"	
+      STR_BROTHER_OF_APOCALYPSE_UFOPEDIA: "The Sisters of Apocalypse often recruited from among the poorest of nations on Earth. Ill educated, but usually aggressive and passionate, they are turn into fanatical missionaries of chaos and destruction. The only education they knew of now, is their unholy gospel, promoting of salvation one day, when some kind of gate from the heavens open up, while in the days of the Apocalyse that mankind bring on themselves."
+      STR_PONTIFF_OF_APOCALYPSE_UFOPEDIA: "The Pontiffs of the Apocalyse are the original Disciples of the One, the mad scientist turned holy man whom had dream up of this insane cult. These Poniffs now runs the show, while the madman is either dead or disappeared. With mindsets similar to those of an aztec priest, these Pontiffs are sacrificing their way up to appease of the gods from the otherside of this gate. Should it open up one day, the gods would reward them. Until then, they preach, sacrifice and recruit the uneducated."
+      STR_CLERIC_OF_APOCALYPSE_UFOPEDIA: "These Clerics are a different cloth to the mod in the Cult, they are often secretive and whispering from behind the scene, with their computers and tech. Although the Pontiff and Sisters are the front-end that promotes the cult, however, these bunch seemingly is brains behind of the cult, while pulling the strings. Our capture of one reveals that they are working on some kind of gate through some kind of mystic mumbo jumbo that we don't understand. However, usually these Cleric kills of themselves before we find out more. Like they have built in suicide implants, that we can't remove until it is too late."	  
+      STR_CULT_OF_APOCALYPSE: "Cult of Apocalypse"
+      STR_CULT_OF_APOCALYPSE_UFOPEDIA: "The Cult of the Apocalyse is a mad cult tht believes one day, some gate from heaven will opens up and the gods from up there will come down and save humanity, when the eventual apocalypse come. While working on a way to open this mythical gate, they hope to sacrifice their way to appease these gods, when they eventually comes."	 	
+      STR_PINKY_DEVIL_CORPSE: "'Pinky Devil Corpse'"
+      STR_PINKY_DEVIL_CORPSE_UFOPEDIA: "Nicknamed the 'The Pinky Devil', this monstrosity is a creature of creation from a dog, human and extra-dimentional creature DNA. It is the Cult's guard dog, fierocious and dangerous, it is no to be underestimated when encountered. "	
+      STR_PINKY_DEVIL: "'Pinky Devil'"
+      STR_PINKY_DEVIL_UFOPEDIA: "Nicknamed the 'The Pinky Devil', this monstrosity is a creature of creation from a dog, human and extra-dimentional creature DNA. It is the Cult's guard dog, fierocious and dangerous, it is no to be underestimated when encountered. "	
+      STR_LUCHADOR_CORPSE: "Luchador Corpse"	
+      STR_LUCHADOR_CORPSE_UFOPEDIA: "The Cult of Apocalypse's scientist has experimented with the blood of the creatures from beyond of the dimentional portal with those of humans. After tranfusing those blood with the human volunteers, the result of the transformation is coined by these Cultist as The Luchador, a creature with inhuman strength and vitality (and probably sexual prowess too).."		  
+      STR_LUCHADOR: "Luchador"
+      STR_LUCHADOR_UFOPEDIA: "The Cult of Apocalypse's scientist has experimented with the blood of the creatures from beyond of the dimentional portal with those of humans. After tranfusing those blood with the human volunteers, the result of the transformation is coined by these Cultist as The Luchador, a creature with inhuman strength and vitality (and probably sexual prowess too).."	
+      STR_MOTOR_MAN: "Hired Goons"
+      STR_MOTOR_MAN_UFOPEDIA: "The Cult of Apocalypse has hired thugs that they dug from the pits of cities streets for their muscles. These thugs are also brainwashed to be fanatial followers too."
+      STR_TECH_WIZARD: "Cult of Apocalypse Scientist"
+      STR_TECH_WIZARD_UFOPEDIA: "The role of a Cult of Apocalypse Scientist is to conduct experiments that will one day merge a humans with the creatures of those from beyond the portal. So they create a human 2.0. These geneticist are sadistic in their mindset in believing that they could succeed."	  
+      STR_WESTMAN: "Hired Rogues"
+      STR_WESTMEN_UFOPEDIA: "The Cult of Apocalypse has hired rogues that they dug from the pits of outbacks for their muscles. These thugs are also brainwashed to be fanatial followers too."
+      STR_CAVE_GUY: "Brainwashed Tribal Male"
+      STR_CAVE_GUY_UFOPEDIA: "The Cult of Apocalypse has brainwashed tribals from jungle villages for their cause. These thugs are also brainwashed to be fanatial followers too."
+      STR_CAVE_GIRL: "Brainwashed Tribal Female"
+      STR_CAVE_GIRL_UFOPEDIA: "The Cult of Apocalypse has brainwashed tribals from jungle villages for their cause. These thugs are also brainwashed to be fanatial followers too."	  
+      STR_EASY_RIDER: "Hired Raiders"
+      STR_EASY_RIDER_UFOPEDIA: "The Cult of Apocalypse has hired raiders that they dug from the deserts for their muscles. These thugs are also brainwashed to be fanatial followers too."	
+      STR_MALE_STORMY: "Brainwashed Thugs male"
+      STR_MALE_STORMY_UFOPEDIA: "The Cult of Apocalypse has brainwashed Thugs that they dug from the pits of cites for their muscles. These thugs are also brainwashed to be fanatial followers too."	  
+      STR_FEMALE_STORMY: "Brainwashed Thugs female"
+      STR_FEMALE_STORMY_UFOPEDIA: "The Cult of Apocalypse has brainwashed Thugs that they dug from the pits of cites for their muscles. These thugs are also brainwashed to be fanatial followers too."		  
+      STR_OUTPOST_OF_APOCALYPSE: "Outpost of Apocalypse"
+      STR_OUTPOST_OF_APOCALYPSE_TEMPERATE: "Outpost of Apocalypse"
+      STR_OUTPOST_OF_APOCALYPSE_DESERT: "Outpost of Apocalypse"
+      STR_ALERT_OUTPOST_OF_APOCALYPSE: "OUTPOST OF APOCALYPSE FOUND!"
+      STR_OUTPOST_OF_APOCALYPSE_BRIEFING: "We have found a fortified temple of Cult of Apocalypse. We must crush their defenses and take control of the building. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_OUTPOST_OF_APOCALYPSE_DESCRIPTION: "We have found a fortified temple of Cult of Apocalypse. We must crush their defenses and take control of the building."
+      STR_OUTPOST_OF_APOCALYPSE_UFOPEDIA: "Interrogating a Brother of Apocalypse allowed us to determine the potential location of several permanent outposts maintained by this strange cult. We hope to uncover more of their secrets in these places."
+      STR_MYSTERIES_OF_APOCALYPSE: "Mysteries of Apocalypse"
+      STR_MYSTERIES_OF_APOCALYPSE_UFOPEDIA: "Commander, I am sorry, but despite reaching the very top of the Cult of Apocalypse, we haven't found anything special. They simply started gathering one day, spontaneously, without any organization or order. But they still needed money, and somehow they found a very wealthy sponsor. I think they receive financial aid that goes beyond their immediate supporters, but even they are unaware of who might be their mysterious benefactor. Still, this is the only clue I have, so I'll try to think of something."
+      STR_GOALS_OF_APOCALYPSE: "Secret Goals of Apocalypse"
+      STR_GOALS_OF_APOCALYPSE_UFOPEDIA: "Commander, the young lady from the intelligence department complained about a conundrum in her investigation of this Cult of Apocalypse, so I decided to help. I have spent long hours over all sorts of religious, political and entertainment texts produced by the Cult and with some help from language analysis software, I found a hidden message: humanity has fallen into slumber, and the Cult's role is to shake it up. They aim to prepare humanity for future hardships, which are said to come very soon. Alas, we don't know where this information originated from. Perhaps we should find more clues..."
+      STR_CULT_OF_APOCALYPSE_PREQ_CAVEMEN: "Cult of Apocalypse Prerequisite (Cavemen)"
+      STR_CULT_OF_APOCALYPSE_PREQ_WESTMEN: "Cult of Apocalypse Prerequisite (Westmen)"
+      STR_CULT_OF_APOCALYPSE_PREQ_LUCHADORES: "Cult of Apocalypse Prerequisite (Luchadores)"
+      STR_CULT_OF_APOCALYPSE_PREQ_TECH_WIZARDS: "Cult of Apocalypse Prerequisite (Wizkids)"		
+      STR_BROTHER_OF_APOCALYPSE_ARMOR: "Sister of Apocalypse Combat Analysis"
+      STR_CLERIC_OF_APOCALYPSE_ARMOR: "Cleric of Apocalypse Combat Analysis"
+      STR_PONTIFF_OF_APOCALYPSE_ARMOR: "Pontiff of Apocalypse Combat Analysis"	  
+alienRaces:	
+  - id: STR_CIVILIANZ_CITY
+    members:
+      - STR_MEGAPOL_DETECTIVE #Done
+      - STR_HUMAN_SHARP_GIRL
+      - STR_HUMAN_CLERK
+      - STR_HUMAN_SHARP_GUY #Done
+      - STR_HUMAN_FATMAN
+      - STR_HUMAN_CITY_GIRL #Done
+      - STR_POLICE_MALEURRET  #Done
+      - STR_POLICE_MALEURRET  #Done
+      - STR_HUMAN_HOE
+      - STR_HUMAN_HOE
+      - STR_HUMAN_HOE
+      - MALE_CIVILIAN5 #Done
+      - MALE_CIVILIAN1 #Done
+      - FEMALE_CIVILIAN2 #Done
+      - FEMALE_CIVILIANHOSTILE #Done
+      - STR_POLICE_MALEURRET #Done
+      - STR_FIREFIGHTER
+    retaliationAggression: -100
+  - id: STR_CIVILIANZ_CITY_UNDERWATER	
+    members:
+      - STR_MEGAPOL_DETECTIVE #Done
+      - STR_HUMAN_SHARP_GIRL
+      - STR_HUMAN_CLERK
+      - STR_HUMAN_SHARP_GUY #Done
+      - STR_HUMAN_FATMAN
+      - STR_HUMAN_CITY_GIRL #Done
+      - STR_POLICE_MALEURRET  #Done
+      - STR_POLICE_MALEURRET  #Done
+      - STR_HUMAN_HOE
+      - STR_HUMAN_HOE
+      - STR_HUMAN_HOE
+      - MALE_CIVILIAN5 #Done
+      - MALE_CIVILIAN1 #Done
+      - FEMALE_CIVILIAN2 #Done
+      - FEMALE_CIVILIANHOSTILE #Done
+      - STR_POLICE_MALEURRET #Done
+      - STR_FIREFIGHTER	
+  - id: STR_GANG_CAVEMEN
+    membersRandom:
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+    retaliationAggression: -100
+  - id: STR_GANG_CAVEMEN_UNDERWATER	  
+    retaliationAggression: -100
+    membersRandom:
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]
+      - [STR_CAVE_GUY, STR_CAVE_GIRL]		
+  - id: STR_GANG_LUCHADORES
+    members:
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+    retaliationAggression: -100
+  - id: STR_GANG_LUCHADORES_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR
+      - STR_LUCHADOR	
+  - id: STR_GANG_TECH_WIZARDS
+    members:
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_WIZKID_SMALL_TANK_ROCKET_LAUNCHER
+      - STR_WIZKID_SMALL_TANK_ROCKET_LAUNCHER
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+    retaliationAggression: -100
+  - id: STR_GANG_TECH_WIZARDS_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_WIZKID_SMALL_TANK_ROCKET_LAUNCHER
+      - STR_WIZKID_SMALL_TANK_ROCKET_LAUNCHER
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD
+      - STR_TECH_WIZARD	
+  - id: STR_GANG_EASY_RIDERS
+    members:
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+  - id: STR_GANG_EASY_RIDERS_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER
+      - STR_EASY_RIDER	  
+  - id: STR_GANG_WESTMEN
+    members:
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+    retaliationAggression: -100
+  - id: STR_GANG_WESTMEN_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+      - STR_WESTMAN
+  - id: STR_GANG_STORMIES
+    membersRandom:
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+    retaliationAggression: -100
+  - id: STR_GANG_STORMIES_UNDERWATER	  
+    retaliationAggression: -100
+    membersRandom:
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]
+      - [STR_MALE_STORMY,STR_MALE_STORMY,STR_FEMALE_STORMY]		
+  - id: STR_FARMER
+    members:
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+    retaliationAggression: -100
+  - id: STR_FARMER_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+      - STR_HUMAN_FARMER
+ufopaedia:	
+  - id: STR_LUCHADOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_LUCHADOR
+    text: STR_LUCHADOR_UFOPEDIA		  
+    listOrder: 153161
+  - id: STR_LUCHADOR_CORPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_LUCHADOR_CORPSE
+    listOrder: 153161
+    text: STR_LUCHADOR_CORPSE_UFOPEDIA	
+  - id: STR_PINKY_DEVIL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_PINKY_DEVIL
+    listOrder: 153211	
+    text: STR_PINKY_DEVIL_UFOPEDIA	
+  - id: STR_PINKY_DEVIL_CORPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_PINKY_DEVIL_CORPSE
+    text: STR_PINKY_DEVIL_CORPSE_UFOPEDIA		  
+    listOrder: 153211	
+  - id: STR_BROTHER_OF_APOCALYPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    #image_id: UFOPEDIA_IMG_BROTHER_OF_APOCALYPSE
+    text: STR_BROTHER_OF_APOCALYPSE_UFOPEDIA
+    text_width: 160
+    requires:
+      - STR_BROTHER_OF_APOCALYPSE
+    listOrder: 153400
+  - id: STR_CLERIC_OF_APOCALYPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    #image_id: UFOPEDIA_IMG_CLERIC_OF_APOCALYPSE
+    text: STR_CLERIC_OF_APOCALYPSE_UFOPEDIA
+    text_width: 160
+    requires:
+      - STR_CLERIC_OF_APOCALYPSE
+    listOrder: 153410		
+  - id: STR_PONTIFF_OF_APOCALYPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    #image_id: UFOPEDIA_IMG_PONTIFF_OF_APOCALYPSE
+    text: STR_PONTIFF_OF_APOCALYPSE_UFOPEDIA
+    text_width: 160
+    requires:
+      - STR_PONTIFF_OF_APOCALYPSE
+    listOrder: 153420	
+  - id: STR_CAVE_GUY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CAVE_GUY
+    text: STR_CAVE_GUY_UFOPEDIA	  
+    listOrder: 153101
+  - id: STR_CAVE_GIRL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CAVE_GIRL
+    text: STR_CAVE_GIRL_UFOPEDIA	  	  
+    listOrder: 153111
+  - id: STR_EASY_RIDER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_EASY_RIDER
+    text: STR_EASY_RIDER_UFOPEDIA		  
+    listOrder: 153121
+  - id: STR_WESTMAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_WESTMAN
+    text: STR_WESTMAN_UFOPEDIA	  
+    listOrder: 153241
+  - id: STR_MALE_STORMY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MALE_STORMY
+    text: STR_MALE_STORMY_UFOPEDIA	 	  
+    listOrder: 153141
+  - id: STR_FEMALE_STORMY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_FEMALE_STORMY
+    text: STR_FEMALE_STORMY_UFOPEDIA	 	  
+    listOrder: 153151
+  - id: STR_MOTOR_MAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MOTOR_MAN
+    text: STR_MOTOR_MAN_UFOPEDIA	  
+    listOrder: 153181
+  - id: STR_TECH_WIZARD
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_TECH_WIZARD
+    text: STR_TECH_WIZARD_UFOPEDIA	  
+    listOrder: 153221	
+research:
+  - name: STR_CAVE_GUY
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_CAVE_GIRL
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_EASY_RIDER
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_WESTMAN
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_MALE_STORMY
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_FEMALE_STORMY
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_MOTOR_MAN
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400	
+  - name: STR_TECH_WIZARD
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_BROTHER_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+    unlocks:
+      - STR_APOCALYPSE_CULT	
+  - name: STR_CLERIC_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 30
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153410
+    unlocks:
+      - STR_APOCALYPSE_CULT	
+  - name: STR_PONTIFF_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION]   
+    cost: 40
+    points: 20
+    needItem: true
+    destroyItem: true  
+    listOrder: 153420
+    unlocks:
+      - STR_APOCALYPSE_CULT	
+  - name: STR_LUCHADOR
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400	
+  - name: STR_LUCHADOR_CORPSE
+    #requiresBaseFunc: [RESEARCH]   
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400		
+  - name: STR_PINKY_DEVIL
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400
+  - name: STR_PINKY_DEVIL_CORPSE
+    #requiresBaseFunc: [RESEARCH]   
+    cost: 20
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 153400	
+units:
+  - type: STR_PONTIFF_OF_APOCALYPSE
+  - type: STR_BROTHER_OF_APOCALYPSE
+  - type: STR_CLERIC_OF_APOCALYPSE
+  - type: STR_CAVE_GIRL
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 64
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 30
+      firing: 20
+      throwing: 45
+      strength: 36
+      psiStrength: 30
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_CAVE_GIRL_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE		  
+  - type: STR_CAVE_GUY
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 58
+      stamina: 70
+      health: 45
+      bravery: 80
+      reactions: 30
+      firing: 20
+      throwing: 45
+      strength: 40
+      psiStrength: 30
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_CAVE_GUY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE		
+  - type: STR_EASY_RIDER
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 64
+      health: 38
+      bravery: 90
+      reactions: 55
+      firing: 65
+      throwing: 33
+      strength: 34
+      psiStrength: 65
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_EASY_RIDER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_WESTMAN
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 53
+      stamina: 60
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 70
+      throwing: 35
+      strength: 37
+      psiStrength: 60
+      psiSkill: 0
+      melee: 40
+      #mana: 50
+    armor: STR_WESTMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_FEMALE_STORMY
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 62
+      stamina: 66
+      health: 50
+      bravery: 80
+      reactions: 30
+      firing: 50
+      throwing: 55
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_FEMALE_STORMY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:		
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	
+  - type: STR_MALE_STORMY
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 58
+      stamina: 62
+      health: 54
+      bravery: 80
+      reactions: 30
+      firing: 50
+      throwing: 55
+      strength: 55
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_MALE_STORMY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_LUCHADOR
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 52
+      health: 66
+      bravery: 80
+      reactions: 26
+      firing: 40
+      throwing: 40
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+      #mana: 50
+    armor: STR_LUCHADOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_MOTOR_MAN
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 52
+      stamina: 60
+      health: 40
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 30
+      strength: 34
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+      #mana: 50
+    armor: STR_MOTOR_MAN_ARMOR
+    deathSound: [41, 42, 43]	
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET	
+  - type: STR_PINKY_DEVIL
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 69
+      stamina: 70
+      health: 34
+      bravery: 80
+      reactions: 45
+      firing: 43
+      throwing: 30
+      strength: 31
+      psiStrength: 45
+      psiSkill: 0
+      melee: 35
+      #mana: 50
+    armor: STR_PINKY_DEVIL_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON	
+  - type: STR_TECH_WIZARD
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 50
+      health: 32
+      bravery: 80
+      reactions: 45
+      firing: 50
+      throwing: 34
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_TECH_WIZARD_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_HIGH_EXPLOSIVE
+        - STR_HIGH_EXPLOSIVE
+        - STR_HIGH_EXPLOSIVE	
+  - type: STR_CLERIC_OF_APOCALYPSE
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 72
+      stamina: 90
+      health: 65
+      bravery: 100
+      reactions: 55
+      firing: 70
+      throwing: 50
+      strength: 60
+      psiStrength: 30
+      psiSkill: 70
+      melee: 80
+      #mana: 80
+    armor: STR_CLERIC_OF_APOCALYPSE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [44, 45, 46]
+    energyRecovery: 45
+    intelligence: 3
+    aggression: 3
+    builtInWeaponSets:	
+      - - STR_BRAIN
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+  - type: STR_BROTHER_OF_APOCALYPSE
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 66
+      stamina: 90
+      health: 55
+      bravery: 90
+      reactions: 45
+      firing: 55
+      throwing: 45
+      strength: 55
+      psiStrength: 70
+      psiSkill: 0
+      melee: 70
+      #mana: 90
+    armor: STR_PONTIFF_OF_APOCALYPSE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [44, 45, 46]
+    energyRecovery: 45
+    intelligence: 3
+    aggression: 3  
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP  		
+  - type: STR_PONTIFF_OF_APOCALYPSE
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 78
+      stamina: 110
+      health: 75
+      bravery: 100
+      reactions: 55
+      firing: 70
+      throwing: 50
+      strength: 66
+      psiStrength: 80
+      psiSkill: 50
+      melee: 85	
+      #mana: 80
+    armor: STR_BROTHER_OF_APOCALYPSE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [44, 45, 46]
+    energyRecovery: 45
+    intelligence: 2
+    aggression: 3
+    builtInWeaponSets:
+      - - STR_VAMPIRE_WEAPON
+        - STR_HMG
+        - STR_HMG_CLIP
+        - STR_HMG_CLIP
+        - STR_HMG_CLIP
+        - STR_GRENADE		
+armors:
+  - type: STR_CAVE_GIRL_ARMOR
+    spriteSheet: CAVE_GIRL.PCK
+    spriteInv: inventory_CAVE_GIRL
+    corpseBattle:
+      - STR_CAVE_GIRL_CORPSE
+    spriteHairGroup: 5
+    spriteHairColor: [7, 32, 80, 144, 160, 194, 179, 244]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &CavemanResists
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_CAVE_GUY_ARMOR
+    spriteSheet: CAVE_GUY.PCK
+    spriteInv: inventory_CAVE_GUY
+    corpseBattle:
+      - STR_CAVE_GUY_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [7, 32, 80, 144, 160, 194, 179, 244]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    damageModifier: &CavemanResists
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    loftempsSet: [ 3 ]
+  - type: STR_EASY_RIDER_ARMOR
+    spriteSheet: EASY_RIDER.PCK
+    spriteInv: inventory_EASY_RIDER
+    corpseBattle:
+      - STR_EASY_RIDER_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_WESTMAN_ARMOR
+    spriteSheet: WESTMAN.PCK
+    spriteInv: inventory_WESTMAN
+    corpseBattle:
+      - STR_WESTMAN_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_STORMY_ARMOR
+    spriteSheet: FEMALE_STORMY.PCK
+    spriteInv: inventory_FEMALE_STORMY
+    corpseBattle:
+      - STR_FEMALE_STORMY_CORPSE
+    spriteHairGroup: 2
+    spriteHairColor: [3, 32, 80, 156, 160, 192, 176, 242]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StormyResists
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_STORMY_ARMOR
+    spriteSheet: MALE_STORMY.PCK
+    spriteInv: inventory_MALE_STORMY
+    corpseBattle:
+      - STR_MALE_STORMY_CORPSE
+    spriteHairGroup: 2
+    spriteHairColor: [3, 32, 80, 156, 160, 192, 176, 242]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    damageModifier:
+      - 1.0 #None
+      - 1.1 #NormalBullets
+      - 1.1 #Fire
+      - 1.1 #HE
+      - 1.1 #Laser
+      - 1.1 #Plasma
+      - 1.0 #Stunt
+      - 1.3 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	  
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    loftempsSet: [ 3 ]
+  - type: STR_LUCHADOR_ARMOR
+    spriteSheet: LUCHADOR.PCK
+    spriteInv: inventory_LUCHADOR
+    corpseBattle:
+      - STR_LUCHADOR_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    meleeDodge:
+      reactions: 0.25
+    meleeDodgeBackPenalty: 0.35
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &LuchadorResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MOTOR_MAN_ARMOR
+    spriteSheet: MOTOR_MAN.PCK
+    spriteInv: inventory_MOTOR_MAN
+    corpseBattle:
+      - STR_MOTOR_MAN_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.25
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_PINKY_DEVIL_ARMOR
+    spriteSheet: PINKY_DEVIL.PCK
+    spriteInv: inventory_PINKY_DEVIL
+    corpseBattle:
+      - STR_PINKY_DEVIL_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [7, 32, 80, 144, 160, 194, 179, 246]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_TECH_WIZARD_ARMOR
+    spriteSheet: TECH_WIZARD.PCK
+    spriteInv: inventory_TECH_WIZARD
+    corpseBattle:
+      - STR_TECH_WIZARD_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 14
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_BROTHER_OF_APOCALYPSE_ARMOR
+    visibilityAtDay: 40
+    visibilityAtDark: 32
+    antiCamouflageAtDay: 15
+    antiCamouflageAtDark: 10
+    heatVision: 30
+    spriteSheet: ELOHIM_ALPHABEAKIE_TRANSFORM_BS.PCK
+    spriteInv: ALPHA_ELOHIM.SPK
+    corpseBattle:
+      - STR_BROTHER_OF_APOCALYPSE_CORPSE
+    movementType: 0 #Walking
+    drawingRoutine: 0 #human soldier
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    damageModifier: #CHAOS ARMOR
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_PONTIFF_OF_APOCALYPSE_ARMOR
+    visibilityAtDay: 35
+    visibilityAtDark: 25
+    heatVision: 30
+    spriteSheet: XCOM_46.PCK #needs new
+    spriteInv: ACanonessH.SPK
+    corpseBattle:
+      - STR_CLERIC_OF_APOCALYPSE_CORPSE
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ] 
+  - type: STR_CLERIC_OF_APOCALYPSE_ARMOR
+    visibilityAtDay: 30
+    visibilityAtDark: 20
+    spriteSheet: DARKDISCIPLE_BS.PCK
+    spriteInv: DARKDISCIPLE_INV
+    corpseBattle:
+      - STR_CLERIC_OF_APOCALYPSE_CORPSE
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]  
+items:	
+  - type: STR_PINKY_DEVIL
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 600
+    listOrder: 153210
+  - type: STR_LUCHADOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 4000
+    listOrder: 153160	
+  - type: STR_CAVE_GIRL_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 38
+    bigSprite: 654
+    floorSprite: 514
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_CAVE_GUY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 41
+    bigSprite: 491
+    floorSprite: 409
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_CLERIC_OF_APOCALYPSE_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 2872
+    floorSprite: 2872
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    recover: true
+    costSell: 50000
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_EASY_RIDER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 655
+    floorSprite: 515
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_FEMALE_STORMY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 656
+    floorSprite: 516
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_MALE_STORMY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 658
+    floorSprite: 518
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_LUCHADOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 48
+    bigSprite: 657
+    floorSprite: 517
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false		
+  - type: STR_MOTOR_MAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 659
+    floorSprite: 519
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_PINKY_DEVIL_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 660
+    floorSprite: 520
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_TECH_WIZARD_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 661
+    floorSprite: 521
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_WESTMAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 662
+    floorSprite: 522
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_BROTHER_OF_APOCALYPSE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 2021
+    floorSprite: 2004
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_BROTHER_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 3000
+    listOrder: 153400
+  - type: STR_CLERIC_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 10000
+    listOrder: 153410
+  - type: STR_PONTIFF_OF_APOCALYPSE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 25000
+    listOrder: 153420
+  - type: STR_EASY_RIDER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 800
+    listOrder: 153120	
+  - type: STR_FEMALE_STORMY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 2000
+    listOrder: 153150
+  - type: STR_MALE_STORMY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 2000
+    listOrder: 153140
+  - type: STR_MOTOR_MAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 700
+    listOrder: 153180 	
+  - type: STR_TECH_WIZARD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 6000
+    listOrder: 153220	 	
+  - type: STR_WESTMAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 600
+    listOrder: 153240		
+  - type: STR_CAVE_GIRL
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 500
+    listOrder: 153110	
+  - type: STR_CAVE_GUY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 500
+    listOrder: 153100	

@@ -1,0 +1,139 @@
+alienMissions:
+  - type: STR_GOVTPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:		  
+          STR_MIB: 25
+          STR_MIXED_KKK: 25
+          STR_NAZISEXP: 25	
+          STR_NAZIS_TERROR: 25	
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_POLPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_MEGAPOL: 100	
+          STR_MEGAPOL_LATE: 100	
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 10
+    waves:
+      - ufo: STR_VESSEL_VIPER_FIGHTER
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_MILITARY_TRANSPORT
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_GOVSHIP
+        count: 1
+        trajectory: P21
+        timer: 10000				
+  - type: STR_FACTION_RETALIATIONGOVTPATROLPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_GOVT_CRUISER
+    raceWeights:
+      0:
+          STR_MIB: 25
+          STR_MIXED_KKK: 25
+          STR_NAZISEXP: 25	
+          STR_NAZIS_TERROR: 25	
+          STR_MEGAPOL: 10	
+          STR_MEGAPOL_LATE: 10
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 5
+    waves:
+      - ufo: STR_VESSEL_GOVSHIP
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_GOVT_CRUISER
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5
+  - type: STR_GOVTESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:			  
+          STR_MIB: 25
+          STR_MIXED_KKK: 25
+          STR_NAZISEXP: 25	
+          STR_NAZIS_TERROR: 25	
+    waves:
+      - ufo: STR_VESSEL_VIPER_FIGHTER
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_RAIDER_FIGHTER
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_GOVT_CRUISER
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_GOVSHIP
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5			
+missionScripts:		
+  - type: govtSpawnPatrol
+    missionWeights:
+      0:
+        STR_GOVTPATROL: 100			
+    firstMonth: 0
+    varName: govtspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: govtresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_GOVTESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: govtresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			

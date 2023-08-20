@@ -1,0 +1,163 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DEPTHPOCALYPSE: "Depth Invasion"
+      STR_ALERT_DEPTHPOCALYPSE: "Depth Invasion" 
+      STR_DEPTHPOCALYPSE_DESCRIPTION: "The Merc Guild has reports that a horde of deep sea dwellers is invading an underwater settlement. We must defend this settlement at all cost. Success will get you promtly rewarded."
+      STR_DEPTHPOCALYPSE_BRIEFING: "The Merc Guild has reports that a horde of deep sea dwellers is invading an underwater settlement. We must defend this settlement at all cost. Success will get you promtly rewarded."
+alienDeployments:
+  - type: STR_DEPTHPOCALYPSE
+    depth: [1, 1]  
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE 
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    width: 60
+    length: 60
+    height: 18
+    #civilians: 20
+    alert: STR_ALERT_DEPTHPOCALYPSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DEPTHPOCALYPSE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    markerName: STR_DEPTHPOCALYPSE
+    duration: [100, 200]
+    despawnPenalty: 750
+    music:
+      - GMTACWET
+    script: STR_DEPTHPOCALYPSE
+    civilians: 12
+    civiliansByType:
+      MALE_CIVILIAN_AQUA: 6
+      FEMALE_CIVILIAN_AQUA: 6	  
+    data:
+      - alienRank: 5
+        lowQty: 10
+        highQty: 18
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+mapScripts:
+  - type: STR_DEPTHPOCALYPSE
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,PIPES]
+    - type: addBlock
+      size: 1
+      executions: 4
+      terrain: PIPES
+    - type: addBlock
+      size: 2
+      executions: 4
+      terrain: PIPES 		  
+    - type: fillArea
+      terrain: globeTerrain				
+alienMissions:
+  - type: STR_DEPTHPOCALYPSE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_AQUATOID: 25
+          STR_GILLMAN: 25
+          STR_LOBSTERMAN: 25
+          STR_TASOTH: 25
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: DepthpocalypseHurryUp
+    firstMonth: 32
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_DEPTHPOCALYPSE: 100
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    useTable: false
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

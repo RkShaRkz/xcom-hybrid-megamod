@@ -1,0 +1,134 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP: "Cult Town Extermination"
+      STR_ALERT_CULT_OF_APOCALYPSE_TOWN_CLEANUP: "Cult Town Extermination"
+      STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP_BRIEFING: "The The Merc Guild has information that a major cult has contaminated a town with its heretic garbage. It is too late to impliment of any damage control. Best option to contain of this brainwashing spread is to depopulate the town. Do remember to protect the news crew covering of this mission. Their survival will ensure of you getting appropriately paid."
+      STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP_DESCRIPTION: "The The Merc Guild has information that a major cult has contaminated a town with its heretic garbage. It is too late to impliment of any damage control. Best option to contain of this brainwashing spread is to depopulate the town. Do remember to protect the news crew covering of this mission. Their survival will ensure of you getting appropriately paid."
+alienDeployments:
+  - type: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE    
+    width: 70
+    length: 70
+    height: 18
+    civilians: 30
+    alert: STR_ALERT_CULT_OF_APOCALYPSE_TOWN_CLEANUP
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP_BRIEFING	  
+    music:
+      - GMTACTIC
+    script: TOWNCLEANUP	
+    markerName: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP
+    duration: [72, 144]
+    despawnPenalty: 200
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 4
+        highQty: 8
+        dQty: 7
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 4
+        highQty: 8
+        dQty: 5
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: TOWNCLEANUP
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1			  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN
+    - type: fillArea
+      terrain: URBAN				
+alienMissions:
+  - type: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:
+      - ufo: STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: cultOfApocalypseTownCleanup
+    firstMonth: 21
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_CULT_OF_APOCALYPSE_TOWN_CLEANUP: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

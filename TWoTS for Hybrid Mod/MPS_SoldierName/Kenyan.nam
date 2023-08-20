@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - MPS Abasi
+  - MPS Adin
+  - MPS Akili
+  - MPS Amali
+  - MPS Amaziah
+  - MPS Ashura
+  - MPS Chege
+  - MPS Chilemba
+  - MPS Chitundu
+  - MPS Chiumbo
+  - MPS Darweshi
+  - MPS Etana
+  - MPS Fadhili
+  - MPS Feruzi
+  - MPS Gachora
+  - MPS Gacoki
+  - MPS Gakere
+  - MPS Gakuru
+  - MPS Gatete
+  - MPS Gathee
+  - MPS Gathii
+  - MPS Gatimu
+  - MPS Gethii
+  - MPS Gichinga
+  - MPS Gicicio
+  - MPS Gikuyu
+  - MPS Githinji
+  - MPS Githogori
+  - MPS Gitonga
+  - MPS Haji
+  - MPS Hala
+  - MPS Hamisi
+  - MPS Hiuhu
+  - MPS Ikinya
+  - MPS Iregi
+  - MPS Irungu
+  - MPS Ita
+  - MPS Itimu
+  - MPS Jaramogi
+  - MPS Jalil
+  - MPS Jimiyu
+  - MPS Jomo
+  - MPS Jamil
+  - MPS Juahar
+  - MPS Jimiyu
+  - MPS Jina
+  - MPS Jirani
+  - MPS Jomo
+  - MPS Kafil
+  - MPS Kagai
+  - MPS Kagunda
+  - MPS Kahiga
+  - MPS Kairu
+  - MPS Kamau
+  - MPS Kamili
+  - MPS Kanja
+  - MPS Kanoro
+  - MPS Karani
+  - MPS Karega
+  - MPS Kariuki
+  - MPS Kereenyaga
+  - MPS Kiambiroiro
+  - MPS Kianjahe
+  - MPS Kiano
+  - MPS Kianyandaarwa
+  - MPS Kiara
+  - MPS Kifimbo
+  - MPS Kihara
+  - MPS Kihiga
+  - MPS Kimathi
+  - MPS Kimotho
+  - MPS Kinoro
+  - MPS Kinyua
+  - MPS Kioi
+  - MPS Kirimi
+  - MPS Kirinyaga
+  - MPS Kithingi
+  - MPS Kiwonto
+  - MPS Koigi
+  - MPS Kuguru
+  - MPS Kwasi
+  - MPS Lipapwiche
+  - MPS Lisimba
+  - MPS Lusala
+  - MPS Macaria
+  - MPS Maina
+  - MPS Maitho
+  - MPS Makalani
+  - MPS Makori
+  - MPS Mathaathi
+  - MPS Matu
+  - MPS Matunde
+  - MPS Maundu
+  - MPS Mbogo
+  - MPS Mbui
+  - MPS Miano
+  - MPS Migwi
+  - MPS Mokabi
+  - MPS Morani
+  - MPS Mosi
+  - MPS Muenda
+  - MPS Muga
+  - MPS Mugendi
+  - MPS Mugi
+  - MPS Mugo
+  - MPS Muiru
+  - MPS Muiruri
+  - MPS Mukanda
+  - MPS Mukiri
+  - MPS Mukuru
+  - MPS Munene
+  - MPS Munoru
+  - MPS Muraguri
+  - MPS Murathi
+  - MPS Muraya
+  - MPS Muriithi
+  - MPS Murimi
+  - MPS Muriu
+  - MPS Muriuki
+  - MPS Muroki
+  - MPS Muruthi
+  - MPS Mutahi
+  - MPS Mutegi
+  - MPS Mutemi
+  - MPS Muthee
+  - MPS Muthemba
+  - MPS Muthengi
+  - MPS Mutheru
+  - MPS Muthomi
+  - MPS Muthuri
+  - MPS Mutira
+  - MPS Mutiri
+  - MPS Mutitu
+  - MPS Mutonyi
+  - MPS Mutua
+  - MPS Muturi
+  - MPS Muugi
+  - MPS Mwaka
+  - MPS Mwangi
+  - MPS Mwara
+  - MPS Mwarania
+  - MPS Mwaria
+  - MPS Mwenda
+  - MPS Nangila
+  - MPS Nangwaya
+  - MPS Ndegwa
+  - MPS Ndemi
+  - MPS Nderu
+  - MPS Ndwiga
+  - MPS Ngare
+  - MPS Ngigi
+  - MPS Ngumo
+  - MPS Njama
+  - MPS Njanu
+  - MPS Njata
+  - MPS Njau
+  - MPS Njiraini
+  - MPS Njiru
+  - MPS Njogu
+  - MPS Njora
+  - MPS Njowga
+  - MPS Njururi
+  - MPS Nyachae
+  - MPS Nyaga
+  - MPS Nyamu
+  - MPS Nyatui
+  - MPS Nyoike
+  - MPS Obama
+  - MPS Obuya
+  - MPS Ochieng
+  - MPS Odikinyi
+  - MPS Odinga
+  - MPS Odonga
+  - MPS Odour
+  - MPS Ohon
+  - MPS Ojwang
+  - MPS Okello
+  - MPS Okeyo
+  - MPS Okoth
+  - MPS Oluoch
+  - MPS Omariba
+  - MPS Omondi
+  - MPS Omwancha
+  - MPS Ongweng
+  - MPS Onindo
+  - MPS Onkwani
+  - MPS Onyango
+  - MPS Opiyo
+  - MPS Osogo
+  - MPS Othiambo
+  - MPS Otenio
+  - MPS Owino
+  - MPS Owiti
+  - MPS Owuor
+  - MPS Pili
+  - MPS Radhi
+  - MPS Riitho
+  - MPS Ruguru
+  - MPS Ruhiu
+  - MPS Runo
+  - MPS Sabra
+  - MPS Safi
+  - MPS Shamim
+  - MPS Shani
+  - MPS Simba
+  - MPS Sokoro
+  - MPS Thabiti
+  - MPS Tumaini
+  - MPS Tuwile
+  - MPS Wachiru
+  - MPS Waga
+  - MPS Waithaka
+  - MPS Waitimu
+  - MPS Waiyaki
+  - MPS Wamai
+  - MPS Wambua
+  - MPS Wamugunda
+  - MPS Wamukota
+  - MPS Wamwara
+  - MPS Wangombe
+  - MPS Wangondu
+  - MPS Wanjala
+  - MPS Wanjohi
+  - MPS Wanyanga
+  - MPS Waruhiu
+  - MPS Warui
+  - MPS Waweru
+  - MPS Wekesa
+femaleFirst:
+  - MPS Aaliyah
+  - MPS Adhra
+  - MPS Adila
+  - MPS Adimu
+  - MPS Adin
+  - MPS Adla
+  - MPS Afaafa
+  - MPS Afifa
+  - MPS Afifah
+  - MPS Afiya
+  - MPS Afrika
+  - MPS Afya
+  - MPS Ahadi
+  - MPS Aida
+  - MPS Ainra
+  - MPS Ajia
+  - MPS Akello
+  - MPS Akila
+  - MPS Akilah
+  - MPS Akili
+  - MPS Aliya
+  - MPS Almasi
+  - MPS Aluna
+  - MPS Amali
+  - MPS Amana
+  - MPS Amaziah
+  - MPS Amina
+  - MPS Aminah
+  - MPS Aminali
+  - MPS Aminifu
+  - MPS Amira
+  - MPS Amne
+  - MPS Angavu
+  - MPS Anisun
+  - MPS Arafa
+  - MPS Arifa
+  - MPS Arusi
+  - MPS Asali
+  - MPS Asatira
+  - MPS Asha
+  - MPS Ashura
+  - MPS Asilia
+  - MPS Asiya
+  - MPS Asma
+  - MPS Asmahani
+  - MPS Asumini
+  - MPS Asya
+  - MPS Awena
+  - MPS Aza
+  - MPS Aziza
+  - MPS Badriya
+  - MPS Bahati
+  - MPS Bahiya
+  - MPS Barke
+  - MPS Basha
+  - MPS Bashaam
+  - MPS Bashira
+  - MPS Basma
+  - MPS Basmah
+  - MPS Batuuli
+  - MPS Baya
+  - MPS Bayyina
+  - MPS Bebi
+  - MPS Bia
+  - MPS Bimbaya
+  - MPS Bimdogo
+  - MPS Bimkubwa
+  - MPS Bimnono
+  - MPS Bishara
+  - MPS Bitisururu
+  - MPS Bititi
+  - MPS Biubwa
+  - MPS Buqisi
+  - MPS Busara
+  - MPS Bushira
+  - MPS Chaniya
+  - MPS Chausiku
+  - MPS Chiku
+  - MPS Chuki
+  - MPS Dabiku
+  - MPS Dafina
+  - MPS Dalila
+  - MPS Dalili
+  - MPS Damisi
+  - MPS Dhakiya
+  - MPS Dhambizao
+  - MPS Dhuriya
+  - MPS Dodo
+  - MPS Ducha
+  - MPS Duni
+  - MPS Durah
+  - MPS Durra
+  - MPS Eidi
+  - MPS Eshe
+  - MPS Etana
+  - MPS Fadhila
+  - MPS Fadhili
+  - MPS Fadiya
+  - MPS Fadari
+  - MPS Fahima
+  - MPS Fahimah
+  - MPS Faida
+  - MPS Faika
+  - MPS Faiza
+  - MPS Faizah
+  - MPS Fanaka
+  - MPS Fanikia
+  - MPS Faraja
+  - MPS Farashuu
+  - MPS Farida
+  - MPS Farisi
+  - MPS Fasaha
+  - MPS Fathiya
+  - MPS Fatima
+  - MPS Fatuma
+  - MPS Fauziya
+  - MPS Feruzi
+  - MPS Fila
+  - MPS Firdawsi
+  - MPS Firyali
+  - MPS Fujo
+  - MPS Furaha
+  - MPS Gasira
+  - MPS Ghalyela
+  - MPS Ghanima
+  - MPS Gharibuu
+  - MPS Gheche
+  - MPS Ghinjo
+  - MPS Ghipe
+  - MPS Habeebah
+  - MPS Habiba
+  - MPS Habibah
+  - MPS Hadhi
+  - MPS Hadiya
+  - MPS Hafidha
+  - MPS Hafsa
+  - MPS Hafsah
+  - MPS Haiba
+  - MPS Haifa
+  - MPS Hakika
+  - MPS Hakima
+  - MPS Hala
+  - MPS Halili
+  - MPS Halima
+  - MPS Halisi
+  - MPS Hamida
+  - MPS Hanaa
+  - MPS Hanifa
+  - MPS Hanuni
+  - MPS Haoniyao
+  - MPS Harbuu
+  - MPS Hartha
+  - MPS Hasanati
+  - MPS Hashiki
+  - MPS Hasijna
+  - MPS Hasina
+  - MPS Hasnaa
+  - MPS Hawa
+  - MPS Hawla
+  - MPS Hazina
+  - MPS Hediye
+  - MPS Hiari
+  - MPS Hiba
+  - MPS Hidaya
+  - MPS Himidi
+  - MPS Hisani
+  - MPS Huruma
+  - MPS Ibtisam
+  - MPS Ikinya
+  - MPS Ilham
+  - MPS Inaya
+  - MPS Intisar
+  - MPS Ita
+  - MPS Itidal
+  - MPS Jaha
+  - MPS Jahi
+  - MPS Jamila
+  - MPS Jana
+  - MPS Jauhar
+  - MPS Jina
+  - MPS Jirani
+  - MPS Johanna
+  - MPS Johari
+  - MPS Jokha
+  - MPS Jumapili
+  - MPS Juwayria
+  - MPS Kabisa
+  - MPS Kadija
+  - MPS Kainda
+  - MPS Kamaria
+  - MPS Kamili
+  - MPS Kanai
+  - MPS Kanika
+  - MPS Karama
+  - MPS Karima
+  - MPS Karimu
+  - MPS Kaweria
+  - MPS Kesi
+  - MPS Khadija
+  - MPS Kibibi
+  - MPS Kifimbo
+  - MPS Kijakazi
+  - MPS Kinaya
+  - MPS Kioni
+  - MPS Kipenzi
+  - MPS Kisima
+  - MPS Kito
+  - MPS Lamia
+  - MPS Latifa
+  - MPS Latifah
+  - MPS Latifu
+  - MPS Layla
+  - MPS Lela
+  - MPS Lila
+  - MPS Madaha
+  - MPS Madiha
+  - MPS Maisha
+  - MPS Makena
+  - MPS Makini
+  - MPS Malaika
+  - MPS Malia
+  - MPS Malika
+  - MPS Malkia
+  - MPS Mariamu
+  - MPS Marini
+  - MPS Marjani
+  - MPS Mashavu
+  - MPS Masika
+  - MPS Maskini
+  - MPS Maulidi
+  - MPS Merah
+  - MPS Mila
+  - MPS Mosi
+  - MPS Muna
+  - MPS Munira
+  - MPS Murua
+  - MPS Mwajuma
+  - MPS Mwamini
+  - MPS Mwasaa
+  - MPS Nabila
+  - MPS Nadra
+  - MPS Nafula
+  - MPS Naima
+  - MPS Najia
+  - MPS Najma
+  - MPS Nana
+  - MPS Ndege
+  - MPS Neema
+  - MPS Nena
+  - MPS Ngina
+  - MPS Nia
+  - MPS Niara
+  - MPS Njeri
+  - MPS Nuha
+  - MPS Nura
+  - MPS Nuru
+  - MPS Paka
+  - MPS Panya
+  - MPS Pasua
+  - MPS Pili
+  - MPS Rabia
+  - MPS Radhi
+  - MPS Rahma
+  - MPS Ramla
+  - MPS Raziya
+  - MPS Reem
+  - MPS Rehema
+  - MPS Rim
+  - MPS Rukiya
+  - MPS Ruqayah
+  - MPS Saada
+  - MPS Sabiha
+  - MPS Sabra
+  - MPS Sadaka
+  - MPS Sadiki
+  - MPS Saida
+  - MPS Sakina
+  - MPS Sala
+  - MPS Salama
+  - MPS Salima
+  - MPS Samiha
+  - MPS Samira
+  - MPS Sanaa
+  - MPS Sanura
+  - MPS Sauda
+  - MPS Shahida
+  - MPS Shamim
+  - MPS Shani
+  - MPS Sharifa
+  - MPS Shawana
+  - MPS Shukura
+  - MPS Siham
+  - MPS Sikudhani
+  - MPS Siri
+  - MPS Sisya
+  - MPS Siti
+  - MPS Subira
+  - MPS Suhaila
+  - MPS Tabia
+  - MPS Tamasha
+  - MPS Tatu
+  - MPS Tawa
+  - MPS Tuhfa
+  - MPS Tumaini
+  - MPS Wambui
+  - MPS Waseme
+  - MPS Yumna
+  - MPS Pusra
+  - MPS Zahra
+  - MPS Zaida
+  - MPS Zaina
+  - MPS Zainabu
+  - MPS Zakiya
+  - MPS Zalika
+  - MPS Zarifa
+  - MPS Zarina
+  - MPS Zawadi
+  - MPS Zera
+  - MPS Zulaykha
+  - MPS Zulekha
+  - MPS Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

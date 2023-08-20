@@ -1,0 +1,108 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MAGMA_LAB: "Drug Lab Detected"
+      STR_MAGMA_LAB_DESCRIPTION: "A major drug lab belonging to one of the gangs has been detected. The Mercenary guild has been contacted by a few Major cooporation wanting of this lab to be shut down. A Mercenary unit is required for the job. Pay is normal grade for the elimination of all hostile forces in the lab."
+      STR_MAGMA_LAB_BRIEFING: "A major drug lab belonging to one of the gangs has been detected. The Mercenary guild has been contacted by a few Major cooporation wanting of this lab to be shut down. A Mercenary unit is required for the job. Pay is normal grade for the elimination of all hostile forces in the lab."
+      STR_ALERT_MAGMA_LAB: "Drug Lab Detected"
+alienDeployments:
+  - type: STR_MAGMA_LAB
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	 	
+    width: 60
+    length: 60
+    height: 18
+    terrains:
+      - CHEMTOWN
+      - CHEMTOWN_ROADS
+    script: MAGMALAB
+    alert: STR_ALERT_MAGMA_LAB
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MAGMA_LAB_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_MAGMA_LAB_BRIEFING  
+    markerName: STR_MAGMA_LAB
+    duration: [130, 180]
+    despawnPenalty: 100
+    unlockedResearch: STR_MESSAGE_FROM_MAGMA_02
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 9
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 11
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 6
+        highQty: 11
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_MAGMA_LAB
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 25
+          STR_EXALT: 25
+          STR_OSIRON: 25
+          STR_BLACK_LOTUS: 25
+    waves:
+      - ufo: STR_MAGMA_LAB
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: zombieLab
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_MAGMA_LAB: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

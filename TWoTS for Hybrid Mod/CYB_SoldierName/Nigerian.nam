@@ -1,0 +1,410 @@
+lookWeight:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - CS Abassi
+  - CS Abayomi
+  - CS Abejide
+  - CS Abiodun
+  - CS Abiola
+  - CS Adebayo
+  - CS Adejola
+  - CS Adisa
+  - CS Adunbi
+  - CS Ajala
+  - CS Ajani
+  - CS Akanni
+  - CS Akin
+  - CS Akinlabi
+  - CS Akinlana
+  - CS Akins
+  - CS Akono
+  - CS Amadi
+  - CS Aniweta
+  - CS Apara
+  - CS Ayodele
+  - CS Azagba
+  - CS Babafemi
+  - CS Bem
+  - CS Boseda
+  - CS Chidike
+  - CS Chijioke
+  - CS Chike
+  - CS Chukwuma
+  - CS Dada
+  - CS David
+  - CS Dumaka
+  - CS Ehioze
+  - CS Ekundayo
+  - CS Emeka
+  - CS Emmanuel
+  - CS Ewansiha
+  - CS Ezekiel
+  - CS Fasina
+  - CS Gowo
+  - CS Idowu
+  - CS Imarogbe
+  - CS Isah
+  - CS Iyapo
+  - CS Jaja
+  - CS Jumoke
+  - CS Kayode
+  - CS Kehinde
+  - CS Kosoko
+  - CS Kwame
+  - CS Madu
+  - CS Mazi
+  - CS Modupe
+  - CS Morihinze
+  - CS Moses
+  - CS Ndulu
+  - CS Ngozi
+  - CS Nosakhere
+  - CS Nwabudike
+  - CS Obasi
+  - CS Obataiye
+  - CS Obayana
+  - CS Obi
+  - CS Obike
+  - CS Ode
+  - CS Odion
+  - CS Ogbonna
+  - CS Okechuku
+  - CS Okpara
+  - CS Oladele
+  - CS Olafemi
+  - CS Olaniyan
+  - CS Olawale
+  - CS Olawutobi
+  - CS Olubayo
+  - CS Olufemi
+  - CS Olugbala
+  - CS Olujimi
+  - CS Olumide
+  - CS Olumiji
+  - CS Olushola
+  - CS Oluwa
+  - CS Oluwaseyi
+  - CS Oluyemi
+  - CS Omolara
+  - CS Omorede
+  - CS Onuwachi
+  - CS Opeyemi
+  - CS Osahar
+  - CS Osakwe
+  - CS Osayaba
+  - CS Osayande
+  - CS Osayimwese
+  - CS Osaze
+  - CS Samuel
+  - CS Stanley
+  - CS Sunday
+  - CS Taiwo
+  - CS Tobi
+  - CS Echechi
+  - CS Uzoma
+  - CS Weke
+  - CS Worie
+femaleFirst:
+  - CS Abagbe
+  - CS Abagebe
+  - CS Abayomi
+  - CS Abebi
+  - CS Abegbe
+  - CS Abeje
+  - CS Abeke
+  - CS Abena
+  - CS Abeo
+  - CS Abidemi
+  - CS Abimbola
+  - CS Abiona
+  - CS Abisola
+  - CS Adamma
+  - CS Adanna
+  - CS Adanya
+  - CS Adebola
+  - CS Adebomi
+  - CS Adedagbo
+  - CS Adedewe
+  - CS Adedoja
+  - CS Adeleke
+  - CS Adenrele
+  - CS Adeola
+  - CS Aderinola
+  - CS Adesimbo
+  - CS Adesina
+  - CS Adeyemi
+  - CS Adio
+  - CS Adjoa
+  - CS Aduke
+  - CS Aina
+  - CS Aiyetoro
+  - CS Ajala
+  - CS Ajani
+  - CS Akanke
+  - CS Alaba
+  - CS Alke
+  - CS Ama
+  - CS Amonke
+  - CS Annakiya
+  - CS Anuli
+  - CS Arria
+  - CS Asabi
+  - CS Auta
+  - CS Ayo
+  - CS Ayobami
+  - CS Ayobunmi
+  - CS Ayodele
+  - CS Ayofemi
+  - CS Ayoka
+  - CS Ayoluwa
+  - CS Ayomide
+  - CS Ayoola
+  - CS Azalee
+  - CS Baderinwa
+  - CS Baina
+  - CS Bayo
+  - CS Becca
+  - CS Bekide
+  - CS Binah
+  - CS Bolade
+  - CS Bolanile
+  - CS Bunmi
+  - CS Chidimma
+  - CS Chika
+  - CS Chinonso
+  - CS Chinue
+  - CS Chioma
+  - CS Chisom
+  - CS Chizoba
+  - CS Cynthia
+  - CS Dada
+  - CS Danuwa
+  - CS Daurama
+  - CS Dayo
+  - CS Dubaku
+  - CS Dumaka
+  - CS Ebele
+  - CS Ebun
+  - CS Edenausegbo
+  - CS Ehizemen
+  - CS Ekaghogho
+  - CS Exenesenarh
+  - CS Enomwoyi
+  - CS Esosa
+  - CS Etinosa
+  - CS Fabayo
+  - CS Faraa
+  - CS Farih
+  - CS Fayola
+  - CS Fayolla
+  - CS Femi
+  - CS Fola
+  - CS Folade
+  - CS Folami
+  - CS Folashade
+  - CS Dolayan
+  - CS Foluke
+  - CS Gimbya
+  - CS Hanna
+  - CS Hasana
+  - CS Hazika
+  - CS Hembadoon
+  - CS Idowu
+  - CS Ifama
+  - CS Ife
+  - CS Ifetayo
+  - CS Ige
+  - CS Ijaba
+  - CS Ikuseghan
+  - CS Innya
+  - CS Irawagbon
+  - CS Isoke
+  - CS Iverem
+  - CS Iyabo
+  - CS Izegbe
+  - CS Joy
+  - CS Jumoke
+  - CS Kehinde
+  - CS Kinah
+  - CS Kiziah
+  - CS Kokumo
+  - CS Limber
+  - CS Lina
+  - CS Lisha
+  - CS Marjorie
+  - CS Mbafor
+  - CS Mbeke
+  - CS Mhonum
+  - CS Monifa
+  - CS Morayo
+  - CS Natashenka
+  - CS Ngozi
+  - CS Nkiruka
+  - CS Nneka
+  - CS Nnenaya
+  - CS Nnenia
+  - CS Nsia
+  - CS Nourbese
+  - CS Nwakaeo
+  - CS Obioma
+  - CS Ode
+  - CS Ofure
+  - CS Olabunmi
+  - CS Olaniyi
+  - CS Olateju
+  - CS Olayinka
+  - CS Olubayo
+  - CS Olubunmi
+  - CS Olufemi
+  - CS Olufunke
+  - CS Olufunmilayo
+  - CS Oluremi
+  - CS Omalara
+  - CS Omolara
+  - CS Omorenoniwara
+  - CS Omorose
+  - CS Omosede
+  - CS Omosupe
+  - CS omusupe
+  - CS Oni
+  - CS Onyeka
+  - CS Osayioniwabo
+  - CS Osemweoyenmwen
+  - CS Oseye
+  - CS Sade
+  - CS Shade
+  - CS Shiminege
+  - CS Tanisha
+  - CS Thema
+  - CS Theresa
+  - CS Titilayo
+  - CS Tobi
+  - CS Uchefuna
+  - CS Urbi
+  - CS Yahimba
+  - CS Yejide
+  - CS Yetunde
+  - CS Yewande
+  - CS Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

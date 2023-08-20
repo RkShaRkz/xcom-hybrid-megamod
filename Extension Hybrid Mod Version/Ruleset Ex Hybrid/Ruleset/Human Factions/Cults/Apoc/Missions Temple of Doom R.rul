@@ -1,0 +1,233 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MISSION_LOC_MANSION: "Temple of Doom"		
+      STR_TEMPLEAPOCASSAULT: "Temple of Doom"	
+      STR_MARKER_MANSION: Temple of Doom 
+      STR_ALERT_MANSION: Temple of Doom 
+      STR_LOC_DARK_ONES_BRIEFING: "{NEWLINE}The Merc Guild has heard rumours that the Cult of Apocalypse is planning to has utilised a small temple to start preaching of their usual bullshit about some creature of Apocalyse would come and save our world one day. If you can destroy their temple by killing them all. A bounty is available to you, should you succeed."
+alienDeployments:
+  - type: STR_TEMPLEAPOCASSAULT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    #startingCondition: STR_TERRORALLOWED
+    randomRace: [STR_APOCALYPSE_CULT,STR_APOCALYPSE_CULT]	
+    enviroEffects: STR_LANDARMOURTOLAND
+    alertDescription: STR_LOC_MANSION_BRIEFING
+    alertBackground: BACK04.SCR		
+    alert: STR_ALERT_MANSION	
+    script: MISSIONAPOCTEMPLEASSAULT	
+    markerName: STR_MARKER_MANSION
+    customUfo: STR_SACRIFICE_ALTAR
+    unlockedResearch: STR_TEMPLESACRIFICE_DONE	
+    width: 50
+    length: 50
+    height: 7
+    music:
+      - GMTACTIC1
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_MISSION_LOC_MANSION
+      desc: STR_LOC_DARK_ONES_BRIEFING
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 7
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+research:		
+  - name: STR_TEMPLESACRIFICE_DONE
+    #requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 50
+    needItem: true
+alienMissions:
+  - type: STR_MISSION_LOC_MANSION
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:	
+      - ufo: STR_TEMPLEAPOCASSAULT
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true
+mapScripts: #done	
+  - type: MISSIONAPOCTEMPLEASSAULT
+    commands:
+    - type: resize
+      size: [8, 8, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		  
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+      terrain: URBANROADSNEW	
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+      terrain: URBANROADSNEW		
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]	
+      terrain: URBANROADSNEW			  
+    - type: fillArea
+      terrain: URBAN			
+missionScripts:
+  - type: DoomMansion1
+    missionWeights:
+      0:
+        STR_MISSION_LOC_MANSION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000	
+    facilityTriggers:
+      STR_MERCFACILITY: true

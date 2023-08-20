@@ -1,0 +1,213 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DEEP_ONE_VILLAGE: "Deepsea Alien Village"
+      STR_DEEP_ONE_VILLAGE_RAID_COMPLETED : "Deepsea Alien Village"
+      STR_DEEP_ONE_VILLAGE_RAID: "Deepsea Alien Village"
+      STR_DEEP_ONE_VILLAGE_RAID_DESCRIPTION: "This is the Merc Guild here. A survey ship from the sea has came accross a deep sea village inhabited by some kind of aliens. This news report has been kept under the table, cause if it is leak, it will cause general panic. There are govt faction paying big money for the elimination of this village. Payment upon job complete."
+      STR_DEEP_ONE_VILLAGE_RAID_BRIEFING: "This is the Merc Guild here. A survey ship from the sea has came accross a deep sea village inhabited by some kind of aliens. This news report has been kept under the table, cause if it is leak, it will cause general panic. There are govt faction paying big money for the elimination of this village. Payment upon job complete."
+alienDeployments:
+  - type: STR_DEEP_ONE_VILLAGE_RAID
+    depth: [3, 3]  
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    music:
+      - GMTACWET
+    width: 50
+    length: 50
+    height: 16
+    minShade: 7
+    alert: STR_DEEP_ONE_VILLAGE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DEEP_ONE_VILLAGE_RAID_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+    markerName: STR_DEEP_ONE_VILLAGE
+    duration: [100, 200]
+    despawnPenalty: 5
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    terrains:
+      - SEABED
+    script: DEEPONEVILLAGERAID
+    data:
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 8
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+mapScripts:	  			
+  - type: DEEPONEVILLAGERAID
+    commands:
+    - type: resize
+      size: [6,6,12]
+    - type: addCraft
+      groups: 1
+      randomTerrain: [SEABED,CORAL]	
+    - type: addUFO
+      groups: 1	
+      randomTerrain: [SEABED,CORAL]
+    - type: addBlock
+      executions: 2 
+      terrain: ENTRYVILLAGE  
+    - type: addBlock
+      executions: 10 
+      terrain: ALARTVILLAGE
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: ALARTVILLAGE
+    - type: fillArea
+      randomTerrain: [SEABED,CORAL]				
+alienMissions:
+  - type: STR_DEEP_ONE_VILLAGE_RAID
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_AQUATOID: 25
+          STR_GILLMAN: 25
+          STR_LOBSTERMAN: 25
+          STR_TASOTH: 25		  
+    waves:
+      - ufo: STR_DEEP_ONE_VILLAGE_RAID
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 13000
+        objective: true
+terrains:
+  - name: ALARTVILLAGE
+    enviroEffects: STR_UNDERWATERMIDEEPENVIRO
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    depth: [1, 2]
+    ambience: 990
+    ambientVolume: 1.5
+    mapBlocks:
+      - name: ALART00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ALART01
+        width: 10
+        length: 10
+      - name: ALART02
+        width: 10
+        length: 10
+      - name: ALART03
+        width: 10
+        length: 10
+      - name: ALART04
+        width: 10
+        length: 10
+      - name: ALART05
+        width: 10
+        length: 10
+      - name: ALART06
+        width: 10
+        length: 10
+      - name: ALART07
+        width: 10
+        length: 10
+      - name: ALART08
+        width: 10
+        length: 10
+      - name: ALART10
+        width: 20
+        length: 20
+      - name: ALART11
+        width: 20
+        length: 20	
+  - name: ENTRYVILLAGE
+    enviroEffects: STR_UNDERWATERREALLYDEEPENVIRO  
+    music:
+      - GMTACWET
+    depth: [2, 3]
+    ambience: 990
+    ambientVolume: 1.5
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    mapBlocks:
+      - name: ENTRY00
+        width: 20
+        length: 20
+      - name: ENTRY02
+        width: 20
+        length: 20
+      - name: ENTRY06
+        width: 20
+        length: 20
+      - name: ENTRY08
+        width: 20
+        length: 20			
+missionScripts:
+  - type: DeepOneVillageEarly0
+    firstMonth: 0
+    executionOdds: 70
+    missionWeights:
+      0:
+        STR_DEEP_ONE_VILLAGE_RAID: 100
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true  
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

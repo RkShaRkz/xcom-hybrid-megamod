@@ -1,0 +1,121 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_DEATH_AND_TAXES: "Bandit Hostages rescue" 
+      STR_MARKER_DEATH_AND_TAXES: "Bandit Hostages rescue"
+      STR_ALERT_DEATH_AND_TAXES: "Bandit Hostages rescue"
+      STR_LOC_DEATH_AND_TAXES_BRIEFING: "The Merc Guild has a job for us, some Bandits has taken a town's population hostage. Your job is to eliminate these bandits scum. Appropriate reward will be given upon the job complete. Any hostage casulties will be cut from your reward."  
+alienDeployments:
+  - type: STR_LOC_DEATH_AND_TAXES
+    alert: STR_ALERT_DEATH_AND_TAXES
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_DEATH_AND_TAXES_BRIEFING
+    briefing:
+      palette: 4
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_DEATH_AND_TAXES
+      desc: STR_LOC_DEATH_AND_TAXES_BRIEFING
+    markerName: STR_MARKER_DEATH_AND_TAXES
+    duration: [50, 100]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    civilians: 8
+    script: TAXTOWNPAWN	
+    data:
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+alienMissions:
+  - type: STR_LOC_DEATH_AND_TAXES
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10
+    waves:
+      - ufo: STR_LOC_DEATH_AND_TAXES
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: TAXTOWNPAWN
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1	
+    - type: addBlock
+      executions: 10 
+      terrain: URBAN	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN	
+missionScripts:
+  - type: deathAndTaxes
+    firstMonth: 0
+    #lastMonth: 3
+    missionWeights:
+      0:
+        STR_LOC_DEATH_AND_TAXES: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

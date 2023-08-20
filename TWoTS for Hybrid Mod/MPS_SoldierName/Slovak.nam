@@ -1,0 +1,184 @@
+lookWeights:
+  - 45
+  - 55
+  - 0
+  - 0
+maleFirst:
+  - MPS Andrej
+  - MPS Arpad
+  - MPS Branislav
+  - MPS Ctibor
+  - MPS David
+  - MPS Dusan
+  - MPS Frantisek
+  - MPS Jakub
+  - MPS Jan
+  - MPS Jaroslav
+  - MPS Jozef
+  - MPS Juraj
+  - MPS Julius
+  - MPS Ladislav
+  - MPS Lubomir
+  - MPS Lubos
+  - MPS Ludovit
+  - MPS Lukas
+  - MPS Martin
+  - MPS Matej
+  - MPS Michal
+  - MPS Milan
+  - MPS Miroslav
+  - MPS Mojmir
+  - MPS Ondrej
+  - MPS Pavol
+  - MPS Peter
+  - MPS Radomir
+  - MPS Radoslav
+  - MPS Rastislav
+  - MPS Richard
+  - MPS Roman
+  - MPS Slavomir
+  - MPS Stanislav
+  - MPS Tomas
+  - MPS Vladimir
+  - MPS Vratko
+  - MPS Zdeno
+femaleFirst:
+  - MPS Adela
+  - MPS Agata
+  - MPS Andrea
+  - MPS Anna
+  - MPS Dasa
+  - MPS Elena
+  - MPS Eva
+  - MPS Hana
+  - MPS Helena
+  - MPS Ivana
+  - MPS Jarmila
+  - MPS Jaroslava
+  - MPS Katarina
+  - MPS Karolina
+  - MPS Kristina
+  - MPS Kvetoslava
+  - MPS Lenka
+  - MPS Linda
+  - MPS Lucia
+  - MPS Ludmila
+  - MPS Maria
+  - MPS Michaela
+  - MPS Milena
+  - MPS Monika
+  - MPS Natalia
+  - MPS Nela
+  - MPS Petra
+  - MPS Tatiana
+  - MPS Tereza
+  - MPS Veronika
+  - MPS Viera
+  - MPS Zdenka
+  - MPS Zoja
+  - MPS Zora
+  - MPS Zuzana
+maleLast:
+  - Baca
+  - Banik
+  - Beno
+  - Bezdicka
+  - Bondra
+  - Bosansky
+  - Brezina
+  - Cernuska
+  - Cyprich
+  - Dano
+  - Dula
+  - Filip
+  - Gernic
+  - Gregor
+  - Gregus
+  - Goga
+  - Halak
+  - Halda
+  - Haluska
+  - Hascak
+  - Holub
+  - Horvath
+  - Janik
+  - Janosik
+  - Janoska
+  - Jurina
+  - Keniz
+  - Kmet
+  - Kolesar
+  - Kolnik
+  - Kostrec
+  - Kovac
+  - Liptak
+  - Liska
+  - Lukac
+  - Majesky
+  - Marian
+  - Medved
+  - Mihalik
+  - Mikus
+  - Mojzis
+  - Molnar
+  - Nagy
+  - Nemec
+  - Novak
+  - Ondrejkovic
+  - Ondrus
+  - Oravec
+  - Pasko
+  - Pavlas
+  - Pavuk
+  - Prochazka
+  - Rakocz
+  - Senko
+  - Skokan
+  - Slezak
+  - Sloboda
+  - Slovak
+  - Szabo
+  - Toma
+  - Valovsky
+  - Varga
+  - Vaskovic
+  - Viktorin
+femaleLast:
+  - Adamcova
+  - Banasova
+  - Dubovska
+  - Durianova
+  - Farkasovska
+  - Ficova
+  - Filipova
+  - Haluskova
+  - Heckova
+  - Hubinska
+  - Janosikova
+  - Kocisova
+  - Kovacikova
+  - Kovacova
+  - Kovacova
+  - Krajcirova
+  - Kubincova
+  - Luptakova
+  - Mala
+  - Malachovska
+  - Martinova
+  - Matusova
+  - Melcerova
+  - Mikusova
+  - Moravcova
+  - Nemcova
+  - Oravcova
+  - Patrikova
+  - Peskova
+  - Petrovicka
+  - Plchova
+  - Puchertova
+  - Rusova
+  - Senkova
+  - Simekova
+  - Slobodova
+  - Sturova
+  - Vacvalova

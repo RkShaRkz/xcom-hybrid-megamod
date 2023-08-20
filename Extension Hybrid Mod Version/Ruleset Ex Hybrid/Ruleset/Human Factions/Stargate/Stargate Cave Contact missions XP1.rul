@@ -1,0 +1,165 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHEYENNEMOUNTAINCOMPLEXCAVES: "Stargate Command Cheyenne Mountain Complex"	
+      STR_CAVES: "Stargate Cave Contact missions "
+      STR_ALERT_CAVES: "Stargate Cave Contact missions "
+      STR_HIDDEN_CAVES_FEW: "Stargate Cave Contact missions "
+      STR_HIDDEN_CAVES: "Stargate Cave Contact missions "
+      STR_HIDDEN_CAVES_UFOPEDIA: "Stargate Command has recently made contact with a new gate address. This address lead to a cave complex that require a good size unit to explore and clear it out. Payment will be made, upon the mission completion."
+      STR_HIDDEN_CAVES_FEW_BRIEFING: "Stargate Command has recently made contact with a new gate address. This address lead to a cave complex that require a good size unit to explore and clear it out. Payment will be made, upon the mission completion."
+      STR_HIDDEN_CAVES_DESCRIPTION: "Stargate Command has recently made contact with a new gate address. This address lead to a cave complex that require a good size unit to explore and clear it out. Payment will be made, upon the mission completion."
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXCAVES
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 
+    duration: [25, 10000000000000]	
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_HIDDEN_CAVES_FEW
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_HIDDEN_CAVES_FEW
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL  
+    unlockedResearch: STR_HIDDEN_CAVESCOMPLETE	
+    width: 60
+    length: 60
+    height: 14
+    shade: 9
+    alert: STR_ALERT_CAVES
+    alertBackground: BACK04.SCR
+    alertDescription: STR_HIDDEN_CAVES_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+    music:
+      - GMTACTIC
+    markerName: STR_CAVES
+    duration: [25, 10000000000000]
+    despawnPenalty: 10
+    enviroEffects: STR_LANDARMOURTOLAND
+    terrains:
+      - BLACKCAVE_A
+      - BLACKCAVE_B
+      - BLACKCAVE_C
+      - BLACKCAVE_D
+    script: CAVEHIDDEN  
+    data:
+      - alienRank: 7
+        lowQty: 3
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_HIDDEN_CAVES_FEW
+    #interruptResearch: STR_INTO_THE_DARK
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CEREBREAL: 100
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXCAVES
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+research:		
+  - name: STR_HIDDEN_CAVESCOMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+mapScripts:	  
+  - type: CAVEHIDDEN
+    commands:
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+    - type: addBlock
+      groups: 2
+      terrain: STARGATECAVEENTRY 
+    - type: fillArea
+      terrain: STARGATECAVEPASSAGE
+    - type: addBlock # Cave terrains
+      terrain: BLACKCAVE_A
+      size: 2
+      rects:
+        - [4, 2, 2, 2]
+    - type: addBlock
+      terrain: BLACKCAVE_A
+      size: 2
+      rects:
+        - [4, 4, 2, 2]
+    - type: addBlock
+      terrain: BLACKCAVE_A
+      size: 2
+      rects:
+        - [0, 0, 2, 2]
+    - type: addBlock
+      terrain: BLACKCAVE_A
+      size: 2
+      rects:
+        - [2, 0, 2, 2]		  
+missionScripts:
+  - type: hiddenCavesFew3
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_HIDDEN_CAVES_FEW: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: hiddencavessa
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_HIDDEN_CAVESCOMPLETE: false
+      STR_STARGATE: true 
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

@@ -1,0 +1,181 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_MANSION_DEFENSE_SYNDICATE: "Govt Official Seige"
+        STR_MANSION_DEFENSE_SYNDICATE_DESCRIPTION: "The Merc Guild has uncovered a scoop that a Govt official is holed up in a fort with body guards and Mercs, while Hostile forces are trying to capture the official. Your unit is urgently required in relieving this seige."
+        STR_MANSION_DEFENSE_SYNDICATE_BRIEFING: "The Merc Guild has uncovered a scoop that a Govt official is holed up in a fort with body guards and Mercs, while Hostile  forces are trying to capture the official. Your unit is urgently required in relieving this seige."
+alienDeployments:
+  - type: STR_MANSION_DEFENSE_SYNDICATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND   
+    width: 80
+    length: 80
+    height: 16
+    alert: STR_ALERT_MANSION_DEFENSE_SYNDICATE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MANSION_DEFENSE_SYNDICATE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_MANSION_DEFENSE_SYNDICATE_BRIEFING	  
+    markerName: STR_MANSION_DEFENSE_SYNDICATE
+    duration: [130, 260]
+    despawnPenalty: 1000
+    music:
+      - GMTACTIC
+    script: GENERALFORTDEFENSE
+    customUfo: STR_BARRACK
+    data:
+      - alienRank: 6
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 10
+        highQty: 20
+        dQty: 5
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 10
+        highQty: 20
+        dQty: 5
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 3
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: GENERALFORTDEFENSE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,1]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1
+      - type: decoration
+        size: [1,1,1]
+        terrain: SMALLBARRACKFORTDEFENSE
+        maxRepeats: 1 		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain
+ufos:		
+  - type: STR_BARRACK
+    battlescapeTerrainData:
+      name: SMALLRRISON
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - XBASE1		
+      mapBlocks:
+        - name: SMALLPRISONPIRATEZ
+          width: 10
+          length: 10
+          items:
+            STR_SPAWN_CIVILIAN_COUNCIL_MEMBERN:
+              - [4, 3, 2]	
+            STR_GUARD_SPAWNERN:
+              - [4, 3, 2]
+              - [4, 5, 0]
+              - [4, 5, 0]    
+              - [4, 5, 0]
+              - [4, 5, 0]   
+              - [4, 5, 0]
+              - [4, 5, 0]   
+          fuseTimers:
+            STR_SPAWN_CIVILIAN_COUNCIL_MEMBERN: [0, 0]
+            STR_GUARD_SPAWNERN: [0, 0]
+items: 		
+  - type: STR_SPAWN_CIVILIAN_COUNCIL_MEMBERN
+    spawnUnit: STR_COUNCIL_MEMBER
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_GUARD_SPAWNERN
+    spawnUnit: STR_MALE_CIVILIAN_BODYGUARD
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+alienMissions:
+  - type: STR_MANSION_DEFENSE_SYNDICATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SYNDICATE: 10
+          STR_NINJA: 10
+          STR_BANDIT_ROBBERS: 10
+          STR_SPARTANS: 10
+          STR_MIXED_KKK: 10
+          STR_MAGMA_MERCS: 10
+          STR_GOVT: 10
+          STR_UAC: 10
+          STR_MIB: 10	
+          STR_GUILD: 10		  
+    waves:
+      - ufo: STR_MANSION_DEFENSE_SYNDICATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: syndicateMansionDefense
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_MANSION_DEFENSE_SYNDICATE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 5000
+    randomDelay: 25000
+    facilityTriggers:
+      STR_MERCFACILITY: true

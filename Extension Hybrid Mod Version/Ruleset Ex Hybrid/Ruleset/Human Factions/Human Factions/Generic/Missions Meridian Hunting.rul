@@ -1,0 +1,99 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MERIDIAN_HUNTING_UFOPEDIA: "There is a bounty hunter with a notorius reputation has been attacking the Mercenary guild members in the past. This time, we have report of his location. Eliminate him. The Mercenary guild will pay you handsomely for his death."		
+      STR_BOUNTY_HUNTERS: "Bounty Hunter"	
+      STR_MERIDIAN_HUNTING_DESCRIPTION: "There is a bounty hunter with a notorius reputation has been attacking the Mercenary guild members in the past. This time, we have report of his location. Eliminate him. The Mercenary guild will pay you handsomely for his death."
+      STR_MERIDIAN_HUNTING_BRIEFING: "There is a bounty hunter with a notorius reputation has been attacking the Mercenary guild members in the past. This time, we have report of his location. Eliminate him. The Mercenary guild will pay you handsomely for his death."
+      STR_MERIDIAN_HUNTING: "Meridian Hunting"
+      STR_ALERT_MERIDIAN_HUNTING: "MERIDIAN THE HUNTER LOCATED IN"    
+research:	  
+  - name: STR_MERIDIAN_HUNTED
+    ##requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 0	  
+alienDeployments:
+  - type: STR_MERIDIAN_HUNTING
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE   
+    width: 70
+    length: 70
+    height: 18
+    alert: STR_ALERT_MERIDIAN_HUNTING
+    alertBackground: MERIDIAN_BACKGROUND.SCR
+    alertDescription: STR_MERIDIAN_HUNTING_DESCRIPTION
+    briefing:
+      background: MERIDIAN_BACKGROUND.SCR
+      palette: 2
+      music: GMENBASE
+      showTarget: false
+      desc: STR_MERIDIAN_HUNTING_BRIEFING 
+    markerName: STR_MERIDIAN_HUNTING
+    duration: [25, 10000000000000]
+    despawnPenalty: 50
+    unlockedResearch: STR_MERIDIAN_HUNTED
+    enviroEffects: STR_LANDARMOURTOLAND
+    music:
+      - GMTACTIC
+    script: LOCSCRIPTSXP1
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: LOCSCRIPTSXP1
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain				
+alienMissions:
+  - type: STR_MERIDIAN_HUNTING
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_BOUNTY_HUNTERS: 100
+    waves:
+      - ufo: STR_MERIDIAN_HUNTING
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true  	
+missionScripts:
+  - type: meridianHunting
+    firstMonth: 0
+    executionOdds: 4
+    useTable: false	
+    varName: meridianhuntingawsed
+    maxRuns: 1		
+    missionWeights:
+      0:
+        STR_MERIDIAN_HUNTING: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    researchTriggers:
+      STR_MERIDIAN_HUNTED: false
+    facilityTriggers:
+      STR_MERCFACILITY: true
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

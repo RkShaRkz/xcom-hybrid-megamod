@@ -1,0 +1,104 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_CYBERWEB_FORTRESS_ASSAULT_DESCRIPTION: "This is the Merc Guild here, we have reports of a fortress taken over by the CyberRobotics Syndicate. There are other factions paying good money to see them gone. Your unit is offer the job, the mission's completion will ensure of you getting top dollar"
+        STR_CYBERWEB_FORTRESS_ASSAULT_BRIEFING: "This is the Merc Guild here, we have reports of a fortress taken over by the CyberRobotics Syndicate. There are other factions paying good money to see them gone.  Your unit is offer the job, the mission's completion will ensure of you getting top dollar"
+        STR_CYBERWEB_FORTRESS_ASSAULT: "CyberRobotics Fortress Capture"
+alienDeployments:
+  - type: STR_CYBERWEB_FORTRESS_ASSAULT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    width: 70
+    length: 70
+    height: 18
+    shade: 0
+    alert: STR_CYBERWEB_FORTRESS_ASSAULT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CYBERWEB_FORTRESS_ASSAULT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CYBERWEB_FORTRESS_ASSAULT_BRIEFING	  
+    markerName: STR_CYBERWEB_FORTRESS_ASSAULT
+    duration: [200, 300]
+    despawnPenalty: 50
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    script: GENERALSPAWNXP1
+    music:
+      - GMTACTIC
+    customUfo: STR_KEEP
+    data:
+      - alienRank: 5
+        lowQty: 7
+        highQty: 13
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 6
+        highQty: 15
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 12
+        highQty: 18
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 5
+        highQty: 9
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CYBERWEB_FORTRESS_ASSAULT
+    #interruptResearch: STR_CYBERWEB_FORTRESS_SECURED
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CYBERWEB: 100
+    waves:
+      - ufo: STR_CYBERWEB_FORTRESS_ASSAULT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true	
+missionScripts:
+  - type: CyberwebFortressAssault
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_CYBERWEB_FORTRESS_ASSAULT: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

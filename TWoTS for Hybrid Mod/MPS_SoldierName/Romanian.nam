@@ -1,0 +1,128 @@
+lookWeights:
+  - 49
+  - 50
+  - 1
+  - 0
+maleFirst:
+  - MPS Adrian
+  - MPS Alexandru
+  - MPS Andrei
+  - MPS Bogdan
+  - MPS Catalin
+  - MPS Claudiu
+  - MPS Constantin
+  - MPS Cornel
+  - MPS Cosmin
+  - MPS Daniel
+  - MPS Dragos
+  - MPS Dumitru
+  - MPS Emil
+  - MPS Eugen
+  - MPS Florin
+  - MPS Gabriel
+  - MPS George
+  - MPS Gheorghe
+  - MPS Ilie
+  - MPS Ion
+  - MPS Liviu
+  - MPS Lucian
+  - MPS Marian
+  - MPS Marius
+  - MPS Mihai
+  - MPS Nicu
+  - MPS Octavian
+  - MPS Ovidiu
+  - MPS Petre
+  - MPS Radu
+  - MPS Robert
+  - MPS Sergiu
+  - MPS Silviu
+  - MPS Sorin
+  - MPS Stefan
+  - MPS Tiberiu
+  - MPS Tudor
+  - MPS Vasile
+  - MPS Viorel
+  - MPS Vlad
+femaleFirst:
+  - MPS Adelina
+  - MPS Alexandra
+  - MPS Alina
+  - MPS Ana
+  - MPS Andreea
+  - MPS Angela
+  - MPS Carmen
+  - MPS Catalina
+  - MPS Claudia
+  - MPS Corina
+  - MPS Dana
+  - MPS Daniela
+  - MPS Doina
+  - MPS Elena
+  - MPS Elisabeta
+  - MPS Felicia
+  - MPS Florentina
+  - MPS Gabriela
+  - MPS Georgiana
+  - MPS Gina
+  - MPS Ileana
+  - MPS Ioana
+  - MPS Irina
+  - MPS Iulia
+  - MPS Laura
+  - MPS Magda
+  - MPS Maria
+  - MPS Mariana
+  - MPS Mihaela
+  - MPS Mirela
+  - MPS Monica
+  - MPS Nadia
+  - MPS Nicoleta
+  - MPS Oana
+  - MPS Rodica
+  - MPS Roxana
+  - MPS Simona
+  - MPS Stefania
+  - MPS Violeta
+  - MPS Viorica
+maleLast:
+  - Anton
+  - Banica
+  - Barbu
+  - Cojocaru
+  - Constantin
+  - Cristea
+  - Dobre
+  - Dragomir
+  - Dumitru
+  - Ene
+  - Florea
+  - Georgescu
+  - Iancu
+  - Ilie
+  - Ionescu
+  - Iordan
+  - Lazar
+  - Luca
+  - Marinescu
+  - Mihalcea
+  - Munteanu
+  - Nastase
+  - Nicolae
+  - Nistor
+  - Olaru
+  - Olteanu
+  - Parvu
+  - Petre
+  - Popescu
+  - Preda
+  - Radu
+  - Sabau
+  - Savu
+  - Serban
+  - Stanciu
+  - Stanescu
+  - Tanase
+  - Tudor
+  - Ungureanu
+  - Voinea

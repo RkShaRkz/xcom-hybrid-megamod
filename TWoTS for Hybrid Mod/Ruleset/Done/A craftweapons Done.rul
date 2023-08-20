@@ -1,0 +1,33 @@
+craftWeapons:   
+#  - type: STR_SONIC_OSCILLATOR_UC
+#    weaponType: 1
+#    damage: 120
+#    range: 50
+#    accuracy: 45
+#    ammoMax: 50
+#    rearmRate: 50
+#    reloadCautious: 24
+#    reloadStandard: 18
+#    reloadAggressive: 14
+#    clip: STR_ZRBITE_BATTERY      
+  - type: STR_CRAFT_SHIELD
+    weaponType: 2
+    sprite: 64
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_SHIELD_GENERATOR
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      shieldCapacity: 150
+      shieldRecharge: 0
+      shieldRechargeInGeoscape: 0
+      speedMax: -250
+      radarRange: -150

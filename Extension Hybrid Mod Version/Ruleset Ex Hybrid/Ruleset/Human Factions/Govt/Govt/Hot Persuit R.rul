@@ -1,0 +1,74 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_LOC_HOT_PURSUITS: Rival Elimination
+      STR_LOC_HOT_PURSUITS_BRIEFING: "The Mercenary Guild has gotten a hot tip lately that a Govt faction has launch a weapon strike on a rival Govt's industrial facility. The Rival Govt wants the facility and its defending forces eliminated. The Rival Govt will pay top dollar for the job, since they want plausible denial and only a dirty Mercenary unit will be hired for it. Do it and the pay is yours."
+      STR_MARKER_HOT_PURSUITS: Rival Elimination
+      STR_ALERT_HOT_PURSUITS: Rival Elimination  
+alienDeployments:
+  - type: STR_LOC_HOT_PURSUITS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  
+    alert: STR_ALERT_HOT_PURSUITS
+    alertDescription: STR_LOC_HOT_PURSUITS_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 1
+      background: BACK04.SCR
+      title: STR_LOC_HOT_PURSUITS  
+      desc: STR_LOC_HOT_PURSUITS_BRIEFING
+    markerName: STR_MARKER_HOT_PURSUITS
+    duration: [54, 100]
+    width: 60
+    length: 60
+    height: 17
+    civilians: 6
+    terrains:
+      - CHEMTOWNHOTPURSUITS
+    data:
+      - alienRank: 2
+        lowQty: 5
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_HOT_PURSUITS
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_NAZISEXP: 50	
+          STR_NAZIS_TERROR: 50	
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: HotPursuits
+    firstMonth: 7
+    missionWeights:
+      0:
+        STR_LOC_HOT_PURSUITS: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_PUBSANDBROTHEL: true

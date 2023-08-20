@@ -1,0 +1,133 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_OF_APOCALYPSE_CITY_RIOT: "Cult City Riot Control"
+      STR_ALERT_CULT_OF_APOCALYPSE_CITY_RIOT: "Cult City Riot Control"
+      STR_CULT_OF_APOCALYPSE_CITY_RIOT_BRIEFING: "This is Merc Guild here, we have information that a major cult has intigated a riot in this town with the goal at trying to gaining control of it. Your job is to eliminate all Cultist and restore order to the city."
+      STR_CULT_OF_APOCALYPSE_CITY_RIOT_DESCRIPTION: "This is Merc Guild here, we have information that a major cult has intigated a riot in this town with the goal at trying to gaining control of it. Your job is to eliminate all Cultist and restore order to the city."
+alienDeployments:
+  - type: STR_CULT_OF_APOCALYPSE_CITY_RIOT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_CULT_OF_APOCALYPSE_CITY_RIOT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_OF_APOCALYPSE_CITY_RIOT_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_CULT_OF_APOCALYPSE_CITY_RIOT_BRIEFING	  
+    music:
+      - GMTACTIC
+    script: CITYRIOT
+    markerName: STR_CULT_OF_APOCALYPSE_CITY_RIOT
+    duration: [72, 144]
+    despawnPenalty: 450
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 7
+        highQty: 17
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: CITYRIOT
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN
+    - type: fillArea
+      terrain: URBAN				
+alienMissions:
+  - type: STR_CULT_OF_APOCALYPSE_CITY_RIOT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CHURCHPIRATE: 25		  
+          STR_CHURCH_OF_DAGON: 25
+    waves:
+      - ufo: STR_CULT_OF_APOCALYPSE_CITY_RIOT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: cultOfApocalypseCityRiot
+    firstMonth: 21
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_CULT_OF_APOCALYPSE_CITY_RIOT: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,675 @@
+extraStrings:
+  - type: en-US
+    strings:		
+      STR_MAGMA_COSMONAUTID: "M.A.G.M.A. Cosmonaut ID"	
+      STR_MALE_MAGMA_HEAVYID: "M.A.G.M.A. Heavy ID" 
+      STR_MALE_MAGMA_POWER_GRUNTID: "M.A.G.M.A. Power Grunt ID" 
+      STR_FEMALE_MAGMA_POWER_GRUNTID: "M.A.G.M.A. Power Gruntess ID"
+      STR_MALE_MAGMA_SECURITYID: "M.A.G.M.A. Security ID" 
+      STR_FEMALE_MAGMA_SECURITYID: "M.A.G.M.A. Security ID" 	
+      STR_MAGMA_COSMONAUT: "M.A.G.M.A. Cosmonaut"	
+      STR_MALE_MAGMA_HEAVY: "M.A.G.M.A. Heavy" 
+      STR_MALE_MAGMA_POWER_GRUNT: "M.A.G.M.A. Power Grunt" 
+      STR_FEMALE_MAGMA_POWER_GRUNT: "M.A.G.M.A. Power Gruntess"
+      STR_MALE_MAGMA_SECURITY: "M.A.G.M.A. Security" 
+      STR_FEMALE_MAGMA_SECURITY: "M.A.G.M.A. Security" 	  
+      STR_MAGMA_MERCS: "M.A.G.M.A. Mercs"	  
+      STR_MAGMA_MERCS_UFOPEDIA: "The M.A.G.M.A. Mercs are a real elite bunch of Mercs. They are formed from an ex-special forces unit and has retained of their elite experience and skills by hiring only the best and equiped with the best. As for what M.A.G.M.A stands for, they won't tell a soul, if you are an outsider. If you are facing these Mercs, be prepare for the fight of your life. If you are hiring them, good luck, for they are picky on who can hire them."    
+ufopaedia:
+  - id: STR_MAGMA_MERCS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MAGMA_MERCS_UFOPEDIA
+    requires:
+      - STR_MAGMA_MERCS
+    listOrder: 56600
+research:	
+  - name: STR_FEMALE_MAGMA_SECURITY
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MAGMA_MERCS	
+  - name: STR_MALE_MAGMA_SECURITY
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MAGMA_MERCS	
+  - name: STR_FEMALE_MAGMA_POWER_GRUNT
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MAGMA_MERCS	
+  - name: STR_MALE_MAGMA_POWER_GRUNT
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MAGMA_MERCS	
+  - name: STR_MALE_MAGMA_HEAVY
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MAGMA_MERCS	
+  - name: STR_MAGMA_COSMONAUT
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+    unlocks:
+      - STR_MAGMA_MERCS
+  - name: STR_MAGMA_MERCS
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_HEAVY
+      - STR_MAGMA_COSMONAUT
+      - STR_FEMALE_MAGMA_SECURITY
+      - STR_MALE_MAGMA_SECURITY
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+alienRaces:
+  - id: STR_MAGMA_MERCS
+    members:
+      - STR_MAGMA_COSMONAUT
+      - STR_MALE_MAGMA_HEAVY  
+      - STR_MALE_MAGMA_HEAVY
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_HEAVY
+      - STR_MALE_MAGMA_SECURITY
+      - STR_MALE_MAGMA_SECURITY
+      - STR_MALE_MAGMA_SECURITY
+      - STR_FEMALE_MAGMA_SECURITY
+      - STR_FEMALE_MAGMA_SECURITY
+    retaliationAggression: -100		
+  - id: STR_MAGMA_MERCS_UNDERWATER	  	
+    retaliationAggression: -100
+    members:
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MALE_MAGMA_POWER_GRUNT
+      - STR_FEMALE_MAGMA_POWER_GRUNT
+      - STR_MAGMA_COSMONAUT
+      - STR_MAGMA_COSMONAUT
+      - STR_MAGMA_COSMONAUT
+      - STR_MAGMA_COSMONAUT
+      - STR_MAGMA_COSMONAUT		  
+armors:
+  - type: STR_MALE_MAGMA_HEAVY_ARMOR
+    spriteSheet: MAGMA_HEAVY.PCK
+    spriteInv: inventory_MALE_MAGMA_SECURITY
+    corpseBattle:
+      - STR_MALE_MAGMA_HEAVY_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 22
+    underArmor: 20
+    #psiDefence: *StandardDynamic#psiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.04
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_ARMORED_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_MAGMA_SECURITY_ARMOR
+    spriteSheet: MAGMA_SECURITY.PCK
+    spriteInv: inventory_MALE_MAGMA_SECURITY
+    corpseBattle:
+      - STR_MALE_MAGMA_SECURITY_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 32
+    sideArmor: 28
+    rearArmor: 25
+    underArmor: 20
+    #psiDefence: *StandardDynamic#psiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.04
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &MAGMASecurityResists
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_ARMORED_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_MAGMA_SECURITY_ARMOR
+    spriteSheet: MAGMA_SECURITY.PCK
+    spriteInv: inventory_FEMALE_MAGMA_SECURITY
+    forcedTorso: 2
+    corpseBattle:
+      - STR_FEMALE_MAGMA_SECURITY_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 32
+    sideArmor: 28
+    rearArmor: 25
+    underArmor: 20
+    #psiDefence: *StandardDynamic#psiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.04
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_ARMORED_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_MAGMA_POWER_ARMOR
+    spriteSheet: MAGMA_POWER_ARMOR.PCK
+    spriteInv: inventory_MAGMA_POWER_ARMOR
+    customArmorPreviewIndex: 47
+    forcedTorso: 1
+    corpseBattle:
+      - STR_MAGMA_POWER_ARMOR_CORPSE
+    visibilityAtDark: 12
+    weight: -40
+    stats:
+      tu: -10
+      reactions: -15
+      throwing: -10
+      melee: -15
+    frontArmor: 100
+    sideArmor: 100
+    rearArmor: 80
+    underArmor: 70
+    #psiDefence: *StandardDynamic#psiDefence
+    allowsRunning: false
+    allowsKneeling: false
+    recovery:
+      morale:
+        flatHundred: -0.1
+        #manaNormalized: 14.0
+      time:
+        tu: 0.5
+        #manaNormalized: 125.0
+      energy:
+        #manaNormalized: 40
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        #manaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &MAGMAPowerArmor
+      - 1.0
+      - 0.8
+      - 0.1
+      - 0.8
+      - 1.0
+      - 1.2
+      - 0.7
+      - 1.1
+      - 1.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_POWER_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_ASTRONAUT_ARMOR
+    spriteSheet: ASTRONAUT.PCK
+    spriteInv: inventory_ASTRONAUT
+    corpseBattle:
+      - STR_ASTRONAUT_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &AstronautResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_ARMORED_VEST
+    loftempsSet: [ 3 ]	  
+units:	
+  - type: STR_MALE_MAGMA_HEAVY
+    race: STR_HUMAN
+    stats:
+      tu: 53
+      stamina: 66
+      health: 50
+      bravery: 80
+      reactions: 33
+      firing: 52
+      throwing: 48
+      strength: 55
+      psiStrength: 33
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_MALE_MAGMA_HEAVY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 2
+    sniper: 75
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+  - type: STR_MALE_MAGMA_SECURITY
+    race: STR_HUMAN
+    stats:
+      tu: 48
+      stamina: 62
+      health: 50
+      bravery: 80
+      reactions: 33
+      firing: 52
+      throwing: 48
+      strength: 50
+      psiStrength: 33
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_MALE_MAGMA_SECURITY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 3
+    sniper: 30
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+  - type: STR_FEMALE_MAGMA_SECURITY
+    race: STR_HUMAN
+    stats:
+      tu: 48
+      stamina: 62
+      health: 50
+      bravery: 80
+      reactions: 33
+      firing: 52
+      throwing: 48
+      strength: 50
+      psiStrength: 33
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_FEMALE_MAGMA_SECURITY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [44, 45, 46]
+    intelligence: 2
+    aggression: 3
+    sniper: 30
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+  - type: STR_MALE_MAGMA_POWER_GRUNT
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 60
+      health: 50
+      bravery: 80
+      reactions: 36
+      firing: 55
+      throwing: 52
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_MAGMA_POWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    deathSound: [41, 42, 43]
+    intelligence: 3
+    aggression: 3
+    sniper: 50
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+  - type: STR_FEMALE_MAGMA_POWER_GRUNT
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 60
+      health: 50
+      bravery: 80
+      reactions: 36
+      firing: 55
+      throwing: 52
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_MAGMA_POWER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    deathSound: [41, 42, 43]
+    intelligence: 3
+    aggression: 3
+    sniper: 50
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_MINIGUN
+        - STR_MINIGUN_CLIP
+        - STR_MINIGUN_CLIP
+        - STR_MINIGUN_CLIP
+  - type: STR_MAGMA_COSMONAUT
+    race: STR_HUMAN
+    stats:
+      tu: 54
+      stamina: 68
+      health: 40
+      bravery: 80
+      reactions: 35
+      firing: 45
+      throwing: 30
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 35
+      #mana: 65
+    armor: STR_ASTRONAUT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 35
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_HEAVY_LASER
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+items:	
+  - type: STR_MALE_MAGMA_HEAVY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 50
+    bigSprite: 611
+    floorSprite: 478
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_MAGMA_SECURITY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 50
+    bigSprite: 611
+    floorSprite: 478
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_FEMALE_MAGMA_SECURITY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 46
+    bigSprite: 612
+    floorSprite: 478
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 60
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MAGMA_POWER_ARMOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.6
+    weight: 80
+    bigSprite: 1129
+    floorSprite: 965
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 100
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_ASTRONAUT_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 132
+    floorSprite: 900
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: -30
+  - type: STR_MAGMA_COSMONAUT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 40000
+    listOrder: 152410		
+  - type: STR_MALE_MAGMA_HEAVY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000   		
+  - type: STR_MALE_MAGMA_POWER_GRUNT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000  		
+  - type: STR_FEMALE_MAGMA_POWER_GRUNT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 40000	 		
+  - type: STR_MALE_MAGMA_SECURITY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000   	 	
+  - type: STR_FEMALE_MAGMA_SECURITY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 40000			

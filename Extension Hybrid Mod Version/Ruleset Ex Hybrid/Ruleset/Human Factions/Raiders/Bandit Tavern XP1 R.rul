@@ -1,0 +1,125 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_WESTMEN_TAVERN_RAID: "Bandit Tavern"
+      STR_WESTMEN_TAVERN_RAID_BRIEFING: "The Merc Guild has news of a tavern is dealing in criminal actitivies. Drugs, Money laundering and any crime you can name, this tavern is hosting them all. Shut it down with its Raider rabble, and you will get paid."  
+alienDeployments:
+  - type: STR_WESTMEN_TAVERN_RAID
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED   
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDARMOURTOLAND 
+    width: 40
+    length: 20
+    height: 18
+    alert: STR_ALERT_WESTMEN_TAVERN
+    alertBackground: BACK04.SCR
+    alertDescription: STR_WESTMEN_SHADY_TAVERN_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_WESTMEN_TAVERN_RAID_BRIEFING
+    markerName: STR_WESTMEN_SHADY_TAVERN
+    duration: [72, 144]
+    despawnPenalty: 100
+    script: DTAVERNMISSION
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 11
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 9
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+ufos:
+  - type: STR_LOC_TAVERN
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: CANNIBALCAMP
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN		
+      mapBlocks:
+        - name: D_TAVERN
+          width: 30
+          length: 20		  
+          revealedFloors: [0, 1, 2]	
+mapScripts:	 
+  - type: DTAVERNMISSION
+    commands:
+    - type: resize
+      size: [6,6,12]
+    - type: addUFO
+      UFOName: STR_LOC_TAVERN
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1
+    - type: fillArea
+      terrain: URBAN		
+alienMissions:
+  - type: STR_WESTMEN_TAVERN_RAID
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_RAIDER_TERROR: 10			  
+          STR_RAIDER: 30  
+          STR_BANDIT_ROBBERS: 10
+          STR_BANDIT_TOWN: 10
+          STR_BANDIT: 20
+          STR_BANDIT_VILLAGE: 10
+          STR_RATMEN: 10
+    waves:
+      - ufo: STR_WESTMEN_TAVERN_RAID
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: shadyTavernRaid
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_WESTMEN_TAVERN_RAID: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

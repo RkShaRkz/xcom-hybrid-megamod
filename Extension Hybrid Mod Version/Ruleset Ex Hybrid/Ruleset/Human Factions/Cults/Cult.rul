@@ -1,0 +1,133 @@
+alienMissions:
+  - type: STR_CULTPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_CHURCH_INDUSTRIAL: 10			  
+          STR_CHURCH_NONCOM: 10
+          STR_CHURCHPIRATE: 10
+          STR_CHURCH_TERROR: 10
+          STR_CHURCH_MANSION: 10
+          STR_CHURCH_OF_DAGON: 10	  		  		  
+          STR_CULT_OF_SPIRITS: 10
+          STR_APOCALYPSE_CULT: 10
+          STR_CULT_OF_CHERNOBOG: 10		  
+          STR_CULT_OF_APOCALYPSE: 10	  
+    waves:
+      - ufo: STR_VESSEL_MESSENGER
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_FACTION_RETALIATIONCULTPATROLPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_RAIDER_FIGHTER 
+    raceWeights:
+      0:
+          STR_CHURCH_INDUSTRIAL: 10			  
+          STR_CHURCH_NONCOM: 10
+          STR_CHURCHPIRATE: 10
+          STR_CHURCH_TERROR: 10
+          STR_CHURCH_MANSION: 10
+          STR_CHURCH_OF_DAGON: 10	  		  		  
+          STR_CULT_OF_SPIRITS: 10
+          STR_APOCALYPSE_CULT: 10
+          STR_CULT_OF_CHERNOBOG: 10		  
+          STR_CULT_OF_APOCALYPSE: 10
+    waves:
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5
+  - type: STR_CULTRESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_CHURCH_INDUSTRIAL: 10			  
+          STR_CHURCH_NONCOM: 10
+          STR_CHURCHPIRATE: 10
+          STR_CHURCH_TERROR: 10
+          STR_CHURCH_MANSION: 10
+          STR_CHURCH_OF_DAGON: 10	  		  		  
+          STR_CULT_OF_SPIRITS: 10
+          STR_APOCALYPSE_CULT: 10
+          STR_CULT_OF_CHERNOBOG: 10		  
+          STR_CULT_OF_APOCALYPSE: 10
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5
+missionScripts:		
+  - type: cultSpawnPatrol
+    missionWeights:
+      0:
+        STR_CULTPATROL: 100			
+    firstMonth: 0
+    varName: cultspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: cultresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_CULTRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: cultresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			

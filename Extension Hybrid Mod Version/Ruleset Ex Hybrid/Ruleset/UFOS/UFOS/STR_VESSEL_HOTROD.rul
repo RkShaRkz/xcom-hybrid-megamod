@@ -1,0 +1,94 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_HOTROD: Hotrod
+      STR_VESSEL_HOTROD_UFOPEDIA: "This ufo is designed to be as a high speed transport ufo, lightly armed. For Aliens to transit in between bases."
+ufopaedia:
+  - id: STR_VESSEL_HOTROD
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_HOTROD
+    text: STR_VESSEL_HOTROD_UFOPEDIA
+research:
+  - name: STR_VESSEL_HOTROD
+    points: 50
+    cost: 180	
+    needItem: true
+    lookup: STR_VESSEL_HOTROD
+ufos:
+  - type: STR_VESSEL_HOTROD
+    size: STR_VERY_SMALL
+    modSprite: InterceptionHotRod
+    fireSound: 38
+    hitBonus: 20
+    damageMax: 100
+    speedMax: 6000
+    accel: 10
+    range: 30
+    power: 15
+    reload: 17
+    score: 100
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: VES_500
+      mapDataSets:
+        - BLANKS
+        - U_EXT_B
+        - U_WALL_B
+        - U_BITS_B
+        - UFOL83DIO_B
+      mapBlocks:
+        - name: VES_500
+          width: 10
+          length: 10
+alienDeployments:
+  - type: STR_VESSEL_HOTROD
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_HOTROD
+    width: 40
+    length: 40
+    height: 17
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_HOTROD_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_HOTROD
+    depth: [1, 1]		
+    width: 40
+    length: 40
+    height: 17
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

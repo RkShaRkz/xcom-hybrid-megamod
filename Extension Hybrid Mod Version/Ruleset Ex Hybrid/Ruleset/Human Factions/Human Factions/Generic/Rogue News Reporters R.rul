@@ -1,0 +1,68 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LEAGUE_APPREHENSION: "Protesters elimination"
+      STR_ALERT_LEAGUE_APPREHENSION: "Protesters elimination"	  
+      STR_LEAGUE_APPREHENSION_DESCRIPTION: "A group of Protesters are causing a riot in a city and they are causing a concern for a major client. The Mercenary guild has a contract for their elimination. Do the job well and you will be paid handsomely."
+      STR_LEAGUE_APPREHENSION_DESCRIPTION: "A group of Protesters are causing a riot in a city and they are causing a concern for a major client. The Mercenary guild has a contract for their elimination. Do the job well and you will be paid handsomely."
+alienDeployments:
+  - type: STR_LEAGUE_APPREHENSION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    width: 40
+    length: 40
+    height: 18
+    alert: STR_ALERT_LEAGUE_APPREHENSION
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LEAGUE_APPREHENSION_DESCRIPTION
+    briefing:
+      desc: STR_LEAGUE_APPREHENSION_BRIEFING
+      background: BACK04.SCR
+      palette: 2
+      showTarget: false
+      music: GMTACDRY
+    markerName: STR_LEAGUE_APPREHENSION
+    duration: [60, 120]
+    despawnPenalty: 250
+    music:
+      - GMTACTIC
+    script: GENERALSLUMWAR
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_LEAGUE_APPREHENSION
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_LEAGUE: 100
+    waves:
+      - ufo: STR_LEAGUE_APPREHENSION
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: leagueApprehensionEarly
+    firstMonth: 3
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_LEAGUE_APPREHENSION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

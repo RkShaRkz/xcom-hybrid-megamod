@@ -1,0 +1,139 @@
+extraStrings:
+  - type: en-US
+    strings:
+       STR_OSIRON_NESTXX: "Gang Hidden Warehouse"
+       STR_ALERT_OSIRON_NEST: "Gang Hidden Hidden Warehouse"
+       STR_OSIRON_NEST_DESCRIPTION: "The Merc Guild has received a report that a large warehouse was used by some Gang to store smuggled goods. Your units are to destroy and eliminate the warehouse with its criminals. As usual, our news crew would be there to cover the scoop. Protect them at all cost, before getting pay."
+       STR_OSIRON_NESTXX_BRIEFING: "The Merc Guild has received a report that a large warehouse was used by some Gang to store smuggled goods. Your units are to destroy and eliminate the warehouse with its criminals. As usual, our news crew would be there to cover the scoop. Protect them at all cost, before getting pay."
+alienDeployments:
+  - type: STR_OSIRON_NESTXX
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	       
+    width: 50
+    length: 50
+    height: 18
+    civilians: 12
+    alert: STR_ALERT_OSIRON_NEST
+    alertBackground: BACK04.SCR
+    alertDescription: STR_OSIRON_NEST_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2 
+      music: GMTACDRY
+      desc: STR_OSIRON_NESTXX_BRIEFING
+      showTarget: false
+    markerName: STR_OSIRON_NEST
+    duration: [72, 144]
+    despawnPenalty: 300
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1WAREHOUSE
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 7
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 5
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_OSIRON_NEST
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 100
+          STR_EXALT: 100
+          STR_OSIRON: 100
+          STR_BLACK_LOTUS: 100
+    waves:
+      - ufo: STR_OSIRON_NEST
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+mapScripts:
+  - type: GENERALSPAWNXP1WAREHOUSE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: URBAN
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESOSIRIONXP1
+        maxRepeats: 1 	  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN
+terrains:		
+  - name: WAREHOUSESOSIRIONXP1
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE  
+    mapBlocks:
+      - name: WAREHOUSES
+        width: 10
+        length: 10	
+missionScripts:
+  - type: osironNest
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_OSIRON_NEST: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

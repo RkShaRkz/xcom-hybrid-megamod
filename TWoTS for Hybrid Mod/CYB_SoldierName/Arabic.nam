@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - CS Abdullah
+  - CS Abu
+  - CS Ahmed
+  - CS Ali
+  - CS Bilal
+  - CS Fadil
+  - CS Farid
+  - CS Faysal
+  - CS Ghassan
+  - CS Habib
+  - CS Hakim
+  - CS Hassan
+  - CS Ibrahim
+  - CS Khalid
+  - CS Mahmoud
+  - CS Muhammad
+  - CS Najib
+  - CS Nasir
+  - CS Omar
+  - CS Rashid
+  - CS Tariq
+  - CS Yusuf
+femaleFirst:
+  - CS Alia
+  - CS Amirah
+  - CS Asma
+  - CS Farah
+  - CS Fatima
+  - CS Ghaliya
+  - CS Hafsa
+  - CS Haniya
+  - CS Iman
+  - CS Jalila
+  - CS Jawahir
+  - CS Karima
+  - CS Laila
+  - CS Latifa
+  - CS Malaika
+  - CS Maryam
+  - CS Mona
+  - CS Nadia
+  - CS Noor
+  - CS Rafiqa
+  - CS Samira
+  - CS Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

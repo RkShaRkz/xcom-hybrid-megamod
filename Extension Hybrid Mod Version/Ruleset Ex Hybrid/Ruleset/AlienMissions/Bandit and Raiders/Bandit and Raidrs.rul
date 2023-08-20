@@ -1,0 +1,145 @@
+alienMissions:
+  - type: STR_BANDITPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 15
+          STR_RATMEN: 10		  
+          STR_RAIDER_TERROR: 15			  
+          STR_RAIDER: 15
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 10000	
+  - type: STR_FACTION_RETALIATIONBANDITPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_RAIDER 
+    raceWeights:
+      0:
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 15
+          STR_RATMEN: 10		  
+          STR_RAIDER_TERROR: 15			  
+          STR_RAIDER: 15
+    waves:
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 3500
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5			
+  - type: STR_BANDITRESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 15
+          STR_RATMEN: 10		  
+          STR_RAIDER_TERROR: 15			  
+          STR_RAIDER: 15
+    waves:
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 3500	
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: P21
+        timer: 4600		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 4600		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5	
+missionScripts:		
+  - type: banditSpawnPatrol
+    missionWeights:
+      0:
+        STR_BANDITPATROL: 100			
+    firstMonth: 0
+    varName: banditspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: banditresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_BANDITRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: banditresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: retaliationexpansionhuman
+    missionWeights:
+      0:
+        STR_FACTION_RETALIATIONBANDITPRIRATZ: 100
+    firstMonth: 14
+    targetBaseOdds: 50
+    executionOdds: 20	
+    useTable: false
+    label: 5001
+    startDelay: 150
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 5  
+        STR_ARCTIC: 4	
+        STR_ANTARCTICA: 4  
+        STR_SOUTH_AMERICA: 5		
+        STR_EUROPE: 4  
+        STR_NORTH_AFRICA: 5		
+        STR_SOUTHERN_AFRICA: 5  
+        STR_CENTRAL_ASIA: 4
+        STR_SOUTH_EAST_ASIA: 4
+        STR_SIBERIA: 4
+        STR_AUSTRALASIA: 4
+        STR_PACIFIC: 4		
+        STR_NORTH_ATLANTIC: 4
+        STR_SOUTH_ATLANTIC: 4
+        STR_NORTH_PACIFIC: 4		
+        STR_SOUTH_PACIFIC: 4		
+        STR_MEDITERRANEAN: 4
+        STR_SOUTH_CHINA_SEA: 4		
+        STR_INDIAN_OCEAN: 4	
+        STR_THE_EAST_SEA: 4
+        STR_NORTH_SEA: 4		
+        STR_CARRIBEAN: 4			
+        STR_ANTARCTIC: 4
+        STR_ARCTIC: 4

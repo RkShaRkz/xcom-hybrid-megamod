@@ -1,0 +1,36 @@
+crafts: #done
+  - type: STR_INTERCEPTOR
+    soldiers: 1
+    maxSmallSoldiers: 1
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 0
+    maxLargeVehicles: 0
+    maxSmallUnits: 1
+    maxLargeUnits: 0 
+    battlescapeTerrainData:
+      name: INTERCEPTOR
+      mapDataSets:
+        - BLANKS
+        - INTRCEPT
+      mapBlocks:
+        - name: INTERCEPTOR
+          width: 10
+          length: 10	
+  - type: STR_FIRESTORM  
+    soldiers: 8
+    vehicles: 7
+    maxSmallSoldiers: 8
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 7
+    maxLargeVehicles: 0
+    maxSmallUnits: 7
+    maxLargeUnits: 0	  
+    battlescapeTerrainData:
+      name: FIRESTORM
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+      mapBlocks:
+        - name: FIRESTORM
+          width: 10
+          length: 10  

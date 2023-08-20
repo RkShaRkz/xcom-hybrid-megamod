@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - MGS Aidan
+  - MGS Andrew
+  - MGS Brendon
+  - MGS Cathal
+  - MGS Cian
+  - MGS Cillian
+  - MGS Conor
+  - MGS Cormac
+  - MGS Daniel
+  - MGS Darragh
+  - MGS David
+  - MGS Donal
+  - MGS Eoghan
+  - MGS Eoin
+  - MGS Finn
+  - MGS Jack
+  - MGS James
+  - MGS John
+  - MGS Liam
+  - MGS Luke
+  - MGS Michael
+  - MGS Mick
+  - MGS Oisin
+  - MGS Owen
+  - MGS Paddy
+  - MGS Padraig
+  - MGS Pat
+  - MGS Patrick
+  - MGS Pete
+  - MGS Ronan
+  - MGS Rory
+  - MGS Sean
+  - MGS Thomas
+femaleFirst:
+  - MGS Aine
+  - MGS Aisling
+  - MGS Aoife
+  - MGS Caoimhe
+  - MGS Ciara
+  - MGS Clara
+  - MGS Fiona
+  - MGS Grainne
+  - MGS Karen
+  - MGS Kate
+  - MGS Kathleen
+  - MGS Lisa
+  - MGS Lorna
+  - MGS Mary
+  - MGS Michelle
+  - MGS Niamh
+  - MGS Orla
+  - MGS Rachel
+  - MGS Roisin
+  - MGS Saoirse
+  - MGS Sarah
+  - MGS Shauna
+  - MGS Sinead
+  - MGS Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

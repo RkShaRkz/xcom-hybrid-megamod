@@ -1,0 +1,237 @@
+alienMissions:
+  - type: STR_CORPPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_UAC: 15      
+          STR_TRANS_STELLAR: 5		  
+          STR_GUILD: 15
+          STR_PASSENGERS: 5	  
+          STR_CYBERWEB: 15			  
+          STR_MARSEC: 15					  
+          STR_ACADEMY: 15
+          STR_SYNDICATE: 15		  
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_FACTION_RETALIATIONCORPPATROLPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_MILITARY_TRANSPORT 
+    raceWeights:
+      0:
+          STR_UAC: 15      
+          STR_TRANS_STELLAR: 5		  
+          STR_GUILD: 15
+          STR_PASSENGERS: 5	  
+          STR_CYBERWEB: 15			  
+          STR_MARSEC: 15					  
+          STR_ACADEMY: 15
+          STR_SYNDICATE: 15	
+    waves:
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO 
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_MILITARY_TRANSPORT
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5			
+  - type: STR_CORPPATROLRESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_UAC: 15      
+          STR_TRANS_STELLAR: 5		  
+          STR_GUILD: 15
+          STR_PASSENGERS: 5	  
+          STR_CYBERWEB: 15			  
+          STR_MARSEC: 15					  
+          STR_ACADEMY: 15
+          STR_SYNDICATE: 15	
+    waves:
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_MILITARY_TRANSPORT
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_RAIDER_FIGHTER
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5	
+  - type: STR_TRANSTELARPASSENGER
+    points: 0
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 25
+          STR_TRANS_STELLAR: 25		  
+          STR_GUILD: 25
+          STR_PASSENGERS: 25
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 10000		
+      - ufo: STR_CRAFT_AIRTRANS
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_TRANSTELARPASSENGER1
+    points: 0
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 25
+          STR_TRANS_STELLAR: 25		  
+          STR_GUILD: 25
+          STR_PASSENGERS: 25		  
+    waves:
+      - ufo: STR_COMMERCIALTRANSPORTLIGHT
+        count: 1
+        trajectory: P21
+        timer: 10000		
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000	
+  - type: STR_TRANSTELARPASSENGER2
+    points: 0
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 25
+          STR_TRANS_STELLAR: 25		  
+          STR_GUILD: 25
+          STR_PASSENGERS: 25		  
+    waves:
+      - ufo: STR_COMMERCIALTRANSPORTLIGHT
+        count: 1
+        trajectory: P21
+        timer: 10000			
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: P21
+        timer: 10000	
+  - type: STR_TRANSTELARPASSENGER3
+    points: 0
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 25
+          STR_TRANS_STELLAR: 25		  
+          STR_GUILD: 25
+          STR_PASSENGERS: 25		  
+    waves:	
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 10000	
+      - ufo: STR_CRAFT_AIRTRANS
+        count: 1
+        trajectory: P21
+        timer: 10000			
+missionScripts:		
+  - type: transtellarpassenger
+    missionWeights:
+      0:
+        STR_TRANSTELARPASSENGER: 25
+        STR_TRANSTELARPASSENGER1: 25
+        STR_TRANSTELARPASSENGER2: 25
+        STR_TRANSTELARPASSENGER3: 25		
+    firstMonth: 0
+    varName: transpassengerspatrol1
+    maxRuns: -1
+    executionOdds: 15
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+  - type: transtellarpassenger2
+    missionWeights:
+      0:
+        STR_TRANSTELARPASSENGER: 25
+        STR_TRANSTELARPASSENGER1: 25
+        STR_TRANSTELARPASSENGER2: 25
+        STR_TRANSTELARPASSENGER3: 25		
+    firstMonth: 0
+    varName: transpassengerspatro2
+    maxRuns: -1
+    executionOdds: 15
+    regionWeights:
+      0:
+        SEASPAWNS: 100	
+  - type: transtellarpassenger3
+    missionWeights:
+      0:
+        STR_TRANSTELARPASSENGER: 25
+        STR_TRANSTELARPASSENGER1: 25
+        STR_TRANSTELARPASSENGER2: 25
+        STR_TRANSTELARPASSENGER3: 25		
+    firstMonth: 0
+    varName: transpassengerspatrol3
+    maxRuns: -1
+    executionOdds: 15
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			
+  - type: corpSpawnPatrol
+    missionWeights:
+      0:
+        STR_CORPPATROL: 100			
+    firstMonth: 0
+    varName: corpspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: corpresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_CORPPATROLRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: corpresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100

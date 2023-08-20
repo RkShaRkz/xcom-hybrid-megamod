@@ -1,0 +1,96 @@
+lookWeight:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - MGS Johan
+  - MGS Fredrik
+  - MGS Sten
+  - MGS Olof
+  - MGS Anders
+  - MGS Sven
+  - MGS Mattias
+  - MGS Jesper
+  - MGS David
+  - MGS Henrik
+  - MGS Lars
+  - MGS Mikael
+  - MGS Andreas
+  - MGS Robin
+  - MGS Christian
+  - MGS Joakim
+  - MGS John
+  - MGS Linus
+  - MGS Mats
+  - MGS Tommy
+  - MGS Per
+  - MGS Sebastian
+  - MGS Edvin
+  - MGS Bo
+  - MGS Leif
+  - MGS Jens
+  - MGS Jonas  
+  - MGS Peter
+  - MGS Thomas
+  - MGS Erik
+femaleFirst:
+  - MGS Christine
+  - MGS Annika
+  - MGS Isabel
+  - MGS Anna
+  - MGS Lena
+  - MGS Mia
+  - MGS Pia
+  - MGS Petra
+  - MGS Madeleine
+  - MGS Johanna
+  - MGS Gunilla
+  - MGS Eva
+  - MGS Ellinor
+  - MGS Elisabet
+  - MGS Amanda
+  - MGS Carin
+  - MGS Mikaela
+  - MGS Magdalena
+  - MGS Ellen
+  - MGS Ingrid
+  - MGS Inger
+  - MGS Linda
+  - MGS Karin
+  - MGS Maria  
+  - MGS Sara
+  - MGS Emma  
+  - MGS Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

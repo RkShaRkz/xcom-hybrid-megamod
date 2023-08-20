@@ -1,0 +1,2161 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_ANTMAN: "Antman Autopsy"	
+      STR_ANTMAN_UFOPEDIA: "This is what happen when the Synedrion goes wild with their experiments, they turn a normal ant transformed it into a ant-human hybrid. Unfortunately, due to slack Synedrion security, some has escaped. It starts with an queen, this mutant started breeding like an ant queen. Sooner or later, the Ant-men as they are now called, the population exploded. Unfortunately, they are feral and has a hatred for humans. The only thing we can do is to exterminate them, yet they prove to be hardy warriors."	  
+      STR_ANTMAN_AUTOPSY: "Antman Autopsy"		  
+      STR_ANTMAN_CORPSE: "Antman Corpse"		  
+      STR_ANTMAN_CORPSE_UFOPEDIA: "These Insect-Human hybrid has genes of a mix species, all due to Synedrion trying to breed a super warrior. Unfortunately this is one of their failures, the specimen has everything an ant has, a toughen exterior, mandible that can cut through steel and senses similar to an ant and the body is tough enough to resist small arm fire. Unfortunately, it lack human intelligence, more like a feral ant. It can't be controlled."	  
+      STR_ANTMAN_WORKER: "Antman Worker" 	  
+      STR_ANTMAN_WARRIOR: "Antman Warrior"
+      STR_ANTMAN_WARRIOR_AUTOPSY: "Antman Warrior Autopsy"		  
+      STR_ANTMAN_WARRIOR_CORPSE: "Antman Warrior Corpse"		  
+      STR_ANTMAN_WARRIOR_CORPSE_UFOPEDIA: "The Ant-Warrior is a larger version of the antman species, its exterior and skin is harder. Beside a mandible that can chew through steel, it contain a nasty acidic spray that can also melt steel. "
+      STR_ANTMAN_QUEEN_UFOPEDIA: "The Queen is a rarer type, bigger but more vulnerable than the normal ant and warrior. Its sole purpose is to breed and start a colony. Yet when cornered, a queen would defend itself and its colony suicidally. "	
+      STR_ANTMAN_QUEEN_COMMANDER: "Antman Queen"		  
+      STR_ANTMAN_QUEEN_AUTOPSY: "Antman Queen Autopsy"		  
+      STR_ANTMAN_QUEEN_CORPSE: "Antman Queen Corpse"		  
+      STR_ANTMAN_QUEEN_CORPSE_UFOPEDIA: "The body of the queen has a human size body, enlarge thorax, steel like mandibles and limbs stronger than a human. Its inside are full of eggs, for its main purpose is to breed. The queen is inteligent, perhaps as intelligent as a human child, but no more, and long lived. Its instinct is to breed, nothing more."	
+      STR_GIANT_SPIDER_WEAPON: "Spider Weapon"
+      STR_SPIDERWEB: "Spider Web"
+      STR_MEGASCORPION_TERRORIST: "Megascorpion"
+      STR_MEGASCORPION_TERRORIST_UFOPEDIA: "Another product of Synedrion, this time they blend a scorpion with some other genes from a large animal. The end result is a sentient large scorpion that has steel like other shell, stinger that can kill a man and pincer that can crack titanium. Unfortunately, again, the control side didn't work out, so the animal is a rejected experiment and it breaks out of lax Synedrion security. Now, it is living in the wild and breeding, with hate for humans."
+      STR_MEGASCORPION_AUTOPSY: "Megascorpion Autopsy"	
+      STR_MEGASCORPION_CORPSE: "Megascorpion Corpse"	  
+      STR_MEGASCORPION_CORPSE_UFOPEDIA: "This creature is just an oversize scorpion. After cutting it open with a titanum saw, its inside is exactly like those found in a scorpion with the exception of its ultra harden shell and venom sac that's more potent. There's also unknown organs within the brain section eyes, presumably it allows the Megascorpion to have higher brain function and better vision."
+      STR_MEGASCORPION_WEAPON: "Scorpion sting"		
+      STR_GIANT_BEETLE_BOMBARDIER_TERRORIST: "Giant Beetle Bombardier"
+      STR_GIANT_BEETLE_BOMBARDIER_TERRORIST_UFOPEDIA: "This version of the Beetle that the Synedrion succeeded in creating is one that spit some kind of acid at its enemies. The acidic spit can melt steel, however, the skin of this beetle is tough, but not as tough as its larger cousin."
+      STR_GIANT_BEETLE_TERRORIST: "Giant Beetle"
+      STR_GIANT_BEETLE_TERRORIST_UFOPEDIA: "More of Synedrion's insect experiments, this time, they turn bettle into a monster. They gene splice it with some other animal, hoping to create a sentry creature or some defensive guard dog. The outer shell of the giant beetle is tough, with its stinking spit weapon. Otherwise, again, it the brain of a dog. Nothing can be said is obediant of this creature."		  
+      STR_GIANT_BEETLE_AUTOPSY: "Giant Beetle Autopsy"	
+      STR_GIANT_BEETLE_CORPSE: "Giant Beetle Corpse"	  
+      STR_GIANT_BEETLE_CORPSE_UFOPEDIA: "Just an over size beetle with a toughen shell. That is what can be said of this creature corpse. Nothing remarkable about it."
+      STR_GIANT_BEETLE_WEAPON: "Giant Beetle Bite"	  	
+      STR_GIANT_BEETLE_BOMBARDIER_SPIT: "Giant Beetle Bombardier Spit"	
+      STR_GIANT_SPIDER_WEAPON: "Giant Spider Bite"
+      STR_GIANT_SPIDER_FLAME_WEAPON: "Flame Spider Bite"
+      STR_GIANT_SPIDER_QUEEN_WEAPON: "Giant Spider Queen Bite"	
+      STR_GIANT_SPIDER_TERRORIST: "Giant Spider"
+      STR_GIANT_SPIDER_TERRORIST_UFOPEDIA: "This is what happen when you cross breed ants with spiders and enlarge it. This Giant Spider spun web that's tougher than steel, pincer can bite through steel. Apparently it was so dangerous that the researchers at Synedrion was killed before it escaped. Then it started breeding like rabbits."
+      STR_GIANT_SPIDER_ALLOY_TERRORIST: "Stealth Spider"
+      STR_GIANT_SPIDER_ALLOY_TERRORIST_UFOPEDIA: "This Giant Spider has the ability to blend with the environment. It is a master of the unexpected attack, which is usually deadly."
+      STR_GIANT_SPIDER_PURPLE_TERRORIST: "Death Spider"
+      STR_GIANT_SPIDER_PURPLE_TERRORIST_UFOPEDIA: "This Giant Spider is much faster and stronger than the standard type. It is able to chew through durable materials very fast" 
+      STR_GIANT_SPIDER_GREEN_TERRORIST: "Armored Spider"
+      STR_GIANT_SPIDER_GREEN_TERRORIST_UFOPEDIA: "This type of Giant Spider has extra thick armor. It is much more resistant to damage, but also noticeably slower than the baseline type."	 
+      STR_GIANT_SPIDER_RED_TERRORIST: "Flame Spider"
+      STR_GIANT_SPIDER_RED_TERRORIST_UFOPEDIA: "This Giant Spider has collected a significant amount of volatile gases in its body, thus gaining the ability to breath fire. Killing the spider usually results in a small explosion."	 	    
+      STR_GIANT_SPIDER_QUEEN_LEADER: "Giant Spider Queen"
+      STR_GIANT_SPIDER_QUEEN_LEADER_UFOPEDIA: "The Spider that has escaped from the Synedrion's lab was a female, a Queen too. This Queen Spider is one of her descendants. With the mind set of an ant, it has burrow into the former mines and tunnels to create a colony of Spiders. The only part about the spider which we have to worry about is its legs, that can punch through steel and mandibles that cut through kevlar. Its poison is not as potent however, just only able to stunt a human. Usually it does, before eating one."	  
+      STR_GIANT_SPIDER_KING_COMMANDER: "Spider King"
+      STR_GIANT_SPIDER_KING_COMMANDER_UFOPEDIA: "The role of a King Spider as our troops has name it, is to mate with the queen and die. Beside its special role, this spider is quite intelligent. It can use is pheromones or even telekenetic senses to summon the other Spider Workers to defend the colony if it is attacked. Its role is to defend the queen at all cost."		
+      STR_GIANT_SPIDER_AUTOPSY: "Giant Spider Autopsy"	
+      STR_GIANT_SPIDER_CORPSE: "Giant Spider Corpse"	  
+      STR_GIANT_SPIDER_CORPSE_UFOPEDIA: "As expected the Giant Spider is an engineered creature. Inside after the autosy, we found organs similar to those of ants and spider. Its skin is soft however, unlike those of the giant ant-man. The spiders, pending on the type and sub-type, there is worker, queen and king. King act as commnanders, with enlarge cranial capacity. The Queen has enlarge abdomen for her eggs and workers has enlarge mandibles for colony maintenance."
+      STR_GIANT_SPIDER_RED_AUTOPSY: "Flame Spider Autopsy"		  
+      STR_GIANT_SPIDER_RED_CORPSE: "Flame Spider Corpse"	  
+      STR_GIANT_SPIDER_RED_CORPSE_UFOPEDIA: "This nightmarish creature is mostly a spider in appearance only, since many of the internal organs have been modified to accommodate for its large size. Its venom sacs are not very poisonous to humans but its fangs may cause deep wounds. Its armor is not very thick, but offers some protection against explosions."	
+      STR_GIANT_SPIDER_QUEEN_AUTOPSY: "Giant Spider Queen Autopsy"		  
+      STR_GIANT_SPIDER_QUEEN_CORPSE: "Giant Spider Queen Corpse"	  
+      STR_GIANT_SPIDER_QUEEN_CORPSE_UFOPEDIA: "This spider is not only much bigger than average, it also has a more complex brain, though it is difficult to estimate its mental strengths from dissection alone. Otherwise it is similar to the smaller ones: fast, vicious, and absolutely horrifying. Only ten times more so, if our agents are to be believed."
+      STR_GIANT_SPIDER_KING_AUTOPSY: "Spider King Autopsy"		  
+      STR_GIANT_SPIDER_KING_CORPSE: "Spider King Corpse"	  
+      STR_GIANT_SPIDER_KING_CORPSE_UFOPEDIA: "This form's DNA is the same as in smaller spiders, but their gene expression is radically different. The Spider King's body maintains an upright position, with three pairs of arms to operate equipment. Its large brain is connected to a small metallic implant."	  
+      STR_SCORPOID_AUTOPSY: "Scorpoid Autopsy"		  
+      STR_SCORPOID_CORPSE: "Scorpoid Corpse"		  
+      STR_SCORPOID_CORPSE_UFOPEDIA: "The body of a Scorpiod is aracnid in shape, with a very hard shell that's resist to damge. It has strong internal muscles which suggest the species is carnivirous and has great strength and stamina. Its internal organs are completely different to an Earth Scorpion, despite similar exterior. Its brain is well developed and its sensory organs has night vision due to is life underground." 
+      STR_SCORPOID_HUNTER: "Scorpoid Hunter"
+      STR_SCORPOID_CHIEF: "Scorpoid Chief"	 
+      STR_SCORPOID_REBEL: "Scorpoid Rebel"	  
+      STR_SCORPOID: "Scorpoid"
+      STR_SCORPOID_UFOPEDIA: "The Reptiod is a subterrain Species that has yet to achieve a technological parity like the other aliens we had encountered. It has a sophisticated culture and live in the subterrainian world. Due to ecological problems above their world. They lived in primitive huts and develop a technological base similar those of our cavemen days. They hunt with spears and tridents, for any small creature they find underground."  
+ufopaedia:
+  - id: STR_MEGASCORPION_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MEGASCORPION_TERRORIST_UFOPEDIA
+    requires:
+      - STR_MEGASCORPION_TERRORIST
+    listOrder: 56600
+  - id: STR_MEGASCORPION_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MEGASCORPION_CORPSE
+    text: STR_MEGASCORPION_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_GIANT_BEETLE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_BEETLE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_BEETLE_TERRORIST
+    listOrder: 56600
+  - id: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_BEETLE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_BEETLE_CORPSE
+    text: STR_GIANT_BEETLE_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_GIANT_SPIDER_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_ALLOY_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_ALLOY_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_ALLOY_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_PURPLE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_PURPLE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_PURPLE_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_GREEN_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_GREEN_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_GREEN_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_RED_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_RED_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_RED_TERRORIST
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_QUEEN_LEADER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_QUEEN_LEADER_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_QUEEN_LEADER
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_KING_COMMANDER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GIANT_SPIDER_KING_COMMANDER_UFOPEDIA
+    requires:
+      - STR_GIANT_SPIDER_KING_COMMANDER
+    listOrder: 56600	
+  - id: STR_GIANT_SPIDER_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_SPIDER_CORPSE
+    text: STR_GIANT_SPIDER_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_GIANT_SPIDER_RED_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_SPIDER_RED_CORPSE
+    text: STR_GIANT_SPIDER_RED_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_GIANT_SPIDER_QUEEN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_SPIDER_QUEEN_CORPSE
+    text: STR_GIANT_SPIDER_QUEEN_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_GIANT_SPIDER_KING_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GIANT_SPIDER_KING_CORPSE
+    text: STR_GIANT_SPIDER_KING_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_SCORPOID_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SCORPOID_CORPSE
+    text: STR_SCORPOID_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_SCORPOID
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SCORPOID_UFOPEDIA
+    requires:
+      - STR_SCORPOID
+    listOrder: 56600	
+  - id: STR_ANTMAN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ANTMAN_CORPSE
+    text: STR_ANTMAN_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_ANTMAN
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ANTMAN_UFOPEDIA
+    requires:
+      - STR_ANTMAN
+    listOrder: 56600
+  - id: STR_ANTMAN_WARRIOR_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ANTMAN_WARRIOR_CORPSE
+    text: STR_ANTMAN_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_ANTMAN_QUEEN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ANTMAN_QUEEN_CORPSE
+    text: STR_ANTMAN_QUEEN_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_ANTMAN_QUEEN
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ANTMAN_QUEEN
+    text: STR_ANTMAN_QUEEN_UFOPEDIA
+    text_width: 153	
+alienRaces:
+  - id: STR_SCORPOID
+    members:
+      - STR_SCORPOID_CHIEF
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+    retaliationAggression: -100
+  - id: STR_SCORPOID_UNDERWATER
+    members:
+      - STR_SCORPOID_CHIEF
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+      - STR_SCORPOID_HUNTER
+    retaliationAggression: -100	
+  - id: STR_GIANT_SPIDER
+    membersRandom:
+      - [STR_GIANT_SPIDER_KING_COMMANDER]
+      - [STR_GIANT_SPIDER_QUEEN_LEADER]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_ALLOY_TERRORIST, STR_GIANT_SPIDER_PURPLE_TERRORIST, STR_GIANT_SPIDER_GREEN_TERRORIST, STR_GIANT_SPIDER_RED_TERRORIST, STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+    retaliationAggression: -100
+  - id: STR_GIANT_SPIDER
+    membersRandom:
+      - [STR_GIANT_SPIDER_KING_COMMANDER]
+      - [STR_GIANT_SPIDER_QUEEN_LEADER]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_ALLOY_TERRORIST, STR_GIANT_SPIDER_PURPLE_TERRORIST, STR_GIANT_SPIDER_GREEN_TERRORIST, STR_GIANT_SPIDER_RED_TERRORIST, STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+      - [STR_GIANT_SPIDER_TERRORIST]
+    retaliationAggression: -100	
+  - id: STR_ANTMAN
+    members:
+      - STR_ANTMAN_QUEEN_COMMANDER
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+    retaliationAggression: -100
+  - id: STR_ANTMAN
+    members:
+      - STR_ANTMAN_QUEEN_COMMANDER
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WARRIOR
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+      - STR_ANTMAN_WORKER
+    retaliationAggression: -100	
+  - id: STR_MEGASCORPION
+    members:
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+    retaliationAggression: -100
+  - id: STR_MEGASCORPION_UNDERWATER
+    members:
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+      - STR_MEGASCORPION_TERRORIST
+    retaliationAggression: -100			
+  - id: STR_GIANT_BEETLE
+    membersRandom:
+      - [STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST, STR_GIANT_BEETLE_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+    retaliationAggression: -100
+  - id: STR_GIANT_BEETLE_UNDERWATER
+    membersRandom:
+      - [STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST, STR_GIANT_BEETLE_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST, STR_GIANT_BEETLE_BOMBARDIER_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+      - [STR_GIANT_BEETLE_TERRORIST]
+    retaliationAggression: -100
+items:	
+  - type: STR_MEGASCORPION_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 20000
+    listOrder: 115540
+  - type: STR_MEGASCORPION_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.2
+    costSell: 7000
+    weight: 10
+    bigSprite: 259
+    floorSprite: 228
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62510
+  - type: STR_MEGASCORPION_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 539
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 10
+    strengthApplied: true
+    damageType: 8
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      ToTile: 0.33
+    accuracyMelee: 80
+    tuMelee: 5
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: STR_GIANT_BEETLE_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 12000
+    listOrder: 115720
+  - type: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 18000
+    listOrder: 115730
+  - type: STR_GIANT_BEETLE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.2
+    costSell: 4000
+    weight: 10
+    bigSprite: 488
+    floorSprite: 407
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62630
+  - type: STR_GIANT_BEETLE_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 589
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 30
+    strengthApplied: false
+    damageType: 8
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 80
+    tuMelee: 10
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_GIANT_BEETLE_BOMBARDIER_SPIT
+    categories: [STR_BUILT_INS]
+    bigSprite: 795
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 50
+    hitSound: 19
+    hitAnimation: 196
+    power: 25
+    damageType: 8
+    damageAlter:
+      ToMorale: 30.0
+      ResistType: 2
+    accuracyCloseQuarters: 140
+    accuracySnap: 50
+    tuSnap: 35
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    maxRange: 12
+    clipSize: -1
+    recover: false
+    arcingShot: true
+  - type: STR_GIANT_SPIDER_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 588
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 16
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 90
+    tuMelee: 12
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_GIANT_SPIDER_QUEEN_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 588
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 40
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 80
+    tuMelee: 18
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true
+  - type: STR_GIANT_SPIDER_FLAME_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 544
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 24
+    fireSound: 50
+    hitSound: 0
+    hitAnimation: 0
+    explosionHitSound: 113
+    power: 40
+    blastRadius: 1
+    damageType: 2
+    damageAlter:
+      ToMorale: 30.0
+    accuracyCloseQuarters: 100
+    accuracyAimed: 80
+    tuAimed: 50
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    arcingShot: true	
+  - type: STR_GIANT_SPIDER_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 25000
+    listOrder: 115600
+  - type: STR_GIANT_SPIDER_ALLOY_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115610
+  - type: STR_GIANT_SPIDER_PURPLE_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115640
+  - type: STR_GIANT_SPIDER_GREEN_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 32000
+    listOrder: 115630
+  - type: STR_GIANT_SPIDER_RED_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 30000
+    listOrder: 115620
+  - type: STR_GIANT_SPIDER_QUEEN_LEADER
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 50000
+    listOrder: 115650
+  - type: STR_GIANT_SPIDER_KING_COMMANDER
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 70000
+    listOrder: 115660
+  - type: STR_GIANT_SPIDER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.2
+    costSell: 8000
+    weight: 10
+    bigSprite: 303
+    floorSprite: 254
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    power: 50
+    blastRadius: 3
+    armor: 20
+    listOrder: 62540
+  - type: STR_GIANT_SPIDER_RED_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.2
+    costSell: 8000
+    weight: 10
+    bigSprite: 303
+    floorSprite: 254
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    power: 50
+    blastRadius: 3
+    armor: 20
+  - type: STR_GIANT_SPIDER_QUEEN_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 16000
+    battleType: 11
+    listOrder: 62550
+  - type: GIANT_SPIDER_QUEEN_CORPSE_1
+    name: STR_GIANT_SPIDER_QUEEN_CORPSE
+    floorSprite: 321
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 12
+  - type: GIANT_SPIDER_QUEEN_CORPSE_2
+    floorSprite: 322
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GIANT_SPIDER_QUEEN_CORPSE_3
+    floorSprite: 323
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GIANT_SPIDER_QUEEN_CORPSE_4
+    floorSprite: 324
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_GIANT_SPIDER_KING_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 32000
+    weight: 40
+    bigSprite: 760
+    floorSprite: 693
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 20
+    battleType: 11
+    armor: 20
+    listOrder: 62560	
+  - type: STR_SCORPOID_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 32000
+    weight: 36
+    bigSprite: 699
+    floorSprite: 652
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 34
+    listOrder: 66700
+  - type: STR_SCORPOID_HUNTER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 60000
+    listOrder: 143800
+  - type: STR_SCORPOID_CHIEF
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 60000
+    listOrder: 143860
+  - type: STR_ANTMAN_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 32000
+    weight: 36
+    bigSprite: 765
+    floorSprite: 699
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 34
+    listOrder: 66600
+  - type: STR_ANTMAN_WORKER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 52000
+    listOrder: 143700
+  - type: STR_ANTMAN_WARRIOR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 32000
+    weight: 36
+    bigSprite: 766
+    floorSprite: 700
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 34
+  - type: STR_ANTMAN_WARRIOR
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 52000
+    listOrder: 143710
+  - type: STR_ANTMAN_QUEEN_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 22000
+    battleType: 11
+    listOrder: 66670
+  - type: ANTMAN_QUEEN_CORPSE_1
+    name: STR_ANTMAN_QUEEN_CORPSE
+    floorSprite: 701
+    invWidth: 0
+    invHeight: 0
+    costSell: 150000	
+    battleType: 11
+    recover: true
+    weight: 100
+    recoveryPoints: 5			
+  - type: ANTMAN_QUEEN_CORPSE_2
+    floorSprite: 702
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: ANTMAN_QUEEN_CORPSE_3
+    floorSprite: 703
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: ANTMAN_QUEEN_CORPSE_4
+    floorSprite: 704
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false	
+  - type: STR_SPIDERWEB
+    categories: [STR_CONCEALABLE, STR_JUNK, STR_LAND]
+    size: 0.1
+    costSell: 100
+    weight: 2
+    bigSprite: 455
+    floorSprite: 378
+    costThrow:
+      energy: 4
+    battleType: 10
+    armor: 10
+    invWidth: 2
+    invHeight: 2	
+  - type: STR_ANTMAN_QUEEN_COMMANDER
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 70000
+    listOrder: 143770
+  - type: STR_GIANT_SPIDER_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 588
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 16
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 90
+    tuMelee: 12
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 2
+    recover: false
+    flatRate: true	
+  - type: STR_SCORPOID_REBEL
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 75000		
+armors:	
+  - type: STR_MEGASCORPION_ARMOR
+    spriteSheet: MEGASCORPION.PCK
+    spriteInv: inventory_MEGASCORPION
+    allowInv: false
+    corpseBattle:
+      - STR_MEGASCORPION_CORPSE
+    psiVision: 15
+    visibilityAtDark: 9
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 8
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.7
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 5.6
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_BEETLE_ARMOR
+    spriteSheet: GIANT_BEETLE.PCK
+    spriteInv: inventory_GIANT_BEETLE
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_BEETLE_CORPSE
+    visibilityAtDark: 10
+    heatVision: 40
+    frontArmor: 12
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 12
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.7
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.3
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_BEETLE_BOMBARDIER_ARMOR
+    spriteSheet: GIANT_BEETLE_BOMBARDIER.PCK
+    spriteInv: inventory_GIANT_BEETLE_BOMBARDIER
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_BEETLE_CORPSE
+    visibilityAtDark: 10
+    heatVision: 40
+    frontArmor: 12
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 12
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.7
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.9
+      - 0.7
+      - 1.1
+      - 1.1
+      - 1.0
+      - 0.9
+      - 1.5
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_ARMOR
+    spriteSheet: GIANT_SPIDER.PCK
+    spriteInv: inventory_GIANT_SPIDER
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_SPIDER_CORPSE
+    visibilityAtDark: 9
+    psiVision: 15
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_ALLOY_ARMOR
+    spriteSheet: GIANT_SPIDER_ALLOY.PCK
+    spriteInv: inventory_GIANT_SPIDER_ALLOY
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_SPIDER_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDark: 6
+    camouflageAtDay: 15
+    psiVision: 15
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_PURPLE_ARMOR
+    spriteSheet: GIANT_SPIDER_PURPLE.PCK
+    spriteInv: inventory_GIANT_SPIDER_PURPLE
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_SPIDER_CORPSE
+    visibilityAtDark: 9
+    psiVision: 15
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_GREEN_ARMOR
+    spriteSheet: GIANT_SPIDER_GREEN.PCK
+    spriteInv: inventory_GIANT_SPIDER_GREEN
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_SPIDER_CORPSE
+    visibilityAtDark: 9
+    psiVision: 15
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 18
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_RED_ARMOR
+    spriteSheet: GIANT_SPIDER_RED.PCK
+    spriteInv: inventory_GIANT_SPIDER_RED
+    allowInv: false
+    corpseBattle:
+      - STR_GIANT_SPIDER_RED_CORPSE
+    corpseGeo: STR_GIANT_SPIDER_CORPSE
+    visibilityAtDark: 9
+    psiVision: 15
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    #psiDefence:: *StandardDynamic#psiDefence:
+    movementType: 0
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_GIANT_SPIDER_QUEEN_ARMOR
+    spriteSheet: GIANT_SPIDER_QUEEN.PCK
+    spriteInv: inventory_GIANT_SPIDER_QUEEN
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - GIANT_SPIDER_QUEEN_CORPSE_1
+      - GIANT_SPIDER_QUEEN_CORPSE_2
+      - GIANT_SPIDER_QUEEN_CORPSE_3
+      - GIANT_SPIDER_QUEEN_CORPSE_4
+    corpseGeo: STR_GIANT_SPIDER_QUEEN_CORPSE
+    visibilityAtDark: 9
+    psiVision: 18
+    frontArmor: 15
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    #psiDefence:: *StandardDynamic#psiDefence:
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.12
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_GIANT_SPIDER_KING_ARMOR
+    spriteSheet: GIANT_SPIDER_KING.PCK
+    spriteInv: inventory_GIANT_SPIDER_KING
+    corpseBattle:
+      - STR_GIANT_SPIDER_KING_CORPSE
+    visibilityAtDark: 16
+    psiVision: 12
+    frontArmor: 28
+    sideArmor: 23
+    rearArmor: 18
+    underArmor: 23
+    #psiDefence:: *StandardDynamic#psiDefence:
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.3
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 6.4
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 4 ]
+  - type: STR_SCORPOID_ARMOR
+    spriteSheet: SCORPOID.PCK
+    spriteInv: inventory_SCORPOID
+    corpseBattle:
+      - STR_SCORPOID_CORPSE
+    visibilityAtDark: 12
+    psiVision: 13
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 35
+    #psiDefence:: *StandardDynamic#psiDefence:
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 5.6
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    ##specialWeapon: STR_SCORPOID_WEAPON
+    loftempsSet: [ 4 ]
+    deathFrames: 4
+  - type: STR_ANTMAN_WORKER_ARMOR
+    spriteSheet: ANTMAN_WORKER.PCK
+    spriteInv: inventory_ANTMAN_WORKER
+    corpseBattle:
+      - STR_ANTMAN_CORPSE
+    visibilityAtDark: 12
+    psiVision: 15
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 17
+    #psiDefence:: *StandardDynamic#psiDefence:
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.5
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    ##specialWeapon: STR_ANTMAN_WEAPON
+    loftempsSet: [ 4 ]
+  - type: STR_ANTMAN_WARRIOR_ARMOR
+    spriteSheet: ANTMAN_WARRIOR.PCK
+    spriteInv: inventory_ANTMAN_WARRIOR
+    corpseBattle:
+      - STR_ANTMAN_WARRIOR_CORPSE
+    corpseGeo: STR_ANTMAN_CORPSE
+    visibilityAtDark: 12
+    psiVision: 15
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 17
+    #psiDefence:: *StandardDynamic#psiDefence:
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.5
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    ##specialWeapon: STR_ANTMAN_WEAPON
+    builtInWeapons:
+      - STR_BULLFROG_BITE
+    loftempsSet: [ 4 ]
+  - type: STR_ANTMAN_QUEEN_ARMOR
+    spriteSheet: ANTMAN_QUEEN.PCK
+    spriteInv: inventory_ANTMAN_QUEEN
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - ANTMAN_QUEEN_CORPSE_1
+      - ANTMAN_QUEEN_CORPSE_2
+      - ANTMAN_QUEEN_CORPSE_3
+      - ANTMAN_QUEEN_CORPSE_4  
+    corpseGeo: STR_ANTMAN_QUEEN_CORPSE
+    visibilityAtDay: 20
+    visibilityAtDark: 20
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence:: *StandardDynamicPsiDefence
+    drawingRoutine: 3
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.01
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.5
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 105, 108, 102, 99 ]	
+research:	
+  - name: STR_ANTMAN_WORKER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    lookup: STR_ANTMAN	
+    listOrder: 118010		
+  - name: STR_ANTMAN_WARRIOR
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    lookup: STR_ANTMAN	
+    listOrder: 118010		
+  - name: STR_ANTMAN_QUEEN
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    lookup: STR_ANTMAN_QUEEN	
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ANTMAN  
+    cost: 0
+    points: 30
+    needItem: true		  
+  - name: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GIANT_BEETLE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010		
+  - name: STR_GIANT_BEETLE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_BEETLE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_GIANT_SPIDER_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_ALLOY_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_PURPLE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_GREEN_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_RED_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_QUEEN_LEADER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_KING_COMMANDER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_GIANT_SPIDER_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_SPIDER_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_GIANT_SPIDER_RED_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_SPIDER_RED_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_GIANT_SPIDER_QUEEN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_SPIDER_QUEEN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_GIANT_SPIDER_KING_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GIANT_SPIDER_KING_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SCORPOID_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SCORPOID_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_SCORPOID_HUNTER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    lookup: STR_SCORPOID	
+    listOrder: 118010	
+  - name: STR_SCORPOID_CHIEF
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    lookup: STR_SCORPOID	
+    listOrder: 118010	
+  - name: STR_SCORPOID
+    cost: 0
+    points: 30
+    needItem: true
+  - name: STR_ANTMAN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ANTMAN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_ANTMAN_WARRIOR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ANTMAN_WARRIOR_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_ANTMAN_QUEEN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ANTMAN_QUEEN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+units:
+  - type: STR_MEGASCORPION_TERRORIST
+    race: STR_MEGASCORPION
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 50
+      health: 20
+      bravery: 80
+      reactions: 80
+      firing: 0
+      throwing: 0
+      strength: 15
+      psiStrength: 40
+      psiSkill: 0
+      melee: 80
+    armor: STR_MEGASCORPION_ARMOR
+    standHeight: 12
+    kneelHeight: 10
+    value: 5
+    deathSound: 7
+    intelligence: 1
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_MEGASCORPION_WEAPON
+  - type: STR_GIANT_BEETLE_TERRORIST
+    race: STR_GIANT_BEETLE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 75
+      health: 25
+      bravery: 70
+      reactions: 50
+      firing: 0
+      throwing: 0
+      strength: 35
+      psiStrength: 30
+      psiSkill: 0
+      melee: 70
+    armor: STR_GIANT_BEETLE_ARMOR
+    standHeight: 12
+    kneelHeight: 10
+    value: 3
+    deathSound: 7
+    intelligence: 1
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_BEETLE_WEAPON
+  - type: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    race: STR_GIANT_BEETLE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 40
+      stamina: 65
+      health: 32
+      bravery: 70
+      reactions: 60
+      firing: 60
+      throwing: 0
+      strength: 35
+      psiStrength: 30
+      psiSkill: 0
+      melee: 60
+    armor: STR_GIANT_BEETLE_BOMBARDIER_ARMOR
+    standHeight: 12
+    kneelHeight: 10
+    value: 4
+    deathSound: 7
+    intelligence: 1
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_BEETLE_WEAPON
+        - STR_GIANT_BEETLE_BOMBARDIER_SPIT
+  - type: STR_GIANT_SPIDER_TERRORIST
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 90
+      health: 40
+      bravery: 110
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+    armor: STR_GIANT_SPIDER_ARMOR
+    standHeight: 14
+    kneelHeight: 12
+    value: 5
+    deathSound: 7
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB	  
+  - type: STR_GIANT_SPIDER_ALLOY_TERRORIST
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 90
+      health: 40
+      bravery: 110
+      reactions: 80
+      firing: 0
+      throwing: 0
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+    armor: STR_GIANT_SPIDER_ALLOY_ARMOR
+    standHeight: 14
+    kneelHeight: 12
+    value: 8
+    deathSound: 7
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB	  
+  - type: STR_GIANT_SPIDER_PURPLE_TERRORIST
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 78
+      stamina: 100
+      health: 40
+      bravery: 110
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 85
+    armor: STR_GIANT_SPIDER_PURPLE_ARMOR
+    standHeight: 14
+    kneelHeight: 12
+    value: 8
+    deathSound: 7
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB	  
+  - type: STR_GIANT_SPIDER_GREEN_TERRORIST
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 80
+      health: 40
+      bravery: 110
+      reactions: 60
+      firing: 0
+      throwing: 0
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 65
+    armor: STR_GIANT_SPIDER_GREEN_ARMOR
+    standHeight: 14
+    kneelHeight: 12
+    value: 8
+    deathSound: 7
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB	  
+  - type: STR_GIANT_SPIDER_RED_TERRORIST
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 90
+      health: 40
+      bravery: 110
+      reactions: 70
+      firing: 30
+      throwing: 0
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+    armor: STR_GIANT_SPIDER_RED_ARMOR
+    standHeight: 14
+    kneelHeight: 12
+    value: 8
+    deathSound: 7
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    specab: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_WEAPON
+        - STR_GIANT_SPIDER_FLAME_WEAPON
+  - type: STR_GIANT_SPIDER_QUEEN_LEADER
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 100
+      reactions: 60
+      firing: 0
+      throwing: 0
+      strength: 44
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_GIANT_SPIDER_QUEEN_ARMOR
+    standHeight: 20
+    kneelHeight: 18
+    value: 80
+    deathSound: 7
+    intelligence: 2
+    aggression: 3
+    spotter: 1
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_QUEEN_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB
+  - type: STR_GIANT_SPIDER_KING_COMMANDER
+    race: STR_GIANT_SPIDER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 74
+      stamina: 100
+      health: 50
+      bravery: 90
+      reactions: 70
+      firing: 40
+      throwing: 60
+      strength: 40
+      psiStrength: 50
+      psiSkill: 20
+      melee: 65
+      #mana: 50
+    armor: STR_GIANT_SPIDER_KING_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 100
+    deathSound: 7
+    intelligence: 4
+    aggression: 3
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_QUEEN_WEAPON
+        - STR_SPIDERWEB
+        - STR_SPIDERWEB	
+  - type: STR_SCORPOID_HUNTER
+    race: STR_SCORPOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 63
+      firing: 59
+      throwing: 53
+      strength: 62
+      psiStrength: 64
+      psiSkill: 0
+      melee: 66
+      #mana: 30
+    armor: STR_SCORPOID_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: 7
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_SPEAR	
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_SPEAR
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_SPEAR  	
+        #- STR_SHOGG_LANTERN	  
+  - type: STR_SCORPOID_REBEL
+    race: STR_SCORPOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 63
+      firing: 59
+      throwing: 53
+      strength: 62
+      psiStrength: 64
+      psiSkill: 0
+      melee: 66
+      #mana: 30
+    armor: STR_SCORPOID_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: 7
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_SPEAR	
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_SPEAR
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_SPEAR  
+        #- STR_SHOGG_LANTERN	  	  
+  - type: STR_SCORPOID_CHIEF
+    race: STR_SCORPOID
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 85
+      stamina: 85
+      health: 70
+      bravery: 90
+      reactions: 66
+      firing: 63
+      throwing: 57
+      strength: 68
+      psiStrength: 70
+      psiSkill: 0
+      melee: 74
+      #mana: 40
+    armor: STR_SCORPOID_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: 7
+    intelligence: 4
+    aggression: 3
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_TRIDENT
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_TRIDENT
+        #- STR_SHOGG_LANTERN	  	  
+      - - STR_TRIDENT  	
+        #- STR_SHOGG_LANTERN	  	  
+  - type: STR_ANTMAN_WORKER
+    race: STR_ANTMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 140
+      health: 70
+      bravery: 90
+      reactions: 56
+      firing: 50
+      throwing: 64
+      strength: 76
+      psiStrength: 45
+      psiSkill: 0
+      melee: 52
+      #mana: 25
+    armor: STR_ANTMAN_WORKER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 7
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 46
+    builtInWeaponSets:
+      - - STR_SPEAR	
+      - - STR_SPEAR
+      - - STR_SPEAR  	
+  - type: STR_ANTMAN_WARRIOR
+    race: STR_ANTMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 120
+      health: 80
+      bravery: 90
+      reactions: 59
+      firing: 56
+      throwing: 68
+      strength: 72
+      psiStrength: 45
+      psiSkill: 0
+      melee: 56
+      #mana: 25
+    armor: STR_ANTMAN_WARRIOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: 7
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 46
+    builtInWeaponSets:
+      - - STR_TRIDENT
+      - - STR_TRIDENT
+      - - STR_TRIDENT  	
+  - type: STR_ANTMAN_QUEEN_COMMANDER
+    race: STR_ANTMAN
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 50
+      stamina: 1
+      health: 100
+      bravery: 80
+      reactions: 36
+      firing: 70
+      throwing: 20
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 10
+      #mana: 25
+    armor: STR_ANTMAN_QUEEN_ARMOR
+    standHeight: 13
+    kneelHeight: 10
+    value: 60
+    deathSound: 7
+    intelligence: 4
+    aggression: 0
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_QUEEN_WEAPON
+    energyRecovery: 40

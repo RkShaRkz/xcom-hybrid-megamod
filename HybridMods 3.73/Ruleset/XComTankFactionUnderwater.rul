@@ -1,0 +1,329 @@
+armors:
+  - type: STR_COELACANTH_ARMOR2_UC_Underwater
+    spriteSheet: DISRUPTOR_TANKSFLY.PCK
+    allowInv: false
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    heatVision: 25
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    drawingRoutine: 11
+    moveSound: 15
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: STR_COELACANTH_ARMOR_UC_Underwater
+    spriteSheet: COELAND_TANKS.PCK
+    allowInv: true
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    heatVision: 25
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    drawingRoutine: 11
+    moveSound: 15
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: STR_DISRUPTOR_HOVERARMOR2_UC_Underwater
+    spriteSheet: COELAND_TANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - DISPLACER_CORPSE_1
+      - DISPLACER_CORPSE_2
+      - DISPLACER_CORPSE_3
+      - DISPLACER_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 11
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    size: 2
+    movementType: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.35 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: STR_DISRUPTOR_HOVERARMOR_UC_Underwater
+    spriteSheet: DISRUPTOR_TANKSFLY.PCK
+    allowInv: false
+    corpseBattle:
+      - DISPLACER_CORPSE_1
+      - DISPLACER_CORPSE_2
+      - DISPLACER_CORPSE_3
+      - DISPLACER_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 11
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    size: 2
+    movementType: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.35 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: TANK_ARMOR1_Underwater
+    spriteSheet: TANKMISSILES.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 55
+    underArmor: 55
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.4 #Fire
+      - 0.75 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: TANK_ARMOR2_Underwater
+    spriteSheet: TANKSNEW.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 55
+    underArmor: 55
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.4 #Fire
+      - 0.75 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: HOVERTANK_ARMOR2_Underwater
+    spriteSheet: TANKSNEW.PCK
+    allowInv: false
+    corpseBattle:
+      - HOVERTANK_CORPSE_1
+      - HOVERTANK_CORPSE_2
+      - HOVERTANK_CORPSE_3
+      - HOVERTANK_CORPSE_4
+    frontArmor: 120
+    sideArmor: 120
+    rearArmor: 120
+    underArmor: 100
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.7 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.3 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.4 #GaussAP
+      - 1.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+  - type: HOVERTANK_ARMOR_Underwater
+    spriteSheet: TANKMISSILES.PCK
+    allowInv: false
+    corpseBattle:
+      - HOVERTANK_CORPSE_1
+      - HOVERTANK_CORPSE_2
+      - HOVERTANK_CORPSE_3
+      - HOVERTANK_CORPSE_4
+    frontArmor: 120
+    sideArmor: 120
+    rearArmor: 120
+    underArmor: 100
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.7 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.3 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	
+#PrototypeHoverstank Using tank hull conversion
+  - type: HOVEROLD_ARMOR_Underwater
+    spriteSheet: TANK_HOVER_SAR.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 80
+    sideArmor: 65
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 2
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.45 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.4 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawBubbles: true	

@@ -1,0 +1,117 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_TOWER_OF_APOCALYPSE: "Mansion of Apocalypse"
+      STR_ALERT_TOWER_OF_APOCALYPSE: "Mansion of Apocalypse"
+      STR_TOWER_OF_APOCALYPSE_BRIEFING: "This is Merc Guild here, we have report that the Cult of Apocalypse has taken over a mansion nearby. With the goal of conducting a high level meeting for their leaders. Your unit is to secure the mansion and kill any survivors. There won't be a news crew covering this scoop. You are free to excercise your discretion. Do the job and you get paid."
+      STR_TOWER_OF_APOCALYPSE_DESCRIPTION: "This is Merc Guild here, we have report that the Cult of Apocalypse has taken over a mansion nearby. With the goal of conducting a high level meeting for their leaders. Your unit is to secure the mansion and kill any survivors. There won't be a news crew covering this scoop. You are free to excercise your discretion. Do the job and you get paid."	
+alienDeployments:
+  - type: STR_TOWER_OF_APOCALYPSE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE    
+    width: 60
+    length: 60
+    height: 16
+    alert: STR_ALERT_TOWER_OF_APOCALYPSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_TOWER_OF_APOCALYPSE_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_TOWER_OF_APOCALYPSE_BRIEFING	  
+    music:
+      - GMTACTIC
+    markerName: STR_TOWER_OF_APOCALYPSE
+    duration: [72, 144]
+    despawnPenalty: 10
+    enviroEffects: STR_LANDARMOURTOLAND
+    script: APOCALYPSEMANSION
+    data:
+      - alienRank: 9
+        lowQty: 5
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 10
+        highQty: 20
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_TOWER_OF_APOCALYPSE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:
+      - ufo: STR_TOWER_OF_APOCALYPSE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+ufos:		
+  - type: STR_MANSION4
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSNEX
+          width: 30
+          length: 20		
+mapScripts:		
+  - type: APOCALYPSEMANSION
+    commands:
+    - type: addCraft
+      groups: 1	  	  
+      terrain: globeTerrain
+    - type: addUFO
+      UFOName: STR_MANSION4
+      executions: 1	  
+      groups: 1		  
+      terrain: globeTerrain	
+      executionChances: 100		  
+    - type: fillArea
+      terrain: globeTerrain			
+missionScripts:
+  - type: towerOfApocalypseEarly
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_TOWER_OF_APOCALYPSE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

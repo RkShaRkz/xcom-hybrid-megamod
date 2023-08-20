@@ -1,0 +1,386 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_EXCAVATOR: "Excavator"
+      STR_EXCAVATOR_SECTOID: "Excavator (Sectoid)"
+      STR_EXCAVATOR_FLOATER: "Excavator (Floater)"
+      STR_EXCAVATOR_UFOPEDIA: "Excavators are small spy ufos that's design to loiter an area before returning to the main fleet with the research that they had gathered."  
+      STR_EXCAVATOR_MUTON: "Excavator (Muton)"  
+ufopaedia:
+  - id: STR_EXCAVATOR
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_EXCAVATOR
+    text: STR_EXCAVATOR_UFOPEDIA
+    listOrder: 160250
+research:
+  - name: STR_EXCAVATOR
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_EXCAVATOR
+ufos:
+  - type: STR_EXCAVATOR
+    modSprite: InterceptionExcavator
+    size: STR_SMALL
+    damageMax: 270
+    speedMax: 1700
+    armor: 5
+    accel: 6
+    power: 25
+    range: 30
+    score: 100
+    reload: 36
+    breakOffTime: 440
+    hitBonus: 10
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_EXCAVATOR_SECTOID
+        missionCustomDeploy: STR_EXCAVATOR_SECTOID
+        hitBonus: 10
+      STR_FLOATER:
+        craftCustomDeploy: STR_EXCAVATOR_FLOATER
+        missionCustomDeploy: STR_EXCAVATOR_FLOATER
+        hitBonus: 15
+      STR_MUTON:
+        craftCustomDeploy: STR_EXCAVATOR_MUTON
+        missionCustomDeploy: STR_EXCAVATOR_MUTON
+    battlescapeTerrainData:
+      name: EXCAVTR
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: EXCAVTR00
+          width: 20
+          length: 20
+  - type: STR_EXCAVATOR_UNDERWATER
+    battlescapeTerrainData:
+      name: EXCAVTR
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: EXCAVTR00
+          width: 20
+          length: 20				
+alienDeployments:
+  - type: STR_EXCAVATOR
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_EXCAVATOR	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_EXCAVATOR_SECTOID
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_EXCAVATOR		
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_EXCAVATOR_FLOATER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_EXCAVATOR		
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_EXCAVATOR_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_EXCAVATOR		
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_EXCAVATOR_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_EXCAVATOR		
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: EXCAVATORSEAX
+  - type: STR_EXCAVATOR_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_EXCAVATOR		
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: EXCAVATORSEAX	
+  - type: STR_EXCAVATOR_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    unlockedResearch: STR_EXCAVATOR		
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16	
+    script: EXCAVATORSEAX	
+  - type: STR_EXCAVATOR_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    unlockedResearch: STR_EXCAVATOR		
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: EXCAVATORSEAX	
+mapScripts:
+  - type: EXCAVATORSEAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_EXCAVATOR_UNDERWATER
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain

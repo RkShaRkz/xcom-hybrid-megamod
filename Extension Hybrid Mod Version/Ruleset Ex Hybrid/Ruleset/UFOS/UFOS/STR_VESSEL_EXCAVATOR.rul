@@ -1,0 +1,142 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_EXCAVATOR: Excavator  
+      STR_VESSEL_EXCAVATOR_UFOPEDIA: "Designed as a rescue UFO, this ufo is design to break through heavy defenses and rescue captured Aliens. It has a small but elite assault force of aliens for the job."
+ufopaedia:
+  - id: STR_VESSEL_EXCAVATOR
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_EXCAVATOR
+    text: STR_VESSEL_EXCAVATOR_UFOPEDIA
+research:
+  - name: STR_VESSEL_EXCAVATOR
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_EXCAVATOR
+ufos:
+  - type: STR_VESSEL_EXCAVATOR
+    modSprite: InterceptionExcavator
+    size: STR_SMALL
+    hitBonus: 15
+    fireSound: 38
+    damageMax: 300
+    speedMax: 1600
+    accel: 4
+    power: 25
+    range: 20
+    reload: 27
+    score: 150
+    breakOffTime: 450
+    battlescapeTerrainData:
+      name: VES_EXCV
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_BITS_G
+        - UFOL83DIO_B
+      mapBlocks:
+        - name: VES_EXCV
+          width: 20
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_EXCAVATOR
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_EXCAVATOR	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_EXCAVATOR_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_EXCAVATOR
+    depth: [1, 1] 
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []	

@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - MGS Aaron
+  - MGS Adam
+  - MGS Adrian
+  - MGS Alfredo
+  - MGS Austin
+  - MGS Brandon
+  - MGS Brian
+  - MGS Calvin
+  - MGS Carl
+  - MGS Chance
+  - MGS Charlie
+  - MGS Clarence
+  - MGS Cody
+  - MGS Connor
+  - MGS Damian
+  - MGS Donald
+  - MGS Dwight
+  - MGS Dylan
+  - MGS Ed
+  - MGS Eduardo
+  - MGS Elliott
+  - MGS Ethan
+  - MGS Evan
+  - MGS Ezekiel
+  - MGS Garrett
+  - MGS George
+  - MGS Giovanni
+  - MGS Grayson
+  - MGS James
+  - MGS Jason
+  - MGS Jay
+  - MGS Jeremy
+  - MGS Joel
+  - MGS John
+  - MGS Joshua
+  - MGS Keith
+  - MGS Kevin
+  - MGS Lester
+  - MGS Liam
+  - MGS Mark
+  - MGS Omar
+  - MGS Oscar
+  - MGS Owen
+  - MGS Parker
+  - MGS Pete
+  - MGS Rick
+  - MGS Robert
+  - MGS Samuel
+  - MGS Santiago
+  - MGS Saul
+  - MGS Scott
+  - MGS Seth
+  - MGS Shawn
+  - MGS Simon
+  - MGS Spencer
+  - MGS Steven
+  - MGS Timothy
+  - MGS Tom
+  - MGS Tucker
+  - MGS Victor
+  - MGS Vincent
+  - MGS Virgil
+femaleFirst:
+  - MGS Adriana
+  - MGS Alexandra
+  - MGS Alexis
+  - MGS Allison
+  - MGS Angela
+  - MGS Anna
+  - MGS Audrey
+  - MGS Barbara
+  - MGS Bethany
+  - MGS Brianna
+  - MGS Cadence
+  - MGS Catherine
+  - MGS Chelsea
+  - MGS Chloe
+  - MGS Cora
+  - MGS Denise
+  - MGS Esperanza
+  - MGS Esther
+  - MGS Evelyn
+  - MGS Faith
+  - MGS Gabrielle
+  - MGS Georgia
+  - MGS Guadalupe
+  - MGS Isabel
+  - MGS Jasmine
+  - MGS Jillian
+  - MGS Julia
+  - MGS Kaitlyn
+  - MGS Kara
+  - MGS Karen
+  - MGS Kelly
+  - MGS Layla
+  - MGS Lily
+  - MGS Lucy
+  - MGS Madeline
+  - MGS Madison
+  - MGS Margaret
+  - MGS Maria
+  - MGS Melanie
+  - MGS Melissa
+  - MGS Mia
+  - MGS Michelle
+  - MGS Miranda
+  - MGS Olivia
+  - MGS Paige
+  - MGS Patricia
+  - MGS Reese
+  - MGS Riley
+  - MGS Sarah
+  - MGS Savannah
+  - MGS Selena
+  - MGS Sigourney
+  - MGS Taylor
+  - MGS Tiffany
+  - MGS Vanessa
+  - MGS Violet
+  - MGS Zoey
+maleLast:
+  - Becker
+  - Benedict
+  - Bowers
+  - Bradley
+  - Brewster
+  - Bryant
+  - Burroughs
+  - Carlton
+  - Carr
+  - Carter
+  - Chase
+  - Childers
+  - Colby
+  - Crawley
+  - Crossett
+  - Daley
+  - Davies
+  - Dodge
+  - Evans
+  - Gallagher
+  - Gates
+  - Goddard
+  - Grady
+  - Griffith
+  - Gutierrez
+  - Harding
+  - Harper
+  - Hicks
+  - Horton
+  - Hudson
+  - Hunt
+  - Johnson
+  - Kay
+  - Kellogg
+  - Kemp
+  - Kendrick
+  - King
+  - Kirk
+  - Lawson
+  - Machado
+  - McNeil
+  - Meador
+  - Miller
+  - Mitchell
+  - Morris
+  - Nash
+  - North
+  - O'Connell
+  - Ortiz
+  - Palacios
+  - Partridge
+  - Patrick
+  - Perkins
+  - Porter
+  - Prewitt
+  - Rapp
+  - Ritchie
+  - Rooney
+  - Rossi
+  - Salomon
+  - Scroggins
+  - Shelley
+  - Smiley
+  - Sorensen
+  - Stein
+  - Stephens
+  - Stoddard
+  - Thompson
+  - Tirado
+  - Underwood
+  - Wade
+  - Wagner
+  - Webb

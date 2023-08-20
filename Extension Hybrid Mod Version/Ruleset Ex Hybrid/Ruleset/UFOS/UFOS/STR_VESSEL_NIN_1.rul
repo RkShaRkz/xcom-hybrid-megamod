@@ -1,0 +1,104 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_NIN_1: "SkyMotors Patrol Ship"
+      STR_VESSEL_NIN_1_UFOPEDIA: "The Skymotor Patrol Ship is a gunboat in a sense, well armed and armour and with long loitering time. This Patrol ship is used by a lot of factions to conduct long range Patrol of their territory."  
+ufopaedia:
+  - id: STR_VESSEL_NIN_JETBIKE
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_NIN_JETBIKE
+    text: STR_VESSEL_NIN_JETBIKE_UFOPEDIA
+research:
+  - name: STR_VESSEL_NIN_1
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_NIN_1
+ufos:
+  - type: STR_VESSEL_NIN_1
+    size: STR_SMALL
+    modSprite: InterceptionNinjaB2
+    hitBonus: 120
+    avoidBonus: 40
+    damageMax: 74
+    speedMax: 1200
+    accel: 1
+    armor: 20	
+    power: 90
+    range: 65
+    reload: 67
+    fireSound: 33
+    score: 500
+    breakOffTime: 350
+    radarRange: 750
+    sightRange: 600
+    hunterKillerPercentage: 100
+    huntBehavior: 2
+    huntAlertSound: 89
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0
+    battlescapeTerrainData:
+      name: DEVASTATOR
+      mapDataSets:
+        - BLANKS
+        - XOPSTRANSPORT2
+        - XOPSTRANSPORT3
+        - COMPUTERS
+        - C_INT_XCOM_GOLD
+        - C_EXT_ROOF_BLACK2
+        - PLANEENGINE1		
+      mapBlocks:
+        - name: DEVASTATOR
+          width: 20
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_NIN_1
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_NIN_1	
+    width: 60
+    length: 60
+    height: 19
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_NIN_1_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_NIN_1	
+    width: 60
+    length: 60
+    height: 19
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []

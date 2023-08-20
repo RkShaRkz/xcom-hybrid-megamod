@@ -1,0 +1,49 @@
+soldierTransformation:
+  - name: STR_SHIELDED_TRANSFORM
+    requires:
+      - STR_MC_SOLDIERS
+    requiresBaseFunc: [BIOLAB]
+    producedSoldierType: STR_SHIELDED_SOLDIER
+#    producedSoldierArmor: STR_NONE
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    cost: 0
+    recoveryTime: 15
+    requiredItems:
+      STR_ALIEN_IMPLANTER: 2
+#    flatOverallStatChange:
+#      tu: 0
+#      stamina: 0
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - name: STR_CYBORG_TRANSFORM
+    requires:
+      - STR_MC_SOLDIERS
+    producedSoldierType: STR_IMP_SOLDIER
+#    producedSoldierArmor: STR_NONE
+    requiresBaseFunc: [BIOLAB]
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    cost: 0
+    recoveryTime: 25
+    requiredItems:
+      STR_ALIEN_IMPLANTER: 1
+      STR_ALIEN_LEARNING_ARRAYS: 2
+#    flatOverallStatChange:
+#      tu: 0
+#      stamina: 0
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+#eof    

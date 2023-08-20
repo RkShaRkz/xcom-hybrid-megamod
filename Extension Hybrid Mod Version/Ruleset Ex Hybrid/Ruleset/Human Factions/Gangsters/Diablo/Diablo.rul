@@ -1,0 +1,684 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BLACK_LOTUS: " The Diablo Clan"
+      STR_BLACK_LOTUS_UFOPEDIA: "Hail from an old middle eastern crime organization, this clan has initially gained influence throughout the eastern Asia and Arabia with its operations. Nowdays, it has spread of its influence all over the world. Although it has expaned globally, however, members of this criminal clan hasn't forgotten of their roots. They mostly recruit of their members from the middle east and asia, rarely from anywhere else. The clan hold of itself together with a mystical and mysterious culture, that's steep in rituals and rites. Often magic and special tricks are involved, to recruit or keep current Clan members loyal. Those whom were disloyal were often end up disappeared and never seen again. The Clan specialises in mercenary assasination and assault missions, they have earned huge bounties from the underworld with such activities. If they are not involved in mercenary trade, they also got their hands in other illegal activities like drugs and etc to generate money. Enough to create enemies whom they ruthlessly eliminate. "	  	
+      STR_LO_WO: "Abdul Hanssan"	
+      STR_LO_WO_UFOPEDIA: "He's the current leader of the Diablo clan, however, it is by a miracle that we found the man. For the Clan has hidden of him pretty well, with those mysterious ritual of theirs. Now that we have capture him, he has taken some kind of pill that has render of his mind comatose. Its like he has a built in fail safe pill in his head that activates when capture. For he's not suppose to be taken alive. There is hope however, our analysis of his blood works that he's a clone. So there might be copies of him out there. Leading the organization that never loses its leader."
+      STR_BLACK_LOTUS_FOOTMAN: "Diablo Initiate"
+      STR_BLACK_LOTUS_FOOTMAN_UFOPEDIA: "The lowest ranking of the Diablo element. The intiate are recent recruits, from the streets of Asia or Middle-eastern countries. Usually ill-educated but got brainwashed by the mysterious magics and rituals of the Clan, not to mention maybe rich rewards, they will foolishly die for the clan. They are mostly found in doing mundane duties."
+      STR_BLACK_LOTUS_FOLLOWER: "Diablo Follower"
+      STR_BLACK_LOTUS_FOLLOWER_UFOPEDIA: "A step up from the Intiate, a Follower is one whom has been with the clan for a few years and has proven of his or her value to the Clan. They hold trusted position within of the Clan and fanatically loyal. As such that they are willing to fight to the death, with the right weapons to do so."	  
+      STR_BLACK_LOTUS_WARRIOR: "Diablo Warrior"
+      STR_BLACK_LOTUS_WARRIOR_UFOPEDIA: "For Followers whom has accomplished of valued deeds for the clan, the clan will reward them with in-house warrior training, taught by the master assassins from within the clan. The hard training will mold a Follower into a veteran warrior, skillful in the art of warfare and deadly in combat."	  
+      STR_BLACK_LOTUS_ASSASSIN: "Diablo Assassin"
+      STR_BLACK_LOTUS_ASSASSIN_UFOPEDIA: "The most promising of Warriors are chosen annually to join the rank of assassins. These assasins are silent, skillful and deadly. They are also given extra trainning to be more deadly. Most of the assassination mission are conducted by members of this ranks. They also act as elite body guards to the higher ranking members of the clan."
+      STR_BLACK_LOTUS_MANDARIN: "Diablo Mandarin"
+      STR_BLACK_LOTUS_MANDARIN_UFOPEDIA: "The members of this rank are the clan's nobility, they don't come from the streets, rather they are descendants from the founding fathers of this Clan. This social rank within the clan is inherited, when a member of the rank dies. It is a privillage position, for members of it hold it for life and they often act as the social face of the clan, in social circles and political representation. While hiding away of the mystism that the clan is trapped in."
+      STR_BLACK_LOTUS_WITCH: "Diablo Ritual Keeper"
+      STR_BLACK_LOTUS_WITCH_UFOPEDIA: "The female members of the clan's nobility are often trained as the clan's ritual keepers. Their role is to uphold, maintained and execute of the sacred, mystical rituals that's within of the clan, which glues of the Clan's hierarchy together. The importance of these Ritual Keepers, will always ensures that they are always highly place in the upper echelon of the Clan. Not to mention they are always guarded heavily by fanatical guards and warriors. "
+      STR_BLACK_LOTUS_FOLLOWERID: "Diablo Follower ID"
+      STR_BLACK_LOTUS_AVATARID: "Diablo Master Assassin ID"  
+      STR_BLACK_LOTUS_FOOTMANID: "Diablo Initiate ID"
+      STR_BLACK_LOTUS_WARRIORID: "Diablo Warrior ID"
+      STR_BLACK_LOTUS_ASSASSINID: "Diablo Assassin ID"
+      STR_BLACK_LOTUS_MANDARINID: "Diablo Mandarin ID"
+      STR_BLACK_LOTUS_WITCHID: "Diablo Ritual Keeper ID" 	  
+      STR_LO_WO_ARMOR: "Abdul Hanssa Combat Analysis"	
+      STR_BLACK_LOTUS_RATIONALE: "Diablo Rationale"
+      STR_BLACK_LOTUS_RATIONALE_UFOPEDIA: "For a religious cult, the agenda of the Diablo is surprisingly pragmatic - at least for the members who haven't been continuously exposed to the will of their goddess. Humanity stands alone against a numerous host (still an awesome word, if you ask me!) of enemies, many of which neither we nor the Diablo can fully comprehend or attempt to fight without outside help.{NEWLINE}The Golden Lady represents such an opportunity.{NEWLINE}While she seems to regard her followers more as toys or playthings, she did supply several means of organizing a more effective response to anyone who would truly wish to harm Humanity in the form of psionic training, interpreted and modified to fit far eastern meditation and combat traditions.{NEWLINE}For anyone not psionically dominated by their goddess, she seems to be the lesser of two or even more evils."	
+      STR_DESTROY_BLACK_LOTUS: "Terminate The Diablo!"
+      STR_DESTROY_BLACK_LOTUS_UFOPEDIA: "We have completed the construction of our psi detector using the Diablo psi generator as a base. Now they cannot hide from us! In fact, we located some of their leaders within mere hours of activating the detector and dispatched teams to storm their hideouts. The Diablo is no more, their remaining forces scattered and clueless.{NEWLINE}We don't need to keep any extra psi generators, as they are useless to us now. I suggest we sell them or something."	
+      STR_BLACK_LOTUS_FOLLOWER_ARMOR: "Diablo Follower Combat Analysis"
+      STR_BLACK_LOTUS_FOOTMAN_ARMOR: "Diablo Footman Combat Analysis"
+      STR_BLACK_LOTUS_WARRIOR_ARMOR: "Diablo Warrior Combat Analysis"
+      STR_BLACK_LOTUS_ASSASSIN_ARMOR: "Diablo Assassin Combat Analysis"
+      STR_BLACK_LOTUS_MANDARIN_ARMOR: "Diablo Mandarin Combat Analysis"
+      STR_BLACK_LOTUS_WITCH_ARMOR: "Diablo Witch Combat Analysis"
+      STR_BLACK_LOTUS_AVATAR_ARMOR: "Diablo Avatar Combat Analysis"
+      STR_LO_WOID: "Abdul Hanssa ID"	  
+      STR_BLACK_LOTUS_AVATAR: "Diablo Avatar ID" 	  	  
+      STR_ANCIENT_KATANA: "Ancient Katana"	
+      STR_LO_WO_REFUGE_BRIEFING: "A joint effort of our intelligence service and Interpol has finally allowed us to discover the secret refuge of Abdul Hanssa, founder of Diablo Clan. He must be captured, or liquidated. Be vigilant, as he is deceptive and has his students with him. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_LO_WO_REFUGE_DESCRIPTION: "The joint work of our intelligence service and Interpol has finally allowed us to discover the secret refuge of Abdul Hanssa, founder of Diablo Clan. He must be captured, or liquidated. We only have one shot at this - if we fail, he'll never be found again."
+      STR_LO_WO_ARMOR: "Abdul Hanssa Combat Analysis"	
+      STR_BLACK_LOTUS_RATIONALE: "Diablo Rationale"
+      STR_BLACK_LOTUS_RATIONALE_UFOPEDIA: "For a religious cult, the agenda of the Diablo is surprisingly pragmatic - at least for the members who haven't been continuously exposed to the will of their goddess. Humanity stands alone against a numerous host (still an awesome word, if you ask me!) of enemies, many of which neither we nor the Diablo can fully comprehend or attempt to fight without outside help.{NEWLINE}The Golden Lady represents such an opportunity.{NEWLINE}While she seems to regard her followers more as toys or playthings, she did supply several means of organizing a more effective response to anyone who would truly wish to harm Humanity in the form of psionic training, interpreted and modified to fit far eastern meditation and combat traditions.{NEWLINE}For anyone not psionically dominated by their goddess, she seems to be the lesser of two or even more evils."	
+      STR_DESTROY_BLACK_LOTUS: "Terminate The Diablo!"
+      STR_DESTROY_BLACK_LOTUS_UFOPEDIA: "We have completed the construction of our psi detector using the Diablo psi generator as a base. Now they cannot hide from us! In fact, we located some of their leaders within mere hours of activating the detector and dispatched teams to storm their hideouts. The Diablo is no more, their remaining forces scattered and clueless.{NEWLINE}We don't need to keep any extra psi generators, as they are useless to us now. I suggest we sell them or something."	
+      STR_BLACK_LOTUS_FOLLOWER_ARMOR: "Diablo Follower Combat Analysis"
+      STR_BLACK_LOTUS_FOOTMAN_ARMOR: "Diablo Footman Combat Analysis"
+      STR_BLACK_LOTUS_WARRIOR_ARMOR: "Diablo Warrior Combat Analysis"
+      STR_BLACK_LOTUS_ASSASSIN_ARMOR: "Diablo Assassin Combat Analysis"
+      STR_BLACK_LOTUS_MANDARIN_ARMOR: "Diablo Mandarin Combat Analysis"
+      STR_BLACK_LOTUS_WITCH_ARMOR: "Diablo Witch Combat Analysis"
+      STR_BLACK_LOTUS_AVATAR_ARMOR: "Diablo Avatar Combat Analysis"
+      STR_BLACK_LOTUS_AVATAR: "Diablo Master Assassin"
+      STR_BLACK_LOTUS_AVATAR_UFOPEDIA: "The Diablo Master Assassin is a human host completely overtaken by cyborg and reshaped to assume a form of a floating woman. The word of the Avatar is absolute among the cult members."	  
+      STR_BLACK_LOTUS_AVATAR_GRAPPLE: "Diablo Avatar's Grapple"
+      STR_BLACK_LOTUS_AVATAR_WEAPON: "Diablo Avatar's Weapon"
+      STR_BLACK_LOTUS_AVATAR_CORPSE: "Diablo Avatar Remains"
+      STR_BLACK_LOTUS_AVATAR_AUTOPSY: "Diablo Avatar Autopsy"
+      STR_BLACK_LOTUS_AVATAR_AUTOPSY_UFOPEDIA: "This creature appears to be fully human, down to the genetic code. There is nothing particular about it whatsoever. So I did an extremely careful autopsy and found out that this person had absolutely no signs of illnesses, disfigurations or aging. It had all teeth, soft feet soles, everything to prove it was both extremely young and completely perfect. Then I asked the Intelligence Officer to cross-check its DNA and that pointed to a male citizen of Kagoshima, 41 years old, a member of the Diablo. Apparently he somehow transformed into... her, but how and for what reason, we have no idea."
+      STR_BLACK_LOTUS_PSI_GENERATOR: "Diablo Psi Generator"
+      STR_BLACK_LOTUS_PSI_GENERATOR_UFOPEDIA: "This strange device was installed within the Avatar statue of the Diablo main base. Its purpose is to receive and amplify psionic waves coming from some location in outer space and enable the 'possession' of humans by the cult's 'goddess'.{NEWLINE}While we cannot say we truly understand its principles of operation, we can theoretically use it to locate such psionic wavefronts. If we manage to do so, this will effectively disable the Diablo as an organization, since they will not be able to contact their mistress without us knowing about it immediately."	
+      STR_BUY_BLACK_LOTUS_WEAPONS: "Purchase from Diablo Suppliers"
+      STR_BUY_BLACK_LOTUS_WEAPONS_UFOPEDIA: "Diablo is not as well supplied with military weapons as most other organizations we encounter, but what they have is usually of high quality. We have decided to follow their example and contact the same weapon dealers with an offer to buy the same firearms - and the offer was accepted. We can now finalize the agreement.{NEWLINE}Of course, doing so is a blatant violation of the law, so be prepared to explain it to the Council at the end of the month. [-50 points]"	
+      STR_BLACK_LOTUS_NETWORK: "Diablo Syndicate Network"
+      STR_BLACK_LOTUS_NETWORK_UFOPEDIA: "Diablo Syndicate activity is not limited to outposts; in fact, the interesting stuff begins a level above, within more permanent hideouts. These buildings, owned by various organizations on paper but in reality belonging to the Diablo only, function as local data centers, training grounds and storage facilities. This is a big chance for us to capture a higher-ranking member of this cult, but they'll probably be protected by a host of well-trained bodyguards, so there's that.{NEWLINE}A 'host' is such an awesome word, no?"	
+      STR_BLACK_LOTUS_OPERATIONS: "Diablo Syndicate Operations"
+      STR_BLACK_LOTUS_OPERATIONS_UFOPEDIA: "Commander, infiltrating a network of East-Asian shady businesses was not easy, but it was certainly exciting! Anyway, now we have access to some of their trusted sources, mostly computer servers and such, and we can get some idea on where their masters may live. Data analysis isn't perfect, but we have a chance of locating a high-ranking Diablo Syndicate member whenever they receive an e-mail or pay for groceries from an account we know of. I have consulted our hacker team, I mean myself, and we're good to go!{NEWLINE}{NEWLINE}{NEWLINE}Also from now on, we will not bother with Diablo safehouses; such tasks will be delegated to Council Salvagers instead."	
+      STR_BLACK_LOTUS_AVATAR_ARMOR_UFOPEDIA: "The Diablo Avatar can maintain a Gold type shield (capacity: 50, restoration: 25/turn), protecting it from most forms of attack."    
+      STR_BLACK_LOTUS_HQ: "Diablo Syndicate HQ"
+      STR_BLACK_LOTUS_HQ_UFOPEDIA: "We now know that the Diablo Syndicate was established and is still directly governed by an machine intelligence known as Skynet. Like the Church of the Nine, it gain worship by its subjects by some mysterious means. While we do not know the exact nature of how it does it, we do understand in detail what it is planning to do. Finding new recruits for its future operations.{NEWLINE}The link with Skynet is located in the Diablo Syndicate headquarters, inside a golden statue representing The Golden Lady. If we capture it, we should be able to decipher its signal pattern and find a way to disable it, thus denying Skynet the ability to find more recruits.{NEWLINE}We now have enough intelligence data to locate the HQ and choose the right time to raid it. You will be notified when an opportunity comes up, but expect strong resistance."	  	
+      STR_BLACK_LOTUS_SHRINE: "The Root of All Evil"
+      STR_BLACK_LOTUS_SHRINE_DESCRIPTION: "Deep in the jungle there is a hidden shrine of Diablo Syndicate, dedicated to their machine god. According to the cult, it is the place where she fell from the stars. The area is uninhabited, but teeming with Diablo patrols."
+      STR_BLACK_LOTUS_SHRINE_BRIEFING: "Deep in the jungle there is a hidden shrine of Diablo Syndicate, dedicated to their machine god. According to the cult, it is the place where she fell from the stars. The area is uninhabited, but teeming with Diablo patrols. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_BLACK_LOTUS_SHRINE_EXPLORED: "Diablo Shrine explored."	
+      STR_CORRUPT_POLITICIAN_BLACK_LOTUS: "Corrupt Politician"
+      STR_CORRUPT_POLITICIAN_BLACK_LOTUS_DESCRIPTION: "A local politician from {0} was arrested and is now awaiting trial on grounds of corruption. The true reason behind this arrest was evidence that the individual secretly supported Diablo, carefully put together by your trusted operatives. It feels good to be on top of things.{NEWLINE}[150 points]"	
+      STR_BLACK_LOTUS_PROTESTED_TOO_MUCH: "Protested Too Much"
+      STR_BLACK_LOTUS_PROTESTED_TOO_MUCH_DESCRIPTION: "Diablo clan assassinated a {0} politician who was too eager to uncover their secrets. The resulting political chaos didn't make the Council very happy.{NEWLINE}[-175 points]"
+      STR_BLACK_LOTUS_KILLING_INTENT: "Killing Intent"
+      STR_BLACK_LOTUS_KILLING_INTENT_DESCRIPTION: "The Diablo organized a secret tournament in {0} with the intention of recruiting new members and generally advertise their presence. The event was successful, raising their standing with many leaders of the underworld. Interesting as it was, we should prevent such displays of power by our statutory enemies.{NEWLINE}[-75 points]"	  
+alienRaces:
+  - id: STR_BLACK_LOTUS
+    members:
+      - STR_BLACK_LOTUS_WITCH
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    retaliationAggression: -100
+  - id: STR_BLACK_LOTUS_UNDERWATER	  	
+    retaliationAggression: -100
+    members:
+      - STR_BLACK_LOTUS_WITCH
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+ufopaedia:
+  - id: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN	
+    text: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN_UFOPEDIA		  
+    listOrder: 154761
+  - id: STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_BEDUIN_WARRIOR_UFOPEDIA
+    requires:
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    listOrder: 154000  
+  - id: STR_BLACK_LOTUS_FOOTMAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_BLACK_LOTUS_FOOTMAN_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_BLACK_LOTUS_FOOTMAN
+    listOrder: 150105
+  - id: STR_BLACK_LOTUS_WITCH
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_BLACK_LOTUS_WITCH_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_BLACK_LOTUS_WITCH
+    listOrder: 150130	
+  - id: STR_BLACK_LOTUS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_BLACK_LOTUS_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_BLACK_LOTUS
+    listOrder: 180090
+  - id: STR_LO_WO
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_LO_WO_UFOPEDIA	
+    requires:
+      - STR_LO_WOID
+    listOrder: 150125	
+research:
+  - name: STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BLACK_LOTUS		
+  - name: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BLACK_LOTUS		
+  - name: STR_BLACK_LOTUS 
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+      - STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+      - STR_BLACK_LOTUS_FOOTMAN
+      - STR_BLACK_LOTUS_WITCH
+      - STR_LO_WO
+    listOrder: 180090	
+  - name: STR_LO_WO
+    cost: 40
+    points: 60
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BLACK_LOTUS		  	
+  - name: STR_BLACK_LOTUS_FOOTMAN
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BLACK_LOTUS
+    listOrder: 150105	
+  - name: STR_BLACK_LOTUS_WITCH
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 40
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BLACK_LOTUS
+    listOrder: 150130		
+units:
+  - type: STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    race: STR_HUMAN
+    stats:
+      tu: 50
+      stamina: 45
+      health: 36
+      bravery: 70
+      reactions: 40
+      firing: 36
+      throwing: 40
+      strength: 30
+      psiStrength: 30
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_BEDUIN_WARRIOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 14
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 4
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+    race: STR_HUMAN
+    stats:
+      tu: 56
+      stamina: 55
+      health: 42
+      bravery: 80
+      reactions: 50
+      firing: 48
+      throwing: 43
+      strength: 34
+      psiStrength: 40
+      psiSkill: 0
+      melee: 44
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 3
+    sniper: 25
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE		
+  - type: STR_BLACK_LOTUS_FOOTMAN
+    race: STR_BLACK_LOTUS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 35
+      bravery: 80
+      reactions: 40
+      firing: 45
+      throwing: 45
+      strength: 40
+      psiStrength: 0
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_BLACK_LOTUS_FOOTMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 6
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 3
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:		
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	
+  - type: STR_BLACK_LOTUS_WITCH
+    race: STR_BLACK_LOTUS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 50
+      firing: 60
+      throwing: 85
+      strength: 36
+      psiStrength: 0
+      psiSkill: 0
+      melee: 60
+      #mana: 60
+    armor: STR_BLACK_LOTUS_WITCH_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 3
+    sniper: 75
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_LO_WO
+    race: STR_BLACK_LOTUS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 100
+      health: 50
+      bravery: 100
+      reactions: 85
+      firing: 40
+      throwing: 85
+      strength: 50
+      psiStrength: 95
+      psiSkill: 0
+      melee: 90
+      #mana: 110
+    armor: STR_LO_WO_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 3
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE		
+armors: 
+  - type: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN_ARMOR
+    spriteSheet: BEDUIN_WARRIOR.PCK
+    spriteInv: inventory_MALE_BEDUIN_CHIEFTAIN
+    forcedTorso: 2
+    corpseBattle:
+      - MALE_CIVILIAN_BEDUIN_WARRIOR_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]			
+  - type: STR_MALE_CIVILIAN_BEDUIN_WARRIOR_ARMOR
+    spriteSheet: BEDUIN_WARRIOR.PCK
+    spriteInv: inventory_MALE_BEDUIN_WARRIOR
+    corpseBattle:
+      - MALE_CIVILIAN_BEDUIN_WARRIOR_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]	
+  - type: STR_LO_WO_ARMOR
+    spriteSheet: LO_WO.PCK
+    spriteInv: inventory_LO_WO
+    corpseBattle:
+      - STR_LO_WO_CORPSE
+    visibilityAtDark: 12
+    camouflageAtDay: 4
+    camouflageAtDark: 4
+    frontArmor: 14
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 14
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 1.0
+    meleeDodgeBackPenalty: 0.0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_BLACK_LOTUS_FOOTMAN_ARMOR
+    spriteSheet: DIABLOFOOTMAN.PCK
+    spriteInv: DIABLOFOOTMANInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 244, 36, 162, 80, 162, 38, 244]
+    corpseBattle:
+      - STR_BLACK_LOTUS_FOOTMAN_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 7
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.2
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.95
+      - 1.0
+      - 0.95
+      - 0.9
+      - 0.95
+      - 0.8
+      - 1.25
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]
+  - type: STR_BLACK_LOTUS_WITCH_ARMOR
+    spriteSheet: DIABLOWITCH.PCK
+    spriteInv: DIABLOWITCHInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 244, 36, 162, 80, 162, 38, 244]
+    corpseBattle:
+      - STR_BLACK_LOTUS_WITCH_CORPSE	  
+    #corpseGeo: STR_RAIDER_CORPSE
+    visibilityAtDark: 12
+    heatVision: 25
+    camouflageAtDay: -15
+    camouflageAtDark: -5
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ] 
+items:  
+  - type: MALE_CIVILIAN_BEDUIN_WARRIOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 525
+    floorSprite: 433
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_LO_WO_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 32
+    bigSprite: 897
+    floorSprite: 796
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_BLACK_LOTUS_FOOTMAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40	
+    bigSprite: 3445
+    floorSprite: 3445
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_BLACK_LOTUS_WITCH_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 30
+    bigSprite: 3451
+    floorSprite: 3451
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1  	
+  - type: STR_LO_WO
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: false
+    costSell: 80000
+    listOrder: 150124		
+  - type: STR_BLACK_LOTUS_FOOTMAN
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 150105	
+  - type: STR_BLACK_LOTUS_WITCH
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 30000
+    listOrder: 150130
+  - type: STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000 
+  - type: STR_MALE_CIVILIAN_BEDUIN_WARRIOR
+    size: 0.0
+    liveAlien: true
+    prisonType: 3
+    costSell: 5000

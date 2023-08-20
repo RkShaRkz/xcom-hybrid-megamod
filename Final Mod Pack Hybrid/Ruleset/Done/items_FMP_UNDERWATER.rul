@@ -1,0 +1,809 @@
+﻿items:
+  - type: STR_TANK_RAILGUN_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 50000
+    listOrder: 12050
+    recoveryTransformations:
+      STR_TANK_RAILGUN: [1]	
+  - type: STR_SECTOID_GUARDIAN_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 50000
+    listOrder: 12050
+    recoveryTransformations:
+      STR_SECTOID_GUARDIAN: [1]	
+  - type: STR_ETHEREAL_SPEAKER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 80000
+    recoveryTransformations:
+      STR_ETHEREAL_SPEAKER: [1]		
+  - type: STR_ETHEREAL_GUARDIAN_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    recoveryTransformations:
+      STR_ETHEREAL_GUARDIAN: [1]		
+  - type: STR_ETHEREAL_KNIGHT_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 125000
+    recoveryTransformations:
+      STR_ETHEREAL_KNIGHT: [1]		
+  - type: STR_ETHEREAL_GRAND_MASTER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 250000
+    recoveryTransformations:
+      STR_ETHEREAL_GRAND_MASTER: [1]		
+  - type: STR_OBLITERATOR_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 450000
+    listOrder: 10380
+    recoveryTransformations:
+      STR_OBLITERATOR_TERRORIST: [1]		
+  - type: STR_CHASER_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14411
+    recoveryTransformations:
+      STR_CHASER_SOLDIER: [1]		
+  - type: STR_CHASER_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14412
+    recoveryTransformations:
+      STR_CHASER_ENGINEER: [1]		
+  - type: STR_CHASER_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14413
+    recoveryTransformations:
+      STR_CHASER_MEDIC: [1]		
+  - type: STR_CHASER_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14414
+    recoveryTransformations:
+      STR_CHASER_NAVIGATOR: [1]		
+  - type: STR_CHASER_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14415
+    recoveryTransformations:
+      STR_CHASER_LEADER: [1]		
+  - type: STR_MIB_HEAVY_TROOPER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14600
+    recoveryTransformations:
+      STR_MIB_HEAVY_TROOPER: [1]		
+  - type: STR_MIB_STORMTROOPER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 15000
+    recoveryTransformations:
+      STR_MIB_STORMTROOPER: [1]		
+  - type: STR_MIB_SECTOPOD_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 80000
+    recoveryTransformations:
+      STR_MIB_SECTOPOD_TERRORIST: [1]		
+  - type: STR_MIB_STORMTROOPER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 15000
+    recoveryTransformations:
+      STR_MIB_STORMTROOPER: [1]		
+  - type: STR_MIB_HEAVY_TROOPER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14600
+    recoveryTransformations:
+      STR_MIB_HEAVY_TROOPER: [1]		
+  - type: STR_MIB_PSI_OPS_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 25000
+    listOrder: 14606
+    recoveryTransformations:
+      STR_MIB_PSI_OPS: [1]
+  - type: STR_MIB_PSI_OPS	
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 25000
+    listOrder: 14606
+  - type: STR_DOGE_UNDERWATER
+    size: 6
+    costBuy: 10000
+    costSell: 8000
+    transferTime: 48
+    weight: 1
+    bigSprite: 181
+    floorSprite: 0
+    handSprite: 0
+    power: 40
+    damageType: 7
+    meleeSound: 93
+    accuracyMelee: 95
+    tuMelee: 10
+    battleType: 3
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1073
+    recoveryTransformations:
+      STR_DOGE: [1]		
+  - type: STR_HYBRID_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+    recoveryTransformations:
+      STR_HYBRID_SOLDIER: [1]		
+  - type: STR_HYBRID_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+    recoveryTransformations:
+      STR_HYBRID_ENGINEER: [1]		
+  - type: STR_HYBRID_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+    recoveryTransformations:
+      STR_HYBRID_MEDIC: [1]		
+  - type: STR_HYBRID_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+    recoveryTransformations:
+      STR_HYBRID_NAVIGATOR: [1]		
+  - type: STR_ALIEN_DRONE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14407
+    recoveryTransformations:
+      STR_ALIEN_DRONE_TERRORIST: [1]		
+  - type: STR_ANTHROPOD_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12210
+    recoveryTransformations:
+      STR_ANTHROPOD_SOLDIER: [1]		
+  - type: STR_ANTHROPOD_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12212
+    recoveryTransformations:
+      STR_ANTHROPOD_NAVIGATOR: [1]		
+  - type: STR_ANTHROPOD_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 50000
+    listOrder: 12211
+    recoveryTransformations:
+      STR_ANTHROPOD_ENGINEER: [1]		
+  - type: STR_SPITTER_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12220
+    recoveryTransformations:
+      STR_SPITTER_TERRORIST: [1]		
+  - type: STR_SPITTER_RETRACT_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12221
+    recoveryTransformations:
+      STR_SPITTER_RETRACT_TERRORIST: [1]		
+  - type: STR_SPITTER_RETRES_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12222
+    recoveryTransformations:
+      STR_SPITTER_RETRES_TERRORIST: [1]		
+  - type: STR_SPITTER_NAKED_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 12223
+    recoveryTransformations:
+      STR_SPITTER_NAKED_TERRORIST: [1]		
+  - type: STR_XCOM_CYBERDISC_LASER_UNDERWATER
+    size: 6
+    costSell: 800000
+    transferTime: 96
+    weight: 1
+    bigSprite: 211
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 20
+    fireSound: 84
+    hitSound: 85
+    hitAnimation: 36
+    power: 110
+    damageType: 4
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1550
+    landOnly: true	
+    recoveryTransformations:
+      STR_XCOM_CYBERDISC_LASER: [1]		
+  - type: STR_XCOM_CYBERDISC_LASER_UNDERWATER
+    size: 6
+    costSell: 800000
+    transferTime: 96
+    weight: 1
+    bigSprite: 211
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 20
+    fireSound: 84
+    hitSound: 85
+    hitAnimation: 36
+    power: 110
+    damageType: 4
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1550
+    landOnly: true	
+    recoveryTransformations:
+      STR_XCOM_CYBERDISC_LASER: [1]		
+  - type: STR_MIB_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14600
+    recoveryTransformations:
+      STR_MIB_SOLDIER: [1]		
+  - type: STR_MIB_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14603
+    recoveryTransformations:
+      STR_MIB_NAVIGATOR: [1]		
+  - type: STR_MIB_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14602
+    recoveryTransformations:
+      STR_MIB_MEDIC: [1]		
+  - type: STR_MIB_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 10000
+    listOrder: 14601
+    recoveryTransformations:
+      STR_MIB_ENGINEER: [1]		
+  - type: STR_MIB_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 20000
+    listOrder: 14604
+    recoveryTransformations:
+      STR_MIB_LEADER: [1]		
+  - type: STR_MIB_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 20000
+    listOrder: 14605
+    recoveryTransformations:
+      STR_MIB_COMMANDER: [1]		
+  - type: STR_MIBTANK_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 350000
+    listOrder: 14606
+    recoveryTransformations:
+      STR_MIBTANK_TERRORIST: [1]		
+  - type: STR_MUTON_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 13805
+    recoveryTransformations:
+      STR_MUTON_MEDIC: [1]		
+  - type: STR_MUTON_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 50000
+    listOrder: 13810
+    recoveryTransformations:
+      STR_MUTON_LEADER: [1]		
+  - type: STR_MUTON_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13811
+    recoveryTransformations:
+      STR_MUTON_COMMANDER: [1]		
+  - type: STR_MUTON_SHADER_UNDERWATER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 13812
+    recoveryTransformations:
+      STR_MUTON_SHADER: [1]		
+  - type: STR_CEREBREAL_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+    recoveryTransformations:
+      STR_CEREBREAL_SOLDIER: [1]		
+  - type: STR_CEREBREAL_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+    recoveryTransformations:
+      STR_CEREBREAL_ENGINEER: [1]		
+  - type: STR_CEREBREAL_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+    recoveryTransformations:
+      STR_CEREBREAL_MEDIC: [1]		
+  - type: STR_CEREBREAL_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+    recoveryTransformations:
+      STR_CEREBREAL_NAVIGATOR: [1]		
+  - type: STR_CEREBREAL_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14405
+    recoveryTransformations:
+      STR_CEREBREAL_LEADER: [1]		
+  - type: STR_CEREBREAL_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14406
+    recoveryTransformations:
+      STR_CEREBREAL_COMMANDER: [1]		
+  - type: STR_CEREBREAL_LARVA_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14407
+    recoveryTransformations:
+      STR_CEREBREAL_LARVA_TERRORIST: [1]		
+  - type: STR_CHTONITE_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+    recoveryTransformations:
+      STR_CHTONITE_SOLDIER: [1]		
+  - type: STR_CHTONITE_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+    recoveryTransformations:
+      STR_CHTONITE_ENGINEER: [1]		
+  - type: STR_CHTONITE_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+    recoveryTransformations:
+      STR_CHTONITE_MEDIC: [1]		
+  - type: STR_CHTONITE_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+    recoveryTransformations:
+      STR_CHTONITE_NAVIGATOR: [1]		
+  - type: STR_CHTONITE_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14405
+    recoveryTransformations:
+      STR_CHTONITE_LEADER: [1]		
+  - type: STR_CHTONITE_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14406
+    recoveryTransformations:
+      STR_CHTONITE_COMMANDER: [1]		
+  - type: STR_REPTOID_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+    recoveryTransformations:
+      STR_REPTOID_SOLDIER: [1]		
+  - type: STR_REPTOID_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+    recoveryTransformations:
+      STR_REPTOID_ENGINEER: [1]		
+  - type: STR_REPTOID_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+    recoveryTransformations:
+      STR_REPTOID_MEDIC: [1]		
+  - type: STR_REPTOID_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+    recoveryTransformations:
+      STR_REPTOID_NAVIGATOR: [1]		
+  - type: STR_REPTOID_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14405
+    recoveryTransformations:
+      STR_REPTOID_LEADER: [1]		
+  - type: STR_REPTOID_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14406
+    recoveryTransformations:
+      STR_REPTOID_COMMANDER: [1]		
+  - type: STR_SALAMANDRON_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14407
+    recoveryTransformations:
+      STR_SALAMANDRON_TERRORIST: [1]		
+  - type: STR_GAZER_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 13550
+    recoveryTransformations:
+      STR_GAZER_SOLDIER: [1]		
+  - type: STR_GAZER_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13551
+    recoveryTransformations:
+      STR_GAZER_ENGINEER: [1]		
+  - type: STR_GAZER_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13552
+    recoveryTransformations:
+      STR_GAZER_MEDIC: [1]		
+  - type: STR_GAZER_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13553
+    recoveryTransformations:
+      STR_GAZER_NAVIGATOR: [1]		
+  - type: STR_GAZER_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13554
+    recoveryTransformations:
+      STR_GAZER_LEADER: [1]		
+  - type: STR_GAZER_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13555
+    recoveryTransformations:
+      STR_GAZER_COMMANDER: [1]		
+  - type: STR_HOLODRONE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 13560
+    recoveryTransformations:
+      STR_HOLODRONE_TERRORIST: [1]		
+  - type: STR_WASPITE_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+    recoveryTransformations:
+      STR_WASPITE_SOLDIER: [1]		
+  - type: STR_WASPITE_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+    recoveryTransformations:
+      STR_WASPITE_ENGINEER: [1]		
+  - type: STR_WASPITE_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+    recoveryTransformations:
+      STR_WASPITE_MEDIC: [1]		
+  - type: STR_WASPITE_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+    recoveryTransformations:
+      STR_WASPITE_NAVIGATOR: [1]		
+  - type: STR_WASPITE_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14405
+    recoveryTransformations:
+      STR_WASPITE_LEADER: [1]		
+  - type: STR_WASPITE_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14406
+    recoveryTransformations:
+      STR_WASPITE_COMMANDER: [1]		
+  - type: STR_CYBERMITE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 14407
+    recoveryTransformations:
+      STR_CYBERMITE_TERRORIST: [1]		
+  - type: STR_SCOUT_DRONE_UNDERWATER
+    size: 6
+    costBuy: 50000
+    costSell: 45000
+    transferTime: 72
+    weight: 10
+    bigSprite: 90
+    bulletSprite: 3
+    fireSound: 72
+    compatibleAmmo:
+      - STR_SCOUT_SMOKE
+    accuracySnap: 100
+    tuSnap: 20
+    battleType: 1
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1090
+    recoveryTransformations:
+      STR_SCOUT_DRONE: [1]	
+  - type: STR_SECTOPOD_LASER_UNDERWATER
+    size: 4
+    costSell: 594000
+    transferTime: 96
+    weight: 1
+    bigSprite: 43
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 20
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 115
+    damageType: 4
+    accuracySnap: 60
+    accuracyAimed: 115
+    accuracyAuto: 50
+    tuAuto: 45
+    tuSnap: 25
+    tuAimed: 50
+    battleType: 1
+    fixedWeapon: true
+    turretType: 2
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    listOrder: 1850
+    recoveryTransformations:
+      STR_SECTOPOD_LASER: [1]		
+  - type: STR_SECTOPOD_PLASMA_UNDERWATER
+    size: 4
+    costSell: 980000
+    transferTime: 96
+    weight: 1
+    bigSprite: 43
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 8
+    fireSound: 88
+    hitSound: 89
+    power: 115
+    damageType: 5
+    hitAnimation: 46
+    accuracySnap: 60
+    accuracyAimed: 115
+    accuracyAuto: 50
+    tuAuto: 45
+    tuSnap: 40
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    turretType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    listOrder: 1860
+    landOnly: true	
+    recoveryTransformations:
+      STR_SECTOPOD_PLASMA: [1]		
+  - type: STR_TANK_GAUSS_UNDERWATER
+    size: 6
+    costSell: 594000
+    transferTime: 96
+    weight: 1
+    bigSprite: 92
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 19
+    fireSound: 65
+    compatibleAmmo:
+      - STR_HWP_GAUSS_AMMO
+    accuracySnap: 70
+    accuracyAimed: 105
+    tuSnap: 33
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 9
+    listOrder: 1510
+    landOnly: true	
+    recoveryTransformations:
+      STR_TANK_GAUSS: [1]		
+  - type: STR_HOVERTANK_GAUSS_UNDERWATER
+    size: 6
+    costSell: 594000
+    transferTime: 96
+    weight: 1
+    bigSprite: 93
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 19
+    fireSound: 86
+    compatibleAmmo:
+      - STR_HWP_GAUSS_AMMO
+    accuracySnap: 50
+    accuracyAimed: 105
+    tuSnap: 35
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 10
+    listOrder: 1590
+    landOnly: true	
+    recoveryTransformations:
+      STR_HOVERTANK_GAUSS: [1]		

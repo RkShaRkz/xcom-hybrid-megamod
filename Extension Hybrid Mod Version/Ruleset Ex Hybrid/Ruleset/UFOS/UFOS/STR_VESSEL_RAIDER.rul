@@ -1,0 +1,139 @@
+extraStrings:
+  - type: en-US
+    strings:	 
+      STR_VESSEL_RAIDER: AS9 Skybus
+      STR_VESSEL_RAIDER_UFOPEDIA: "The AS9 Skybus are small, general purpose fast civillian transport that has been mass produced and dominated the transportation world. Although they make good general purpose transport, but as armed vechicle, they are poorly armored and poorly managed. Unsuitable for anything else but of its original purpose as just transport." 
+ufopaedia:
+  - id: STR_VESSEL_RAIDER
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_RAIDER
+    text: STR_VESSEL_RAIDER_UFOPEDIA
+research:
+  - name: STR_VESSEL_RAIDER
+    points: 50
+    cost: 180
+    needItem: true		
+    lookup: STR_VESSEL_RAIDER
+ufos:
+  - type: STR_VESSEL_RAIDER
+    size: STR_SMALL
+    modSprite: InterceptionRaider
+    radarRange: 100
+    hitBonus: 15
+    damageMax: 45
+    speedMax: 1540
+    accel: 2
+    power: 10
+    range: 22
+    score: 50
+    reload: 10
+    fireSound: 304		
+    breakOffTime: 600
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VESSEL_CC2
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL
+        - C_EXT_ROOF
+        - C_EXT_ENGINE_E
+        - C_EXT_ENGINE_S
+        - C_EXT_NOSE
+        - C_EXT_NOSE_BUMPER
+        - C_EXT_NOSE_BUMPLESS
+        - C_EXT_NOSE_SIDE 
+        - C_BITS2
+        - C_INT
+        - DOORSSEC
+        - DOORS2
+        - C_EXT_GLASSWALL
+        - LIFTER
+        - PLANEENGINES	
+      mapBlocks:
+        - name: VESSEL_CC2
+          width: 10
+          length: 10
+alienDeployments:
+  - type: STR_VESSEL_RAIDER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_RAIDER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_RAIDER_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_RAIDER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

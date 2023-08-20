@@ -1,0 +1,218 @@
+extraSprites:
+  - type: TEXTURE.DAT
+    width: 800
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/WorldTexture/TEXTURES.PNG 
+globe:
+  textures:
+    - id: 0
+      #startingCondition: STR_LAND
+      fakeUnderwater: false  	
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 50			
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+          weight: 50
+      baseTerrain:
+        - name: FOREST
+          weight: 50
+        - name: JUNGLE
+          weight: 50		  
+    - id: 1
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false   	
+      terrain:
+        - name: CULTA
+      baseTerrain:
+        - name: CULTA
+    - id: 2
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false 	
+      terrain:
+        - name: CULTA
+      baseTerrain:
+        - name: CULTA	
+    - id: 3
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false 	
+      terrain:		  
+        - name: CULTA
+      baseTerrain:
+        - name: CULTA		  
+    - id: 4
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false   	
+      terrain:
+        - name: CULTA
+      baseTerrain:
+        - name: CULTA		
+    - id: 5
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false 	
+      terrain:
+        - name: MOUNT
+      baseTerrain:
+        - name: MOUNT		
+    - id: 6
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false  	
+      terrain:	  
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 50		  
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+          weight: 50
+      baseTerrain:
+        - name: FOREST
+          weight: 50
+        - name: JUNGLE
+          weight: 50		  
+    - id: 7
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false  	
+      terrain:	  
+        - name: DESERT
+      baseTerrain:
+        - name: DESERT	
+    - id: 8
+      fakeUnderwater: false  	
+      terrain:		  
+        - name: DESERT
+      baseTerrain:
+        - name: DESERT			
+    - id: 9
+      #startingCondition: STR_LAND	
+      fakeUnderwater: false   	
+      terrain:		  
+        - name: POLAR
+      baseTerrain:
+        - name: POLAR	
+    - id: 10
+      startingCondition: STR_UNDERWATERTEST
+      fakeUnderwater: true
+      terrain:
+        - name: CORAL
+          weight: 12		
+        - name: PIPES
+          weight: 11	  
+        - name: PLANE
+          weight: 11	
+        - name: MU
+          weight: 11
+        - name: GAL
+          weight: 11
+        - name: MSUNK
+          weight: 11
+        - name: SEABED
+          weight: 11	  		
+        - name: ATLAN
+          weight: 11
+        - name: VOLC
+          weight: 11
+      baseTerrain:
+        - name: SEABEDNONE
+          weight: 100		  
+    - id: 11
+      startingCondition: STR_UNDERWATERTEST
+      fakeUnderwater: true	
+      terrain:
+        - name: CORAL
+          weight: 12		
+        - name: PIPES
+          weight: 11	  
+        - name: PLANE
+          weight: 11	
+        - name: MU
+          weight: 11
+        - name: GAL
+          weight: 11
+        - name: MSUNK
+          weight: 11
+        - name: SEABED
+          weight: 11	  		
+        - name: ATLAN
+          weight: 11
+        - name: VOLC
+          weight: 11
+      baseTerrain:
+        - name: SEABEDNONE
+          weight: 100			  
+    - id: 12
+      startingCondition: STR_UNDERWATERTEST	
+      fakeUnderwater: true	    
+      terrain:
+        - name: CORAL
+          weight: 12		
+        - name: PIPES
+          weight: 11	  
+        - name: PLANE
+          weight: 11	
+        - name: MU
+          weight: 11
+        - name: GAL
+          weight: 11
+        - name: MSUNK
+          weight: 11
+        - name: SEABED
+          weight: 11	  		
+        - name: ATLAN
+          weight: 11
+        - name: VOLC
+          weight: 11
+      baseTerrain:
+        - name: SEABEDNONE
+          weight: 100			  
+    - id: -1
+      startingCondition: STR_UNDERWATERTEST	
+      fakeUnderwater: true	    
+      terrain:
+        - name: CORAL
+      baseTerrain:
+        - name: SEABEDNONE
+          weight: 100			
+    - id: -2
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_ISLAND_TERROR: 100
+    - id: -3
+      startingCondition: STR_UNDERWATERTEST		
+      deployments:
+        STR_ARTIFACT_SITE_P1: 100
+    - id: -4
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_CARGO_SHIP_P1_UFO: 50
+        STR_CRUISE_SHIP_P1_UFO: 50		
+    - id: -5
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_TLETH_P0: 100
+    - id: -6
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_CYDONIA_BASE_LANDSTARPORT: 100
+    - id: -7
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_TERROR_MISSION: 50
+        STR_PORT_TERROR_UFO: 50			
+    - id: -9
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_CARGO_SHIP_P1: 50
+        STR_CRUISE_SHIP_P1: 50	
+    - id: -10
+      startingCondition: STR_TERRORALLOWED  	
+      deployments:
+        STR_ISLAND_TERROR_UFO: 100		
+    - id: -27
+      startingCondition: STR_TERRORALLOWED  
+      deployments:
+        STR_TERROR_MISSION_TFTD: 50 
+        STR_PORT_TERROR: 50

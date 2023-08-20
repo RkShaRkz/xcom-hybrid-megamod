@@ -1,0 +1,200 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHEYENNEMOUNTAINCOMPLEXREPTOID: "Stargate Command Cheyenne Mountain Complex"	
+      STR_REPTOID_CAVE_SETTLEMENT_COMPLETE: "Stargate Investigate Reptile Species"
+      STR_REPTOID_CAVE_SETTLEMENT: "Stargate Investigate Reptile Species "
+      STR_REPTOID_CAVE_SETTLEMENT_BRIEFING: "This is Stargate Command. Our probe has just investigate of a new address. A strange reptilian species was encountered. The probe was destroyed before more investigation can be done. We need a team to go through the gate and make contact with this new Species. Investigate if Species is hostile or friendly, payment will be made upon mission completion."
+      STR_REPTOID_CAVE_SETTLEMENT_DESCRIPTION: "This is Stargate Command. Our probe has just investigate of a new address. A strange reptilian species was encountered. The probe was destroyed before more investigation can be done. We need a team to go through the gate and make contact with this new Species. Investigate if Species is hostile or friendly, payment will be made upon mission completion."
+      STR_ALERT_REPTOID_CAVE_SETTLEMENT: "Stargate Investigate Reptile Species "
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXREPTOID
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 	
+    duration: [25, 10000000000000]	
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_REPTOID_CAVE_SETTLEMENT	
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_REPTOID_CAVE_SETTLEMENT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED   
+    width: 60
+    length: 80
+    height: 16
+    shade: 6
+    alert: STR_ALERT_REPTOID_CAVE_SETTLEMENT
+    alertBackground: BACK01.SCR
+    alertDescription: STR_REPTOID_CAVE_SETTLEMENT_DESCRIPTION
+    terrains:
+      - REPTOID_CAVE_SETTLEMENT	
+    script: REPTOID_CAVE_STARGATE
+    music:
+      - GMTACTIC	
+    briefing:
+      background: BACK01.SCR
+      textOffset: -16
+      showTarget: false
+    markerName: STR_REPTOID_CAVE_SETTLEMENT
+    duration: [100, 120]
+    despawnPenalty: 50
+    unlockedResearch: STR_REPCOMPLETE	
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 12
+        highQty: 22
+        dQty: 3
+        extraQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []	
+research:				
+  - name: STR_REPCOMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+alienMissions:
+  - type: STR_REPTOID_CAVE_SETTLEMENT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_REPTOID: 100
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXREPTOID
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:	
+  - type: REPTOID_CAVE_STARGATE
+    commands:
+    - type: addBlock
+      groups: 2
+      terrain: STARGATECAVEENTRY
+    - type: addBlock # Dragonfire turret
+      rects:
+        - [3, 3, 1, 1]
+      terrain: REPTOID_BUNKER
+    - type: addBlock # 20x20 blocks in center of village
+      rects:
+        - [1, 1, 4, 4]
+      executionChances: 50
+      executions: 2
+      size: 2
+      groups: 0
+    - type: fillArea # fill in center of village
+      rects:
+        - [1, 1, 4, 4]
+      groups: 0
+      #terrain: CULTA
+    - type: addBlock # north center
+      rects:
+        - [2, 0 , 2, 1]
+      size: [2, 1, 4]
+      groups: 1
+    - type: fillArea # north center
+      rects:
+        - [1, 0, 4, 1]
+      groups: 1
+    - type: addBlock # east center
+      rects:
+        - [5, 2 , 1, 2]
+      size: [1, 2, 4]
+      groups: 2
+    - type: fillArea # east center
+      rects:
+        - [5, 1, 1, 4]
+      groups: 2
+    - type: addBlock # south center
+      rects:
+        - [2, 5 , 2, 1]
+      size: [2, 1, 4]
+      groups: 3
+    - type: fillArea # south center
+      rects:
+        - [1, 5, 4, 1]
+      groups: 3
+    - type: addBlock # west center
+      rects:
+        - [0, 2 , 1, 2]
+      size: [1, 2, 4]
+      groups: 4
+    - type: fillArea # west center
+      rects:
+        - [0, 1, 1, 4]
+      groups: 4
+    - type: fillArea # north west
+      rects:
+        - [0, 0, 1, 1]
+      groups: 5
+    - type: fillArea # north east
+      rects:
+        - [5, 0, 1, 1]
+      groups: 6
+    - type: fillArea # south east
+      rects:
+        - [5, 5, 1, 1]
+      groups: 7
+    - type: fillArea # south west
+      rects:
+        - [0, 5, 1, 1]
+      groups: 8
+    - type: fillArea
+      terrain: STARGATECAVEPASSAGE
+missionScripts:
+  - type: reptoidCaveSettlementLate
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_REPTOID_CAVE_SETTLEMENT: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: repspeiies
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_STARGATE: true
+      STR_REPCOMPLETE: false
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

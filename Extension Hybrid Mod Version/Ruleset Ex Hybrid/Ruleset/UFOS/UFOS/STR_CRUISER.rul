@@ -1,0 +1,646 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_CRUISER_MUTON: "Cruiser (Muton)"
+      STR_CRUISER_SECTOID: "Cruiser (Sectoid)"
+      STR_CRUISER_FLOATER: "Cruiser (Floater)"
+      STR_CRUISER_ELIMINATOR: "Cruiser (Eliminator)"  
+      STR_CRUISER: "Cruiser"
+      STR_CRUISER_UFOPEDIA: "This large alien ship has formidable firepower and structural integrity. It is also used for troop deployments."
+ufopaedia:
+  - id: STR_CRUISER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_CRUISER
+    text: STR_CRUISER_UFOPEDIA
+research:	
+  - name: STR_CRUISER
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_CRUISER	
+ufos:
+  - type: STR_CRUISER
+    size: STR_LARGE
+    modSprite: InterceptionCruiser
+    damageMax: 2200
+    speedMax: 5600
+    armor: 40
+    accel: 5
+    power: 155
+    range: 60
+    score: 550
+    reload: 22
+    breakOffTime: 3000
+    hitBonus: 10
+    radarRange: 1200
+    hunterKillerPercentage: 30
+    huntMode: 1
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_CRUISER_SECTOID
+        missionCustomDeploy: STR_TERROR_2_MISSION_SECTOID
+        hitBonus: 10
+      STR_FLOATER:
+        craftCustomDeploy: STR_CRUISER_FLOATER
+        missionCustomDeploy: STR_TERROR_2_MISSION_FLOATER
+        hitBonus: 15
+      STR_MUTON:
+        craftCustomDeploy: STR_CRUISER_MUTON
+        missionCustomDeploy: STR_TERROR_2_MISSION_MUTON
+    battlescapeTerrainData:
+      name: VES_260
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_OPER2
+      mapBlocks:
+        - name: VES_260
+          width: 30
+          length: 30
+  - type: STR_CRUISER_UNDERWATER	
+    battlescapeTerrainData:
+      name: VES_260
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_OPER2
+      mapBlocks:
+        - name: VES_260
+          width: 30
+          length: 30				
+alienDeployments:
+  - type: STR_CRUISER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_CRUISER
+    music:
+      - GMTACTIC
+    data: &Cruiser
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_SECTOID
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_CRUISER	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data: &CruiserSectoid
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_FLOATER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_CRUISER	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data: &CruiserFloater
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_CRUISER	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data: &CruiserMuton
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_CRUISER	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data: &Cruiser
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: CRUISERUNDERWATEREAX	
+  - type: STR_CRUISER_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_CRUISER	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &CruiserSectoid
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_CRUISER	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &CruiserFloater
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_CRUISER_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_CRUISER	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &CruiserMuton
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+mapScripts:
+  - type: CRUISERUNDERWATEREAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_CRUISER_UNDERWATER
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain  						

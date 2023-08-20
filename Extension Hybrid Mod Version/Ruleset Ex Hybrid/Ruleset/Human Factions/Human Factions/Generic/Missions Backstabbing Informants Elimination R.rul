@@ -1,0 +1,128 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_TRAITORS: "Backstabbing Informants Elimination"
+      STR_LOC_TRAITORS_TITLE: "Backstabbing Informants Elimination"
+      STR_MARKER_LOC_TRAITORS: "Backstabbing Informants Elimination"
+      STR_LOC_TRAITORS_BRIEFING: "The Mercenary guild has a bunch of informants that has double cross them. Now it wants these traitors eliminated. Pay as standard on the job done."    
+alienDeployments:
+  - type: STR_LOC_TRAITORS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_LOC_TRAITORS
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_TRAITORS_BRIEFING
+    briefing:
+      palette: 7
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_TRAITORS_TITLE
+      desc: STR_LOC_TRAITORS_BRIEFING
+    markerName: STR_MARKER_LOC_TRAITORS
+    duration: [10, 20]
+    music:
+      - GMTACTIC	
+    width: 50
+    length: 50
+    height: 9
+    customUfo: STR_DOGHOUSE
+    script: GENERALSPAWNBACKSTABBING
+    data:
+      - alienRank: 8
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+mapScripts:			
+  - type: GENERALSPAWNBACKSTABBING
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_DOGHOUSE
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: CYBERCITYA
+    - type: fillArea
+      terrain: CYBERCITYA			
+alienMissions:
+  - type: STR_LOC_TRAITORS
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 50
+          STR_LOKNAR: 50
+    waves:
+      - ufo: STR_LOC_TRAITORS
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: traitorsAtLarge
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_TRAITORS: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 4
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

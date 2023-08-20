@@ -1,0 +1,179 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_RAYNOR_UFOPEDIA: "Well, the rescue mission is a sham. The person of interest has been moved to elsewhere. The mission was more of a trap than a rescue. Still the guild will pay you the money for the job done."
+      STR_LOC_RAYNOR_DONE: "Raymond Rescue"		
+      STR_LOC_RAYNOR: "Raymond Rescue"
+      STR_LOC_RAYNOR_TITLE: "Raymond Rescue"
+      STR_MARKER_LOC_RAYNOR: "Imprisoned Raymond "
+      STR_LOC_RAYNOR_BRIEFING: "The Merc Guild has a job for you. It need someone to crack open a high security prison in the mountains to rescue someone by the name of Raymond. You will find him wearing a white suit. Our sources has it that he's being locked up in the top most level of the Prison Tower. His rescue will earn you top dollar." 
+ufopaedia:
+  - id: STR_LOC_RAYNOR_DONE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_LOC_RAYNOR_DONE
+    text: STR_LOC_RAYNOR_DONE_UFOPEDIA
+    text_width: 176
+    listOrder: 53914
+mapScripts:
+  - type: LOC_RAYNOR_LANDING
+    commands:
+    - type: addUFO
+      UFOName: STR_LOC_RAYNOR
+      groups: 1	  
+    - type: addCraft
+      groups: 1	
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addBlock
+      size: [1,1,2]
+      executions: 2
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain  
+        groups: 1  		
+      - type: middle
+        size: [1, 1, 2]
+        terrain: TURRETBASECOUNTRY
+    - type: addBlock
+      size: [1,1,3]
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain  
+        groups: 1  		
+      - type: middle
+        size: [1, 1, 3]
+        terrain: SMALLBARRACKFORTCOUNTRY		
+    - type: fillArea		  
+alienDeployments:
+  - type: STR_LOC_RAYNOR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_ALERT_BOUNTY_HUNT_B
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_RAYNOR_BRIEFING
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_RAYNOR_TITLE
+      desc: STR_LOC_RAYNOR_BRIEFING
+    markerName: STR_MARKER_LOC_RAYNOR
+    unlockedResearch: STR_LOC_RAYNOR_DONE
+    duration: [25, 10000000000000]
+    width: 70
+    length: 70
+    height: 10	
+    script: LOC_RAYNOR_LANDING
+    terrains:
+      - MOUNT
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 8
+        highQty: 12
+        dQty: 6
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_RAYNOR
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MEGAPOL: 34
+          STR_MEGAPOL_LATE: 33
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 33
+    waves:
+      - ufo: STR_LOC_RAYNOR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+ufos:		
+  - type: STR_LOC_RAYNOR
+    battlescapeTerrainData:
+      name: SMALLRRISON
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - XBASE1		
+      mapBlocks:
+        - name: SMALLPRISONPIRATEZ
+          width: 10
+          length: 10
+research:
+  - name: STR_LOC_RAYNOR_DONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true  
+missionScripts:
+  - type: raynerdMustSurvive
+    missionWeights:
+      0:
+        STR_LOC_RAYNOR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    varName: raynoxasd
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_LOC_RAYNOR_DONE: false
+    facilityTriggers:
+      STR_MERCFACILITY: true

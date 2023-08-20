@@ -1,0 +1,148 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_INVESTIGATION_BRIEFING: "The Mercenary guild has intercept information that there is a safehouse belong to a cult in this area. Locate and kill all of its member. Its success of this coverage will ensure of your unit be rewarded appropriately."	
+      STR_CULT_INVESTIGATIONX: "Safehouse Investigation"
+      STR_CULT_INVESTIGATION_TEMPERATE: "Safehouse Investigation"
+      STR_CULT_INVESTIGATION_BLACK_LOTUS_DESCRIPTION: "The Mercenary guild has intercept information that there is a safehouse belong to a cult in this area. Locate and kill all of its member. Its success will ensure of your unit be rewarded appropriately."  
+alienDeployments:
+  - type: STR_CULT_INVESTIGATIONX
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_CULT_INVESTIGATION
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_INVESTIGATION_BLACK_LOTUS_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CULT_INVESTIGATION_BRIEFING
+    markerName: STR_CULT_INVESTIGATION
+    duration: [72, 144]
+    despawnPenalty: 150
+    music:
+      - GMTACTIC
+    customUfo: STR_CULTHIDEOUTX
+    script: GENERALSPAWNXP1
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 0
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CULT_INVESTIGATION
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 10
+          STR_APOCALYPSE_CULT: 10
+          STR_CULT_OF_CHERNOBOG: 10
+          STR_CULT_OF_APOCALYPSE: 10
+          STR_CHURCH_OF_DAGON: 10
+          STR_CHURCH_INDUSTRIAL: 10			  
+          STR_CHURCH_NONCOM: 10
+          STR_CHURCHPIRATE: 10
+          STR_CHURCH_TERROR: 10
+          STR_CHURCH_MANSION: 10  
+    waves:
+      - ufo: STR_CULT_INVESTIGATIONX
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: CultActivityEXALT
+    firstMonth: 0
+    executionOdds: 8
+    missionWeights:
+      0:
+        STR_CULT_INVESTIGATION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true
+ufos:	  
+  - type: STR_CULTHIDEOUTX
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10
+mapScripts:	  
+  - type: HIDEOUT
+    commands:
+    - type: addUFO
+      UFOName: STR_CULTHIDEOUT
+      terrain: globeTerrain
+    - type: addCraft
+      terrain: globeTerrain
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 7
+      terrain: globeTerrain
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 7
+      direction: horizontal
+      terrain: globeTerrain
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 10
+      direction: both
+      terrain: globeTerrain
+    - type: addBlock
+      size: 3
+      groups: 0
+      terrain: globeTerrain
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 4
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain	  

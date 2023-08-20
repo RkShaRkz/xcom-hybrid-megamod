@@ -1,0 +1,105 @@
+extraStrings:
+  - type: en-US
+    strings:	 
+      STR_VESSEL_POL_PATROL: "Interpol Patrol Ship"
+      STR_VESSEL_POL_PATROL_UFOPEDIA: "The Interpol Skychaser is a fast all round responsive craft used by the International Police to track and capture of fast criminals in the sky."   
+ufopaedia:
+  - id: STR_VESSEL_POL_PATROL
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_POL_PATROL
+    text: STR_VESSEL_POL_PATROL_UFOPEDIA
+research:
+  - name: STR_VESSEL_POL_PATROL
+    points: 50
+    cost: 180
+    needItem: true		
+    lookup: STR_VESSEL_POL_PATROL
+ufos:
+  - type: STR_VESSEL_POL_PATROL
+    size: STR_VERY_SMALL
+    modSprite: InterceptionPOLChaser
+    damageMax: 20
+    avoidBonus: 20
+    speedMax: 200
+    accel: 1
+    hitBonus: 15
+    power: 10
+    range: 22
+    score: 50
+    reload: 10
+    fireSound: 304	
+    radarRange: 100
+    hunterKillerPercentage: 100
+    huntBehavior: 0
+    huntAlertSound: 88
+    breakOffTime: 1000
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VES_POL_1
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_DBLUE
+        - C_EXT_ROOF_DBLUE
+        - C_EXT_NOSE_DBLUE
+        - C_INT
+        - LIFTER
+        - C_INT_ENGINE_E
+        - DOORSSEC
+        - C_INT_ENGINE_S
+        - C_EXT_WALL_POLICE
+      mapBlocks:
+        - name: VES_POL_1
+          width: 10
+          length: 10
+alienDeployments:
+  - type: STR_VESSEL_POL_PATROL
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_POL_PATROL		
+    width: 50
+    length: 50
+    height: 19
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_POL_PATROL_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_POL_PATROL	
+    width: 50
+    length: 50
+    height: 19
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []

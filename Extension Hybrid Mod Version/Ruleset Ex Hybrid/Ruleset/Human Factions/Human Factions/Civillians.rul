@@ -1,0 +1,4609 @@
+extraStrings:
+  - type: en-US
+    strings:  
+      STR_CIVILIANZ_1: "Civilians (Expansion)"	
+      STR_GANG_CAVEMEN: "Cavemen gang"
+      STR_GANG_LUCHADORES: "Luchadores gang"
+      STR_GANG_EASY_RIDERS: "Easy Rider gang"
+      STR_GANG_WESTMEN: "Westmen Gang"
+      STR_GANG_STORMIES: "Stormies Gang"
+      STR_FARMER: "Farmers"	
+      STR_CIVILIANZ_CITY: "Civillians (Expanded)"			
+      STR_MALE_CIVILIAN_HOOLIGANID: "Hooligan ID"	
+      STR_MALE_CIVILIAN_BEDUINID: "Bedouin ID"
+      STR_MALE_CIVILIAN_BEDUIN_CHIEFTAINID: "Bedouin Chieftain ID"	
+      STR_MALE_CIVILIAN_BODYGUARDID: "Bodyguard ID"	
+      STR_STUNNED_HUMAN_FARMERID: "Bewildered Farmer ID"	
+      STR_HUMAN_FARMERID: "Human Farmer ID"	
+      STR_BRAINWASHED_HUMAN_FARMERID: "Human Farmer ID"	
+      STR_MALE_CIVILIAN_HUNTERID: "Hunter ID"
+      STR_FEMALE_CIVILIAN_HUNTERID: "Hunter ID"	
+      STR_FEMALE_CIVILIAN_HUNTER_UFOPEDIA: "Female Hunter"
+      STR_MALE_CIVILIAN_ARABID: "Civilian ID"  
+      STR_FEMALE_CIVILIAN_ARABID: "Civilian ID"
+      STR_MALE_CIVILIAN_BLACKID: "Civilian ID"
+      STR_MALE_CIVILIAN_TECHNICIANID: "Male Technician ID"
+      STR_FEMALE_CIVILIAN_TECHNICIANID: "Female Technician ID"
+      STR_MALE_CIVILIAN_CITY_BOYID: "Civilian ID"	  
+      STR_MALE_CIVILIAN_POLARNIKID: "Civilian ID"
+      STR_FEMALE_CIVILIAN_CITY_GIRLID: "Civilian ID"	  
+      STR_FEMALE_CIVILIAN_POLARNIKID: "Civilian ID" 
+      STR_MALE_CIVILIAN_GANGERID: "Ganger ID"
+      STR_MALE_GREASERID: "Civilian ID"
+      STR_MALE_ENGINEERID: "Civilian ID"  
+      STR_MALE_SAILORID: "Civilian ID"
+      STR_MALE_FORESTERID: "Civilian ID"
+      STR_MALE_CIVILIAN_WORKERID: "Civilian ID"	
+      STR_FEMALE_CASUALID: "Casual Female Civilian ID"
+      STR_FEMALE_GLAMOURID: "Posh Female Civilian ID"
+      STR_HOSTESSID: "Hostess ID"
+      STR_BIKINI_BABEID: "Bikini Babe ID"
+      STR_FEMALE_DOCTORID: "Doctor ID"	  
+      STR_COUNCIL_SALVAGERID: "Council Salvager ID"
+      STR_MALE_SOLDIERID: "Soldier ID"
+      STR_MALE_OFFICER_SOLDIERID: "Military Officer"
+      STR_MALE_ELITE_SOLDIERID: "Elite Soldier ID"
+      STR_CRISIS_TROOPERID: "Crisis Trooper ID"	  
+      STR_MALE_CIVILIAN_FARMERID: "Farmer ID"
+      STR_WESTMEN_INFORMANTID: "Civillian Actor ID"
+      STR_SLEEPER_MALEID: "Sleeper ID"
+      STR_SLEEPER_FEMALEID: "Sleeper ID"		  
+      STR_FEMALE_CIVILIAN_FARMERID: "Female Farmer ID"
+      STR_JARHEAD_TERRORISTID: "Endo-skeleton Prototypes Terrorist ID"
+      STR_JARHEAD_PRETENDERID: "Endo-skeleton Prototypes Pretender ID"
+      STR_COUNCIL_MEMBERID: "Council Commissioner ID"
+      STR_MALE_CIVILIAN_HOOLIGAN: "Hooligan"	
+      STR_MALE_CIVILIAN_BEDUIN: "Bedouin"
+      STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN: "Bedouin Chieftain"	
+      STR_MALE_CIVILIAN_BODYGUARD: "Bodyguard"	
+      STR_STUNNED_HUMAN_FARMER: "Bewildered Farmer"	
+      STR_HUMAN_FARMER: "Human Farmer"	
+      STR_BRAINWASHED_HUMAN_FARMER: "Human Farmer"	
+      STR_MALE_CIVILIAN_HUNTER: "Hunter"
+      STR_FEMALE_CIVILIAN_HUNTER: "Hunter"	
+      STR_MALE_CIVILIAN_ARAB: "Civilian"  
+      STR_FEMALE_CIVILIAN_ARAB: "Civilian"
+      STR_MALE_CIVILIAN_BLACK: "Civilian"
+      STR_MALE_CIVILIAN_TECHNICIAN: "Male Technician"
+      STR_FEMALE_CIVILIAN_TECHNICIAN: "Female Technician"
+      STR_MALE_CIVILIAN_CITY_BOY: "Civilian"	  
+      STR_MALE_CIVILIAN_POLARNIK: "Civilian"
+      STR_FEMALE_CIVILIAN_CITY_GIRL: "Civilian"	  
+      STR_FEMALE_CIVILIAN_POLARNIK: "Civilian" 
+      STR_MALE_CIVILIAN_GANGER: "Ganger"
+      STR_MALE_GREASER: "Civilian"
+      STR_MALE_ENGINEER: "Civilian"  
+      STR_MALE_SAILOR: "Civilian"
+      STR_MALE_FORESTER: "Civilian"
+      STR_MALE_CIVILIAN_WORKER: "Civilian"	
+      STR_FEMALE_CASUAL: "Casual Female Civilian"
+      STR_FEMALE_GLAMOUR: "Posh Female Civilian"
+      STR_HOSTESS: "Hostess"
+      STR_BIKINI_BABE: "Bikini Babe"
+      STR_FEMALE_DOCTOR: "Doctor"	  
+      STR_COUNCIL_SALVAGER: "Civillian Council Member"
+      STR_MALE_SOLDIER: "Soldier"
+      STR_MALE_OFFICER_SOLDIER: "Military Officer"
+      STR_MALE_ELITE_SOLDIER: "Elite Soldier"
+      STR_CRISIS_TROOPER: "Crisis Trooper"	  
+      STR_MALE_CIVILIAN_FARMER: "Farmer"
+      STR_WESTMEN_INFORMANT: "Civillian Actor"
+      STR_SLEEPER_MALE: "Sleeper"
+      STR_SLEEPER_FEMALE: "Sleeper"		  
+      STR_FEMALE_CIVILIAN_FARMER: "Female Farmer"
+      STR_JARHEAD_TERRORIST: "Endo-skeleton Prototypes Terrorist"
+      STR_JARHEAD_PRETENDER: "Endo-skeleton Prototypes Pretender"
+      STR_COUNCIL_MEMBER: "Council Commissioner"  
+      FEMALE_CIVILIAN_HUNTER_CORPSE: "Corpse"	
+      STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN_UFOPEDIA: "Middle Eastern Civillian Chieftain"  
+      STR_MALE_CIVILIAN_BEDUIN_UFOPEDIA: "Middle Eastern Chieftain Civillian"	
+      STR_MALE_CIVILIAN_HOOLIGAN_UFOPEDIA: "Restless Civillian, probably protesting on something and causing trouble"
+      STR_MALE_CIVILIAN_BODYGUARD_UFOPEDIA: "Civillian Bodyguard usually there to protect VIP"
+      STR_HUMAN_FARMER_UFOPEDIA: "Civillain Farmer, into farming and jobs."	
+      STR_BRAINWASHED_HUMAN_FARMER_UFOPEDIA: "Catatonic Civillian Farmer, possibly affected by drugs"
+      STR_MALE_CIVILIAN_HUNTER_UFOPEDIA: "Male Civillian Hunter, selling his kills like furs maybe."
+      STR_FEMALE_CIVILIAN_HUNTER_UFOPEDIA: "Female Civillian Hunter, selling his kills like furs maybe."	
+      STR_MALE_CIVILIAN_ARAB_UFOPEDIA: "Male Middle Eastern Civilian" 
+      STR_FEMALE_CIVILIAN_ARAB_UFOPEDIA: "Female Middle Eastern Civilian" 
+      STR_MALE_CIVILIAN_BLACK_UFOPEDIA: "Civilian, probably a city folk."
+      STR_MALE_CIVILIAN_TECHNICIAN_UFOPEDIA: "Male Technician, probably into computer and tech repairs"
+      STR_FEMALE_CIVILIAN_TECHNICIAN_UFOPEDIA: "Female Technician, probably into computer and tech repairs"
+      STR_MALE_CIVILIAN_CITY_BOY_UFOPEDIA: "School boy, in the city, probably just finish school."
+      STR_FEMALE_CIVILIAN_CITY_GIRL_UFOPEDIA: "School girl, in the city, probably just finish school."	
+      STR_MALE_CIVILIAN_POLARNIK_UFOPEDIA: "Male Civilian, who seems to be exhibiting weird behavior"
+      STR_FEMALE_CIVILIAN_POLARNIK_UFOPEDIA: "Female Civilian, who seems to be exhibiting weird behavior"
+      STR_MALE_CIVILIAN_GANGER_UFOPEDIA: "Unafilliated Gange Member, possibly got kicked out from a gang"
+      STR_MALE_GREASER_UFOPEDIA: "Unafilliated Gange Member, possibly got kicked out from a gang"
+      STR_MALE_ENGINEER_UFOPEDIA: "Civilian Engineer, probably on a building inspection." 	  
+      STR_MALE_SAILOR_UFOPEDIA: "Civilian Sailor, probably on shore leave"
+      STR_MALE_FORESTER_UFOPEDIA: "Civilian Tiberjack, probably here to sell his woods or timber."
+      STR_MALE_CIVILIAN_WORKER_UFOPEDIA: "Civilian Office Worker, probably on his break"	
+      STR_FEMALE_CASUAL_UFOPEDIA: "Female civillian, probably out shopping"
+      STR_FEMALE_GLAMOUR_UFOPEDIA: "Female Socialite, proably out men hunting."
+      STR_HOSTESS_UFOPEDIA: "Female Socialite, proably out men hunting."
+      STR_BIKINI_BABE_UFOPEDIA: "Civillian Female, barely cloth, probably on a photo shoot for a magazine"
+      STR_FEMALE_DOCTOR_UFOPEDIA: "Female Family doctor, probably on her meal break"
+      STR_COUNCIL_SALVAGER_UFOPEDIA: "Civillian Council Member, probably the Mayor or high ranking civil servant."
+      STR_COUNCIL_MEMBER_UFOPEDIA: "Council Commissioner, a high ranking civil servant."
+      STR_MALE_SOLDIER_UFOPEDIA: "Male Soldier, proably on leave from his assigned military unit"
+      STR_MALE_ELITE_SOLDIER_UFOPEDIA: "Special Forces Soldier, proably on leave from his assigned military unit"
+      STR_MALE_OFFICER_SOLDIER_UFOPEDIA: "Military Officer, proably on leave from his assigned military unit"
+      STR_CRISIS_TROOPER_UFOPEDIA: "Riot Officer, proably on leave from his assigned military unit"
+      STR_JARHEAD_PRETENDER_UFOPEDIA: "Endo-skeleton Prototypes Pretender Combat Analysis"	 
+      STR_JARHEAD_TERRORIST_UFOPEDIA: "Endo-skeleton Prototypes Pretender Combat Analysis"	  
+      STR_FEMALE_CIVILIAN_FARMER_UFOPEDIA: "Civillain Female Farmer, into farming and jobs."	  	  
+      STR_MALE_CIVILIAN_FARMER_UFOPEDIA: "Civillain Male Farmer, into farming and jobs."	    	  
+      STR_WESTMEN_INFORMANT_UFOPEDIA: "Civilian Actor, possibly on his break from movie shoots."		  
+      STR_SLEEPER_MALE_UFOPEDIA: "Sleepwalking Male, probably on his sleep walking epsiodes"		  
+      STR_SLEEPER_FEMALE_UFOPEDIA: "Sleepwalking Female, probably on his sleep walking epsiodes"	  
+      STR_SLEEPER_CORPSE: "Lost"	  
+      STR_FEMALE_CASUAL_CORPSE: "Civilian Corpse"
+      STR_FEMALE_GLAMOUR_CORPSE: "Posh Female Civilian Corpse"
+      STR_MALE_CIVILIAN_BEDUIN_WARRIORID: "Male Civillian Beduin Warrior ID"
+      STR_MALE_CIVILIAN_BEDUIN_WARRIOR_UFOPEDIA: "Male Civillian Beduin Warrior"
+      STR_MALE_MARINE_OFFICERID: "Male Marine Officer ID"
+      STR_MALE_MARINE_OFFICER_UFOPEDIA: "Male Marine Officer"  
+      STR_WESTMEN_INFORMANTID: "Civilian Actor ID"
+      STR_WESTMEN_INFORMANT_UFOPEDIA: "Civilian Actor"     
+alienRaces:	  
+  - id: STR_CIVILIANZ_1
+    membersRandom:
+      - [STR_COUNCIL_MEMBER, STR_FEMALE_DOCTOR, STR_COUNCIL_SALVAGER] #not done 
+      - [STR_FEMALE_DOCTOR, STR_MALE_CIVILIAN_BEDUIN, STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN] #not done 
+      - [STR_MALE_CIVILIAN_HOOLIGAN,STR_MALE_CIVILIAN_BEDUIN, STR_HUMAN_FARMER, STR_MALE_CIVILIAN_BEDUIN_WARRIOR, STR_HUMAN_CITY_GIRL,STR_DANCER_SLAVE] 
+      - [STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_BEDUIN, STR_HUMAN_FARMER, STR_FEMALE_CIVILIAN_HUNTER]
+      - [STR_MALE_ELITE_SOLDIER, STR_MALE_CIVILIAN_ARAB, STR_FEMALE_CIVILIAN_ARAB, STR_MALE_CIVILIAN_BLACK, STR_MALE_MARINE_OFFICER]
+      - [STR_MALE_CIVILIAN_TECHNICIAN, STR_FEMALE_CIVILIAN_TECHNICIAN, STR_MALE_CIVILIAN_CITY_BOY]
+      - [STR_FEMALE_CIVILIAN_CITY_GIRL,STR_MALE_CIVILIAN_GANGER,STR_MALE_GREASER, STR_MALE_GREASER,STR_MALE_ENGINEER] #not done 
+      - [STR_MALE_OFFICER_SOLDIER,STR_MALE_SAILOR, STR_MALE_FORESTER, STR_HOSTESS] #not done 
+      - [STR_MALE_SOLDIER, STR_FEMALE_CIVILIAN_FARMER,STR_MALE_CIVILIAN_FARMER,STR_BIKINI_BABE] #not done 
+      - [STR_MALE_CIVILIAN_FARMER,STR_MALE_CIVILIAN_FARMER,STR_WESTMEN_INFORMANT] #not done 
+    retaliationAggression: -100
+  - id: STR_CIVILIANZ_1_UNDERWATER	
+    membersRandom:
+      - [STR_COUNCIL_MEMBER, STR_FEMALE_DOCTOR, STR_COUNCIL_SALVAGER] #not done 
+      - [STR_FEMALE_DOCTOR, STR_MALE_CIVILIAN_BEDUIN, STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN] #not done 
+      - [STR_MALE_CIVILIAN_HOOLIGAN,STR_MALE_CIVILIAN_BEDUIN, STR_HUMAN_FARMER, STR_MALE_CIVILIAN_BEDUIN_WARRIOR, STR_HUMAN_CITY_GIRL,STR_DANCER_SLAVE] 
+      - [STR_MALE_CIVILIAN_WORKER, STR_MALE_CIVILIAN_BEDUIN, STR_HUMAN_FARMER, STR_FEMALE_CIVILIAN_HUNTER]
+      - [STR_MALE_ELITE_SOLDIER, STR_MALE_CIVILIAN_ARAB, STR_FEMALE_CIVILIAN_ARAB, STR_MALE_CIVILIAN_BLACK, STR_MALE_MARINE_OFFICER]
+      - [STR_MALE_CIVILIAN_TECHNICIAN, STR_FEMALE_CIVILIAN_TECHNICIAN, STR_MALE_CIVILIAN_CITY_BOY]
+      - [STR_FEMALE_CIVILIAN_CITY_GIRL,STR_MALE_CIVILIAN_GANGER,STR_MALE_GREASER, STR_MALE_GREASER,STR_MALE_ENGINEER] #not done 
+      - [STR_MALE_OFFICER_SOLDIER,STR_MALE_SAILOR, STR_MALE_FORESTER, STR_HOSTESS] #not done 
+      - [STR_MALE_SOLDIER, STR_FEMALE_CIVILIAN_FARMER,STR_MALE_CIVILIAN_FARMER,STR_BIKINI_BABE] #not done 
+      - [STR_MALE_CIVILIAN_FARMER,STR_MALE_CIVILIAN_FARMER,STR_WESTMEN_INFORMANT] #not done 
+ufopaedia:
+  - id: STR_MALE_CIVILIAN_BEDUIN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC	
+    requires:
+      - STR_MALE_CIVILIAN_BEDUIN	
+    text: STR_MALE_CIVILIAN_BEDUIN_UFOPEDIA		  
+    listOrder: 154755	
+  - id: STR_MALE_MARINE_OFFICER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_MARINE_OFFICER_UFOPEDIA
+    requires:
+      - STR_MALE_MARINE_OFFICER
+    listOrder: 154000
+  - id: STR_HUMAN_FARMER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_FARMER_UFOPEDIA
+    requires:
+      - STR_HUMAN_FARMER
+    listOrder: 154000
+  - id: STR_BRAINWASHED_HUMAN_FARMER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_BRAINWASHED_HUMAN_FARMER_UFOPEDIA
+    requires:
+      - STR_BRAINWASHED_HUMAN_FARMER
+    listOrder: 154000	
+  - id: STR_STUNNED_HUMAN_FARMER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_FARMER_UFOPEDIA
+    requires:
+      - STR_STUNNED_HUMAN_FARMER
+    listOrder: 154000	
+  - id: STR_MALE_CIVILIAN_BODYGUARD
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_BODYGUARD_UFOPEDIA	
+    requires:
+      - STR_MALE_CIVILIAN_BODYGUARD
+    listOrder: 154300
+  - id: STR_MALE_CIVILIAN_HOOLIGAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_HOOLIGAN_UFOPEDIA		
+    requires:
+      - STR_MALE_CIVILIAN_HOOLIGAN
+    listOrder: 154290	
+  - id: STR_MALE_CIVILIAN_HUNTER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MALE_CIVILIAN_HUNTER
+    text: STR_MALE_CIVILIAN_HUNTER_UFOPEDIA		  
+    listOrder: 154370
+  - id: STR_MALE_CIVILIAN_ARAB
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_ARAB_UFOPEDIA	
+    listOrder: 154750
+  - id: STR_FEMALE_CIVILIAN_ARAB
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_CIVILIAN_ARAB_UFOPEDIA	
+    listOrder: 154753
+  - id: STR_MALE_CIVILIAN_BLACK
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_BLACK_UFOPEDIA	
+    listOrder: 154266	
+  - id: STR_MALE_CIVILIAN_TECHNICIAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MALE_CIVILIAN_TECHNICIAN
+    text: STR_MALE_CIVILIAN_TECHNICIAN_UFOPEDIA	  
+    listOrder: 154319
+  - id: STR_FEMALE_CIVILIAN_TECHNICIAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_FEMALE_CIVILIAN_TECHNICIAN
+    text: STR_MALE_CIVILIAN_ARAB_UFOPEDIA	  
+    listOrder: 154320	
+  - id: STR_MALE_CIVILIAN_CITY_BOY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_CITY_BOY_UFOPEDIA	
+    listOrder: 154280
+  - id: STR_FEMALE_CIVILIAN_CITY_GIRL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_CIVILIAN_CITY_GIRL_UFOPEDIA	
+    listOrder: 154283
+  - id: STR_MALE_CIVILIAN_POLARNIK
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_POLARNIK_UFOPEDIA	
+    listOrder: 154700
+  - id: STR_FEMALE_CIVILIAN_POLARNIK
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_CIVILIAN_POLARNIK_UFOPEDIA	
+    listOrder: 154703
+  - id: STR_MALE_CIVILIAN_GANGER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_GANGER_UFOPEDIA	
+    listOrder: 154293
+  - id: STR_MALE_GREASER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_GREASER_UFOPEDIA	
+    requires:
+      - STR_MALE_GREASER
+    listOrder: 154264
+  - id: STR_MALE_ENGINEER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_ENGINEER_UFOPEDIA	
+    requires:
+      - STR_MALE_ENGINEER
+    listOrder: 154308
+  - id: STR_MALE_SAILOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_SAILOR_UFOPEDIA	
+    listOrder: 154706
+  - id: STR_MALE_FORESTER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_FORESTER_UFOPEDIA	
+    listOrder: 154360
+  - id: STR_MALE_CIVILIAN_WORKER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_CIVILIAN_WORKER_UFOPEDIA	
+    requires:
+      - STR_MALE_CIVILIAN_WORKER
+    listOrder: 154715
+  - id: STR_FEMALE_CASUAL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_CASUAL_UFOPEDIA	
+    requires:
+      - STR_FEMALE_CASUAL
+    listOrder: 154260
+  - id: STR_FEMALE_GLAMOUR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_GLAMOUR_UFOPEDIA	
+    requires:
+      - STR_FEMALE_GLAMOUR
+    listOrder: 154261	
+  - id: STR_MALE_FAT_TOURIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_FAT_TOURIST_UFOPEDIA	
+    requires:
+      - STR_MALE_FAT_TOURIST
+    listOrder: 154250
+  - id: STR_BIKINI_BABE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_BIKINI_BABE_UFOPEDIA	
+    requires:
+      - STR_BIKINI_BABE
+    listOrder: 154248	
+  - id: STR_HOSTESS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HOSTESS_UFOPEDIA	
+    requires:
+      - STR_HOSTESS
+    listOrder: 154306
+  - id: STR_FEMALE_DOCTOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_FEMALE_DOCTOR_UFOPEDIA
+    requires:
+      - STR_FEMALE_DOCTOR
+  - id: STR_COUNCIL_SALVAGER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_COUNCIL_SALVAGER_UFOPEDIA	
+    listOrder: 158000
+  - id: STR_COUNCIL_MEMBER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_COUNCIL_MEMBER_UFOPEDIA	
+    requires:
+      - STR_COUNCIL_MEMBER
+    listOrder: 158110
+  - id: STR_MALE_SOLDIER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_SOLDIER_UFOPEDIA	
+    requires:
+      - STR_MALE_SOLDIER
+    listOrder: 155000
+  - id: STR_MALE_ELITE_SOLDIER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_ELITE_SOLDIER_UFOPEDIA	
+    requires:
+      - STR_MALE_ELITE_SOLDIER
+    listOrder: 155005
+  - id: STR_MALE_OFFICER_SOLDIER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MALE_OFFICER_SOLDIER_UFOPEDIA	
+    requires:
+      - STR_MALE_OFFICER_SOLDIER
+    listOrder: 155010
+  - id: STR_CRISIS_TROOPER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CRISIS_TROOPER_UFOPEDIA	
+    requires:
+      - STR_CRISIS_TROOPER
+    listOrder: 155040	
+  - id: STR_DAVID_VINCENT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_DAVID_VINCENT_UFOPEDIA
+    requires:
+      - STR_DAVID_VINCENT
+    listOrder: 159000
+  - id: STR_GERTRUDE_ELLISON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GERTRUDE_ELLISON
+    text: STR_GERTRUDE_ELLISON_UFOPEDIA
+    listOrder: 176400
+  - id: STR_JARHEAD_PRETENDER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_JARHEAD_PRETENDER_UFOPEDIA	
+    requires:
+      - STR_JARHEAD_PRETENDER
+    listOrder: 164722	
+  - id: STR_JARHEAD_TERRORIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_JARHEAD_PRETENDER_UFOPEDIA	
+    requires:
+      - STR_JARHEAD_TERRORIST
+    listOrder: 164722			
+research:
+  - name: STR_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_BRAINWASHED_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_STUNNED_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+  - name: STR_MALE_CIVILIAN_BODYGUARD
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true	  
+  - name: STR_MALE_CIVILIAN_HOOLIGAN
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_HUNTER
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_ARAB
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_FEMALE_CIVILIAN_ARAB
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_BLACK
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_TECHNICIAN
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_FEMALE_CIVILIAN_TECHNICIAN
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_CITY_BOY
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_POLARNIK
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_FEMALE_CIVILIAN_POLARNIK
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_GANGER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true		
+  - name: STR_FEMALE_CIVILIAN_CITY_GIRL
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true		
+  - name: STR_MALE_ENGINEER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_GREASER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_SAILOR
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_MALE_FORESTER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_CIVILIAN_WORKER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_FEMALE_CASUAL
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_FEMALE_GLAMOUR
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true		
+  - name: STR_MALE_FAT_TOURIST
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true		  
+  - name: STR_BIKINI_BABE
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_HOSTESSID
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true		
+  - name: STR_FEMALE_DOCTOR
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_COUNCIL_SALVAGER
+    requiresBaseFunc: [INTERROGATION]     
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_COUNCIL_MEMBER
+    requiresBaseFunc: [INTERROGATION]     
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+  - name: STR_MALE_OFFICER_SOLDIER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+    lookup: STR_MALE_OFFICER_SOLDIER	
+  - name: STR_MALE_SOLDIER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+    lookup: STR_MALE_SOLDIER	
+  - name: STR_MALE_ELITE_SOLDIER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+    lookup: STR_MALE_ELITE_SOLDIER
+  - name: STR_CRISIS_TROOPER
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 3
+    points: 20
+    needItem: true
+    destroyItem: true	
+    lookup: STR_CRISIS_TROOPER	
+  - name: STR_GERTRUDE_ELLISON
+    requiresBaseFunc: [INTERROGATION]   
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: true	
+  - name: STR_DAVID_VINCENT
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: true		
+  - name: STR_JARHEAD_TERRORIST
+    requiresBaseFunc: [INTERROGATION]   
+    cost: 80
+    points: 100
+    lookup: STR_JARHEAD_TERRORIST
+    needItem: true
+    destroyItem: true
+    listOrder: 117000
+  - name: STR_JARHEAD_PRETENDER
+    requiresBaseFunc: [INTERROGATION]   
+    cost: 80
+    points: 100
+    lookup: STR_JARHEAD_PRETENDER
+    needItem: true
+    destroyItem: true
+    listOrder: 117000			  
+units:	  
+  - type: STR_HUMAN_FARMER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 46
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_HUMAN_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 28
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_BRAINWASHED_HUMAN_FARMER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 46
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_BRAINWASHED_HUMAN_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_STUNNED_HUMAN_FARMER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 46
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_STUNNED_HUMAN_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_MALE_CIVILIAN_BODYGUARD
+    race: STR_HUMAN
+    stats:
+      tu: 52
+      stamina: 75
+      health: 40
+      bravery: 80
+      reactions: 45
+      firing: 43
+      throwing: 30
+      strength: 40
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_BODYGUARD_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    intelligence: 3
+    aggression: 1
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+  - type: STR_MALE_CIVILIAN_HOOLIGAN
+    race: STR_HUMAN
+    stats:
+      tu: 40
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 40
+      throwing: 40
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_HOOLIGAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 3
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 3
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+  - type: STR_MALE_CIVILIAN_HUNTER
+    race: STR_HUMAN
+    stats:
+      tu: 56
+      stamina: 58
+      health: 40
+      bravery: 70
+      reactions: 35
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_HUNTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    intelligence: 2
+    aggression: 1
+    sniper: 50
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        #- STR_HUNTING_LICENSE
+  - type: STR_FEMALE_CIVILIAN_HUNTER
+    race: STR_HUMAN
+    stats:
+      tu: 56
+      stamina: 58
+      health: 40
+      bravery: 70
+      reactions: 35
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_HUNTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 30
+    intelligence: 2
+    aggression: 1
+    sniper: 50
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_MALE_CIVILIAN_ARAB
+    race: STR_HUMAN
+    stats:
+      tu: 46
+      stamina: 45
+      health: 36
+      bravery: 60
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 28
+      psiStrength: 30
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_ARAB_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 1
+  - type: STR_FEMALE_CIVILIAN_ARAB
+    race: STR_HUMAN
+    stats:
+      tu: 46
+      stamina: 45
+      health: 36
+      bravery: 60
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 28
+      psiStrength: 30
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_ARAB_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 28
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 1
+  - type: STR_MALE_CIVILIAN_BLACK
+    race: STR_HUMAN
+    stats:
+      tu: 49
+      stamina: 42
+      health: 36
+      bravery: 60
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 30
+      psiStrength: 30
+      psiSkill: 0
+      melee: 25
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_BLACK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_MALE_CIVILIAN_TECHNICIAN
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 46
+      health: 28
+      bravery: 70
+      reactions: 20
+      firing: 25
+      throwing: 28
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 20
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_TECHNICIAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 60
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_FEMALE_CIVILIAN_TECHNICIAN
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 46
+      health: 28
+      bravery: 70
+      reactions: 20
+      firing: 25
+      throwing: 28
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 20
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_TECHNICIAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_MALE_CIVILIAN_CITY_BOY
+    race: STR_HUMAN
+    stats:
+      tu: 55
+      stamina: 50
+      health: 36
+      bravery: 60
+      reactions: 40
+      firing: 30
+      throwing: 40
+      strength: 30
+      psiStrength: 25
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_CITY_BOY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 60
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_FEMALE_CIVILIAN_CITY_GIRL
+    race: STR_HUMAN
+    stats:
+      tu: 55
+      stamina: 50
+      health: 36
+      bravery: 60
+      reactions: 40
+      firing: 30
+      throwing: 40
+      strength: 30
+      psiStrength: 25
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_CITY_GIRL_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 30
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_MALE_CIVILIAN_POLARNIK
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 50
+      health: 40
+      bravery: 70
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 22
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_POLARNIK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_FEMALE_CIVILIAN_POLARNIK
+    race: STR_HUMAN
+    stats:
+      tu: 42
+      stamina: 55
+      health: 40
+      bravery: 70
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 22
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_POLARNIK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 30
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_FEMALE_CIVILIAN_FARMER
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 44
+      stamina: 50
+      health: 38
+      bravery: 60
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_HUMAN_FEMALE_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_MALE_CIVILIAN_FARMER
+    race: STR_HUMAN
+    stats:
+      tu: 46
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_MALE_CIVILIAN_GANGER
+    race: STR_HUMAN
+    stats:
+      tu: 40
+      stamina: 65
+      health: 45
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 40
+      psiStrength: 5
+      psiSkill: 0
+      melee: 60
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_GANGER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    energyRecovery: 20
+    aggression: 1
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_MALE_GREASER
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_GREASER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	
+  - type: STR_MALE_ENGINEER
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_ENGINEER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM 
+        - STR_MAGNUM_DRUM 
+        - STR_MAGNUM_DRUM 
+  - type: STR_MALE_SAILOR
+    race: STR_HUMAN
+    stats:
+      tu: 40
+      stamina: 65
+      health: 35
+      bravery: 80
+      reactions: 30
+      firing: 26
+      throwing: 55
+      strength: 38
+      psiStrength: 30
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_SAILOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+  - type: STR_MALE_MARINE_OFFICER
+    race: STR_HUMAN
+    stats:
+      tu: 40
+      stamina: 65
+      health: 35
+      bravery: 80
+      reactions: 30
+      firing: 35
+      throwing: 55
+      strength: 38
+      psiStrength: 30
+      psiSkill: 0
+      melee: 25
+      #mana: 55
+    armor: STR_MALE_SAILOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 6
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 30
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_MALE_FORESTER
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_FORESTER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_MALE_CIVILIAN_WORKER
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_CIVILIAN_WORKER_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_MALE_FAT_TOURIST
+    race: STR_HUMAN
+    stats:
+      tu: 30
+      stamina: 50
+      health: 35
+      bravery: 80
+      reactions: 20
+      firing: 30
+      throwing: 30
+      strength: 16
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_MALE_FAT_TOURIST_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_ALLOY_KNIFE
+  - type: STR_FEMALE_CASUAL
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_FEMALE_CASUAL_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM 
+  - type: STR_FEMALE_GLAMOUR
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_FEMALE_GLAMOUR_ARMOR
+    deathSound: [44, 45, 46]
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM 
+  - type: STR_HOSTESS
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_HOSTESS_ARMOR
+    deathSound: [44, 45, 46]
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_BIKINI_BABE
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_BIKINI_BABE_ARMOR
+    deathSound: [44, 45, 46]
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+  - type: STR_FEMALE_DOCTOR
+    race: STR_HUMAN
+    stats:
+      tu: 46
+      stamina: 45
+      health: 36
+      bravery: 60
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 28
+      psiStrength: 30
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_FEMALE_DOCTOR_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 28
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_COUNCIL_SALVAGER
+    race: STR_HUMAN
+    stats:
+      tu: 55
+      stamina: 60
+      health: 34
+      bravery: 80
+      reactions: 30
+      firing: 46
+      throwing: 40
+      strength: 32
+      psiStrength: 30
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_COUNCIL_SALVAGER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 5
+    energyRecovery: 20
+    intelligence: 2
+    aggression: 2
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_ALLOY_KNIFE
+  - type: STR_COUNCIL_MEMBER
+    race: STR_HUMAN
+    stats:
+      tu: 53
+      stamina: 48
+      health: 30
+      bravery: 70
+      reactions: 30
+      firing: 40
+      throwing: 30
+      strength: 22
+      psiStrength: 70
+      psiSkill: 0
+      melee: 35
+      #mana: 85
+    armor: STR_COUNCIL_MEMBER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 100
+    energyRecovery: 25
+    intelligence: 6
+    aggression: 1
+    sniper: 100
+    spotter: 2
+    civilianRecoveryType: STR_COUNCIL_MEMBER
+    builtInWeaponSets:
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM   
+        - STR_MAGNUM_DRUM   
+  - type: STR_MALE_SOLDIER
+    race: STR_HUMAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 35
+      bravery: 70
+      reactions: 35
+      firing: 50
+      throwing: 44
+      strength: 36
+      psiStrength: 30
+      psiSkill: 0
+      melee: 35
+      #mana: 60
+    armor: STR_MALE_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_MALE_OFFICER_SOLDIER
+    race: STR_HUMAN
+    stats:
+      tu: 54
+      stamina: 75
+      health: 38
+      bravery: 80
+      reactions: 40
+      firing: 50
+      throwing: 44
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+      #mana: 60
+    armor: STR_MALE_OFFICER_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_MALE_ELITE_SOLDIER
+    race: STR_HUMAN
+    stats:
+      tu: 58
+      stamina: 85
+      health: 45
+      bravery: 80
+      reactions: 45
+      firing: 57
+      throwing: 50
+      strength: 44
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+      #mana: 60
+    armor: STR_MALE_ELITE_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    intelligence: 3
+    aggression: 3
+    sniper: 50
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_CRISIS_TROOPER
+    race: STR_HUMAN
+    stats:
+      tu: 58
+      stamina: 85
+      health: 45
+      bravery: 80
+      reactions: 45
+      firing: 57
+      throwing: 50
+      strength: 44
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+      #mana: 60
+    armor: STR_CRISIS_TROOPER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 6
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 4
+    sniper: 35
+    spotter: 1
+    energyRecovery: 25
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+  - type: STR_DAVID_VINCENT
+    race: STR_HUMAN
+    stats:
+      tu: 44
+      stamina: 45
+      health: 34
+      bravery: 60
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 26
+      psiStrength: 40
+      psiSkill: 0
+      melee: 22
+      #mana: 80
+    armor: STR_COUNCIL_MEMBER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 30
+    energyRecovery: 25
+    intelligence: 6
+    aggression: 1
+    civilianRecoveryType: STR_DAVID_VINCENT
+    builtInWeaponSets:
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+  - type: STR_WESTMEN_INFORMANT
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 53
+      stamina: 60
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 70
+      throwing: 35
+      strength: 37
+      psiStrength: 60
+      psiSkill: 0
+      melee: 40
+      #mana: 50
+    armor: STR_WESTMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    civilianRecoveryType: STR_WESTMAN
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_SLEEPER_MALE
+    race: STR_HUMAN
+    stats:
+      tu: 28
+      stamina: 68
+      health: 20
+      bravery: 30
+      reactions: 5
+      firing: 15
+      throwing: 30
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 25
+      #mana: 20
+    armor: STR_SLEEPER_MALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 15
+    energyRecovery: 25
+    intelligence: 0
+    aggression: 0
+  - type: STR_SLEEPER_FEMALE
+    race: STR_HUMAN
+    stats:
+      tu: 28
+      stamina: 68
+      health: 20
+      bravery: 30
+      reactions: 5
+      firing: 15
+      throwing: 30
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 25
+      #mana: 20
+    armor: STR_SLEEPER_FEMALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 15
+    energyRecovery: 25
+    intelligence: 0
+    aggression: 0
+  - type: STR_GERTRUDE_ELLISON
+    race: STR_HYBRID
+    stats:
+      tu: 65
+      stamina: 50
+      health: 30
+      bravery: 100
+      reactions: 65
+      firing: 50
+      throwing: 40
+      strength: 20
+      psiStrength: 75
+      psiSkill: 10
+      melee: 65
+      #mana: 50
+    armor: STR_GERTRUDE_ELLISON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 70
+    energyRecovery: 25
+    intelligence: 5
+    aggression: 3
+  - type: STR_JARHEAD_PRETENDER
+    race: STR_JARHEAD
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 58
+      stamina: 80
+      health: 25
+      bravery: 80
+      reactions: 60
+      firing: 60
+      throwing: 58
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 46
+    armor: STR_JARHEAD_PRETENDER_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 7
+    intelligence: 3
+    aggression: 1
+    sniper: 30
+    spotter: 1
+    energyRecovery: 30
+    spawnUnit: STR_JARHEAD_TERRORIST
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP	
+  - type: STR_JARHEAD_TERRORIST
+    race: STR_JARHEAD
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 60
+      throwing: 58
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 56
+      #mana: 30
+    armor: STR_JARHEAD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    intelligence: 3
+    aggression: 1
+    sniper: 30
+    spotter: 1
+    energyRecovery: 40
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+armors:
+  - type: STR_MALE_CIVILIAN_ARAB_ARMOR
+    spriteSheet: ARAB.PCK
+    spriteInv: inventory_MALE_ARAB
+    forcedTorso: 1
+    corpseBattle:
+      - MALE_CIVILIAN_ARAB_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_ARAB_ARMOR
+    spriteSheet: ARAB.PCK
+    spriteInv: inventory_FEMALE_ARAB
+    forcedTorso: 2
+    corpseBattle:
+      - FEMALE_CIVILIAN_ARAB_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_BLACK_ARMOR
+    spriteSheet: MALE_CIVILIAN_BLACK.PCK
+    spriteInv: inventory_MALE_CIVILIAN_BLACK
+    corpseBattle:
+      - STR_MALE_CIVILIAN_BLACK_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_TECHNICIAN_ARMOR
+    spriteSheet: TECHNICIAN.PCK
+    spriteInv: inventory_MALE_TECHNICIAN
+    forcedTorso: 1
+    corpseBattle:
+      - STR_MALE_CIVILIAN_TECHNICIAN_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_TECHNICIAN_ARMOR
+    spriteSheet: TECHNICIAN.PCK
+    spriteInv: inventory_FEMALE_TECHNICIAN
+    forcedTorso: 2
+    corpseBattle:
+      - STR_FEMALE_CIVILIAN_TECHNICIAN_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_CITY_BOY_ARMOR
+    spriteSheet: CITY_BOY.PCK
+    spriteInv: inventory_CITY_BOY
+    forcedTorso: 1
+    spriteUtileGroup: 4
+    spriteUtileColor: [160, 160, 144, 144, 224, 239, 239, 0]
+    corpseBattle:
+      - MALE_CIVILIAN_CITY_BOY_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_CITY_GIRL_ARMOR
+    spriteSheet: CITY_BOY.PCK
+    spriteInv: inventory_CITY_GIRL
+    forcedTorso: 2
+    spriteUtileGroup: 4
+    spriteUtileColor: [160, 160, 144, 144, 224, 239, 239, 0]
+    corpseBattle:
+      - FEMALE_CIVILIAN_CITY_GIRL_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_POLARNIK_ARMOR
+    spriteSheet: POLARNIK.PCK
+    spriteInv: inventory_FEMALE_POLAR
+    forcedTorso: 2
+    spriteUtileGroup: 4
+    spriteUtileColor: [0, 32, 48, 64, 128, 176, 192, 240]
+    corpseBattle:
+      - STR_FEMALE_CIVILIAN_POLARNIK_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 7
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.05
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.07
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    #specialWeapon: STR_UNARMED_POLAR_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_HUMAN_FEMALE_FARMER_ARMOR
+    spriteSheet: FEMALE_FARMER.PCK
+    spriteInv: inventory_FEMALE_FARMER
+    corpseBattle:
+      - STR_FEMALE_CIVILIAN_FARMER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_FARMER_ARMOR
+    spriteSheet: FARMER.PCK
+    spriteInv: inventory_MALE_FARMER
+    corpseBattle:
+      - STR_MALE_CIVILIAN_FARMER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_GANGER_ARMOR
+    spriteInv: inventory_MALE_CIVILIAN_GANGER
+    spriteSheet: MALE_CIVILIAN_GANGER.PCK
+    corpseBattle:
+      - STR_MALE_CIVILIAN_GANGER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 10
+    sideArmor: 7
+    rearArmor: 8
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_GREASER_ARMOR
+    spriteInv: inventory_MALE_GREASER
+    spriteSheet: MALE_GREASER.PCK
+    corpseBattle:
+      - STR_MALE_GREASER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_ENGINEER_ARMOR
+    spriteInv: inventory_MALE_ENGINEER
+    spriteSheet: MALE_ENGINEER.PCK
+    corpseBattle:
+      - STR_MALE_ENGINEER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]	
+  - type: STR_MALE_SAILOR_ARMOR
+    spriteInv: inventory_MALE_SAILOR
+    spriteSheet: MALE_SAILOR.PCK
+    corpseBattle:
+      - STR_MALE_SAILOR_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_FORESTER_ARMOR
+    spriteInv: inventory_MALE_FORESTER
+    spriteSheet: MALE_FORESTER.PCK
+    corpseBattle:
+      - STR_MALE_FORESTER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_WORKER_ARMOR
+    spriteInv: inventory_MALE_WORKER
+    spriteSheet: MALE_CIVILIAN_WORKER.PCK
+    corpseBattle:
+      - STR_MALE_CIVILIAN_WORKER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_FAT_TOURIST_ARMOR
+    spriteSheet: MALE_FAT_TOURIST.PCK
+    spriteInv: inventory_MALE_FAT_TOURIST
+    corpseBattle:
+      - STR_MALE_FAT_TOURIST_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &BeachOutfitResists
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SWIMWEAR
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CASUAL_ARMOR
+    spriteSheet: FEMALE_CASUAL.PCK
+    spriteInv: inventory_FEMALE_CASUAL
+    corpseBattle:
+      - STR_FEMALE_CASUAL_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SWIMWEAR
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_GLAMOUR_ARMOR
+    spriteInv: inventory_FEMALE_GLAMOUR
+    spriteSheet: FEMALE_GLAMOUR.PCK
+    corpseBattle:
+      - STR_FEMALE_GLAMOUR_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_HOSTESS_ARMOR
+    spriteSheet: HOSTESS.PCK
+    spriteInv: inventory_HOSTESS
+    corpseBattle:
+      - STR_HOSTESS_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #specialWeapon: STR_UNARMED_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_BIKINI_BABE_ARMOR
+    spriteSheet: BIKINI_BABE.PCK
+    spriteInv: inventory_BIKINI_BABE
+    corpseBattle:
+      - STR_BIKINI_BABE_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &BeachOutfitResists
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_UNARMED_SWIMWEAR
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_DOCTOR_ARMOR
+    spriteSheet: DOCTOR.PCK
+    spriteInv: inventory_FEMALE_DOCTOR
+    forcedTorso: 2
+    corpseBattle:
+      - STR_FEMALE_DOCTOR_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_COUNCIL_SALVAGER_ARMOR
+    spriteSheet: COUNCIL_SALVAGER.PCK
+    spriteInv: inventory_COUNCIL_SALVAGER
+    corpseBattle:
+      - STR_COUNCIL_SALVAGER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.09
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_COUNCIL_MEMBER_ARMOR
+    spriteSheet: COUNCIL_MEMBER.PCK
+    spriteInv: inventory_COUNCIL_MEMBER
+    corpseBattle:
+      - STR_COUNCIL_MEMBER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 16
+    underArmor: 20
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.09
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.85
+      - 0.8
+      - 0.65
+      - 0.9
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_KARATE
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_SOLDIER_ARMOR
+    spriteSheet: SOLDIER.PCK
+    spriteInv: inventory_MALE_SOLDIER
+    corpseBattle:
+      - STR_MALE_SOLDIER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_OFFICER_SOLDIER_ARMOR
+    spriteSheet: OFFICER_SOLDIER.PCK
+    spriteInv: inventory_MALE_OFFICER_SOLDIER
+    corpseBattle:
+      - STR_MALE_SOLDIER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_ELITE_SOLDIER_ARMOR
+    spriteSheet: ELITE_SOLDIER.PCK
+    spriteInv: inventory_ELITE_SOLDIER
+    corpseBattle:
+      - STR_ELITE_SOLDIER_CORPSE
+    visibilityAtDark: 13
+    frontArmor: 20
+    sideArmor: 13
+    rearArmor: 15
+    underArmor: 8
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.07
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_CRISIS_TROOPER_ARMOR
+    spriteSheet: CRISIS_TROOPER.PCK
+    spriteInv: inventory_CRISIS_TROOPER
+    corpseBattle:
+      - STR_CRISIS_TROOPER_CORPSE
+    visibilityAtDark: 7
+    stats:
+      stamina: -10
+      reactions: -15
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.3 # penalty for discomfort
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.07
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &HazmatResists
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 0.7
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.3
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_HAZMAT
+    loftempsSet: [ 3 ]	
+  - type: STR_SLEEPER_MALE_ARMOR
+    spriteSheet: SLEEPER.PCK
+    spriteInv: inventory_SLEEPER_MALE
+    corpseBattle:
+      - STR_SLEEPER_CORPSE
+    visibilityAtDark: 13
+    psiVision: 10
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      morale:
+        flatHundred: -0.1
+        #manaNormalized: 14.0
+      time:
+        tu: 0.5
+        #manaNormalized: 125.0
+      energy:
+        flatHundred: 0.25
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    loftempsSet: [ 3 ]
+  - type: STR_SLEEPER_FEMALE_ARMOR
+    spriteSheet: SLEEPER.PCK
+    spriteInv: inventory_SLEEPER_FEMALE
+    forcedTorso: 2
+    corpseBattle:
+      - STR_SLEEPER_CORPSE
+    visibilityAtDark: 13
+    psiVision: 10
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      morale:
+        flatHundred: -0.1
+        #manaNormalized: 14.0
+      time:
+        tu: 0.5
+        #manaNormalized: 125.0
+      energy:
+        flatHundred: 0.25
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    loftempsSet: [ 3 ]	
+  - type: STR_GERTRUDE_ELLISON_ARMOR
+    spriteSheet: GERTRUDE_ELLISON.PCK
+    spriteInv: inventory_GERTRUDE_ELLISON
+    corpseBattle:
+      - STR_GERTRUDE_ELLISON_CORPSE
+    visibilityAtDark: 14
+    psiVision: 7
+    frontArmor: 3
+    sideArmor: 3
+    rearArmor: 3
+    underArmor: 3
+    #psiDefence: *StandardDynamicPsiDefence
+    movementType: 0
+    meleeDodge:
+      reactions: 1.2
+    meleeDodgeBackPenalty: 0.0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.1
+      - 1.1
+      - 1.4
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_KARATE
+    loftempsSet: [ 3 ]	
+  - type: STR_JARHEAD_ARMOR
+    spriteSheet: JARHEAD.PCK
+    spriteInv: inventory_JARHEAD
+    allowInv: false
+    bleedImmune: true
+    zombiImmune: true
+    corpseBattle:
+      - STR_JARHEAD_CORPSE
+    psiVision: 7
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 40
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.1
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.5
+      - 1.2
+      - 1.0
+      - 1.5
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+  - type: STR_JARHEAD_PRETENDER_ARMOR
+    spriteSheet: JARHEAD_PRETENDER.PCK
+    spriteInv: inventory_FEMALE_CASUAL
+    bleedImmune: true
+    zombiImmune: true
+    corpseBattle:
+      - STR_JARHEAD_CORPSE
+    psiVision: 7
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 40
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+    deathFrames: 18
+  - type: STR_HUMAN_FARMER_ARMOR
+    spriteSheet: FARMER.PCK
+    spriteInv: inventory_MALE_FARMER
+    corpseBattle:
+      - STR_HUMAN_FARMER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_BRAINWASHED_HUMAN_FARMER_ARMOR
+    spriteSheet: FARMER.PCK
+    spriteInv: inventory_MALE_FARMER
+    corpseBattle:
+      - STR_HUMAN_FARMER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]	
+  - type: STR_STUNNED_HUMAN_FARMER_ARMOR
+    spriteSheet: FARMER.PCK
+    spriteInv: inventory_MALE_FARMER
+    corpseBattle:
+      - STR_STUNNED_HUMAN_FARMER_CORPSE
+    corpseGeo: STR_HUMAN_FARMER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]	
+  - type: STR_MALE_CIVILIAN_BODYGUARD_ARMOR
+    spriteSheet: MALE_BODYGUARD.PCK
+    spriteInv: inventory_MALE_BODYGUARD
+    corpseBattle:
+      - STR_MALE_BODYGUARD_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 5
+    rearArmor: 10
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]	
+  - type: STR_MALE_CIVILIAN_HOOLIGAN_ARMOR
+    spriteSheet: MALE_HOOLIGAN.PCK
+    spriteInv: inventory_MALE_HOOLIGAN
+    corpseBattle:
+      - STR_MALE_HOOLIGAN_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_MALE_CIVILIAN_HUNTER_ARMOR
+    spriteSheet: HUNTER.PCK
+    spriteInv: inventory_MALE_HUNTER
+    corpseBattle:
+      - MALE_CIVILIAN_HUNTER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &HunterResists
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_THUG
+    loftempsSet: [ 3 ]
+  - type: STR_FEMALE_CIVILIAN_HUNTER_ARMOR
+    spriteSheet: HUNTER.PCK
+    spriteInv: inventory_FEMALE_HUNTER
+    forcedTorso: 2
+    corpseBattle:
+      - FEMALE_CIVILIAN_HUNTER_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_MALE_CIVILIAN_POLARNIK_ARMOR
+    spriteSheet: POLARNIK.PCK
+    spriteInv: inventory_MALE_POLAR
+    forcedTorso: 1
+    spriteUtileGroup: 4
+    spriteUtileColor: [160, 160, 144, 144, 224, 239, 239, 0]
+    corpseBattle:
+      - STR_MALE_CIVILIAN_POLARNIK_CORPSE
+    visibilityAtDark: 6
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 7
+    meleeDodge:
+      reactions: 0.05
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.07
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+items:
+  - type: STR_CRISIS_TROOPER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 40000	
+  - type: STR_DAVID_VINCENT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 0
+    listOrder: 159000	
+  - type: STR_SLEEPER_MALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 3
+    costSell: 5000
+  - type: STR_SLEEPER_FEMALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 3
+    costSell: 5000	
+  - type: STR_JARHEAD_TERRORIST
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 35000
+    prisonType: 0	
+    listOrder: 117000	 	
+  - type: STR_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 154000
+  - type: STR_BRAINWASHED_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 154020	
+  - type: STR_STUNNED_HUMAN_FARMER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 154010
+  - type: STR_MALE_BODYGUARD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 5000
+  - type: STR_MALE_CIVILIAN_HOOLIGAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1000	
+  - type: STR_MALE_CIVILIAN_HUNTER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0
+  - type: STR_MALE_CIVILIAN_BEDUIN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 3000	
+  - type: STR_COUNCIL_MEMBER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 750000
+    listOrder: 158100	
+  - type: STR_MALE_SOLDIER
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000 	
+  - type: STR_MALE_OFFICER_SOLDIER
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000  	
+  - type: STR_MALE_ELITE_SOLDIER
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 60000 
+  - type: STR_HOSTESS
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	
+  - type: STR_BIKINI_BABE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0		
+  - type: STR_FEMALE_DOCTOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	
+  - type: STR_COUNCIL_SALVAGER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 2500		
+  - type: STR_MALE_CIVILIAN_WORKER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0
+  - name: STR_MALE_CIVILIAN_WORKER_ARMOR
+    ##requiresBaseFunc: [RESEARCH]   
+    cost: 0
+    points: 0
+  - type: STR_MALE_FAT_TOURIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	 	
+  - type: STR_FEMALE_CASUAL
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	
+  - type: STR_FEMALE_GLAMOUR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0		
+  - type: STR_MALE_GREASER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	
+  - type: STR_MALE_ENGINEER
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 60000    	
+  - type: STR_MALE_SAILOR
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 60000  	
+  - type: STR_MALE_FORESTER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0			
+  - type: STR_MALE_CIVILIAN_FARMER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1500	
+  - type: STR_MALE_CIVILIAN_GANGER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0		
+  - type: STR_MALE_CIVILIAN_POLARNIK
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 60000     
+  - type: STR_FEMALE_CIVILIAN_POLARNIK
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 40000		
+  - type: STR_FEMALE_CIVILIAN_FARMER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 40000		
+  - type: STR_MALE_CIVILIAN_CITY_BOY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1200
+  - type: STR_FEMALE_CIVILIAN_CITY_GIRL
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1200	
+  - type: STR_FEMALE_CIVILIAN_ARAB
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 800	
+  - type: STR_MALE_CIVILIAN_BLACK
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1000
+  - type: STR_MALE_CIVILIAN_TECHNICIAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0	
+  - type: STR_FEMALE_CIVILIAN_TECHNICIAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 0			
+  - type: STR_GERTRUDE_ELLISON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 35000
+    listOrder: 150815
+  - type: STR_MALE_CIVILIAN_ARAB
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    costSell: 1200
+  - type: STR_GERTRUDE_ELLISON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 28
+    bigSprite: 913 
+    floorSprite: 805
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 26
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1	
+  - type: MALE_CIVILIAN_ARAB_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 526
+    floorSprite: 434
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: FEMALE_CIVILIAN_ARAB_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 38
+    bigSprite: 527
+    floorSprite: 434
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_MALE_CIVILIAN_BLACK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 602
+    floorSprite: 472
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_CIVILIAN_TECHNICIAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 622
+    floorSprite: 486
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_FEMALE_CIVILIAN_TECHNICIAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 30
+    bigSprite: 623
+    floorSprite: 486
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: MALE_CIVILIAN_CITY_BOY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 37
+    bigSprite: 521
+    floorSprite: 429
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: FEMALE_CIVILIAN_CITY_GIRL_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 37
+    bigSprite: 523
+    floorSprite: 431
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_CIVILIAN_POLARNIK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 519
+    floorSprite: 427
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	 	
+  - type: STR_FEMALE_CIVILIAN_POLARNIK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 520
+    floorSprite: 428
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false 	
+  - type: STR_FEMALE_CIVILIAN_FARMER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    weight: 30
+    bigSprite: 876
+    floorSprite: 783
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+    listOrder: 72101
+  - type: STR_MALE_CIVILIAN_FARMER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 451
+    floorSprite: 373
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_CIVILIAN_GANGER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 223
+    floorSprite: 202
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_GREASER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 224
+    floorSprite: 203
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_ENGINEER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 225
+    floorSprite: 204
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_MALE_SAILOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 226
+    floorSprite: 205
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_FORESTER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 227
+    floorSprite: 206
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_CIVILIAN_WORKER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 230
+    floorSprite: 209
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_MALE_FAT_TOURIST_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 476
+    floorSprite: 398
+    invWidth: 2
+    invHeight: 3
+    armor: 16
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_FEMALE_CASUAL_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 28
+    bigSprite: 1168
+    floorSprite: 51
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 12
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: -10
+    listOrder: 62210
+  - type: STR_FEMALE_GLAMOUR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 228
+    floorSprite: 207
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_HOSTESS_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 229
+    floorSprite: 208
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_BIKINI_BABE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 475
+    floorSprite: 397
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_FEMALE_DOCTOR_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 29
+    bigSprite: 665
+    floorSprite: 524
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: -30	
+  - type: STR_COUNCIL_SALVAGER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 35
+    bigSprite: 667
+    floorSprite: 526
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -5
+    recover: true
+    recoverCorpse: false
+  - type: STR_COUNCIL_MEMBER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 607
+    floorSprite: 475
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: -60
+    recover: true
+    recoverCorpse: false  	
+  - type: STR_MALE_SOLDIER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 38
+    bigSprite: 440
+    floorSprite: 369
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_ELITE_SOLDIER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 38
+    bigSprite: 606
+    floorSprite: 474
+    invWidth: 2
+    invHeight: 3
+    armor: 32
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_CRISIS_TROOPER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 44
+    bigSprite: 700
+    floorSprite: 653
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false	
+  - type: STR_DAVID_VINCENT_INTERROGATION
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_SLEEPER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    weight: 12
+    bigSprite: 1087
+    floorSprite: 930
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 5
+    battleType: 11
+    armor: 5	
+  - type: STR_JARHEAD_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 11000
+    weight: 16
+    bigSprite: 624
+    floorSprite: 487
+    invWidth: 2
+    invHeight: 2
+    costThrow:
+      energy: 20
+    recoveryPoints: 5
+    battleType: 11
+    armor: 22
+    listOrder: 62280	
+  - type: STR_HUMAN_FARMER_CORPSE
+    categories: [STR_CORPSES]
+    costSell: -10000
+    size: 0.4
+    weight: 40
+    bigSprite: 451
+    floorSprite: 373
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoveryPoints: -90
+    listOrder: 72100	
+  - type: STR_STUNNED_HUMAN_FARMER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    weight: 40
+    bigSprite: 451
+    floorSprite: 373
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoveryPoints: 1
+  - type: STR_MALE_BODYGUARD_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 582
+    floorSprite: 465
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_MALE_HOOLIGAN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 599
+    floorSprite: 470
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false		
+  - type: MALE_CIVILIAN_HUNTER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 518
+    floorSprite: 426
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: MALE_CIVILIAN_BEDUIN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 42
+    bigSprite: 524
+    floorSprite: 432
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: FEMALE_CIVILIAN_HUNTER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 38
+    bigSprite: 528
+    floorSprite: 435
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: -10
+    recover: true
+    recoverCorpse: false
+  - type: STR_WESTMEN_INFORMANT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+  - type: STR_MALE_MARINE_OFFICER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+
+  - type: STR_MALE_CIVILIAN_BODYGUARD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 3
+    costSell: 5000
+  - type: STR_FEMALE_CIVILIAN_HUNTER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 3
+    costSell: 5000

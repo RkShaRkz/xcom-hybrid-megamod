@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - MPS Aimé Dorian
+  - MPS Alban
+  - MPS Ange
+  - MPS Annoud Prestige
+  - MPS Appollinaire
+  - MPS Arcel
+  - MPS Archange
+  - MPS Aristide
+  - MPS Armand
+  - MPS Arthur
+  - MPS Awax
+  - MPS Baurion
+  - MPS Ben
+  - MPS Benjamin
+  - MPS Bensadaa
+  - MPS Bonte
+  - MPS Boris
+  - MPS Bouse
+  - MPS Calice
+  - MPS Céléstin
+  - MPS Chatel
+  - MPS Cherald
+  - MPS Cherubin
+  - MPS Chriss
+  - MPS Christian
+  - MPS Claude
+  - MPS Davy
+  - MPS Dbacom
+  - MPS Donnel
+  - MPS Dorian
+  - MPS Dos
+  - MPS Dulcine
+  - MPS Eden
+  - MPS Edvin
+  - MPS Elyse
+  - MPS Eudes
+  - MPS Evrard
+  - MPS Fred
+  - MPS Fresnel
+  - MPS Gata
+  - MPS Geslin
+  - MPS Giordani
+  - MPS Guychel
+  - MPS Harold
+  - MPS Heldora
+  - MPS Hilde
+  - MPS Japhet
+  - MPS Joad Louad
+  - MPS Jules
+  - MPS Julle
+  - MPS Karome
+  - MPS Leonce
+  - MPS Lima
+  - MPS Lionel
+  - MPS Lucien
+  - MPS Mack
+  - MPS Marzin
+  - MPS Mbayo
+  - MPS Milan
+  - MPS Murphy
+  - MPS Oudry
+  - MPS Pascal
+  - MPS Paterne
+  - MPS Patrick
+  - MPS Prevner
+  - MPS Prince
+  - MPS Ray
+  - MPS Régis
+  - MPS Resnik
+  - MPS Rishi
+  - MPS Rodrigue
+  - MPS Rudolf
+  - MPS Sajila
+  - MPS Severin
+  - MPS Shabani
+  - MPS Stanis
+  - MPS Stephane
+  - MPS Sylvio
+  - MPS Thierry
+  - MPS Van Carrel
+  - MPS Yohan
+femaleFirst:
+  - MPS Arich
+  - MPS Arrielle
+  - MPS Ashley
+  - MPS Aubierge
+  - MPS Aude
+  - MPS Belcha
+  - MPS Belvie
+  - MPS Brunelle
+  - MPS Capricia
+  - MPS Carole
+  - MPS Cecile
+  - MPS Celvie
+  - MPS Chanfrelle
+  - MPS Christelle
+  - MPS Christiane
+  - MPS Clavidia
+  - MPS Darlène
+  - MPS Deborah
+  - MPS Diche
+  - MPS Dina
+  - MPS Docile
+  - MPS Djany
+  - MPS Emmanuelle
+  - MPS Estelle
+  - MPS Fallone
+  - MPS Fernande
+  - MPS Florèse
+  - MPS Gaelle
+  - MPS Garcia
+  - MPS Geanna
+  - MPS Giovanna
+  - MPS Gloire
+  - MPS Grace
+  - MPS Granie
+  - MPS Jaelle
+  - MPS Jannie
+  - MPS Jeanny
+  - MPS Jelvie
+  - MPS Jessica
+  - MPS Jen
+  - MPS Jodrey
+  - MPS Jolienne
+  - MPS Judith
+  - MPS Julie
+  - MPS Jupsie
+  - MPS Keicha
+  - MPS Liu
+  - MPS Lys
+  - MPS Melaine
+  - MPS Merveille
+  - MPS Michelle
+  - MPS Parfaite
+  - MPS Patrique
+  - MPS Polly
+  - MPS Privel
+  - MPS Lirna
+  - MPS Madelenne
+  - MPS Manu
+  - MPS Mary
+  - MPS Mbeko
+  - MPS Milyne
+  - MPS Monia
+  - MPS Nardelie
+  - MPS Nathalie
+  - MPS Nel
+  - MPS Nicia
+  - MPS Nuptia
+  - MPS Opportune
+  - MPS Patricia
+  - MPS Pitchou
+  - MPS Raan-sady
+  - MPS Reine
+  - MPS Rose
+  - MPS Rosa
+  - MPS Rudelle
+  - MPS Sabrina
+  - MPS Sagely
+  - MPS Sidorelle
+  - MPS Sony
+  - MPS Staelle
+  - MPS Synthyche
+  - MPS Tan
+  - MPS Vanessa
+  - MPS Winnie
+  - MPS Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

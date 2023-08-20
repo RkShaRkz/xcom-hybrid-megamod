@@ -1,0 +1,142 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_INDUSTRIAL_INVESTIGATION: "Kidnap Enemy Engineers"
+      STR_ALERT_INDUSTRIAL_INVESTIGATION: "Kidnap Enemy Engineers"
+      STR_INDUSTRIAL_INVESTIGATION_DESCRIPTION: "The Mercenary guild has got the scoop that an industrial facility has recently hired a bunch of new engineers to help filled in for an expanded production. Here is your chance to go in and persuade them to work for you. Good luck."
+      STR_INDUSTRIAL_INVESTIGATION_BRIEFING: "The Mercenary guild has got the scoop that an industrial facility has recently hired a bunch of new engineers to help filled in for an expanded production. Here is your chance to go in and persuade them to work for you.Good luck."
+alienDeployments:
+  - type: STR_INDUSTRIAL_INVESTIGATION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_INDUSTRIAL_INVESTIGATION
+    alertBackground: DURATHREADFACTORY_BACKGROUND.SCR
+    alertDescription: BACK04.SCR
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_INDUSTRIAL_INVESTIGATION_BRIEFING  
+    markerName: STR_INDUSTRIAL_INVESTIGATION
+    duration: [75, 120]
+    despawnPenalty: 30
+    music:
+      - GMTACTIC
+    script: ENGINEEEINGNAP
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_INDUSTRIAL_INVESTIGATION
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CYBERWEB: 20		  
+          STR_MARSEC: 20		  
+          STR_UAC: 20	
+          STR_TRANS_STELLAR: 20		  
+          STR_GUILD: 20	
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+terrains:
+  - name: FACTORYKIDNAP
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - PORT01
+      - PORT02
+      - WAREAN
+    mapBlocks:
+      - name: RANDOMSPAWNFACTORY
+        width: 10
+        length: 10
+        items:  
+          STR_ENGINEER_SPAWNER:
+            - [6, 3, 2]
+            - [6, 2, 2]                               
+        fuseTimers:            
+          STR_ENGINEER_SPAWNER: [0, 0]
+items:		
+  - type: STR_ENGINEER_SPAWNER
+    spawnUnit: STR_MALE_ENGINEER
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4			  
+mapScripts: #done	
+  - type: ENGINEEEINGNAP
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      executions: 3
+      terrain: FACTORYKIDNAP
+      executionChances: 100	  	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain 		  
+missionScripts:
+  - type: industrialInvestigation
+    firstMonth: 0
+    executionOdds: 22
+    missionWeights:
+      0:
+        STR_INDUSTRIAL_INVESTIGATION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

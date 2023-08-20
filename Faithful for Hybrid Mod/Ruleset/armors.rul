@@ -1,0 +1,442 @@
+armors:
+#Reavers Original Armour addition
+  - type: STR_BREACHER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      stamina: 10
+      health: 8
+      reactions: 20
+      melee: 15
+  - type: STR_RANGER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      tu: 5
+      stamina: 15
+      firing: 10
+      throwing: 10
+      strength: 5
+  - type: STR_SNIPER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      reactions: 10
+      firing: 20
+  - type: STR_HEAVY_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      health: 5
+      reactions: -15
+      firing: 10
+      throwing: 10
+      strength: 10
+  - type: STR_ELITE_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      tu: 3
+      stamina: 10
+      health: 5
+      bravery: 20
+      reactions: 10
+      firing: 10
+      throwing: 10
+      strength: 7
+      melee: 10
+  - type: STR_PSIONIC_PRODIGY_UP
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      psiStrength: 40
+      psiSkill: 8
+  - type: STR_SUPER_SOLDIER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    loftempsSet: [ 3 ]	
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    stats:
+      tu: 5
+      stamina: 20
+      health: 10
+      bravery: 20
+      reactions: 20
+      firing: 20
+      throwing: 20
+      strength: 10
+      melee: 20
+  - type: TANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon				  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 70
+    sideArmor: 50
+    rearArmor: 30
+    underArmor: 40
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_GUARDIAN_ALLOY
+    spriteSheet: GATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 110
+    sideArmor: 100
+    rearArmor: 90
+    underArmor: 80
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon	 	  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_BATTLE_ALLOY
+    spriteSheet: BATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 95
+    sideArmor: 80
+    rearArmor: 65
+    underArmor: 65
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT_ALLOY
+    spriteSheet: AATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 80
+    sideArmor: 60
+    rearArmor: 40
+    underArmor: 50
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseGuardianHover_1
+      - CorpseGuardianHover_2
+      - CorpseGuardianHover_3
+      - CorpseGuardianHover_4
+    frontArmor: 140
+    sideArmor: 135
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon	  	  
+    loftempsSet: [ 92, 89, 90, 91 ]	
+  - type: HOVERTANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAssaultHover_1
+      - CorpseAssaultHover_2
+      - CorpseAssaultHover_3
+      - CorpseAssaultHover_4
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 60
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon	  	  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_LIGHT_ARMOR_UC
+    spriteSheet: XCOM_0.PCK
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR 	
+    spriteInv: MAN_0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon	
+    loftempsSet: [ 3 ]  	  
+  - type: STR_HEAVY_ARMOR_UC
+    spriteSheet: XCOM_4.PCK
+    spriteInv: MAN_4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_HEAVY_ARMOR
+    storeItem: STR_HEAVY_ARMOR
+    weight: 5
+    stats:
+      tu: -5
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 17
+    underArmor: 14
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon 
+    loftempsSet: [ 3 ]
+  - type: STR_HEAVY_ARMOR_UC_UNDERWATER
+    spriteSheet: XCOM_4.PCK
+    drawBubbles: true	
+    spriteInv: MAN_4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_HEAVY_ARMOR
+    weight: 5
+    stats:
+      tu: -5
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 17
+    underArmor: 14
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 0.8
+      - 1.0	  	
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes	
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon
+    loftempsSet: [ 3 ]	

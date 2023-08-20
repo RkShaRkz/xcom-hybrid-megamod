@@ -1,0 +1,584 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_APOCALYPSE_CULT: "Cult of Apocalypse : Divine Cleansing Sect"
+      STR_CULT_OF_SPIRITS: "Cult of Apocalypse : Divine Retribution Sect "
+      STR_CULT_OF_CHERNOBOG: "Cult of Apocalypse : Calls of Greater Divine Sect"	
+      STR_APOC_DISCIPLE_UFOPEDIA: "The Followers are the lower ranking members in the Cult of Apocalypse. Their role is just an initiate or newly join, more like a trainee given the most mundane of task in the cult."
+      STR_APOC_SADIST_UFOPEDIA: "These are minor priest of the Apocalypse cult. They perform low ranking religious duties. They do field missions in groups from around the world, while trying to preach the good news of the Apocalypse to the desperate and the poor. They also perform low ranking temple rituals, like are puppies sacrificers and etc."
+      STR_APOC_MARAUDER_UFOPEDIA: "More like the Cult Bouncers, these Cultist are the soldiers of the Apocalypse Cult. They are deployed in hotspots and temples from around the world, fanatically protecting them from whomever that are trying to destroy or harms the cult."		  	  	  
+      APOC_ARMOR_P0_UFOPEDIA: "Apoc Disciple Examination. Evasion: REA*45% + MEL*15% + BRA*15%. NV: 13. ThV: 30%. SPOT: 6."
+      APOC_ARMOR_P1_UFOPEDIA: "Apoc Sadist Examination. Evasion: REA*40% + MEL*20%. NV: 13."
+      APOC_ARMOR_P2_UFOPEDIA: "Apoc Marauder Examination. Evasion: REA*30% + MEL*25%. NV: 25. ThV: 50. SPOT: 6."	
+      STR_APOC_DISCIPLE: "Followers of Apocalypse"
+      STR_APOC_SADIST: "Sadists of Apocalypse"
+      STR_APOC_MARAUDER: "Marauders of Apocalypse"    
+      STR_APOC_DISCIPLEID: "Followers of Apocalypse ID"
+      STR_APOC_SADISTID: "Sadists of Apocalypse ID"
+      STR_APOC_MARAUDERID: "Marauders of Apocalypse ID"    	    
+      APOC_ARMOR_P0: "Apoc Disciple Examination"
+      APOC_ARMOR_P1: "Apoc Sadist Examination"
+      APOC_ARMOR_P2: "Apoc Marauder Examination"
+      STR_APOC_DISCIPLE_ROBBERY: "Interrogate: Disciple of Apocalypse (2/0/1)"
+      STR_APOC_SADIST_ROBBERY: "Interrogate: Sadist of Apocalypse (1/0/1)"
+      STR_APOC_MARAUDER_ROBBERY: "Interrogate: Marauder of Apocalypse (4/0/1)"  
+      STR_HUMAN_GHOST_CULTIST_ARMOR: "Spirit Cultist Combat Analysis"
+      STR_HUMAN_GHOST_CULTIST: "Apoc Cultist"
+      STR_HUMAN_GHOST_CULTIST_UFOPEDIA: "These are the lowest members of the Apocalypse cult, more like recent converts. They get to do the worst job in the cult, at least until they proven themselves. "	
+      STR_GANG_TECH_WIZARDS: "Subculture: Wizkids"
+      STR_GANG_TECH_WIZARDS_UFOPEDIA: "Wizkids thrive on the edge of the Grey Market, where unusual tech is bought and sold. Smart and rich, they seek out these artifacts not for money or power, but purely for the sensation of being someone more than just a mere mortal. They consider humanity 'ignorant masses' and openly aim to live off of them whenever possible. They also believe that after the world as we know it falls, they will be the ones to seize the power."	  
+alienRaces:
+  - id: STR_CULT_OF_SPIRITS
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+    retaliationAggression: -100
+  - id: STR_CULT_OF_SPIRITS_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+  - id: STR_APOCALYPSE_CULT
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+    retaliationAggression: -100
+  - id: STR_APOCALYPSE_CULT_UNDERWATER	
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+    retaliationAggression: -100	
+  - id: STR_CULT_OF_CHERNOBOG
+    membersRandom:  
+      - [STR_PONTIFF_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]	  
+  - id: STR_CULT_OF_CHERNOBOG_UNDERWATER	
+    membersRandom:
+      - [STR_PONTIFF_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_BROTHER_OF_APOCALYPSE]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]
+      - [STR_HUMAN_GHOST_CULTIST]	  
+  - id: STR_CULT_OF_APOCALYPSE
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+    retaliationAggression: -100	
+  - id: STR_CULT_OF_APOCALYPSE_UNDERWATER	  	
+    members:
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_HUMAN_GHOST_CULTIST
+    retaliationAggression: -100	 
+ufopaedia:
+  - id: STR_HUMAN_GHOST_CULTIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_GHOST_CULTIST_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_GHOST_CULTIST
+    listOrder: 152100
+  - id: STR_APOCALYPSE_CULT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_APOCALYPSE_CULT
+    #image_id: APOCALYPSE_CULT_UFOPEDIA_PICTURE
+    text: STR_APOCALYPSE_CULT_UFOPEDIA
+    text_width: 166
+    listOrder: 24300
+  - id: STR_APOC_MARAUDER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_APOC_MARAUDER
+    #image_id: APOC_MARAUDER_UFOPEDIA_PICTURE
+    text: STR_APOC_MARAUDER_UFOPEDIA
+    text_width: 180
+    listOrder: 24304
+  - id: STR_APOC_SADIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_APOC_SADIST
+    #image_id: APOC_SADIST_UFOPEDIA_PICTURE
+    text: STR_APOC_SADIST_UFOPEDIA
+    text_width: 180
+    listOrder: 24305
+  - id: STR_APOC_DISCIPLE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_APOC_DISCIPLE
+    #image_id: APOC_DISCIPLE_UFOPEDIA_PICTURE
+    text: STR_APOC_DISCIPLE_UFOPEDIA
+    text_width: 180
+    listOrder: 24310	  
+research:	 
+  - name: STR_HUMAN_GHOST_CULTIST
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 15
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_APOCALYPSE_CULT
+  - name: STR_APOCALYPSE_CULT
+    #requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_HUMAN_GHOST_CULTIST
+      - STR_PONTIFF_OF_APOCALYPSE
+      - STR_BROTHER_OF_APOCALYPSE
+units:
+  - type: STR_HUMAN_GHOST_CULTIST
+    race: STR_CULT_OF_SPIRITS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 40
+      stamina: 55
+      health: 30
+      bravery: 90
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 28
+      psiStrength: 60
+      psiSkill: 0
+      melee: 35
+      #mana: 50
+    armor: STR_HUMAN_GHOST_CULTIST_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 5
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    intelligence: 1
+    aggression: 3
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_APOC_SADIST
+    race: STR_APOCALYPSE_CULT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 100
+      health: 110
+      bravery: 100
+      reactions: 35
+      firing: 40
+      throwing: 65
+      strength: 65
+      psiStrength: 40
+      psiSkill: 40
+      melee: 75
+      #Mana: 130
+    armor: APOC_ARMOR_P1
+    deathSound: [41, 42, 43]	
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    energyRecovery: 50
+    intelligence: 2
+    aggression: 6
+    canSurrender: false
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_MEDI_KIT
+  - type: STR_APOC_MARAUDER
+    race: STR_APOCALYPSE_CULT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 75
+      stamina: 120
+      health: 75
+      bravery: 100
+      reactions: 75
+      firing: 75
+      throwing: 65
+      strength: 50
+      psiStrength: 55
+      psiSkill: 0
+      melee: 75
+      #Mana: 120
+    armor: APOC_ARMOR_P2
+    deathSound: [41, 42, 43]	
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    energyRecovery: 50
+    intelligence: 3
+    aggression: 3
+    canSurrender: false
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_APOC_DISCIPLE
+    race: STR_APOCALYPSE_CULT
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 70
+      stamina: 100
+      health: 80
+      bravery: 100
+      reactions: 65
+      firing: 40
+      throwing: 60
+      strength: 50
+      psiStrength: 65
+      psiSkill: 0
+      melee: 80
+      #Mana: 160
+    armor: APOC_ARMOR_P0
+    deathSound: [41, 42, 43]	
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    energyRecovery: 50
+    intelligence: 4
+    aggression: 4
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+    canSurrender: false	
+armors:	
+  - type: STR_HUMAN_GHOST_CULTIST_ARMOR
+    spriteSheet: GHOST_CULTIST.PCK
+    spriteInv: inventory_GHOST_CULTIST
+    corpseBattle:
+      - STR_HUMAN_GHOST_CULTIST_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: APOC_ARMOR_P0
+    visibilityAtDay: 30
+    visibilityAtDark: 25
+    heatVision: 10
+    spriteSheet: CHAOS_OGRYN.PCK
+    spriteInv: CHAOS_OGRYN_INV
+    corpseBattle:
+      - STR_APOC_0_CORPSE_BATTLE	    
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10
+    damageModifier:
+      - 0.35
+      - 1.0
+      - 1.25
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.65
+      - 0.8
+      - 0.8
+      - 1.25
+      - 0.7 #Sonic
+      - 1.2 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 5 ]  
+  - type: APOC_ARMOR_P1
+    visibilityAtDay: 30
+    visibilityAtDark: 20
+    spriteSheet: CHAOS_PENETANTE.PCK
+    spriteInv: CHAOS_OGRYN_INV
+    corpseBattle:
+      - STR_APOC_1_CORPSE_BATTLE  
+    frontArmor: 16
+    sideArmor: 16
+    rearArmor: 16
+    underArmor: 16
+    drawingRoutine: 0
+    damageModifier:
+      - 0.65
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.65
+      - 0.8
+      - 0.8
+      - 1.25
+      - 0.7 #Sonic
+      - 1.2 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon 
+    loftempsSet: [ 3 ]  
+  - type: APOC_ARMOR_P2
+    visibilityAtDay: 30
+    visibilityAtDark: 20
+    heatVision: 10
+    spriteSheet: CULTIST_ASPIRING_BS.PCK
+    spriteInv: CULTASPIRING_INV
+    corpseBattle:
+      - STR_APOC_2_CORPSE_BATTLE	
+    frontArmor: 23
+    sideArmor: 19
+    rearArmor: 17
+    underArmor: 13
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.5 #FLAMES
+      - 0.9 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.7 #Sonic
+      - 1.2 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	  
+    loftempsSet: [ 3 ]  
+items:		
+  - type: STR_APOC_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3906
+    floorSprite: 3906
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45
+  - type: STR_APOC_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3907
+    floorSprite: 3907
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45
+  - type: STR_APOC_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3905
+    floorSprite: 3905
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45	
+  - type: STR_APOC_DISCIPLE
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 15000 	
+  - type: STR_APOC_SADIST
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 10000
+  - type: STR_APOC_MARAUDER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 10000		
+  - type: STR_HUMAN_GHOST_CULTIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 1000		
+  - type: STR_HUMAN_GHOST_CULTIST_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 1047
+    floorSprite: 909
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	

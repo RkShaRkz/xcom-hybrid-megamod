@@ -1,0 +1,64 @@
+interfaces: #slightly increased size of buttons
+  - type: battlescape
+    palette: PAL_BATTLESCAPE
+    elements:
+      - id: buttonUnitUp
+        pos: [50, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonUnitDown
+        pos: [50, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonMapUp
+        pos: [82, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonMapDown
+        pos: [82, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonShowMap
+        pos: [114, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonKneel
+        pos: [114, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonInventory
+        pos: [146, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonCenter
+        pos: [146, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonNextSoldier
+        pos: [178, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonNextStop
+        pos: [178, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonShowLayers
+        pos: [210, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: numLayers
+        pos: [229, 5]
+        TFTDMode: true
+        color: 15
+      - id: buttonHelp
+        pos: [210, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonEndTurn
+        pos: [242, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonAbort
+        pos: [242, 17]
+        size: [30, 15]
+        TFTDMode: true

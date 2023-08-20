@@ -1,0 +1,356 @@
+items:	
+  - type: STR_CYBERDISC_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 75000
+  - type: STR_SECTOPOD_TERRORIST
+    size: 0.0
+    recover: true	
+    liveAlien: true
+    costSell: 75000		
+  - type: STR_SPAWN_XCOM_CAMERA
+    spawnUnit: STR_XCOM_CAMERA
+    spawnUnitFaction: 0
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_XCOM_ROBOTURRET_MINIGUN
+    spawnUnit: STR_ROBOTURRET
+    spawnUnitFaction: 0
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_XCOM_ROBOTURRET_LASER
+    spawnUnit: STR_ROBOTURRET
+    spawnUnitFaction: 0
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_COUNCIL_MEMBER
+    spawnUnit: STR_COUNCIL_MEMBER
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_ELITE_SOLDIER
+    spawnUnit: STR_MALE_ELITE_SOLDIER
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_GREASER
+    spawnUnit: STR_MALE_GREASER
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_VIP
+    spawnUnit: STR_MALE_VIP
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_FEMALE_GLAMOUR
+    spawnUnit: STR_FEMALE_GLAMOUR
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_HOSTESS
+    spawnUnit: STR_HOSTESS
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_CIVILIAN_BODYGUARD
+    spawnUnit: STR_MALE_CIVILIAN_BODYGUARD
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_CIVILIAN_BLACK
+    spawnUnit: STR_MALE_CIVILIAN_BLACK
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_CIVILIAN_FARMER
+    spawnUnit: STR_MALE_CIVILIAN_FARMER
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_CIVILIAN_HUNTER
+    spawnUnit: STR_MALE_CIVILIAN_HUNTER
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_MALE_DOCTOR
+    spawnUnit: STR_MALE_DOCTOR
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_FEMALE_DOCTOR
+    spawnUnit: STR_FEMALE_DOCTOR
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_PRIEST
+    spawnUnit: STR_PRIEST
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CIVILIAN_DOGE
+    spawnUnit: STR_DOGE
+    spawnUnitFaction: 2
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_GERTRUDE_ELLISON
+    spawnUnit: STR_GERTRUDE_ELLISON
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_DAVID_VINCENT
+    spawnUnit: STR_DAVID_VINCENT
+    spawnUnitFaction: 0
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_WESTMEN_INFORMANT
+    spawnUnit: STR_WESTMEN_INFORMANT
+    spawnUnitFaction: 0
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_LO_WO
+    spawnUnit: STR_LO_WO
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_NATASHA_MOROZOVA
+    spawnUnit: STR_NATASHA_MOROZOVA
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_DR_HADRIEX
+    spawnUnit: STR_DR_HADRIEX
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_ANCIENT_SEA_GHOST
+    spawnUnit: STR_ANCIENT_SEA_GHOST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_GILLMAN_HERO
+    spawnUnit: STR_GILLMAN_HERO
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_REPTOID_DRAGONFIRE_TURRET
+    spawnUnit: STR_REPTOID_DRAGONFIRE_TURRET_DEFENDER
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_BLOODHOUND_TERRORIST
+    spawnUnit: STR_BLOODHOUND_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_DOOM_IMP
+    spawnUnit: STR_DOOM_IMP
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_SAMAEL_OF_APOCALYPSE
+    spawnUnit: STR_PONTIFF_OF_APOCALYPSE
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_HYBRID_DIPLOMAT
+    spawnUnit: STR_HYBRID_DIPLOMAT
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_ETHEREAL_KEEPER
+    spawnUnit: STR_ETHEREAL_KEEPER
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_ALIEN_LASER_TURRET
+    spawnUnit: STR_ALIEN_LASER_TURRET
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_ALIEN_SMALL_PLASMA_TURRET
+    spawnUnit: STR_ALIEN_SMALL_PLASMA_TURRET
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CYBERMITE_TERRORIST
+    spawnUnit: STR_CYBERMITE_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false  
+  - type: STR_SPAWN_ALIEN_BRAIN
+    spawnUnit: STR_ALIEN_BRAIN
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_CHUPACABRA_TERRORIST
+    spawnUnit: STR_CHUPACABRA_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_SPIKEBOAR_TERRORIST
+    spawnUnit: STR_SPIKEBOAR_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_BULLFROG_TERRORIST
+    spawnUnit: STR_BULLFROG_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_GIANT_RAT_TERRORIST
+    spawnUnit: STR_GIANT_RAT_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_MEGASCORPION_TERRORIST
+    spawnUnit: STR_MEGASCORPION_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_SHADOWBAT_TERRORIST
+    spawnUnit: STR_SHADOWBATXCOMFILES_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_GIANT_BEETLE_TERRORIST
+    spawnUnit: STR_GIANT_BEETLE_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_SPAWN_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    spawnUnit: STR_GIANT_BEETLE_BOMBARDIER_TERRORIST
+    spawnUnitFaction: 1
+    bigSprite: 0
+    battleType: 4
+    invWidth: 0
+    invHeight: 0
+    recover: false  	
+

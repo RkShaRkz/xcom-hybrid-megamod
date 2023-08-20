@@ -1,0 +1,155 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_OF_APOCALYPSE_PRISON_BREAK: "Bandit Jail Rescue"
+      STR_ALERT_CULT_OF_APOCALYPSE_PRISON_BREAK: "Bandit Jail Rescue"
+      STR_CULT_OF_APOCALYPSE_PRISON_BREAK_BRIEFING: "The Merc Guild has got a tip that the bandits has capture some locals and they have imprison them for a ransom. Wipe them out and try to save the local if you can."
+      STR_CULT_OF_APOCALYPSE_PRISON_BREAK_DESCRIPTION: "The Merc Guild has got a tip that the bandits has capture some locals and they have imprison them for a ransom. Wipe them out and try to save the local if you can."
+alienDeployments:
+  - type: STR_CULT_OF_APOCALYPSE_PRISON_BREAK
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_CULT_OF_APOCALYPSE_PRISON_BREAK
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_OF_APOCALYPSE_PRISON_BREAK_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_CULT_OF_APOCALYPSE_PRISON_BREAK_DESCRIPTION	  
+    music:
+      - GMTACTIC
+    markerName: STR_CULT_OF_APOCALYPSE_PRISON_BREAK
+    duration: [72, 144]
+    despawnPenalty: 350
+    script: PRISONMISSION
+    data:
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 4
+        highQty: 9
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 5
+        highQty: 11
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CULT_OF_APOCALYPSE_PRISON_BREAK
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10
+    waves:
+      - ufo: STR_CULT_OF_APOCALYPSE_PRISON_BREAK
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:
+  - type: PRISONMISSION
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      size: [1,1,1]
+      executionChances: 100
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,1]
+        terrain: SMALLRRISONFORTNEUTRAL		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	
+terrains:
+  - name: SMALLRRISONFORTNEUTRAL
+    mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - XBASE1
+    mapBlocks:
+      - name: SMALLPRISON
+        width: 10
+        length: 10		  
+missionScripts:
+  - type: cultOfApocalypsePrisonBreak
+    firstMonth: 21
+    executionOdds: 4
+    missionWeights:
+      0:
+        STR_CULT_OF_APOCALYPSE_PRISON_BREAK: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

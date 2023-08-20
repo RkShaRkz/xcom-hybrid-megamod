@@ -1,0 +1,997 @@
+alienDeployments:
+  - type: STR_SURVEY_SHIP
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_ESCORT
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+    width: 50
+    length: 50
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_CRUISER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_VIBRO_BLADE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_HEAVY_CRUISER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_HE_BOMB
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_HUNTER
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_BATTLESHIPTFTD 
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_DREADNOUGHT
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_FLEET_SUPPLY_CRUISER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 7
+        dQty: 6
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+            - STR_CANNON_POWER_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+          -
+            - STR_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_SONIC_BLASTA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+    width: 60
+    length: 60
+    height: 4
+    briefing:
+      palette: 4
+      music: GMISPOSH

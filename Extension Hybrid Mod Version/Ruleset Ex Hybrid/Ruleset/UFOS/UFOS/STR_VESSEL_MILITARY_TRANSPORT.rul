@@ -1,0 +1,136 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_MILITARY_TRANSPORT: V-88G Military Transport
+      STR_VESSEL_MILITARY_TRANSPORT_UFOPEDIA: "This ship is used by the commercial sector to transport goods and other valuable materiel. Don't expect to find anything really extravagant onboard  though, but still, it makes a good target"  
+ufopaedia:
+  - id: STR_VESSEL_MILITARY_TRANSPORT
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_MILITARY_TRANSPORT
+    text: STR_VESSEL_MILITARY_TRANSPORT_UFOPEDIA
+research:
+  - name: STR_VESSEL_MILITARY_TRANSPORT
+    points: 50
+    cost: 180
+    needItem: true		
+    lookup: STR_VESSEL_MILITARY_TRANSPORT
+ufos:
+  - type: STR_VESSEL_MILITARY_TRANSPORT
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionMilitaryTransport
+    hitBonus: 20
+    damageMax: 85
+    speedMax: 1400
+    accel: 1
+    range: 40
+    power: 35
+    reload: 27
+    score: 500
+    breakOffTime: 1000
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VSNAKE
+      mapDataSets:
+        - BLANKS
+        - C_INT_XCOM
+        - C_EXT_WALL
+        - C_EXT_ROOF
+        - C_EXT_ENGINE_E
+        - C_EXT_ENGINE_S
+        - C_EXT_NOSE
+        - C_EXT_NOSE_BUMPER
+        - C_EXT_NOSE_BUMPLESS
+        - C_EXT_NOSE_SIDE
+        - DOORSSEC
+        - C_EXT_GLASSWALL
+        - LIFTER
+        - C_INT_ENGINE_E
+        - PLANEENGINE1		
+      mapBlocks:
+        - name: VSNAKE
+          width: 10
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_MILITARY_TRANSPORT
+    unlockedResearch: STR_VESSEL_MILITARY_TRANSPORT
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_MILITARY_TRANSPORT_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_MILITARY_TRANSPORT  
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

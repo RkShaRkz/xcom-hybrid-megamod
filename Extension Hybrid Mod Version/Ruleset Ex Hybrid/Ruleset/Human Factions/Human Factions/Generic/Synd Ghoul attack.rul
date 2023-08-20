@@ -1,0 +1,167 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OUTPOST_OF_NEW: "Hostile Faction Fort"
+      STR_OUTPOST_OF_NEW_DESCRIPTION: "A Hostile faction fort has recently been built in this area. Its fortified position is causing of concern to some of its enemy factions. Those enemy factions has pay us, The Mercenary guild has some handsome money to shut it down. We need a reputable unit to destroy all enemy hostiles."
+      STR_OUTPOST_OF_NEW_BRIEFING: "A Hostile faction fort has recently been built in this area. Its fortified position is causing of concern to some of its enemy factions. Those enemy factions has pay us, The Mercenary guild has some handsome money to shut it down. We need a reputable unit to destroy all enemy hostiles."
+alienDeployments:
+  - type: STR_OUTPOST_OF_NEW
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED 
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	   
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_OUTPOST_OF_APOCALYPSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_OUTPOST_OF_NEW_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_OUTPOST_OF_NEW_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_OUTPOST_OF_NEW
+    duration: [72, 144]
+    despawnPenalty: 70
+    customUfo: STR_KEEP
+    script: GENERALFORTATTACK
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 8
+        highQty: 16
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 9
+        dQty: 6
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 6
+        highQty: 11
+        dQty: 6
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 5
+        highQty: 8
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 6
+        highQty: 14
+        dQty: 5
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 6
+        highQty: 12
+        dQty: 10
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 6
+        highQty: 12
+        dQty: 7
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: GENERALFORTATTACK
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: SLUMURBAN	  
+    - type: fillArea
+      terrain: SLUMURBAN				
+alienMissions:
+  - type: STR_OUTPOST_OF_NEW
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MAGMA_MERCS: 10
+          STR_GOVT: 10
+          STR_SMUGGLER: 10
+          STR_UAC: 10
+          STR_SPARTANS: 10
+          STR_RAIDER: 10			  
+          STR_BANDIT: 10
+          STR_MARSEC: 10
+          STR_SYNDICATE: 10
+          STR_NAZIS_TERROR: 10
+    waves:
+      - ufo: STR_OUTPOST_OF_NEW
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: outpostOfApocalypseDesertLate
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_OUTPOST_OF_NEW: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

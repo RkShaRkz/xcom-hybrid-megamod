@@ -1,0 +1,116 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALERT_BLACK_LOTUS_SHRINE: "Gang Hideout"
+      STR_BLACK_LOTUS_SHRINEXP1: "Gang Hideout"
+      STR_BLACK_LOTUS_SHRINE_DESCRIPTION: "Some Gang has a secret hidout in this slum part of the cities. Hit and raid of this hideout for information. The Merc Guild will pay us good money for any captive or information found."
+      STR_BLACK_LOTUS_SHRINE_BRIEFING: "Some Gang has a secret hidout in this slum part of the cities. Hit and raid of this hideout for information. The Merc Guild will pay us good money for any captive or information found."
+      STR_BLACK_LOTUS_SHRINE_EXPLORED: "Some Gang explored."
+alienDeployments:
+  - type: STR_BLACK_LOTUS_SHRINEXP1
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	     
+    width: 100
+    length: 100
+    height: 16
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_BLACK_LOTUS_SHRINE_BRIEFING	  
+    alert: STR_ALERT_BLACK_LOTUS_SHRINE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_BLACK_LOTUS_SHRINE_DESCRIPTION
+    markerName: STR_BLACK_LOTUS_SHRINE
+    duration: [40, 80]
+    despawnPenalty: 10
+    music:
+      - GMTACTIC
+    customUfo: STR_DIABLOHOUSE
+    script: SLUMCITYDIABLO	
+    data:
+      - alienRank: 4
+        lowQty: 20
+        highQty: 30
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_BLACK_LOTUS_SHRINE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+    waves:
+      - ufo: STR_BLACK_LOTUS_SHRINEXP1
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+mapScripts:			
+  - type: SLUMCITYDIABLO
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_DIABLOHOUSE
+      terrain: URBAN
+      groups: 1
+    - type: fillArea
+      terrain: URBAN	
+ufos:
+  - type: STR_DIABLOHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10			
+missionScripts:
+  - type: blackLotusShrine
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_BLACK_LOTUS_SHRINE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

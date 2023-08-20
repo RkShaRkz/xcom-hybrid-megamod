@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - CS Jan
+  - CS Andrzej
+  - CS Piotr
+  - CS Krzysztof
+  - CS Stanislaw
+  - CS Tomasz
+  - CS Pawel
+  - CS Jozef
+  - CS Marcin
+  - CS Marek
+  - CS Michal
+  - CS Grzegorz
+  - CS Jerzy
+  - CS Tadeusz
+  - CS Adam
+  - CS Lukasz
+  - CS Zbigniew
+  - CS Ryszard
+  - CS Dariusz
+  - CS Henryk
+  - CS Mariusz
+  - CS Kazimierz
+  - CS Wojciech
+  - CS Robert
+  - CS Mateusz
+  - CS Marian
+  - CS Rafal
+  - CS Jacek
+  - CS Janusz
+  - CS Miroslaw  
+femaleFirst:
+  - CS Anna
+  - CS Maria
+  - CS Katarzyna
+  - CS Malgorzata
+  - CS Agnieszka
+  - CS Krystyna
+  - CS Barbara
+  - CS Ewa
+  - CS Elzbieta
+  - CS Zofia
+  - CS Janina
+  - CS Teresa
+  - CS Joanna
+  - CS Magdalena
+  - CS Monika
+  - CS Jadwiga
+  - CS Danuta
+  - CS Irena
+  - CS Halina
+  - CS Helena
+  - CS Beata
+  - CS Aleksandra
+  - CS Marta
+  - CS Dorota
+  - CS Marianna
+  - CS Grazyna
+  - CS Jolanta
+  - CS Stanislawa
+  - CS Iwona
+  - CS Karolina
+maleLast:
+  - Nowak
+  - Kowalski
+  - Wisniewski
+  - Dabrowski
+  - Lewandowski
+  - Wojcik
+  - Kaminski
+  - Kowalczyk
+  - Zielinski
+  - Szymanski
+  - Wozniak
+  - Kozlowski
+  - Jankowski
+  - Wojciechowski
+  - Kwiatkowski
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowski
+  - Grabowski
+  - Nowakowski
+  - Pawlowski
+  - Michalski
+  - Nowicki
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonski
+  - Krol
+femaleLast:
+  - Nowak
+  - Kowalska
+  - Wisniewska
+  - Dabrowska
+  - Lewandowska
+  - Wojcik
+  - Kaminska
+  - Kowalczyk
+  - Zielinska
+  - Szymanska
+  - Wozniak
+  - Kozlowska
+  - Jankowska
+  - Wojciechowska
+  - Kwiatkowska
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowska
+  - Grabowska
+  - Nowakowska
+  - Pawlowska
+  - Michalska
+  - Nowicka
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonska
+  - Krol

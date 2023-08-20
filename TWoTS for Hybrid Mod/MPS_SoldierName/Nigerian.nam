@@ -1,0 +1,410 @@
+lookWeight:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - MPS Abassi
+  - MPS Abayomi
+  - MPS Abejide
+  - MPS Abiodun
+  - MPS Abiola
+  - MPS Adebayo
+  - MPS Adejola
+  - MPS Adisa
+  - MPS Adunbi
+  - MPS Ajala
+  - MPS Ajani
+  - MPS Akanni
+  - MPS Akin
+  - MPS Akinlabi
+  - MPS Akinlana
+  - MPS Akins
+  - MPS Akono
+  - MPS Amadi
+  - MPS Aniweta
+  - MPS Apara
+  - MPS Ayodele
+  - MPS Azagba
+  - MPS Babafemi
+  - MPS Bem
+  - MPS Boseda
+  - MPS Chidike
+  - MPS Chijioke
+  - MPS Chike
+  - MPS Chukwuma
+  - MPS Dada
+  - MPS David
+  - MPS Dumaka
+  - MPS Ehioze
+  - MPS Ekundayo
+  - MPS Emeka
+  - MPS Emmanuel
+  - MPS Ewansiha
+  - MPS Ezekiel
+  - MPS Fasina
+  - MPS Gowo
+  - MPS Idowu
+  - MPS Imarogbe
+  - MPS Isah
+  - MPS Iyapo
+  - MPS Jaja
+  - MPS Jumoke
+  - MPS Kayode
+  - MPS Kehinde
+  - MPS Kosoko
+  - MPS Kwame
+  - MPS Madu
+  - MPS Mazi
+  - MPS Modupe
+  - MPS Morihinze
+  - MPS Moses
+  - MPS Ndulu
+  - MPS Ngozi
+  - MPS Nosakhere
+  - MPS Nwabudike
+  - MPS Obasi
+  - MPS Obataiye
+  - MPS Obayana
+  - MPS Obi
+  - MPS Obike
+  - MPS Ode
+  - MPS Odion
+  - MPS Ogbonna
+  - MPS Okechuku
+  - MPS Okpara
+  - MPS Oladele
+  - MPS Olafemi
+  - MPS Olaniyan
+  - MPS Olawale
+  - MPS Olawutobi
+  - MPS Olubayo
+  - MPS Olufemi
+  - MPS Olugbala
+  - MPS Olujimi
+  - MPS Olumide
+  - MPS Olumiji
+  - MPS Olushola
+  - MPS Oluwa
+  - MPS Oluwaseyi
+  - MPS Oluyemi
+  - MPS Omolara
+  - MPS Omorede
+  - MPS Onuwachi
+  - MPS Opeyemi
+  - MPS Osahar
+  - MPS Osakwe
+  - MPS Osayaba
+  - MPS Osayande
+  - MPS Osayimwese
+  - MPS Osaze
+  - MPS Samuel
+  - MPS Stanley
+  - MPS Sunday
+  - MPS Taiwo
+  - MPS Tobi
+  - MPS Echechi
+  - MPS Uzoma
+  - MPS Weke
+  - MPS Worie
+femaleFirst:
+  - MPS Abagbe
+  - MPS Abagebe
+  - MPS Abayomi
+  - MPS Abebi
+  - MPS Abegbe
+  - MPS Abeje
+  - MPS Abeke
+  - MPS Abena
+  - MPS Abeo
+  - MPS Abidemi
+  - MPS Abimbola
+  - MPS Abiona
+  - MPS Abisola
+  - MPS Adamma
+  - MPS Adanna
+  - MPS Adanya
+  - MPS Adebola
+  - MPS Adebomi
+  - MPS Adedagbo
+  - MPS Adedewe
+  - MPS Adedoja
+  - MPS Adeleke
+  - MPS Adenrele
+  - MPS Adeola
+  - MPS Aderinola
+  - MPS Adesimbo
+  - MPS Adesina
+  - MPS Adeyemi
+  - MPS Adio
+  - MPS Adjoa
+  - MPS Aduke
+  - MPS Aina
+  - MPS Aiyetoro
+  - MPS Ajala
+  - MPS Ajani
+  - MPS Akanke
+  - MPS Alaba
+  - MPS Alke
+  - MPS Ama
+  - MPS Amonke
+  - MPS Annakiya
+  - MPS Anuli
+  - MPS Arria
+  - MPS Asabi
+  - MPS Auta
+  - MPS Ayo
+  - MPS Ayobami
+  - MPS Ayobunmi
+  - MPS Ayodele
+  - MPS Ayofemi
+  - MPS Ayoka
+  - MPS Ayoluwa
+  - MPS Ayomide
+  - MPS Ayoola
+  - MPS Azalee
+  - MPS Baderinwa
+  - MPS Baina
+  - MPS Bayo
+  - MPS Becca
+  - MPS Bekide
+  - MPS Binah
+  - MPS Bolade
+  - MPS Bolanile
+  - MPS Bunmi
+  - MPS Chidimma
+  - MPS Chika
+  - MPS Chinonso
+  - MPS Chinue
+  - MPS Chioma
+  - MPS Chisom
+  - MPS Chizoba
+  - MPS Cynthia
+  - MPS Dada
+  - MPS Danuwa
+  - MPS Daurama
+  - MPS Dayo
+  - MPS Dubaku
+  - MPS Dumaka
+  - MPS Ebele
+  - MPS Ebun
+  - MPS Edenausegbo
+  - MPS Ehizemen
+  - MPS Ekaghogho
+  - MPS Exenesenarh
+  - MPS Enomwoyi
+  - MPS Esosa
+  - MPS Etinosa
+  - MPS Fabayo
+  - MPS Faraa
+  - MPS Farih
+  - MPS Fayola
+  - MPS Fayolla
+  - MPS Femi
+  - MPS Fola
+  - MPS Folade
+  - MPS Folami
+  - MPS Folashade
+  - MPS Dolayan
+  - MPS Foluke
+  - MPS Gimbya
+  - MPS Hanna
+  - MPS Hasana
+  - MPS Hazika
+  - MPS Hembadoon
+  - MPS Idowu
+  - MPS Ifama
+  - MPS Ife
+  - MPS Ifetayo
+  - MPS Ige
+  - MPS Ijaba
+  - MPS Ikuseghan
+  - MPS Innya
+  - MPS Irawagbon
+  - MPS Isoke
+  - MPS Iverem
+  - MPS Iyabo
+  - MPS Izegbe
+  - MPS Joy
+  - MPS Jumoke
+  - MPS Kehinde
+  - MPS Kinah
+  - MPS Kiziah
+  - MPS Kokumo
+  - MPS Limber
+  - MPS Lina
+  - MPS Lisha
+  - MPS Marjorie
+  - MPS Mbafor
+  - MPS Mbeke
+  - MPS Mhonum
+  - MPS Monifa
+  - MPS Morayo
+  - MPS Natashenka
+  - MPS Ngozi
+  - MPS Nkiruka
+  - MPS Nneka
+  - MPS Nnenaya
+  - MPS Nnenia
+  - MPS Nsia
+  - MPS Nourbese
+  - MPS Nwakaeo
+  - MPS Obioma
+  - MPS Ode
+  - MPS Ofure
+  - MPS Olabunmi
+  - MPS Olaniyi
+  - MPS Olateju
+  - MPS Olayinka
+  - MPS Olubayo
+  - MPS Olubunmi
+  - MPS Olufemi
+  - MPS Olufunke
+  - MPS Olufunmilayo
+  - MPS Oluremi
+  - MPS Omalara
+  - MPS Omolara
+  - MPS Omorenoniwara
+  - MPS Omorose
+  - MPS Omosede
+  - MPS Omosupe
+  - MPS omusupe
+  - MPS Oni
+  - MPS Onyeka
+  - MPS Osayioniwabo
+  - MPS Osemweoyenmwen
+  - MPS Oseye
+  - MPS Sade
+  - MPS Shade
+  - MPS Shiminege
+  - MPS Tanisha
+  - MPS Thema
+  - MPS Theresa
+  - MPS Titilayo
+  - MPS Tobi
+  - MPS Uchefuna
+  - MPS Urbi
+  - MPS Yahimba
+  - MPS Yejide
+  - MPS Yetunde
+  - MPS Yewande
+  - MPS Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

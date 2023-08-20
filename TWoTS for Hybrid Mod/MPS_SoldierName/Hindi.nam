@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - MPS Abhijay
+  - MPS Adil
+  - MPS Chandresh
+  - MPS Dev
+  - MPS Dinesh
+  - MPS Govinda
+  - MPS Jaideep
+  - MPS Kanak
+  - MPS Mahesh
+  - MPS Neelam
+  - MPS Om
+  - MPS Pallav
+  - MPS Parmesh
+  - MPS Rajesh
+  - MPS Ranjit
+  - MPS Samir
+  - MPS Sanjiv
+  - MPS Sudeep
+  - MPS Vihaan
+  - MPS Yogendra
+  - MPS Sachin
+  - MPS Rahul
+  - MPS Anil
+  - MPS Virender
+  - MPS Kapil
+  - MPS Sourav
+  - MPS Harbhajan
+femaleFirst:
+  - MPS Ajita
+  - MPS Amma
+  - MPS Avinashi
+  - MPS Deepti
+  - MPS Gulab
+  - MPS Hina
+  - MPS Indira
+  - MPS Jasweer
+  - MPS Kalinda
+  - MPS Keva
+  - MPS Madhuri
+  - MPS Meera
+  - MPS Neela
+  - MPS Parvati
+  - MPS Priti
+  - MPS Ranhita
+  - MPS Roshan
+  - MPS Savitri
+  - MPS Sitesh
+  - MPS Ushma
+  - MPS Vritika
+  - MPS Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

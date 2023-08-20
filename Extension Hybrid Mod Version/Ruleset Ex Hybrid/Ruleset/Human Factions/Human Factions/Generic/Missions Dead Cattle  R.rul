@@ -1,0 +1,92 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DEAD_CATTLE: "Cattle Mutilation"
+      STR_DEAD_CATTLE_DESCRIPTION: "The Mercenary guild has reports of cattle mutilation in the region and some goverment faction is requiring a qualified mercenary unit to investigate and report of their finding. Any hostile unit or creature causing the mutilation must be pacified. Good money will be paid upon the completion of the investigation."
+      STR_DEAD_CATTLE_BRIEFING: "The Mercenary guild has reports of cattle mutilation in the region and some goverment faction is requiring a qualified mercenary unit to investigate and report of their finding. Any hostile unit or creature causing the mutilation must be pacified. Good money will be paid upon the completion of the investigation."
+      STR_ALERT_DEAD_CATTLE: "CATTLE MUTILATION REPORTED"
+alienDeployments:
+  - type: STR_DEAD_CATTLE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL  
+    width: 40
+    length: 40
+    height: 16
+    alert: STR_ALERT_DEAD_CATTLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DEAD_CATTLE_DESCRIPTION
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_DEAD_CATTLE_BRIEFING  
+    markerName: STR_DEAD_CATTLE
+    duration: [80, 104]
+    despawnPenalty: 50
+    customUfo: STR_DEAD_COW
+    music:
+      - GMTACTIC
+    terrains:
+      - CULTA
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []			
+alienMissions:
+  - type: STR_DEAD_CATTLE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_FENRIR: 7
+          STR_SPIKEBOAR: 7
+          STR_GIANT_BEETLE: 7	  
+          STR_MONGORN: 7
+          STR_POSTAL: 7
+          STR_OWLMAN: 6
+          STR_CHUPACABRA: 7		  
+          STR_LEAGUE: 7
+          STR_GIANT_RAT: 7
+          STR_BULLFROG: 7
+          STR_MEGASCORPION: 7  
+          STR_WERECAT: 6
+          STR_MUCKSTAR: 6
+          STR_GIANT_SPIDER: 6
+          STR_CIVILIANZ_1: 6	  
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: deadCattle
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_DEAD_CATTLE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 5
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

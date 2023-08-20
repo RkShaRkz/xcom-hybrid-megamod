@@ -1,0 +1,178 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_NEWMUTANTBASESCOUT: New Mutant Base Scouting
+      STR_MARKER_TABERNA_DEL_DIABLO: New Mutant Base Scouting
+      STR_ALERT_TABERNA_DEL_DIABLO: New Mutant Base Scouting
+      STR_LOC_TABERNA_DEL_DIABLO_BRIEFING: "The Mercenary guild are looking for a new base for a client and we have a requested of your unit to check out of this former abandon base that the client is interested in. The client will pay good money for the mission's completion."     
+alienDeployments:
+  - type: STR_NEWMUTANTBASESCOUT
+    alert: STR_ALERT_TABERNA_DEL_DIABLO
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertDescription: STR_LOC_TABERNA_DEL_DIABLO_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 1
+      music: GMENBASE  
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_TABERNA_DEL_DIABLO   
+      desc: STR_LOC_TABERNA_DEL_DIABLO_BRIEFING
+    markerName: STR_MARKER_TABERNA_DEL_DIABLO
+    duration: [100, 200]
+    despawnPenalty: 0
+    music:
+      - GMTACTIC	
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 70
+    length: 70
+    height: 9
+    script: MUTANTVILLAGEDIABLO
+    data:
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 14
+        highQty: 24
+        dQty: 8
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+mapScripts:
+  - type: MUTANTVILLAGEDIABLO
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: [2,2,3]
+      executions: 1 
+      executionChances: 100 
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1		 	
+      - type: middle
+        size: [2,2,3]
+        terrain: SMALLMUTANTCAMPFINALEVAC
+    - type: fillArea
+      terrain: globeTerrain
+terrains:
+  - name: SMALLMUTANTCAMPFINALEVAC
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - VILLAGE
+      - PRIMITIVEFRNITURE	  
+    mapBlocks:
+      - name: MUTANTCAMPSMALL0
+        width: 20
+        length: 20	  
+alienMissions:
+  - type: STR_LOC_TABERNA_DEL_DIABLO
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	   
+    waves:
+      - ufo: STR_NEWMUTANTBASESCOUT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: AdventureLandMed
+    firstMonth: 2  
+    missionWeights:
+      0:
+        STR_LOC_TABERNA_DEL_DIABLO: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    firstMonth: 11
+    executionOdds: 24
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

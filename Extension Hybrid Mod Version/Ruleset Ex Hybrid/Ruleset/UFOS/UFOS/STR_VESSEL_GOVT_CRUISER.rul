@@ -1,0 +1,202 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_GOVT_CRUISER: SkyMotors Assault Fortress
+      STR_VESSEL_GOVT_CRUISER_UFOPEDIA: "This is the most advance mobile aerial assault fortress used by powerful factions, heavily armed and armoured. This battleship is used to project of the faction's power around the world. If one is coming your way, be wary."
+ufopaedia:
+  - id: STR_VESSEL_GOVT_CRUISER
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_GOVT_CRUISER
+    text: STR_VESSEL_GOVT_CRUISER_UFOPEDIA
+research:
+  - name: STR_VESSEL_GOVT_CRUISER
+    points: 50
+    cost: 180	
+    needItem: true
+    lookup: STR_VESSEL_GOVT_CRUISER
+ufos:
+  - type: STR_VESSEL_GOVT_CRUISER
+    size: STR_LARGE
+    modSprite: InterceptionGovCruiser
+    hitBonus: 35
+    fireSound: 43
+    damageMax: 760
+    speedMax: 1250
+    accel: 2
+    range: 60
+    power: 160
+    reload: 31
+    armor: 30
+    radarRange: 850	
+    power: 400
+    range: 60
+    score: 50
+    reload: 72	
+    fireSound: 305
+    breakOffTime: 100
+    huntBehavior: 0	
+    huntMode: 2
+    huntSpeed: 50	
+    hunterKillerPercentage: 20	
+    breakOffTime: 100
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0		
+    battlescapeTerrainData:
+      name: VES_G_010a
+      mapDataSets:
+        - BLANKS
+        - XBASE1_AMB
+        - RET_SHIPS
+        - PLANE6		
+      mapBlocks:
+        - name: VES_G_010a
+          width: 30
+          length: 30		
+alienDeployments:
+  - type: STR_VESSEL_GOVT_CRUISER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_GOVT_CRUISER
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_GOVT_CRUISER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_GOVT_CRUISER	
+    depth: [1, 1]	
+    width: 60
+    length: 60
+    height: 117
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

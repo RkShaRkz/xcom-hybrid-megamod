@@ -1,0 +1,240 @@
+lookWeights:
+  - 0
+  - 0
+  - 100
+  - 0
+maleFirst:
+  - CS Do-hyun
+  - CS Dong-hyun
+  - CS Hyun-jun
+  - CS Hyun-woo
+  - CS Ji-hoon
+  - CS Ji-hu
+  - CS Jun-seo
+  - CS Jun-young
+  - CS Joon-ho
+  - CS Kun-woo
+  - CS Min-jae
+  - CS Min-jun
+  - CS Min-kyu
+  - CS Seung-hyun
+  - CS Sung-hyun
+  - CS Sung-min
+  - CS Woo-jin
+  - CS Ye-jun
+femaleFirst:
+  - CS Eun-ji
+  - CS Ha-eun
+  - CS Hye-jin
+  - CS Ji-hye
+  - CS Ji-hyun
+  - CS Ji-eun
+  - CS Ji-min
+  - CS Ji-young
+  - CS Ji-woo
+  - CS Min-ji
+  - CS Min-seo
+  - CS Seo-hyeon
+  - CS Seo-yeon
+  - CS Seo-yun
+  - CS Seul-ki
+  - CS Soo-jin
+  - CS Su-bin
+  - CS Ye-eun
+  - CS Yu-jin
+  - CS Yun-seo
+maleLast:
+  - A
+  - An
+  - Ae
+  - Bak
+  - Ban
+  - Bang
+  - Bae
+  - Baek
+  - Beom
+  - Byeon
+  - Bok
+  - Bong
+  - Bu
+  - Bi
+  - Bin
+  - Bing
+  - Cha
+  - Chang
+  - Chae
+  - Cheon
+  - Cho
+  - Choe
+  - Chu
+  - Dae
+  - Dan
+  - Dam
+  - Dang
+  - Do
+  - Dokgo
+  - Don
+  - Dong
+  - Dongbang
+  - Du
+  - Eo
+  - Eogeum
+  - Eom
+  - Eun
+  - Eum
+  - Ga
+  - Gae
+  - Gan
+  - Gal
+  - Gam
+  - Gang
+  - Gangjeon
+  - Gyeon
+  - Gyeong
+  - Gye
+  - Go
+  - Gok
+  - Gong
+  - Gwak
+  - Gyo
+  - Gu
+  - Guk
+  - Gun
+  - Gung
+  - Gwok
+  - Gwon
+  - Geun
+  - Geum
+  - Gi
+  - Gil
+  - Gim
+  - Ha
+  - Hak
+  - Han
+  - Ham
+  - Hae
+  - Heo
+  - Hyeon
+  - Hyeong
+  - Ho
+  - Hong
+  - Hwa
+  - Hwan
+  - Hwang
+  - Hwangbo
+  - Hu
+  - Heung
+  - I
+  - In
+  - Im
+  - Ja
+  - Jang
+  - Janggok
+  - Jeo
+  - Jeon
+  - Jeom
+  - Jeong
+  - Je
+  - Jegal
+  - Jo
+  - Jong
+  - Jwa
+  - Ju
+  - Jun
+  - Jeup
+  - Jeung
+  - Ji
+  - Jin
+  - Ma
+  - Mae
+  - Maeng
+  - Man
+  - Mangjeol
+  - Myeong
+  - Mo
+  - Moj
+  - Myo
+  - Muk
+  - Mun
+  - Mi
+  - Min
+  - Na
+  - Nae
+  - Nan
+  - Nam
+  - Namgung
+  - Nang
+  - No
+  - Noe
+  - Nu
+  - O
+  - Ok
+  - On
+  - Ong
+  - Pan
+  - Paeng
+  - Pyeon
+  - Pyeong
+  - Po
+  - Pyo
+  - Pung
+  - Pi
+  - Pil
+  - Ra
+  - Ran
+  - Rang
+  - Ri
+  - Rim
+  - Ro
+  - Roe
+  - Ru
+  - Ryeo
+  - Ryeon
+  - Ryeom
+  - Ryong
+  - Ryu
+  - Ryuk
+  - Sa
+  - Sagong
+  - Sam
+  - Sang
+  - Seo
+  - Seomun
+  - Seok
+  - Seon
+  - Seonu
+  - Seol
+  - Seop
+  - Seong
+  - So
+  - Sobong
+  - Son
+  - Song
+  - Su
+  - Sun
+  - Seung
+  - Si
+  - Sin
+  - Sim
+  - Sip
+  - Tak
+  - Tan
+  - Tae
+  - U
+  - Un
+  - Wang
+  - Won
+  - Wi
+  - Ya
+  - Yang
+  - Ye
+  - Yeo
+  - Yeon
+  - Yeom
+  - Yeop
+  - Yeong
+  - Yo
+  - Yong
+  - Yu
+  - Yuk
+  - Yun

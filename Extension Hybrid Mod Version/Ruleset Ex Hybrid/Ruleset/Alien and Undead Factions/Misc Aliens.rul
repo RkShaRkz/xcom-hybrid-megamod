@@ -1,0 +1,1511 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GILLDOG_TERRORIST: "Aquadogs"
+      STR_GILLDOG_TERRORIST_UFOPEDIA: "This wierd creature is clearly a genetic construct, half dog-like, with scale like skin and can breath on land and sea with its gill. It has a powerful set of jaws that can do a lot of damage with its powerful canine. AS to whom has created this creature, the only candidate is the Synedrion. As usual, due to lax security, it has must have escape from some Synedrion facility and started breeding in the wild."	  
+      STR_GILLDOG_AUTOPSY: "Aquadogs Autopsy"	
+      STR_GILLDOG_CORPSE: "Aquadogs Corpse"	  
+      STR_GILLDOG_CORPSE_UFOPEDIA: "This creature is really mess up. It is once a dog, well genetically, but it has gone through heavy modification like having fish like scale, lungs and among other aquatic adaptation to make this creature able to live on land and sea. The only thing distinctive of this creature is its set of jaws, unmistakably belong to those of a dog. "
+      STR_JANISSARY_TERRORIST: "Deep One"
+      STR_JANISSARY_TERRORIST_UFOPEDIA: "The Deep One is a biological nightmare, a cross breed, produced by the mind warping experiments of the New Underwater Aliens. We have encountered several variations of this creature. After extensive research we conclude that these are manufactured by the invaders. Swelling their ranks when fresh human stock has been captured. Each of these sub-human is armed with an electrical energy discharge powerful enough to kill an aquanaut."	  
+      STR_JANISSARY_AUTOPSY: "Deep One Autopsy"	
+      STR_JANISSARY_CORPSE: "Deep One Corpse"	  
+      STR_JANISSARY_CORPSE_UFOPEDIA: "The creature is a graft of man and alien organism. The human brain is massively altered to accommodate control electronics and the Alien cortex. All vestiges of the human body seem lost save one: the eyes. The surgical graft appears to allow the alien foetus to consume the human host as it grows.The tough skin of the creature appears to be a non-organic, metallic mesh, extremely strong and flexible. The resulting cross breed is strong, fast and utterly under the control of the aliens."  
+      STR_HORROR_TERRORIST: "Horror"
+      STR_HORROR_TERRORIST_UFOPEDIA: "This terrifying creature is definately a biological construct. A true horrifying walking tank, it can weather heavy firepower directed at it with its harden shell. Its nasty fangs and teeth suggest it will devour anything that it come accross, including human."	  
+      STR_HORROR_AUTOPSY: "Horror Autopsy"	
+      STR_HORROR_CORPSE: "Horror Corpse"	  
+      STR_HORROR_CORPSE_UFOPEDIA: "This is a creature made or biologically engineered with the hallmark of Synedrion all over it. It was once a Crab, now it is enlarged and modified into a walking tank. Its shell is a few inches thick, harden to survive even rocket fire. Its teeth and jaw can chew through Titanium. It is a voracious creature that feed on anything."
+      STR_MONGORN_WEAPON: "Mongorn Weapon"
+      STR_OWLMAN_TERRORIST: "Owlman"
+      STR_OWLMAN_TERRORIST_UFOPEDIA: "Those Synedrion freaks has done it again. What happen when you merge an owl with a human? An Owlman, that is what this creature is. It is fuse with human and Owl DNA, with talons and beaks that can punch through steel and superb night eye vision. It is capable of flight and fly fast. This creature is intelligent. Otherwise, it wouldn't have escape from a Synedrion Facility and living life good in the wild."	  
+      STR_OWLMAN_AUTOPSY: "Owlman Autopsy"	
+      STR_OWLMAN_CORPSE: "Owlman Corpse"	  
+      STR_OWLMAN_CORPSE_UFOPEDIA: "This creature is definately a fusion of owl and human. Our autopsy of the corpse discover it has Skeletal feature of both species. The talons and beak of this creature is heavily enhance with advance keratin that's stronger than steel. The muscles from this creature can life a man up in the air and drop him. The only thing vulnerable of it is its feathers. Any fire base weapons will turn it into a flying inferno."	
+      STR_SUPERLASKA_SOLDIER: "Hybrid Infiltrator"
+      STR_SUPERLASKA_SOLDIER_UFOPEDIA: "These females are cloned and 'raised' in remote areas to become special agents. While few of them survive the process due to the Hybrids' harsh selection program, those that do are ready for deployment after just a few years. Due to their prenatal programming, they are born fanatically loyal to the alien cause. They also have formidable combat capabilities."	  
+      STR_SUPERLASKA_AUTOPSY: "Hybrid Infiltrator Autopsy"	
+      STR_SUPERLASKA_CORPSE: "Hybrid Infiltrator Corpse"	  
+      STR_SUPERLASKA_CORPSE_UFOPEDIA: "Hybrid Infiltrator Corpse"
+      STR_OOZE_TERRORIST: "Slimer"
+      STR_OOZE_TERRORIST_UFOPEDIA: "This organic creature is a fusion of many large microbial organism. Doesn't exist naturally, it is something the Synedrion has again cook up. The creature usually can be found in an eviroment that's common with water, like swamp or sewer. It usually mimic the behavior of a moving water, until it creeps up to its unsuspecting victim and wrap of its body around the victims leg. Once it does, it attack the victim's limb or body part with an acidic attack. Similar to those of a spider that liquify its victim's internal organ before drinking it up."	  
+      STR_OOZE_AUTOPSY: "Slimer Autopsy"	
+      STR_OOZE_CORPSE: "Dead Slimer"	  
+      STR_OOZE_CORPSE_UFOPEDIA: "This liquidfied blob is a huge microbial colony, bind together by a mean we have yet to understand how. The creature move like a flowing liquid by secreting a mucus like sticky fluid. The way it devour of its prey, is by it wrapping of itself onto its victim and digest it with an acidic and poisonous secretion."
+      STR_MONGORN_TERRORIST: "PrimeApe"
+      STR_MONGORN_TERRORIST_UFOPEDIA: "The PrimeApe is a creature definately engineered by the Synedrion. It is a towering ape like creature, having very tough skin and strong muscular strength. From the outside it looks like a moving mountain of rock, that because of its craggy harden skin that can weather heavy weapon fire. It is capable of killing a man in one punch and has a voracious appetite."	  
+      STR_MONGORN_AUTOPSY: "PrimeApe Autopsy"	
+      STR_MONGORN_CORPSE: "PrimeApe Corpse"	  
+      STR_MONGORN_CORPSE_UFOPEDIA: "The creature is defintely a genetic creation, with genes mix from Human and primate. Its skin is a harden mass in certain areas of its body, strong enough to weather light weapon fire. Only the joins of this creature is vulnerable and its fur, that is vulnerable to fire base weapons. This creature has a strong skeletal structure and muscles that wraps around of it. Making it very strong, especially at close combat."
+      STR_MONGORN_KING: "PrimeApe King"  	  
+alienRaces:
+  - id: STR_DEEP_ONE
+    members:
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+      - STR_GILLDOG_TERRORIST
+    retaliationAggression: -100	  
+  - id: STR_DEEP_ONE_UNDERWATER
+    members:
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+      - STR_GILLDOG_TERRORIST_UNDERWATER
+    retaliationAggression: -100	  
+  - id: STR_HORROR
+    members:
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+    retaliationAggression: -100
+  - id: STR_HORROR_UNDERWATER
+    members:
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+      - STR_HORROR_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_OOZE
+    members:
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+    retaliationAggression: -100
+  - id: STR_OOZE_UNDERWATER
+    members:
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+      - STR_OOZE_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_MONGORN
+    members:
+      - STR_MONGORN_KING
+      - STR_MONGORN_KING
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+    retaliationAggression: -100
+  - id: STR_MONGORN_UNDERWATER
+    members:
+      - STR_MONGORN_KING
+      - STR_MONGORN_KING
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+      - STR_MONGORN_TERRORIST
+    retaliationAggression: -100
+  - id: STR_OWLMAN
+    members:
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+    retaliationAggression: -100		
+  - id: STR_OWLMAN_UNDERWATER
+    members:
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST
+      - STR_OWLMAN_TERRORIST	
+units:	
+  - type: STR_GILLDOG_TERRORIST
+    race: STR_GILLDOG
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 90
+      stamina: 90
+      health: 60
+      bravery: 100
+      reactions: 60
+      firing: 30
+      throwing: 0
+      strength: 50
+      psiStrength: 30
+      psiSkill: 0
+      melee: 90
+    armor: STR_GILLDOG_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    value: 10
+    aggroSound: 119
+    deathSound: 90
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GILLDOG_WEAPON
+  - type: STR_GILLDOG_TERRORIST_UNDERWATER
+    race: STR_GILLDOG
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 90
+      stamina: 90
+      health: 60
+      bravery: 100
+      reactions: 60
+      firing: 30
+      throwing: 0
+      strength: 50
+      psiStrength: 30
+      psiSkill: 0
+      melee: 90
+    armor: STR_GILLDOG_ARMOR_UNDERWATER
+    standHeight: 12
+    kneelHeight: 12
+    value: 10
+    aggroSound: 119
+    deathSound: 90
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    spotter: 1
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GILLDOG_WEAPON	
+  - type: STR_JANISSARY_TERRORIST
+    race: STR_JANISSARY
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 90
+      reactions: 55
+      firing: 50
+      throwing: 58
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+      #mana: 100
+    armor: STR_JANISSARY_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 8
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    builtInWeaponSets:
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON 		
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON  
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON   
+  - type: STR_JANISSARY_TERRORIST_UNDERWATER
+    race: STR_JANISSARY
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 90
+      reactions: 55
+      firing: 50
+      throwing: 58
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+      #mana: 100
+    armor: STR_JANISSARY_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 8
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    builtInWeaponSets:
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON 		
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON  
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON   		
+  - type: STR_HORROR_TERRORIST
+    race: STR_HORROR
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 80
+      health: 150
+      bravery: 100
+      reactions: 30
+      firing: 50
+      throwing: 0
+      strength: 75
+      psiStrength: 40
+      psiSkill: 0
+      melee: 65
+      #mana: 100
+    armor: STR_HORROR_ARMOR
+    standHeight: 24
+    kneelHeight: 18
+    value: 60
+    deathSound: 74
+    moveSound: 185
+    intelligence: 2
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+        - STR_WERECAT_WEAPON
+    livingWeapon: true
+  - type: STR_OOZE_TERRORIST
+    race: STR_OOZE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 36
+      stamina: 100
+      health: 130
+      bravery: 100
+      reactions: 50
+      firing: 40
+      throwing: 0
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 65
+      #mana: 250
+    armor: STR_OOZE_ARMOR
+    standHeight: 10
+    kneelHeight: 10
+    value: 30
+    aggroSound: 118
+    deathSound: 8
+    moveSound: 47
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_GIANT_SPIDER_QUEEN_WEAPON
+  - type: STR_MONGORN_TERRORIST
+    race: STR_MONGORN
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 66
+      stamina: 70
+      health: 70
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 10
+      psiSkill: 0
+      melee: 50
+    armor: STR_MONGORN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    deathSound: 6
+    intelligence: 2
+    aggression: 3
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_MONGORN_WEAPON
+  - type: STR_MONGORN_KING
+    race: STR_MONGORN
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 72
+      stamina: 110
+      health: 110
+      bravery: 90
+      reactions: 55
+      firing: 64
+      throwing: 60
+      strength: 85
+      psiStrength: 25
+      psiSkill: 0
+      melee: 85
+    armor: STR_MONGORN_KING_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 6
+    intelligence: 3
+    aggression: 7
+    energyRecovery: 35
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_MONGORN_WEAPON
+  - type: STR_OWLMAN_TERRORIST
+    race: STR_OWLMAN
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 105
+      stamina: 90
+      health: 80
+      bravery: 90
+      reactions: 70
+      firing: 35
+      throwing: 40
+      strength: 70
+      psiStrength: 52
+      psiSkill: 0
+      melee: 80
+    armor: STR_OWLMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 16
+    value: 15
+    aggroSound: 190
+    deathSound: 191
+    intelligence: 2
+    aggression: 4
+    energyRecovery: 30
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON		
+  - type: STR_SUPERLASKA_SOLDIER
+    race: STR_CLONE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 65
+      bravery: 90
+      reactions: 55
+      firing: 60
+      throwing: 60
+      strength: 45
+      psiStrength: 25
+      psiSkill: 0
+      melee: 75
+      #mana: 50
+    armor: STR_SUPERLASKA_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [44, 45, 46]
+    intelligence: 2
+    aggression: 2
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:		
+      - - STR_PLASMA_RIFLE
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_ALIEN_GRENADE	  
+items:
+  - type: STR_MONGORN_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 592
+    floorSprite: 31
+    meleeSound: 48
+    meleeHitSound: 109
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    damageAlter:
+      ToTile: 0.3
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: STR_GILLDOG_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 14000
+    weight: 10
+    bigSprite: 323
+    floorSprite: 283
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62580
+    recover: true
+    recoverCorpse: true	
+  - type: STR_GILLDOG_WEAPON
+    categories: [STR_BUILT_INS]
+    weight: 3
+    bigSprite: 742
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    meleeHitSound: 70
+    clipSize: -1
+    power: 0
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ToTile: 0.33
+    accuracyMelee: 80
+    tuMelee: 12
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: STR_GILLDOG_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+   #liveAlien: true
+    prisonType: 2
+    recover: true
+    costSell: 42000
+    listOrder: 115680
+  - type: STR_GILLDOG_TERRORIST_UNDERWATER
+    categories: [STR_BEASTS]
+    size: 0.0
+   #liveAlien: true
+    prisonType: 2
+    recover: true
+    costSell: 42000
+    listOrder: 115680	
+  - type: STR_JANISSARY_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 30000
+    weight: 45
+    bigSprite: 393
+    floorSprite: 338
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 35
+    listOrder: 67210
+  - type: STR_JANISSARY_TERRORIST
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0
+    costSell: 90000
+    listOrder: 144420
+  - type: STR_HORROR_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 90000
+    battleType: 11
+    listOrder: 62660
+  - type: HORROR_CORPSE_1
+    name: STR_HORROR_CORPSE
+    floorSprite: 731
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 7
+  - type: HORROR_CORPSE_2
+    floorSprite: 732
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HORROR_CORPSE_3
+    floorSprite: 733
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HORROR_CORPSE_4
+    floorSprite: 734
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_HORROR_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 250000
+    listOrder: 115750
+  - type: STR_OOZE_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    costSell: 50000
+    listOrder: 115950	
+  - type: STR_OOZE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.7
+    costSell: 20000
+    weight: 9
+    bigSprite: 723
+    floorSprite: 671
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 7
+    battleType: 11
+    armor: 8
+    listOrder: 62700
+  - type: STR_MONGORN_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 30000
+    listOrder: 115550
+  - type: STR_MONGORN_KING
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 50000
+    listOrder: 115555
+  - type: STR_MONGORN_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 9000
+    weight: 46
+    bigSprite: 302
+    floorSprite: 253
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+    listOrder: 62520
+  - type: STR_OWLMAN_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 2
+    costSell: 35000
+    listOrder: 115870
+  - type: STR_OWLMAN_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 38
+    bigSprite: 1029
+    floorSprite: 897
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+    listOrder: 62624	
+  - type: STR_SUPERLASKA_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 6000
+    weight: 27
+    bigSprite: 465
+    floorSprite: 388
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 30
+    listOrder: 62780
+  - type: STR_SUPERLASKA_SOLDIER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 20000
+    listOrder: 150880
+  - type: STR_JANISSARY_TERRORIST_UNDERWATER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0
+    costSell: 90000
+    listOrder: 144420	
+    recoveryTransformations:
+      STR_JANISSARY_TERRORIST: [1] 	
+research:	
+  - name: STR_OOZE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_OOZE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_OOZE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_MONGORN_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_MONGORN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_MONGORN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_MONGORN_KING
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GILLDOG_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GILLDOG_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GILLDOG_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_JANISSARY_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_JANISSARY_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_JANISSARY_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_HORROR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_HORROR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_HORROR_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_OWLMAN_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_OWLMAN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_OWLMAN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SUPERLASKA_SOLDIER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_SUPERLASKA_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SUPERLASKA_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350			
+ufopaedia:
+  - id: STR_OOZE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_OOZE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_OOZE_TERRORIST
+    listOrder: 56600
+  - id: STR_OOZE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_OOZE_CORPSE
+    text: STR_OOZE_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_MONGORN_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MONGORN_TERRORIST_UFOPEDIA
+    requires:
+      - STR_MONGORN_TERRORIST
+    listOrder: 56600
+  - id: STR_MONGORN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MONGORN_CORPSE
+    text: STR_MONGORN_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_MONGORN_KING
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MONGORN_KING_UFOPEDIA
+    requires:
+      - STR_MONGORN_KING
+    listOrder: 56600
+  - id: STR_GILLDOG_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GILLDOG_TERRORIST_UFOPEDIA
+    requires:
+      - STR_GILLDOG_TERRORIST
+    listOrder: 56600
+  - id: STR_GILLDOG_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GILLDOG_CORPSE
+    text: STR_GILLDOG_CORPSE_UFOPEDIA
+    text_width: 153			
+  - id: STR_JANISSARY_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_JANISSARY_TERRORIST_UFOPEDIA
+    requires:
+      - STR_JANISSARY_TERRORIST
+    listOrder: 56600
+  - id: STR_JANISSARY_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_JANISSARY_CORPSE
+    text: STR_JANISSARY_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_HORROR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_HORROR_TERRORIST_UFOPEDIA
+    requires:
+      - STR_HORROR_TERRORIST
+    listOrder: 56600
+  - id: STR_HORROR_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_HORROR_CORPSE
+    text: STR_HORROR_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_OWLMAN_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_OWLMAN_TERRORIST_UFOPEDIA
+    requires:
+      - STR_OWLMAN_TERRORIST
+    listOrder: 56600
+  - id: STR_OWLMAN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_OWLMAN_CORPSE
+    text: STR_OWLMAN_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_SUPERLASKA_SOLDIER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SUPERLASKA_SOLDIER_UFOPEDIA
+    requires:
+      - STR_SUPERLASKA_SOLDIER
+    listOrder: 56600
+  - id: STR_SUPERLASKA_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SUPERLASKA_CORPSE
+    text: STR_SUPERLASKA_CORPSE_UFOPEDIA
+    text_width: 153			
+armors:	
+  - type: STR_GILLDOG_ARMOR
+    spriteSheet: GILLDOG.PCK
+    spriteInv: inventory_GILLDOG
+    allowInv: false
+    corpseBattle:
+      - STR_GILLDOG_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 24
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 4
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &GilldogResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.5
+      - 6.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_GILLDOG_ARMOR_UNDERWATER
+    spriteSheet: GILLDOG.PCK
+    spriteInv: inventory_GILLDOG
+    allowInv: false
+    corpseBattle:
+      - STR_GILLDOG_CORPSE
+    visibilityAtDay: 20
+    visibilityAtDark: 16
+    frontArmor: 24
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 10
+    drawingRoutine: 4
+    stats:
+      tu: -10
+      stamina: -5
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 0.7
+      - 0.5
+      - 0.0
+      - 0.7
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 	  
+    loftempsSet: [ 3 ]
+  - type: STR_JANISSARY_ARMOR
+    spriteSheet: JANISSARY.PCK
+    spriteInv: inventory_JANISSARY
+    allowInv: false
+    corpseBattle:
+      - STR_JANISSARY_CORPSE
+    visibilityAtDark: 20
+    heatVision: 20
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 12
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.6
+      - 0.9
+      - 1.1
+      - 1.0
+      - 1.2
+      - 0.9
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_JANISSARY_WEAPON
+    loftempsSet: [ 3 ]
+  - type: STR_JANISSARY_ARMOR_UNDERWATER
+    spriteSheet: JANISSARY.PCK
+    spriteInv: inventory_JANISSARY
+    allowInv: false
+    corpseBattle:
+      - STR_JANISSARY_CORPSE
+    visibilityAtDark: 20
+    heatVision: 20
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 12
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.6
+      - 0.5
+      - 0.0
+      - 1.0
+      - 1.2
+      - 0.0
+      - 0.0
+      - 1.0 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 	  
+    #specialWeapon: STR_JANISSARY_WEAPON
+    loftempsSet: [ 3 ]	
+  - type: STR_HORROR_ARMOR
+    spriteSheet: HORROR.PCK
+    spriteInv: inventory_HORROR
+    allowInv: false
+    bleedImmune: false
+    corpseBattle:
+      - HORROR_CORPSE_1
+      - HORROR_CORPSE_2
+      - HORROR_CORPSE_3
+      - HORROR_CORPSE_4
+    corpseGeo: STR_HORROR_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 52
+    sideArmor: 46
+    rearArmor: 40
+    underArmor: 24
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.35
+      - 0.35
+      - 0.7
+      - 0.85
+      - 0.2
+      - 0.65
+      - 0.5
+      - 2.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_OOZE_ARMOR
+    spriteSheet: OOZE.PCK
+    spriteInv: inventory_OOZE
+    allowInv: false
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: false
+    corpseBattle:
+      - STR_OOZE_CORPSE
+    psiVision: 15
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 8
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        flatHundred: 0.25
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        flatHundred: 0.03
+    createsMeleeThreat: false
+    overKill: 1.5
+    constantAnimation: true
+    damageModifier:
+      - 1.0
+      - 0.2
+      - 2.5
+      - 1.0
+      - 0.4
+      - 1.0
+      - 0.2
+      - 0.5
+      - 0.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 5 ]
+  - type: STR_MONGORN_ARMOR
+    spriteSheet: MONGORN.PCK
+    spriteInv: inventory_MONGORN
+    allowInv: false
+    corpseBattle:
+      - STR_MONGORN_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 12
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &MongornResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MONGORN_KING_ARMOR
+    spriteSheet: MONGORN_KING.PCK
+    spriteInv: inventory_MONGORN_KING
+    allowInv: false
+    corpseBattle:
+      - STR_MONGORN_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 14
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 14
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 4
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    loftempsSet: [ 3 ]
+  - type: STR_OWLMAN_ARMOR
+    spriteSheet: OWLMAN.PCK
+    spriteInv: inventory_OWLMAN
+    corpseBattle:
+      - STR_OWLMAN_CORPSE
+    visibilityAtDark: 20
+    psiVision: 5
+    heatVision: 100
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    #psiDefence: *StandardDynamicPsiDefence
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.35
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.45
+      - 1.2
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.85
+      - 4.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_SUPERLASKA_ARMOR
+    spriteSheet: SUPERLASKA.PCK
+    spriteInv: inventory_SUPERLASKA
+    corpseBattle:
+      - STR_SUPERLASKA_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    #psiDefence: *StandardDynamicPsiDefence
+    movementType: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]	

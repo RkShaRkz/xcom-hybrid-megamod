@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - CS Abdullah
+  - CS Adem
+  - CS Adil
+  - CS Adnan
+  - CS Ahmet
+  - CS Akif
+  - CS Ali
+  - CS Alp
+  - CS Alper
+  - CS Altan
+  - CS Arda
+  - CS Arif
+  - CS Atilla
+  - CS Aydemir
+  - CS Ayhan
+  - CS Aykut
+  - CS Aziz
+  - CS Baha
+  - CS Bahri
+  - CS Barlas
+  - CS Bedri
+  - CS Bekir
+  - CS Berk
+  - CS Bilal
+  - CS Birol
+  - CS Bora
+  - CS Burak
+  - CS Burhan
+  - CS Cahit
+  - CS Can
+  - CS Caner
+  - CS Cem
+  - CS Cemal
+  - CS Cengiz
+  - CS Cenk
+  - CS Cihan
+  - CS Cumhur
+  - CS Davut
+  - CS Doruk
+  - CS Dursun
+  - CS Efe
+  - CS Ekrem
+  - CS Emin
+  - CS Emrah
+  - CS Emre
+  - CS Engin
+  - CS Enver
+  - CS Erdal
+  - CS Eren
+  - CS Erhan
+  - CS Erkan
+  - CS Erol
+  - CS Ethem
+  - CS Fahri
+  - CS Faruk
+  - CS Fatih
+  - CS Fehmi
+  - CS Ferdi
+  - CS Ferhat
+  - CS Feridun
+  - CS Fikret
+  - CS Furkan
+  - CS Hakan
+  - CS Halil
+  - CS Haluk
+  - CS Hamdi
+  - CS Hamza
+  - CS Harun
+  - CS Hasan
+  - CS Hayri
+  - CS Hikmet
+  - CS Hilmi
+  - CS Kaan
+  - CS Kadir
+  - CS Kemal
+  - CS Kenan
+  - CS Kerem
+  - CS Koray
+  - CS Korhan
+  - CS Levent
+  - CS Mahir
+  - CS Mahmut
+  - CS Mehmet
+  - CS Melih
+  - CS Mert
+  - CS Mete
+  - CS Metin
+  - CS Mithat
+  - CS Muammer
+  - CS Muhammet
+  - CS Muhsin
+  - CS Murat
+  - CS Musa
+  - CS Mustafa
+  - CS Muzaffer
+  - CS Naci
+  - CS Nazmi
+  - CS Necdet
+  - CS Nihat
+  - CS Niyazi
+  - CS Nuri
+  - CS Okan
+  - CS Oktay
+  - CS Onur
+  - CS Orhan
+  - CS Osman
+  - CS Ozan
+  - CS Ramazan
+  - CS Remzi
+  - CS Sabri
+  - CS Salih
+  - CS Sedat
+  - CS Selim
+  - CS Semih
+  - CS Sercan
+  - CS Serdar
+  - CS Serhat
+  - CS Serkan
+  - CS Sinan
+  - CS Soner
+  - CS Taha
+  - CS Tahir
+  - CS Tahsin
+  - CS Taner
+  - CS Tarkan
+  - CS Tayfun
+  - CS Tayyar
+  - CS Temel
+  - CS Teoman
+  - CS Tevfik
+  - CS Timur
+  - CS Tolga
+  - CS Tosun
+  - CS Tuna
+  - CS Tuncay
+  - CS Turan
+  - CS Turgut
+  - CS Ufuk
+  - CS Umut
+  - CS Utku
+  - CS Uzay
+  - CS Vedat
+  - CS Veli
+  - CS Veysel
+  - CS Volkan
+  - CS Vural
+  - CS Yahya
+  - CS Yakup
+  - CS Yasin
+  - CS Yavuz
+  - CS Yusuf
+  - CS Zafer
+  - CS Zeki
+  - CS Zeynel
+  - CS Ziya
+femaleFirst:
+  - CS Adile
+  - CS Alev
+  - CS Arzu
+  - CS Asena
+  - CS Ayda
+  - CS Aydan
+  - CS Ayla
+  - CS Aylin
+  - CS Aysel
+  - CS Aysu
+  - CS Aysun
+  - CS Bahar
+  - CS Bengi
+  - CS Bilge
+  - CS Birsen
+  - CS Burcu
+  - CS Canan
+  - CS Ceren
+  - CS Ceyda
+  - CS Damla
+  - CS Demet
+  - CS Deniz
+  - CS Didem
+  - CS Dilara
+  - CS Duygu
+  - CS Ebru
+  - CS Ece
+  - CS Eda
+  - CS Elif
+  - CS Emel
+  - CS Emine
+  - CS Esra
+  - CS Evrim
+  - CS Eylem
+  - CS Ezgi
+  - CS Fatma
+  - CS Filiz
+  - CS Gamze
+  - CS Gizem
+  - CS Hande
+  - CS Hatice
+  - CS Irmak
+  - CS Jale
+  - CS Lale
+  - CS Leyla
+  - CS Melis
+  - CS Meltem
+  - CS Meral
+  - CS Merve
+  - CS Meryem
+  - CS Nalan
+  - CS Nazan
+  - CS Nesrin
+  - CS Nezihe
+  - CS Nihan
+  - CS Nil
+  - CS Nur
+  - CS Olcay
+  - CS Oya
+  - CS Pervin
+  - CS Rabia
+  - CS Reyhan
+  - CS Sabiha
+  - CS Safiye
+  - CS Sanem
+  - CS Seda
+  - CS Selma
+  - CS Semiha
+  - CS Sevgi
+  - CS Sevil
+  - CS Sevim
+  - CS Sibel
+  - CS Sinem
+  - CS Suna
+  - CS Yaprak
+  - CS Yasemin
+  - CS Yeliz
+  - CS Yonca
+  - CS Zehra
+  - CS Zekiye
+  - CS Zeynep
+maleLast:
+  - Acar
+  - Ak
+  - Akarsu
+  - Akkaya
+  - Aksoy
+  - Akturan
+  - Albayrak
+  - Alkan
+  - Alpsoy
+  - Altay
+  - Altuner
+  - Aras
+  - Arslan
+  - Atakan
+  - Atalay
+  - Atasoy
+  - Atik
+  - Atmaca
+  - Ay
+  - Ayaz
+  - Balaban
+  - Barlas
+  - Batu
+  - Baycan
+  - Bayraktar
+  - Bozkurt
+  - Bulut
+  - Can
+  - Canatan
+  - Cansu
+  - Cesur
+  - Davulcu
+  - Demirci
+  - Dikmen
+  - Doruk
+  - Durak
+  - Durmaz
+  - Dursun
+  - Durukan
+  - Eker
+  - Ekinci
+  - Elvan
+  - Erdem
+  - Eren
+  - Erken
+  - Erkmen
+  - Erkulu
+  - Ersoy
+  - Eser
+  - Gencer
+  - Gezer
+  - Hakyemez
+  - Hamarat
+  - Haznedar
+  - Kahraman
+  - Kalender
+  - Kalyoncu
+  - Kaplan
+  - Kara
+  - Karabulut
+  - Karaca
+  - Karaduman
+  - Karakaya
+  - Karakurt
+  - Karaman
+  - Karatay
+  - Karpuzcu
+  - Kartal
+  - Kavlak
+  - Kavuncu
+  - Kaya
+  - Kayahan
+  - Kayhan
+  - Kaymaz
+  - Kazak
+  - Kazan
+  - Kesen
+  - Keskin
+  - Kocaman
+  - Konuk
+  - Koparan
+  - Korkmaz
+  - Korkusuz
+  - Korkut
+  - Koyuncu
+  - Kozan
+  - Kurt
+  - Kutlu
+  - Kuyumcu
+  - Kuzucu
+  - Mercan
+  - Mutlu
+  - Nurlu
+  - Ocak
+  - Okan
+  - Okuyan
+  - Okyay
+  - Olcay
+  - Oray
+  - Ordu
+  - Pala
+  - Pehlivan
+  - Peker
+  - Polat
+  - Poyraz
+  - Sancaktar
+  - Sayan
+  - Saydam
+  - Sazak
+  - Semerci
+  - Sert
+  - Seymen
+  - Sezer
+  - Solak
+  - Solmaz
+  - Soysal
+  - Sunay
+  - Sungur
+  - Sur
+  - Tahmaz
+  - Tan
+  - Tarhan
+  - Tekcan
+  - Tekin
+  - Tezcan
+  - Tezel
+  - Topal
+  - Toprak
+  - Torun
+  - Tufan
+  - Tuncer
+  - Turna
+  - Ulucan
+  - Ulusoy
+  - Ural
+  - Uslu
+  - Usta
+  - Uyar
+  - Uygun
+  - Uysal
+  - Uzel
+  - Uzuner
+  - Varan
+  - Vardar
+  - Vural
+  - Vurgun
+  - Yalman
+  - Yaman
+  - Yazgan
+  - Yener
+  - Yolcu
+  - Yorulmaz
+  - Yurdakul
+  - Yurtseven
+  - Zeren
+  - Zorlu

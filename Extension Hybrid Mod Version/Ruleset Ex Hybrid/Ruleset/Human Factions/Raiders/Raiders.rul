@@ -1,0 +1,846 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      RAIDER_ARMOR_P1: "Raider Scout Examination"
+      RAIDER_ARMOR_P2: "Raider Thug Examination"
+      RAIDER_ARMOR_P3: "Raider Buzzard Examination"
+      RAIDER_ARMOR_P6: "Humongous Raider Examination"
+      RAIDER_ARMOR_P4: "Raider Boss Examination"
+      RAIDER_ARMOR_P7: "Raider Firebat Armor"	
+      RAIDER_ARMOR_P1_UFOPEDIA: "Raider Scout Examination. NV: 12."
+      RAIDER_ARMOR_P2_UFOPEDIA: "Raider Thug Examination. NV: 12."
+      RAIDER_ARMOR_P3_UFOPEDIA: "Raider Buzzard Examination. NV: 16."
+      RAIDER_ARMOR_P6_UFOPEDIA: "Humongous Raider Examination. NV: 12."
+      RAIDER_ARMOR_P4_UFOPEDIA: "Raider Boss Examination. NV: 16."
+      RAIDER_ARMOR_P7_UFOPEDIA: "Raider Firebat Armor. NV: 16. ThV: 40%"	
+      STR_RAIDER_CORPSE: Rare Earth Elements	  
+      STR_RAIDER_SCOUT_RECRUITMENT: "Recruit: Raider Scout"	  
+      STR_RAIDER_BOSS_ARMOR: Raider Boss Armor  
+      STR_RAIDER_SCOUT_SALVAGE: "s: Rdr. Scout (0/1/1)"
+      STR_RAIDER_THUG_SALVAGE: "S: Rdr. Thug (0/1/0)"
+      STR_RAIDER_HUMONGOUS_SALVAGE: "S@: Rdr. Humongous (0/2/0)"
+      STR_RAIDER_FIREBAT_SALVAGE: "S@: Rdr. Firebat (1/2/6)"
+      STR_RAIDER_BUZZARD_SALVAGE: "S^: Rdr. Buzzard (1/1/1)"
+      STR_RAIDER_BOSS_SALVAGE: "S@: Rdr. Boss (1!/2/0)"	  
+      STR_RAIDER_SCOUT_ROBBERY: "Interrogate: Rdr. Scout (0/1/1)"
+      STR_RAIDER_THUG_ROBBERY: "Interrogate: Rdr. Thug (0/1/0)"
+      STR_RAIDER_HUMONGOUS_ROBBERY: "Interrogate: Rdr. Humongous (0/2/0)"
+      STR_RAIDER_FIREBAT_ROBBERY: "Interrogate: Rdr. Firebat (1/2/6)"
+      STR_RAIDER_BUZZARD_ROBBERY: "Interrogate: Rdr. Buzzard (1/1/1)"
+      STR_RAIDER_BOSS_ROBBERY: "Interrogate: Rdr. Boss (1!/2/0)"	  
+      STR_RAIDER_AUTOPSY_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}Mildly radioactive 'rare earth elements', as I call them, are often worn by Ubers as good health fetishes in the form of various adornments, like amulets, charms, glasses, or pouches. They are believed to help us survive longer outside of the Zones.{NEWLINE}>Sell value: 200"
+      STR_RAIDER_SUBCONTRACTING: "Raider Subcontracting"
+      STR_RAIDER_SUBCONTRACTING_UFOPEDIA: "The conspiracy theories about Raiders conducting attacks with high-tech Faction weaponry and Faction warships turn out to be true. Despite official enmity with the Raiders, the Synedrion, Eurocorp Syndicate and Church are sometimes willing to clandestinely hire selected groups of Raiders for especially odious or dangerous tasks. They're lent powerful equipment for the duration, and if something goes very wrong, their employers do not risk an internal crisis. Similar arrangements are sometimes made with sympathetic Govt squads, and their official superiors have little power to prevent it, with Govts being fractured as they are."
+      STR_RAIDER_SCOUT: "Raider Scout"  #Keep
+      STR_RAIDER_THUG: "Raider Thug" #Keep
+      STR_RAIDER_BOSS: "Raider Boss" #Keep
+      STR_RAIDER_BUZZARD: "Raider Skirmisher" #Done 
+      STR_RAIDER_HUMONGOUS: "Humongous Raider" #Done 
+      STR_RAIDER_FIREBAT: "Raider Pyros" #Done 
+      STR_RAIDER_SCOUTID: "Raider Scout ID"  #Keep
+      STR_RAIDER_THUGID: "Raider Thug ID" #Keep
+      STR_RAIDER_BOSSID: "Raider Boss ID" #Keep
+      STR_RAIDER_BUZZARDID: "Raider Skirmisher ID" #Done 
+      STR_RAIDER_HUMONGOUSID: "Humongous Raider ID" #Done 
+      STR_RAIDER_FIREBATID: "Raider Pyros ID" #Done 
+      STR_RAIDER_SCOUT_UFOPEDIA: "A Raider scout is usually one that's young and it is of the group's fastest runner. The Scout usually carries a hand gun or grenades, they usually strikes deep into their target territory, causing as much havoc as possible, before the main force strikes."
+      STR_RAIDER_THUG_UFOPEDIA: "A Raider Thug is one that is a jack of all trade and maste of none. It is not the fastest or strongest, just the regular goon that armed with medium armour and weapons. It is the most common raider distribution in a raider gang, a real cannon fodder."
+      STR_RAIDER_BUZZARD_UFOPEDIA: "A Raider Skirmisher is always lightly armoured or none at all, carrying lightly armed weapon for speed and fast response. They would usually harrass a target, with long range weapons till they are weaken enough to be kill off."
+      STR_RAIDER_BOSS_UFOPEDIA: "Usually it is the most well connected and charismatic of raiders, not the strongest or largest that led a raider group. These Raider bosses usually also has a bit of strategy and brains too, so they know how to coordinate and manupulate of the usually friction prone team members into their best behavoir during a raid. Otherwise, he or she would never survive a dog eats dog life, within the raider's hierarchy."
+      STR_RAIDER_HUMONGOUS_UFOPEDIA: "The strongest and largest of raiders, usually the boss or leader of a group, would usually wears of outrageous or flamboyant body armor, to show of their status in the raider's hierarchy. However, with their stamina and strength, don't be surprise, if they are carrying the heaviest of weapons within the group, while in a raid."
+      STR_RAIDER_FIREBAT_UFOPEDIA: "These raiders uses captured power armor and they have modified it to be fire proof, also they are usually armed with a flame thrower to roast of their targets. A Raider Pyros is one of the more fearsome units that one can hope not to encounter, while getting caught in one of their raids." 
+      STR_RAIDER: "Ruthless Raiders"
+      STR_RAIDER_TERROR: "Raiders" 
+      STR_RAIDER_UFOPEDIA: "Raiders are your typical Bandits hailing from struggling or destitute countries. The main difference between a Bandit and Raider,the later is more heavily armed and organized, and utterly fearless while conducting armed raids against potential targets. Some Raiders has been known to capture and even hold territories, using slaves to manufacture drugs or illicit goods."	  
+alienRaces:
+  - id: STR_RAIDER_TERROR
+    members:
+      - STR_RAIDER_FIREBAT
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_THUG
+      - STR_RAIDER_THUG	  
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_SCOUT	  
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_BUZZARD
+    retaliationAggression: -100
+  - id: STR_RAIDER_TERROR_UNDERWATER	
+    members:
+      - STR_RAIDER_FIREBAT
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_THUG
+      - STR_RAIDER_THUG	  
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_SCOUT	  
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_BUZZARD
+    retaliationAggression: -100		
+  - id: STR_RAIDER
+    members:
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_THUG
+      - STR_RAIDER_THUG	  
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_FIREBAT
+  - id: STR_RAIDER_UNDERWATER	
+    members:
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_THUG
+      - STR_RAIDER_THUG	  
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_FIREBAT
+    retaliationAggression: -100	
+ufopaedia:	
+  - id: STR_RAIDER_SCOUT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_SCOUT
+    text: STR_RAIDER_SCOUT_UFOPEDIA
+    text_width: 180
+    listOrder: 24110
+  - id: STR_RAIDER_THUG
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_THUG
+    text: STR_RAIDER_THUG_UFOPEDIA
+    text_width: 180
+    listOrder: 24120
+  - id: STR_RAIDER_BUZZARD
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_BUZZARD
+    text: STR_RAIDER_BUZZARD_UFOPEDIA
+    text_width: 180
+    listOrder: 24140
+  - id: STR_RAIDER_HUMONGOUS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_HUMONGOUS
+    text: STR_RAIDER_HUMONGOUS_UFOPEDIA
+    text_width: 180
+    listOrder: 24145
+  - id: STR_RAIDER_BOSS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_BOSS
+    text: STR_RAIDER_BOSS_UFOPEDIA
+    text_width: 180
+    listOrder: 24150
+  - id: STR_RAIDER_FIREBAT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER_FIREBAT
+    text: STR_RAIDER_FIREBAT_UFOPEDIA
+    text_width: 180
+    listOrder: 24180
+  - id: STR_RAIDER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_RAIDER
+    text: STR_RAIDER_UFOPEDIA
+    text_width: 126
+    listOrder: 24000	
+research:  
+  - name: STR_RAIDER_SCOUT
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER 
+  - name: STR_RAIDER_THUG
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER  
+  - name: STR_RAIDER_HUMONGOUS 
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER
+  - name: STR_RAIDER_BUZZARD
+    cost: 20
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER
+  - name: STR_RAIDER_BOSS
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER 
+  - name: STR_RAIDER_FIREBAT  
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_RAIDER
+  - name: STR_RAIDER   
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_RAIDER_SCOUT
+      - STR_RAIDER_THUG
+      - STR_RAIDER_BUZZARD
+      - STR_RAIDER_BOSS
+      - STR_RAIDER_HUMONGOUS
+      - STR_RAIDER_FIREBAT
+units:
+  - type: STR_RAIDER_SCOUT
+    race: STR_RAIDER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 75
+      stamina: 85
+      health: 60
+      bravery: 70
+      reactions: 55
+      firing: 45
+      throwing: 45
+      strength: 35
+      psiStrength: 25
+      psiSkill: 0
+      melee: 70
+      #Mana: 40
+    armor: RAIDER_ARMOR_P1
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 3
+    aggression: 2
+    sniper: 25
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE		
+  - type: STR_RAIDER_THUG
+    race: STR_RAIDER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 80
+      health: 70
+      bravery: 70
+      reactions: 50
+      firing: 45
+      throwing: 45
+      strength: 55
+      psiStrength: 25
+      psiSkill: 0
+      melee: 70
+      #Mana: 40
+    armor: RAIDER_ARMOR_P2
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_GRENADE
+  - type: STR_RAIDER_BUZZARD
+    race: STR_RAIDER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 90
+      stamina: 100
+      health: 65
+      bravery: 100
+      reactions: 85
+      firing: 60
+      throwing: 45
+      strength: 42
+      psiStrength: 30
+      psiSkill: 0
+      melee: 80
+      #Mana: 50
+    armor: RAIDER_ARMOR_P3
+    standHeight: 22
+    kneelHeight: 14
+    value: 24
+    deathSound: [41, 42, 43]
+    energyRecovery: 50
+    intelligence: 3
+    aggression: 3
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+  - type: STR_RAIDER_BOSS
+    race: STR_RAIDER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 65
+      health: 90
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 60
+      strength: 66
+      psiStrength: 32
+      psiSkill: 0
+      melee: 85
+      #Mana: 55
+    armor: RAIDER_ARMOR_P4
+    standHeight: 22
+    kneelHeight: 14
+    value: 48
+    deathSound: [41, 42, 43]
+    energyRecovery: 32
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS		
+  - type: STR_RAIDER_FIREBAT
+    race: STR_RAIDER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 50
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 40
+      firing: 60
+      throwing: 40
+      strength: 80
+      psiStrength: 28
+      psiSkill: 0
+      melee: 60
+      #Mana: 60
+    armor: RAIDER_ARMOR_P7
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    deathSound: 10
+    energyRecovery: 40
+    intelligence: 4
+    aggression: 2
+    sniper: 33
+    spotter: 1
+    deathSound: [41, 42, 43]
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_FLAMETHROWER
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_GRENADE	
+  - type: STR_RAIDER_HUMONGOUS
+    race: STR_RAIDER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 100
+      health: 130
+      bravery: 90
+      reactions: 35
+      firing: 45
+      throwing: 45
+      strength: 85
+      psiStrength: 24
+      psiSkill: 0
+      melee: 80
+      #Mana: 75
+    armor: RAIDER_ARMOR_P6
+    deathSound: [41, 42, 43]
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    deathSound: 6
+    energyRecovery: 40
+    intelligence: 2
+    aggression: 2
+    builtInWeaponSets:	
+      - - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+    canSurrender: true	
+armors:
+  - type: RAIDER_ARMOR_P1
+    spriteSheet: RDR_1.PCK
+    spriteInv: RaiderScoutInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 98, 98, 158, 160, 162]
+    corpseBattle:
+      - STR_RAIDER_0_CORPSE_BATTLE
+    corpseGeo: STR_RAIDER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      reactions: 0.5
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_UBER
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 2 ]
+  - type: RAIDER_ARMOR_P2
+    spriteSheet: RDR_2.PCK
+    spriteInv: RaiderThugInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 98, 98, 158, 160, 162]
+    corpseBattle:
+      - STR_RAIDER_1_CORPSE_BATTLE
+    corpseGeo: STR_RAIDER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_UBER
+    damageModifier:
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 2 ]
+  - type: RAIDER_ARMOR_P3
+    spriteSheet: PIR_25.PCK
+    customArmorPreviewIndex: 15
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_RAIDER_2_CORPSE_BATTLE
+    #corpseGeo: STR_GRAV_CORPSE
+    personalLight: 5
+    stats:
+       tu: -15
+       stamina: -15
+       firing: 5
+       melee: 5
+       health: 5
+       bravery: 10
+    visibilityAtDark: 12
+    weight: 12
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    meleeDodge:
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.5
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 3 ]  
+  - type: RAIDER_ARMOR_P4
+    spriteSheet: RDR_4.PCK
+    spriteInv: RaiderBossInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 98, 98, 158, 160, 162]
+    corpseBattle:
+      - STR_RAIDER_3_CORPSE_BATTLE
+    corpseGeo: STR_RAIDER_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 40
+    sideArmor: 24
+    rearArmor: 32
+    underArmor: 22
+    meleeDodge:
+      reactions: 0.1
+      melee: 0.35
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_UBER
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.85
+      - 0.75
+      - 0.75
+      - 2.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: AUX_FISTO
+    loftempsSet: [ 3 ]
+  - type: RAIDER_ARMOR_P6
+    spriteSheet: PIR_400.PCK
+    customArmorPreviewIndex: 110
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_RAIDER_6_CORPSE_BATTLE
+    corpseGeo: STR_RAIDER_CORPSE
+    weight: 24
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -15
+       melee: 10
+       strength: 10
+       bravery: 10
+       psiStrength: -5
+       reactions: -10
+    visibilityAtDark: 16
+    frontArmor: 40
+    sideArmor: 24
+    rearArmor: 32
+    underArmor: 22
+    meleeDodge:
+      reactions: 0.1
+      melee: 0.35
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.5
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 0.75
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.85
+      - 0.75
+      - 0.75
+      - 2.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 3 ]  
+  - type: RAIDER_ARMOR_P7
+    spriteSheet: PIR_108.PCK
+    spriteInv: MAN_108
+    customArmorPreviewIndex: 63
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_RAIDER_7_CORPSE_BATTLE
+    #corpseGeo: STR_PBA_CORPSE	
+    weight: 25
+    #moveSound: 237
+    personalLight: 5
+    visibilityAtDark: 12
+    frontArmor: 45
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
+    meleeDodge:
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.25
+      - 1.0
+      - 0.7
+      - 1.1
+      - 0.8
+      - 0.7
+      - 1.0
+      - 0.5
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_UNARMED_GAUNTLET
+    loftempsSet: [ 3 ]  
+items:	
+  - type: STR_RAIDER_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3550
+    floorSprite: 3550
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_RAIDER_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3551
+    floorSprite: 3551
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_RAIDER_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3926
+    floorSprite: 3925
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_RAIDER_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3553
+    floorSprite: 3553
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_RAIDER_6_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 50
+    bigSprite: 3400
+    floorSprite: 3400
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 50
+  - type: STR_RAIDER_7_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 90
+    bigSprite: 3904
+    floorSprite: 3908
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 110	
+  - type: STR_RAIDER_CORPSE
+    categories: [STR_BAT_CAT_RESOURCE]
+    size: 0.05
+    costSell: 200
+    bigSprite: 3651
+    floorSprite: 3700
+    weight: 2
+    costThrow:
+      energy: 6
+      time: 40
+    armor: 100	
+  - type: STR_RAIDER_SCOUT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 2500
+  - type: STR_RAIDER_THUG
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 2500
+  - type: STR_RAIDER_BUZZARD
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 5000
+  - type: STR_RAIDER_HUMONGOUS
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 10000
+  - type: STR_RAIDER_BOSS
+    requiresBaseFunc: [INTERROGATION] 
+    transferTime: 180
+    prisonType: 1	
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+  - type: STR_RAIDER_FIREBAT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 30000

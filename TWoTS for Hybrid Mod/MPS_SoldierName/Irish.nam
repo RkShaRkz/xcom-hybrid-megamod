@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - MPS Aidan
+  - MPS Andrew
+  - MPS Brendon
+  - MPS Cathal
+  - MPS Cian
+  - MPS Cillian
+  - MPS Conor
+  - MPS Cormac
+  - MPS Daniel
+  - MPS Darragh
+  - MPS David
+  - MPS Donal
+  - MPS Eoghan
+  - MPS Eoin
+  - MPS Finn
+  - MPS Jack
+  - MPS James
+  - MPS John
+  - MPS Liam
+  - MPS Luke
+  - MPS Michael
+  - MPS Mick
+  - MPS Oisin
+  - MPS Owen
+  - MPS Paddy
+  - MPS Padraig
+  - MPS Pat
+  - MPS Patrick
+  - MPS Pete
+  - MPS Ronan
+  - MPS Rory
+  - MPS Sean
+  - MPS Thomas
+femaleFirst:
+  - MPS Aine
+  - MPS Aisling
+  - MPS Aoife
+  - MPS Caoimhe
+  - MPS Ciara
+  - MPS Clara
+  - MPS Fiona
+  - MPS Grainne
+  - MPS Karen
+  - MPS Kate
+  - MPS Kathleen
+  - MPS Lisa
+  - MPS Lorna
+  - MPS Mary
+  - MPS Michelle
+  - MPS Niamh
+  - MPS Orla
+  - MPS Rachel
+  - MPS Roisin
+  - MPS Saoirse
+  - MPS Sarah
+  - MPS Shauna
+  - MPS Sinead
+  - MPS Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

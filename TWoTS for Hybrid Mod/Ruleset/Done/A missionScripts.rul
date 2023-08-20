@@ -1,0 +1,616 @@
+missionScripts: #undone
+  - delete: recurringTerror
+  - delete: recon
+  - delete: gameStart
+  - delete: recurringTerrorTFTD
+  - delete: shipTerrorTFTD
+#  - type: recon
+#    firstMonth: 2
+#  - type: invasion
+#    firstMonth: 7
+    
+#  - type: gameStart
+#    missionWeights:
+#      0:
+#        STR_ALIEN_PROBE_MISSION: 100
+#    firstMonth: 1
+#    lastMonth: 1
+#    targetBaseOdds: 100
+#    raceWeights:
+#      0:
+#        STR_AQUATOID: 90
+#        STR_NAGA: 10
+#    startDelay: 120
+#    randomDelay: 1000
+    
+#  - type: recurringTerror
+#    conditionals: [-1, -2]
+#    missionWeights:
+#      0:
+#        STR_ALIEN_SURFACE_ATTACK: 100
+#    regionWeights:
+#      0:
+#        STR_NORTH_ATLANTIC: 10
+#        STR_SOUTH_ATLANTIC: 10
+#        STR_NORTH_PACIFIC: 10
+#        STR_SOUTH_PACIFIC: 10
+#        STR_MEDITERRANEAN: 10
+#        STR_SOUTH_CHINA_SEA: 10
+#        STR_INDIAN_OCEAN: 10
+#        STR_THE_EAST_SEA: 10
+#        STR_NORTH_SEA: 10
+#        STR_CARRIBEAN: 10
+#    useTable: false
+#    startDelay: 150
+#    randomDelay: 1000
+#    firstMonth: 3
+  - type: smallRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_S: 100
+    firstMonth: 6
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3, -4, -5, -6, -7]
+    label: 11
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+    startDelay: 150
+    randomDelay: 3000
+    executionOdds: 30	
+#MindWorms missions    
+  - type: recurringTerrorW_Meet
+    missionWeights:
+      0:
+        STR_WORMS_ATTACK_ISLAND: 100
+    regionWeights:
+      0:
+        ISLANDTFTD: 100
+    useTable: false
+    startDelay: 250
+    randomDelay: 10000
+    firstMonth: 8
+    executionOdds: 100
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	    
+  - type: recurringTerrorW
+    missionWeights:
+      0:
+        STR_WORMS_ATTACK_ISLAND: 100
+    regionWeights:
+      0:
+        ISLANDTFTD: 100
+    useTable: false
+    startDelay: 450
+    randomDelay: 10000
+    firstMonth: 6
+    executionOdds: 45
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+  - type: recurringTerrorWP
+    missionWeights:
+      0:
+        STR_WORMS_ATTACK_PORT: 100
+    regionWeights:
+      0:
+        ISLANDTFTD: 100
+    useTable: false
+    startDelay: 750
+    randomDelay: 30000
+    researchTriggers: 
+      STR_WORMS_HATCHERY: true                 
+      STR_ALIEN_SIGNAL: true		  
+    executionOdds: 35
+  - type: floatingisland
+    firstMonth: 7
+    startDelay: 10000
+    randomDelay: 20000
+    useTable: false
+    executionOdds: 35
+    missionWeights:
+      0:
+        STR_FLOATING_ISLAND: 100
+    researchTriggers:                  
+      STR_ALIEN_SIGNAL: true		
+      STR_WORMS_EVOLVE: true
+    regionWeights:
+      0:
+        ISLANDTFTD: 100
+#Freaks missions
+  - type: recurringTerror2
+    conditionals: [-135]
+    label: 134
+    missionWeights:
+      0:
+        STR_ALIEN_SURFACE_ATTACK2: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100
+    useTable: false
+    startDelay: 15000
+    randomDelay: 10000
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+      STR_CLONE_CHAMBER_PRE: true
+    executionOdds: 55    
+  - type: shipTerror2
+    conditionals: [-134]
+    label: 135
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_SEASHIPATTACKCARGO2: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100
+    avoidRepeats: 5
+    varName: shippingLanes
+    useTable: false
+    researchTriggers:                  
+      STR_ALIEN_SIGNAL: true		
+      STR_CLONE_CHAMBER_PRE: true
+    executionOdds: 55
+    startDelay: 0
+    randomDelay: 31000
+  - type: abominationactivityinfil
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION2: 50
+    raceWeights:
+      0:
+        STR_ABOMINATION: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 10
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 10
+        STR_SOUTH_EAST_ASIA: 10
+        STR_SIBERIA: 10
+        STR_AUSTRALASIA: 10
+        STR_PACIFIC: 10
+    useTable: false
+    startDelay: 150
+    randomDelay: 30000
+    researchTriggers:                
+      STR_ALIEN_SIGNAL: true		
+      STR_CLONE_CHAMBER_PRE: true
+    executionOdds: 55
+  - type: abominationactivityretaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION2: 50
+    raceWeights:
+      0:
+        STR_ABOMINATION: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100
+    useTable: false
+    startDelay: 150
+    randomDelay: 30000
+    researchTriggers:                  
+      STR_ALIEN_SIGNAL: true		
+      STR_CLONE_CHAMBER_PRE: true
+    executionOdds: 55
+#Additional naga
+
+  - type: nagaactivity
+    firstMonth: 6
+    missionWeights:
+      0:
+        STR_ALIEN_INTERDICTION: 100
+    raceWeights:
+      0:
+        STR_NAGA: 100
+    regionWeights:
+      0:
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 10
+        STR_NORTH_PACIFIC: 10
+        STR_SOUTH_PACIFIC: 10
+        STR_MEDITERRANEAN: 10
+        STR_SOUTH_CHINA_SEA: 10
+        STR_INDIAN_OCEAN: 10
+        STR_THE_EAST_SEA: 10
+        STR_NORTH_SEA: 10
+        STR_CARRIBEAN: 10
+    useTable: false
+    randomDelay: 35000
+    executionOdds: 90
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+      STR_NAGA_COMMANDER: false
+#horrors mission
+
+  - type: horrors
+    missionWeights:
+      0:
+        STR_ANCIENT_HORROR1: 30
+        STR_ANCIENT_HORROR2: 30
+        STR_ANCIENT_HORROR3: 30
+    firstMonth: 10
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+    executionOdds: 25
+#    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_MONSTERS_UNDERWATER: 100
+    startDelay: 7000
+    randomDelay: 30000
+    regionWeights:
+      0:	  
+        SEASPAWNSTWOTS: 100		
+#naga missions        
+  - type: nagatemple
+    firstMonth: 1
+    startDelay: 12010
+    randomDelay: 20000
+    executionOdds: 50
+    useTable: false
+    researchTriggers: 
+      STR_NAGA_SOCIETY: true
+      STR_ALIEN_KEY: false                 
+      STR_ALIEN_SIGNAL: true		  
+    missionWeights:
+      0:
+        STR_NAGA_TEMPLE: 100
+    raceWeights:
+      0:
+        STR_NAGA: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100		
+  - type: nagacity
+    #firstMonth: 5
+    startDelay: 11010
+    randomDelay: 22000
+    executionOdds: 100
+    useTable: false
+    researchTriggers: 
+      STR_ALIEN_KEY: false
+      STR_NAGA_COMMANDER: true
+      STR_NAGA_SOCIETY: true               
+      STR_ALIEN_SIGNAL: true		  
+    missionWeights:
+      0:
+        STR_NAGA_CITY: 100
+    raceWeights:
+      0:
+        STR_NAGA: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100        
+#church missions
+  - type: shipPirates
+    conditionals: [-1]
+    executionOdds: 85
+    label: 15
+    researchTriggers: 
+      STR_CHURCH_DATA: false
+    missionWeights:
+      0:
+        STR_PIRATES_SHIP_ATTACK: 100
+    regionWeights:
+      0:
+        SHIPPING_LANES: 100      
+    avoidRepeats: 4
+    varName: shippingLanes2
+    useTable: false
+    firstMonth: 0
+    startDelay: 14000
+    randomDelay: 23000     
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	    
+  - type: churchtemple
+    startDelay: 17330
+    randomDelay: 13000
+    executionOdds: 100
+    useTable: false
+    researchTriggers:                 
+      STR_ALIEN_SIGNAL: true		
+      STR_CHURCH_DATA: false
+      STR_CHURCH_OF_SIRIUS: true
+      STR_SORESO: true
+    missionWeights:
+      0:
+        STR_CHURCH_BASE_ATTACK: 100
+    raceWeights:
+      0:
+        STR_CHURCH_OF_SIRIUS2: 100
+    regionWeights:
+      0:
+        STR_BIGCITYS: 100       
+  - type: militarybase
+    startDelay: 13500
+    randomDelay: 15000
+    useTable: false
+    executionOdds: 35
+    researchTriggers: 
+      STR_CHURCH_DATA: true                
+      STR_ALIEN_SIGNAL: true		
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+# How to???
+    missionWeights:
+      0:
+        STR_MILITARY_ARMORY_M: 100
+#mutant missions
+  - type: shorewillage
+    missionWeights:
+      0:
+        STR_SHORE_WILLAGEM: 100
+    regionWeights:
+      0:
+        STR_SHORER: 100
+    raceWeights:
+      0:
+        STR_MUTANTS: 100
+      4:
+        STR_MUTANTS2: 80
+        STR_MUTANTS: 20
+      7:
+        STR_MUTANTS2: 20
+        STR_MUTANTS3: 80
+    useTable: false
+    startDelay: 7500
+    randomDelay: 27000
+    firstMonth: 0
+    executionOdds: 80
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	    
+  - type: shorewillage1
+    missionWeights:
+      0:
+        STR_SHORE_WILLAGEM: 100
+      10: 
+        STR_ALIEN_LAB_1: 100
+    regionWeights:
+      0:
+        STR_SHORER: 100
+    raceWeights:
+      0:
+        STR_MUTANTS: 100
+      3:
+        STR_MUTANTS2: 80
+        STR_MUTANTS: 20
+      7:
+        STR_MUTANTS2: 20
+        STR_MUTANTS3: 80
+      10: 
+        STR_MUTANTS3: 100
+    useTable: false
+    startDelay: 1500
+    randomDelay: 3000
+    firstMonth: 7
+    executionOdds: 30
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	    
+  - type: oldcrashsite
+    firstMonth: 1
+    lastMonth: 9
+    startDelay: 0
+    randomDelay: 31000
+    executionOdds: 90
+    useTable: false
+    researchTriggers: 
+      STR_SORESO_WRECK_PRE: true                 
+      STR_ALIEN_SIGNAL: true		  
+    missionWeights:
+      0:
+        STR_OLD_CRASHSITEM: 50
+        STR_OLD_CRASHSITECHM: 50
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50   
+  - type: oldcrashsitelate
+    firstMonth: 10
+    startDelay: 0
+    executionOdds: 90
+    randomDelay: 31000
+    useTable: false
+    researchTriggers:                  
+      STR_ALIEN_SIGNAL: true		
+      STR_SORESO_WRECK_PRE: true
+    missionWeights:
+      0:
+        STR_OLD_CRASHSITEM: 50
+        STR_OLD_CRASHSITECHM_LATE: 50
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50
+  - type: oldcrashbattle
+    firstMonth: 0
+    startDelay: 1150
+    randomDelay: 23000
+    useTable: false
+    executionOdds: 80
+    researchTriggers: 
+      STR_ALIEN_CODES_PRE: false
+#      STR_ALIEN_CODES: false
+      STR_ALIEN_WRECK: true              
+      STR_ALIEN_SIGNAL: true		  
+    missionWeights:
+      0:
+        STR_OLD_CRASHBATTLE: 100
+    raceWeights:
+      0:
+        STR_MONSTERS_UNDERWATER5: 100
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50           
+  - type: bloop
+    label: 17
+    researchTriggers: 
+      STR_ALIEN_CODES: true
+#      STR_CLONE_CHAMBER: false
+      STR_CLONE_CHAMBER_PRE: false                   
+      STR_ALIEN_SIGNAL: true		  
+    missionWeights:
+      0:
+        STR_BLOOPM: 100
+    regionWeights:
+      0:
+        STR_BLOOPR: 100
+    raceWeights:
+      0:
+        STR_MIXED_CREW: 100  
+    useTable: false
+    firstMonth: 2
+    executionOdds: 100
+    startDelay: 15000
+    randomDelay: 15000
+    
+  - type: soreso1
+    label: 19
+    missionWeights:
+      0:
+        STR_BARCRASHM: 100
+    regionWeights:
+      0:
+        STR_BARCRASHR: 100
+    raceWeights:
+      0:
+        STR_MONSTERS_UNDERWATER4: 80  
+    useTable: false
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 5000
+    researchTriggers: 
+      STR_CHURCH_DATA: true
+#      STR_CLONE_CHAMBER: false
+      STR_SORESO_WRECK_PRE: false                   
+      STR_ALIEN_SIGNAL: true
+    randomDelay: 12000
+  - type: alienbarge
+    firstMonth: 7
+    startDelay: 5000
+    randomDelay: 23000
+    useTable: false
+    executionOdds: 30
+    missionWeights:
+      0:
+        STR_ALIEN_BARGE: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true			
+  - type: militaryvsaliens
+#    label: 47
+    maxRuns: 3
+    varName: findingnemo
+    missionWeights:
+      0:
+        STR_ANTARCTIC_TERROR: 100
+    regionWeights:
+      0:
+        STR_SURFACE_ANTARCTICA: 100 
+    useTable: false
+    firstMonth: 2
+    executionOdds: 20
+    startDelay: 7700
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+    randomDelay: 22000
+#Abyssians
+  - type: abyssiancome
+    firstMonth: 8
+    startDelay: 250
+    randomDelay: 3300
+    useTable: false
+    executionOdds: 30
+    missionWeights:
+      0:
+        STR_ABYSSIAN_CRUISE: 100
+    researchTriggers: 
+      STR_ABYSSIAN_TREATY: false             
+      STR_ALIEN_SIGNAL: true		  
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100	  
+#    targetBaseOdds: 100
+  - type: abyssianbase
+    firstMonth: 10
+    startDelay: 1650
+    randomDelay: 10000
+    useTable: false
+    executionOdds: 25
+    researchTriggers: 
+      STR_ABYSSIAN_TREATY: false             
+      STR_ALIEN_SIGNAL: true		
+    missionWeights:
+      0:
+        STR_ABYSSIAN_BASE: 100	  
+#    targetBaseOdds: 100
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50  
+  - type: tsunamigen
+    firstMonth: 12
+    startDelay: 8700
+    randomDelay: 12000
+    useTable: false
+    executionOdds: 30
+    missionWeights:
+      0:
+        STR_TSUNAMI_ASSAULT_M: 100
+    researchTriggers:                 
+      STR_ALIEN_SIGNAL: true		
+      STR_ABYSSIAN_TREATY: false
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50   	  
+  - type: abyssiansvsaliens
+    startDelay: 15030
+    randomDelay: 13000
+    useTable: false
+    executionOdds: 20
+    missionWeights:
+      0:
+        STR_OUTPOST_BATTLE: 100
+    researchTriggers:                 
+      STR_ALIEN_SIGNAL: true		
+      STR_ABYSSIAN_TREATY: true
+    regionWeights:
+      0:
+        SHIPPING_LANES: 50
+        ARTIFACT_SITES: 50   	  
+#monsters missions
+  - type: aliensseen
+    firstMonth: 0
+    lastMonth: 7
+    startDelay: 310
+    randomDelay: 10000
+    executionOdds: 80
+    researchTriggers:     	
+      STR_ALIEN_SIGNAL: true		
+    missionWeights:
+      0:
+        STR_MONSTERS_UNDERWATER: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100	  		
+  - type: aliensseen2
+    firstMonth: 0
+    lastMonth: 6
+    startDelay: 24000
+    randomDelay: 14000
+    executionOdds: 80
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+    missionWeights:
+      0:
+        STR_MONSTERS_UNDERWATER: 100
+    regionWeights:
+      0:
+        SEASPAWNSTWOTS: 100		

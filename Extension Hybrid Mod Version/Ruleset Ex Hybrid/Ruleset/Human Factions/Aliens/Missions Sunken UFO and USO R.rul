@@ -1,0 +1,163 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_SEA_SUNKEN_USO: "Sunken USOs"
+      STR_MISSION_SEA_ADVENTURE: "Sunken USOs"
+      STR_SEA_ADVENTURE_BRIEFING: "The Merc Guild has heard rumours of a classified salvage going on in the sea. If you can go and gather a team and salvage it first, we will get the reward."
+      STR_UNDERSEA_OPERATIONS_UFOPEDIA: "The Merc Guild has heard rumours of a classified salvage going on in the sea. If you can go and gather a team and salvage it first, we will get the reward."
+alienDeployments:	  
+  - type: STR_SEA_SUNKEN_USO
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTSEA
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED		
+    enviroEffects: STR_UNDERWATERENVIRO 
+    depth: [1, 1]   	
+    alert: STR_ALERT_SEA_ADVENTURE
+    alertDescription: STR_SEA_ADVENTURE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 7
+      music: GMNEWMAR    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_SEA_ADVENTURE   
+      desc: STR_SEA_ADVENTURE_BRIEFING
+    markerName: STR_MARKER_SEA_ADVENTURE
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 7
+    minShade: 12
+    music:
+      - GMTACWET
+    script: SUNKENUFOPIRATEZ
+    terrains:
+      - SEABED
+      - CORAL
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+alienMissions:			
+  - type: STR_SEA_ADVENTURE1
+    points: 0
+    objective: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_AQUATOID: 25
+          STR_GILLMAN: 25
+          STR_LOBSTERMAN: 25
+          STR_TASOTH: 25
+    waves:
+      - ufo: STR_SEA_SUNKEN_USO
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: SUNKENUFOPIRATEZ
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED]	  
+    - type: addUFO
+      size: [1,1,4]
+      executions: 2
+      executionChances: 33
+      label: 15
+      groups: 1	  
+      UFOName: STR_CRUISER	  
+      terrain: globeTerrain
+    - type: addUFO
+      size: [1,1,4]
+      executionChances: 50
+      label: 16
+      conditionals: [-15]
+      groups: 1	  
+      UFOName: STR_SURVEY_SHIP
+      terrain: globeTerrain
+    - type: addUFO
+      size: [1,1,4]
+      executionChances: 100
+      conditionals: [-15, -16]
+      UFOName: STR_ESCORT
+      groups: 1	  
+      terrain: globeTerrain	  
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED]		  
+    - type: addBlock
+      size: 2
+      executions: 2	
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain				
+missionScripts:
+  - type: seaAdventures1
+    missionWeights:
+      0:
+        STR_SEA_ADVENTURE1: 100
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    useTable: false
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true
+    executionOdds: 3
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,253 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_LOC_BANDIT_VILLAGE: Bandit Village Pacification
+      STR_MARKER_BANDIT_VILLAGE: Bandit Village Pacification
+      STR_ALERT_BANDIT_VILLAGE: Bandit Village Pacification
+      STR_LOC_BANDIT_VILLAGE_BRIEFING: "Words from The Merc Guild that there is a job for us, if we are interested in doing. One of the goverment has a hit job on a Bandit Camp or village located in the heart of its territory. Pay is good if someone can exterminate it."    
+alienDeployments:
+  - type: STR_LOC_BANDIT_VILLAGE
+    alert: STR_ALERT_BANDIT_VILLAGE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertDescription: STR_LOC_BANDIT_VILLAGE_BRIEFING
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 0
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_BANDIT_VILLAGE   
+      desc: STR_LOC_BANDIT_VILLAGE_BRIEFING
+    markerName: STR_MARKER_BANDIT_VILLAGE
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 40
+    length: 40
+    height: 9
+    mapScripts: [RATLINGVILLAGE, BANDITCAMP]
+    #script: RATLINGVILLAGE
+    data:
+      - alienRank: 6
+        lowQty: 0
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 7
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_BANDIT_VILLAGE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10	  
+    waves:
+      - ufo: STR_LOC_BANDIT_VILLAGE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:	 
+  - type: ratlingVillage2
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_BANDIT_VILLAGE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:	  
+  - type: RATLINGVILLAGE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      size: [1,1,2]
+      executions: 4
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain  
+        groups: 1  		
+      - type: middle
+        size: [1, 1, 2]
+        terrain: URBANJUNKRAT
+    - type: addBlock
+      size: [1,1,4]
+      executions: 1  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [1,1,4]
+        terrain: NUKEZONEDOWNBUILDING 
+    - type: addBlock
+      size: [1,1,1]
+      executionChances: 50
+      executions: 2	  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,1]
+        terrain: URBANJUNKRAT
+    - type: addBlock
+      size: [1,1,2]
+      executions: 1
+      executionChances: 33
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,2]
+        terrain: URBANJUNKRAT	
+    - type: addBlock
+      size: [1,1,3]
+      executions: 1
+      executionChances: 33
+      label: 15
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,3]
+        terrain: NUKEZONEDOWNBUILDING
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 50
+      label: 16
+      conditionals: [-15]
+      terrain: globeTerrain
+    - type: addBlock
+      size: [1,1,3]
+      executionChances: 100
+      conditionals: [-15, -16]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,3]
+        terrain: NUKEZONEDOWNBUILDING	
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain
+  - type: BANDITCAMP
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_LOC_BANDIT_BONFIRE
+      groups: 1		
+    - type: addBlock
+      size: [1,1,2]
+      executions: 4
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain  
+        groups: 1  		
+      - type: middle
+        size: [1, 1, 2]
+        terrain: NUKEZONEDOWNBUILDING
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	

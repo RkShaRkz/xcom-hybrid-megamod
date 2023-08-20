@@ -1,0 +1,145 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SURFTIME: "Osirion Contra bust"
+      STR_ALERT_SURFTIME: "Osirion Contra bust"
+      STR_SURFTIME_BRIEFING: "The Merc Guild has info that Osirion is doing illegal trade on contraband goods in a remote housing unit. Some Goverment faction is paying good money for an end to their activities. Eliminate them for the usual rewards."
+      STR_SURFTIME_DESCRIPTION: "The Merc Guild has info that Osirion is doing illegal trade on contraband goods in a remote housing unit. Some Goverment faction is paying good money for an end to their activities.Eliminate them for the usual rewards."	
+alienDeployments:
+  - type: STR_SURFTIME
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED 
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	   	
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_SURFTIME
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_HQ_EXALT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_SURFTIME_BRIEFING  
+    markerName: STR_SURFTIME
+    duration: [54, 100]
+    despawnPenalty: 100
+    script: GENERALSPAWNXP1
+    customUfo: STR_DRUGHOUSE	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 10
+        highQty: 20
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 10
+        highQty: 20
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 6
+        highQty: 12
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+ufos:
+  - type: STR_DRUGHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10			
+alienMissions:
+  - type: STR_SURFTIME
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_EXALT: 100
+    waves:
+      - ufo: STR_SURFTIME
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true 		
+missionScripts:
+  - type: surftime
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_SURFTIME: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

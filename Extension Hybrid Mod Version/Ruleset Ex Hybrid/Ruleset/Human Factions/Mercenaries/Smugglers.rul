@@ -1,0 +1,430 @@
+extraStrings:
+  - type: en-US
+    strings:
+	  #STR_HUMAN_SOLDIER_COMMANDO Change to Earthsec Operative or Body Guard.
+      STR_CONTACT_SMUGGLERS_ZZZ: "Smugglers (Dep.)"
+      STR_SMUGGLER_NEGOTIATOR_INRG: "I: Smuggler Negotiator (0/5/3)"	
+      SMUGGLER_ARMOR_P1_UFOPEDIA: "Human Goon Examination. NV: 12."	
+      SMUGGLER_ARMOR_P1: "Human Goon Examination"	
+      STR_CONTACT_SMUGGLERS_UFOPEDIA: "The Smugglers will provide us with exotic goods from all over the Galaxy, from weapons for our Hands, to high-quality junk our Brainers can tinker with."	
+      STR_LOOTBOX_SMUGGLER_UFOPEDIA: "{NEWLINE}{NEWLINE}Used by Smugglers to transport valuable contraband. Protected by an electronic lock and set to destroy contents if tampered with (which just happened, by the way). So breaking in takes some time, as well as Workshop and Lab. It still comes with some risk of breaking what's inside."	
+      STR_CONTACT_SMUGGLERS: "Contacts: Smugglers"		
+      STR_SMUGGLER_GOON: "Smuggler Grunt" #Keep
+      STR_SMUGGLER_CATGIRL: "Smuggler Whore" #Change to raider scout
+      STR_SMUGGLER_ENGINEER: "Smuggler Engineer" #Keep
+      STR_SMUGGLER_CAPTAIN: "Smuggler Captain" #Keep
+      STR_SMUGGLER_NEGOTIATOR: "Smuggler Pilot"  #Keep
+      STR_SMUGGLER_NEGOTIATOR_BROKEN: "Broken Smuggler Negotiator"  #Need delete does not exist
+      SMUGGLER_ARMOR_P3: "Bugbear Examination"
+      SMUGGLER_ARMOR_P4: "Smuggler Captain Examination"
+      SMUGGLER_ARMOR_P5: "Smuggler Negotiator Examination"	
+      SMUGGLER_ARMOR_P2_UFOPEDIA: "Catgirl Examination. NV: 20. INVIS: 5"
+      SMUGGLER_ARMOR_P3_UFOPEDIA: "Bugbear Examination. NV: 12."
+      SMUGGLER_ARMOR_P4_UFOPEDIA: "Smuggler Captain Examination. NV: 12."
+      SMUGGLER_ARMOR_P5_UFOPEDIA: "Smuggler Negotiator Examination. NV: 9."		
+      STR_SMUGGLER: "Smugglers"	    	  
+      STR_SMUGGLER_NEGOTIATOR_SALVAGE: "S*: Smug. Negotiator (0/5/3)"	  
+      STR_SMUGGLER_GOON_ROBBERY: "Interrogate: Goon (0/1/2)"
+      STR_SMUGGLER_CATGIRL_ROBBERY: "Interrogate: Catgirl (2/0/0)"
+      STR_SMUGGLER_ENGINEER_ROBBERY: "Interrogate: Bugbear (0/2/0)"
+      STR_SMUGGLER_CAPTAIN_ROBBERY: "Interrogate: Smug. Captain (0/4/0)"
+      STR_SMUGGLER_NEGOTIATOR_ROBBERY: "Interrogate: Smug. Negotiator (0/5/3)"
+      STR_SMUGGLER_GOONID: "Smuggler Grunt ID" #Keep
+      STR_SMUGGLER_CATGIRLID: "Smuggler Whore ID" #Change to raider scout
+      STR_SMUGGLER_ENGINEERID: "Smuggler Engineer ID" #Keep
+      STR_SMUGGLER_CAPTAINID: "Smuggler Captain ID" #Keep
+      STR_SMUGGLER_NEGOTIATORID: "Smuggler Pilot ID"  #Keep	
+      STR_SMUGGLER_UFOPEDIA: "The Smugglers are high risk taking bandits that uses either fast and expensive or the old but doesn't attract attention plane to smuggle goods in between of countries borders that are either sactioned or prohibited. These Smugglers are highly hunted but those that survive has always earn a lucrative living."	
+      STR_SMUGGLER_NEGOTIATOR_UFOPEDIA: "The job of a pilot is to fly a plane, a daredevil to fly dangerously, if they are caught by the authority. An extra hand with a weapon, during a fight. If the Captain is down, they are second in command. If the Captain is dead, they get Captain promotion."	
+      STR_SMUGGLER_GOON_UFOPEDIA: "A grunt is basically muscle with a gun. Most are hired to do basic work like lifting heavy good on and off the plane, given a gun to defend the plane or base if attack. Brain is not required."
+      STR_SMUGGLER_CATGIRL_UFOPEDIA: "The Whore in the Smuggler outfit is entertainment, client distraction and extra gun to help in a fight."
+      STR_SMUGGLER_ENGINEER_UFOPEDIA: "Smuggler Engineers are highly valued in the team, they fix a lot of things. Like Plane engine, the plane itself if damage, maintainence and etc. They got a gun too, if they are forced to fight."
+      STR_SMUGGLER_CAPTAIN_UFOPEDIA: "The Captain runs the show, as a Smuggler captain, he's the pilot, plane captain, risk taker, navigator, team leader. He's very talented and deadly too, with a weapon."	 
+alienRaces:
+  - id: STR_SMUGGLER
+    members:
+      - STR_SMUGGLER_CAPTAIN
+      - STR_SMUGGLER_CATGIRL
+      - STR_SMUGGLER_CATGIRL
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+    retaliationAggression: -100
+  - id: STR_SMUGGLER_UNDERWATER	
+    members:
+      - STR_SMUGGLER_CAPTAIN
+      - STR_SMUGGLER_CATGIRL
+      - STR_SMUGGLER_CATGIRL
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+      - STR_SMUGGLER_GOON
+    retaliationAggression: -100
+ufopaedia:
+  - id: STR_SMUGGLER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SMUGGLER
+    text: STR_SMUGGLER_UFOPEDIA
+    text_width: 158
+    listOrder: 25600
+  - id: STR_SMUGGLER_CATGIRL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SMUGGLER_CATGIRL
+    text: STR_SMUGGLER_CATGIRL_UFOPEDIA
+    text_width: 180
+    listOrder: 25630
+  - id: STR_SMUGGLER_CAPTAIN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SMUGGLER_CAPTAIN
+    text: STR_SMUGGLER_CAPTAIN_UFOPEDIA
+    text_width: 180
+    listOrder: 25650
+  - id: STR_SMUGGLER_GOON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SMUGGLER_GOON
+    text: STR_SMUGGLER_GOON_UFOPEDIA
+    text_width: 180
+    listOrder: 28200	
+research:
+  - name: STR_SMUGGLER
+    ##requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 50
+    needItem: false
+    dependencies:
+      - STR_SMUGGLER_CAPTAIN
+      - STR_SMUGGLER_CATGIRL	
+      - STR_SMUGGLER_GOON
+  - name: STR_SMUGGLER_GOON
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SMUGGLER	  
+  - name: STR_SMUGGLER_CATGIRL
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 5
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SMUGGLER  
+  - name: STR_SMUGGLER_CAPTAIN
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 15
+    points: 75
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SMUGGLER	  
+units:
+  - type: STR_SMUGGLER_CAPTAIN
+    race: STR_SMUGGLER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 75
+      stamina: 85
+      health: 45
+      bravery: 80
+      reactions: 80
+      firing: 80
+      throwing: 60
+      strength: 32
+      psiStrength: 0
+      psiSkill: 0
+      melee: 70
+      #Mana: 90
+    armor: SMUGGLER_ARMOR_P4	
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 7
+    aggression: 0
+    sniper: 75
+    spotter: 4
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP
+        - STR_GRENADE
+  - type: STR_SMUGGLER_GOON
+    race: STR_RACE_HUMAN
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 80
+      health: 40
+      bravery: 60
+      reactions: 45
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 34
+      psiSkill: 0
+      melee: 45
+      #Mana: 65
+    armor: SMUGGLER_ARMOR_P1
+    standHeight: 22
+    kneelHeight: 14
+    value: 3
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+  - type: STR_SMUGGLER_CATGIRL
+    race: STR_SMUGGLER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 90
+      stamina: 75
+      health: 30
+      bravery: 80
+      reactions: 90
+      firing: 50
+      throwing: 40
+      strength: 18
+      psiStrength: 40
+      psiSkill: 0
+      melee: 85
+      #Mana: 40
+    armor: SMUGGLER_ARMOR_P2
+    standHeight: 22
+    kneelHeight: 14
+    value: 2
+    deathSound: [44, 45, 46]
+    energyRecovery: 42
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM	
+armors:
+  - type: SMUGGLER_ARMOR_P1
+    spriteSheet: SMU_1.PCK
+    spriteInv: SmugglerGoonInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    corpseBattle:
+      - STR_SMUGGLER_1_CORPSE_BATTLE
+    #corpseGeo: STR_GOVT_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.5
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: SMUGGLER_ARMOR_P2
+    spriteSheet: PIR_102.PCK
+    customArmorPreviewIndex: 61
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_SMUGGLER_2_CORPSE_BATTLE
+    #corpseGeo: STR_STEALTHSUIT_CORPSE	
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -15
+       melee: 10
+       throwing: 5
+    visibilityAtDark: 12
+    weight: 10
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.25
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 5.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_KUNG_FU_ALT
+    loftempsSet: [ 3 ]  
+  - type: SMUGGLER_ARMOR_P4
+    spriteInv: INV_MALE_GREASER
+    spriteSheet: GREASERSHEET.PCK
+    corpseBattle:
+      - STR_SMUGGLER_4_CORPSE_BATTLE
+    #corpseGeo: STR_GOVT_CORPSE            
+    visibilityAtDark: 6
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+items:
+  - type: STR_SMUGGLER_NEGOTIATOR_BROKEN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 100000
+  - type: STR_SMUGGLER_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3571
+    floorSprite: 3571
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45
+  - type: STR_SMUGGLER_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 35
+    bigSprite: 3102
+    floorSprite: 3102
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: -10
+    armor: 40
+  - type: STR_SMUGGLER_4_CORPSE_BATTLE
+    name: STR_CORPSE
+    #categories: [STR_CORPSES]
+    weight: 22
+    costSell: 500
+    size: 1.0
+    bigSprite: 3909
+    floorSprite: 3909	
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: true
+    recoveryPoints: 5
+  - type: STR_SMUGGLER_GOON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 20000	
+  - type: STR_SMUGGLER_CATGIRL
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 40000
+    transferTime: 180	
+  - type: STR_SMUGGLER_CAPTAIN
+    requiresBaseFunc: [INTERROGATION] 
+    transferTime: 128
+    prisonType: 1	
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 100000

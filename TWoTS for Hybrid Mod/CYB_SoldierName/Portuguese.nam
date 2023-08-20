@@ -1,0 +1,361 @@
+lookWeight:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - CS Afonso
+  - CS Alberto
+  - CS Alexandre
+  - CS Alvaro
+  - CS Andre
+  - CS Antonio
+  - CS Augusto
+  - CS Bernardo
+  - CS Bruno
+  - CS Carlos
+  - CS Cristiano
+  - CS Daniel
+  - CS David
+  - CS Diogo
+  - CS Duarte
+  - CS Eduardo
+  - CS Fabio
+  - CS Fernando
+  - CS Filipe
+  - CS Flavio
+  - CS Francisco
+  - CS Frederico
+  - CS Gabriel
+  - CS Goncalo
+  - CS Guilherme
+  - CS Gustavo
+  - CS Helder
+  - CS Henrique
+  - CS Hugo
+  - CS Ivo
+  - CS Jaime
+  - CS Joao
+  - CS Joaquim
+  - CS Jorge
+  - CS Jose
+  - CS Julio
+  - CS Leonardo
+  - CS Leonel
+  - CS Luis
+  - CS Manuel
+  - CS Marcelo
+  - CS Marcio
+  - CS Marco
+  - CS Mario
+  - CS Miguel
+  - CS Nelson
+  - CS Nuno
+  - CS Orlando
+  - CS Paulo
+  - CS Pedro
+  - CS Rafael
+  - CS Raul
+  - CS Ricardo
+  - CS Roberto
+  - CS Rodolfo
+  - CS Rodrigo
+  - CS Rui
+  - CS Samuel
+  - CS Sergio
+  - CS Tiago
+  - CS Telmo
+  - CS Tomas
+  - CS Vasco
+  - CS Vitor
+femaleFirst:
+  - CS Alice
+  - CS Ana
+  - CS Anabela
+  - CS Andreia
+  - CS Angela
+  - CS Aurora
+  - CS Barbara
+  - CS Beatriz
+  - CS Bia
+  - CS Carina
+  - CS Carla
+  - CS Carolina
+  - CS Catarina
+  - CS Catia
+  - CS Celeste
+  - CS Celia
+  - CS Celina
+  - CS Clara
+  - CS Claudia
+  - CS Cristiana
+  - CS Cristina
+  - CS Daniela
+  - CS Dalia
+  - CS Debora
+  - CS Diana
+  - CS Dulce
+  - CS Elsa
+  - CS Eva
+  - CS Fatima
+  - CS Fernanda
+  - CS Filipa
+  - CS Filomena
+  - CS Flavia
+  - CS Florbela
+  - CS Francisca
+  - CS Gabriela
+  - CS Gloria
+  - CS Helena
+  - CS Ilda
+  - CS Ines
+  - CS Irene
+  - CS Isabel
+  - CS Joana
+  - CS Josefina
+  - CS Julia
+  - CS Lara
+  - CS Laura
+  - CS Leonor
+  - CS Liliana
+  - CS Luisa
+  - CS Madalena
+  - CS Mafalda
+  - CS Manuela
+  - CS Margarida
+  - CS Maria
+  - CS Mariana
+  - CS Marina
+  - CS Marisa
+  - CS Marta
+  - CS Matilde
+  - CS Monica
+  - CS Natalia
+  - CS Nadia
+  - CS Olivia
+  - CS Patricia
+  - CS Paula
+  - CS Rafaela
+  - CS Raquel
+  - CS Rita
+  - CS Rute
+  - CS Sandra
+  - CS Sara
+  - CS Sofia
+  - CS Sonia
+  - CS Soraia
+  - CS Susana
+  - CS Tania
+  - CS Teresa
+  - CS Telma
+  - CS Vanessa
+  - CS Vera
+maleLast:
+  - Abrantes
+  - Abreu
+  - Agostinho
+  - Albano
+  - Albuquerque
+  - Aleixo
+  - Almeida
+  - Alves
+  - Amaro
+  - Amaral
+  - Andrade
+  - Anjos
+  - Antunes
+  - Araujo
+  - Assis
+  - Azevedo
+  - Barata
+  - Barreiras
+  - Barreto
+  - Barros
+  - Barroso
+  - Bastos
+  - Bento
+  - Beja
+  - Borges
+  - Brandao
+  - Brito
+  - Cabral
+  - Cadete
+  - Caetano
+  - Caldeira
+  - Campos
+  - Cardoso
+  - Carneiro
+  - Carrico
+  - Carrilho
+  - Carvalho
+  - Castro
+  - Cavaco
+  - Cavaleiro
+  - Chaves
+  - Coelho
+  - Conceicao
+  - Correia
+  - Cortes
+  - Costa
+  - Coutinho
+  - Couto
+  - Crespo
+  - Cristovao
+  - Cruz
+  - Cunha
+  - Cunhal
+  - Delgado
+  - Dias
+  - Dinis
+  - Dionisio
+  - Domingos
+  - Duarte
+  - Esteves
+  - Farinha
+  - Fernandes
+  - Ferreira
+  - Figueira
+  - Figueiredo
+  - Fitas
+  - Fragoso
+  - Fragata
+  - Francisco
+  - Franco
+  - Freire
+  - Freitas
+  - Fonseca
+  - Fontes
+  - Fortes
+  - Furtado
+  - Galvao
+  - Gama
+  - Garcia
+  - Godinho
+  - Gomes
+  - Goncalves
+  - Gouveia
+  - Graca
+  - Grilo
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guimaraes
+  - Henriques
+  - Homem
+  - Horta
+  - Jacinto
+  - Jesus
+  - Lameiras
+  - Laranjeiro
+  - Leal
+  - Lima
+  - Lopes
+  - Lourenco
+  - Luz
+  - Macedo
+  - Machado
+  - Madeira
+  - Maia
+  - Magalhaes
+  - Marques
+  - Martinho
+  - Martins
+  - Marujo
+  - Mateus
+  - Matias
+  - Matos
+  - Maximo
+  - Meireles
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mestre
+  - Mira
+  - Miranda
+  - Moniz
+  - Monteiro
+  - Morais
+  - Moreira
+  - Morgado
+  - Mota
+  - Moura
+  - Mourinho
+  - Nascimento
+  - Neto
+  - Neves
+  - Nobrega
+  - Nogueira
+  - Noronha
+  - Nunes
+  - Oliveira
+  - Pacheco
+  - Pais
+  - Paiva
+  - Parreira
+  - Pato
+  - Peixe
+  - Peixoto
+  - Pereira
+  - Pessoa
+  - Pimentel
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pires
+  - Portugal
+  - Povoa
+  - Prata
+  - Queiros
+  - Raimundo
+  - Ramalho
+  - Ramos
+  - Raposo
+  - Rato
+  - Real
+  - Rebelo
+  - Reis
+  - Relvas
+  - Ribeiro
+  - Rio
+  - Rocha
+  - Rodrigues
+  - Ronaldo
+  - Rosario
+  - Roseiro
+  - Salgado
+  - Salgueiro
+  - Sampaio
+  - Sanches
+  - Santana
+  - Santos
+  - Sebastiao
+  - Semedo
+  - Sequeira
+  - Serra
+  - Serrao
+  - Serras
+  - Silva
+  - Silvestre
+  - Silvino
+  - Simoes
+  - Soares
+  - Sobral
+  - Sousa
+  - Tavares
+  - Teixeira
+  - Teles
+  - Torres
+  - Valadas
+  - Valente
+  - Varandas
+  - Varela
+  - Vasconcelos
+  - Vaz
+  - Veloso
+  - Viana
+  - Vicente
+  - Vidal
+  - Vieira
+  - Viegas
+  - Vitorino
+  - Xavier

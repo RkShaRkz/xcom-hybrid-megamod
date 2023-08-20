@@ -1,0 +1,186 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_DEVILS_REEF: "Dangerous Reef"
+      STR_SEA_DEVILS_REEF: "Dangerous Reef"
+      LOC_DEVILS_REEF: "Dangerous Reef"
+      ALERT_DEVILS_REEF: "Dangerous Reef"
+      MARKER_DEVILS_REEF: "Dangerous Reef"
+      LOC_DEVILS_REEF_BRIEFING: "The Merc Guild a job contract made available recently by a few factions. They will pay any mercenary outfit that could avert of an underwater alien migration some where in the sea. This migration is threatening an undersea mining operation close by."   
+alienDeployments:
+  - type: STR_SEA_DEVILS_REEF
+    alert: ALERT_DEVILS_REEF
+    alertDescription: LOC_DEVILS_REEF_BRIEFING
+    alertBackground: BACK04.SCR
+    markerName: MARKER_DEVILS_REEF
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTSEA
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED		
+    enviroEffects: STR_UNDERWATERENVIRO 
+    depth: [1, 1]   	
+    duration: [75, 125]
+    despawnPenalty: 350
+    abortPenalty: 250
+    briefing:
+      palette: 4
+      music: GMNEWMAR    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_SEA_DEVILS_REEF   
+      desc: LOC_DEVILS_REEF_BRIEFING
+    width: 70
+    length: 70
+    height: 7
+    minShade: 12
+    objectiveType: 80
+    objectiveComplete: [STR_BEACONS_DESTROYED, 1000]
+    objectivePopup: STR_BEACONS_DESTROYED
+    script: SEABED_DEVILS_REEF
+    data:
+      - alienRank: 5
+        lowQty: 20
+        highQty: 40
+        dQty: 10
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 3
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_HE_BOMB 
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+alienMissions:
+  - type: STR_DEVILS_REEF
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_AQUATOID: 25
+          STR_GILLMAN: 25
+          STR_LOBSTERMAN: 25
+          STR_TASOTH: 25			  
+    waves:
+      - ufo: STR_SEA_DEVILS_REEF
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: SEABED_DEVILS_REEF
+    commands:
+    - type: resize
+      size: [8, 8, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      executions: 3
+      terrain: STR_CORAL_BEACON
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain		
+missionScripts:
+  - type: devilsReef
+    firstMonth: 10
+    missionWeights:
+      0:
+        STR_DEVILS_REEF: 100
+    regionWeights:
+      0:
+         SEASPAWNS: 100
+    useTable: false
+    executionOdds: 3
+    startDelay: 1000
+    randomDelay: 40000
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true
+    facilityTriggers:
+      STR_MERCFACILITY: true

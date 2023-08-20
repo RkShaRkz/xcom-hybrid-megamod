@@ -1,0 +1,285 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING: "After the recovery of the Stargate, the organization has relocated it to Cheyenne Mountain Complex and rename itself to Stargate Command. Now that a mission is assigned to you, to start the mission, you need to gather all your troops in the gateroom and then exit to the next mission to launch it."	
+      STR_CHEYENNEMOUNTAINCOMPLEX: "Stargate Command Cheyenne Mountain Complex"	
+      STR_CHEYENNEBASE: "   Cheyenne MountBase"  
+      STR_CHEYENNEMOUNTAINCOMPLEXPINK_CAVES: "Stargate Command Cheyenne Mountain Complex"	
+      STR_PINK_CAVES: "Alien Dimention Exploration "
+      STR_DIMENSION_X_DESERT: "Alien Dimention Exploration Part 2"	  
+      STR_ALERT_PINK_CAVES: "Alien Dimention Exploration"
+      STR_PINK_CAVES_DESCRIPTION: "Stargate Command has a new mission available. The job involve doing the Mercenary Unit doing a scouting plus hunt and destroy mission. Good payment upon of the job's completion. There will be no news crew accomodating you on this mission."
+      STR_PINK_CAVES_BRIEFING: "Stargate Command has a new mission available. The job involve doing the Mercenary Unit doing a scouting plus hunt and destroy mission. Good payment upon of the job's completion. There will be no news crew accomodating you on this mission."	
+ufopaedia:
+  - id: STR_PINK_CAVES
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_PINK_CAVES
+    text: STR_PINK_CAVES_UFOPEDIA
+    image_id: BLANKUFOPEDIA.SPK
+    text_width: 140
+    listOrder: 54020	  
+research:	  	  
+  - name: STR_DIMENSION_X_DESERT_SECURED
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true 
+globe:
+  textures:	
+    - id: -102314
+      deployments:
+        STR_STARGATE_BASESPAWN: 100
+regions:
+  - type: CheyenneMountainbasespawns
+    missionZones:
+      -
+        - [252.03890942664, 252.03890942664, -38.20708109093, -38.20708109093, -102314]	
+  - type: STR_NORTH_AMERICA
+    missionZones:
+      -
+        - [252.03890942664, 252.03890942664, -38.20708109093, -38.20708109093, -102314, STR_CHEYENNEBASE]	  
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEX
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 	 
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE   
+    nextStage: STR_DIMENSION_X_DESERT
+    alert: STR_ALERT_PINK_CAVES
+    alertBackground: CAVES_BACKGROUND.SCR
+    alertDescription: STR_PINK_CAVES_DESCRIPTION
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      background: CAVES_BACKGROUND.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    duration: [25, 10000000000000]
+    despawnPenalty: 10
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    data:
+      - alienRank: 3
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXPINK_CAVES
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 	 
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE   
+    nextStage: STR_DIMENSION_X_DESERT
+    alert: STR_ALERT_PINK_CAVES
+    alertBackground: CAVES_BACKGROUND.SCR
+    alertDescription: STR_PINK_CAVES_DESCRIPTION
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      background: CAVES_BACKGROUND.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    duration: [25, 10000000000000]
+    despawnPenalty: 10
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    data:
+      - alienRank: 3
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+  - type: STR_DIMENSION_X_DESERT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    width: 70
+    length: 70
+    height: 14
+    shade: 0
+    alert: STR_ALERT_PINK_CAVES
+    alertBackground: BACK01.SCR
+    briefing:
+      background: BACK01.SCR
+      palette: 2
+      music: EIGHT
+      showTarget: false
+    markerName: STR_DIMENSION_X_DESERT
+    duration: [100, 244]
+    despawnPenalty: 50
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND		
+    unlockedResearch: STR_DIMENSION_X_DESERT_SECURED
+    script: STR_PINK_CAVES_BASEX	
+    terrains:
+      - DESERT_PINK
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 0
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []	
+mapScripts:
+  - type: STR_PINK_CAVES_BASEX
+    commands:
+    - type: addBlock
+      size: [1,1,2]
+      executionChances: 100
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: DESERT_PINK	 
+        groups: 1
+      - type: middle
+        size: [1,1,2]
+        terrain: STARGATEENTRYX
+    - type: fillArea	
+      terrain: DESERT_PINK	
+  - type: CHEYENNECOMPLEX
+    commands:
+    - type: resize
+      size: [4, 4, 18]
+    - type: addBlock
+      size: 2
+      executions: 1 
+      rects:
+        - [0,0,2,2]	   
+      executionChances: 100 
+      terrain: MOUNTAINCOMPLEX		  
+    - type: addCraft
+      terrain: MOUNT 
+      groups: 1 
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: MOUNT	  
+    - type: fillArea
+      terrain: MOUNT	  
+alienMissions:
+  - type: STR_STARGATE_BASESPAWN
+    #despawnEvenIfTargeted: false
+    #objective: 3
+    #spawnZone: 0
+    points: 50
+    objective: 0
+    operationType: 2
+    operationSpawnZone: 0
+    operationBaseType: STR_CHEYENNEMOUNTAINCOMPLEX
+    raceWeights:
+      0:
+        STR_CIVILIANZ_1: 100
+    waves:
+      - ufo: Dummy
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 0
+        objective: true	
+  - type: STR_PINK_CAVES
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SCORPOID: 100  
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXPINK_CAVES
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true	
+missionScripts:
+  - type: pinkCaves2
+    firstMonth: 0
+    executionOdds: 2
+    varName: pinkcaves2exc
+    maxRuns: 1		
+    missionWeights:
+      0:
+        STR_PINK_CAVES: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    varName: pinkkycavsas
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_DIMENSION_X_DESERT_SECURED: false	  
+      STR_STARGATE: true	  
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

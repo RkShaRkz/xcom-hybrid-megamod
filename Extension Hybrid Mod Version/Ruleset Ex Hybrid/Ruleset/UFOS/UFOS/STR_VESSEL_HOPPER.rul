@@ -1,0 +1,173 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_HOPPER: Hopper  
+      STR_VESSEL_HOPPER_UFOPEDIA: "The least well defended of the Alien ufo, the Hopper is more of a light UFO transport for the aliens." 
+ufopaedia:
+  - id: STR_VESSEL_HOPPER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_HOPPER
+    text: STR_VESSEL_HOPPER_UFOPEDIA
+research:
+  - name: STR_VESSEL_HOPPER
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_HOPPER
+ufos:
+  - type: STR_VESSEL_HOPPER
+    size: STR_SMALL
+    modSprite: InterceptionHopper
+    fireSound: 38
+    hitBonus: 15
+    damageMax: 150
+    speedMax: 3800
+    accel: 9
+    range: 15
+    power: 20
+    reload: 33
+    score: 200
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: VES_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT_B
+        - U_WALL_B
+        - U_BITS_B
+      mapBlocks:
+        - name: VES_150
+          width: 20
+          length: 10
+alienDeployments:
+  - type: STR_VESSEL_HOPPER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_HOPPER	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 1
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_HOPPER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_HOPPER
+    depth: [1, 1]		
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 1
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []

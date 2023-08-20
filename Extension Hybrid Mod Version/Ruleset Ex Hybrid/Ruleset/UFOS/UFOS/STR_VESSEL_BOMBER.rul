@@ -1,0 +1,185 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_BOMBER: Bomber
+      STR_VESSEL_BOMBER_UFOPEDIA: "This ufo is design to attack ground target with high precision. Sometimes if Aliens resort to full scale attack, these ufos will be the bulk of the attack fleet" 
+ufopaedia:
+  - id: STR_VESSEL_BOMBER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_BOMBER
+    text: STR_VESSEL_BOMBER_UFOPEDIA
+research:
+  - name: STR_VESSEL_BOMBER
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_BOMBER
+ufos:
+  - type: STR_VESSEL_BOMBER
+    size: STR_LARGE
+    modSprite: InterceptionBomber
+    fireSound: 45
+    hitBonus: 15
+    damageMax: 900
+    speedMax: 4100
+    accel: 7
+    power: 225
+    range: 65
+    reload: 33
+    armor: 10
+    score: 2000
+    radarRange: 150
+    hunterKillerPercentage: 0
+    huntBehavior: 0
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: VES_210
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+        - U_DISEC2
+        - U_OPER_G
+      mapBlocks:
+        - name: VES_210
+          width: 20
+          length: 30
+          items:			  
+            STR_ELERIUM_115:
+              - [4, 4, 2]
+              - [9, 4, 2]
+              - [15, 4, 2]
+alienDeployments:
+  - type: STR_VESSEL_BOMBER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_BOMBER
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 0
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_BOMBER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_BOMBER
+    depth: [1, 1]		
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 0
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

@@ -1,0 +1,193 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SPAWN_NATASHA_MOROZOVA: "Renegade Merc Officer"	
+      STR_NATASHA_MOROZOVA_HIDEOUT_DESCRIPTION: "The Mercenary guild has received a job offer from a rich goverment faction. They want you to hunt down a renegade Merc Officer. Kill or capture her, that is your discretion."
+      STR_NATASHA_MOROZOVA_HIDEOUT_BRIEFING: "The Mercenary guild has received a job offer from a rich goverment faction. They want you to hunt down a renegade Merc Officer. Kill or capture her, that is your discretion."
+      STR_NATASHA_MOROZOVA_HIDEOUT: "Capture Renegade Merc Officer"
+      STR_NATASHA_MOROZOVA_HIDEOUT_TEMPERATE: "Capture Renegade Merc Officer"
+      STR_NATASHA_MOROZOVA_HIDEOUT_COLD: "Capture Renegade Merc Officer"
+alienDeployments:
+  - type: STR_NATASHA_MOROZOVA_HIDEOUT_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_NATASHA_MOROZOVA_HIDEOUT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_NATASHA_MOROZOVA_HIDEOUT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_NATASHA_MOROZOVA_HIDEOUT_BRIEFING
+      showTarget: false
+    markerName: STR_NATASHA_MOROZOVA_HIDEOUT
+    duration: [25, 10000000000000]
+    despawnPenalty: 200
+    unlockedResearch: STR_MOROZOVA_DONE		
+    script: GENERALSPAWNXP1
+    music:
+      - GMTACTIC
+    customUfo: STR_SUSPECTHOUSE	
+    data:
+      - alienRank: 4 #STR_ZSRR_MOLOLEC #4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 3 #STR_ZSRR_PIONEER_MALE #3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2 #STR_ZSRR_PIONEER_FEMALE #2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 1 #STR_ZSRR_MATROS #1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 8 #STR_ZSRR_RED_OPS_MALE
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []		
+ufos:	  
+  - type: STR_SUSPECTHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10	
+          items:
+            STR_SPAWN_NATASHA_MOROZOVA: 
+              - [4, 3, 0]
+          fuseTimers:
+             STR_SPAWN_NATASHA_MOROZOVA: [0, 0]
+items:
+  - type: STR_SPAWN_NATASHA_MOROZOVA
+    spawnUnit: NATASHA_MOROZOVA
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+  - type: NATASHA_MOROZOVA
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 154000				 
+units:
+  - type: NATASHA_MOROZOVA
+    race: STR_HUMAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+      #mana: 50
+    armor: STR_FEMALE_CIVILIAN_CITY_GIRL_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 20
+    deathSound: [44, 45, 46]		
+alienMissions:
+  - type: STR_NATASHA_MOROZOVA_HIDEOUT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+research:		
+  - name: STR_MOROZOVA_DONE	
+    ##requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 50
+    needItem: true
+missionScripts:
+  - type: NatashaMorozovaHideoutEndGame
+    firstMonth: 0
+    executionOdds: 100
+    maxRuns: 1
+    varName: natashamorozovahideout
+    missionWeights:
+      0:
+        STR_NATASHA_MOROZOVA_HIDEOUT: 100
+    regionWeights:
+      0:
+       LANDSPAWNS: 100
+    useTable: false
+    researchTriggers:
+      STR_MOROZOVA_DONE: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

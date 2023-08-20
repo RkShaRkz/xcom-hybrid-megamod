@@ -1,0 +1,45 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      111: Resources/Sounds/Fire.wav
+      112: Resources/Sounds/sonichit.wav
+      113: Resources/Sounds/meleedrill.wav
+      114: Resources/Sounds/HeavyRailgun.wav
+      115: Resources/Sounds/harpoonfire.wav
+      116: Resources/Sounds/harpoonimpact.wav
+      117: Resources/Sounds/SniperFire.wav
+      118: Resources/Sounds/gascannon.wav
+      119: Resources/Sounds/Torpedo.wav
+      120: Resources/Sounds/Toerpedo hit.wav
+      121: Resources/Sounds/DISRUPTOR_RIFLE_fire.ogg
+      122: Resources/Sounds/gausscannon.wav
+      123: Resources/Sounds/ElectroHit.wav
+      124: Resources/Sounds/gaussrifle.wav
+      125: Resources/Sounds/Bolthit.wav
+      404: Resources/Sounds/TFTDAliensounds/aquatoiddies.wav
+      405: Resources/Sounds/TFTDAliensounds/Biodronedies.wav
+      406: Resources/Sounds/TFTDAliensounds/Caldies.wav
+      407: Resources/Sounds/TFTDAliensounds/Deep1dies.wav
+      408: Resources/Sounds/TFTDAliensounds/Dronemoving.wav
+      409: Resources/Sounds/TFTDAliensounds/Gilmandies.wav
+      410: Resources/Sounds/TFTDAliensounds/Halludies.wav
+      411: Resources/Sounds/TFTDAliensounds/Hallumoves.wav
+      412: Resources/Sounds/TFTDAliensounds/Lobstermandies.wav
+      413: Resources/Sounds/TFTDAliensounds/Taslothdies.wav
+      414: Resources/Sounds/TFTDAliensounds/tentadies.wav
+      415: Resources/Sounds/TFTDAliensounds/tentamoves.wav
+      416: Resources/Sounds/TFTDAliensounds/tricendies.wav
+      417: Resources/Sounds/TFTDAliensounds/Vibroattack.wav
+      418: Resources/Sounds/TFTDAliensounds/Xarsquiddies.wav
+      950: Resources/Sounds/harpoonpistolfire.wav
+      960: Resources/Sounds/Soniccannon.wav
+      970: Resources/Sounds/sonicrifle.wav
+      980: Resources/Sounds/sonichit2.wav
+      990: Resources/Sounds/underwaterbreathing.wav
+      1001: Resources/Sounds/JetMove.ogg
+      1011: Resources/Sounds/Gauss.wav
+  - type: GEO.CAT
+    files:
+      20: Resources/Sounds/JetMove.ogg
+
+

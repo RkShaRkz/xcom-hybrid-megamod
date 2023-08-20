@@ -1,0 +1,229 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_NAZIBASEDEFENSE: "Forth Reich Base Defender"	
+        STR_GENERALKOL: "General Kol Mares"
+        STR_GENERALKOL_UFOPEDIA: "General Kol Mares is a regional leader for a large Forth Reich unit. He seems to have developed a relationship with Dr X, but we are not interested in their love affair. The drug interrogation has revealed of Dr X's true location. It is what we need. As to what to do with General Kol, that is your decision."		
+        STR_MERCBASESYNASSAULT: "Syn Mission 7: Forth Reich Base Assault"
+        STR_ALERT_MERCBASESYNASSAULT: "Forth Reich Base Assault"
+        STR_MERCBASESYNASSAULT_DESCRIPTION: "Forth Reich Base Assault"
+        STR_MERCBASESYNASSAULT_BRIEFING: "This is the Merc guild here.  X wasn't in her Winter Mansion, instead, she got her boyfriend General Kol's forces to setup a big ambush for your unit. The Merc Guild sympahtised of the casulties that your unit has sustained, but revenge is at hand, with the Merc Guild has gotten the location of Kol's main base of operation. Raid or Destroy it, the important objective is the death of X."	
+alienDeployments:
+  - type: STR_MERCBASESYNASSAULT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL	  
+    width: 50
+    length: 50
+    height: 16
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_MERCBASESYNASSAULT
+    unlockedResearch: STR_MISSION7END		
+    alertBackground: BACK04.SCR
+    alertDescription: STR_MERCBASESYNASSAULT_DESCRIPTION
+    briefing:
+      desc: STR_MERCBASESYNASSAULT_BRIEFING
+      background: BACK04.SCR
+      palette: 2
+      showTarget: false
+    markerName: STR_MERCBASESYNASSAULT
+    duration: [25, 10000000000000]
+    despawnPenalty: 100
+    script: GENERALSPAWNBUNKERSYN
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []	
+      - alienRank: 2
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []		
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+alienRaces:			
+  - id: STR_NAZIBASEDEFENSE
+    members:
+      - STR_GENERALKOL 
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER	  
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER	  
+  - id: STR_NAZIBASEDEFENSE_UNDERWATER	
+    members:
+      - STR_GENERALKOL 
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER	  
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER			
+ufopaedia:	
+  - id: STR_GENERALKOL
+    requires:
+      - STR_GENERALKOL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_GENERALKOL_UFOPEDIA				
+research:
+  - name: STR_GENERALKOL
+    requiresBaseFunc: [INTERROGATION]	 
+    cost: 1
+    points: 40
+    needItem: true
+  - name: STR_MISSION7END 
+    points: 25
+    needItem: true				
+terrains:
+  - name: STR_LARGEBUNKER_ENTRY
+    mapDataSets:
+      - BLANKS
+      - URBAN40K
+      - URBITS40K
+      - XCOMENTRY
+      - BATHBITZ
+      - ABUNKER 
+      - COMPUTERS	  
+    mapBlocks:
+      - name: BUNKERENTRY
+        width: 30
+        length: 30 
+mapScripts: #done		  
+  - type: GENERALSPAWNBUNKERSYN
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	
+    - type: addBlock
+      executions: 2
+      terrain: SMALLBARRACKFORT
+      executionChances: 100	  
+    - type: addBlock
+      size: 3
+      executions: 1
+      terrain: STR_LARGEBUNKER_ENTRY  
+    - type: fillArea
+      terrain: globeTerrain	
+units:
+  - type: STR_GENERALKOL
+    race: STR_NAZIS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: NAZI_ARMOR_P4
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+items:	
+  - type: STR_GENERALKOL
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 405000						
+alienMissions:
+  - type: STR_MERCBASESYNASSAULT
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_NAZIBASEDEFENSE: 100
+    waves:
+      - ufo: STR_MERCBASESYNASSAULT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: synmissionriechbaseassault
+    firstMonth: 0
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_MERCBASESYNASSAULT: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    varName: winerpalsas
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_LOC_WINTER_PALACE_DONE: true		
+      STR_MISSION7END: false	
+    facilityTriggers:
+      STR_MERCFACILITY: true

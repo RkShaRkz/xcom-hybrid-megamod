@@ -1,0 +1,200 @@
+soldiers: #COMMON SOLDIERS NERFED even more
+
+  - type: STR_MC_SOLDIER
+    costSalary: 40000
+    requires:
+     - STR_MC_SOLDIERS
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 35
+      psiSkill: 1
+      melee: 20
+      mana: 10600	  
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 90
+      psiSkill: 16
+      melee: 40
+      mana: 18200	  
+    statCaps:
+      tu: 76
+      stamina: 90
+      health: 60
+      bravery: 100
+      reactions: 90
+      firing: 90
+      throwing: 90
+      strength: 60
+      psiStrength: 90
+      psiSkill: 60
+      melee: 90
+    trainingStatCaps:
+      tu: 70
+      stamina: 90
+      health: 50
+      bravery: 100
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 50
+      psiSkill: 60
+      melee: 80
+    dogfightExperience:
+      bravery: 10
+      reactions: 30
+      firing: 25
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50 
+    soldierNames:
+      - mgs_SoldierName/
+    deathMale: 48
+    deathFemale: 48
+  - type: STR_SHIELDED_SOLDIER
+    costSalary: 30000
+    requires:
+     - STR_MC_SOLDIERS
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 100
+      psiSkill: 0
+      melee: 20
+      mana: 10600
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 40
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 40
+      mana: 18200	  
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 60
+      reactions: 80
+      firing: 110
+      throwing: 110
+      strength: 75
+      psiStrength: 100
+      psiSkill: 0
+      melee: 110
+      mana: 19200	  
+    trainingStatCaps:
+      tu: 70
+      stamina: 90
+      health: 50
+      bravery: 100
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 50
+      psiSkill: 0
+      melee: 80
+    dogfightExperience:
+      bravery: 10
+      reactions: 30
+      firing: 25
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - mps_SoldierName/
+    deathMale: 48
+    deathFemale: 48
+      
+  - type: STR_IMP_SOLDIER
+    costSalary: 30000
+    requires:
+     - STR_MC_SOLDIERS
+    minStats:
+      tu: 60
+      stamina: 40
+      health: 35
+      bravery: 30
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 30
+      mana: 10600
+    maxStats:
+      tu: 65
+      stamina: 70
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 40
+      mana: 18200	  
+    statCaps:
+      tu: 100
+      stamina: 125
+      health: 80
+      bravery: 100
+      reactions: 110
+      firing: 120
+      throwing: 120
+      strength: 85
+      psiStrength: 55
+      psiSkill: 100
+      melee: 130
+      mana: 19200	  
+    trainingStatCaps:
+      tu: 70
+      stamina: 90
+      health: 50
+      bravery: 100
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 50
+      psiSkill: 100
+      melee: 90
+    dogfightExperience:
+      bravery: 10
+      reactions: 30
+      firing: 25
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 15
+    soldierNames:
+      - cyb_SoldierName/
+    deathMale: 48
+    deathFemale: 48

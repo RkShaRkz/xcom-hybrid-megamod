@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - MGS Abhijay
+  - MGS Adil
+  - MGS Chandresh
+  - MGS Dev
+  - MGS Dinesh
+  - MGS Govinda
+  - MGS Jaideep
+  - MGS Kanak
+  - MGS Mahesh
+  - MGS Neelam
+  - MGS Om
+  - MGS Pallav
+  - MGS Parmesh
+  - MGS Rajesh
+  - MGS Ranjit
+  - MGS Samir
+  - MGS Sanjiv
+  - MGS Sudeep
+  - MGS Vihaan
+  - MGS Yogendra
+  - MGS Sachin
+  - MGS Rahul
+  - MGS Anil
+  - MGS Virender
+  - MGS Kapil
+  - MGS Sourav
+  - MGS Harbhajan
+femaleFirst:
+  - MGS Ajita
+  - MGS Amma
+  - MGS Avinashi
+  - MGS Deepti
+  - MGS Gulab
+  - MGS Hina
+  - MGS Indira
+  - MGS Jasweer
+  - MGS Kalinda
+  - MGS Keva
+  - MGS Madhuri
+  - MGS Meera
+  - MGS Neela
+  - MGS Parvati
+  - MGS Priti
+  - MGS Ranhita
+  - MGS Roshan
+  - MGS Savitri
+  - MGS Sitesh
+  - MGS Ushma
+  - MGS Vritika
+  - MGS Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

@@ -1,0 +1,133 @@
+items: 
+  - type: FEMALE_CIVILIAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1000  
+  - type: MALE_CIVILIAN	
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1000  
+  - type: STR_TRICENE_TERRORIST  
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000  
+  - type: STR_ZRBITE
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 56
+    floorSprite: 37
+    invWidth: 2
+    invHeight: 1
+    attraction: 4
+    recoveryPoints: 5
+  - type: STR_AQUATOID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_AQUATOID_SQUAD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_TECHNICIAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CALCINITE_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_GILLMAN_SQUAD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_TECHNICIAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_DEEP_ONE_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_TASOTH_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TASOTH_SQUAD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BIODRONE_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_TENTACULAT_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_SQUAD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_LOBSTERMAN_TECHNICIAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+#  - underwaterSmokeOffset: 8
+

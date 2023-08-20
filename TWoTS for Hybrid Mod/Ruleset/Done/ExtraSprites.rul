@@ -1,0 +1,3292 @@
+extraSprites:
+  - typeSingle: BigStunIndicator
+    fileSingle: Resources/Inticon/Zzz.png
+  - typeSingle: FloorStunIndicator
+    fileSingle: Resources/Inticon/Zzz.png
+  - typeSingle: BigBurnIndicator
+    fileSingle: Resources/Inticon/burning.gif
+  - typeSingle: FloorBurnIndicator
+    fileSingle: Resources/Inticon/burning.gif
+  - typeSingle: BigWoundIndicator
+    fileSingle: Resources/Inticon/Bleed.png
+  - typeSingle: FloorWoundIndicator
+    fileSingle: Resources/Inticon/Bleed.png
+  - typeSingle: BigShockIndicator
+    fileSingle: Resources/Inticon/Frost.png
+  - typeSingle: FloorShockIndicator
+    fileSingle: Resources/Inticon/Frost.png
+
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      128: Resources/armor/inv_corpse.png
+      129: Resources/Weapons/bigob_knife.png
+      130: Resources/Weapons/bigob_harp.png
+      131: Resources/Weapons/bigob_harp_Clip.gif
+      132: Resources/Weapons/bigob_harp_Clip_e.gif
+      133: Resources/Weapons/bigob_harp_Clip_st.png
+      134: Resources/Weapons/bigob_P11.png
+      135: Resources/Weapons/bigob_P11_Clip.png
+      136: Resources/Weapons/bigob_ads.png
+      137: Resources/Weapons/bigob_ads_Clip.png
+      138: Resources/Weapons/bigob_spp.png
+      139: Resources/Weapons/bigob_spp_Clip.png
+      140: Resources/Weapons/bigob_cl.png
+      141: Resources/Weapons/bigob_cl_Clip.png
+      142: Resources/Weapons/bigob_alien_Clip.png
+      143: Resources/Weapons/bigob_spear.png
+      144: Resources/Weapons/ax.png
+      145: Resources/Weapons/dynamite.png
+      146: Resources/Weapons/bigob_drone_stun.png
+      147: Resources/Weapons/bigob_plasma.png
+      150: Resources/Weapons/bigob_dartp_st.png
+      151: Resources/Weapons/bigob_dartp.png
+      152: Resources/Weapons/bigob_dartr.png
+      153: Resources/Weapons/bigob_aqjet.png
+      154: Resources/Weapons/bigob_hj_smg.png
+      155: Resources/Weapons/bigob_hj_smg_clip.png
+      156: Resources/Weapons/bigob_bioflare.png
+      157: Resources/Weapons/bigob_advmedikit.png
+      158: Resources/Weapons/bigob_laser.png
+      159: Resources/Weapons/bigob_elerium.png
+      160: Resources/armor/bigob_Newtsuit.png
+      161: Resources/armor/bigob_exosuit.png
+      162: Resources/armor/bigob_biosuit.png
+      163: Resources/armor/bigob_hybrid_suit.png
+      164: Resources/armor/bigob_mc_armor.png
+      165: Resources/armor/bigob_hazmatarmor.png
+      166: Resources/armor/bigob_mcba.png
+      175: Resources/units/bigob_slime_CORPSE.gif
+      176: Resources/units/bigob_polyph_corpse.png
+      177: Resources/units/bigob_freak.png
+      178: Resources/units/bigob_drown_corpse.png
+      179: Resources/units/bigob_paladin_corpse.gif
+      180: Resources/units/bigob_fanatic_corpse.gif
+      181: Resources/units/bigob_disciple_corpse.gif
+      182: Resources/units/bigob_soldier.png
+      183: Resources/units/bigob_officer_corpse.png
+      184: Resources/units/bigob_naga_corpse.png
+      185: Resources/units/bigob_drone_corpse.png
+      186: Resources/units/bigob_outcast_corpse.png
+      187: Resources/units/bigob_drone2_corpse.bmp
+      188: Resources/units/bigob_mutant1_corpse.png
+      189: Resources/units/bigob_mutant2_corpse.png
+      190: Resources/units/bigob_ghost.png   
+      191: Resources/Weapons/bigob_advtorp.png
+      192: Resources/Weapons/heavy_torp.png
+      193: Resources/Weapons/correc_torp.png
+      194: Resources/Weapons/bigob_hwp_gas.png
+      195: Resources/Weapons/bigob_hwp_sc.png
+      196: Resources/Weapons/bigob_hwp_ADVtorp.png
+      197: Resources/Weapons/bigob_hwp_gauss.png
+      198: Resources/Weapons/bigob_drone_gun.png
+      199: Resources/Weapons/bigob_hwp_ion.png
+      201: Resources/Weapons/bigob_ion_sidearm.png
+      202: Resources/Weapons/bigob_ion_cannon.png
+      203: Resources/Weapons/bigob_h_ion_cannon.png
+      204: Resources/Weapons/bigob_ion_sidearm_clip.png
+      205: Resources/Weapons/bigob_ion_clip.png
+      206: Resources/Weapons/bigob_h_ion_clip.png
+      208: Resources/Weapons/bigob_gauss_cannon.png
+      209: Resources/Weapons/bigob_gauss_autogun.png
+      210: Resources/Weapons/bigob_gauss_autoclip.png     
+      211: Resources/Weapons/bigob_gauss_sniper.png
+      212: Resources/Weapons/bigob_gsniper_clip.png
+      213: Resources/Weapons/bigob_microtorp.png
+      214: Resources/Weapons/bigob_microtorp_clip.png
+      215: Resources/units/bigob_mutant0.png
+      216: Resources/Weapons/bigob_microtorp_clip_he.png
+      217: Resources/Weapons/bigob_microtorp_clip_p.png
+      218: Resources/Weapons/bigob_microtorp_clip_zr.png
+      220: Resources/Weapons/bigob_key.png
+      226: Resources/Weapons/bigob_hj_smg_pack.png
+      227: Resources/Weapons/bigob_hj_smg_clip_sc.png
+      230: Resources/Weapons/bigob_mc_controller.png
+      231: Resources/Weapons/bigob_zrbite_gas_clip.png
+      232: Resources/Weapons/bigob_zrbite_aqjet.png
+      233: Resources/Weapons/bigob_zrbite_torp.png
+      236: Resources/Weapons/bigob_tri.png
+      238: Resources/Weapons/bigob_autosonic.png
+      239: Resources/Weapons/bigob_autosonic_clip.png
+      245: Resources/Weapons/bigob_hg_cannon.png
+      246: Resources/Weapons/bigob_hg_he_clip.png
+      247: Resources/Weapons/bigob_hg_fl_clip.png
+      248: Resources/Weapons/bigob_hg_zr_clip.png
+      249: Resources/Weapons/bigob_snipersonic.png
+      250: Resources/Weapons/bigob_snipersonic_clip.png
+      251: Resources/units/bigob_Plasmicide.png
+      254: Resources/units/bigob_needler.png
+      255: Resources/units/bigob_heavyaquatoid.png
+      256: Resources/units/bigob_heavygillman.png
+      257: Resources/units/bigob_tasothguard.png
+      260: Resources/weapons/bigob_shard_pistol.png
+      261: Resources/weapons/bigob_shard_rifle.png
+      262: Resources/weapons/bigob_shard_cannon.png
+      263: Resources/weapons/bigob_shard_flask.png
+      281: Resources/units/CarcharodonInventoryCorpse.gif
+      282: Resources/units/bigob_zombie_worm.gif
+      283: Resources/weapons/SharkBite.png
+      284: Resources/Weapons/bigob_hook.png
+      285: Resources/Weapons/bigob_acidgun.gif
+      286: Resources/Weapons/bigob_acidgun_clip.png
+      287: Resources/Weapons/old/bigob_ak.png
+      288: Resources/Weapons/old/bigob_ak_clip.png
+      289: Resources/Weapons/old/bigob_shotgun.png
+      290: Resources/Weapons/old/bigob_shotgun_shells.png
+      291: Resources/Weapons/old/bigob_revolver.png
+      292: Resources/Weapons/old/bigob_revolver_drum.png
+      293: Resources/Weapons/old/bigob_lmg.png
+      294: Resources/Weapons/old/bigob_lmg_clip.png
+      295: Resources/Weapons/old/bigob_xrifle.png
+      296: Resources/Weapons/old/bigob_xrifle_clip.png
+      297: Resources/Weapons/old/bigob_flamethrower.png
+      298: Resources/Weapons/old/bigob_flamethrower_clip.png
+      299: Resources/Weapons/old/bigob_laser_carbine.png
+      300: Resources/Weapons/old/bigob_laser_rifle.png
+      301: Resources/Weapons/old/bigob_stun_grenade.png
+      302: Resources/Weapons/old/bigob_laser_smg.png
+      303: Resources/Weapons/bigob_acid_pistol.png
+      304: Resources/Weapons/bigob_acid_pistol_clip.png
+      310: Resources/Weapons/bigob_heavy_sc.png
+      311: Resources/Weapons/bigob_heavy_gl.png
+      312: Resources/Weapons/bigob_heavy_grenade.png
+      313: Resources/Weapons/bigob_solitone_grenade.png
+      314: Resources/Weapons/bigob_sonic_ram.png
+      315: Resources/Weapons/bigob_h_inc.png
+      316: Resources/armor/carapace_corpse.png
+      320: Resources/Weapons/bigob_solitone_bomb.png
+      321: Resources/Weapons/bigob_solitone_charge.png
+      324: Resources/Weapons/bigob_vibroknife.png
+      325: Resources/Weapons/bigob_chains.png
+      326: Resources/Weapons/bigob_projector.png
+      327: Resources/Weapons/bigob_focus.png
+      328: Resources/Weapons/bigob_hand.png
+      329: Resources/Weapons/bigob_dp64.png
+      340: Resources/Weapons/bigob_dp_grenade_he.png
+      341: Resources/Weapons/bigob_dp_grenade_p.png
+      344: Resources/Weapons/bigob_repair_tool.png
+      345: Resources/Weapons/bigob_laser_pistol.png
+      346: Resources/Weapons/bigob_blob.png
+      347: Resources/Weapons/bigob_burner.png
+      350: Resources/Armor/magpack_3x3.png
+      351: Resources/Armor/ionpack_3x3.png
+      352: Resources/Armor/balpack_2x3.png
+      400: Resources/units/bigob_mindworms.png 
+      405: Resources/units/bigob_locust.gif
+      406: Resources/units/bigob_jelly.png
+      407: Resources/Weapons/bigob_dartr_st.png
+      408: Resources/Weapons/bigob_supressor.png
+      409: Resources/Weapons/bigob_spawner.png
+      410: Resources/Weapons/bigob_tangler.png
+      411: Resources/Weapons/bigob_infector.png
+      412: Resources/Weapons/bigob_vampire.png
+      414: Resources/Weapons/bigob_piercer.png
+      415: Resources/Weapons/bigob_piercer_dart.png
+      417: Resources/Weapons/bigob_injector.png
+      418: Resources/units/bigob_servitor.png
+      425: Resources/armor/bigob_a_bio_suit.png
+      426: Resources/Weapons/bigob_bubble.png
+      427: Resources/Weapons/bigob_spray.png
+      428: Resources/Weapons/bigob_brain.png
+      429: Resources/Weapons/bigob_cocoon.png
+      432: Resources/units/bigob_drone_s_corpse.png
+      433: Resources/Weapons/bigob_target.png
+      
+  - type: BIGOBS.PCK
+    width: 288
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      330: Resources/Weapons/Terror.png
+  - type: BIGOBS.PCK
+    width: 33
+    height: 17
+    files:
+      430: Resources/Weapons/blank_2x1.png
+  - type: BIGOBS.PCK
+    width: 49
+    height: 49
+    files:
+      431: Resources/Weapons/blank_3x3.png
+  - type: BIGOBS.PCK
+    width: 65
+    height: 33
+    files:
+      434: Resources/Weapons/blank_4x2.png
+
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      129: Resources/armor/floor_corpse.png
+      130: Resources/Weapons/floorob_knife.png
+      132: Resources/Weapons/Floorob_harp.png
+      133: Resources/Weapons/Floorob_harp_clip.gif
+      134: Resources/Weapons/floorob_p11.png
+      135: Resources/Weapons/Floorob_p11_clip.png
+      136: Resources/Weapons/Floorob_ads.png
+      137: Resources/Weapons/floorob_ads_clip.png
+      138: Resources/Weapons/floorob_spp.png
+      139: Resources/Weapons/Floorob_spp_clip.png
+      140: Resources/Weapons/floorob_cl.png
+      141: Resources/Weapons/floorob_CL_clip.png
+      143: Resources/Weapons/floorspear.png
+      144: Resources/Weapons/floorax.png
+      145: Resources/Weapons/floordynamite.png
+      147: Resources/Weapons/Floorob_plasma.png
+      148: Resources/Weapons/floorOb_VibroBlade_Alt.png
+      149: Resources/Weapons/floorOb_ThermicLance_Alt.png
+      150: Resources/Weapons/floorOb_HeavyThermicLance_Alt.png
+      154: Resources/Weapons/floorob_hj_smg.png
+      158: Resources/Weapons/floorob_laser.png
+      159: Resources/Weapons/floorob_elerium.png
+      160: Resources/armor/floorob_newtsuit.png
+      161: Resources/armor/floorob_exosuit.png
+      162: Resources/armor/floorob_biosuit.png
+      163: Resources/armor/floorob_hybrid_suit.png
+      164: Resources/armor/floorob_mc_armor.png
+      165: Resources/armor/floorob_hazmatarmor.png
+      174: Resources/units/floorob_drone.png
+      175: Resources/units/FLOORob_slime_CORPSE.gif
+      176: Resources/units/FLOORob_polyph.png
+      177: Resources/units/floorob_freak.png
+      178: Resources/units/floorob_drown_corpse.png
+      179: Resources/units/floorob_paladin_corpse.png
+      180: Resources/units/FLOORob_fanatic_corpse.gif
+      181: Resources/units/FLOORob_disciple_corpse.gif
+      182: Resources/units/FLOORob_soldier.png
+      183: Resources/units/floorob_officer_corpse.png
+      184: Resources/units/FLOORob_naga_corpse.png
+      185: Resources/units/FLOORob_drone.png
+      186: Resources/units/FLOORob_a_drone.png
+      187: Resources/units/FLOORob_drone2.png
+      188: Resources/units/FLOORob_mutant1_corpse.png
+      189: Resources/units/FLOORob_mutant2_corpse.png
+      190: Resources/units/FLOORob_ghost.png
+      191: Resources/Weapons/floorob_advtorp.png
+      208: Resources/Weapons/floorob_gauss_cannon.png
+      211: Resources/Weapons/floorob_gsniper.png
+      212: Resources/Weapons/floorob_ion_sidearm.png
+      213: Resources/Weapons/floorob_ion_cannon.png
+      214: Resources/Weapons/floorob_h_ion_cannon.png
+      215: Resources/units/FLOORob_mutant0.png
+      216: Resources/Weapons/floorob_microtorp.png
+      217: Resources/Weapons/floorob_microtorp_clip.png
+      220: Resources/Weapons/floorob_key.png
+      233: Resources/Weapons/floorob_zrbite_torp.png
+      236: Resources/Weapons/floorob_tri.png
+      238: Resources/Weapons/floorob_autosonic.png
+      245: Resources/Weapons/floorob_hg_cannon.png
+      249: Resources/Weapons/floorob_snipersonic.png
+      252: Resources/units/floorob_Plasmicide.png
+      255: Resources/units/floorob_turtle_1.gif
+      256: Resources/units/floorob_turtle_2.gif
+      257: Resources/units/floorob_turtle_3.gif
+      258: Resources/units/floorob_turtle_4.gif
+      260: Resources/weapons/floorob_shard_pistol.png
+      261: Resources/weapons/floorob_shard_rifle.png
+      262: Resources/weapons/floorob_shard_cannon.png
+      263: Resources/weapons/floorob_shard_flask.png
+      265: Resources/units/floorob_reef_1.gif
+      266: Resources/units/floorob_reef_2.png
+      267: Resources/units/floorob_reef_3.png
+      268: Resources/units/floorob_reef_4.png
+      269: Resources/units/floorob_oct_1.png
+      270: Resources/units/floorob_oct_2.png
+      271: Resources/units/floorob_oct_3.png
+      272: Resources/units/floorob_oct_4.png
+      273: Resources/units/floorob_hellcrab2.png
+      274: Resources/units/floorob_hellcrab3.png
+      275: Resources/units/floorob_hellcrab4.png
+      277: Resources/units/floorob_needler.png
+      278: Resources/units/floorob_heavyaquatoid.png
+      279: Resources/units/floorob_heavygillman.png
+      280: Resources/units/floorob_tasothguard.png
+      281: Resources/units/CarcharodonUnitFloorobj.gif
+      282: Resources/units/floorob_zombie_worm.gif
+      284: Resources/Weapons/floorob_hook.png
+      285: Resources/Weapons/floorob_acidgun.gif
+      286: Resources/Weapons/floorob_acidgun_clip.png
+      287: Resources/Weapons/old/floorob_ak.png
+#      286: Resources/Weapons/old/floorob_ak_clip.png
+      289: Resources/Weapons/old/floorob_shotgun.png
+      291: Resources/Weapons/old/floorob_revolver.png
+      293: Resources/Weapons/old/floorob_lmg.png
+      295: Resources/Weapons/old/floorob_xrifle.png
+      297: Resources/Weapons/old/floorob_flamethrover.png
+      298: Resources/Weapons/old/floorob_flamethrover_clip.png
+      299: Resources/Weapons/old/floorob_laser_carbine.png
+      300: Resources/Weapons/old/floorob_laser_rifle.png
+      301: Resources/Weapons/old/floorob_stun_grenade.png
+      302: Resources/Weapons/old/floorob_laser_smg.png
+      312: Resources/Weapons/floorob_heavy_grenade.png
+      316: Resources/armor/floorob_carapace.png
+      320: Resources/Weapons/floorob_solitone_bomb.png
+      321: Resources/Weapons/floorob_solitone_charge.png
+      324: Resources/Weapons/floorob_vibroknife.png
+      325: Resources/Weapons/floorob_chains.png
+      326: Resources/Weapons/floorob_projector.png
+      327: Resources/Weapons/floorob_focus.png
+      328: Resources/Weapons/floorob_dp64.png
+      329: Resources/Weapons/floorob_dp64_grenade.png
+      344: Resources/Weapons/floorob_repair_tool.png
+      345: Resources/Weapons/floorob_laser_pistol.png
+      400: Resources/units/floorob_mindworms.png
+      405: Resources/units/floorob_locust.gif
+      406: Resources/units/floorob_jelly.png
+      408: Resources/Weapons/floorob_supressor.png
+      409: Resources/Weapons/floorob_spawner.png
+      410: Resources/Weapons/floorob_tangler.png
+      411: Resources/Weapons/floorob_infector.png
+      412: Resources/Weapons/floorob_vampire.png
+      414: Resources/Weapons/floorob_piercer.png
+      415: Resources/Weapons/floorob_piercer_dart.png
+      418: Resources/units/floorob_servitor.png
+#      425: Resources/armor/floorob_a_bio_suit.png  
+      426: Resources/Weapons/floorob_bubble.png
+      427: Resources/Weapons/floorob_spray.png
+      428: Resources/Weapons/floorob_brain.png
+      429: Resources/Weapons/floorob_cocoon.png
+      430: Resources/units/floorob_drone_s_corpse.png
+      800: Resources/Weapons/Blank.png
+
+  - type: FLOOROB.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      350: Resources/armor/walker_dead.png
+  - type: FLOOROB.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      354: Resources/armor/walker2_dead.png
+   
+  - type: HANDOB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 40
+    files:
+      1067: Resources/Weapons/handob_spear.png
+      1075: Resources/Weapons/handob_ax.png
+      1083: Resources/Weapons/handob_dynamite.png
+      1091: Resources/Weapons/handob_advtorp.png
+      1099: Resources/Weapons/handob_gauss_sniper.png
+      1111: Resources/Weapons/Handob_knife.png
+      1119: Resources/Weapons/Handob_harp.png
+      1127: Resources/Weapons/Handob_P11.png
+      1135: Resources/Weapons/Handob_ads.png
+      1143: Resources/Weapons/Handob_ads_clip.png
+      1151: Resources/Weapons/Handob_spp.png
+      1159: Resources/Weapons/Handob_cl.png
+      1167: Resources/Weapons/Handob_ion_SIDEARM.png 
+      1175: Resources/Weapons/Handob_ion_cannon.png
+      1183: Resources/Weapons/Handob_H_ion_cannon.png     
+      1191: Resources/Weapons/handob_laser.png
+      1199: Resources/Weapons/handob_gauss_cannon.png
+      1207: Resources/Weapons/handob_tri.png
+      1215: Resources/Weapons/handob_autosonic.png
+      1223: Resources/Weapons/handob_hg_cannon.png
+      1231: Resources/Weapons/handob_hook.png
+      1239: Resources/Weapons/handob_acidgun.png
+#      1247: Resources/Weapons/handob__clip.png
+      1247: Resources/Weapons/old/handob_ak.png
+      1255: Resources/Weapons/old/handob_shotgun.png
+      1263: Resources/Weapons/old/handob_revolver.png
+      1271: Resources/Weapons/old/handob_lmg.png
+      1279: Resources/Weapons/old/handob_xrifle.png
+      1287: Resources/Weapons/old/handob_flamethrover.png
+      1295: Resources/Weapons/old/handob_laser_carbine.png
+      1303: Resources/Weapons/old/handob_laser_rifle.png
+      1311: Resources/Weapons/handob_snipersonic.png
+      1319: Resources/Weapons/handob_hj_smg.png
+      1327: Resources/Weapons/handob_microtorp.png
+      1335: Resources/Weapons/handob_freezer.png
+      1343: Resources/Weapons/handob_chains.png
+      1351: Resources/Weapons/handob_focus.png
+      1359: Resources/Weapons/handob_dp64.png
+      1367: Resources/Weapons/handob_repair_tool.png
+      1375: Resources/Weapons/handob_laser_pistol.png
+      1383: Resources/Weapons/handob_supressor.png
+      1391: Resources/Weapons/handob_spawner.png
+      1399: Resources/Weapons/handob_tangler.png
+      1407: Resources/Weapons/handob_infector.png
+      1415: Resources/Weapons/handob_vampire.png
+      1423: Resources/Weapons/handob_piercer.png
+      1431: Resources/Weapons/handob_spray.png
+      1439: Resources/Weapons/handob_vibroknife.png
+      1447: Resources/Weapons/handob_plasma.png
+      1453: Resources/Weapons/handOb_VibroBlade_Alt.png
+      1461: Resources/Weapons/handOb_ThermicLance_Alt.png
+      1469: Resources/Weapons/handOb_HeavyThermicLance_Alt.png
+      1477: Resources/Weapons/old/handob_laser_smg.png
+      1485: Resources/Weapons/handob_shard_pistol.png
+      1493: Resources/Weapons/handob_shard_rifle.png
+      1501: Resources/Weapons/handob_shard_cannon.png
+      1509: Resources/Weapons/handob_acid_pistol.png
+  - type: BASEBITS.PCK
+    files:
+      55: Resources/Basebits/P6M-2.png
+      56: Resources/Basebits/basebits_cormorant.png
+      57: Resources/Basebits/Moray.gif
+      58: Resources/Basebits/BASEBIT_POSEIDON.PNG
+      59: Resources/Basebits/BASEBIT_angel.PNG
+      60: Resources/Basebits/BASEBIT_typhon.PNG
+      61: Resources/Basebits/BASEBIT_cambala.PNG
+      62: Resources/Basebits/BASEBIT_ud.PNG
+      63: Resources/Basebits/BASEBIT_stinger.PNG
+      64: Resources/Basebits/BASEBIT_buoy.PNG
+      65: Resources/Basebits/BASEBIT_buoy_a.PNG
+      66: Resources/Basebits/BASEBIT_buoy_a.PNG
+      77: Resources/Basebits/BASEBIT_buoy_arm.PNG
+      
+      105: Resources/Basebits/basebits_bomb.bmp
+      106: Resources/Basebits/basebits_squall.png
+      107: Resources/Basebits/basebits_ion.png
+      108: Resources/Basebits/basebits_dolphin.png
+      109: Resources/Basebits/basebits_kraken.png
+      110: Resources/Basebits/basebits_biotorp.png
+      111: Resources/Basebits/basebits_johnny.png
+      112: Resources/Basebits/basebit_shield.png
+      113: Resources/Basebits/basebit_array.png
+      114: Resources/Basebits/basebit_magnet.png
+      115: Resources/Basebits/basebit_aqua_cannon.png
+      
+      200: Resources/Basebits/basebit_pool.png
+      201: Resources/Basebits/basebit_biolab.png
+      202: Resources/Basebits/basebits_precontinent.png
+      203: Resources/Basebits/basebit_medbay.png
+      204: Resources/Basebits/basebit_medbay2.png
+      210: Resources/Basebits/BASEBIT_center1.png
+      211: Resources/Basebits/BASEBIT_center2.png
+      212: Resources/Basebits/BASEBIT_center3.png
+      213: Resources/Basebits/BASEBIT_center4.png
+      214: Resources/Basebits/BASEBITS_Construction1.png
+      215: Resources/Basebits/BASEBITS_Construction2.png
+      216: Resources/Basebits/BASEBITS_Construction3.png
+      217: Resources/Basebits/BASEBITS_Construction4.png
+      218: Resources/Basebits/BASEBIT_advcenter1.png
+      219: Resources/Basebits/BASEBIT_center2.png
+      220: Resources/Basebits/BASEBIT_advcenter3.png
+      221: Resources/Basebits/BASEBIT_center4.png
+      222: Resources/Basebits/BASEBITS_Construction1.png
+      223: Resources/Basebits/BASEBITS_Construction2.png
+      224: Resources/Basebits/BASEBITS_Construction3.png
+      225: Resources/Basebits/BASEBITS_Construction4.png
+#---      
+      230: Resources/Basebits/BASEBIT_RUBBLE.png
+      231: Resources/Basebits/BASEBIT_RUBBLE.png
+      232: Resources/Basebits/BASEBIT_RUBBLE.png
+      233: Resources/Basebits/BASEBIT_RUBBLE.png
+
+#previews
+
+  - type: CustomArmorPreviews
+    width: 204
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/basebits/basebits_figures.png
+  - type: CustomItemPreviews
+    width: 224
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/basebits/basebits_drones.png
+#Extended facilities by Blank(c)
+  - type: BASEBITS.PCK
+    files:
+      350: Resources/Basebits/BASEBITS_LargeLiving1.png
+      351: Resources/Basebits/BASEBITS_LargeLiving2.png
+      352: Resources/Basebits/BASEBITS_LargeLiving3.png
+      353: Resources/Basebits/BASEBITS_LargeLiving4.png
+      354: Resources/Basebits/BASEBITS_Construction1.png
+      355: Resources/Basebits/BASEBITS_Construction2.png
+      356: Resources/Basebits/BASEBITS_Construction3.png
+      357: Resources/Basebits/BASEBITS_Construction4.png
+      358: Resources/Basebits/BASEBITS_CorridorNS.png
+      359: Resources/Basebits/BASEBITS_CorridorEW.png
+      360: Resources/Basebits/BASEBITS_Empty.png
+      361: Resources/Basebits/BASEBITS_ConstructionNS.png
+      362: Resources/Basebits/BASEBITS_ConstructionEW.png
+      363: Resources/Basebits/BASEBITS_LargeStore1.png
+      364: Resources/Basebits/BASEBITS_LargeStore2.png
+      365: Resources/Basebits/BASEBITS_LargeStore3.png
+      366: Resources/Basebits/BASEBITS_LargeStore4.png
+      367: Resources/Basebits/BASEBITS_Construction1.png
+      368: Resources/Basebits/BASEBITS_Construction2.png
+      369: Resources/Basebits/BASEBITS_Construction3.png
+      370: Resources/Basebits/BASEBITs_Construction4.png
+#
+  - type: AMEDBOARD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Inticon/medibord2.png
+  - type: AlienInventory
+    singleImage: true
+    files:
+      0: Resources/Inticon/inv_back.png
+#
+  - type: UP081G.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP081G.png
+
+  - type: UP076L.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP076L.png
+  - type: UP078C.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP078C.png
+#...      
+      
+  - typeSingle: BURNUPIMAGE
+    fileSingle: Resources/ufopaedia/up_burn.png
+  - typeSingle: PROTOUPIMAGE
+    fileSingle: Resources/ufopaedia/up_proto.png
+  - typeSingle: PALADINUPIMAGE
+    fileSingle: Resources/ufopaedia/up_paladin.png
+  - typeSingle: BAS2UPIMAGE
+    fileSingle: Resources/ufopaedia/bas2.png
+  - typeSingle: WZUPIMAGE
+    fileSingle: Resources/ufopaedia/up_wz.png
+  - typeSingle: ALIENCLIPUPIMAGE
+    fileSingle: Resources/ufopaedia/up_alien_clip.png     
+  - typeSingle:  OUTCASTUPIMAGE
+    fileSingle: Resources/ufopaedia/up_outcast.png
+  - typeSingle: POOLUPIMAGE
+    fileSingle: Resources/ufopaedia/POOL_UP.png   
+  - typeSingle: BUBBLEUPIMAGE
+    fileSingle: Resources/ufopaedia/up_bubble.png
+  - typeSingle: BIOLABUPIMAGE
+    fileSingle: Resources/ufopaedia/BIOLAB_UP.png
+  - typeSingle: BELLUPIMAGE
+    fileSingle: Resources/ufopaedia/up_precontinent.png
+  - typeSingle: MEDBAYUPIMAGE
+    fileSingle: Resources/ufopaedia/up_MEDBAY.png
+  - typeSingle: MEDBAY2UPIMAGE
+    fileSingle: Resources/ufopaedia/up_MEDBAY2.png
+  - typeSingle: CENTERUPIMAGE
+    fileSingle: Resources/ufopaedia/up_center.png
+  - typeSingle: ADVCENTERUPIMAGE
+    fileSingle: Resources/ufopaedia/up_advcenter.png
+  - typeSingle: SYNOMUPIMAGE
+    fileSingle: Resources/ufopaedia/up_synom.png
+  - typeSingle: COMPONENTSUPIMAGE
+    fileSingle: Resources/ufopaedia/up_neural_components.png
+#...
+  - type: INTICON.PCK
+    files:
+      22: Resources/Inticon/P6MMinimized.gif
+      23: Resources/Inticon/Minimized_cormorant.png
+      24: Resources/Inticon/MorayMinimized.gif
+      25: Resources/Inticon/INTICON_POSEIDON.png
+      26: Resources/Inticon/INTICON_angel.png
+      27: Resources/Inticon/INTICON_typhon.png
+      28: Resources/Inticon/INTICON_cambala.png
+      29: Resources/Inticon/INTICON_ud.png
+      30: Resources/Inticon/INTICON_stinger.png
+      31: Resources/Inticon/INTICON_buoy.png
+      32: Resources/Inticon/INTICON_buoy_a.png
+      33: Resources/Inticon/P6MDogfight.gif
+      34: Resources/Inticon/Dogfight_cormorant.png
+      35: Resources/Inticon/MorayDogfight.gif
+      36: Resources/Inticon/DOGFIGHT_POSEIDON.png
+      37: Resources/Inticon/DOGFIGHT_angel.png
+      38: Resources/Inticon/DOGFIGHT_typhon.png
+      39: Resources/Inticon/DOGFIGHT_cambala.gif
+      40: Resources/Inticon/DOGFIGHT_ud.png
+      41: Resources/Inticon/DOGFIGHT_stinger.png
+      42: Resources/Inticon/DOGFIGHT_buoy.png
+      43: Resources/Inticon/DOGFIGHT_buoy_a.png
+      44: Resources/Inticon/INTicon_buoy_arm.png
+      55: Resources/Inticon/DOGFIGHT_buoy_arm.png
+      62: Resources/Inticon/bomb_int.png
+      63: Resources/Inticon/squall_int.png
+      64: Resources/Inticon/ion_int.png
+      65: Resources/Inticon/dolphin_int.png
+      66: Resources/Inticon/kraken_int.png
+      67: Resources/Inticon/biotorp_int.png
+      68: Resources/Inticon/johnny_int.png
+      69: Resources/Inticon/int_shield.png
+      70: Resources/Inticon/int_array.png
+      71: Resources/Inticon/int_magnet.png
+      72: Resources/Inticon/int_aqua_cannon.png
+     
+
+#SPRITESHEETS
+  - type: IONSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/ion_armor_sheet.png
+  - type: MCBASHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1640
+    files:
+      0: Resources/Armor/mc_battlearmor_sheet.png
+
+  - type: LUNGSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/lung_sheet.png
+  - type: CARAPACESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 1024
+    height: 360
+    files:
+      0: Resources/Armor/carapace_sheet.png
+
+  - type: HAZMAT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armor/hazmatarmor_spritesheet.png
+  - type: NEWTSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/newtsuit_sheet.png
+
+  - type: EXOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/exosuit_sheet.png
+
+  - type: BIOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1600
+    files:
+      0: Resources/Armor/biosuit_sheet.png
+  - type: ABIOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/A_bio_suit_sheet.png
+  - type: HYBRIDSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/hybrid_suit_sheet.png
+  - type: MCSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/mc_armor_sheet.png
+  - type: WALKERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/Armor/SPLIT_WALKER.png
+  - type: WALKERSHEET2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/Armor/SPLIT_WALKER2.png
+  - type: OUTCASTSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Units/outcast_sheet.png
+  - type: SLIME.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/units/slime_sheet.png
+
+  - type: SERVITOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/units/servitor_sheet.png
+
+  - type: POLYPH.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/POLYPH_sheet.png
+
+  - type: PROTOPLASM.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/PLASMICIDE.png
+  - type: pCALCIN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/units/pCALCIN.png
+
+  - type: DISCIPLE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/units/disciple_sheet.png
+  - type: FANATIC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 520
+    files:
+      0: Resources/units/fanatic_sheet.png
+  - type: ABYSSIAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 600
+    files:
+      0: Resources/units/jelly.png 
+
+  - type: REEF.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/units/REEF_sheet.png
+
+  - type: OCT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/units/oct_sheet.png
+      
+  - type: TURTLE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/units/turtle_sheet.png
+
+  - type: NAGA.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/units/NAGA_sheet.png
+      
+  - type: FREAK.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/units/freak_sheet.png
+  - type: HELLCRAB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/units/hellcrab_sheet.png
+
+  - type: DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_sheet.png
+      
+  - type: S_DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_s_sheet.png
+  - type: A_DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_a_sheet.png
+      
+  - type: DRONE2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/drone2_sheet.png
+  - type: MINDWORMS.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/mindworms_sheet.png
+  - type: MINDWORMSL.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/mindworms_l_sheet.png
+  - type: LOCUST.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 40
+    files:
+      0: Resources/units/locust_sheet.png
+  - type: NEEDLER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/needler_sheet.png
+  - type: GHOST.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/ghost_sheet.png
+
+  - type: ZOMBIE_WORMS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Units/ZOMBIE_worms_sheet.png
+  - type: MUTANT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 760
+    files:
+      0: Resources/units/mutant_sheet.png
+  - type: MUTANT0.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/units/mutant0_sheet.png
+  - type: CARCHARODON.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/units/CarcharodonUnit.gif
+  - type: TASOTHGUARD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/tasothguard_sheet.png
+      
+  - type: HEAVYAQUATOID.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/heavyaquatoid_sheet.png
+      
+  - type: HEAVYGILLMAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/heavygillman_sheet.png
+
+  - type: POWERZOMBIESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/powerzombie_sheet.png
+  - type: SOLDIERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Units/soldier_sheet.png
+  - type: OFFICERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/officer_sheet.png
+
+#INVENTORY IMAGES
+#additional avatars
+
+  #- typeSingle: MAN_0F4.SPK
+  #  fileSingle: Resources/Armor/New_Inv_pics/F0/0f4.png
+  #- typeSingle: MAN_0F5.SPK
+  #  fileSingle: Resources/Armor/New_Inv_pics/F0/0f5.png
+  
+  #- typeSingle: MAN_0M4.SPK
+  #  fileSingle: Resources/Armor/New_Inv_pics/M0/0M4.png
+  #- typeSingle: MAN_0M5.SPK
+  #  fileSingle: Resources/Armor/New_Inv_pics/M0/0M5.png
+#Plastic
+  - typeSingle: MAN_1F4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F1/1f4.png
+  - typeSingle: MAN_1F5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F1/1f5.png
+  - typeSingle: MAN_1M4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M1/1M4.png
+  - typeSingle: MAN_1M5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M1/1M5.png
+#Ion
+  - typeSingle: MAN_2F4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F2/2f4.png
+  - typeSingle: MAN_2F5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F2/2f5.png  
+  - typeSingle: MAN_2M4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M2/2M4.png
+  - typeSingle: MAN_2M5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M2/2M5.png
+#Mag-Ion
+  - typeSingle: MAN_3F4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F3/3f4.png
+  - typeSingle: MAN_3F5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/F3/3f5.png
+  - typeSingle: MAN_3M4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M3/3M4.png
+  - typeSingle: MAN_3M5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/M3/3M5.png
+#New
+  - type: NEWTMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_f0.png
+  - type: NEWTMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_f1.png
+  - type: NEWTMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_f2.png
+  - type: NEWTMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_f3.png
+  - typeSingle: NEWTMANF4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/new_f/newf4.png
+  - typeSingle: NEWTMANF5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/new_f/newf5.png
+    
+  - type: NEWTMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_m0.png
+  - type: NEWTMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_m1.png
+  - type: NEWTMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_m2.png
+  - type: NEWTMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/newtsuit_m3.png
+  - typeSingle: NEWTMANM4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/new_m/newm4.png
+  - typeSingle: NEWTMANM5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/new_m/newm5.png
+
+  - type: EXOMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_f0.png
+  - type: EXOMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_f1.png
+  - type: EXOMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_f2.png
+  - type: EXOMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_f3.png
+  - typeSingle: EXOMANF4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/exo_f/exof4.png
+  - typeSingle: EXOMANF5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/exo_f/exof5.png
+  - type: EXOMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_m0.png
+  - type: EXOMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_m1.png
+  - type: EXOMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_m2.png
+  - type: EXOMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit_m3.png
+  - typeSingle: EXOMANM4.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/exo_m/exom4.png
+  - typeSingle: EXOMANM5.SPK
+    fileSingle: Resources/Armor/New_Inv_pics/exo_m/exom5.png
+#---------same with lights
+
+  - type: EXO1MANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_f0.png
+  - type: EXO1MANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_f1.png
+  - type: EXO1MANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_f2.png
+  - type: EXO1MANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_f3.png 
+  - type: EXO1MANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_m0.png
+  - type: EXO1MANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_m1.png
+  - type: EXO1MANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_m2.png
+  - type: EXO1MANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/exosuit1_m3.png
+#----------    
+  - type: LMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png
+  - type: LMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png
+  - type: LMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f1.png
+  - type: LMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.png 
+  - type: LMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: LMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m1.png
+  - type: LMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: LMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.png
+  - type: HAZMATF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - typeSingle: HAZMATF4.SPK
+    fileSingle: Resources/armor/hazmatarmor.png
+  - typeSingle: HAZMATF5.SPK
+    fileSingle: Resources/armor/hazmatarmor.png
+  - type: HAZMATM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - type: HAZMATM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hazmatarmor.png
+  - typeSingle: HAZMATM4.SPK
+    fileSingle: Resources/armor/hazmatarmor.png
+  - typeSingle: HAZMATM5.SPK
+    fileSingle: Resources/armor/hazmatarmor.png
+      
+  - type: CARAPACEMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_f0.png
+  - type: CARAPACEMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_f1.png
+  - type: CARAPACEMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_f2.png
+  - type: CARAPACEMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_f3.png
+  - type: CARAPACEMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_m0.png
+  - type: CARAPACEMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_m1.png
+  - type: CARAPACEMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_m2.png
+  - type: CARAPACEMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/CARAPACE_ARMOR_m3.png   
+  - type: BIOF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_f0.png
+  - type: BIOF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_f0.png
+  - type: BIOF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_f0.png
+  - type: BIOF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_f0.png
+  - typeSingle: BIOF4.SPK
+    fileSingle: Resources/armor/biosuit_f0.png
+  - typeSingle: BIOF5.SPK
+    fileSingle: Resources/armor/biosuit_f0.png
+  - type: BIOM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_m0.png
+  - type: BIOM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/biosuit_m0.png
+  - type: BIOM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/BIOsuit_m0.png
+  - type: BIOM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/BIOsuit_m0.png
+  - typeSingle: BIOM4.SPK
+    fileSingle: Resources/armor/biosuit_m0.png
+  - typeSingle: BIOM5.SPK
+    fileSingle: Resources/armor/biosuit_m0.png   
+  - type: HYBRF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_f0.png
+  - type: HYBRF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_f0.png
+  - type: HYBRF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_f0.png
+  - type: HYBRF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_f0.png
+  - typeSingle: HYBRF4.SPK
+    fileSingle: Resources/armor/hybrid_suit_f0.png
+  - typeSingle: HYBRF5.SPK
+    fileSingle: Resources/armor/hybrid_suit_f0.png
+  - type: HYBRM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_m0.png
+  - type: HYBRM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_m0.png
+  - type: HYBRM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_suit_m0.png
+  - type: HYBRM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/hybrid_Suit_m0.png
+  - typeSingle: HYBRM4.SPK
+    fileSingle: Resources/armor/hybrid_suit_m0.png
+  - typeSingle: HYBRM5.SPK
+    fileSingle: Resources/armor/hybrid_suit_m0.png
+  - type: ABIOF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_f0.png
+  - type: ABIOF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_f0.png
+  - type: ABIOF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_f0.png
+  - type: ABIOF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_f0.png
+  - typeSingle: ABIOF4.SPK
+    fileSingle: Resources/armor/a_bio_suit_f0.png
+  - typeSingle: ABIOF5.SPK
+    fileSingle: Resources/armor/a_bio_suit_f0.png
+  - type: ABIOM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_m0.png
+  - type: ABIOM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_m0.png
+  - type: ABIOM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_m0.png
+  - type: ABIOM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/a_BIO_suit_m0.png
+  - typeSingle: ABIOM4.SPK
+    fileSingle: Resources/armor/a_bio_suit_m0.png
+  - typeSingle: ABIOM5.SPK
+    fileSingle: Resources/armor/a_bio_suit_m0.png
+  - type: MCAF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_f0.png
+  - type: MCAF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_f1.png
+  - type: MCAF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_f2.png
+  - type: MCAF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_f3.png
+  - type: MCAM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_m0.png
+  - type: MCAM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_m1.png
+  - type: MCAM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_m2.png
+  - type: MCAM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mc_armor_m3.png
+  - type: WALKF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - typeSingle: WALKF4.SPK
+    fileSingle: Resources/armor/INV_WALKER.png
+  - typeSingle: WALKF5.SPK
+    fileSingle: Resources/armor/INV_WALKER.png
+  - type: WALKM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - type: WALKM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER.png
+  - typeSingle: WALKM4.SPK
+    fileSingle: Resources/armor/INV_WALKER.png
+  - typeSingle: WALKM5.SPK
+    fileSingle: Resources/armor/INV_WALKER.png
+  - type: WALK2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2F1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2F2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2F3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - typeSingle: WALK2F4.SPK
+    fileSingle: Resources/armor/INV_WALKER2.png
+  - typeSingle: WALK2F5.SPK
+    fileSingle: Resources/armor/INV_WALKER2.png
+  - type: WALK2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2M1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2M2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: WALK2M3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/INV_WALKER2.png
+  - type: ION2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2f0.png
+  - type: ION2F1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2f1.png
+  - type: ION2F2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2f2.png
+  - type: ION2F3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2f3.png
+  - type: ION2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2m0.png
+  - type: ION2M1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2m1.png
+  - type: ION2M2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2m2.png
+  - type: ION2M3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/ion_2m3.png
+  - type: MCBAF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_f0.png
+  - type: MCBAF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_f1.png
+  - type: MCBAF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_f2.png
+  - type: MCBAF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_f3.png
+  - type: MCBAM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_m0.png
+  - type: MCBAM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_m1.png
+  - type: MCBAM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_m2.png
+  - type: MCBAM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/mcba_m3.png
+#inventory images
+  - type: DRONEINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_drone.png
+  - type: SDRONEINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_s_drone.png
+  - type: DRONEINV2
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_drone2.png
+  - type: COELACANTHINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_coelacanth.png
+  - type: TURTLEINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_turtle.png
+  - type: DISPLACERINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_displacer.png
+      
+  - type: PALADININV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_paladin.gif
+  - type: OUTCASTINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_outcast.gif
+      
+  - type: DROWNINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inventory_drown.gif
+  - type: MUTANT0INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant0.png
+  - type: MUTANT1INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant1.png
+  - type: MUTANT2INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant2.gif
+  - type: ABYSSIANINV.SPK
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_jelly.png
+  - type: DISCIPLEINV.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_disciple.gif
+  - type: FANATICINV.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_fanatic.gif
+  - type: DOCKERINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/cargo_worker.gif
+  - type: INVENTORY_CARCHARODON
+    singleImage: true
+    files:
+      0: Resources/units/Carcharodon.gif
+  - type: INVENTORY_AQUATOID
+    singleImage: true
+    files:
+      0: Resources/units/inventory_aquatoid.gif
+  - type: INVENTORY_GILLMAN
+    singleImage: true
+    files:
+      0: Resources/units/inventory_gillman.png
+  - type: INVENTORY_LOBSTERMAN.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_lobsterman.gif
+  - type: INVENTORY_FAT_TOURIST
+    singleImage: true
+    files:
+      0: Resources/units/inventory_fat_tourist.gif
+  - type: INVENTORY_BIKINI_GIRL
+    singleImage: true
+    files:
+      0: Resources/units/inventory_bikini_girl.gif
+  - type: INVENTORY_SURFER
+    singleImage: true
+    files:
+      0: Resources/units/inventory_surfer.png
+  - type: INVENTORY_SAILOR
+    singleImage: true
+    files:
+      0: Resources/units/inventory_sailor.gif
+  - type: INVENTORY_SOLDIER
+    singleImage: true
+    files:
+      0: Resources/units/inventory_soldier.png
+  - type: INVENTORY_OFFICER
+    singleImage: true
+    files:
+      0: Resources/units/inv_officer.png
+  - type: INVENTORY_TASOTH
+    singleImage: true
+    files:
+      0: Resources/units/inventory_tasoth.png
+  - type: INVENTORY_TASOTHGUARD
+    singleImage: true
+    files:
+      0: Resources/units/inventory_tasothguard.png
+  - type: INVENTORY_HEAVYAQUATOID
+    singleImage: true
+    files:
+      0: Resources/units/inventory_heavyaquatoid.gif
+  - type: INVENTORY_HEAVYGILLMAN
+    singleImage: true
+    files:
+      0: Resources/units/inventory_heavygillman.png
+  - type: INVENTORY_BIODRONE
+    singleImage: true
+    files:
+      0: Resources/units/inventory_Biodrone_RGB.png
+  - type: INVENTORY_FREAK
+    singleImage: true
+    files:
+      0: Resources/units/freak_inv.gif
+  - type: INVENTORY_NAGA
+    singleImage: true
+    files:
+      0: Resources/units/inventory_naga.gif
+      
+  - type: INVENTORY_POWERZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_powerzombie.png
+  - type: INVENTORY_TENTACULAT
+    singleImage: true
+    files:
+      0: Resources/units/inv_tentaculat.png
+  - type: INVENTORY_POLYPH
+    singleImage: true
+    files:
+      0: Resources/units/inv_polyph.png
+  - type: INVENTORY_SLIME
+    singleImage: true
+    files:
+      0: Resources/units/inv_creeper.png
+  - type: INVENTORY_GHOST
+    singleImage: true
+    files:
+      0: Resources/units/inv_ghost.png
+  - type: INVENTORY_NEEDLER
+    singleImage: true
+    files:
+      0: Resources/units/inv_needler.png
+  - type: INVENTORY_WORMS
+    singleImage: true
+    files:
+      0: Resources/units/inv_mindworms.png
+  - type: INVENTORY_LOCUST
+    singleImage: true
+    files:
+      0: Resources/units/inv_locust.png
+  - type: INVENTORY_WORMZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_wormzombie.png
+  - type: INVENTORY_OCT
+    singleImage: true
+    files:
+      0: Resources/units/inv_oct.png
+  - type: INVENTORY_HELLCRAB
+    singleImage: true
+    files:
+      0: Resources/units/inv_hellcrab.png
+  - type: INVENTORY_CALCINITE
+    singleImage: true
+    files:
+      0: Resources/units/inv_calcinite.png
+  - type: INVENTORY_CALCINITE_PROTO
+    singleImage: true
+    files:
+      0: Resources/units/inv_calcinite_proto.png
+  - type: INVENTORY_DEEP_ONE
+    singleImage: true
+    files:
+      0: Resources/units/inv_deep_one.png
+  - type: INVENTORY_HALLUCINOID
+    singleImage: true
+    files:
+      0: Resources/units/inv_hallucinoid.png
+  - type: INVENTORY_TRISCENE
+    singleImage: true
+    files:
+      0: Resources/units/inv_triscene.png
+  - type: INVENTORY_XARQUID
+    singleImage: true
+    files:
+      0: Resources/units/inv_xarquid.png
+  - type: INVENTORY_ZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_zombie.png
+  - type: INVENTORY_SERVITOR
+    singleImage: true
+    files:
+      0: Resources/units/inv_servitor.png
+#USOPaedia
+  - type: INTROUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_intro2.PNG
+  - type: SCAMMOUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_supcav_ammo.PNG
+  - type: SMAMMOUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_smartbullet.PNG
+  - type: SPECWEAPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_specweap.PNG
+  - type: OLDWEAPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_oldweap.PNG
+  - type: HEAVYWEAPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavyweap.PNG
+  - type: LASWEAPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_kiryu-kai.PNG
+  - type: BLACKBOXUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_black_box.PNG
+  - type: GREENUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_green.PNG
+  - type: YELLOWUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_yellow.PNG
+  - type: ALIENWRECKUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_ufo1.PNG
+  - type: USO1UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_uso1.PNG
+  - type: USO2UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_uso2.PNG
+  - type: USO3UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_uso3.PNG
+  - type: USO4UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_uso4.PNG
+  - type: BRAINUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_brain.PNG
+  - type: MOLECUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_molec.png
+  - type: FREAKUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_freak.PNG
+  - type: FREAKAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/freak_autopsy.PNG
+  - type: GHOSTUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_ghost.PNG
+  - type: GHOSTAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/ghost_autopsy.PNG
+  - type: CRABUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/crab_up.PNG
+  - type: KEYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_alien_key.PNG
+  - type: CRABAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/crabautopsy.png
+  - type: TURTLEGASUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_TURTLE_gas.gif
+  - type: TURTLEIONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_TURTLE_ion.gif
+  - type: TURTLESCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_TURTLE_SC.gif
+  - type: TURTLETORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_TURTLE_HT.gif
+  - type: TURTLEGUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_TURTLE_G.gif
+
+  - type: NOARMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/up_none_armor.png
+  - type: UPLUNG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Lung_UP.gif
+
+  - type: UPNEWT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_newtsuit.png
+
+  - type: HAZMATUPIMAGE
+    singleImage: true
+    files:
+      0: Resources/Ufopaedia/up_hazmatarmor.png
+  - type: ZRBITEARMORUPIMAGE
+    singleImage: true
+    files:
+      0: Resources/Ufopaedia/up_zrbite_armor.png
+  - type: IONARMORUPIMAGE
+    singleImage: true
+    files:
+      0: Resources/Ufopaedia/up_ion_armor.png
+  - type: MCBAUPIMAGE
+    singleImage: true
+    files:
+      0: Resources/Ufopaedia/up_mc_battlearmor.png
+  - type: DARTGUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/up_dartg.png
+
+  - type: KNIFEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_knife.PNG
+  - type: TRIDENTUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_trident.PNG
+  - type: AUTOSONICUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_autosonic.PNG
+  - type: AUTOSONICCLIPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_autosonic_clip.PNG
+  - type: HEAVYGLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavy_gl.PNG
+  - type: SOLITONEGRENADEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_solitone_grenade.PNG
+  - type: HEAVYSCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavy_sc.PNG
+  - type: HEAVYINCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavy_inc.PNG
+  - type: SONICRAMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sonic_ram.PNG
+      
+  - type: SNIPERSONICUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_Snipersonic.PNG
+  - type: SNIPERSONICCLIPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_snipersonic_clip.PNG
+      
+  - type: SONICTECHUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sound.PNG
+  - type: SONICWMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_swm.PNG
+  - type: OCTUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_oct.PNG
+  - type: OCTAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_oct_autopsy.PNG
+
+  - type: NEEDLERAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_needler_autopsy.PNG
+  - type: NEEDLERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_needler.PNG
+  - type: MINDWORMSAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_MINDWORMS_autopsy.PNG
+  - type: MINDWORMSUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_MINDWORMS.PNG
+  - type: LOCUSTAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_LOCUST_autopsy.PNG
+  - type: LOCUSTUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_LOCUST.PNG
+
+  - type: CARCHARODONUFOP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/CarcharodonEntry.gif
+  - type: CARCHARODONUFOPAUTO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/CarcharodonBody.gif
+  - type: HARPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_harp.PNG
+  - type: P11UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_p11.PNG
+  - type: ADSUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_ADS.PNG
+  - type: DPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_dp64.PNG
+  - type: SPPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_spp.PNG
+  - type: CLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_cl.PNG
+
+  - type: SC_DPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sc_dp.PNG
+  - type: SC_DRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sc_dr.PNG
+  - type: ST_DRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_jh_clip_st.PNG
+  - type: DARTGUNUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_hj_smg.PNG
+  - type: DARTGUNCLIPSCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_hj_smg_clip_sc.PNG
+  - type: SC_GCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sc_GC.PNG
+  - type: SC_HJCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_sc_aj.PNG
+
+  - type: MICROTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_microtorp.PNG
+  - type: MICROTORPZRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_microtorp_clip_zr.PNG
+
+  - type: P6MCRAFTIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/P6M-8a2.png
+  - type: S_P_P_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/bullet.png
+  - type: UFS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Ushakov_UP.png
+  - type: DBOMB_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPbomb.png
+  - type: SUPCAV_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_supcav.png
+  - type: SQUALL_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_squall.png
+  - type: DOLPHINUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_DOLPHIN.png
+  - type: JOHNNYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_JOHNNY.png
+  - type: CRAFTSHIELDUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_SHIELD.png
+  - type: CRAFTARRAYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_array.png
+  - type: MAGNETUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_disruptor.png
+  - type: KRAKENUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_KRAKEN.png
+  - type: BIOTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_BIOTORP.png
+  - type: CRAFTION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_craft.png
+  - type: CORMCRAFTIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/cormorant_up.png
+  - type: AQUACANNONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_aqua_cannon.png
+
+  - type: UFOIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Moray_UP.gif
+  - type: POSEIDONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_poseidon.PNG
+  - type: ANGELUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/ANGEL_UP.PNG
+  - type: TYPHONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/typhon_up.PNG
+  - type: CAMBALAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_cambala.PNG
+  - type: STINGERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_stinger.PNG
+  - type: BUOYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_buoy.PNG
+  - type: BUOYARMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_scorpenae.PNG
+  - type: BUOYAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_buoy_a.PNG
+  - type: TREATYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_treaty.PNG
+  - type: TRADEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_trade.PNG
+  - type: HORRORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_nightmare.PNG
+  - type: CALTRONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_calcinite_trone.PNG
+  - type: UDUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_ud.PNG
+  - type: ADVMEDIKITUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_advmedikit.PNG
+  - type: INJECTORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_INJECTOR.PNG
+  - type: HGCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_hg_cannon.PNG
+  - type: HGCZRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_HG_ZR_AMMO.PNG
+  - type: ULTRAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ultradense.PNG
+  - type: HGCFLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_HG_fl_AMMO.PNG
+  - type: ADVTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPADVTORP.PNG
+  - type: SMARTTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPGUIDED.PNG
+  - type: GSNIPERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_GSNIPER.PNG
+  - type: GSCLIPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_GSNIPER_CLIP.PNG
+  - type: AXEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPAXE.PNG
+  - type: SPEARUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPSPEAR.PNG
+  - type: HOOKUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_hook.PNG
+  - type: DYNAMITEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UPDYNAMITE.PNG
+
+  - type: GAUSSUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_lightning.PNG
+  - type: MUTANTUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/mutant_autopsy.png
+  - type: UPSLIME.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_SLIME.png
+  - type: UPSLIMEAUTOPSY.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_SLIME_AUTOPSY.png
+  - type: SERVITORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_servitor.png
+  - type: SERVITORAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_servitor_autopsy.png
+
+  - type: UPABYSSIAN.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_jelly.png
+  - type: UPABYSSIANAUTOPSY.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_jelly_AUTOPSY.png
+  - type: UPPOLYPH.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_POLYPH.png
+  - type: UPPOLYPHAUTOPSY.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_POLYPH_AUTOPSY.png
+  - type: NAGAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_NAGA.PNG
+  - type: NAGAAUTOPSYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_NAGA_AUTOPSY.PNG
+      
+  - type: HEAVYAQUATOIDUP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavyaquatoid.png
+  - type: TASOTHGUARDUP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_tasothguard.PNG
+  - type: HEAVYGILLMANUP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_heavygillman.png
+  - type: DROWNUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_zombie.PNG
+  - type: DROWNAUTOPSYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_zombie_AUTOPSY.PNG
+  - type: DRONEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_DRONE.PNG
+  - type: SDRONEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_S_DRONE.PNG
+  - type: ADRONEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_a_DRONE.PNG
+  - type: DRONEDISCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_DRONE2.PNG
+  - type: AUTOGUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_autogauss.PNG
+  - type: PIERCERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_piercer.PNG
+  - type: AUTOGCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_autog_clip.PNG
+  - type: BIOFLAREUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_bioflare.PNG
+  - type: ELERIUMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_elerium.PNG
+  - type: GCZRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_gc_zr_clip.PNG
+  - type: HJCZRUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_hjc_zr_clip.PNG
+  - type: ZRTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_zr_torp.PNG
+  - type: LASERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_laser.PNG
+  - type: CARAPACEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_carapace.PNG
+  - type: PLASMAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_plasma.PNG
+  - type: CHAINSUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_chains.PNG
+  - type: VKNIFEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_vibroknife.PNG
+  - type: REPAIRTOOLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_repair_tool.PNG
+  - type: MCCUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_mc_controller.PNG
+  - type: MCFUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_focus.PNG
+  - type: HANDUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_hand.PNG
+  - type: REANIMUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_re_anim.PNG
+  - type: BREEDUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_breed.PNG
+  - type: IONUP1
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_sidearm.PNG
+  - type: IONUP2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_s_clip.PNG
+  - type: IONUP3
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_cannon.PNG
+  - type: IONUP4
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_ion_c_clip.PNG
+  - type: IONUP5
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_h_ion.PNG
+  - type: IONUP6
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_h_ion_clip.PNG
+  - type: SOLITONEBOMBUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_solitone_bomb.PNG
+  - type: SOLITONECHARGEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_solitone_charge.PNG
+  - type: SHARDPISTOLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_shard_pistol.PNG
+  - type: SHARDRIFLEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_shard_rifle.PNG
+  - type: SHARDCANNONUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_shard_cannon.PNG
+  - type: SHARDFLASKUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_shard_flask.PNG
+  - type: FREEZERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_freezer.PNG
+  - type: FREEZERCLIPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_freezer_clip.PNG
+  - type: PROJECTORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_projector.PNG
+  - type: SUPRESSORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_supressor.PNG
+  - type: SPAWNERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_spawner.PNG
+  - type: TANGLERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_tangler.PNG
+  - type: INFECTORUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_infector.PNG
+  - type: VAMPIREUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_vampire.PNG
+  - typeSingle: BRAINSUPIMAGE
+    fileSingle: Resources/Ufopaedia/UP_brains.PNG
+  - typeSingle: COCOONUPIMAGE
+    fileSingle: Resources/Ufopaedia/UP_cocoon.PNG
+  - type: HGAUSS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UP_heavy_gauss.PNG
+  - type: UPEXO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/exosuit_UP.PNG
+  - type: UPBION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_biosuit.PNG
+  - type: UPABION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_a_bio_suit.PNG
+  - type: UPHYBR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_hybrid_suit.PNG
+  - type: UPMCAR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_mc_armor.PNG
+  - type: UPVSUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_vsmall.PNG
+  - type: UPTINYUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_uso_tiny.PNG
+  - type: UPENVOYUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_uso_envoy.PNG
+  - type: UPBOMBERUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_uso_bomber.PNG
+  - type: UPCOURIERUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_courier.PNG
+  - type: UPDROPSHIPUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_dropship.PNG
+  - type: UPMOTHERSHIPUSO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_mothership.PNG
+  - type: UPMUTA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_mutations.PNG
+      
+  - type: TORLAUNCHERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_Torpedo_launcher.PNG
+      
+  - type: ACIDTORPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_ACID_Torp.PNG
+  - type: ACIDPISTOLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_ACID_PISTOL.PNG
+  - type: ACIDGUNUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_ACID_GUN.PNG
+  - type: REVOLVERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_revolver.PNG
+  - type: SHOTGUNUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_shotgun.PNG
+  - type: AKUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_AK.PNG
+  - type: LMGUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_LMG.PNG
+  - type: FLAMETHROWERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_FLAMETHROWEr.PNG
+  - type: XRIFLEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_xrifle.PNG
+  - type: STUNGRENADEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_Stun_grenade.PNG
+  - type: LASERCARBINEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_LASER_CARBINE.PNG
+  - type: LASERPISTOLUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_LASER_pistol.PNG
+  - type: LASERSMGUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_LASER_SMG.PNG
+  - type: LASERRIFLEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_LASER_RIFLE.PNG
+      
+  - type: WALKERUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_WALKER.PNG
+  - type: WALKER2UPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_WALKER2.PNG
+
+  - type: STATUEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_statue.PNG
+  - type: AURORAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_aurora.PNG
+  - type: GULPUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Up_terr.PNG
+  - type: JAUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_jellyatack.PNG
+
+  - typeSingle: PULT1IMAGE
+    fileSingle: Resources/UFOPaedia/pult1.PNG
+  - typeSingle: PULT2IMAGE
+    fileSingle: Resources/UFOPaedia/pult2.PNG
+
+  - type: TLETHCITYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_city.PNG
+  - type: SPRAYUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_spray.PNG
+  - type: BACKTOBASEUPIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPaedia/up_hk.PNG
+
+
+  - type: SPICONS.DAT
+    width: 64
+    height: 34
+    subX: 32
+    subY: 24
+    files:
+      0: Resources/inticon/spicons.PNG
+  - type: SPICONS.DAT
+    width: 128
+    height: 34
+    subX: 32
+    subY: 34
+    files:
+      2: Resources/inticon/spwicons.png #0 is used for the launch blaster bomb button, 1 for alien psi
+
+      
+#Interception pics
+  - type: INTPATR
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_tiny_int.png
+  - type: INTVS
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_fighter_int.png
+  - type: INTINTERC
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_interc_int.png
+  - type: INTENVOY
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_envoy_int.png
+  - type: INTBOMBER
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_bomber_int.png
+  - type: INTCOUR
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_courier_int.png
+  - type: INTDROP
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_dropship_int.png
+  - type: INTMOTH
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/uso_mothership_int.png
+  - type: INTHOR1
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/int_tentacles.png
+  - type: INTHOR2
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/int_wyrm.png
+  - type: INTHOR3
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/inticon/int_makara.png
+#PROJECTILES and hits
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/needle_bullet.png
+      420: Resources/Projectiles/harpoon_bullet.png
+      455: Resources/Projectiles/gaussbullet.png
+      490: Resources/Projectiles/hgaussbullet.png
+      525: Resources/Projectiles/sonic_land.png
+      560: Resources/Projectiles/ion_beam1.png	  
+      595: Resources/Projectiles/laser_beam.gif
+      630: Resources/Projectiles/toxic_bullet.gif
+      665: Resources/Projectiles/frostbeam.png
+      700: Resources/Projectiles/mindbeam.png
+      735: Resources/Projectiles/plasma_bullet.gif
+#735-769 - empty, for invisible bullets
+      770: Resources/Projectiles/aquabeam.png
+      805: Resources/Projectiles/piranha_bullet.png
+      840: Resources/Projectiles/tangler_beam.gif
+      875: Resources/Projectiles/infection_bullet.png
+      910: Resources/Projectiles/spike_bullet.png
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/needle_bullet.png
+      420: Resources/Projectiles/harpoon_bullet.png
+      455: Resources/Projectiles/gaussbullet.png
+      490: Resources/Projectiles/hgaussbullet.png
+      525: Resources/Projectiles/sonicbeam.png
+      560: Resources/Projectiles/ion_beam1.png
+      595: Resources/Projectiles/laser_beam.gif
+      630: Resources/Projectiles/toxic_bullet.gif
+      665: Resources/Projectiles/frostbeam.png
+      700: Resources/Projectiles/mindbeam.png
+#735-769 - empty, for invisible bullets
+      770: Resources/Projectiles/aquabeam.png
+      805: Resources/Projectiles/piranha_bullet.png
+      840: Resources/Projectiles/tangler_beam.gif
+      875: Resources/Projectiles/infection_bullet.png
+      910: Resources/Projectiles/spike_bullet.png
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      500: Resources/Weapons/Hits/laser_hit.gif
+      510: Resources/Weapons/Hits/toxic_hit.gif
+      520: Resources/Weapons/Hits/frost_hit.gif
+      530: Resources/Weapons/Hits/mind_hit.gif
+      540: Resources/Weapons/Hits/turbo_hit.gif
+      550: Resources/Weapons/Hits/tangle_hit.gif
+      560: Resources/Weapons/Hits/smoke.png
+      570: Resources/Weapons/Hits/hit_plasma.png
+      580: Resources/Weapons/Hits/shard_hit.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/Weapons/Hits/orangeskull_hit.gif
+      610: Resources/Weapons/Hits/smoke.png
+      620: Resources/Weapons/Hits/cocoon.png
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      104: Resources/Weapons/MeleeAnimations/StunRod.gif
+      108: Resources/Weapons/MeleeAnimations/Sword.gif
+      112: Resources/Weapons/MeleeAnimations/Claws.gif
+      116: Resources/Weapons/MeleeAnimations/SharkAttack.gif
+      120: Resources/Weapons/MeleeAnimations/hit_Drill_Cold.png
+      124: Resources/Weapons/MeleeAnimations/hit_Drill_Hot.png
+      128: Resources/Weapons/MeleeAnimations/hit_Drill_Hot2.png
+  - type: X1.PCK
+    width: 1024
+    height: 128
+    subX: 128
+    subY: 64
+    files:
+      16: Resources/Weapons/Hits/x_splash.png
+#background
+
+  - typeSingle: FIGHTBACKIMAGE
+    fileSingle: Resources/Inticon/back_fight.png
+  - type: MUTANTBACKIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/inticon/back_mutant.png
+  - type: NAGABACKIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/inticon/back_naga_1.png
+  - type: OCTBACKIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/inticon/back_octopus.png
+      
+  - type: CRABBACKIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/inticon/back_crab_people.png
+      
+  - typeSingle: LIGHTSBACKIMAGE
+    fileSingle: Resources/Inticon/deep_lights.png
+  - typeSingle: MONSTERBACKIMAGE
+    fileSingle: Resources/Inticon/deep_monsters.png
+  - typeSingle: INNSMOUTHBACKIMAGE
+    fileSingle: Resources/Inticon/deep_innsmouth.png
+  - typeSingle: DREAMSBACKIMAGE
+    fileSingle: Resources/Inticon/deep_dreams.png
+  - typeSingle: EXOSUITBACKIMAGE
+    fileSingle: Resources/Inticon/deep_exosuit.png
+  - typeSingle: SCIENCEBACKIMAGE
+    fileSingle: Resources/Inticon/deep_science.png

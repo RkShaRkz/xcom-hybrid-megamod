@@ -1,0 +1,166 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - CS Aleksandr
+  - CS Aleksey
+  - CS Anatoliy
+  - CS Andrey
+  - CS Anton
+  - CS Artem
+  - CS Artur
+  - CS Boris
+  - CS Denis
+  - CS Dmitriy
+  - CS Eduard
+  - CS Evgeniy
+  - CS Gennadiy
+  - CS Georgiy
+  - CS Grigoriy
+  - CS Igor
+  - CS Ilya
+  - CS Ivan
+  - CS Konstantin
+  - CS Leonid
+  - CS Maxim
+  - CS Mihail
+  - CS Nikolay
+  - CS Oleg
+  - CS Pavel
+  - CS Petr
+  - CS Roman
+  - CS Ruslan
+  - CS Sergey
+  - CS Stanislav
+  - CS Vadim
+  - CS Valentin
+  - CS Valeriy
+  - CS Vasiliy
+  - CS Viktor
+  - CS Vitaliy
+  - CS Vladimir
+  - CS Vladislav
+  - CS Vyacheslav
+  - CS Yuriy
+femaleFirst:
+  - CS Albina
+  - CS Aleksandra
+  - CS Alla
+  - CS Alyona
+  - CS Anastasiya
+  - CS Anna
+  - CS Antonina
+  - CS Darya
+  - CS Ekaterina
+  - CS Elena
+  - CS Evgeniya
+  - CS Galina
+  - CS Inna
+  - CS Irina
+  - CS Kristina
+  - CS Kseniya
+  - CS Larisa
+  - CS Lidiya
+  - CS Liliya
+  - CS Lyubov
+  - CS Lyudmila
+  - CS Margarita
+  - CS Marina
+  - CS Mariya
+  - CS Nadezhda
+  - CS Natalya
+  - CS Nina
+  - CS Oksana
+  - CS Olesya
+  - CS Olga
+  - CS Raisa
+  - CS Svetlana
+  - CS Tamara
+  - CS Tatyana
+  - CS Valentina
+  - CS Varvara
+  - CS Vera
+  - CS Viktoriya
+  - CS Yulia
+  - CS Zinaida
+  - CS Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

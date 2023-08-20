@@ -1,0 +1,199 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_WHOREHOUSEHOSTAGE: "Whorehouse Hostage"
+      STR_ALERT_WHOREHOUSE: "Whorehouse Hostage"
+      STR_LOC_WHOREHOUSE_TITLE: "Whorehouse Hostage"
+      STR_MARKER_LOC_WHOREHOUSE: "Red Lantern Villa"
+      STR_LOC_WHOREHOUSE_BRIEFING: "A brothel has been taken under seige by hostile forces recently. The Mercenary guild has the location of where it is. Your job is to lift the seige and you will compensate handsomely for the job well done."  	  
+alienDeployments:
+  - type: STR_WHOREHOUSEHOSTAGE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_ALERT_WHOREHOUSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_WHOREHOUSE_BRIEFING
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 3
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_WHOREHOUSE_TITLE
+      desc: STR_LOC_WHOREHOUSE_BRIEFING
+    markerName: STR_MARKER_LOC_WHOREHOUSE
+    duration: [100, 200]
+    width: 40
+    length: 40
+    height: 9
+    script: WHOREHOUSE
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 5
+        highQty: 7
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+mapScripts:			
+  - type: WHOREHOUSE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_WHOREBROTHEL	
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN
+    - type: fillArea
+      terrain: URBAN
+items: 		
+  - type: STR_WHORE_SPAWNER
+    spawnUnit: STR_BIKINI_BABE
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	  
+ufos:
+  - type: STR_WHOREBROTHEL
+    size: STR_VERY_SMALL
+    battlescapeTerrainData:
+      name: LT_HOUSE_01
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - TAVERN
+        - FRNITURE		
+      mapBlocks:
+        - name: BROTHEL
+          width: 10
+          length: 10 
+          items:
+            STR_WHORE_SPAWNER:                          
+              - [3, 3, 0]
+              - [3, 3, 0]
+              - [3, 3, 0]
+              - [3, 3, 0]			  
+          fuseTimers:            
+            STR_WHORE_SPAWNER: [0, 0]			
+alienMissions:
+  - type: STR_LOC_WHOREHOUSE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_BANDIT_TOWN: 10
+          STR_RAIDER_TERROR: 10			  
+          STR_RAIDER: 10
+          STR_ZSRR: 10
+          STR_EXALT: 10
+          STR_OSIRON: 10
+          STR_BLACK_LOTUS: 10
+          STR_BANDIT_ROBBERS: 10
+          STR_BANDIT_TOWN: 10
+          STR_BANDIT: 10  
+    waves:
+      - ufo: STR_WHOREHOUSEHOSTAGE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: saveSister
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_WHOREHOUSE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

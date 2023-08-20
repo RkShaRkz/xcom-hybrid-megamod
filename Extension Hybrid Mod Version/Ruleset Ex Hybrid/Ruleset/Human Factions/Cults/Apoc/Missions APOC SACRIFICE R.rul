@@ -1,0 +1,94 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_APOC_SACRIFICE: APOC SACRIFICE
+      STR_MARKER_BEASTMEN_ALTAR: APOC SACRIFICE
+      STR_ALERT_BEASTMEN_ALTAR: APOC SACRIFICE
+      STR_LOC_BEASTMEN_ALTAR_BRIEFING: "This is Merc Guild here, we received a call from a concern family that one of their family member has been abducted by the Cult of the Apocalypse. You and your unit must conduct a rescue. You will be rewarded for your effort."   
+alienDeployments:
+  - type: STR_APOC_SACRIFICE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	      
+    alert: STR_ALERT_BEASTMEN_ALTAR
+    alertDescription: STR_LOC_BEASTMEN_ALTAR_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 5
+      music: GMENBASE2    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_BEASTMEN_ALTAR
+      desc: STR_LOC_BEASTMEN_ALTAR_BRIEFING
+    markerName: STR_LOC_BEASTMEN_ALTAR
+    duration: [15, 45]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 12
+    customUfo: STR_SACRIFICE_ALTAR
+    script: GENERALSPAWN	
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+alienMissions:
+  - type: STR_LOC_BEASTMEN_ALTAR
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:
+      - ufo: STR_APOC_SACRIFICE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+ufos:		
+  - type: STR_SACRIFICE_ALTAR
+    battlescapeTerrainData:
+      name: PYRAMIDCHURCHLA
+      mapDataSets:
+        - BLANKS
+        - SANDS
+        - MU
+        - ATLANTIS
+        - ROADS
+        - URBAN				
+      mapBlocks:
+        - name: MAYANTEMLARGE2
+          width: 20
+          length: 20
+missionScripts:
+  - type: AdventureLand
+    missionWeights:
+      0:
+        STR_LOC_BEASTMEN_ALTAR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

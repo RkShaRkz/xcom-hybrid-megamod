@@ -1,0 +1,126 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_LOC_DISTRESS_BUNKER: Civillian Rescue
+      STR_LOC_DISTRESS_BUNKER_TEMPERATE: Civillian Rescue
+      STR_MARKER_DISTRESS_BUNKER: Civillian Rescue
+      STR_DISTRESS_BUNKER_TEMPERATE_BRIEFING: "The Mercenary guild has a job for us. A valued and important client of theirs has a collegue whom has gotten lost and require a rescue. The client's collegue is reportedly surrounded by hostile forces and could get capture. The guild will pay us a reward for completing a rescue."    
+alienDeployments:
+  - type: STR_LOC_DISTRESS_BUNKER_TEMPERATE
+    alert: STR_ALERT_DISTRESS_CALL
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      		
+    alertDescription: STR_DISTRESS_BUNKER_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_DISTRESS_CALL   
+      desc: STR_DISTRESS_BUNKER_TEMPERATE_BRIEFING
+    markerName: STR_MARKER_DISTRESS_BUNKER
+    duration: [15, 40]
+    despawnPenalty: 0
+    width: 50
+    length: 50
+    height: 9
+    music:
+      - GMTACTIC	
+    customUfo: STR_LOSTCAR
+    data:
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []				
+alienMissions:
+  - type: STR_LOC_DISTRESS_BUNKER
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_LOC_DISTRESS_BUNKER_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+items: 		
+  - type: STR_WHOREGALC_SPAWNER
+    spawnUnit: STR_MALE_CIVILIAN_WORKER
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4			
+ufos:		
+  - type: STR_LOSTCAR
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: LOSTCAR
+      mapDataSets:
+        - BLANKS
+        - XCARS
+      mapBlocks:
+        - name: AUNDERCARPIRATEZ
+          width: 10
+          length: 10
+          items:
+            STR_WHOREGALC_SPAWNER:                          
+              - [3, 3, 0]	  
+          fuseTimers:            
+            STR_WHOREGALC_SPAWNER: [0, 0]				  	
+missionScripts:
+  - type: distressBunker
+    missionWeights:
+      0:
+        STR_LOC_DISTRESS_BUNKER: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    firstMonth: 0
+    #lastMonth: 1
+    executionOdds: 3
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true 

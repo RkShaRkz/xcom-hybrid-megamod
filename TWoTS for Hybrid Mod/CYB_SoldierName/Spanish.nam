@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - CS Aaron
+  - CS Adan
+  - CS Alberto
+  - CS Alejandro
+  - CS Alfonso
+  - CS Andres
+  - CS Angel
+  - CS Antonio
+  - CS Augusto
+  - CS Benedicto
+  - CS Benjamin
+  - CS Carlos
+  - CS Daniel
+  - CS David
+  - CS Diego
+  - CS Eduardo
+  - CS Elias
+  - CS Eliseo
+  - CS Enrique
+  - CS Emanuel
+  - CS Eric
+  - CS Ernesto
+  - CS Esteban
+  - CS Fabio
+  - CS Felipe
+  - CS Felix
+  - CS Fernando
+  - CS Fidel
+  - CS Fortunato
+  - CS Francisco
+  - CS Gabriel
+  - CS Gerardo
+  - CS Hugo
+  - CS Humberto
+  - CS Ismael
+  - CS Ivan
+  - CS Jacobo
+  - CS Jaime
+  - CS Javier
+  - CS Jesus
+  - CS Joel
+  - CS Jorge
+  - CS Jose
+  - CS Juan
+  - CS Julian
+  - CS Leo
+  - CS Leonardo
+  - CS Lucas
+  - CS Luis
+  - CS Manuel
+  - CS Marco
+  - CS Marcos
+  - CS Martin
+  - CS Matias
+  - CS Mateo
+  - CS Maximiliano
+  - CS Miguel
+  - CS Nataniel
+  - CS Nicolas
+  - CS Noe
+  - CS Octavio
+  - CS Orlando
+  - CS Oscar
+  - CS Pablo
+  - CS Pedro
+  - CS Rafael
+  - CS Ramon
+  - CS Raul
+  - CS Rene
+  - CS Ricardo
+  - CS Roberto
+  - CS Rolando
+  - CS Salvador
+  - CS Santiago
+  - CS Sebastian
+  - CS Sergio
+  - CS Silvestre
+  - CS Stefano
+  - CS Teodoro
+  - CS Tito
+  - CS Tomas
+  - CS Valentin
+  - CS Vicente
+  - CS Victor
+  - CS Xavier
+femaleFirst:
+  - CS Adriana
+  - CS Aida
+  - CS Alejandra
+  - CS Alexia
+  - CS Alma
+  - CS Ana
+  - CS Angela
+  - CS Angelica
+  - CS Aurora
+  - CS Barbara
+  - CS Bianca
+  - CS Brenda
+  - CS Carina
+  - CS Carla
+  - CS Carolina
+  - CS Casandra
+  - CS Catalina
+  - CS Claudia
+  - CS Cristina
+  - CS Dolores
+  - CS Dora
+  - CS Elena
+  - CS Eliana
+  - CS Elvira
+  - CS Ema
+  - CS Esmeralda
+  - CS Eva
+  - CS Felicia
+  - CS Fiona
+  - CS Gabriela
+  - CS Gloria
+  - CS Guadalupe
+  - CS Ines
+  - CS Isabel
+  - CS Jesica
+  - CS Juana
+  - CS Laura
+  - CS Lidia
+  - CS Liliana
+  - CS Linda
+  - CS Lisa
+  - CS Lorena
+  - CS Magdalena
+  - CS Marcela
+  - CS Margarita
+  - CS Maria
+  - CS Mariana
+  - CS Marisol
+  - CS Monica
+  - CS Nadia
+  - CS Nancy
+  - CS Natalia
+  - CS Noemi
+  - CS Olivia
+  - CS Patricia
+  - CS Paulina
+  - CS Raquel
+  - CS Rosa
+  - CS Selena
+  - CS Sofia
+  - CS Sonia
+  - CS Talia
+  - CS Tatiana
+  - CS Teresa
+  - CS Vanesa
+  - CS Veronica
+  - CS Victoria
+  - CS Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

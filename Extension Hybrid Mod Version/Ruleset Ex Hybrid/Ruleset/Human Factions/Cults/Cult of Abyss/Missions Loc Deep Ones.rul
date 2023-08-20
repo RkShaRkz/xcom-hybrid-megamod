@@ -1,0 +1,278 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_DEEP_ONE_01: "Cult of Abyss Activity"
+      STR_MISSION_DEEP_ONES: "Cult of Abyss"
+      STR_LOC_DEEP_ONE_01_BRIEFING: "The Merc Guild has received a rumour and it was passed onto to us followed up. The rumour is an imposing temple located in the deep underwater. There is a rumor of such temples holding precious stones left behind as sacrifice by the Cult of the Abyss for their gods.Dare we face plunder it with the teeming the Deep One hordes out to claim it?" 
+      STR_LOC_DEEP_ONE_02: "They Came From The Sea"
+      STR_LOC_DEEP_ONE_02_TITLE: "They Came From The Sea"
+      STR_MARKER_LOC_DEEP_ONE_02: "They Came From The Sea"
+      STR_LOC_DEEP_ONE_02_BRIEFING: "The pub has reported unusual Deep One activity in the ocean. Something is driving them nuts. The Merc Guildneed your forces to help crew one of our coastal forts to scatter of their main assault. Local militia will fall if there is no help. Go there quickly - if they pass the presidium, we will have no choice but to evacuate."	  
+alienDeployments:
+  - type: STR_LOC_DEEP_ONE_01
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    depth: [1, 1]  
+    randomRace: [STR_UNDERWATERMIX,STR_GILLMAN2]	
+    script: LOCSCRIPTSSPECIAL	
+    width: 50
+    length: 50
+    height: 7
+    music:
+      - GMTACWET
+    briefing:
+      palette: 4
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_MISSION_DEEP_ONES
+      desc: STR_LOC_DEEP_ONE_01_BRIEFING
+    data:
+      - alienRank: 5
+        lowQty: 20
+        highQty: 60
+        dQty: 10
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []			
+  - type: STR_LOC_DEEP_ONE_02
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	        
+    alert: STR_LOC_DEEP_ONE_02
+    alertBackground: ASSAULT_BACKGROUND.SCR
+    alertDescription: STR_LOC_DEEP_ONE_02_BRIEFING
+    music:
+      - GMTACWET
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_DEEP_ONE_02_TITLE
+      desc: STR_LOC_DEEP_ONE_02_BRIEFING
+    markerName: STR_MARKER_LOC_DEEP_ONE_02
+    duration: [6, 12]
+    width: 70
+    length: 70
+    height: 9
+    script: BEACH_SAVANNA_BUNKER
+    terrains:
+      - ISLANDURBANPIRATEZ
+    data:
+      - alienRank: 5
+        lowQty: 36
+        highQty: 64
+        dQty: 12
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 4
+        highQty: 8
+        dQty: 6
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 7
+        highQty: 7
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []			
+alienMissions:
+  #- type: STR_LOC_DEEP_ONE_02
+  #  objective: 3
+  #  spawnZone: 0
+  #  raceWeights:
+  #    0:
+  #        STR_DEEP_ONEPI: 100
+  #  waves:
+  #    - ufo: dummy
+  #      count: 1
+  #      trajectory: CA_SPAWN
+  #      timer: 1000
+  #      objective: true
+  - type: STR_MISSION_DEEP_ONES
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_UNDERWATERMIX: 100
+    waves:
+      - ufo: STR_LOC_DEEP_ONE_01
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true
+mapScripts:
+  - type: LOCSCRIPTSSPECIAL
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_DAGON_PYRAMIDXXX
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	
+  - type: BEACH_SAVANNA_BUNKER
+    commands:
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [0,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [1,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [2,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [3,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [4,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [5,6,1,1]
+    - type: addBlock
+      terrain: BEACH_SAVANNA
+      rects:
+        - [6,6,1,1]
+    - type: addCraft
+      terrain: ISLAND
+      groups: 1	  
+    - type: fillArea		
+missionScripts:
+  - type: theyCameFromTheSea
+    missionWeights:
+      0:
+        STR_MISSION_DEEP_ONES:100
+        #STR_LOC_DEEP_ONE_02: 50
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    useTable: false
+    executionOdds: 3
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true 
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

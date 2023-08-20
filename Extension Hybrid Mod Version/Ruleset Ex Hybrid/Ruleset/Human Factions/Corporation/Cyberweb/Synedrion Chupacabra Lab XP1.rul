@@ -1,0 +1,183 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_SYNDICATE_CHUPACABRAS_LAB: "CyberRobotics TechLab Elimination"
+        STR_ALERT_SYNDICATE_CHUPACABRAS_LAB: "CyberRobotics TechLab Elimination"
+        STR_SYNDICATE_CHUPACABRAS_LAB_DESCRIPTION: "Reports from The Merc Guild spies has detected a secret lab that's in charged by the CyberRobotics and they are experimenting with a Cybernetic weapon for various organizations. The experiments has reached trial stage. You must destroy this Lab and its experiements. You will be paid as the usual fee."
+        STR_SYNDICATE_CHUPACABRAS_LAB_BRIEFING: "Reports from The Merc Guild spies has detected a secret lab that's in charged by the CyberRobotics and they are experimenting with a Cybernetic weapon for various organizations. The experiments has reached trial stage. You must destroy this Lab and its experiements. You will be paid as the usual fee."
+alienDeployments:
+  - type: STR_SYNDICATE_CHUPACABRAS_LAB
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND		
+    width: 60
+    length: 60
+    height: 16
+    alert: STR_ALERT_SYNDICATE_CHUPACABRAS_LAB
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SYNDICATE_CHUPACABRAS_LAB_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_SYNDICATE_CHUPACABRAS_LAB_BRIEFING	  
+    markerName: STR_SYNDICATE_CHUPACABRAS_LAB
+    unlockedResearch: STR_SYNEDRIIONLABSDONE
+    duration: [25, 10000000000000]
+    despawnPenalty: 200
+    music:
+      - GMTACTIC
+    #customUfo: STR_THINGLAB
+    script: CYBERWEBBLAB
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 4
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+research:		
+  - name: STR_SYNEDRIIONLABSDONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 300
+    needItem: true
+mapScripts:
+  - type: CYBERWEBBLAB
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    #- type: addUFO
+    #  terrain: globeTerrain
+    #  groups: 1		  
+    - type: addBlock
+      executions: 1
+      size: [1,1,4]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1 
+      - type: middle
+        size: [1,1,4]
+        terrain: LABSTEAL  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain  
+    - type: fillArea
+      terrain: globeTerrain		
+alienMissions:
+  - type: STR_SYNDICATE_CHUPACABRAS_LAB
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CYBERWEB: 100
+    waves:
+      - ufo: STR_SYNDICATE_CHUPACABRAS_LAB
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: syndicateChupacabrasLab
+    firstMonth: 0
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_SYNDICATE_CHUPACABRAS_LAB: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    varName: synchupac
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_SYNEDRIIONLABSDONE: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - CS Thomas
+  - CS Andreas
+  - CS Michael
+  - CS Frank
+  - CS Peter
+  - CS Joerg
+  - CS Uwe
+  - CS Matthias
+  - CS Stefan
+  - CS Juergen
+  - CS Ralf
+  - CS Bernd
+  - CS Klaus
+  - CS Torsten
+  - CS Hans
+  - CS Rainer
+  - CS Jens
+  - CS Martin
+  - CS Dirk
+  - CS Wolfgang
+  - CS Norbert
+  - CS Holger
+  - CS Kai
+  - CS Joachim
+  - CS Christian
+  - CS Karsten
+  - CS Dieter
+femaleFirst:
+  - CS Susanne
+  - CS Sabine
+  - CS Petra
+  - CS Birgit
+  - CS Andrea
+  - CS Gabriele
+  - CS Martina
+  - CS Heike
+  - CS Ute
+  - CS Barbara
+  - CS Bettina
+  - CS Karin
+  - CS Angelika
+  - CS Monika
+  - CS Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier

@@ -1,0 +1,382 @@
+soldiers:
+  - type: STR_SOLDIER
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 25
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_BREACHER
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 33
+      bravery: 10
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 55
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 30
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_RANGER
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 55
+      stamina: 55
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 50
+      throwing: 60
+      strength: 25
+      psiStrength: 30
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 20
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_SNIPER
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 40
+      firing: 60
+      throwing: 50
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 35
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_HEAVY
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 30
+      bravery: 10
+      reactions: 30
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 30
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 45
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 15
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_PSIONIC_PRODIGY
+    costBuy: 120000
+    costSalary: 30000
+    requires:
+      - STR_PSI_LAB
+      - STR_PSI_AMP
+    minStats:
+      tu: 40
+      stamina: 30
+      health: 15
+      bravery: 10
+      reactions: 20
+      firing: 20
+      throwing: 30
+      strength: 10
+      psiStrength: 60
+      psiSkill: 8
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 80
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 80
+      psiSkill: 80
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 40
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_ELITE
+    costBuy: 80000
+    costSalary: 40000
+    minStats:
+      tu: 53
+      stamina: 50
+      health: 30
+      bravery: 30
+      reactions: 40
+      firing: 50
+      throwing: 60
+      strength: 27
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 60
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 75
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 60
+      psiSkill: 60
+      melee: 100
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 25
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_SUPER_SOLDIER
+    costBuy: 250000
+    costSalary: 125000
+    requires:
+      - STR_SUPER_SOLDIERS
+    minStats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 30
+      reactions: 50
+      firing: 60
+      throwing: 70
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 60
+    maxStats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 70
+      reactions: 70
+      firing: 80
+      throwing: 90
+      strength: 45
+      psiStrength: 80
+      psiSkill: 16
+      melee: 80
+    statCaps:
+      tu: 80
+      stamina: 110
+      health: 65
+      bravery: 110
+      reactions: 110
+      firing: 110
+      throwing: 110
+      strength: 65
+      psiStrength: 80
+      psiSkill: 80
+      melee: 110
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 5
+    soldierNames:
+      - SoldierName/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]

@@ -1,0 +1,166 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_RAIDER_GUNSHIP: Stratosphere Interceptor
+      STR_VESSEL_RAIDER_GUNSHIP_UFOPEDIA: "The Stratosphere Interceptor is the premiere high speed attack fighter used by major factions. It has mach 2+ speed plus troop transport capacity. It is designed to carry troops into a orbital trajectory and then do a combat drop into a battlefeild in a matter of few hours."  	  
+ufopaedia:
+  - id: STR_VESSEL_RAIDER_GUNSHIP
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_RAIDER_GUNSHIP
+    text: STR_VESSEL_RAIDER_GUNSHIP_UFOPEDIA
+research:
+  - name: STR_VESSEL_RAIDER_GUNSHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_RAIDER_GUNSHIP
+ufos:
+  - type: STR_VESSEL_RAIDER_GUNSHIP
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionRaiderGunship
+    hitBonus: 15
+    damageMax: 70
+    speedMax: 2800
+    accel: 3
+    range: 45
+    power: 70
+    reload: 27
+    armor: 2
+    score: 500
+    radarRange: 150
+    hunterKillerPercentage: 100
+    huntBehavior: 0
+    huntAlertSound: 89
+    breakOffTime: 800
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0		
+    battlescapeTerrainData:
+      name: GOLDHAWK
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_GOLD
+        - C_EXT_ROOF_GOLD
+        - C_EXT_NOSE_BUMPLESS_GOLD
+        - C_EXT_NOSE_SIDE_GOLD
+        - C_INT_XCOM
+        - SUBBITS
+        - PLANE2
+        - LIFTER
+        - PLANEENGINE1		
+      mapBlocks:
+        - name: GOLDHAWK
+          width: 10
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_RAIDER_GUNSHIP
+    unlockedResearch: STR_VESSEL_RAIDER_GUNSHIP
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_RAIDER_GUNSHIP_UNDERWATER
+    unlockedResearch: STR_VESSEL_RAIDER_GUNSHIP
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND  
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []

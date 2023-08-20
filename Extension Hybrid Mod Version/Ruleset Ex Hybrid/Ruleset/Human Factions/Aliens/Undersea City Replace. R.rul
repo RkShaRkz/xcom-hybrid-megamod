@@ -1,0 +1,270 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_UCITY: "Alien Underwater Settlement"
+      STR_UCITY_UFOPEDIA: "This is the Merc Guild, our contacts from the naval sources has found an Alien Underwater Settlement. Your units will do well to kill all the aliens in the city. Leave no survivors. Some govt factions will pay you well for the job done."
+      STR_UCITY_AVAILABLE: "Undersea City Infiltrated"
+      STR_UCITY_DESCRIPTION: "This is the Merc Guild, our contacts from the naval sources has found an Alien Underwater Settlement. Your units will do well to kill all the aliens in the city. Leave no survivors. Some govt factions will pay you well for the job done."
+      STR_UCITY_BRIEFING: "This is the Merc Guild, our contacts from the naval sources has found an Alien Underwater Settlement. Your units will do well to kill all the aliens in the city. Leave no survivors. Some govt factions will pay you well for the job done."
+alienDeployments:
+  - type: STR_UCITY
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    music:
+      - GMTACWET
+    width: 60
+    length: 60
+    height: 18
+    minShade: 12
+    depth: [3, 3]	
+    alert: STR_UCITY_AVAILABLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_UCITY_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+    markerName: STR_UCITY
+    duration: [25, 200]
+    despawnPenalty: 100
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    script: SEABED_UCITY
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 16
+        dQty: 0
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_HE_BOMB 
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+
+            - STR_HE_BOMB
+ 
+            - STR_HE_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+            - STR_STUN_BOMB
+ 
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 5
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+alienMissions:
+  - type: STR_UCITY
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_AQUATOID: 25
+          STR_GILLMAN: 25
+          STR_LOBSTERMAN: 25
+          STR_TASOTH: 25
+    waves:
+      - ufo: STR_UCITY
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 21000
+        objective: true
+mapScripts:
+  - type: SEABED_UCITY
+    commands:
+    - type: resize
+      size: [8, 8, 18]	
+    - type: addCraft
+      terrain: CORAL
+      groups: 1		
+    - type: addBlock
+      executions: 4
+      terrain: ALARTVILLAGE
+    - type: addBlock
+      executions: 2 
+      terrain: ENTRYVILLAGE  
+    - type: addBlock
+      size: 2	
+      executions: 3
+      terrain: ALARTVILLAGE	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      randomTerrain: [CORAL,SEABED] 
+    - type: fillArea
+      randomTerrain: [CORAL,SEABED]	
+missionScripts:
+  - type: UnderseaCity
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_UCITY: 100
+    regionWeights:
+      0:
+         SEASPAWNS: 100
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true  
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

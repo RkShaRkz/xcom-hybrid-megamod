@@ -1,0 +1,204 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_TANKTRAP: "Mercenary Tank Trap"
+      STR_TANKTRAP_UFOPEDIA: "It turns out the news is a trap. The Mercenary forthreich forces set it to trap of any unlucky Mercenary unit to rob of their equipement. Your unit survive the mission. The Merc guild will compensate you for the blood paid in the mission."   	  
+      STR_TIGER_TANK: "Mercenary Tank Trap"
+      STR_LOC_TIGER_TANK_TITLE: "Mercenary Tank Trap"
+      STR_MARKER_LOC_TIGER_TANK: "Mercenary Tank Trap"
+      STR_LOC_TIGER_TANK_BRIEFING: "The Mercenary guild has news that the Forth Reich Mercenary group is testing of a new weapon and some faction is paying handsomely for its destruction. See to it that it is destroyed and your unit will be rewarded handsomely."   
+ufopaedia:		  
+  - id: STR_TANKTRAPDONE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_TANKTRAPDONE
+    text: STR_TANKTRAP_UFOPEDIA
+    text_width: 180
+    listOrder: 24110	  
+alienDeployments:
+  - type: STR_TIGER_TANK
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_TANKTRAP
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_TIGER_TANK_BRIEFING
+    unlockedResearch: STR_TANKTRAPDONE
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_TIGER_TANK_TITLE
+      desc: STR_LOC_TIGER_TANK_BRIEFING
+    markerName: STR_MARKER_LOC_TIGER_TANK
+    duration: [25, 10000000000000]
+    width: 70
+    length: 70
+    height: 8
+    civilians: 15
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []		
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []			
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+alienMissions:
+  - type: STR_LOC_TIGER_TANK
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MIXED_KKK: 33
+          STR_NAZISEXP: 33	
+          STR_NAZIS_TERROR: 34	  
+    waves:
+      - ufo: STR_TIGER_TANK
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+research:			
+  - name: STR_TANKTRAPDONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+missionScripts:
+  - type: humanistBattleTank
+    firstMonth: 2  
+    missionWeights:
+      0:
+        STR_LOC_TIGER_TANK: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 100
+    varName: tanktraps
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_TANKTRAPDONE: false
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

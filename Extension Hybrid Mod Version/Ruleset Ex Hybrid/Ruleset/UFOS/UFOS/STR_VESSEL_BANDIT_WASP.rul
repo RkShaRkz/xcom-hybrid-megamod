@@ -1,0 +1,122 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_BANDIT_WASP: Civillian Transport
+      STR_VESSEL_BANDIT_WASP_UFOPEDIA: "The Civillian Aircar is the most common aircar in used by the majority of the Civillian or Private Citizens in general. However, it has been known that various factions has use them for transfering personals from location to another or as a general transport. Most of these cars are modified to have light armaments"  
+ufopaedia:
+  - id: STR_VESSEL_BANDIT_WASP
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_BANDIT_WASP
+    text: STR_VESSEL_BANDIT_WASP_UFOPEDIA
+research:
+  - name: STR_VESSEL_BANDIT_WASP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_BANDIT_WASP
+ufos:
+  - type: STR_VESSEL_BANDIT_WASP
+    size: STR_VERY_SMALL
+    modSprite: InterceptionBAWasp
+    damageMax: 40
+    avoidBonus: 15
+    speedMax: 400
+    accel: 1
+    fireSound: 4
+    power: 25
+    range: 25
+    reload: 21
+    score: 100
+    radarRange: 125
+    hunterKillerPercentage: 50
+    huntBehavior: 0
+    huntAlertSound: 89
+    breakOffTime: 750
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VESSEL_BA1
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_RED
+        - C_EXT_ROOF_RED
+        - C_EXT_NOSE_BUMPLESS_RED
+        - C_EXT_ENGINE_S_RED
+        - C_EXT_XCOM
+        - LIFTER
+        - C_INT_HALF
+        - DOORSSEC
+        - C_EXT_NOSE_SIDE_RED
+        - C_INT_ENGINE_E
+      mapBlocks:
+        - name: VESSEL_BA1
+          width: 10
+          length: 10		
+alienDeployments:
+  - type: STR_VESSEL_BANDIT_WASP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_BANDIT_WASP	
+    width: 40
+    length: 40
+    height: 19
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+  - type: STR_VESSEL_BANDIT_WASP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_BANDIT_WASP	
+    depth: [1, 1]	
+    width: 40
+    length: 40
+    height: 119
+    data:
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []

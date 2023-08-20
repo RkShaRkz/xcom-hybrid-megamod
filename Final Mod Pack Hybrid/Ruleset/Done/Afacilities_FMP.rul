@@ -1,0 +1,58 @@
+﻿facilities:
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+  - type: STR_SEAALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+  - type: STR_HANGAR
+    storage: 25
+  - type: STR_SEALIVING_QUARTERS
+    mapName: XBASS_01
+  - type: STR_LIVING_QUARTERS
+    mapName: XBASS_01
+  - type: STR_GAUSS_DEFENSES
+    requires:
+      - STR_GAUSS_DEFENSES
+    spriteShape: 3
+    spriteFacility: 300
+    buildCost: 360000
+    buildTime: 24
+    monthlyCost: 12000
+    defense: 500
+    hitRatio: 60
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASS_21
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEAGAUSS_DEFENSES
+    requires:
+      - STR_GAUSS_DEFENSES
+    spriteShape: 3
+    spriteFacility: 300
+    buildCost: 360000
+    buildTime: 24
+    monthlyCost: 12000
+    defense: 500
+    hitRatio: 60
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASS_21
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	

@@ -1,0 +1,231 @@
+alienMissions:
+  - type: STR_ALIENPIRATEPATROLPRIATEZ
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_SECTOID: 20
+          STR_FLOATER: 20
+          STR_SNAKEMAN: 20
+          STR_ETHEREAL: 20		  
+          STR_MUTON: 20	
+    waves:
+      - ufo: STR_VESSEL_EXCAVATOR
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_COURIER 
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_HYBRIDPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:		
+          STR_SECTOID: 20
+          STR_FLOATER: 20
+          STR_SNAKEMAN: 20
+          STR_ETHEREAL: 20		  
+          STR_MUTON: 20			  
+    waves:
+      - ufo: STR_VESSEL_CORVETTE
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_SNAKEBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_BOMBER
+        count: 1
+        trajectory: P21
+        timer: 10000	
+  - type: STR_FACTION_RETALIATIONALIENPIRATEPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_SILVER_TOWERS 
+    raceWeights:
+      0:
+          STR_SECTOID: 20
+          STR_FLOATER: 20
+          STR_SNAKEMAN: 20
+          STR_ETHEREAL: 20		  
+          STR_MUTON: 20	
+    waves:
+      - ufo: STR_VESSEL_HEAVY_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_SILVER_TOWERS
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5	
+  - type: STR_ALIENRESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_SECTOID: 20
+          STR_FLOATER: 20
+          STR_SNAKEMAN: 20
+          STR_ETHEREAL: 20		  
+          STR_MUTON: 20	
+    waves:
+      - ufo: STR_VESSEL_MESSENGER
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_ESCORT
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_LABSHIP
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_BREAKER
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5	
+  - type: STR_FACTION_ENFORCEMENTALIENPIRAEZ
+    points: 0
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_SECTOID: 20
+          STR_FLOATER: 20
+          STR_SNAKEMAN: 20
+          STR_ETHEREAL: 20		  
+          STR_MUTON: 20		
+    waves:
+      - ufo: STR_VESSEL_MESSENGER
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 40
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_SENTRY
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_HOPPER
+        count: 1
+        trajectory: P21
+        timer: 6500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 1		
+missionScripts:
+#UFO
+  - type: AlienSpawnPatrolufo
+    missionWeights:
+      0:
+        STR_ALIENPIRATEPATROLPRIATEZ: 100			
+    firstMonth: 0
+    varName: alienspawnpatrolufo
+    maxRuns: -1
+    executionOdds: 10	
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: AlienresourceraidSpawnPatrolufo
+    missionWeights:
+      0:
+        STR_ALIENRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: alienresourcepatrolufo
+    maxRuns: -1
+    executionOdds: 10	
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: AlienenforcePatrolufo
+    missionWeights:
+      0:
+        STR_FACTION_ENFORCEMENTALIENPIRAEZ: 100			
+    firstMonth: 0
+    varName: alienspawnenforcementufo
+    maxRuns: -1
+    executionOdds: 10	
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			
+#TFTD
+  - type: AlienSpawnPatroltftd
+    missionWeights:
+      0:
+        STR_ALIENPIRATEPATROLPRIATEZ: 100			
+    firstMonth: 0
+    varName: alienspawnpatroltftd
+    maxRuns: -1
+    executionOdds: 10
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true		
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: AlienresourceraidSpawnPatrolufo
+    missionWeights:
+      0:
+        STR_ALIENRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: alienresourcepatroltftd
+    maxRuns: -1
+    executionOdds: 10
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: AlienenforcePatrolufo
+    missionWeights:
+      0:
+        STR_FACTION_ENFORCEMENTALIENPIRAEZ: 100			
+    firstMonth: 0
+    varName: alienspawnenforcementtftd
+    maxRuns: -1
+    executionOdds: 10
+    researchTriggers:                   
+      STR_ALIEN_SIGNAL: true	
+    regionWeights:
+      0:
+        LANDSPAWNS: 100		

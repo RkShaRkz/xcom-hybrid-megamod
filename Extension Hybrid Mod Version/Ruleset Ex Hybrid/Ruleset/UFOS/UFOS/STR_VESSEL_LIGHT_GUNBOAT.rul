@@ -1,0 +1,137 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_LIGHT_GUNBOAT: Civillian Aircar
+      STR_VESSEL_LIGHT_GUNBOAT_UFOPEDIA: "An older version of the Paradizo Cloudcar mk2, the mk1 trades less advanced weapons for some extra crew. The crew, however, is likely to be poorly armed.{NEWLINE}Max DPM: 78" 
+ufopaedia:
+  - id: STR_VESSEL_LIGHT_GUNBOAT
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_LIGHT_GUNBOAT
+    text: STR_VESSEL_LIGHT_GUNBOAT_UFOPEDIA
+research:
+  - name: STR_VESSEL_LIGHT_GUNBOAT
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_LIGHT_GUNBOAT
+ufos:
+  - type: STR_VESSEL_LIGHT_GUNBOAT
+    size: STR_VERY_SMALL
+    modSprite: InterceptionCCCloudcar
+    damageMax: 30
+    speedMax: 500
+    accel: 2
+    power: 10
+    range: 22
+    score: 50
+    reload: 10
+    fireSound: 304	
+    breakOffTime: 200
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VESSEL_CC5
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL
+        - C_EXT_ROOF
+        - C_EXT_ENGINE_E
+        - C_EXT_ENGINE_S
+        - C_EXT_NOSE
+        - C_EXT_NOSE_BUMPER
+        - C_EXT_NOSE_BUMPLESS
+        - C_EXT_NOSE_SIDE 
+        - C_BITS2
+        - C_INT
+        - DOORSSEC
+        - DOORS2
+        - C_EXT_GLASSWALL
+        - LIFTER
+        - C_INT_ENGINE_E    
+      mapBlocks:
+        - name: VESSEL_CC5
+          width: 10
+          length: 10
+alienDeployments:
+  - type: STR_VESSEL_LIGHT_GUNBOAT
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLANDD 
+    unlockedResearch: STR_VESSEL_LIGHT_GUNBOAT
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 0
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_LIGHT_GUNBOAT_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_RAIDER_FIGHTER	 
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 0
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

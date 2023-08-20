@@ -1,0 +1,161 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_EMBASSY_OF_TLETH: "Cult of the Abyss Communion"
+      STR_EMBASSY_OF_TLETH_DESCRIPTION: "This is the Merc Guild here, our contacts from the naval sources has found an alien underwater city. Apparently, the Cult of the Abyss has been making contact with their Alien masters.Your units will do well to kill all the aliens in the city. Leave no survivors. Some govt factions will pay you well for the job done."
+      STR_EMBASSY_OF_TLETH_BRIEFING: "This is the Merc Guild here, our contacts from the naval sources has found an alien underwater city. Apparently, the Cult of the Abyss has been making contact with their Alien masters.Your units will do well to kill all the aliens in the city. Leave no survivors. Some govt factions will pay you well for the job done."
+alienDeployments:
+  - type: STR_EMBASSY_OF_TLETH
+    missionBountyItem: STR_ALIEN_COMMUNICATOR  
+    music:
+      - GMTACWET
+    width: 50
+    length: 50
+    height: 16
+    minShade: 7
+    depth: [1, 1]  	
+    alert: STR_EMBASSY_OF_TLETH
+    alertBackground: BACK04.SCR
+    alertDescription: STR_EMBASSY_OF_TLETH_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+      title: STR_EMBASSY_OF_TLETH
+      desc: STR_EMBASSY_OF_TLETH_BRIEFING	  
+    markerName: STR_EMBASSY_OF_TLETH
+    duration: [100, 200]
+    despawnPenalty: 5
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    script: SEA_ALIENCOLONYMEETING
+    data:
+      - alienRank: 8
+        lowQty: 4
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_HE_BOMB
+            - STR_HE_BOMB 
+            - STR_STUN_BOMB
+            - STR_ALIEN_GRENADE
+
+          -
+            - STR_DISRUPTOR_PULSE_LAUNCHER
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_DISRUPTOR_AMMO
+            - STR_ALIEN_GRENADE		
+mapScripts:
+  - type: SEA_ALIENCOLONYMEETING
+    commands:
+    - type: resize
+      size: [8, 8, 12]
+    - type: addCraft
+      terrain: globeTerrain 
+    - type: addUFO
+      UFOName: STR_DAGON_PYRAMIDXXX
+      terrain: globeTerrain
+      groups: 1	 
+    - type: addBlock
+      executions: 2 
+      terrain: ENTRYVILLAGE  
+    - type: addBlock
+      executions: 10 
+      terrain: ALARTVILLAGE
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: ALARTVILLAGE
+    - type: fillArea
+      randomTerrain: [SEABED,CORAL]					
+alienMissions:
+  - type: STR_EMBASSY_OF_TLETH
+    #interruptResearch: STR_DESTROY_TASOTH
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIXED_CREW_UNDERWATER: 100
+    waves:
+      - ufo: STR_EMBASSY_OF_TLETH
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 13000
+        objective: true
+missionScripts:
+  - type: embassyOfTlethEarly0
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_EMBASSY_OF_TLETH: 100
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    researchTriggers:
+      STR_ALIEN_SIGNAL: true  
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

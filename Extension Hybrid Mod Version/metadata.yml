@@ -1,0 +1,8 @@
+name: "EXTENSION"
+version: "EXTENSION"
+description: "EXTENSION"
+author: "NA"
+id: EXT
+reservedSpace: 4
+#isMaster: false
+master: xcom1

@@ -1,0 +1,2310 @@
+﻿units:
+  - type: STR_CHASER_SOLDIER_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 130
+      health: 20
+      bravery: 80
+      reactions: 55
+      firing: 58
+      throwing: 50
+      strength: 36
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_CHASER_NAVIGATOR_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 75
+      stamina: 130
+      health: 20
+      bravery: 80
+      reactions: 55
+      firing: 58
+      throwing: 50
+      strength: 36
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_CHASER_MEDIC_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 75
+      stamina: 130
+      health: 20
+      bravery: 80
+      reactions: 55
+      firing: 58
+      throwing: 50
+      strength: 36
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_CHASER_ENGINEER_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 75
+      stamina: 130
+      health: 20
+      bravery: 80
+      reactions: 55
+      firing: 58
+      throwing: 50
+      strength: 36
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_CHASER_LEADER_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 140
+      health: 25
+      bravery: 80
+      reactions: 60
+      firing: 64
+      throwing: 55
+      strength: 36
+      psiStrength: 55
+      psiSkill: 0
+      melee: 45
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 4
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_CHASER_COMMANDER_UNDERWATER
+    race: STR_CHASER_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 84
+      stamina: 155
+      health: 30
+      bravery: 80
+      reactions: 70
+      firing: 69
+      throwing: 60
+      strength: 40
+      psiStrength: 62
+      psiSkill: 0
+      melee: 54
+    armor: STR_CHASER_STANDARD_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: 10
+    intelligence: 4
+    aggression: 3
+    energyRecovery: 40
+  - type: STR_OBLITERATOR_TERRORIST_UNDERWATER
+    race: STR_OBLITERATOR_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 90
+      stamina: 100
+      health: 70
+      bravery: 110
+      reactions: 20
+      firing: 50
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: OBLITERATOR_ARMOR_UNDERWATER
+    standHeight: 16
+    kneelHeight: 16
+    floatHeight: 6
+    value: 45
+    deathSound: 23
+    moveSound: 40
+    intelligence: 1
+    aggression: 2
+    livingWeapon: true
+  - type: STR_ETHEREAL_GUARDIAN_UNDERWATER
+    race: STR_ETHEREAL_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 96
+      health: 55
+      bravery: 90
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 60
+      psiSkill: 45
+      melee: 75
+    armor: ETHEREAL_ARMOR_WHITE_UNDERWATER
+    standHeight: 20
+    kneelHeight: 15
+    value: 40
+    deathSound: 9
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_ETHEREAL_SPEAKER_UNDERWATER
+    race: STR_ETHEREAL_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 96
+      health: 55
+      bravery: 100
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 55
+      psiStrength: 60
+      psiSkill: 55
+      melee: 85
+    armor: ETHEREAL_ARMOR_WHITE2_UNDERWATER
+    standHeight: 20
+    kneelHeight: 15
+    value: 40
+    deathSound: 9
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_ETHEREAL_KNIGHT_UNDERWATER
+    race: STR_ETHEREAL_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 75
+      firing: 75
+      throwing: 90
+      strength: 60
+      psiStrength: 65
+      psiSkill: 50
+      melee: 90
+    armor: ETHEREAL_ARMOR_WHITE3_UNDERWATER
+    standHeight: 20
+    kneelHeight: 15
+    value: 40
+    deathSound: 9
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_ETHEREAL_GRAND_MASTER_UNDERWATER
+    race: STR_ETHEREAL_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 100
+      health: 65
+      bravery: 110
+      reactions: 80
+      firing: 80
+      throwing: 100
+      strength: 65
+      psiStrength: 75
+      psiSkill: 80
+      melee: 95
+    armor: ETHEREAL_ARMOR_WHITE4_UNDERWATER
+    standHeight: 20
+    kneelHeight: 15
+    value: 40
+    deathSound: 9
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_MIB_HEAVY_TROOPER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 46
+      firing: 55
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_DEEPSEASUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 41
+    intelligence: 4
+    aggression: 1
+  - type: STR_MIB_STORMTROOPER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 84
+      throwing: 72
+      strength: 49
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+    armor: STR_DEEPSEASUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 41
+    intelligence: 4
+    aggression: 1
+  - type: STR_MIB_PSI_OPS_UNDERWATER
+    race: STR_MIB
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 110
+      health: 45
+      bravery: 90
+      reactions: 58
+      firing: 64
+      throwing: 76
+      strength: 42
+      psiStrength: 55
+      psiSkill: 50
+      melee: 45
+    armor: STR_SWIMAQUALUNG_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 80
+    deathSound: 45
+    intelligence: 5
+    aggression: 2
+  - type: STR_MIB_SECTOPOD_TERRORIST_UNDERWATER
+    race: STR_MIB_SECTOPOD_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 62
+      stamina: 90
+      health: 96
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: MIB_SECTOPOD_ARMOR_UNDERWATER
+    standHeight: 23
+    kneelHeight: 16
+    value: 30
+    deathSound: 23
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 50
+    livingWeapon: true
+  - type: STR_DOGE_UNDERWATER
+    race: STR_DOGE_UNDERWATER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 25
+      bravery: 10
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 2
+      psiStrength: 40
+      psiSkill: 0
+      melee: 100
+    armor: DOGE_ARMOR_UNDERWATER
+    standHeight: 12
+    kneelHeight: 12
+    value: 6
+    deathSound: 94
+    aggroSound: 95
+    energyRecovery: 30
+    livingWeapon: true
+    intelligence: 3
+    aggression: 2
+  - type: STR_HYBRID_SOLDIER_UNDERWATER
+    race: STR_HYBRID_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: HYBRID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    deathSound: 8
+    intelligence: 5
+    aggression: 2
+  - type: STR_HYBRID_ENGINEER_UNDERWATER
+    race: STR_HYBRID_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: HYBRID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 8
+    intelligence: 8
+    aggression: 2
+  - type: STR_HYBRID_NAVIGATOR_UNDERWATER
+    race: STR_HYBRID_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: HYBRID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 8
+    intelligence: 6
+    aggression: 2
+  - type: STR_HYBRID_MEDIC_UNDERWATER
+    race: STR_HYBRID_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: HYBRID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 16
+    deathSound: 8
+    intelligence: 7
+    aggression: 1
+  - type: STR_ALIEN_DRONE_TERRORIST_UNDERWATER
+    race: STR_ALIEN_DRONE_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 120
+      health: 35
+      bravery: 90
+      reactions: 30
+      firing: 40
+      throwing: 0
+      strength: 60
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+    armor: DRONE_ARMOR_UNDERWATER
+    moveSound: 40
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 25
+    deathSound: 23
+    intelligence: 6
+    aggression: 2
+    livingWeapon: true
+  - type: STR_ANTHROPOD_SOLDIER_UNDERWATER
+    race: STR_ANTHROPOD_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 60
+      bravery: 80
+      reactions: 50
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 30
+      psiSkill: 0
+      melee: 45
+    armor: ANTHROPOD_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 15
+    deathSound: 90
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_ANTHROPOD_NAVIGATOR_UNDERWATER
+    race: STR_ANTHROPOD_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 56
+      stamina: 90
+      health: 65
+      bravery: 80
+      reactions: 53
+      firing: 57
+      throwing: 65
+      strength: 70
+      psiStrength: 30
+      psiSkill: 0
+      melee: 48
+    armor: ANTHROPOD_ARMOR1_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 17
+    deathSound: 90
+    intelligence: 3
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_ANTHROPOD_ENGINEER_UNDERWATER
+    race: STR_ANTHROPOD_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 70
+      bravery: 80
+      reactions: 56
+      firing: 60
+      throwing: 68
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 44
+    armor: ANTHROPOD_ARMOR2_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: 90
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_SPITTER_TERRORIST_UNDERWATER
+    race: STR_SPITTER_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 80
+      health: 30
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 15
+    armor: SPITTER_ARMOR_UNDERWATER
+    standHeight: 18
+    kneelHeight: 18
+    value: 15
+    deathSound: 102
+    moveSound: 0
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+  - type: STR_SPITTER_RETRACT_TERRORIST_UNDERWATER
+    race: STR_SPITTER_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 30
+      stamina: 80
+      health: 30
+      bravery: 80
+      reactions: 35
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 15
+    armor: SPITTER_RETRACT_ARMOR_UNDERWATER
+    standHeight: 10
+    kneelHeight: 10
+    value: 15
+    deathSound: 102
+    moveSound: 0
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+  - type: STR_SPITTER_RETRES_TERRORIST_UNDERWATER
+    race: STR_SPITTER_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 30
+      stamina: 80
+      health: 30
+      bravery: 80
+      reactions: 35
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 15
+    armor: SPITTER_RETRES_ARMOR_UNDERWATER
+    standHeight: 10
+    kneelHeight: 10
+    value: 15
+    deathSound: 101
+    moveSound: 0
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 30
+    spawnUnit: STR_SPITTER_NAKED_TERRORIST_UNDERWATER
+    livingWeapon: true
+  - type: STR_SPITTER_NAKED_TERRORIST_UNDERWATER
+    race: STR_SPITTER_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 80
+      health: 30
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 15
+    armor: SPITTER_NAKED_ARMOR_UNDERWATER
+    standHeight: 18
+    kneelHeight: 18
+    value: 15
+    deathSound: 102
+    moveSound: 0
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 30
+    livingWeapon: true
+  - type: STR_XCOM_CYBERDISC_LASER_UNDERWATER
+    race: STR_XCOM_CYBERDISC_LASER_UNDERWATER
+    stats:
+      tu: 62
+      stamina: 90
+      health: 120
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: XCOM_CYBERDISC_ARMOR_ORANGE_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+    specab: 1
+  - type: STR_XCOM_CYBERDISC_PLASMA_UNDERWATER
+    race: STR_XCOM_CYBERDISC_PLASMA_UNDERWATER
+    stats:
+      tu: 62
+      stamina: 90
+      health: 120
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: XCOM_CYBERDISC_ARMOR_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+    specab: 1
+  - type: STR_MIB_SOLDIER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 46
+      firing: 55
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_SWIMAQUALUNG_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 41
+    intelligence: 4
+    aggression: 1
+  - type: STR_MIB_NAVIGATOR_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 49
+      firing: 58
+      throwing: 64
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_SWIMAQUALUNG_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 22
+    deathSound: 42
+    intelligence: 4
+    aggression: 1
+  - type: STR_MIB_MEDIC_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 52
+      firing: 61
+      throwing: 68
+      strength: 49
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+    armor: MIB_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 23
+    deathSound: 43
+    intelligence: 5
+    aggression: 0
+  - type: STR_MIB_ENGINEER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 55
+      firing: 64
+      throwing: 72
+      strength: 49
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+    armor: STR_SWIMAQUALUNG_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    deathSound: 41
+    intelligence: 5
+    aggression: 1
+  - type: STR_MIB_LEADER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 64
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 58
+      firing: 67
+      throwing: 76
+      strength: 49
+      psiStrength: 45
+      psiSkill: 0
+      melee: 45
+    armor: STR_DEEPSEASUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 28
+    deathSound: 42
+    intelligence: 5
+    aggression: 1
+  - type: STR_MIB_COMMANDER_UNDERWATER
+    race: STR_MIB_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 90
+      health: 50
+      bravery: 80
+      reactions: 61
+      firing: 70
+      throwing: 80
+      strength: 49
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_DEEPSEASUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 36
+    deathSound: 43
+    intelligence: 6
+    aggression: 0
+  - type: STR_MIBTANK_TERRORIST_UNDERWATER
+    race: STR_MIBTANK_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 150
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: MIBTANK_ARMOR_UNDERWATER
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    deathSound: 23
+    moveSound: 14  
+    intelligence: 5
+    aggression: 2
+    livingWeapon: true
+  - type: STR_MUTON_MEDIC_UNDERWATER
+    race: STR_MUTON_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 56
+      stamina: 90
+      health: 130
+      bravery: 80
+      reactions: 55
+      firing: 50
+      throwing: 60
+      strength: 70
+      psiStrength: 24
+      psiSkill: 0
+      melee: 76
+    armor: MUTON_ARMOR_MEDIC_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 28
+    deathSound: 6
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_MUTON_LEADER_UNDERWATER
+    race: STR_MUTON_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 140
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 78
+    armor: MUTON_ARMOR_LEADER_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 28
+    deathSound: 6
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_MUTON_COMMANDER_UNDERWATER
+    race: STR_MUTON_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 150
+      bravery: 90
+      reactions: 60
+      firing: 75
+      throwing: 62
+      strength: 85
+      psiStrength: 50
+      psiSkill: 0
+      melee: 82
+    armor: MUTON_ARMOR_COM_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 36
+    deathSound: 6
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_MUTON_SHADER_UNDERWATER
+    race: STR_MUTON_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 100
+      health: 120
+      bravery: 90
+      reactions: 66
+      firing: 72
+      throwing: 56
+      strength: 73
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: STR_MUTON_SHADER_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 30
+    deathSound: 107
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_DEATH_DISC
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_BLADE
+        - STR_PLASMA_PISTOL
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_SWORD
+        - STR_PLASMA_PISTOL
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_SNIPER_RIFLE
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_ALIEN_GRENADE
+        - STR_ALIEN_GRENADE
+      - - STR_HEAVY_PLASMA
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_ALIEN_GRENADE
+  - type: STR_CEREBREAL_SOLDIER_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 15
+      bravery: 70
+      reactions: 60
+      firing: 65
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 40
+      melee: 10
+    armor: CEREBREAL_ARMOR0_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 12
+    deathSound: 8
+    intelligence: 5
+    aggression: 2
+    livingWeapon: true
+  - type: STR_CEREBREAL_ENGINEER_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 15
+      bravery: 70
+      reactions: 60
+      firing: 65
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 40
+      melee: 10
+    armor: CEREBREAL_ARMOR0_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    deathSound: 8
+    intelligence: 8
+    aggression: 2
+    livingWeapon: true
+  - type: STR_CEREBREAL_NAVIGATOR_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 100
+      health: 15
+      bravery: 70
+      reactions: 60
+      firing: 65
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 40
+      melee: 10
+    armor: CEREBREAL_ARMOR0_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 14
+    deathSound: 8
+    intelligence: 6
+    aggression: 2
+    livingWeapon: true
+  - type: STR_CEREBREAL_MEDIC_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 60
+      stamina: 100
+      health: 15
+      bravery: 70
+      reactions: 60
+      firing: 65
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 40
+      melee: 10
+    armor: CEREBREAL_ARMOR0_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 16
+    deathSound: 8
+    intelligence: 7
+    aggression: 1
+    livingWeapon: true
+  - type: STR_CEREBREAL_LEADER_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 15
+      bravery: 80
+      reactions: 65
+      firing: 70
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 45
+      melee: 10
+    armor: CEREBREAL_ARMOR1_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 25
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+    livingWeapon: true
+  - type: STR_CEREBREAL_COMMANDER_UNDERWATER
+    race: STR_CEREBREAL_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 20
+      bravery: 80
+      reactions: 65
+      firing: 75
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 50
+      melee: 10
+    armor: CEREBREAL_ARMOR2_UNDERWATER
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 35
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+    livingWeapon: true
+  - type: STR_CEREBREAL_LARVA_TERRORIST_UNDERWATER
+    race: STR_CEREBREAL_LARVA_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 45
+      stamina: 120
+      health: 35
+      bravery: 90
+      reactions: 30
+      firing: 40
+      throwing: 0
+      strength: 60
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+    armor: CEREBREAL_LARVA_ARMOR_UNDERWATER
+    moveSound: 40
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 25
+    deathSound: 23
+    intelligence: 6
+    aggression: 2
+    livingWeapon: true
+  - type: STR_CHTONITE_SOLDIER_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: CHTONITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    deathSound: 103
+    intelligence: 5
+    aggression: 2
+  - type: STR_CHTONITE_ENGINEER_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: CHTONITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 103
+    intelligence: 8
+    aggression: 2
+  - type: STR_CHTONITE_NAVIGATOR_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: CHTONITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 103
+    intelligence: 6
+    aggression: 2
+  - type: STR_CHTONITE_MEDIC_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 25
+    armor: CHTONITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 16
+    deathSound: 103
+    intelligence: 7
+    aggression: 1
+  - type: STR_CHTONITE_LEADER_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 35
+    armor: CHTONITE_ARMOR1_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 103
+    intelligence: 8
+    aggression: 0
+  - type: STR_CHTONITE_COMMANDER_UNDERWATER
+    race: STR_CHTONITE_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 55
+      stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 45
+      firing: 55
+      throwing: 58
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 45
+    armor: CHTONITE_ARMOR2_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 35
+    deathSound: 103
+    intelligence: 8
+    aggression: 0
+  - type: STR_REPTOID_SOLDIER_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: REPTOID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    deathSound: 8
+    intelligence: 5
+    aggression: 2
+  - type: STR_REPTOID_ENGINEER_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: REPTOID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 8
+    intelligence: 8
+    aggression: 2
+  - type: STR_REPTOID_NAVIGATOR_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: REPTOID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 8
+    intelligence: 6
+    aggression: 2
+  - type: STR_REPTOID_MEDIC_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: REPTOID_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 16
+    deathSound: 8
+    intelligence: 7
+    aggression: 1
+  - type: STR_REPTOID_LEADER_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 50
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+    armor: REPTOID_ARMOR1_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+  - type: STR_REPTOID_COMMANDER_UNDERWATER
+    race: STR_REPTOID_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 60
+      bravery: 80
+      reactions: 80
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 82
+    armor: REPTOID_ARMOR2_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    value: 35
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+  - type: STR_SALAMANDRON_TERRORIST_UNDERWATER
+    race: STR_SALAMANDRON_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 55
+      stamina: 90
+      health: 80
+      bravery: 90
+      reactions: 14
+      firing: 20
+      throwing: 0
+      strength: 75
+      psiStrength: 20
+      psiSkill: 0
+      melee: 60
+    armor: SALAMANDRON_ARMOR_UNDERWATER
+    standHeight: 24
+    kneelHeight: 18
+    value: 25
+    deathSound: 74
+    intelligence: 2
+    aggression: 2
+    builtInWeapons:
+      - STR_SALAMANDRON_BITE
+    livingWeapon: true
+  - type: STR_GAZER_SOLDIER_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 80
+      health: 70
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 49
+      psiStrength: 50
+      psiSkill: 0
+      melee: 34
+    armor: GAZER_ARMOR0_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_GAZER_ENGINEER_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 50
+      stamina: 80
+      health: 70
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 49
+      psiStrength: 50
+      psiSkill: 0
+      melee: 34
+    armor: GAZER_ARMOR0_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 18
+    deathSound: 10
+    intelligence: 5
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_GAZER_NAVIGATOR_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 50
+      stamina: 80
+      health: 70
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 49
+      psiStrength: 50
+      psiSkill: 0
+      melee: 34
+    armor: GAZER_ARMOR0_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 20
+    deathSound: 10
+    intelligence: 5
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_GAZER_MEDIC_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 50
+      stamina: 80
+      health: 70
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 49
+      psiStrength: 50
+      psiSkill: 0
+      melee: 34
+    armor: GAZER_ARMOR0_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 22
+    deathSound: 10
+    intelligence: 5
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_GAZER_LEADER_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 54
+      stamina: 86
+      health: 80
+      bravery: 80
+      reactions: 50
+      firing: 60
+      throwing: 70
+      strength: 49
+      psiStrength: 55
+      psiSkill: 0
+      melee: 40
+    armor: GAZER_ARMOR1_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 26
+    deathSound: 10
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_GAZER_COMMANDER_UNDERWATER
+    race: STR_GAZER_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 58
+      stamina: 92
+      health: 95
+      bravery: 80
+      reactions: 50
+      firing: 60
+      throwing: 70
+      strength: 49
+      psiStrength: 60
+      psiSkill: 0
+      melee: 45
+    armor: GAZER_ARMOR2_UNDERWATER
+    standHeight: 19
+    kneelHeight: 15
+    value: 30
+    deathSound: 10
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+  - type: STR_HOLODRONE_TERRORIST_UNDERWATER
+    race: STR_HOLODRONE_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 60
+      stamina: 105
+      health: 50
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 50
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+    armor: HOLODRONE_ARMOR_UNDERWATER
+    standHeight: 16
+    kneelHeight: 16
+    floatHeight: 8
+    value: 25
+    deathSound: 23
+    moveSound: 15
+    intelligence: 2
+    aggression: 2
+    livingWeapon: true
+  - type: STR_WASPITE_SOLDIER_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 65
+    armor: WASPITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 12
+    deathSound: 51
+    moveSound: 40
+    intelligence: 5
+    aggression: 2
+  - type: STR_WASPITE_ENGINEER_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 65
+    armor: WASPITE_ARMOR0_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 2
+  - type: STR_WASPITE_NAVIGATOR_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+    armor: WASPITE_ARMOR_BROWN_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 14
+    deathSound: 51
+    moveSound: 40
+    intelligence: 6
+    aggression: 2
+  - type: STR_WASPITE_MEDIC_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+    armor: WASPITE_ARMOR_WHITE_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 16
+    deathSound: 51
+    moveSound: 40
+    intelligence: 7
+    aggression: 1
+  - type: STR_WASPITE_LEADER_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 45
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+    armor: WASPITE_ARMOR1_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 25
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 0
+  - type: STR_WASPITE_COMMANDER_UNDERWATER
+    race: STR_WASPITE_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 50
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 60
+      psiSkill: 0
+      melee: 76
+    armor: WASPITE_ARMOR2_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 35
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 0
+  - type: STR_CYBERMITE_TERRORIST_UNDERWATER
+    race: STR_CYBERMITE_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 62
+      stamina: 92
+      health: 20
+      bravery: 110
+      reactions: 64
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: CYBERMITE_ARMOR_UNDERWATER
+    standHeight: 6
+    kneelHeight: 5
+    value: 25
+    deathSound: 23
+    intelligence: 2
+    aggression: 2
+    specab: 1
+    livingWeapon: true
+  #- type: MALE_CIVILIAN_UNDERWATER
+  #  stats:
+  #    melee: 15
+  - type: MALE_CIVILIAN2_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN2_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: MALE_CIVILIAN3
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN3_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: MALE_CIVILIAN4_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN4_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: MALE_CIVILIAN5
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN5_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: MALE_CIVILIAN6_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN6_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: MALE_CIVILIAN7_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: MALE_CIVILIAN7_ARMOR_UNDERWATER
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: FEMALE_CIVILIAN2_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: FEMALE_CIVILIAN2_ARMOR_UNDERWATER
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  - type: FEMALE_CIVILIAN3_UNDERWATER
+    race: STR_CIVILIAN_UNDERWATER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 15
+    armor: FEMALE_CIVILIAN3_ARMOR_UNDERWATER
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+  #- type: FEMALE_CIVILIAN_UNDERWATER
+  #  stats:
+  #    melee: 15
+  - type: STR_SECTOID_SOLDIER_UNDERWATER
+    stats:
+      melee: 12
+  - type: STR_SECTOID_ENGINEER_UNDERWATER
+    stats:
+      melee: 12
+  - type: STR_SECTOID_MEDIC_UNDERWATER
+    stats:
+      melee: 12
+  - type: STR_SECTOID_NAVIGATOR_UNDERWATER
+    stats:
+      melee: 12
+  - type: STR_SECTOID_LEADER_UNDERWATER
+    stats:
+      melee: 18
+  - type: STR_SECTOID_COMMANDER_UNDERWATER
+    race: STR_SECTOID_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 60
+      melee: 28
+    armor: SECTOID_ARMOR2_UNDERWATER
+    standHeight: 16
+    kneelHeight: 12
+    value: 25
+    deathSound: 10
+    intelligence: 8
+    aggression: 0
+  - type: STR_SECTOID_GUARDIAN_UNDERWATER
+    race: STR_SECTOID_UNDERWATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 60
+      firing: 50
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 55
+      melee: 30
+    armor: SECTOID_ARMOR_HEAVY_UNDERWATER
+    standHeight: 16
+    kneelHeight: 12
+    value: 20
+    deathSound: 10
+    intelligence: 7
+    aggression: 1
+  - type: STR_FLOATER_SOLDIER_UNDERWATER
+    stats:
+      melee: 38
+  - type: STR_FLOATER_ENGINEER_UNDERWATER
+    race: STR_FLOATER_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 58
+      strength: 40
+      psiStrength: 35
+      psiSkill: 0
+      melee: 38
+    armor: FLOATER_ARMOR_GREEN_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    deathSound: 10
+    moveSound: 15
+    intelligence: 7
+    aggression: 2
+  - type: STR_FLOATER_MEDIC_UNDERWATER
+    race: STR_FLOATER_UNDERWATER
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 58
+      strength: 40
+      psiStrength: 35
+      psiSkill: 0
+      melee: 38
+    armor: FLOATER_ARMOR_WHITE_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 16
+    deathSound: 10
+    moveSound: 15
+    intelligence: 6
+    aggression: 1
+  - type: STR_FLOATER_NAVIGATOR_UNDERWATER
+    race: STR_FLOATER_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 58
+      strength: 40
+      psiStrength: 35
+      psiSkill: 0
+      melee: 38
+    armor: FLOATER_ARMOR_BLUE_UNDERWATER
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 14
+    deathSound: 10
+    moveSound: 15
+    intelligence: 5
+    aggression: 2
+  - type: STR_FLOATER_LEADER_UNDERWATER
+    stats:
+      melee: 45
+  - type: STR_FLOATER_COMMANDER_UNDERWATER
+    stats:
+      melee: 55
+  - type: STR_SNAKEMAN_SOLDIER_UNDERWATER
+    stats:
+      melee: 48
+  - type: STR_SNAKEMAN_ENGINEER_UNDERWATER
+    race: STR_SNAKEMAN_UNDERWATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 40
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 48
+    armor: SNAKEMAN_ARMOR_GREEN_UNDERWATER
+    standHeight: 18
+    kneelHeight: 18
+    value: 20
+    deathSound: 8
+    moveSound: 0
+    intelligence: 4
+    aggression: 2
+  - type: STR_SNAKEMAN_NAVIGATOR_UNDERWATER
+    race: STR_SNAKEMAN_UNDERWATER
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 40
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 45
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 40
+      psiSkill: 0
+      melee: 48
+    armor: SNAKEMAN_ARMOR_BLUE_UNDERWATER
+    standHeight: 18
+    kneelHeight: 18
+    value: 17
+    deathSound: 8
+    moveSound: 0
+    intelligence: 3
+    aggression: 2
+  - type: STR_SNAKEMAN_LEADER_UNDERWATER
+    stats:
+      melee: 55
+  - type: STR_SNAKEMAN_COMMANDER_UNDERWATER
+    race: STR_SNAKEMAN_UNDERWATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 45
+      stamina: 84
+      health: 55
+      bravery: 80
+      reactions: 65
+      firing: 58
+      throwing: 65
+      strength: 47
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+    armor: SNAKEMAN_ARMOR2_UNDERWATER
+    standHeight: 18
+    kneelHeight: 18
+    value: 36
+    deathSound: 8
+    moveSound: 0
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 40
+  #- type: STR_SILACOID_TERRORIST_UNDERWATER
+  #  stats:
+  #    melee: 65
+  #- type: STR_CELATID_TERRORIST_UNDERWATER
+  #  stats:
+  #    melee: 35
+  - type: STR_ETHEREAL_SOLDIER_UNDERWATER
+    stats:
+      melee: 56
+  - type: STR_ETHEREAL_LEADER_UNDERWATER
+    stats:
+      melee: 66
+  - type: STR_ETHEREAL_COMMANDER_UNDERWATER
+    stats:
+      melee: 78
+  #- type: STR_SECTOPOD_TERRORIST_UNDERWATER
+  #  stats:
+  #    melee: 30
+  - type: STR_SCOUT_DRONE_UNDERWATER
+    race: STR_SCOUT_DRONE_UNDERWATER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 110
+      health: 40
+      bravery: 110
+      reactions: 90
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 110
+      psiSkill: 0
+      melee: 0
+    armor: SMALL_TANK_ARMOR_UNDERWATER
+    standHeight: 10
+    kneelHeight: 10
+    value: 8
+    deathSound: 23
+    moveSound: 14
+  - type: STR_SECTOPOD_LASER_UNDERWATER
+    race: STR_SECTOPOD_LASER_UNDERWATER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: SECTOPOD_ARMOR2_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 23
+  - type: STR_SECTOPOD_PLASMA_UNDERWATER
+    race: STR_SECTOPOD_PLASMA_UNDERWATER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: SECTOPOD_ARMOR3_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 23
+  - type: STR_TANK_GAUSS_UNDERWATER
+    race: STR_TANK_GAUSS_UNDERWATER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_UNDERWATER
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+  - type: STR_HOVERTANK_GAUSS_UNDERWATER
+    race: STR_HOVERTANK_GAUSS_UNDERWATER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: HOVERTANK_ARMOR_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 15
+  - type: STR_TANK_RAILGUN_UNDERWATER
+    race: STR_TANK_RAILGUN_UNDERWATER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_UNDERWATER
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+  - type: STR_HOVERTANK_RAILGUN_UNDERWATER
+    race: STR_HOVERTANK_RAILGUN_UNDERWATER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: HOVERTANK_ARMOR_UNDERWATER
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 15

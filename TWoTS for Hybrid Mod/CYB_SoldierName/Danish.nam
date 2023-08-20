@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - CS Absalon
+  - CS Adam
+  - CS Adolf
+  - CS Albert
+  - CS Alex
+  - CS Alexander
+  - CS Alf
+  - CS Alfred
+  - CS Allan
+  - CS Anders
+  - CS Andreas
+  - CS Anker
+  - CS Anton
+  - CS Arne
+  - CS Arnold
+  - CS Aron
+  - CS Arthur
+  - CS Arvid
+  - CS Asbjoorn
+  - CS Asger
+  - CS Aske
+  - CS Asmus
+  - CS August
+  - CS Axel
+  - CS Bendt
+  - CS Benjamin
+  - CS Benny
+  - CS Bent
+  - CS Bernhard
+  - CS Bernt
+  - CS Bertel
+  - CS Berthel
+  - CS Bertram
+  - CS Birger
+  - CS Bjarke
+  - CS Bjarne
+  - CS Bjork
+  - CS Bjorn
+  - CS Bo
+  - CS Boje
+  - CS Borge
+  - CS Boye
+  - CS Brian
+  - CS Bruno
+  - CS Carsten
+  - CS Casper
+  - CS Chresten
+  - CS Chris
+  - CS Christen
+  - CS Christian
+  - CS Christoffer
+  - CS Christopher
+  - CS Claus
+  - CS Daniel
+  - CS Danni
+  - CS Danny
+  - CS David
+  - CS Dennis
+  - CS Ditlev
+  - CS Edvard
+  - CS Edvin
+  - CS Egon
+  - CS Eigil
+  - CS Ejgil
+  - CS Ejnar
+  - CS Ejner
+  - CS Ejvind
+  - CS Elias
+  - CS Elmer
+  - CS Elo
+  - CS Emanuel
+  - CS Emil
+  - CS Erik
+  - CS Erland
+  - CS Erling
+  - CS Ernst
+  - CS Esajas
+  - CS Esben
+  - CS Eskild
+  - CS Evald
+  - CS Ferdinand
+  - CS Filip
+  - CS Finn
+  - CS Flemming
+  - CS Frands
+  - CS Frank
+  - CS Frans
+  - CS Freddy
+  - CS Frede
+  - CS Frederik
+  - CS Frithiof
+  - CS Frithjof
+  - CS Frits
+  - CS Frode
+  - CS Georg
+  - CS Gerhard
+  - CS Germund
+  - CS Gert
+  - CS Gorm
+  - CS Gotfred
+  - CS Gregers
+  - CS Gunder
+  - CS Gunnar
+  - CS Gunner
+  - CS Gustav
+  - CS Harald
+  - CS Hardy
+  - CS Harry
+  - CS Helge
+  - CS Helmer
+  - CS Hemming
+  - CS Henning
+  - CS Henrik
+  - CS Henry
+  - CS Herman
+  - CS Hjalmar
+  - CS Hjalte
+  - CS Holger
+  - CS Hugo
+  - CS Immanuel
+  - CS Ingolf
+  - CS Ivan
+  - CS Ivar
+  - CS Iver
+  - CS Jacob
+  - CS Jakob
+  - CS Jan
+  - CS Jannick
+  - CS Jannik
+  - CS Jens
+  - CS Jeppe
+  - CS Jeremias
+  - CS Jes
+  - CS Jesper
+  - CS Jim
+  - CS Jimmi
+  - CS Jimmy
+  - CS Joachim
+  - CS Joakim
+  - CS Joel
+  - CS Johan
+  - CS Johannes
+  - CS John
+  - CS Johnny
+  - CS Jon
+  - CS Jonas
+  - CS Jonatan
+  - CS Jonathan
+  - CS Jorgen
+  - CS Jorn
+  - CS Josef
+  - CS Jul
+  - CS Julian
+  - CS Julius
+  - CS Just
+  - CS Kaj
+  - CS Kaleb
+  - CS Karl
+  - CS Karsten
+  - CS Kasper
+  - CS Keld
+  - CS Ken
+  - CS Kenneth
+  - CS Kent
+  - CS Kevin
+  - CS Kim
+  - CS Kjeld
+  - CS Klaus
+  - CS Knud
+  - CS Kresten
+  - CS Kristen
+  - CS Kristian
+  - CS Kristoffer
+  - CS Kurt
+  - CS Lars
+  - CS Lasse
+  - CS Lau
+  - CS Lauge
+  - CS Laurids
+  - CS Laurits
+  - CS Lauritz
+  - CS Laurs
+  - CS Laust
+  - CS Lave
+  - CS Leif
+  - CS Lennart
+  - CS Leo
+  - CS Leon
+  - CS Lucas
+  - CS Ludvig
+  - CS Lukas
+  - CS Lykke
+  - CS Mads
+  - CS Magnus
+  - CS Malte
+  - CS Malthe
+  - CS Marc
+  - CS Marcus
+  - CS Marinus
+  - CS Marius
+  - CS Mark
+  - CS Markus
+  - CS Martin
+  - CS Mathias
+  - CS Mathies
+  - CS Matthaeus
+  - CS Matthias
+  - CS Max
+  - CS Michael
+  - CS Mikael
+  - CS Mike
+  - CS Mikkel
+  - CS Mogens
+  - CS Morten
+  - CS Mourits
+  - CS Nick
+  - CS Nicki
+  - CS Nicklas
+  - CS Nicolai
+  - CS Nicolaj
+  - CS Niels
+  - CS Niklas
+  - CS Nikolai
+  - CS Nikolaj
+  - CS Nils
+  - CS Nis
+  - CS Noah
+  - CS Olaf
+  - CS Olav
+  - CS Ole
+  - CS Oliver
+  - CS Oluf
+  - CS Orla
+  - CS Oscar
+  - CS Oskar
+  - CS Osvald
+  - CS Otto
+  - CS Ove
+  - CS Palle
+  - CS Patrick
+  - CS Paul
+  - CS Paulus
+  - CS Paw
+  - CS Peder
+  - CS Per
+  - CS Peter
+  - CS Philip
+  - CS Phillip
+  - CS Poul
+  - CS Povl
+  - CS Preben
+  - CS Rasmus
+  - CS Rene
+  - CS Richard
+  - CS Robert
+  - CS Robin
+  - CS Rolf
+  - CS Ronald
+  - CS Ronni
+  - CS Ronnie
+  - CS Rune
+  - CS Samuel
+  - CS Sebastian
+  - CS Severin
+  - CS Sigfred
+  - CS Sigurd
+  - CS Silas
+  - CS Simon
+  - CS Sofus
+  - CS Sonny
+  - CS Sophus
+  - CS Soren
+  - CS Steen
+  - CS Stefan
+  - CS Steffen
+  - CS Sten
+  - CS Stephan
+  - CS Steven
+  - CS Stig
+  - CS Storm
+  - CS Sune
+  - CS Svend
+  - CS Tage
+  - CS Teddy
+  - CS Theis
+  - CS Theodor
+  - CS Thomas
+  - CS Thor
+  - CS Thorbjorn
+  - CS Thorkild
+  - CS Thorvald
+  - CS Thyge
+  - CS Tim
+  - CS Tobias
+  - CS Toke
+  - CS Tom
+  - CS Tomas
+  - CS Tommy
+  - CS Tonni
+  - CS Tonny
+  - CS Tony
+  - CS Torben
+  - CS Torkild
+  - CS Torsten
+  - CS Troels
+  - CS Tue
+  - CS Uffe
+  - CS Ulf
+  - CS Ulrik
+  - CS Vagn
+  - CS Valdemar
+  - CS Valentin
+  - CS Verner
+  - CS Victor
+  - CS Viggo
+  - CS Viktor
+  - CS Vilhelm
+  - CS Villads
+  - CS Villy
+  - CS William
+  - CS Willy
+  - CS Zacharias
+  - CS Zakarias
+  - CS Hans
+femaleFirst:
+  - CS Abellona
+  - CS Abelone
+  - CS Abigale
+  - CS Adela
+  - CS Agneta
+  - CS Alberte
+  - CS Albertha
+  - CS Alisa
+  - CS Almeta
+  - CS Alvilda
+  - CS Ane
+  - CS Anesa
+  - CS Anina
+  - CS Annalisa
+  - CS Anndrea
+  - CS Annelise
+  - CS Annemette
+  - CS Annina
+  - CS Aren
+  - CS Arisje
+  - CS Arvada
+  - CS Asa
+  - CS Astrid
+  - CS Belenda
+  - CS Belinde
+  - CS Bente
+  - CS Bergitte
+  - CS Bergliot
+  - CS Birgita
+  - CS Birgitte
+  - CS Birte
+  - CS Britta
+  - CS Brunhilde
+  - CS Caia
+  - CS Caja
+  - CS Cathrine
+  - CS Clady
+  - CS Dagmar
+  - CS Dana
+  - CS Ditte
+  - CS Dorete
+  - CS Dorothea
+  - CS Ebba
+  - CS Elle
+  - CS Else
+  - CS Eva
+  - CS Federikke
+  - CS Freja
+  - CS Freya
+  - CS Fritz
+  - CS Gelsomina
+  - CS Gerdi
+  - CS Gitte
+  - CS Gjerta
+  - CS Greta
+  - CS Grete
+  - CS Grethe
+  - CS Gry
+  - CS Gudrun
+  - CS Gulla
+  - CS Gullan
+  - CS Gunilla
+  - CS Gytha
+  - CS Hanne
+  - CS Helle
+  - CS Ide
+  - CS Idunn
+  - CS Inga
+  - CS Ingeborg
+  - CS Ingelise
+  - CS Inger
+  - CS Ingred
+  - CS Janne
+  - CS Jannicke
+  - CS Jensine
+  - CS Johanne
+  - CS Kaia
+  - CS Kaja
+  - CS Karen
+  - CS Karin
+  - CS Karon
+  - CS Karoline
+  - CS Karren
+  - CS Karrin
+  - CS Karyn
+  - CS Katrine
+  - CS Kirsten
+  - CS Kolinka
+  - CS Kristine
+  - CS Laila
+  - CS Larina
+  - CS Larine
+  - CS Laerke
+  - CS Lecia
+  - CS Lisbet
+  - CS Lise
+  - CS Lone
+  - CS Lovise
+  - CS Magdalone
+  - CS Malene
+  - CS Maren
+  - CS Margareta
+  - CS Margarete
+  - CS Margaretha
+  - CS Margarethe
+  - CS Margerethe
+  - CS Marika
+  - CS Marike
+  - CS Mathilde
+  - CS Matilde
+  - CS Merete
+  - CS Meta
+  - CS Metalise
+  - CS Mettalisa
+  - CS Mettalise
+  - CS Mia
+  - CS Pernille
+  - CS Rebekka
+  - CS Rikke
+  - CS Silje
+  - CS Solvej
+  - CS Stefania
+  - CS Thorbjorg
+  - CS Thorborg
+  - CS Thordis
+  - CS Thorid
+  - CS Thurid
+  - CS Torbjorg
+  - CS Torid
+  - CS Toril
+  - CS Ulrica
+  - CS Ulrike
+  - CS Urd
+  - CS Vibeke
+  - CS Anne
+  - CS Mette
+  - CS Anna
+  - CS Susanne
+  - CS Lene
+  - CS Inge
+  - CS Maria
+  - CS Marianne
+  - CS Camilla
+  - CS Pia
+  - CS Jette
+  - CS Charlotte
+  - CS Louise
+maleLast:
+  - Adriansen
+  - Andersen
+  - Andreasen
+  - Andresen
+  - Any
+  - Arge
+  - Arneborg
+  - Assenbjerg
+  - Auken
+  - Bach
+  - Bak
+  - Bang
+  - Bau
+  - Bech
+  - Beck
+  - Bekker
+  - Berg
+  - Bertelsen
+  - Berthelsen
+  - Billes
+  - Binzer
+  - Bjerregaard
+  - Blach
+  - Bock
+  - Bogedal
+  - Bondo
+  - Bonnikson
+  - Brahe
+  - Brandhorst
+  - Brandt
+  - Branstedt
+  - Broberg
+  - Brondun
+  - Bruun
+  - Burmeister
+  - Cabble
+  - Carlsen
+  - Carstensen
+  - Ceder
+  - Chemnitz
+  - Christensen
+  - Christiansen
+  - Christoffersen
+  - Clahn
+  - Clausen
+  - Claussen
+  - Colding
+  - Crumlin
+  - Dahl
+  - Dalum
+  - Dam
+  - Damgaard
+  - Damsgaard
+  - Danielsen
+  - Danielsson
+  - Didenksen
+  - Drusse
+  - Ebel
+  - Eberlein
+  - Ejlersgaard
+  - Eldjarn
+  - Ellegaard
+  - Eriksen
+  - Espersen
+  - Fajl
+  - Falkoner
+  - Fallingborg
+  - Fenger
+  - Fetterlein
+  - Fine
+  - Fog
+  - Follerup
+  - Frandsen
+  - Frandson
+  - Frederiksen
+  - Fredskild
+  - Friis
+  - Fynbo
+  - Gade
+  - Gimsing
+  - Glob
+  - Goldbaek
+  - Gram
+  - Gran
+  - Gregersen
+  - Greve
+  - Grimlot
+  - Gruntvig
+  - Guildenstern
+  - Guldbrandsen
+  - Haeg
+  - Halkenhvad
+  - Hamburger
+  - Hammer
+  - Hamsun
+  - Hannestad
+  - Hansen
+  - Hardenberg
+  - Hasso
+  - Hedegaard
+  - Hedhoft
+  - Heiberg
+  - Heintze
+  - Helveg
+  - Henriksen
+  - Hermansen
+  - Hjelmslev
+  - Hoegh
+  - Hogh
+  - Holby
+  - Holm
+  - Holst
+  - Horby
+  - Hoyer
+  - Hvass
+  - Hviid
+  - Hylgaard
+  - Iversen
+  - Jacobsen
+  - Jakkelsen
+  - Jakobsen
+  - Jamissen
+  - Jaspersen
+  - Jensen
+  - Jeppesen
+  - Jepsen
+  - Jespersen
+  - Jessen
+  - Johannsen
+  - Johansen
+  - Johansson
+  - Johnsen
+  - Jorgensen
+  - Juhl
+  - Junge
+  - Karlsen
+  - Karseffni
+  - Kaustrop
+  - Kingo
+  - Kirkeby
+  - Kjaer
+  - Kjeldsen
+  - Kjolbye
+  - Klausen
+  - Klindt
+  - Knudsen
+  - Knutzen
+  - Koch
+  - Kock
+  - Kofod
+  - Kolb
+  - Kotzebue
+  - Krak
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogh
+  - Kruhl
+  - Kruse
+  - Lagermann
+  - Lander
+  - Langvardt
+  - Larsen
+  - Lassen
+  - Laudrup
+  - Laugeson
+  - Laundsen
+  - Lauridsen
+  - Lauritsen
+  - Lauritzen
+  - Laursen
+  - Lavrsen
+  - Licht
+  - Lillesoe
+  - Lind
+  - Lobing
+  - Lorenz
+  - Loyen
+  - Lund
+  - Lundgaard
+  - Lundgard
+  - Lundvall
+  - Lynnerup
+  - Madsen
+  - Maj
+  - Majland
+  - Mandelbrot
+  - Markert
+  - Mathiasen
+  - Mathiesen
+  - Meindl
+  - Meinert
+  - Meling
+  - Meulengracht
+  - Mikkelsen
+  - Milling
+  - Moesgaard
+  - Mogensen
+  - Moller
+  - Molnar
+  - Moltke
+  - Mortensen
+  - Most
+  - Munk
+  - Nerhus
+  - Niebuhr
+  - Nielsen
+  - Nielson
+  - Nilsson
+  - Nissen
+  - Norgaard
+  - Nygaard
+  - Nylen
+  - Obel
+  - Olesen
+  - Olrik
+  - Olsen
+  - Orum
+  - Ostergaard
+  - Ostgerg
+  - Ottesen
+  - Overgaard
+  - Pallesen
+  - Palsson
+  - Paulsen
+  - Pedersen
+  - Petersen
+  - Piechnik
+  - Pilegaard
+  - Poertner
+  - Poulsen
+  - Qvist
+  - Raaby
+  - Rasmussen
+  - Ravn
+  - Reuter
+  - Rieper
+  - Riis
+  - Rink
+  - Riseger
+  - Roesdahl
+  - Rohrmann
+  - Ronholt
+  - Ronne
+  - Rosenkrantz
+  - Rriis
+  - Rude
+  - Sand
+  - Sandstrod
+  - Schjonberg
+  - Schmeichel
+  - Schmidt
+  - Schou
+  - Schultz
+  - Seidenfaden
+  - Sellevold
+  - Simonsen
+  - Skaarup
+  - Skou
+  - Skov
+  - Skovgaard
+  - Soerensen
+  - Solvig
+  - Sondergaard
+  - Sonne
+  - Sorensen
+  - Sponneck
+  - Staer
+  - Steffensen
+  - Steincke
+  - Stenger
+  - Storegaard
+  - Stubbe
+  - Stuer
+  - Svendsen
+  - Tarnovius
+  - Teglbjaerg
+  - Telling
+  - Thodberg
+  - Thomsen
+  - Thornom
+  - Thorsen
+  - Thunmark
+  - Thygesen
+  - Thyregod
+  - Tilling
+  - Toefting
+  - Toft
+  - Toksvig
+  - Tommen
+  - Tyllesen
+  - Uhre
+  - Vestergaard
+  - Vilfort
+  - Villadsen
+  - Villumsen
+  - Ving
+  - Virl
+  - Wain
+  - Werlauff
+  - Wieghorst
+  - Willadsen
+  - Winther
+  - Witzke
+  - Wiuff
+  - Zinck
+  - Zoega

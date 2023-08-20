@@ -1,0 +1,171 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_HQ_BLACK_LOTUS: "Gang Base Assault"
+      STR_CULT_HQ_BLACK_LOTUS_DESCRIPTION: "The Merc Guild has received report of a high level Gang leadership meeting in their main Base in this region. Interupting and assassinating this meeting could disrupt the Gang criminal organization for years to come. Some major wealthy organization has pay good bounty for any Merc unit willing to interupt this meeting. "
+      STR_CULT_HQ_BLACK_LOTUS_BRIEFING: "The Merc Guild has received report of a high level Gang leadership meeting in their main Base in this region. Interupting and assassinating this meeting could disrupt the Gang criminal organization for years to come. Some major wealthy organization has pay good bounty for any Merc unit willing to interupt this meeting."	
+      STR_ALERT_CULT_HQ_BLACK_LOTUS: "The Merc Guild has received report of a high level Gang leadership meeting in their main Base in this region. Interupting and assassinating this meeting could disrupt the Gang criminal organization for years to come. Some major wealthy organization has pay good bounty for any Merc unit willing to interupt this meeting."
+alienDeployments:
+  - type: STR_CULT_HQ_BLACK_LOTUS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	   	
+    width: 60
+    length: 60
+    height: 18
+    shade: 3
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_CULT_HQ_BLACK_LOTUS_BRIEFING 
+    alert: STR_ALERT_CULT_HQ_BLACK_LOTUS
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_HQ_BLACK_LOTUS_DESCRIPTION
+    markerName: STR_CULT_HQ
+    duration: [54, 100]
+    despawnPenalty: 100
+    enviroEffects: STR_LANDARMOURTOLAND
+    music:
+      - GMTACTIC
+    script: URBANCHAOS
+    customUfo: STR_MANSION4 
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 16
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 7
+        highQty: 14
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 8
+        highQty: 15
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 4
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 4
+        highQty: 11
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 4
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CULT_HQ_BLACK_LOTUS
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+mapScripts:
+  - type: URBANCHAOS
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1			  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN
+ufos:
+  - type: STR_SECRETMEETINGHOUSE
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10		  
+missionScripts:
+  - type: CultHQBlackLotus
+    firstMonth: 0
+    executionOdds: 2	
+    missionWeights:
+      0:
+        STR_CULT_HQ_BLACK_LOTUS: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 1000
+    randomDelay: 1300
+    facilityTriggers:
+      STR_MERCFACILITY: true

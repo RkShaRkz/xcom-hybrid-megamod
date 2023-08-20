@@ -1,0 +1,178 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_SILVER_TOWERS: Ordinator  
+      STR_VESSEL_SILVER_TOWERS_UFOPEDIA: "These Ordinator are heavily armed cruisers ufos, design to smash through of any opposition short of a battleship class ufo."
+ufopaedia:
+  - id: STR_VESSEL_SILVER_TOWERS
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_SILVER_TOWERS
+    text: STR_VESSEL_SILVER_TOWERS_UFOPEDIA
+research:
+  - name: STR_VESSEL_SILVER_TOWERS
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_SILVER_TOWERS
+ufos:
+  - type: STR_VESSEL_SILVER_TOWERS
+    size: STR_VERY_LARGE
+    modSprite: InterceptionSilverTowers
+    fireSound: 44
+    hitBonus: 47
+    damageMax: 1450
+    speedMax: 4900
+    accel: 7
+    power: 126
+    range: 65
+    reload: 28
+    avoidBonus: 15
+    score: 4500
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: VES_160
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+      mapBlocks:
+        - name: VES_160
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [14, 9, 0]
+alienDeployments:
+  - type: STR_VESSEL_SILVER_TOWERS
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_SILVER_TOWERS
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 6
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []		
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_SILVER_TOWERS_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_SILVER_TOWERS
+    depth: [1, 1]		
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 6
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []		
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

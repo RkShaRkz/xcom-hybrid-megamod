@@ -1,0 +1,108 @@
+items:
+  - type: STR_CALCINITE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_BIODRONE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_DEEP_ONE_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TENTACULAT_TERRORIST_UNDERWATER	
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_AQUATOID_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_AQUATOID_SQUAD_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_TECHNICIAN_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_AQUATOID_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_GILLMAN_SQUAD_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_TECHNICIAN_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_TASOTH_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TASOTH_SQUAD_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_SQUAD_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_LOBSTERMAN_TECHNICIAN_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOBSTERMAN_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+#  - underwaterSmokeOffset: 8
+

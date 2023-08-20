@@ -1,0 +1,806 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_UAC_MILITARYID: "UAC Security ID"
+      STR_UAC_SPACE_MARINEID: "UAC HazMat Security ID"
+      STR_UAC_MANAGERID: "UAC Corporate ID"
+      STR_UAC_ENGINEERID: "UAC Engineer ID"	  	  
+      STR_UAC_MASTER_RESEARCHERID: "UAC Master Researcher ID" 
+      STR_UAC_MILITARY: "UAC Security"
+      STR_UAC_SPACE_MARINE: "UAC HazMat Security"
+      STR_UAC_SPACE_MARINE_UNDERWATER: "UAC HazMat Security"	  
+      STR_UAC_MANAGER: "UAC Corporate"
+      STR_UAC_ENGINEER: "UAC Engineer"	  	  
+      STR_UAC_MASTER_RESEARCHER: "UAC Master Researcher" 		  
+      STR_SECRET_LIFE_OF_UAC: "The Secret Life of UAC"
+      STR_SECRET_LIFE_OF_UAC_UFOPEDIA: "Our intel was correct: the UAC dramatically increased expenditure on R&D projects related to space engineering. Considering it's always been their main specialty, such a spike can only be explained with a new, unidentified source of funding to keep these projects running. Moreover, UAC also opened a new branch dedicated to exotic physics, also seemingly financed by some mysterious sponsors. These sums are comparable to national space research programs, yet nobody knows where they come from.{NEWLINE}Another track is a multitude of new faces around the higher management, people seemingly hired from outside the company for specialist and assistant positions. The sheer number of such people coming from nowhere and then disappearing again is causing frustration among some junior managers, who feel that their career is going nowhere.{NEWLINE}It appears that in order to solve these mysteries we need to get in touch with one of these people. Perhaps the cultists could give us some clue."
+      STR_UAC_CONSPIRACY: "The UAC Conspiracy"
+      STR_UAC_CONSPIRACY_UFOPEDIA: "The UAC Engineer doesn't know anything about the illegal UAC weaponry distribution, but there are many rumors of strange activities within UAC which cannot be explained in business terms. The corporation has never been a paragon of transparency, but recently things went chaotic: radical changes in the management, production lines being created and closed at unprecedented rates, unfathomable work priorities and a pervasive sense of conspiracy make some low-level employees question the company's true goals. It appears that while the UAC is a semi-secret organization by itself, there is a second layer of secrecy within it, maintained by the management, or part thereof. Considering the recent discovery of their cooperation with the Cult of Apocalypse, as well as UAC's unique relationship with the Council, this warrants a 'high-intensity investigation' from us. Namely, we should capture and interrogate some higher-up to get to the bottom of this."
+      STR_SHADOW_OVER_UAC: "Shadow over UAC"
+      STR_SHADOW_OVER_UAC_UFOPEDIA: "Interrogating a UAC mercenary allowed us to locate some promising leads to investigate the organization. While their contacts are sure to have covered their tracks by now, they are bound to make a mistake somewhere - they're still people! At least we assume they are people...{NEWLINE}Anyway, with your permission, I will focus on identifying UAC locations involved in criminal activity. Something tells me this won't be easy, but no worries, I've been trained! Very well!"
+      STR_UAC_UNDERGROUND_WEAPON_DISTRIBUTION: "UAC Underground Weapon Distribution"
+      STR_UAC_UNDERGROUND_WEAPON_DISTRIBUTION_UFOPEDIA: "Since the UAC Corp. is connected to the BlackOps, we naturally assumed that it is being controlled by the same organization. However, based on our investigation into the BlackOps affair, this is not the case: UAC is not under the Syndicate's control.{NEWLINE}Nevertheless, UAC is still suspicious, since their experimental personal weapons designed for use by future space forces seem to regularly appear in the hands of members of certain specific criminal groups. This regularity, combined with low presence on the general black market, indicates that they may be distributed with manufacturer's consent.{NEWLINE}Our sources on the Council are unusually vague regarding this matter, but they didn't discourage us from pursuing this lead, if you know what I mean."	
+      STR_UAC_OUTSOURCING_PREQ: "UAC Outsourcing Prerequisite"
+      STR_UAC_OUTSOURCING: "UAC Outsourcing"
+      STR_UAC_OUTSOURCING_UFOPEDIA: "Manufacturing certain advanced aeronautical equipment is problematic, given our limited space and resources. Our new special arrangement with UAC allows us to order such equipment from their factories, based on blueprints developed by us. X-Com remains the sole owner of these designs, so we only pay UAC to cover the material costs and working hours of their personnel... And a 'small fee', of course."  
+      STR_UAC_CONTACT: "Contact: UAC"
+      STR_UAC_CONTACT_UFOPEDIA: "United Aerotech Corporation is a manufacturer of cutting-edge aircraft and aerial equipment. It is also loosely connected to the BlackOps Industries via several major investors, making them a natural candidate for our supplier."	  
+      STR_UAC_MILITARY_CORPSE: "UAC Security Corpse"
+      STR_UAC_MILITARY_ARMOR: "UAC Security Combat Analysis"
+      STR_UAC_MILITARY_ARMOR_UFOPEDIA: "UAC Security Combat Analysis"	  
+      STR_UAC_SPACE_MARINE_CORPSE: "UAC Heavy Security Corpse"
+      STR_UAC_SPACE_MARINE_ARMOR: "UAC Heavy Security Combat Analysis"
+      STR_UAC_SPACE_MARINE_ARMOR_UFOPEDIA: "UAC Heavy Security Combat Analysis"	  
+      STR_UAC_ENGINEER_CORPSE: "UAC Engineer Corpse"
+      STR_UAC_ENGINEER_ARMOR: "UAC Engineer Combat Analysis"
+      STR_UAC_ENGINEER_ARMOR_UFOPEDIA: "UAC Engineer Combat Analysis"	  
+      STR_UAC_MANAGER_CORPSE: "UAC Corporate Corpse"
+      STR_UAC_MANAGER_ARMOR: "UAC Corporate Combat Analysis"
+      STR_UAC_MANAGER_ARMOR_UFOPEDIA: "UAC Corporate Combat Analysis"	  
+      STR_UAC_MASTER_RESEARCHER_CORPSE: "UAC Master Researcher Corpse"
+      STR_UAC_MASTER_RESEARCHER_ARMOR: "UAC Master Researcher Combat Analysis"
+      STR_UAC_MASTER_RESEARCHER_ARMOR_UFOPEDIA: "UAC Master Researcher Combat Analysis"	  
+      STR_UAC: "U.A.C"
+      STR_UAC_UFOPEDIA: "The U.A.C or United Armament Corp is the world premiere Weapon conglomerate, with factories and manufacturing spanning the world, while arming most of the world's countries with its defense contracts. This Megacorp or Syndicate is rich but corrupted. It has its in house army and has been bribing local corrupted govt officials to look the other way, while they conduct weapon testing illegally. "		
+      STR_UAC_MASTER_RESEARCHER_UFOPEDIA: "The best and the brightest of UAC Engineers are promoted to Master Researcher. Usually a Master Researcher is in charge of the relevant research departments that he or she is assigned to. A Master Researcher can holds a tremendous amout of influnence within the UAC."	
+      STR_UAC_SPACE_MARINE_UFOPEDIA: "The UAC HAZMAT security is a specialised security grunt who wears the UAC signature HAZMAT Combat Armour. With it, the Security Specialist can do combat on land and sea or in any hazardous enviroment. This Security Specialist is rarely encountered in normal land combat."	 
+      STR_UAC_MANAGER_UFOPEDIA: "UAC Corporate Executives are bosses that are in charge of the departmental heads within the UAC. These Execs are always a backstabbing bunch, and always involved in corporate in-fighting. Thus corruption is rife within the Megacorp, which is cancer that prevents of it to be the best in the world."	  
+      STR_UAC_ENGINEER_UFOPEDIA: "Recruited from the best and the brightest of Techical institute and university, these engineers are responsible for the next gen military hard ware that the UAC can sell. They are in a position of influence and are well protected."
+      STR_UAC_MILITARY_UFOPEDIA: "Typical UAC Grunt, most are ex-military or mercenary, hire for the role of guard, sentry and general security. Just your average cannon fodder." 
+alienRaces:
+  - id: STR_UAC
+    members:
+      - STR_UAC_MASTER_RESEARCHER
+      - STR_UAC_MANAGER
+      - STR_UAC_MANAGER
+      - STR_UAC_SPACE_MARINE
+      - STR_UAC_ENGINEER
+      - STR_UAC_MANAGER
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+    retaliationAggression: -100
+  - id: STR_UAC_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_UAC_MASTER_RESEARCHER
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_SPACE_MARINE
+      - STR_UAC_ENGINEER
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+      - STR_UAC_MILITARY
+ufopaedia:	  
+  - id: STR_UAC_MILITARY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_UAC_MILITARY_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_UAC_MILITARY
+    listOrder: 153470
+  - id: STR_UAC_MANAGER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_UAC_MANAGER_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_UAC_MANAGER
+    listOrder: 153500	
+  - id: STR_UAC_MASTER_RESEARCHER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_UAC_SPACE_MARINE_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_UAC_MASTER_RESEARCHER
+    listOrder: 153500
+  - id: STR_UAC_SPACE_MARINE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_UAC_SPACE_MARINE_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_UAC_SPACE_MARINE
+    listOrder: 153500
+  - id: STR_UAC_ENGINEER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_UAC_ENGINEER_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_UAC_ENGINEER
+    listOrder: 153480
+  - id: STR_UAC
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_UAC
+    text: STR_UAC_UFOPEDIA
+    text_width: 126
+    listOrder: 24000	  	
+research:
+  - name: STR_UAC_SPACE_MARINE
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 15
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_UAC	
+  - name: STR_UAC_ENGINEER
+    requiresBaseFunc: [INTERROGATION]
+    cost: 20
+    points: 20
+    needItem: true
+    destroyItem: true	 
+    unlocks:
+      - STR_UAC		
+  - name: STR_UAC_MASTER_RESEARCHER
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 15
+    points: 15
+    needItem: true
+    destroyItem: true	
+    unlocks:
+      - STR_UAC		
+  - name: STR_UAC_MANAGER
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 15
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_UAC		
+  - name: STR_UAC_MILITARY
+    requiresBaseFunc: [INTERROGATION]  
+    cost: 15
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_UAC				  
+  - name: STR_UAC
+    ##requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_UAC_MASTER_RESEARCHER
+      - STR_UAC_MANAGER
+      - STR_UAC_SPACE_MARINE
+      - STR_UAC_ENGINEER
+      - STR_UAC_MILITARY
+units:
+  - type: STR_UAC_MILITARY
+    race: STR_UAC
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 70
+      health: 45
+      bravery: 80
+      reactions: 54
+      firing: 65
+      throwing: 60
+      strength: 46
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+      #mana: 40
+    armor: STR_UAC_MILITARY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 4
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE	
+  - type: STR_UAC_SPACE_MARINE
+    race: STR_UAC
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 66
+      stamina: 72
+      health: 50
+      bravery: 80
+      reactions: 60
+      firing: 75
+      throwing: 66
+      strength: 54
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+      #mana: 50
+    armor: STR_UAC_SPACE_MARINE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 4
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET	
+  - type: STR_UAC_ENGINEER
+    race: STR_UAC
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 40
+      stamina: 44
+      health: 28
+      bravery: 70
+      reactions: 20
+      firing: 25
+      throwing: 28
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 20
+      #mana: 50
+    armor: STR_UAC_ENGINEER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 16
+    energyRecovery: 25
+    intelligence: 4
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP
+        - STR_HIGH_EXPLOSIVE	
+  - type: STR_UAC_MANAGER
+    race: STR_UAC
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 45
+      stamina: 50
+      health: 32
+      bravery: 80
+      reactions: 26
+      firing: 30
+      throwing: 33
+      strength: 28
+      psiStrength: 50
+      psiSkill: 0
+      melee: 27
+      #mana: 45
+    armor: STR_UAC_MANAGER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 25
+    energyRecovery: 25
+    intelligence: 4
+    aggression: 3
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS		
+  - type: STR_UAC_MASTER_RESEARCHER
+    race: STR_UAC
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 45
+      bravery: 90
+      reactions: 46
+      firing: 40
+      throwing: 38
+      strength: 34
+      psiStrength: 70
+      psiSkill: 0
+      melee: 48
+      #mana: 55
+    armor: STR_UAC_MASTER_RESEARCHER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [41, 42, 43]
+    value: 25
+    energyRecovery: 25
+    intelligence: 6
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_UAC_SPACE_MARINE_UNDERWATER
+    race: STR_UAC
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 66
+      stamina: 72
+      health: 50
+      bravery: 80
+      reactions: 60
+      firing: 75
+      throwing: 66
+      strength: 54
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+      #mana: 50
+    armor: STR_UAC_SPACE_MARINE_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 16
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 4
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_HYDRO_JET_CANNON
+        - STR_HJC_AP_AMMO
+        - STR_HJC_AP_AMMO		
+        - STR_HJC_HE_AMMO	
+        - STR_GRENADE			
+armors:
+  - type: STR_UAC_MILITARY_ARMOR
+    spriteSheet: UAC_MILITARY.PCK
+    spriteInv: inventory_UAC_MILITARY
+    corpseBattle:
+      - STR_UAC_MILITARY_CORPSE
+    visibilityAtDark: 11
+    frontArmor: 22
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 12
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.75
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.9
+      - 1.15
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_UAC_SPACE_MARINE_ARMOR
+    spriteSheet: UAC_SPACE_MARINE.PCK
+    spriteInv: inventory_UAC_SPACE_MARINE
+    corpseBattle:
+      - STR_UAC_SPACE_MARINE_CORPSE
+    visibilityAtDark: 13
+    frontArmor: 36
+    sideArmor: 30
+    rearArmor: 24
+    underArmor: 18
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.85
+      - 0.7
+      - 0.9
+      - 1.25
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_UAC_ENGINEER_ARMOR
+    spriteSheet: UAC_ENGINEER.PCK
+    spriteInv: inventory_UAC_ENGINEER
+    corpseBattle:
+      - STR_UAC_ENGINEER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &LabcoatResists
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.75
+      - 4.0 #SMoke
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]
+  - type: STR_UAC_MANAGER_ARMOR
+    spriteSheet: UAC_MANAGER.PCK
+    allowInv: true
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_UAC_MANAGER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_UAC_MASTER_RESEARCHER_ARMOR
+    spriteSheet: UAC_MASTER_RESEARCHER.PCK
+    spriteInv: inventory_UAC_MASTER_RESEARCHER
+    corpseBattle:
+      - STR_UAC_MASTER_RESEARCHER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 11
+    sideArmor: 11
+    rearArmor: 11
+    underArmor: 11
+    #psiDefence: *StandardDynamicPsiDefence
+    meleeDodge:
+      reactions: 0.25
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.9
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_UAC_SPACE_MARINE_ARMOR_UNDERWATER
+    spriteSheet: UAC_SPACE_MARINE.PCK
+    spriteInv: inventory_UAC_SPACE_MARINE
+    drawBubbles: true	
+    corpseBattle:
+      - STR_UAC_SPACE_MARINE_CORPSE
+    visibilityAtDark: 13
+    frontArmor: 36
+    sideArmor: 30
+    rearArmor: 24
+    underArmor: 18
+    #psiDefence: *StandardDynamicPsiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.2
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.75
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.0
+      - 1.0
+      - 1.0 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]		
+items:
+  - type: STR_UAC_MILITARY_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 1116
+    floorSprite: 369
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    battleType: 11
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_UAC_ENGINEER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 1130
+    floorSprite: 486
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 8
+    recover: true
+    recoverCorpse: false
+  - type: STR_UAC_MANAGER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 31
+    bigSprite: 1134
+    floorSprite: 966
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 15
+    recover: true
+    recoverCorpse: false
+  - type: STR_UAC_SPACE_MARINE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 41
+    bigSprite: 1144
+    floorSprite: 979
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 35
+    recoveryPoints: 2
+    recover: true
+    recoverCorpse: false	
+  - type: STR_UAC_MASTER_RESEARCHER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 1149
+    floorSprite: 984
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 24
+    recover: true
+    recoverCorpse: false
+  - type: STR_UAC_UNDERGROUND_WEAPON_DISTRIBUTION
+    bigSprite: 305
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_UAC_CONSPIRACY
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_UAC_OUTSOURCING
+    bigSprite: 298
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_SECRET_LIFE_OF_UAC
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SHADOW_OVER_UAC
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_UAC_ENGINEER
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 12000
+    listOrder: 153480	
+  - type: STR_UAC_MANAGER
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 24000
+    listOrder: 153490 	
+  - type: STR_UAC_SPACE_MARINE
+    size: 0.0
+    #liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 11000
+    listOrder: 153509
+  - type: STR_UAC_MASTER_RESEARCHER
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 50000
+    listOrder: 153510
+  - type: STR_UAC_MILITARY
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 9000
+    listOrder: 153470
+  - type: STR_UAC_SPACE_MARINE_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 11000
+    listOrder: 153500
+    recoveryTransformations:
+      STR_UAC_SPACE_MARINE: [1]  	

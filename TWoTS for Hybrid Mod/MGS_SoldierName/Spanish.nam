@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - MGS Aaron
+  - MGS Adan
+  - MGS Alberto
+  - MGS Alejandro
+  - MGS Alfonso
+  - MGS Andres
+  - MGS Angel
+  - MGS Antonio
+  - MGS Augusto
+  - MGS Benedicto
+  - MGS Benjamin
+  - MGS Carlos
+  - MGS Daniel
+  - MGS David
+  - MGS Diego
+  - MGS Eduardo
+  - MGS Elias
+  - MGS Eliseo
+  - MGS Enrique
+  - MGS Emanuel
+  - MGS Eric
+  - MGS Ernesto
+  - MGS Esteban
+  - MGS Fabio
+  - MGS Felipe
+  - MGS Felix
+  - MGS Fernando
+  - MGS Fidel
+  - MGS Fortunato
+  - MGS Francisco
+  - MGS Gabriel
+  - MGS Gerardo
+  - MGS Hugo
+  - MGS Humberto
+  - MGS Ismael
+  - MGS Ivan
+  - MGS Jacobo
+  - MGS Jaime
+  - MGS Javier
+  - MGS Jesus
+  - MGS Joel
+  - MGS Jorge
+  - MGS Jose
+  - MGS Juan
+  - MGS Julian
+  - MGS Leo
+  - MGS Leonardo
+  - MGS Lucas
+  - MGS Luis
+  - MGS Manuel
+  - MGS Marco
+  - MGS Marcos
+  - MGS Martin
+  - MGS Matias
+  - MGS Mateo
+  - MGS Maximiliano
+  - MGS Miguel
+  - MGS Nataniel
+  - MGS Nicolas
+  - MGS Noe
+  - MGS Octavio
+  - MGS Orlando
+  - MGS Oscar
+  - MGS Pablo
+  - MGS Pedro
+  - MGS Rafael
+  - MGS Ramon
+  - MGS Raul
+  - MGS Rene
+  - MGS Ricardo
+  - MGS Roberto
+  - MGS Rolando
+  - MGS Salvador
+  - MGS Santiago
+  - MGS Sebastian
+  - MGS Sergio
+  - MGS Silvestre
+  - MGS Stefano
+  - MGS Teodoro
+  - MGS Tito
+  - MGS Tomas
+  - MGS Valentin
+  - MGS Vicente
+  - MGS Victor
+  - MGS Xavier
+femaleFirst:
+  - MGS Adriana
+  - MGS Aida
+  - MGS Alejandra
+  - MGS Alexia
+  - MGS Alma
+  - MGS Ana
+  - MGS Angela
+  - MGS Angelica
+  - MGS Aurora
+  - MGS Barbara
+  - MGS Bianca
+  - MGS Brenda
+  - MGS Carina
+  - MGS Carla
+  - MGS Carolina
+  - MGS Casandra
+  - MGS Catalina
+  - MGS Claudia
+  - MGS Cristina
+  - MGS Dolores
+  - MGS Dora
+  - MGS Elena
+  - MGS Eliana
+  - MGS Elvira
+  - MGS Ema
+  - MGS Esmeralda
+  - MGS Eva
+  - MGS Felicia
+  - MGS Fiona
+  - MGS Gabriela
+  - MGS Gloria
+  - MGS Guadalupe
+  - MGS Ines
+  - MGS Isabel
+  - MGS Jesica
+  - MGS Juana
+  - MGS Laura
+  - MGS Lidia
+  - MGS Liliana
+  - MGS Linda
+  - MGS Lisa
+  - MGS Lorena
+  - MGS Magdalena
+  - MGS Marcela
+  - MGS Margarita
+  - MGS Maria
+  - MGS Mariana
+  - MGS Marisol
+  - MGS Monica
+  - MGS Nadia
+  - MGS Nancy
+  - MGS Natalia
+  - MGS Noemi
+  - MGS Olivia
+  - MGS Patricia
+  - MGS Paulina
+  - MGS Raquel
+  - MGS Rosa
+  - MGS Selena
+  - MGS Sofia
+  - MGS Sonia
+  - MGS Talia
+  - MGS Tatiana
+  - MGS Teresa
+  - MGS Vanesa
+  - MGS Veronica
+  - MGS Victoria
+  - MGS Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

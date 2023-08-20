@@ -1,0 +1,387 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_YOURSOLDIERCRUSHBYPRESSURE_TXT: "Undersea Depth Level(Surface Depth) 1"	
+      STR_YOURSOLDIECRUSHBYDEEPPRESSURE_TXT: "Undersea Depth Level 2 (Mid Depth)"	
+      STR_YOURSOLDIERCRUSHEDBYEXTREMEPRESSURE_TXT: "Undersea Depth Level 3 (Extreme Depth)"		  
+      STR_CRUSHBYPRESSURE3: "Your soldier is being crush by pressure"	
+startingConditions:
+  - type: STR_TERRORALLOWED  
+    defaultArmor:
+      STR_SOLDIER:
+        STR_NONE_UC : 100
+    forbiddenVehicles:
+      - STR_COELACANTH_GAS_CANNON
+      - STR_COELACANTH_AQUA_JET
+      - STR_COELACANTH_GAUSS
+      - STR_DISPLACER_SONIC
+      - STR_DISPLACER_PWT		
+    allowedCraft:
+      - STR_INTERCEPTOR
+      - STR_FIRESTORM 
+      - STR_SKYRANGER
+      - STR_LIGHTNING
+      - STR_AVENGER
+      - STR_TRITON
+      - STR_BARRACUDA
+      - STR_MANTA
+      - STR_HAMMERHEAD 
+      - STR_LEVIATHAN
+  - type: STR_FINALMISSIONCYDON
+    defaultArmor:
+      STR_SOLDIER:
+        STR_DEEPSEASUIT_UC: 100
+    forbiddenVehicles:
+      - STR_TANK_CANNON
+      - STR_TANK_ROCKET_LAUNCHER
+      - STR_TANK_LASER_CANNON
+      - STR_COELACANTH_GAS_CANNON
+      - STR_COELACANTH_AQUA_JET
+      - STR_COELACANTH_GAUSS
+      - STR_DISPLACER_SONIC
+      - STR_DISPLACER_PWT	  
+    forbiddenArmors:
+      - STR_NONE_UC
+      - STR_PERSONAL_ARMOR_UC
+      - STR_SWIMAQUALUNG_UC 	  
+  - type: STR_FINALMISSIONSTAR
+    defaultArmor:
+      STR_SOLDIER:
+        STR_DEEPSEASUIT_UC: 100 
+    forbiddenVehicles:
+      - STR_TANK_CANNON
+      - STR_TANK_ROCKET_LAUNCHER
+      - STR_HOVERTANK_PLASMA
+      - STR_TANK_LASER_CANNON
+      - STR_HOVERTANK_LAUNCHER  
+    forbiddenCraft:
+      - STR_SKYRANGER
+      - STR_LIGHTNING
+      - STR_AVENGER	
+      - STR_INTERCEPTOR
+      - STR_FIRESTORM 	  
+    forbiddenArmors:
+      - STR_NONE_UC
+      - STR_PERSONAL_ARMOR_UC
+      - STR_SWIMAQUALUNG_UC 	  
+  - type: STR_UNDERWATERTEST
+    defaultArmor:
+      STR_SOLDIER:
+        STR_SWIMAQUALUNG_UC: 100   
+    forbiddenVehicles:
+      - STR_TANK_CANNON
+      - STR_TANK_ROCKET_LAUNCHER
+      - STR_HOVERTANK_PLASMA
+      - STR_TANK_LASER_CANNON
+      - STR_HOVERTANK_LAUNCHER
+    forbiddenCraft:
+      - STR_SKYRANGER
+      - STR_LIGHTNING
+      - STR_AVENGER 
+      - STR_INTERCEPTOR
+      - STR_FIRESTORM 	  
+    forbiddenArmors:	
+      - STR_NONE_UC
+      - STR_PERSONAL_ARMOR_UC 
+  - type: STR_UNDERWATERTESTMIDDEEP
+    defaultArmor:
+      STR_SOLDIER:
+        STR_SWIMAQUALUNG_UC: 100  
+    forbiddenVehicles:
+      - STR_TANK_CANNON
+      - STR_TANK_ROCKET_LAUNCHER
+      - STR_HOVERTANK_PLASMA
+      - STR_TANK_LASER_CANNON
+      - STR_HOVERTANK_LAUNCHER
+    forbiddenCraft:
+      - STR_SKYRANGER
+      - STR_LIGHTNING
+      - STR_AVENGER 	
+      - STR_INTERCEPTOR
+      - STR_FIRESTORM 	  
+    forbiddenArmors:	
+      - STR_NONE_UC
+      - STR_STANDARD_UC
+      - STR_PERSONAL_ARMOR_UC  
+  - type: STR_UNDERWATERTESTREALLYDEEP
+    defaultArmor:
+      STR_SOLDIER:
+        STR_SWIMAQUALUNG_UC: 100  
+    forbiddenVehicles:
+      - STR_TANK_CANNON
+      - STR_TANK_ROCKET_LAUNCHER
+      - STR_HOVERTANK_PLASMA
+      - STR_TANK_LASER_CANNON
+      - STR_HOVERTANK_LAUNCHER
+    forbiddenCraft:
+      - STR_SKYRANGER
+      - STR_LIGHTNING
+      - STR_AVENGER 
+      - STR_INTERCEPTOR
+      - STR_FIRESTORM 	  
+    forbiddenArmors:	
+      - STR_NONE_UC
+      - STR_PERSONAL_ARMOR_UC
+  - type: STR_LAND
+    defaultArmor:
+      STR_SOLDIER:
+        STR_NONE_UC: 100  
+    forbiddenVehicles:
+      - STR_COELACANTH_GAS_CANNON
+      - STR_COELACANTH_AQUA_JET
+      - STR_COELACANTH_GAUSS
+      - STR_DISPLACER_SONIC
+      - STR_DISPLACER_PWT
+enviroEffects:
+  - type: STR_LANDENVIRO  
+    armorTransformations:
+      STR_SWIMAQUALUNG_UC : STR_SWIMAQUALUNGLAND
+      STR_POWER_SUIT_UC_UNDERWATER : STR_POWER_SUIT_UC
+      STR_FLYING_SUIT_UC_UNDERWATER : STR_FLYING_SUIT_UC
+      STR_DEEPSEASUIT_UC : STR_DEEPSEASUIT_UC_LAND
+      STR_PLASTIC_AQUA_ARMOR_UC : STR_PLASTIC_AQUA_ARMOR_UC_LAND
+      STR_ION_ARMOR_UC : STR_ION_ARMOR_UC_LAND
+      STR_MAGNETIC_ION_ARMOR_UC : STR_MAGNETIC_ION_ARMOR_UC_LAND
+      COELACANTH_ARMOR: COELACANTH_ARMOR_LAND
+      DISPLACER_ARMOR: DISPLACER_ARMOR_LAND 	
+      TANK_ARMOR_UNDERWATER: TANK_ARMOR
+      HOVERTANK_ARMOR_UNDERWATER: HOVERTANK_ARMOR		  
+  - type: STR_TERRORALLOWEDENVIRO
+    armorTransformations:
+      STR_SWIMAQUALUNG_UC : STR_SWIMAQUALUNGLAND
+      STR_POWER_SUIT_UC_UNDERWATER : STR_POWER_SUIT_UC
+      STR_FLYING_SUIT_UC_UNDERWATER : STR_FLYING_SUIT_UC
+      STR_DEEPSEASUIT_UC : STR_DEEPSEASUIT_UC_LAND
+      STR_PLASTIC_AQUA_ARMOR_UC : STR_PLASTIC_AQUA_ARMOR_UC_LAND
+      STR_ION_ARMOR_UC : STR_ION_ARMOR_UC_LAND
+      STR_MAGNETIC_ION_ARMOR_UC : STR_MAGNETIC_ION_ARMOR_UC_LAND
+      COELACANTH_ARMOR: COELACANTH_ARMOR_LAND
+      DISPLACER_ARMOR: DISPLACER_ARMOR_LAND 	
+      TANK_ARMOR_UNDERWATER: TANK_ARMOR
+      HOVERTANK_ARMOR_UNDERWATER: HOVERTANK_ARMOR			  
+  - type: STR_FINALMISSIONCYDONENVIRO	  
+    armorTransformations:
+      STR_SWIMAQUALUNGLAND : STR_SWIMAQUALUNG_UC
+      STR_POWER_SUIT_UC_UNDERWATER : STR_POWER_SUIT_UC
+      STR_FLYING_SUIT_UC_UNDERWATER : STR_FLYING_SUIT_UC
+      STR_DEEPSEASUIT_UC : STR_DEEPSEASUIT_UC_LAND
+      STR_PLASTIC_AQUA_ARMOR_UC : STR_PLASTIC_AQUA_ARMOR_UC_LAND
+      STR_ION_ARMOR_UC : STR_ION_ARMOR_UC_LAND
+      STR_MAGNETIC_ION_ARMOR_UC : STR_MAGNETIC_ION_ARMOR_UC_LAND
+      COELACANTH_ARMOR: COELACANTH_ARMOR_LAND
+      DISPLACER_ARMOR: DISPLACER_ARMOR_LAND 	
+      TANK_ARMOR_UNDERWATER: TANK_ARMOR
+      HOVERTANK_ARMOR_UNDERWATER: HOVERTANK_ARMOR	  
+    environmentalConditions:
+      STR_FRIENDLY:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0
+      STR_NEUTRAL:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0 	
+      STR_HOSTILE:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0 	  
+  - type: STR_FINALMISSIONSTARENVIRO		  
+    armorTransformations:
+      STR_SWIMAQUALUNGLAND : STR_SWIMAQUALUNG_UC
+      STR_POWER_SUIT_UC : STR_POWER_SUIT_UC_UNDERWATER
+      STR_FLYING_SUIT_UC : STR_FLYING_SUIT_UC_UNDERWATER
+      STR_DEEPSEASUIT_UC_LAND : STR_DEEPSEASUIT_UC
+      STR_PLASTIC_AQUA_ARMOR_UC_LAND : STR_PLASTIC_AQUA_ARMOR_UC
+      STR_ION_ARMOR_UC_LAND : STR_ION_ARMOR_UC
+      STR_MAGNETIC_ION_ARMOR_UC_LAND : STR_MAGNETIC_ION_ARMOR_UC
+      COELACANTH_ARMOR_LAND : COELACANTH_ARMOR
+      DISPLACER_ARMOR_LAND : DISPLACER_ARMOR
+      TANK_ARMOR : TANK_ARMOR_UNDERWATER
+      HOVERTANK_ARMOR : HOVERTANK_ARMOR_UNDERWATER	  
+    environmentalConditions:
+      STR_FRIENDLY:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 
+      STR_NEUTRAL:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 	
+      STR_HOSTILE:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 	  
+  - type: STR_UNDERWATERENVIRO
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_BATTLESCAPE_1  
+    armorTransformations:
+      STR_SWIMAQUALUNGLAND : STR_SWIMAQUALUNG_UC
+      STR_POWER_SUIT_UC : STR_POWER_SUIT_UC_UNDERWATER
+      STR_FLYING_SUIT_UC : STR_FLYING_SUIT_UC_UNDERWATER
+      STR_DEEPSEASUIT_UC_LAND : STR_DEEPSEASUIT_UC
+      STR_PLASTIC_AQUA_ARMOR_UC_LAND : STR_PLASTIC_AQUA_ARMOR_UC
+      STR_ION_ARMOR_UC_LAND : STR_ION_ARMOR_UC
+      STR_MAGNETIC_ION_ARMOR_UC_LAND : STR_MAGNETIC_ION_ARMOR_UC
+      COELACANTH_ARMOR_LAND : COELACANTH_ARMOR
+      DISPLACER_ARMOR_LAND : DISPLACER_ARMOR
+      TANK_ARMOR : TANK_ARMOR_UNDERWATER
+      HOVERTANK_ARMOR : HOVERTANK_ARMOR_UNDERWATER	  
+    environmentalConditions:
+      STR_FRIENDLY:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0
+      STR_NEUTRAL:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0 	
+      STR_HOSTILE:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE1"
+        side: -1
+        bodyPart: 0 		  
+  - type: STR_UNDERWATERMIDEEPENVIRO
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_BATTLESCAPE_1  
+    armorTransformations:
+      STR_SWIMAQUALUNGLAND : STR_SWIMAQUALUNG_UC
+      STR_POWER_SUIT_UC : STR_POWER_SUIT_UC_UNDERWATER
+      STR_FLYING_SUIT_UC : STR_FLYING_SUIT_UC_UNDERWATER
+      STR_DEEPSEASUIT_UC_LAND : STR_DEEPSEASUIT_UC
+      STR_PLASTIC_AQUA_ARMOR_UC_LAND : STR_PLASTIC_AQUA_ARMOR_UC
+      STR_ION_ARMOR_UC_LAND : STR_ION_ARMOR_UC
+      STR_MAGNETIC_ION_ARMOR_UC_LAND : STR_MAGNETIC_ION_ARMOR_UC
+      COELACANTH_ARMOR_LAND : COELACANTH_ARMOR
+      DISPLACER_ARMOR_LAND : DISPLACER_ARMOR
+      TANK_ARMOR : TANK_ARMOR_UNDERWATER
+      HOVERTANK_ARMOR : HOVERTANK_ARMOR_UNDERWATER	  
+    environmentalConditions:
+      STR_FRIENDLY:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE2"
+        side: -1
+        bodyPart: 0
+      STR_NEUTRAL:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE2"
+        side: -1
+        bodyPart: 0 
+      STR_HOSTILE:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE2"
+        side: -1
+        bodyPart: 0 		  
+  - type: STR_UNDERWATERREALLYDEEPENVIRO
+    paletteTransformations:
+      PAL_BATTLESCAPE: PAL_BATTLESCAPE_1  
+    armorTransformations:
+      STR_SWIMAQUALUNGLAND : STR_SWIMAQUALUNG_UC
+      STR_POWER_SUIT_UC : STR_POWER_SUIT_UC_UNDERWATER
+      STR_FLYING_SUIT_UC : STR_FLYING_SUIT_UC_UNDERWATER
+      STR_DEEPSEASUIT_UC_LAND : STR_DEEPSEASUIT_UC
+      STR_PLASTIC_AQUA_ARMOR_UC_LAND : STR_PLASTIC_AQUA_ARMOR_UC
+      STR_ION_ARMOR_UC_LAND : STR_ION_ARMOR_UC
+      STR_MAGNETIC_ION_ARMOR_UC_LAND : STR_MAGNETIC_ION_ARMOR_UC
+      COELACANTH_ARMOR_LAND : COELACANTH_ARMOR
+      DISPLACER_ARMOR_LAND : DISPLACER_ARMOR
+      TANK_ARMOR : TANK_ARMOR_UNDERWATER
+      HOVERTANK_ARMOR : HOVERTANK_ARMOR_UNDERWATER	  
+    environmentalConditions:
+      STR_FRIENDLY:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 
+      STR_NEUTRAL:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 	
+      STR_HOSTILE:
+        globalChance: 200
+        chancePerTurn: 200
+        firstTurn: 0
+        lastTurn: 1000
+        message: "STR_YOURSOLDIERAREDROWNINGANDCRUSHBYPRESSURE_TXT"
+        color: 29
+        weaponOrAmmo: "STR_CRUSHBYPRESSURE3"
+        side: -1
+        bodyPart: 0 	

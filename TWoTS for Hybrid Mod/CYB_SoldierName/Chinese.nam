@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - CS An
+  - CS Ang
+  - CS Ao
+  - CS Au
+  - CS Au Yeung
+  - CS Bai
+  - CS Ban
+  - CS Bao
+  - CS Bau
+  - CS Bi
+  - CS Bo
+  - CS Bu
+  - CS Cai
+  - CS Cao
+  - CS Cha
+  - CS Chai
+  - CS Cham
+  - CS Chan
+  - CS Chang
+  - CS Chao
+  - CS Chau
+  - CS Che
+  - CS Cheah
+  - CS Chee
+  - CS Chen
+  - CS Cheng
+  - CS Cheong
+  - CS Chern
+  - CS Cheung
+  - CS Chew
+  - CS Chi
+  - CS Chia
+  - CS Chiang
+  - CS Chiao
+  - CS Chien
+  - CS Chim
+  - CS Chin
+  - CS Ching
+  - CS Chiong
+  - CS Chiou
+  - CS Chiu
+  - CS Cho
+  - CS Choi
+  - CS Chong
+  - CS Choo
+  - CS Chou
+  - CS Chow
+  - CS Choy
+  - CS Chu
+  - CS Chua
+  - CS Cheang
+  - CS Chui
+  - CS Chun
+  - CS Chung
+  - CS Cong
+  - CS Cui
+  - CS Dai
+  - CS Dang
+  - CS Dea
+  - CS Deng
+  - CS Ding
+  - CS Do
+  - CS Dong
+  - CS Doo
+  - CS Du
+  - CS Duan
+  - CS Dung
+  - CS Eng
+  - CS Fan
+  - CS Fang
+  - CS Fei
+  - CS Feng
+  - CS Fok
+  - CS Fong
+  - CS Foo
+  - CS Fu
+  - CS Fung
+  - CS Gan
+  - CS Gang
+  - CS Gao
+  - CS Gau
+  - CS Ge
+  - CS Geng
+  - CS Go
+  - CS Goh
+  - CS Gong
+  - CS Gu
+  - CS Guan
+  - CS Guo
+  - CS Ha
+  - CS Hai
+  - CS Han
+  - CS Hang
+  - CS Hao
+  - CS Hau
+  - CS He
+  - CS Ho
+  - CS Hoh
+  - CS Hom
+  - CS Hon
+  - CS Hong
+  - CS Hoo
+  - CS Hou
+  - CS Hsi
+  - CS Hsia
+  - CS Hsiao
+  - CS Hsieh
+  - CS Hsiung
+  - CS Hsu
+  - CS Hsueh
+  - CS Hu
+  - CS Hua
+  - CS Huang
+  - CS Hui
+  - CS Huie
+  - CS Hum
+  - CS Hung
+  - CS Huo
+  - CS Hwang
+  - CS Hy
+  - CS Ing
+  - CS Ip
+  - CS Jan
+  - CS Jang
+  - CS Jen
+  - CS Jeng
+  - CS Jeung
+  - CS Jew
+  - CS Ji
+  - CS Jia
+  - CS Jian
+  - CS Jiang
+  - CS Jiao
+  - CS Jim
+  - CS Jin
+  - CS Jing
+  - CS Jo
+  - CS Joe
+  - CS Jong
+  - CS Joo
+  - CS Jou
+  - CS Jow
+  - CS Ju
+  - CS Jue
+  - CS Jung
+  - CS Kam
+  - CS Kan
+  - CS Kang
+  - CS Kao
+  - CS Kau
+  - CS Ke
+  - CS Keng
+  - CS Kho
+  - CS Khoo
+  - CS Kiang
+  - CS King
+  - CS Ko
+  - CS Koh
+  - CS Kong
+  - CS Koo
+  - CS Kook
+  - CS Kou
+  - CS Ku
+  - CS Kuan
+  - CS Kuang
+  - CS Kuk
+  - CS Kung
+  - CS Kuang
+  - CS Kuo
+  - CS Kwan
+  - CS Kwock
+  - CS Kwok
+  - CS Kwon
+  - CS Kwong
+  - CS Lai
+  - CS Lam
+  - CS Lan
+  - CS Lang
+  - CS Lao
+  - CS Lau
+  - CS Lee
+  - CS Lei
+  - CS Leng
+  - CS Leong
+  - CS Leung
+  - CS Lew
+  - CS Li
+  - CS Lian
+  - CS Liang
+  - CS Liao
+  - CS Liaw
+  - CS Lien
+  - CS Liew
+  - CS Lim
+  - CS Lin
+  - CS Ling
+  - CS Liou
+  - CS Liu
+  - CS Lo
+  - CS Loh
+  - CS Lok
+  - CS Long
+  - CS Loo
+  - CS Lou
+  - CS Louie
+  - CS Lu
+  - CS Lua
+  - CS Lui
+  - CS Luk
+  - CS Lum
+  - CS Lung
+  - CS Luo
+  - CS Ma
+  - CS Mah
+  - CS Mai
+  - CS Mak
+  - CS Man
+  - CS Mao
+  - CS Mar
+  - CS Mau
+  - CS May
+  - CS Mei
+  - CS Meng
+  - CS Miao
+  - CS Min
+  - CS Ming
+  - CS Miu
+  - CS Mo
+  - CS Mok
+  - CS Mon
+  - CS Mou
+  - CS Moy
+  - CS Mu
+  - CS Mui
+  - CS Na
+  - CS Ng
+  - CS Ngai
+  - CS Ngan
+  - CS Ngo
+  - CS Ni
+  - CS Nie
+  - CS Ning
+  - CS Niu
+  - CS On
+  - CS Ong
+  - CS Ou
+  - CS Ou Yang
+  - CS Ow
+  - CS Owyang
+  - CS Pan
+  - CS Pang
+  - CS Pao
+  - CS Pei
+  - CS Peng
+  - CS Pi
+  - CS Ping
+  - CS Po
+  - CS Pon
+  - CS Pong
+  - CS Poon
+  - CS Pu
+  - CS Pun
+  - CS Qi
+  - CS Qian
+  - CS Qiao
+  - CS Qin
+  - CS Qiu
+  - CS Qu
+  - CS Quan
+  - CS Que
+  - CS Rao
+  - CS Ren
+  - CS Rong
+  - CS Ruan
+  - CS Sam
+  - CS San
+  - CS Sang
+  - CS Seto
+  - CS Sha
+  - CS Sham
+  - CS Shan
+  - CS Shang
+  - CS Shao
+  - CS Shaw
+  - CS Shek
+  - CS Shen
+  - CS Sheng
+  - CS Sheu
+  - CS Shi
+  - CS Shiau
+  - CS Shieh
+  - CS Shih
+  - CS Shing
+  - CS Shiu
+  - CS Shu
+  - CS Shum
+  - CS Shy
+  - CS Shyu
+  - CS Si
+  - CS Sieh
+  - CS Sin
+  - CS Sing
+  - CS Sit
+  - CS Situ
+  - CS Siu
+  - CS So
+  - CS Soh
+  - CS Song
+  - CS Soo
+  - CS Soo Hoo
+  - CS Soon
+  - CS Soong
+  - CS Su
+  - CS Suen
+  - CS Sui
+  - CS Sum
+  - CS Sun
+  - CS Sung
+  - CS Sze
+  - CS Szeto
+  - CS Tai
+  - CS Tam
+  - CS Tan
+  - CS Tang
+  - CS Tao
+  - CS Tay
+  - CS Te
+  - CS Teh
+  - CS Teng
+  - CS Teo
+  - CS Tian
+  - CS Tien
+  - CS Tin
+  - CS Ting
+  - CS Tiu
+  - CS To
+  - CS Toh
+  - CS Tom
+  - CS Tong
+  - CS Tsai
+  - CS Tsang
+  - CS Tsao
+  - CS Tsay
+  - CS Tse
+  - CS Tseng
+  - CS Tso
+  - CS Tsoi
+  - CS Tsou
+  - CS Tsu
+  - CS Tsui
+  - CS Tu
+  - CS Tuan
+  - CS Tung
+  - CS Tzeng
+  - CS U
+  - CS Un
+  - CS Ung
+  - CS Wah
+  - CS Wai
+  - CS Wan
+  - CS Wang
+  - CS Wee
+  - CS Wei
+  - CS Wen
+  - CS Weng
+  - CS Wing
+  - CS Wong
+  - CS Woo
+  - CS Woon
+  - CS Wu
+  - CS Xi
+  - CS Xia
+  - CS Xiang
+  - CS Xiao
+  - CS Xie
+  - CS Xin
+  - CS Xing
+  - CS Xiong
+  - CS Xu
+  - CS Xue
+  - CS Yam
+  - CS Yan
+  - CS Yang
+  - CS Yao
+  - CS Yap
+  - CS Yau
+  - CS Yaw
+  - CS Ye
+  - CS Yee
+  - CS Yeh
+  - CS Yen
+  - CS Yep
+  - CS Yeung
+  - CS Yi
+  - CS Yim
+  - CS Yin
+  - CS Ying
+  - CS Yip
+  - CS Yiu
+  - CS Yong
+  - CS Yoo
+  - CS Yoon
+  - CS You
+  - CS Young
+  - CS Yu
+  - CS Yuan
+  - CS Yue
+  - CS Yuen
+  - CS Yun
+  - CS Yung
+  - CS Zang
+  - CS Zeng
+  - CS Zha
+  - CS Zhan
+  - CS Zhang
+  - CS Zhao
+  - CS Zhen
+  - CS Zheng
+  - CS Zhong
+  - CS Zhou
+  - CS Zhu
+  - CS Zhuang
+  - CS Zhuo
+  - CS Zong
+  - CS Zou
+femaleFirst:
+  - CS An
+  - CS Ang
+  - CS Ao
+  - CS Au
+  - CS Au Yeung
+  - CS Bai
+  - CS Ban
+  - CS Bao
+  - CS Bau
+  - CS Bi
+  - CS Bo
+  - CS Bu
+  - CS Cai
+  - CS Cao
+  - CS Cha
+  - CS Chai
+  - CS Cham
+  - CS Chan
+  - CS Chang
+  - CS Chao
+  - CS Chau
+  - CS Che
+  - CS Cheah
+  - CS Chee
+  - CS Chen
+  - CS Cheng
+  - CS Cheong
+  - CS Chern
+  - CS Cheung
+  - CS Chew
+  - CS Chi
+  - CS Chia
+  - CS Chiang
+  - CS Chiao
+  - CS Chien
+  - CS Chim
+  - CS Chin
+  - CS Ching
+  - CS Chiong
+  - CS Chiou
+  - CS Chiu
+  - CS Cho
+  - CS Choi
+  - CS Chong
+  - CS Choo
+  - CS Chou
+  - CS Chow
+  - CS Choy
+  - CS Chu
+  - CS Chua
+  - CS Cheang
+  - CS Chui
+  - CS Chun
+  - CS Chung
+  - CS Cong
+  - CS Cui
+  - CS Dai
+  - CS Dang
+  - CS Dea
+  - CS Deng
+  - CS Ding
+  - CS Do
+  - CS Dong
+  - CS Doo
+  - CS Du
+  - CS Duan
+  - CS Dung
+  - CS Eng
+  - CS Fan
+  - CS Fang
+  - CS Fei
+  - CS Feng
+  - CS Fok
+  - CS Fong
+  - CS Foo
+  - CS Fu
+  - CS Fung
+  - CS Gan
+  - CS Gang
+  - CS Gao
+  - CS Gau
+  - CS Ge
+  - CS Geng
+  - CS Go
+  - CS Goh
+  - CS Gong
+  - CS Gu
+  - CS Guan
+  - CS Guo
+  - CS Ha
+  - CS Hai
+  - CS Han
+  - CS Hang
+  - CS Hao
+  - CS Hau
+  - CS He
+  - CS Ho
+  - CS Hoh
+  - CS Hom
+  - CS Hon
+  - CS Hong
+  - CS Hoo
+  - CS Hou
+  - CS Hsi
+  - CS Hsia
+  - CS Hsiao
+  - CS Hsieh
+  - CS Hsiung
+  - CS Hsu
+  - CS Hsueh
+  - CS Hu
+  - CS Hua
+  - CS Huang
+  - CS Hui
+  - CS Huie
+  - CS Hum
+  - CS Hung
+  - CS Huo
+  - CS Hwang
+  - CS Hy
+  - CS Ing
+  - CS Ip
+  - CS Jan
+  - CS Jang
+  - CS Jen
+  - CS Jeng
+  - CS Jeung
+  - CS Jew
+  - CS Ji
+  - CS Jia
+  - CS Jian
+  - CS Jiang
+  - CS Jiao
+  - CS Jim
+  - CS Jin
+  - CS Jing
+  - CS Jo
+  - CS Joe
+  - CS Jong
+  - CS Joo
+  - CS Jou
+  - CS Jow
+  - CS Ju
+  - CS Jue
+  - CS Jung
+  - CS Kam
+  - CS Kan
+  - CS Kang
+  - CS Kao
+  - CS Kau
+  - CS Ke
+  - CS Keng
+  - CS Kho
+  - CS Khoo
+  - CS Kiang
+  - CS King
+  - CS Ko
+  - CS Koh
+  - CS Kong
+  - CS Koo
+  - CS Kook
+  - CS Kou
+  - CS Ku
+  - CS Kuan
+  - CS Kuang
+  - CS Kuk
+  - CS Kung
+  - CS Kuang
+  - CS Kuo
+  - CS Kwan
+  - CS Kwock
+  - CS Kwok
+  - CS Kwon
+  - CS Kwong
+  - CS Lai
+  - CS Lam
+  - CS Lan
+  - CS Lang
+  - CS Lao
+  - CS Lau
+  - CS Lee
+  - CS Lei
+  - CS Leng
+  - CS Leong
+  - CS Leung
+  - CS Lew
+  - CS Li
+  - CS Lian
+  - CS Liang
+  - CS Liao
+  - CS Liaw
+  - CS Lien
+  - CS Liew
+  - CS Lim
+  - CS Lin
+  - CS Ling
+  - CS Liou
+  - CS Liu
+  - CS Lo
+  - CS Loh
+  - CS Lok
+  - CS Long
+  - CS Loo
+  - CS Lou
+  - CS Louie
+  - CS Lu
+  - CS Lua
+  - CS Lui
+  - CS Luk
+  - CS Lum
+  - CS Lung
+  - CS Luo
+  - CS Ma
+  - CS Mah
+  - CS Mai
+  - CS Mak
+  - CS Man
+  - CS Mao
+  - CS Mar
+  - CS Mau
+  - CS May
+  - CS Mei
+  - CS Meng
+  - CS Miao
+  - CS Min
+  - CS Ming
+  - CS Miu
+  - CS Mo
+  - CS Mok
+  - CS Mon
+  - CS Mou
+  - CS Moy
+  - CS Mu
+  - CS Mui
+  - CS Na
+  - CS Ng
+  - CS Ngai
+  - CS Ngan
+  - CS Ngo
+  - CS Ni
+  - CS Nie
+  - CS Ning
+  - CS Niu
+  - CS On
+  - CS Ong
+  - CS Ou
+  - CS Ou Yang
+  - CS Ow
+  - CS Owyang
+  - CS Pan
+  - CS Pang
+  - CS Pao
+  - CS Pei
+  - CS Peng
+  - CS Pi
+  - CS Ping
+  - CS Po
+  - CS Pon
+  - CS Pong
+  - CS Poon
+  - CS Pu
+  - CS Pun
+  - CS Qi
+  - CS Qian
+  - CS Qiao
+  - CS Qin
+  - CS Qiu
+  - CS Qu
+  - CS Quan
+  - CS Que
+  - CS Rao
+  - CS Ren
+  - CS Rong
+  - CS Ruan
+  - CS Sam
+  - CS San
+  - CS Sang
+  - CS Seto
+  - CS Sha
+  - CS Sham
+  - CS Shan
+  - CS Shang
+  - CS Shao
+  - CS Shaw
+  - CS Shek
+  - CS Shen
+  - CS Sheng
+  - CS Sheu
+  - CS Shi
+  - CS Shiau
+  - CS Shieh
+  - CS Shih
+  - CS Shing
+  - CS Shiu
+  - CS Shu
+  - CS Shum
+  - CS Shy
+  - CS Shyu
+  - CS Si
+  - CS Sieh
+  - CS Sin
+  - CS Sing
+  - CS Sit
+  - CS Situ
+  - CS Siu
+  - CS So
+  - CS Soh
+  - CS Song
+  - CS Soo
+  - CS Soo Hoo
+  - CS Soon
+  - CS Soong
+  - CS Su
+  - CS Suen
+  - CS Sui
+  - CS Sum
+  - CS Sun
+  - CS Sung
+  - CS Sze
+  - CS Szeto
+  - CS Tai
+  - CS Tam
+  - CS Tan
+  - CS Tang
+  - CS Tao
+  - CS Tay
+  - CS Te
+  - CS Teh
+  - CS Teng
+  - CS Teo
+  - CS Tian
+  - CS Tien
+  - CS Tin
+  - CS Ting
+  - CS Tiu
+  - CS To
+  - CS Toh
+  - CS Tom
+  - CS Tong
+  - CS Tsai
+  - CS Tsang
+  - CS Tsao
+  - CS Tsay
+  - CS Tse
+  - CS Tseng
+  - CS Tso
+  - CS Tsoi
+  - CS Tsou
+  - CS Tsu
+  - CS Tsui
+  - CS Tu
+  - CS Tuan
+  - CS Tung
+  - CS Tzeng
+  - CS U
+  - CS Un
+  - CS Ung
+  - CS Wah
+  - CS Wai
+  - CS Wan
+  - CS Wang
+  - CS Wee
+  - CS Wei
+  - CS Wen
+  - CS Weng
+  - CS Wing
+  - CS Wong
+  - CS Woo
+  - CS Woon
+  - CS Wu
+  - CS Xi
+  - CS Xia
+  - CS Xiang
+  - CS Xiao
+  - CS Xie
+  - CS Xin
+  - CS Xing
+  - CS Xiong
+  - CS Xu
+  - CS Xue
+  - CS Yam
+  - CS Yan
+  - CS Yang
+  - CS Yao
+  - CS Yap
+  - CS Yau
+  - CS Yaw
+  - CS Ye
+  - CS Yee
+  - CS Yeh
+  - CS Yen
+  - CS Yep
+  - CS Yeung
+  - CS Yi
+  - CS Yim
+  - CS Yin
+  - CS Ying
+  - CS Yip
+  - CS Yiu
+  - CS Yong
+  - CS Yoo
+  - CS Yoon
+  - CS You
+  - CS Young
+  - CS Yu
+  - CS Yuan
+  - CS Yue
+  - CS Yuen
+  - CS Yun
+  - CS Yung
+  - CS Zang
+  - CS Zeng
+  - CS Zha
+  - CS Zhan
+  - CS Zhang
+  - CS Zhao
+  - CS Zhen
+  - CS Zheng
+  - CS Zhong
+  - CS Zhou
+  - CS Zhu
+  - CS Zhuang
+  - CS Zhuo
+  - CS Zong
+  - CS Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

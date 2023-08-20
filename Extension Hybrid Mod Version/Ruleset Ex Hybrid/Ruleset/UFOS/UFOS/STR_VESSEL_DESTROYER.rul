@@ -1,0 +1,184 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_DESTROYER: Destroyer
+      STR_VESSEL_DESTROYER_UFOPEDIA: "The job of this UFO is simple, to destroy of anything that stand in its way. It is heavily armored and armed, designed for heavy assault missions."
+ufopaedia:
+  - id: STR_VESSEL_DESTROYER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_DESTROYER
+    text: STR_VESSEL_DESTROYER_UFOPEDIA
+research:
+  - name: STR_VESSEL_DESTROYER
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_DESTROYER
+ufos:
+  - type: STR_VESSEL_DESTROYER
+    size: STR_LARGE
+    modSprite: InterceptionDestroyer
+    fireSound: 43
+    hitBonus: 25
+    damageMax: 750
+    speedMax: 4600
+    accel: 10
+    power: 125
+    range: 65
+    reload: 23
+    armor: 15
+    score: 2000
+    radarRange: 150
+    hunterKillerPercentage: 0
+    huntBehavior: 0
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: VES_260
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+        - U_OPER_G
+      mapBlocks:
+        - name: VES_260
+          width: 30
+          length: 30
+          items:			  
+            STR_ELERIUM_115:
+              - [15, 14, 2]
+              - [24, 24, 0]
+              - [24, 4, 0]
+alienDeployments:
+  - type: STR_VESSEL_DESTROYER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_DESTROYER
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []	
+  - type: STR_VESSEL_DESTROYER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_DESTROYER
+    depth: [1, 1]	 
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []	

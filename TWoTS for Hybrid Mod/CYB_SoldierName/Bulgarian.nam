@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - CS Aleksandar
+  - CS Andon
+  - CS Andrey
+  - CS Andrian
+  - CS Anton
+  - CS Antoni
+  - CS Angel
+  - CS Apostol
+  - CS Atanas
+  - CS Bogdan
+  - CS Bogomil
+  - CS Borislav
+  - CS Boyko
+  - CS Damyan
+  - CS Danail
+  - CS Desislav
+  - CS Dimitar
+  - CS Dragomir
+  - CS Gavrail
+  - CS Georgi
+  - CS Hristo
+  - CS Ilian
+  - CS Iliya
+  - CS Ivan
+  - CS Ivaylo
+  - CS Ivo
+  - CS Kaloyan
+  - CS Kiril
+  - CS Konstantin
+  - CS Krasimir
+  - CS Krastyo
+  - CS Lyuben
+  - CS Lyubomir
+  - CS Lyudmil
+  - CS Marko
+  - CS Miroslav
+  - CS Momchil
+  - CS Nikola
+  - CS Ognyan
+  - CS Penko
+  - CS Petar
+  - CS Plamen
+  - CS Radomir
+  - CS Samuil
+  - CS Spas
+  - CS Stanimir
+  - CS Stanislav
+  - CS Stoyan
+  - CS Teodor
+  - CS Tihomir
+  - CS Todor
+  - CS Toma
+  - CS Tsvetan
+  - CS Vasil
+  - CS Ventsislav
+  - CS Viktor
+  - CS Vladimir
+  - CS Vladislav
+  - CS Yanko
+  - CS Yoan
+  - CS Yordan
+  - CS Yosif
+  - CS Zahari
+  - CS Zhivko
+  - CS Zlatko
+femaleFirst:
+  - CS Ana
+  - CS Antonia
+  - CS Bilyana
+  - CS Bisera
+  - CS Bogomila
+  - CS Borislava
+  - CS Boyana
+  - CS Desislava
+  - CS Elisaveta
+  - CS Emiliya
+  - CS Gergana
+  - CS Hristina
+  - CS Iva
+  - CS Ivana
+  - CS Ivelina
+  - CS Ivet
+  - CS Izabela
+  - CS Krasimira
+  - CS Lidiya
+  - CS Lilyana
+  - CS Lyubina
+  - CS Lyubomira
+  - CS Lyudmila
+  - CS Maya
+  - CS Mirela
+  - CS Miroslava
+  - CS Nadejda
+  - CS Nevena
+  - CS Nikolina
+  - CS Pavla
+  - CS Pavlina
+  - CS Radomira
+  - CS Radoslava
+  - CS Radostina
+  - CS Rayna
+  - CS Rosa
+  - CS Rositsa
+  - CS Silviya
+  - CS Simona
+  - CS Snezhana
+  - CS Sofiya
+  - CS Stanislava
+  - CS Stanka
+  - CS Stoyanka
+  - CS Svetla
+  - CS Svetlana
+  - CS Tanya
+  - CS Tatyana
+  - CS Teodora
+  - CS Tereza
+  - CS Tsveta
+  - CS Tsvetelina
+  - CS Veselina
+  - CS Viktoria
+  - CS Violeta
+  - CS Vladimira
+  - CS Yana
+  - CS Yoana
+  - CS Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

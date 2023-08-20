@@ -1,0 +1,189 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_BREAKER: Breaker
+      STR_VESSEL_BREAKER_UFOPEDIA: "This ufo is design to penetrate through heavy defenses and then unleash of their troops on heavy defended targets." 
+ufopaedia:
+  - id: STR_VESSEL_BREAKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_BREAKER
+    text: STR_VESSEL_BREAKER_UFOPEDIA
+research:
+  - name: STR_VESSEL_BREAKER
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_BREAKER
+ufos:
+  - type: STR_VESSEL_BREAKER
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionUnknown
+    damageMax: 900
+    speedMax: 5250
+    accel: 10
+    power:  0
+    range:  0
+    score: 800
+    reload: 23
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: VES_430
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+        - U_DISEC2
+      mapBlocks:
+        - name: VES_430
+          width: 20
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_BREAKER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_BREAKER		
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_BREAKER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_BREAKER
+    depth: [1, 1]	
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []

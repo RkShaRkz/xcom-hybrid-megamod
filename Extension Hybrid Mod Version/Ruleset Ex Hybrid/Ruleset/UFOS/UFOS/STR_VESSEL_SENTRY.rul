@@ -1,0 +1,81 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_SENTRY: Sentry  
+      STR_VESSEL_SENTRY_UFOPEDIA: "The Sentry is fast ufo design to patrol the alien's conquered dominion. It is poorly armed, for its main asset is its speed."
+ufopaedia:
+  - id: STR_VESSEL_SENTRY
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_SENTRY
+    text: STR_VESSEL_SENTRY_UFOPEDIA
+research:
+  - name: STR_VESSEL_SENTRY
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: SSTR_VESSEL_SENTRY
+ufos:
+  - type: STR_VESSEL_SENTRY
+    size: STR_SMALL
+    modSprite: InterceptionSentry
+    hitBonus: 20
+    avoidBonus: 10
+    damageMax: 300
+    speedMax: 4500
+    accel: 9
+    range: 40
+    power: 35
+    reload: 23
+    score: 200
+    radarRange: 200
+    sightRange: 325
+    hunterKillerPercentage: 25
+    huntBehavior: 0
+    breakOffTime: 350
+    battlescapeTerrainData:
+      name: VES_280
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_BITS_G
+      mapBlocks:
+        - name: VES_280
+          width: 20
+          length: 20	
+alienDeployments:
+  - type: STR_VESSEL_SENTRY
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_SENTRY		
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_SENTRY_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_SENTRY
+    depth: [1, 1] 
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

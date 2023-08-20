@@ -1,0 +1,71 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CROP_CIRCLES: "Crop Circles"
+      STR_CROP_CIRCLES_DESCRIPTION: "The Mercenary guild has picked up reports of weird activities on a farm. There's a job for a competant mercenary unit to investigate of these activities. A reward will be paid upon of its complete. Last warning, expect the unexpected."
+      STR_CROP_CIRCLES_BRIEFING: "The Mercenary guild has picked up reports of weird activities on a farm. There's a job for a competant mercenary unit to investigate of these activities. A reward will be paid upon of its complete. Last warning, expect the unexpected."
+      STR_ALERT_CROP_CIRCLES: "CROP CIRCLES REPORTED"
+alienDeployments:
+  - type: STR_CROP_CIRCLES
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 40
+    length: 40
+    height: 16
+    alert: STR_ALERT_CROP_CIRCLES
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CROP_CIRCLES_DESCRIPTION
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CROP_CIRCLES_BRIEFING  
+    music:
+      - GMTACTIC
+    markerName: STR_CROP_CIRCLES
+    duration: [80, 104]
+    despawnPenalty: 50
+    script: FARMCROPCIRCLES
+    terrains:
+      - CULTA
+      - RURAL
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CROP_CIRCLES
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 100
+    waves:
+      - ufo: STR_CROP_CIRCLES
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: cropCircles
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_CROP_CIRCLES: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,115 @@
+alienMissions:
+  - type: STR_MERCPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_NINJA: 25
+          STR_BOUNTY_HUNTERS: 25		  		  
+          STR_MAGMA_MERCS: 25			  
+          STR_SPARTANS: 25	  
+    waves:
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_RAIDER_FIGHTER
+        count: 1
+        trajectory: P21
+        timer: 10000		
+  - type: STR_FACTION_RETALIATIONMERCPATROLPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_RAIDER_GUNSHIP 
+    raceWeights:
+      0:
+          STR_NINJA: 25
+          STR_BOUNTY_HUNTERS: 25		  		  
+          STR_MAGMA_MERCS: 25			  
+          STR_SPARTANS: 25	
+    waves:
+      - ufo: STR_VESSEL_NIN_1
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_STOLENCOMMERCIALPLANE2
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5
+  - type: STR_MERCRESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_NINJA: 25
+          STR_BOUNTY_HUNTERS: 25		  		  
+          STR_MAGMA_MERCS: 25			  
+          STR_SPARTANS: 25	
+    waves:
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 10
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_MILITARY_TRANSPORT
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5
+missionScripts:		
+  - type: mercSpawnPatrol
+    missionWeights:
+      0:
+        STR_MERCPATROL: 100			
+    firstMonth: 0
+    varName: mercspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: mercresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_MERCRESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: mercresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			

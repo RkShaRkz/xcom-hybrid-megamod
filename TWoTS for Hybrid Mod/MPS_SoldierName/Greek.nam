@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - MPS Abderus
+  - MPS Absyrtus
+  - MPS Abydos
+  - MPS Acastus
+  - MPS Achates
+  - MPS Achelous
+  - MPS Acheron
+  - MPS Achilles
+  - MPS Achlys
+  - MPS Acrisius
+  - MPS Actaeon
+  - MPS Acteon
+  - MPS Adelphos
+  - MPS Admes
+  - MPS Admetus
+  - MPS Adonis
+  - MPS Adras
+  - MPS Adrastos
+  - MPS Adrastus
+  - MPS Adrian
+  - MPS Aeacus
+  - MPS Aeetes
+  - MPS Aegeus
+  - MPS Aegis
+  - MPS Aegisthus
+  - MPS Aegyptus
+  - MPS Aeneas
+  - MPS Aeolus
+  - MPS Aesculapius
+  - MPS Aeson
+  - MPS Aetos
+  - MPS Agamedes
+  - MPS Agape
+  - MPS Agatone
+  - MPS Aindreas
+  - MPS Aindriu
+  - MPS Ajax
+  - MPS Akil
+  - MPS Alasd
+  - MPS Alcander
+  - MPS Alcinoos
+  - MPS Alcinous
+  - MPS Alcnaeon
+  - MPS Alcyoneus
+  - MPS Alddes
+  - MPS Alessandro
+  - MPS Alex
+  - MPS Alexander
+  - MPS Alexandras
+  - MPS Alexandros
+  - MPS Alexandrukas
+  - MPS Alexei
+  - MPS Alexio
+  - MPS Alix
+  - MPS Aloeus
+  - MPS Alpheus
+  - MPS Altair
+  - MPS Amaoebus
+  - MPS Ambrocio
+  - MPS Ambrose
+  - MPS Ambrus
+  - MPS Amphiaraus
+  - MPS Amphion
+  - MPS Amphitryon
+  - MPS Ampyx
+  - MPS Amycus
+  - MPS Anastagio
+  - MPS Anastasio
+  - MPS Anastasios
+  - MPS Anastasius
+  - MPS Anasztaz
+  - MPS Anatol
+  - MPS Anatole
+  - MPS Anatoli
+  - MPS Anatolijus
+  - MPS Anatolio
+  - MPS Ancaeus
+  - MPS Anchises
+  - MPS Andor
+  - MPS Andreas
+  - MPS Andres
+  - MPS Andreus
+  - MPS Andrew
+  - MPS Andries
+  - MPS Androgeus
+  - MPS Androu
+  - MPS Anstice
+  - MPS Anstiss
+  - MPS Antaeus
+  - MPS Antares
+  - MPS Anteros
+  - MPS Antilochus
+  - MPS Antinous
+  - MPS Antiphates
+  - MPS Anton
+  - MPS Antony
+  - MPS Aonghas
+  - MPS Apollo
+  - MPS Apoloniusz
+  - MPS Apostolos
+  - MPS Arcadicus
+  - MPS Arcas
+  - MPS Arcenio
+  - MPS Archemorus
+  - MPS Ares
+  - MPS Argo
+  - MPS Argos
+  - MPS Argus
+  - MPS Arion
+  - MPS Aristaeus
+  - MPS Aristo
+  - MPS Arsen
+  - MPS Arsenio
+  - MPS Artemas
+  - MPS Artemesio
+  - MPS Artemus
+  - MPS Ascalaphus
+  - MPS Asklepios
+  - MPS Asopus
+  - MPS Athamas
+  - MPS Athan
+  - MPS Athanasios
+  - MPS Athanasius
+  - MPS Atlas
+  - MPS Atreus
+  - MPS Attis
+  - MPS Autolycus
+  - MPS Avernus
+  - MPS Baccaus
+  - MPS Baccus
+  - MPS Balasi
+  - MPS Baltsaros
+  - MPS Baptiste
+  - MPS Basil
+  - MPS Basile
+  - MPS Basilio
+  - MPS Baste
+  - MPS Bastiaan
+  - MPS Bastien
+  - MPS Baucis
+  - MPS Bazyli
+  - MPS Bemus
+  - MPS Biton
+  - MPS Boreas
+  - MPS Brasidas
+  - MPS Briareus
+  - MPS Brygus
+  - MPS Butades
+  - MPS Cadmus
+  - MPS Caesare
+  - MPS Calchas
+  - MPS Calisto
+  - MPS Capaneus
+  - MPS Caseareo
+  - MPS Castor
+  - MPS Cecrops
+  - MPS Celeus
+  - MPS Cenon
+  - MPS Cephalus
+  - MPS Cepheus
+  - MPS Cesare
+  - MPS Cetus
+  - MPS Ceyx
+  - MPS Chris
+  - MPS Christan
+  - MPS Christiano
+  - MPS Christoph
+  - MPS Christopher
+  - MPS Christophoros
+  - MPS Christos
+  - MPS Chruse
+  - MPS Chrysostom
+  - MPS Cimon
+  - MPS Cirio
+  - MPS Ciro
+  - MPS Claas
+  - MPS Claus
+  - MPS Cleobis
+  - MPS Cleon
+  - MPS Cletus
+  - MPS Cleytus
+  - MPS Clio
+  - MPS Cocytus
+  - MPS Coeus
+  - MPS Coireall
+  - MPS Cole
+  - MPS Colin
+  - MPS Colum
+  - MPS Corban
+  - MPS Coridan
+  - MPS Corybantes
+  - MPS Corydon
+  - MPS Cos
+  - MPS Cosmas
+  - MPS Cosmo
+  - MPS Cottus
+  - MPS Creon
+  - MPS Cretien
+  - MPS Cristoforo
+  - MPS Cristophe
+  - MPS Cronus
+  - MPS Ctesippus
+  - MPS Cyrano
+  - MPS Cyrek
+  - MPS Cyril
+  - MPS Cyrus
+  - MPS Cyryl
+  - MPS Damae
+  - MPS Damalis
+  - MPS Damaris
+  - MPS Damaskenos
+  - MPS Damaskinos
+  - MPS Damen
+  - MPS Dameon
+  - MPS Damian
+  - MPS Damion
+  - MPS Damon
+  - MPS Danaus
+  - MPS Dardanus
+  - MPS Darian
+  - MPS Darien
+  - MPS Darion
+  - MPS Darrian
+  - MPS Darrien
+  - MPS Darrion
+  - MPS Daymon
+  - MPS Deke
+  - MPS Dekel
+  - MPS Dekle
+  - MPS Delbin
+  - MPS Demetre
+  - MPS Demetri
+  - MPS Demetrios
+  - MPS Demetrius
+  - MPS Demitri
+  - MPS Demitrius
+  - MPS Demodocus
+  - MPS Demophon
+  - MPS Demoritus
+  - MPS Denes
+  - MPS Dennis
+  - MPS Deo
+  - MPS Deucalion
+  - MPS Doran
+  - MPS Dorian
+  - MPS Dorion
+  - MPS Drakon
+  - MPS Drew
+  - MPS Dymas
+  - MPS Eachann
+  - MPS Efterpi
+  - MPS Egidio
+  - MPS Eleftherios
+  - MPS Elek
+  - MPS Eleutherios
+  - MPS Eli
+  - MPS Enceladus
+  - MPS Endre
+  - MPS Endymion
+  - MPS Eneas
+  - MPS Eoghan
+  - MPS Epeius
+  - MPS Erasmus
+  - MPS Erebus
+  - MPS Erechtheus
+  - MPS Erichthonius
+  - MPS Erymanthus
+  - MPS Erysichthon
+  - MPS Eryx
+  - MPS Estevao
+  - MPS Eteocles
+  - MPS Etor
+  - MPS Eubuleus
+  - MPS Eugen
+  - MPS Eugene
+  - MPS Eugenio
+  - MPS Eugenios
+  - MPS Eumaeus
+  - MPS Eupeithes
+  - MPS Euphrosyne
+  - MPS Eurus
+  - MPS Euryalus
+  - MPS Eurylochus
+  - MPS Eurymachus
+  - MPS Eurypylus
+  - MPS Eurystheus
+  - MPS Euryton
+  - MPS Eusebius
+  - MPS Eustace
+  - MPS Eustachy
+  - MPS Eustis
+  - MPS Evan
+  - MPS Evzen
+  - MPS Fedor
+  - MPS Feodor
+  - MPS Feodras
+  - MPS Filippo
+  - MPS Filips
+  - MPS Flip
+  - MPS Fulop
+  - MPS Gaelan
+  - MPS Galan
+  - MPS Galen
+  - MPS Galinthias
+  - MPS Galyn
+  - MPS Gelasius
+  - MPS Georg
+  - MPS George
+  - MPS Georges
+  - MPS Giles
+  - MPS Glaucus
+  - MPS Goran
+  - MPS Graeae
+  - MPS Gregoire
+  - MPS Gregoly
+  - MPS Gregor
+  - MPS Gregorie
+  - MPS Gregorior
+  - MPS Gregory
+  - MPS Gregos
+  - MPS Grigor
+  - MPS Grigorov
+  - MPS Gruev
+  - MPS Guilio
+  - MPS Gyes
+  - MPS Gyoergy
+  - MPS Gyorgy
+  - MPS Gyuri
+  - MPS Haemon
+  - MPS Hali
+  - MPS Halithersis
+  - MPS Hector
+  - MPS Helios
+  - MPS Herodotus
+  - MPS Homar
+  - MPS Homer
+  - MPS Homeros
+  - MPS Homerus
+  - MPS Hypnos
+  - MPS Ibycus
+  - MPS Icarius
+  - MPS Icarus
+  - MPS Icelos
+  - MPS Icos
+  - MPS Idas
+  - MPS Igorr
+  - MPS Inachus
+  - MPS Iorgas
+  - MPS Iphitus
+  - MPS Istvan
+  - MPS Ivan
+  - MPS Ivankor
+  - MPS Ixion
+  - MPS Jaison
+  - MPS Jase
+  - MPS Jasen
+  - MPS Jason
+  - MPS Jayce
+  - MPS Jayr
+  - MPS Jaysen
+  - MPS Jayson
+  - MPS Jencir
+  - MPS Jeno
+  - MPS Jeroenr
+  - MPS Jerome
+  - MPS Jerzyr
+  - MPS Jirkar
+  - MPS Jorenr
+  - MPS Julius
+  - MPS Jurgisr
+  - MPS Kadmus
+  - MPS Kairos
+  - MPS Khristos
+  - MPS Khrystiyanr
+  - MPS Kit
+  - MPS Klaasr
+  - MPS Klaus
+  - MPS Korudon
+  - MPS Kosmosr
+  - MPS Kratos
+  - MPS Krikor
+  - MPS Krischnan
+  - MPS Kristian
+  - MPS Kristofr
+  - MPS Krystupasr
+  - MPS Krzysztofr
+  - MPS Kuirilr
+  - MPS Kyrillos
+  - MPS Kyrillosr
+  - MPS Kyros
+  - MPS Ladon
+  - MPS Laertes
+  - MPS Laestrygones
+  - MPS Laius
+  - MPS Lander
+  - MPS Laocoon
+  - MPS Laomedon
+  - MPS Leander
+  - MPS Leandro
+  - MPS Leonidas
+  - MPS Lichas
+  - MPS Linus
+  - MPS Lippio
+  - MPS Lotus
+  - MPS Loxias
+  - MPS Luke
+  - MPS Lycaon
+  - MPS Lycomedes
+  - MPS Lycurgus
+  - MPS Lynceus
+  - MPS Lysander
+  - MPS Marcario
+  - MPS Maurice
+  - MPS Medus
+  - MPS Melampus
+  - MPS Melancton
+  - MPS Melanthius
+  - MPS Menelaus
+  - MPS Menoeceus
+  - MPS Mentor
+  - MPS Midas
+  - MPS Mikolas
+  - MPS Miles
+  - MPS Milo
+  - MPS Minos
+  - MPS Momus
+  - MPS Mopsus
+  - MPS Moses
+  - MPS Myles
+  - MPS Myron
+  - MPS Narkis
+  - MPS Nauplius
+  - MPS Neleus
+  - MPS Nemo
+  - MPS Nemos
+  - MPS Neo
+  - MPS Nicholas
+  - MPS Nicholaus
+  - MPS Nicias
+  - MPS Nick
+  - MPS Nicodemus
+  - MPS Nicolas
+  - MPS Nicolaus
+  - MPS Nik
+  - MPS Nike
+  - MPS Niklaus
+  - MPS Nikodem
+  - MPS Nikolai
+  - MPS Nikolajis
+  - MPS Nikolos
+  - MPS Niles
+  - MPS Nilo
+  - MPS Nilos
+  - MPS Nisus
+  - MPS Notus
+  - MPS Obiareus
+  - MPS Oighrig
+  - MPS Oles
+  - MPS Orrin
+  - MPS Orthros
+  - MPS Otis
+  - MPS Pan
+  - MPS Panagiotis
+  - MPS Pancratius
+  - MPS Panos
+  - MPS Panteleimon
+  - MPS Papandrou
+  - MPS Paris
+  - MPS Patroclus
+  - MPS Patroklos
+  - MPS Pavlos
+  - MPS Peadair
+  - MPS Peder
+  - MPS Pegeen
+  - MPS Peleus
+  - MPS Pelias
+  - MPS Pello
+  - MPS Pelops
+  - MPS Pero
+  - MPS Perrin
+  - MPS Peterke
+  - MPS Petrelis
+  - MPS Petros
+  - MPS Petter
+  - MPS Phantasos
+  - MPS Phaon
+  - MPS Philemon
+  - MPS Philip
+  - MPS Philipp
+  - MPS Philippe
+  - MPS Phillip
+  - MPS Philo
+  - MPS Phineas
+  - MPS Phineus
+  - MPS Phrixus
+  - MPS Phylo
+  - MPS Piero
+  - MPS Pierro
+  - MPS Pieter
+  - MPS Pietr
+  - MPS Pietro
+  - MPS Pilib
+  - MPS Piotr
+  - MPS Pippo
+  - MPS Pirithous
+  - MPS Pirro
+  - MPS Pittheus
+  - MPS Plato
+  - MPS Platon
+  - MPS Plexippus
+  - MPS Plutus
+  - MPS Pollux
+  - MPS Poseidon
+  - MPS Preben
+  - MPS Priam
+  - MPS Priapus
+  - MPS Procrustes
+  - MPS Prokopios
+  - MPS Prometheus
+  - MPS Prophyrios
+  - MPS Protesilaus
+  - MPS Ptolemy
+  - MPS Pyramus
+  - MPS Rasmus
+  - MPS Rhodes
+  - MPS Risto
+  - MPS Sabastian
+  - MPS Salmoneus
+  - MPS Scopas
+  - MPS Sebasten
+  - MPS Sebastian
+  - MPS Sebastiano
+  - MPS Simon
+  - MPS Sinon
+  - MPS Socrates
+  - MPS Sofronio
+  - MPS Soterios
+  - MPS Spyridon
+  - MPS Stamitos
+  - MPS Stavros
+  - MPS Steafan
+  - MPS Stefan
+  - MPS Stefano
+  - MPS Stefanos
+  - MPS Stefford
+  - MPS Stefon
+  - MPS Stephano
+  - MPS Stephanos
+  - MPS Stephen
+  - MPS Stephon
+  - MPS Steven
+  - MPS Steverino
+  - MPS Takis
+  - MPS Talos
+  - MPS Talus
+  - MPS Tantalus
+  - MPS Tarasios
+  - MPS Teague
+  - MPS Telamon
+  - MPS Telegonus
+  - MPS Telemachus
+  - MPS Telephus
+  - MPS Tellus
+  - MPS Teodors
+  - MPS Teofile
+  - MPS Teuthras
+  - MPS Thad
+  - MPS Thaddeus
+  - MPS Thaddius
+  - MPS Thadeus
+  - MPS Thais
+  - MPS Thanatos
+  - MPS Thanos
+  - MPS Thaumas
+  - MPS Theo
+  - MPS Theociymenus
+  - MPS Theodon
+  - MPS Theodore
+  - MPS Theodosios
+  - MPS Theodrekr
+  - MPS Theodric
+  - MPS Theon
+  - MPS Theophile
+  - MPS Theophilus
+  - MPS Theron
+  - MPS Therron
+  - MPS Thersites
+  - MPS Theseus
+  - MPS Thomas
+  - MPS Thyestes
+  - MPS Tiege
+  - MPS Tim
+  - MPS Timeus
+  - MPS Timmy
+  - MPS Timocrates
+  - MPS Timoleon
+  - MPS Timon
+  - MPS Timotheos
+  - MPS Timothy
+  - MPS Timun
+  - MPS Tiomoid
+  - MPS Tito
+  - MPS Titos
+  - MPS Titus
+  - MPS Tityus
+  - MPS Tivadar
+  - MPS Todor
+  - MPS Toxeus
+  - MPS Triton
+  - MPS Trophonius
+  - MPS Turannos
+  - MPS Tydeus
+  - MPS Tylissus
+  - MPS Tymek
+  - MPS Tymon
+  - MPS Tyndareus
+  - MPS Typhoeus
+  - MPS Typhon
+  - MPS Tyrone
+  - MPS Ulysses
+  - MPS Urian
+  - MPS Vasileios
+  - MPS Vasilios
+  - MPS Vasilis
+  - MPS Vasos
+  - MPS VasyItso
+  - MPS Vasyklo
+  - MPS Vasyl
+  - MPS Xanthus
+  - MPS Xeno
+  - MPS Xenophon
+  - MPS Xenos
+  - MPS Xerxes
+  - MPS Xuthus
+  - MPS Xylon
+  - MPS Yanni
+  - MPS Yehor
+  - MPS Yuri
+  - MPS Zale
+  - MPS Zarek
+  - MPS Zelotes
+  - MPS Zeno
+  - MPS Zenobio
+  - MPS Zenon
+  - MPS Zenos
+  - MPS Zephyr
+  - MPS Zero
+  - MPS Zerro
+  - MPS Zetes
+  - MPS Zoltan
+  - MPS Zoltar
+  - MPS Zorba
+  - MPS Zotico
+femaleFirst:
+  - MPS Acacia
+  - MPS Acantha
+  - MPS Aegea
+  - MPS Aeola
+  - MPS Agalia
+  - MPS Alala
+  - MPS Aldora
+  - MPS Aleni
+  - MPS Anatolia
+  - MPS Andrianna
+  - MPS Anemone
+  - MPS Angeline
+  - MPS Aphrodite
+  - MPS Athena
+  - MPS Athenagora
+  - MPS Calantha
+  - MPS Calida
+  - MPS Cassia
+  - MPS Cyra
+  - MPS Damia
+  - MPS Daphne
+  - MPS Deianira
+  - MPS Delia
+  - MPS Dido
+  - MPS Dimitra
+  - MPS Echo
+  - MPS Elma
+  - MPS Elpida
+  - MPS Emalia
+  - MPS Erianthe
+  - MPS Euphemia
+  - MPS Euphenia
+  - MPS Evadne
+  - MPS Evanthe
+  - MPS Fotini
+  - MPS Galatea
+  - MPS Georgia
+  - MPS Halcyone
+  - MPS Helena
+  - MPS Helia
+  - MPS Hera
+  - MPS Hermione
+  - MPS Isadora
+  - MPS Jocasta
+  - MPS Kalidas
+  - MPS Kaligenia
+  - MPS Kalligenia
+  - MPS Kallirrhoe
+  - MPS Kalonice
+  - MPS Kyriakoula
+  - MPS Lalage
+  - MPS Leandra
+  - MPS Leda
+  - MPS Lycoris
+  - MPS Lyris
+  - MPS Marina
+  - MPS Medora
+  - MPS Melantha
+  - MPS Melina
+  - MPS Melissa
+  - MPS Mona
+  - MPS Neola
+  - MPS Neona
+  - MPS Nerissa
+  - MPS Niobe
+  - MPS Olga
+  - MPS Orthia
+  - MPS Pandora
+  - MPS Pangiota
+  - MPS Pelagia
+  - MPS Penelope
+  - MPS Persephone
+  - MPS Philantha
+  - MPS Philomela
+  - MPS Philomena
+  - MPS Philothea
+  - MPS Phoebe
+  - MPS Rhea
+  - MPS Saphhira
+  - MPS Sofronia
+  - MPS Stamata
+  - MPS Stella
+  - MPS Tassia
+  - MPS Tassula
+  - MPS Tessa
+  - MPS Thaddea
+  - MPS Thalassa
+  - MPS Tharsia
+  - MPS Theodosia
+  - MPS Theophilia
+  - MPS Thetis
+  - MPS Timothea
+  - MPS Toula
+  - MPS Xantippe
+  - MPS Yana
+  - MPS Zenaida
+  - MPS Zenobia
+  - MPS Zephyra
+  - MPS Zoe
+maleLast:
+  - Alexopoulos
+  - Anagyros
+  - Anastassios
+  - Andreadis
+  - Andreos
+  - Andriopoulos
+  - Andronikos
+  - Andros
+  - Androuchelli
+  - Androupolos
+  - Androutsos
+  - Angelis
+  - Angelomatis
+  - Angelos
+  - Anistonopoulos
+  - Anninos
+  - Antikatzides
+  - Antonatos
+  - Antonious
+  - Argyra
+  - Athanasiadis
+  - Athanassiadi
+  - Averoff
+  - Axelos
+  - Bakirdzis
+  - Bakogianni
+  - Balanos
+  - Bazignos
+  - Bessarion
+  - Bizos
+  - Borbokis
+  - Botsaris
+  - Boudouris
+  - Bourgani
+  - Capodistria
+  - Carides
+  - Castriota
+  - Catalactus
+  - Chacoliades
+  - Chakiris
+  - Christodoulos
+  - Clerides
+  - Constandouros
+  - Constantinis
+  - Cosmatos
+  - Costanduros
+  - Costi
+  - Cotsadis
+  - Couloumbis
+  - Coulouris
+  - Deligiannis
+  - Deligiorgis
+  - Delivorias
+  - Dellas
+  - Demertzis
+  - Demosthenous
+  - Dimas
+  - Dimitrakos
+  - Dimitriades
+  - Dimitris
+  - Dimotsios
+  - Diomedes
+  - Dontas
+  - Doxiadis
+  - Dukakis
+  - Duvis
+  - Economakis
+  - Economos
+  - Eliades
+  - Elipandas
+  - Ellinas
+  - Farakos
+  - Fettas
+  - Florakis
+  - Galonopoulas
+  - Gatsioudis
+  - Gatzioudis
+  - Gavrielides
+  - Gennadios
+  - Genovelis
+  - Georghios
+  - Giorgiou
+  - Gislenus
+  - Gizikis
+  - Glezos
+  - Gogos
+  - Gonatas
+  - Goulandris
+  - Gounaris
+  - Gousetti
+  - Grivas
+  - Hagiorgis
+  - Hajiyanni
+  - Halara
+  - Harteros
+  - Iakovakis
+  - Iakovos
+  - Iatrides
+  - Ioannidis
+  - Ioannos
+  - Issigonis
+  - Joakimides
+  - Kairis
+  - Kaklamanakis
+  - Kakoulli
+  - Kalergi
+  - Kallabis
+  - Kalvos
+  - Kanaris
+  - Kanellopoulos
+  - Kaphandaris
+  - Karahi
+  - Karaiskakis
+  - Karamanlis
+  - Karatossos
+  - Karoki
+  - Karyoti
+  - Kasomoulis
+  - Katsantonis
+  - Katsaris
+  - Kenteris
+  - Khadjikyriakos
+  - Klaras
+  - Kochalakos
+  - Koffa
+  - Kokkinos
+  - Kokotis
+  - Kolettis
+  - Kollias
+  - Kolokotronis
+  - Kondylis
+  - Kontoghiorghes
+  - Korais
+  - Korkizoglu
+  - Korres
+  - Koryzis
+  - Koskotas
+  - Kostanopoulos
+  - Kostopulos
+  - Kotaridos
+  - Koukodimos
+  - Koukoudimos
+  - Koumoundouros
+  - Koundouriotis
+  - Kourniakis
+  - Kousoulas
+  - Kozani
+  - Kritopoulos
+  - Kyprianos
+  - Kyriacos
+  - Kyriakos
+  - Kyriazis
+  - Lambrakis
+  - Lambrianos
+  - Lambrinos
+  - Lathouris
+  - Lazardis
+  - Leonidis
+  - Lianis
+  - Logotheti
+  - Louca
+  - Louganis
+  - Louvaris
+  - Lyssarides
+  - Maganas
+  - Magos
+  - Maharis
+  - Makarezos
+  - Makrigiannis
+  - Malachias
+  - Maliagros
+  - Mangakis
+  - Marcoullides
+  - Mardas
+  - Marinatos
+  - Markezinis
+  - Markoulides
+  - Markoullides
+  - Marsolais
+  - Martis
+  - Matacena
+  - Mavridos
+  - Mavrogordatos
+  - Mavrokordatos
+  - Mavromikhalis
+  - Mavros
+  - Mavroudis
+  - Maximos
+  - Melas
+  - Meletoglos
+  - Melikis
+  - Melissanides
+  - Mercouri
+  - Merukides
+  - Messimeris
+  - Metaxas
+  - Michaelis
+  - Mikalis
+  - Mikhalakopoulos
+  - Militis
+  - Mitros
+  - Mitsotakis
+  - Monomachus
+  - Moscopolis
+  - Moumoulidis
+  - Muscouri
+  - Mylonas
+  - Nafpliotis
+  - Negris
+  - Niarkhos
+  - Nikolaides
+  - Onassis
+  - Orphanides
+  - Oxinos
+  - Palamas
+  - Pallis
+  - Panagiatopoulos
+  - Panagiopoulos
+  - Panagiotopos
+  - Panagou
+  - Panagoulias
+  - Panagoulis
+  - Panaotis
+  - Panavoglos
+  - Panayi
+  - Panayides
+  - Panayiotopoulos
+  - Panayiotos
+  - Pangalos
+  - Papadakis
+  - Papademetrios
+  - Papadias
+  - Papadopolos
+  - Papadopoulos
+  - Papadoupolos
+  - Papafagos
+  - Papageorgios
+  - Papagos
+  - Papakostas
+  - Papamichael
+  - Papanastasiou
+  - Papandreou
+  - Papasotiriou
+  - Papatamelis
+  - Papathanassios
+  - Papoulias
+  - Pappas
+  - Parastadidis
+  - Pattakos
+  - Pavlakakis
+  - Pentzopoulos
+  - Pesmazoglos
+  - Pheraios
+  - Philipousis
+  - Pierides
+  - Pietris
+  - Pipinelis
+  - Pittakis
+  - Pittakys
+  - Plastiras
+  - Polides
+  - Polycarpous
+  - Polychroniadis
+  - Polychronios
+  - Polydoros
+  - Polymeropoulos
+  - Polymeros
+  - Polyzos
+  - Popotas
+  - Porpurogenitos
+  - Pratkanis
+  - Prevalakis
+  - Primikynos
+  - Psara
+  - Psaros
+  - Psaroulakis
+  - Rallis
+  - Saltsidis
+  - Samos
+  - Sampras
+  - Sanassis
+  - Sarakatsani
+  - Saraphis
+  - Sardzetakis
+  - Sarris
+  - Sartzetakis
+  - Sarus
+  - Savakis
+  - Savalos
+  - Savvides
+  - Sbokos
+  - Senteildis
+  - Siantos
+  - Sicilianos
+  - Simopoulos
+  - Sirtis
+  - Skandalis
+  - Skiotis
+  - Skouloudis
+  - Skouphas
+  - Solomos
+  - Sophoulis
+  - Souvaltzis
+  - Stamanakis
+  - Stasi
+  - Stavrakis
+  - Stavrianakis
+  - Stavrianos
+  - Stephanopoulos
+  - Stoikos
+  - Strapoudopolos
+  - Stratis
+  - Stroubakos
+  - Taliadoros
+  - Tathouris
+  - Tavoularis
+  - Terzin
+  - Theodopoulos
+  - Theodorakis
+  - Theophanous
+  - Theothanos
+  - Theotokis
+  - Touliatos
+  - Tournikiotis
+  - Tragianopoulos
+  - Trikoupis
+  - Tsakolov
+  - Tsaldaris
+  - Tsatsos
+  - Tsavdaridos
+  - Tsiamita
+  - Tsigakos
+  - Tsikouna
+  - Tsiolakoudi
+  - Tsirigolis
+  - Tsirimokos
+  - Tsolakoglos
+  - Tsoni
+  - Tsouderos
+  - Tsougarakis
+  - Tsoutsouvas
+  - Tsyoma
+  - Tzannetakis
+  - Tzivas
+  - Vadeki
+  - Valaoritis
+  - Valvis
+  - Vaphiadis
+  - Vardakastanis
+  - Varvaressos
+  - Vasdeki
+  - Vasdekis
+  - Vasiliou
+  - Vassilides
+  - Vatatzes
+  - Veloukhiotis
+  - Venizelos
+  - Verdanis
+  - Vergopoulos
+  - Vlakhos
+  - Voulgaris
+  - Voulgaropoulos
+  - Vouris
+  - Xanthos
+  - Xenakis
+  - Xydis
+  - Yannopoulos
+  - Yialouris
+  - Ypsilantis
+  - Zafiropoulos
+  - Zaimis
+  - Zakhariadis
+  - Zarikos
+  - Zervakos
+  - Zervas
+  - Zikos
+  - Zindilis
+  - Zisimides
+  - Zographas
+  - Zoitakis
+  - Zolotas

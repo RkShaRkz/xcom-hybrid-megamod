@@ -1,0 +1,119 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MIB_BASE_LANDING: "I.I.A. Base Mission"
+      STR_MIB_BASE_LANDING_BRIEFING: "The is the Mercenary Guild here. We have located a Independent Intelligence Agency facility. A few Govt Faction want them gone. Pay is standard."
+alienDeployments:
+  - type: STR_MIB_BASE_LANDING
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	     
+    width: 60
+    length: 60
+    height: 20
+    duration: [130, 180]	
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_MIB_BASE_LANDING_BRIEFING
+    script: CYBERMAINBASESCRIPT	
+    customUfo: STR_MIB_BASE_LANDING	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_MIB_BASE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIB: 100
+    waves:
+      - ufo: STR_MIB_BASE_LANDING
+        count: 1
+        trajectory: B0
+        timer: 15000	
+missionScripts:
+  - type: mibBase
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_MIB_BASE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    researchTriggers:
+      STR_MIB_ACTIVITY: true
+    startDelay: 50
+    randomDelay: 48000
+    facilityTriggers:
+      STR_HQ: true

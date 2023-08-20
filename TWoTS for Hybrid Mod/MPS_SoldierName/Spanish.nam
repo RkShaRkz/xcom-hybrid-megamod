@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - MPS Aaron
+  - MPS Adan
+  - MPS Alberto
+  - MPS Alejandro
+  - MPS Alfonso
+  - MPS Andres
+  - MPS Angel
+  - MPS Antonio
+  - MPS Augusto
+  - MPS Benedicto
+  - MPS Benjamin
+  - MPS Carlos
+  - MPS Daniel
+  - MPS David
+  - MPS Diego
+  - MPS Eduardo
+  - MPS Elias
+  - MPS Eliseo
+  - MPS Enrique
+  - MPS Emanuel
+  - MPS Eric
+  - MPS Ernesto
+  - MPS Esteban
+  - MPS Fabio
+  - MPS Felipe
+  - MPS Felix
+  - MPS Fernando
+  - MPS Fidel
+  - MPS Fortunato
+  - MPS Francisco
+  - MPS Gabriel
+  - MPS Gerardo
+  - MPS Hugo
+  - MPS Humberto
+  - MPS Ismael
+  - MPS Ivan
+  - MPS Jacobo
+  - MPS Jaime
+  - MPS Javier
+  - MPS Jesus
+  - MPS Joel
+  - MPS Jorge
+  - MPS Jose
+  - MPS Juan
+  - MPS Julian
+  - MPS Leo
+  - MPS Leonardo
+  - MPS Lucas
+  - MPS Luis
+  - MPS Manuel
+  - MPS Marco
+  - MPS Marcos
+  - MPS Martin
+  - MPS Matias
+  - MPS Mateo
+  - MPS Maximiliano
+  - MPS Miguel
+  - MPS Nataniel
+  - MPS Nicolas
+  - MPS Noe
+  - MPS Octavio
+  - MPS Orlando
+  - MPS Oscar
+  - MPS Pablo
+  - MPS Pedro
+  - MPS Rafael
+  - MPS Ramon
+  - MPS Raul
+  - MPS Rene
+  - MPS Ricardo
+  - MPS Roberto
+  - MPS Rolando
+  - MPS Salvador
+  - MPS Santiago
+  - MPS Sebastian
+  - MPS Sergio
+  - MPS Silvestre
+  - MPS Stefano
+  - MPS Teodoro
+  - MPS Tito
+  - MPS Tomas
+  - MPS Valentin
+  - MPS Vicente
+  - MPS Victor
+  - MPS Xavier
+femaleFirst:
+  - MPS Adriana
+  - MPS Aida
+  - MPS Alejandra
+  - MPS Alexia
+  - MPS Alma
+  - MPS Ana
+  - MPS Angela
+  - MPS Angelica
+  - MPS Aurora
+  - MPS Barbara
+  - MPS Bianca
+  - MPS Brenda
+  - MPS Carina
+  - MPS Carla
+  - MPS Carolina
+  - MPS Casandra
+  - MPS Catalina
+  - MPS Claudia
+  - MPS Cristina
+  - MPS Dolores
+  - MPS Dora
+  - MPS Elena
+  - MPS Eliana
+  - MPS Elvira
+  - MPS Ema
+  - MPS Esmeralda
+  - MPS Eva
+  - MPS Felicia
+  - MPS Fiona
+  - MPS Gabriela
+  - MPS Gloria
+  - MPS Guadalupe
+  - MPS Ines
+  - MPS Isabel
+  - MPS Jesica
+  - MPS Juana
+  - MPS Laura
+  - MPS Lidia
+  - MPS Liliana
+  - MPS Linda
+  - MPS Lisa
+  - MPS Lorena
+  - MPS Magdalena
+  - MPS Marcela
+  - MPS Margarita
+  - MPS Maria
+  - MPS Mariana
+  - MPS Marisol
+  - MPS Monica
+  - MPS Nadia
+  - MPS Nancy
+  - MPS Natalia
+  - MPS Noemi
+  - MPS Olivia
+  - MPS Patricia
+  - MPS Paulina
+  - MPS Raquel
+  - MPS Rosa
+  - MPS Selena
+  - MPS Sofia
+  - MPS Sonia
+  - MPS Talia
+  - MPS Tatiana
+  - MPS Teresa
+  - MPS Vanesa
+  - MPS Veronica
+  - MPS Victoria
+  - MPS Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

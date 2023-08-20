@@ -1,0 +1,133 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_SINS_OF_THE_FATHER: "Sisterhod of Steel Elimination"
+      STR_LOC_SINS_OF_THE_FATHER_TITLE: "Sisterhod of Steel Elimination"
+      STR_MARKER_SINS_OF_THE_FATHER: "Sisterhod of Steel Elimination"
+      STR_LOC_SINS_OF_THE_FATHER_BRIEFING: "According to the Madam, The Church of the Nine is hosting a festival in one of the cities preaching of their Machine god love. Wipe them all out for a good reward."   
+alienDeployments:
+  - type: STR_LOC_SINS_OF_THE_FATHER
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	      
+    alert: STR_LOC_SINS_OF_THE_FATHER
+    alertDescription: STR_LOC_SINS_OF_THE_FATHER_BRIEFING
+    alertBackground: BACK04.SCR
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 7
+      music: GMTACDRY    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_SINS_OF_THE_FATHER   
+      desc: STR_LOC_SINS_OF_THE_FATHER_BRIEFING
+    markerName: STR_MARKER_SINS_OF_THE_FATHER
+    duration: [50, 100]
+    customUfo: STR_CHURCHMAINBASESATPIRATEZ	
+    despawnPenalty: 0
+    script: GENERICSPAWNTEMPLEOUTPOSTCITY
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+alienMissions:
+  - type: STR_LOC_SINS_OF_THE_FATHER
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CHURCH_INDUSTRIAL: 20			  
+          STR_CHURCH_NONCOM: 20	
+          STR_CHURCHPIRATE: 20	
+          STR_CHURCH_TERROR: 20	
+          STR_CHURCH_MANSION: 20	
+    waves:
+      - ufo: STR_LOC_SINS_OF_THE_FATHER
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:	
+  - type: GENERICSPAWNTEMPLEOUTPOSTCITY
+    commands:
+    - type: resize
+      size: [8, 8, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      UFOName: STR_CHURCHMAINBASESATPIRATEZ	
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN
+    - type: fillArea
+      terrain: URBAN
+missionScripts:
+  - type: SinsOfTheFather
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_SINS_OF_THE_FATHER: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,103 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALERT_CYBERWEB_LAIR: "Rogue CyberRobotics Scientist Capture"
+      STR_CYBERWEB_LAIR: "Rogue CyberRobotics Scientist Capture"
+      STR_CYBERWEB_LAIR_DESCRIPTION: "This is the Merc Guild here,we have reports of a rogue CyberRobotics scientist having of a hideout deepout in this region. Some big faction is paying big money for his capture."
+      STR_CYBERWEB_LAIR_BRIEFING: "This is the Merc Guild here,we have reports of a rogue CyberRobotics scientist having of a hideout deepout in this region. Some big faction is paying big money for his capture."
+alienDeployments:
+  - type: STR_CYBERWEB_LAIR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    width: 50
+    length: 50
+    height: 14
+    shade: 4
+    alert: STR_ALERT_CYBERWEB_LAIR
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CYBERWEB_LAIR_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CYBERWEB_LAIR_BRIEFING	  
+    markerName: STR_CYBERWEB_LAIR
+    duration: [100, 244]
+    despawnPenalty: 20
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1
+    customUfo: STR_FACTION_OUTPOST	
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CYBERWEB_LAIR
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CYBERWEB: 100
+    waves:
+      - ufo: STR_CYBERWEB_LAIR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+ufos:
+  - type: STR_FACTION_OUTPOST
+    battlescapeTerrainData:
+      name: STR_NAZI_HOUSE
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: OUTPOSTTOWER
+          width: 10
+          length: 10 			
+missionScripts:
+  - type: CyberwebLair
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_CYBERWEB_LAIR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

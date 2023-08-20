@@ -1,0 +1,690 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_WASPITE_COMMANDER: "Waspite Commander"
+      STR_WASPITE_LEADER: "Waspite Leader"
+      STR_WASPITE_ENGINEER: "Waspite Engineer" 
+      STR_WASPITE_MEDIC: "Waspite Medic" 
+      STR_WASPITE_NAVIGATOR: "Waspite Navigator"
+      STR_WASPITE_SOLDIER: "Waspite Soldier"
+      STR_WASPITE_SOLDIER_UFOPEDIA: ""	 	  
+      STR_WASPITE_AUTOPSY: "Waspite Autopsy"	
+      STR_WASPITE_CORPSE: "Waspite Corpse"	  
+      STR_WASPITE_CORPSE_UFOPEDIA: "The anatomy of this creature verges on insanity. The body consists of a spiral life support system, combined with a symbiotic, bioengineered plant. Grafted on to the body are a pair of mechanical arms and the insect-like head of the creature, which is presumably the only piece left of the original species. The plant portion of the body is vulnerable to fire."	
+      STR_WASPITE: "Waspite"	 
+      STR_WASPITE_CORPSE_UFOPEDIA: "Waspites are elite terror agents and combatants. They are very aggressive, genetically engineered and cybernetically enhanced, making them fearsome enemies. Their overall frailty though hints to an artillery role, rather than infantry. The spiral device that replaces their original bodies generates an anti-gravity field, enabling them to float through the air."		  
+alienRaces:
+  - id: STR_WASPITE
+    members:
+      - STR_WASPITE_COMMANDER
+      - STR_WASPITE_LEADER
+      - STR_WASPITE_ENGINEER
+      - STR_WASPITE_MEDIC
+      - STR_WASPITE_NAVIGATOR
+      - STR_WASPITE_SOLDIER
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+    retaliationMission: STR_ALIEN_FLYBY
+  - id: STR_WASPITE_UNDERWATER
+    members:
+      - STR_WASPITE_COMMANDER
+      - STR_WASPITE_LEADER
+      - STR_WASPITE_ENGINEER
+      - STR_WASPITE_MEDIC
+      - STR_WASPITE_NAVIGATOR
+      - STR_WASPITE_SOLDIER
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+      - STR_CYBERMITE_TERRORIST
+    retaliationMission: STR_ALIEN_FLYBY	
+armors:
+  - type: STR_WASPITE_STANDARD_ARMOR
+    spriteSheet: WASPITE.PCK
+    spriteInv: inventory_WASPITE
+    corpseBattle:
+      - STR_WASPITE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 25
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 22
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 1
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.02
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &WaspiteResists
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.6
+      - 2.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_WASPITE
+    loftempsSet: [ 3 ]
+  - type: STR_WASPITE_ARMOR_BROWN
+    spriteInv: inventory_WASPITE_BROWN
+    spriteSheet: WASPITE_BROWN.PCK
+    corpseBattle:
+      - STR_WASPITE_BROWN_CORPSE
+    corpseGeo: STR_WASPITE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 25
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 22
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 1
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.02
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &WaspiteResists
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.6
+      - 2.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_WASPITE
+    loftempsSet: [ 3 ]
+  - type: STR_WASPITE_ARMOR_WHITE
+    spriteInv: inventory_WASPITE_WHITE
+    spriteSheet: WASPITE_WHITE.PCK
+    corpseBattle:
+      - STR_WASPITE_WHITE_CORPSE
+    corpseGeo: STR_WASPITE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 25
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 22
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 1
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.02
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &WaspiteResists
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.6
+      - 2.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_WASPITE
+    loftempsSet: [ 3 ]
+  - type: STR_WASPITE_LEADER_ARMOR
+    spriteInv: inventory_WASPITE_PURPLE
+    spriteSheet: WASPITE_PURPLE.PCK
+    corpseBattle:
+      - STR_WASPITE_PURPLE_CORPSE
+    corpseGeo: STR_WASPITE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 24
+    underArmor: 25
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 1
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.02
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &WaspiteResists
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.6
+      - 2.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_WASPITE
+    loftempsSet: [ 3 ]
+  - type: STR_WASPITE_COMMANDER_ARMOR
+    spriteInv: inventory_WASPITE_RED
+    spriteSheet: WASPITE_RED.PCK
+    corpseBattle:
+      - STR_WASPITE_RED_CORPSE
+    corpseGeo: STR_WASPITE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 35
+    frontArmor: 34
+    sideArmor: 23
+    rearArmor: 28
+    underArmor: 27
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 1
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.02
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &WaspiteResists
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.6
+      - 2.5
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_WASPITE
+    loftempsSet: [ 3 ]	
+items:	
+  - type: STR_WASPITE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 50000
+    weight: 26
+    bigSprite: 95
+    floorSprite: 121
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 67100
+  - type: STR_WASPITE_PURPLE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 20000
+    weight: 26
+    bigSprite: 206
+    floorSprite: 183
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_WASPITE_RED_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 20000
+    weight: 26
+    bigSprite: 204
+    floorSprite: 181
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_WASPITE_BROWN_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 20000
+    weight: 26
+    bigSprite: 205
+    floorSprite: 182
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_WASPITE_WHITE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 20000
+    weight: 26
+    bigSprite: 207
+    floorSprite: 184
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_WASPITE_SOLDIER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    prisonType: 0	
+    recover: true
+   #liveAlien: true
+    costSell: 80000
+    listOrder: 144010
+  - type: STR_WASPITE_ENGINEER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    prisonType: 0	
+    recover: true
+   #liveAlien: true
+    costSell: 120000
+    listOrder: 144020
+  - type: STR_WASPITE_MEDIC
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 120000
+    listOrder: 144030
+  - type: STR_WASPITE_NAVIGATOR
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 120000
+    listOrder: 144040
+  - type: STR_WASPITE_LEADER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 200000
+    listOrder: 144050
+  - type: STR_WASPITE_COMMANDER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 300000
+    listOrder: 144060  	
+research:	
+  - name: STR_WASPITE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 180
+    points: 50
+    lookup: STR_WASPITE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 67100	
+  - name: STR_WASPITE
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_WASPITE_AUTOPSY
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_WASPITE_SOLDIER
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+  - name: STR_WASPITE_NAVIGATOR
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+  - name: STR_WASPITE_MEDIC
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+  - name: STR_WASPITE_ENGINEER
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+  - name: STR_WASPITE_LEADER
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true	
+  - name: STR_WASPITE_COMMANDER
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true	
+ufopaedia:
+  - id: STR_WASPITE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_WASPITE_UFOPEDIA
+    requires:
+      - STR_WASPITE
+    listOrder: 56600
+  - id: STR_WASPITE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_WASPITE_CORPSE
+    text: STR_WASPITE_CORPSE_UFOPEDIA
+    text_width: 153		  	
+units:
+  - type: STR_WASPITE_SOLDIER
+    race: STR_WASPITE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 65
+      #mana: 100
+    armor: STR_WASPITE_STANDARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 16
+    deathSound: 51
+    moveSound: 40
+    intelligence: 5
+    aggression: 2
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK   	
+  - type: STR_WASPITE_NAVIGATOR
+    race: STR_WASPITE
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+      #mana: 100
+    armor: STR_WASPITE_ARMOR_BROWN
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    deathSound: 51
+    moveSound: 40
+    intelligence: 6
+    aggression: 2
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  		
+  - type: STR_WASPITE_ENGINEER
+    race: STR_WASPITE
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 65
+      #mana: 100
+    armor: STR_WASPITE_STANDARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 28
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 2
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK
+      - - STR_SHARD_RIFLE
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  		
+  - type: STR_WASPITE_MEDIC
+    race: STR_WASPITE
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 94
+      health: 40
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 50
+      psiSkill: 0
+      melee: 65
+      #mana: 100
+    armor: STR_WASPITE_ARMOR_WHITE
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 24
+    deathSound: 51
+    moveSound: 40
+    intelligence: 7
+    aggression: 1
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+        - STR_MIND_PROBE		
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK	
+        - STR_MIND_PROBE		
+      - - STR_SHARD_PISTOL
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK
+        - STR_MIND_PROBE		
+  - type: STR_WASPITE_LEADER
+    race: STR_WASPITE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 45
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 55
+      psiSkill: 0
+      melee: 70
+      #mana: 100
+    armor: STR_WASPITE_LEADER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 40
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 0
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  	
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK 		
+  - type: STR_WASPITE_COMMANDER
+    race: STR_WASPITE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 50
+      bravery: 80
+      reactions: 75
+      firing: 74
+      throwing: 80
+      strength: 48
+      psiStrength: 60
+      psiSkill: 0
+      melee: 76
+      #mana: 100
+    armor: STR_WASPITE_COMMANDER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 80
+    deathSound: 51
+    moveSound: 40
+    intelligence: 8
+    aggression: 0
+    sniper: 75
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  	
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK  
+      - - STR_SHARD_CANNON
+        - STR_SHARD_FLASK
+        - STR_SHARD_FLASK

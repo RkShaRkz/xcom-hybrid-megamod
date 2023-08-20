@@ -1,0 +1,164 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_GUNSHIP: Gunship
+      STR_VESSEL_GUNSHIP_UFOPEDIA: "This small patrol ufo is design to police of the Alien conquered dominion, it is fast and heavily armed."  
+ufopaedia:
+  - id: STR_VESSEL_GUNSHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_GUNSHIP
+    text: STR_VESSEL_GUNSHIP_UFOPEDIA
+research:
+  - name: STR_VESSEL_GUNSHIP
+    points: 50
+    cost: 180	
+    needItem: true
+    lookup: STR_VESSEL_GUNSHIP
+ufos:
+  - type: STR_VESSEL_GUNSHIP
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionGunship
+    hitBonus: 25
+    damageMax: 600
+    speedMax: 5000
+    accel: 8
+    range: 60
+    power: 75
+    reload: 27
+    armor: 10
+    score: 800
+    radarRange: 150
+    hunterKillerPercentage: 100
+    huntBehavior: 0
+    breakOffTime: 10000
+    battlescapeTerrainData:
+      name: VES_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_OPER_G
+        - U_BITS_G
+      mapBlocks:
+        - name: VES_110
+          width: 20
+          length: 20
+          items:  
+            STR_ELERIUM_115:
+              - [15, 8, 0]
+alienDeployments:
+  - type: STR_VESSEL_GUNSHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_GUNSHIP
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 5
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_GUNSHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_GUNSHIP
+    depth: [1, 1] 
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 5
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []

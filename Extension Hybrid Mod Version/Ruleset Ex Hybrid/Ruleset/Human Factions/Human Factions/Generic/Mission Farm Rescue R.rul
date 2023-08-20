@@ -1,0 +1,141 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_DOOMED_FARM: "Farm Rescue "
+      STR_LOC_DOOMED_FARM_TITLE: "Farm Rescue"
+      STR_MARKER_LOC_DOOMED_FARM: "Farm Rescue "
+      STR_ALERT_DOOMED_FARM: "Farm Rescue"
+      STR_LOC_DOOMED_FARM_BRIEFING: "The Mercenary guild has reports that some gangers are attacking innocent Farm folks. The Mercenary guild got the scoop that some desperate mayor are looking for good Mercs to retaliate against them. Pay is good, if you are interested."   
+alienDeployments:
+  - type: STR_LOC_DOOMED_FARM
+    alert: STR_ALERT_DOOMED_FARM
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_DOOMED_FARM_BRIEFING
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_DOOMED_FARM_TITLE
+      desc: STR_LOC_DOOMED_FARM_BRIEFING
+    markerName: STR_MARKER_LOC_DOOMED_FARM
+    duration: [75, 150]
+    width: 60
+    length: 60
+    height: 10
+    script: GENERALSPAWNDOOMFARM	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_DOOMED_FARM
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 25
+          STR_EXALT: 25
+          STR_OSIRON: 25
+          STR_BLACK_LOTUS: 25
+    waves:
+      - ufo: STR_LOC_DOOMED_FARM
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+mapScripts:
+  - type: GENERALSPAWNDOOMFARM
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: CULTA 
+      groups: 1		
+    - type: addUFO
+      terrain: CULTA 
+      groups: 1	
+    - type: addBlock
+      size: [1,1,2]
+      executions: 9	 
+      executionChances: 100	  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: CULTA
+        groups: 1   
+      - type: middle
+        size: [1,1,2]
+        terrain: VILLAGES		  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: CULTA  
+    - type: fillArea
+      terrain: CULTA  	  
+missionScripts:
+  - type: DoomedFarm
+    firstMonth: 7  
+    missionWeights:
+      0:
+        STR_LOC_DOOMED_FARM: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 1
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

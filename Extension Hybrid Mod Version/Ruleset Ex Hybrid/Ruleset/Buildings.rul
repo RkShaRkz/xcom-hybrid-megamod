@@ -1,0 +1,2296 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MERCFACILITY: "Mercenary Guild"
+      STR_MERCFACILITY_UFOPEDIA: "With the Mercenary Guild, we can finally be hired for missions that is only available for Mercenaries. The Missions will allow us to be paid for the mission done."	
+      STR_UFOS_HUMAN: "Hostile Aircraft"
+      STR_HUMAN_RESEARCH_UC: "Human Research"
+      STR_ENEMYUNITS: "Hostile Units"  	  
+ufopaedia:	
+  - id: STR_MERCFACILITY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_MERCFACILITY
+    text: STR_MERCFACILITY_UFOPEDIA
+research:
+  - name: STR_MERCFACILITY
+    cost: 100
+    points: 10  
+    getOneFree:
+      - STR_MERCFACILITY
+terrains:	  
+  - name: MERCGUILDBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASES02
+      - XBASES03CLONE
+      - FRNITURE
+    mapBlocks:
+      - name: MERCGUILD
+        width: 10
+        length: 10	
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASE2
+    script: XBASE
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+      - name: XBASE_05
+        width: 10
+        length: 10
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10		
+facilities:	  
+  - type: STR_MERCFACILITY
+    spriteShape: 1
+    spriteFacility: 600
+    requiresBaseFunc: [LANDBASE]
+    provideBaseFunc: [INTERROGATION]
+    prisonType: 1 #Remember to do the same for Human items	
+    aliens: 8		
+    labs: 15
+    personnel: 12	
+    fakeUnderwater: 0	
+    buildCost: 800000
+    buildTime: 24
+    monthlyCost: 13000
+    refundValue: 400000		
+    radarRange: 595
+    requires:
+      - STR_MERCFACILITY	
+    radarChance: 10	
+    personnel: 12	
+    mapName: XBASE_03
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      terrain: MERCGUILDBASE
+      maxRepeats: 1 
+    - type: middle
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1 	  
+ufos:
+  - type: STR_USOLANDINGPAD
+    battlescapeTerrainData:
+      name: STR_USOLANDINGPAD
+      mapDataSets:
+        - BLANKS
+        - USOEXT2
+        - USOEXT3
+        - SEAORGANIC1
+        - SEAORGANIC2
+      mapBlocks:
+        - name: USOLANDINGPAD
+          width: 10
+          length: 10
+  - type: STR_AQUATOID_OFFICE
+    battlescapeTerrainData:
+      name: AQUATOIDOFFICE
+      mapDataSets:
+        - BLANKS
+        - USOEXT2
+        - USOEXT3
+        - SEAORGANIC1
+        - SEAORGANIC2
+        - SEAORGANIC3
+        - SEANOM
+      mapBlocks:
+        - name: AQUATOIDOFFICE
+          width: 20
+          length: 20
+  - type: STR_TLETH_EMBASSY
+    battlescapeTerrainData:
+      name: TLETHEMBASSY
+      mapDataSets:
+        - BLANKS
+        - USOEXT2
+        - USOEXT3
+        - SEAORGANIC1
+        - SEAORGANIC2
+        - SEAORGANIC3
+        - SEANOM
+      mapBlocks:
+        - name: TLETHEMBASSY
+          width: 20
+          length: 20
+  - type: STR_USO_IN_DIMENSION_X
+    battlescapeTerrainData:
+      name: AQUATOIDOFFICE
+      mapDataSets:
+        - BLANKS
+        - USOEXT2
+        - USOEXT3
+        - USOINT1
+        - USOINT2
+        - USOINT3
+        - DESERT_PINK
+      mapBlocks:
+        - name: USOFLEETSUPPLYCRUISER_WRECK
+          width: 20
+          length: 30
+  - type: STR_CROP_CIRCLE
+    battlescapeTerrainData:
+      name: CROPCIRCLE
+      mapDataSets:
+        - BLANKS
+        - CROPCIRCLE
+      mapBlocks:
+        - name: CROPCIRCLE00
+          width: 20
+          length: 20
+        - name: CROPCIRCLE01
+          width: 20
+          length: 20
+        - name: CROPCIRCLE02
+          width: 20
+          length: 20
+        - name: CROPCIRCLE03
+          width: 20
+          length: 20
+  - type: STR_DEAD_COW
+    battlescapeTerrainData:
+      name: CROPCIRCLE
+      mapDataSets:
+        - BLANKS
+        - DEADCATTLE
+      mapBlocks:
+        - name: DEADCATTLE00
+          width: 10
+          length: 10
+  - type: STR_HYBRID_CLONING_FARM_UFO
+    battlescapeTerrainData:
+      name: CLONEBARN
+      mapDataSets:
+        - BLANKS
+        - BARN2
+        - CLONING
+      mapBlocks:
+        - name: CLONEBARN00
+          width: 20
+          length: 20
+  - type: STR_HYBRID_STORAGE_FACILITY
+    battlescapeTerrainData:
+      name: HYBRSTOR
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - HYBRSTOR
+      mapBlocks:
+        - name: HYBRSTOR00
+          width: 20
+          length: 20
+  - type: STR_HYBRID_CONTROL_ROOM
+    battlescapeTerrainData:
+      name: HYBRIDCONTROL
+      mapDataSets:
+        - BLANKS
+        - A_BASE
+        - A_WALL02
+        - A_PODS
+        - BRAIN
+        - A_BASE2
+        - HYBRCONTR
+      mapBlocks:
+        - name: HYBRID_CONTROL00
+          width: 20
+          length: 20
+  - type: STR_ADVENT_HIDEOUT
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: ADVENT_HIDEOUT
+      mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ADVENT_HIDEOUT
+      mapBlocks:
+        - name: ADVENT_HIDEOUT01 #ADVENT_HIDEOUT01 was dehobbezided
+          width: 20
+          length: 20
+  - type: STR_ADVENT_BIG_CLINIC
+    battlescapeTerrainData:
+      name: ADVENT_BIG_CLINIC
+      mapDataSets:
+        - BLANKS
+        - ADVENT_GENERAL
+        - ADVENT_FNITURE
+        - ADVENT_CLONING
+        - ADVENT_ABDUCTION
+        - ADVENT_HARVEST
+        - ADVENT_SUPPLY
+        - ADVENT_MEDICINE
+        - ADVENT_SPECIAL
+      mapBlocks:
+        - name: ADVENT_CLINIC00
+          width: 20
+          length: 20
+  - type: STR_MEDIUM_ADVENT_CONVOY
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:	  
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - CONVOY	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+      #convoys with kidnapped citizens
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+  - type: STR_MEDIUM_ADVENT_CONVOY_UNDERWATER
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:	  
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - SAND	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]				  
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]	
+      #convoys with refined humans
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+      #convoys with kidnapped citizens
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  
+        - name: AMPIBIOUS_APCENEMYCONVOYUNDERWATER
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]	
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				  			
+  - type: STR_ADVENT_CLINIC
+    battlescapeTerrainData:
+      name: ADVENT_CLINIC
+      mapDataSets:
+        - BLANKS
+        - ADVENT_GENERAL
+        - ADVENT_FNITURE
+        - ADVENT_SUPPLY
+        - ADVENT_MEDICINE
+        - ADVENT_SPECIAL
+        - URBITS
+      mapBlocks:
+        - name: ADVENT_CLINIC01
+          width: 20
+          length: 20
+  - type: STR_ALIEN_EMBASSY
+    battlescapeTerrainData:
+      name: STR_ALIEN_EMBASSY
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - ADVENT_URBAN
+        - FRNITURE
+        - U_EMBASSY_FINNIK
+      mapBlocks:
+        - name: ALIEN_EMBASSY
+          width: 20
+          length: 30
+  - type: STR_DEEP_ONES_STONE
+    battlescapeTerrainData:
+      name: DEEPONERITUALS
+      mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+      - SEABITS
+      - RITUALSBEACH
+      mapBlocks:
+        - name: DEEPONERITUALS00
+          width: 20
+          length: 20
+  - type: STR_STRIX_HIVE
+    battlescapeTerrainData:
+      name: STRIXCAVE
+      mapDataSets:
+        - BLANKS
+        - CAVEBLACK
+        - CATACOMB
+        - CATACDECOR
+        - LAVA
+        - DUNGEON
+      mapBlocks:
+        - name: STRIXCAVE_00
+          width: 20
+          length: 20
+  - type: STR_DOOM_PORTAL
+    battlescapeTerrainData:
+      name: CATACPORTAL
+      mapDataSets:
+        - BLANKS
+        - CAVEBLACK
+        - CATACOMB
+        - CATACDECOR
+        - LAVA
+        - DUNGEON
+        - XCOMEXIT
+        - TDPORTAL
+        - XOPSMUJUNGLEADDON
+      mapBlocks:
+        - name: CATACPORTAL_00
+          width: 20
+          length: 20
+  - type: STR_TRANSFIGURATION_POOL
+    battlescapeTerrainData:
+      name: CATACOMBS_POOL
+      mapDataSets:
+        - BLANKS
+        - CATACOMB
+        - XOPSMUJUNGLEADDON
+        - XCOMENTRY
+        - CATACDECOR
+        - CAVEBLACK
+        - XCOMEXIT
+        - PENTA_X
+        - DUNGEON
+        - LAVA_GREEN
+        - DOOMDECOR
+      mapBlocks:
+        - name: CATACOMBS_POOL_00
+          width: 20
+          length: 20
+  - type: STR_TRANSFIGURATION_POOL_SAMAEL
+    battlescapeTerrainData:
+      name: CATACOMBS_POOL
+      mapDataSets:
+        - BLANKS
+        - CATACOMB
+        - XOPSMUJUNGLEADDON
+        - XCOMENTRY
+        - CATACDECOR
+        - CAVEBLACK
+        - XCOMEXIT
+        - PENTA_X
+        - DUNGEON
+        - LAVA_GREEN
+        - DOOMDECOR
+      mapBlocks:
+        - name: CATACOMBS_POOL_SAMAEL_00
+          width: 20
+          length: 20
+  - type: STR_SUV_SYNDICATE
+    battlescapeTerrainData:
+      name: SUV
+      mapDataSets:
+        - BLANKS
+        - XARMY
+      mapBlocks:
+        - name: SUV
+          width: 10
+          length: 10
+  - type: STR_SYNDICATE_UNDERGROUND_LAB
+    battlescapeTerrainData:
+      name: MONSTERLAB
+      mapDataSets:
+        - BLANKS
+        - CORPLAB
+      mapBlocks:
+        - name: MONSTERLAB01
+          width: 40
+          length: 40
+  - type: STR_SYNDICATE_WAREHOUSE_UFO
+    battlescapeTerrainData:
+      name: CORPLAB
+      mapDataSets:
+        - BLANKS
+        - CORPWAREHOUSE
+      mapBlocks:
+        - name: CORPWAREHOUSE00
+          width: 20
+          length: 20
+  - type: STR_SYNDICATE_LAB_UFO
+    battlescapeTerrainData:
+      name: CORPLAB
+      mapDataSets:
+        - BLANKS
+        - CORPLAB
+      mapBlocks:
+        - name: CORPLAB01
+          width: 20
+          length: 20
+  - type: STR_SYNDICATE_UNDERGROUND_LAB
+    size: STR_LARGE
+    modSprite: interception_jammed
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: MONSTERLAB
+      mapDataSets:
+        - BLANKS
+        - CORPLAB
+      mapBlocks:
+        - name: MONSTERLAB01
+          width: 40
+          length: 40
+  - type: STR_MAGMA_TANK_FACTORY_SITE
+    battlescapeTerrainData:
+      name: TANKFACTORY
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MAGMAWAREAN
+      mapBlocks:
+        - name: TANKFACTORY00
+          width: 40
+          length: 20
+  - type: STR_MAGMA_REACTOR
+    battlescapeTerrainData:
+      name: REACTOR
+      mapDataSets:
+        - BLANKS
+        - REACTOR
+      mapBlocks:
+        - name: REACTOR00
+          width: 30
+          length: 30
+  - type: STR_JARHEAD_FACTORY_SITE
+    battlescapeTerrainData:
+      name: JARHEADPLANT
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - DECKSHIPC
+        - CLONING
+      mapBlocks:
+        - name: JARHEADPLANT00
+          width: 10
+          length: 30
+  - type: STR_CYBERPORTAL
+    battlescapeTerrainData:
+      name: CYBERPORTAL
+      mapDataSets:
+        - BLANKS
+        - CYBERWAREAN
+        - CYBERWAREBITS
+        - XOPSUFOWALLS
+        - XOPSUFOFLOOR
+        - XOPSUFOITEMS2SM
+        - CYBERWAREEXTRA
+      mapBlocks:
+        - name: CYBERPORTAL
+          width: 10
+          length: 10
+  - type: STR_CYBERCOMPUTER
+    battlescapeTerrainData:
+      name: CYBERCOMPUTER
+      mapDataSets:
+        - BLANKS
+        - CYBERWAREAN
+        - CYBERWAREBITS
+        - XOPSUFOWALLS
+        - XOPSUFOFLOOR
+        - XOPSUFOITEMS2SM
+        - CYBERWAREEXTRA
+      mapBlocks:
+        - name: CYBERCOMPUTER
+          width: 10
+          length: 10
+  - type: STR_FARM_SILO
+    battlescapeTerrainData:
+      name: SILO
+      mapDataSets:
+        - BLANKS
+        - SILO
+      mapBlocks:
+        - name: SILO00
+          width: 10
+          length: 10
+  - type: STR_COMMUNION_ALTAR
+    battlescapeTerrainData:
+      name: COMMUNION
+      mapDataSets:
+        - BLANKS
+        - FORESTMOUNT
+        - FOREST
+        - FORESTMOUNTBITS
+        - RITUALS
+      mapBlocks:
+        - name: COMMUNION
+          width: 20
+          length: 20
+  - type: STR_JUNGLE_SHRINE
+    battlescapeTerrainData:
+      name: JUNGLESHRINE
+      mapDataSets:
+        - BLANKS
+        - SANDS
+        - MUJUNGLE
+        - JUNGLEBITS
+        - URNS
+      mapBlocks:
+        - name: JUNGLESHRINE
+          width: 10
+          length: 10
+  - type: STR_LO_WO_HOUSE
+    battlescapeTerrainData:
+      name: LO_WO_HOUSE
+      mapDataSets:
+        - BLANKS
+        - CULTMIL
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: LO_WO_HOUSE
+          width: 10
+          length: 10
+  - type: STR_NATASHAS_HOUSE
+    battlescapeTerrainData:
+      name: STR_CULTHOUSE
+      mapDataSets:
+        - BLANKS
+        - CULTMIL
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHOUSE11
+          width: 10
+          length: 10
+        - name: CULTHOUSE_FIN00
+          width: 10
+          length: 10
+  - type: STR_GOVERNMENT_BUILDING
+    battlescapeTerrainData:
+      name: GOVERNMENT
+      mapDataSets:
+        - BLANKS
+        - GOVROADS
+        - GOVTBITS
+        - GOVT
+        - GOVTFRN
+        - GOVTDECOR
+      mapBlocks:
+        - name: GOVTBUILDING00
+          width: 20
+          length: 40
+  - type: STR_BANK
+    battlescapeTerrainData:
+      name: BANK
+      mapDataSets:
+        - BLANKS
+        - GOVTDECOR
+        - GOVT
+        - GOVTFRN
+      mapBlocks:
+        - name: BANK_OPEN_00
+          width: 30
+          length: 20
+  - type: STR_PRISON_BUILDING
+    battlescapeTerrainData:
+      name: PRISON
+      mapDataSets:
+        - BLANKS
+        - PRISONROADS
+        - PRISONBITS
+        - PRISON
+        - PRISONDECOR
+      mapBlocks:
+        - name: PRISON
+          width: 20
+          length: 20
+  - type: STR_PICKUP_OSIRON
+    battlescapeTerrainData:
+      name: PICKUP
+      mapDataSets:
+        - BLANKS
+        - XARMY
+      mapBlocks:
+        - name: PICKUP
+          width: 10
+          length: 10
+  - type: STR_OSIRON_WAREHOUSE
+    battlescapeTerrainData:
+      name: OSIRONWAREHOUSE
+      mapDataSets:
+        - BLANKS
+        - PORTROADS
+        - PORTURBITS
+        - ROADS
+        - URBITS
+        - FRNITURE
+      mapBlocks:
+        - name: OSIRONWAREHOUSE
+          width: 10
+          length: 10
+  - type: STR_APOCALYPSE_SMALL_WAREHOUSE
+    battlescapeTerrainData:
+      name: APOCSMALLWAREHOUSE
+      mapDataSets:
+        - BLANKS
+        - PORTROADS
+        - PORTURBITS
+        - ROADS
+        - URBITS
+        - FRNITURE
+      mapBlocks:
+        - name: APOCSMALLWAREHOUSE
+          width: 10
+          length: 10
+  - type: STR_UAC_LABORATORY
+    battlescapeTerrainData:
+      name: UACLAB
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWARE
+        - MILBARR
+        - MILTECH
+      mapBlocks:
+        - name: UACLAB
+          width: 30
+          length: 20
+  - type: STR_UAC_SPACE_LABORATORY_SURFACE
+    battlescapeTerrainData:
+      name: UACSPACELAB
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWARE
+        - MILBARR
+        - MILINDUSTRIAL
+        - XCOMEXIT
+        - MILTECH
+      mapBlocks:
+        - name: UACSPACELAB
+          width: 40
+          length: 40
+  - type: STR_OSIRON_NEST
+    battlescapeTerrainData:
+      name: OSIRON_NEST
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS   
+        - URBAN 
+        - CRATES
+        - DOORSSEC
+        - OSIRON_FINNIK
+      mapBlocks:
+        - name: OSIRON_NEST_00
+          width: 20
+          length: 20
+  - type: STR_CYBERWEB_FORTRESS
+    battlescapeTerrainData:
+      name: CYBERWEBFORTRESS
+      mapDataSets:
+        - BLANKS
+        - CYBER_DISEC2
+        - CYBER_BASE
+        - RET_SHIPS
+      mapBlocks:
+        - name: CYBERWEBFORTRESS
+          width: 30
+          length: 30
+  - type: STR_CYBERDREDNAUGHT
+    battlescapeTerrainData:
+      name: VES_G_010
+      mapDataSets:
+        - BLANKS
+        - XBASE1_AMB
+        - RET_SHIPSG		
+      mapBlocks:
+        - name: VES_G_010
+          width: 40
+          length: 30
+  - type: STR_LOC_HT_10X10_BUILDING
+    battlescapeTerrainData:
+      name: HT10X10BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_00b
+          width: 10
+          length: 10
+        - name: HTHOUSE_10
+          width: 10
+          length: 10
+        - name: HTHOUSE_11
+          width: 10
+          length: 10
+        - name: HTHOUSE_12
+          width: 10
+          length: 10
+  - type: STR_LOC_HT_20X20_NOT_HABITAT
+    battlescapeTerrainData:
+      name: HT20X20NOTHABITAT
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_01
+          width: 20
+          length: 20
+        - name: HTHOUSE_02
+          width: 20
+          length: 20
+        - name: HTHOUSE_06
+          width: 20
+          length: 20
+        - name: HTHOUSE_07
+          width: 20
+          length: 20
+        - name: HTHOUSE_09
+          width: 20
+          length: 20
+  - type: STR_LOC_HT_20X20_HABITAT
+    battlescapeTerrainData:
+      name: HT20X20HABITAT
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_04
+          width: 20
+          length: 20
+        - name: HTHOUSE_05
+          width: 20
+          length: 20
+        - name: HTHOUSE_13
+          width: 20
+          length: 20
+        - name: HTHOUSE_14
+          width: 20
+          length: 20
+        - name: HTHOUSE_01G
+          width: 20
+          length: 20
+        - name: HTHOUSE_04G
+          width: 20
+          length: 20
+        - name: HTHOUSE_05G
+          width: 20
+          length: 20
+        - name: HTHOUSE_06G
+          width: 20
+          length: 20
+  - type: STR_LOC_HT_30X30_BUILDING
+    battlescapeTerrainData:
+      name: HT30X30BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_03
+          width: 30
+          length: 30
+        - name: HTHOUSE_07G
+          width: 30
+          length: 30
+  - type: STR_LOC_HT_20X30_BUILDING
+    battlescapeTerrainData:
+      name: HT30X30BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_02G
+          width: 20
+          length: 30
+  - type: STR_LOC_HT_30X20_BUILDING
+    battlescapeTerrainData:
+      name: HT30X30BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_03G
+          width: 30
+          length: 20
+  - type: STR_VIPER
+    battlescapeTerrainData:
+      name: VIPER
+      mapDataSets:
+        - BLANKS
+        - REP_EXT02
+        - REP_WALL02
+        - REP_BITS
+        - REP_UFOL83
+      mapBlocks:
+        - name: VIPER
+          width: 20
+          length: 20
+  - type: STR_SNAPPING_TURTLE
+    battlescapeTerrainData:
+      name: SNAPPING_TURTLE
+      mapDataSets:
+        - BLANKS
+        - REP_EXT02
+        - REP_WALL02
+        - REP_BITS
+        - REP_UFOL83
+      mapBlocks:
+        - name: SNAPPING_TURTLE
+          width: 10
+          length: 10
+  - type: STR_REPTIFORMER_TOWER_UFO
+    battlescapeTerrainData:
+      name: REPTIFORMER_TOWER
+      mapDataSets:
+      - BLANKS
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      mapBlocks:
+        - name: REPTIFORMER_TOWER
+          width: 10
+          length: 10
+  - type: STR_REPTOID_SURFACE_BUILDING_10X10
+    battlescapeTerrainData:
+      name: REPSUR10X10
+      mapDataSets:
+        - BLANKS
+        - REP_BASE
+        - REP_WALL02
+        - REP_PODS
+        - BRAIN
+        - SHOGG_VILLAGE2
+        - REP_FRN
+        - REP_EXT02
+        - REP_BITS
+        - REP_FLOOR
+      mapBlocks:
+        - name: REPTIFORMER_TOWER
+          width: 10
+          length: 10
+        - name: REPTOID_EMPLACEMENT
+          width: 10
+          length: 10
+        - name: REPTOID_SMALL_POWER_STATION
+          width: 10
+          length: 10
+        - name: REPTOID_SMALL_STORAGE
+          width: 10
+          length: 10
+        - name: REPTOID_MONUMENT
+          width: 10
+          length: 10
+  - type: STR_REPTOID_SURFACE_BUILDING_20X20
+    battlescapeTerrainData:
+      name: REPSUR20X20
+      mapDataSets:
+        - BLANKS
+        - REP_BASE
+        - REP_WALL02
+        - REP_PODS
+        - BRAIN
+        - SHOGG_VILLAGE2
+        - REP_FRN
+        - REP_EXT02
+        - REP_BITS
+        - REP_FLOOR
+      mapBlocks:
+        - name: REPTOID_FIELD_COMMAND
+          width: 20
+          length: 20
+        - name: REPTOID_LARGE_POWER_STATION
+          width: 20
+          length: 20
+        - name: REPTOID_LARGE_STORAGE
+          width: 20
+          length: 20
+        - name: REPTOID_LANDING_PAD
+          width: 20
+          length: 20
+        - name: REPTOID_BARRACKS
+          width: 20
+          length: 20
+  - type: STR_MOON_OUTPOST
+    battlescapeTerrainData:
+      name: MOON_OUTPOST
+      mapDataSets:
+      - BLANKS
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+      - U_FACILITY
+      mapBlocks:
+        - name: MOON_OUTPOST00
+          width: 20
+          length: 20
+  - type: STR_DREAM_VILLA
+    battlescapeTerrainData:
+      name: DREAM_VILLA
+      mapDataSets:
+        - BLANKS
+        - DREAMDECOR
+        - ATLANVILLA
+        - DUNGEON_VILLA
+        - PENTA_X
+        - CATACDECOR
+        - MANSION_PAINTINGS
+      mapBlocks:
+        - name: VILLA_00
+          width: 30
+          length: 30
+  - type: STR_ASYLUM
+    battlescapeTerrainData:
+      name: ASYLUM
+      mapDataSets:
+        - BLANKS
+        - MEDICAL_GENERAL
+        - MEDICAL_FNITURE
+        - MEDICAL_UTIL
+        - MEDICAL_INT
+        - MEDICAL_BATH
+        - MEDICAL_SUPPLY
+        - ADVENT_MEDICINE
+        - PENTA
+      mapBlocks:
+        - name: CLINIC_ASYLUM
+          width: 20
+          length: 20
+  - type: STR_LOC_DEEP_ONE_01
+    battlescapeTerrainData:
+      name: DEEPS
+      mapDataSets:
+        - BLANKS
+        - SAND
+        - MU
+        - CORAL
+        - UFOBITS	
+      mapBlocks:
+        - name: DEEPS
+          width: 30
+          length: 30
+  - type: STR_LOC_ATRIUM
+    battlescapeTerrainData:
+      name: D_ATRIUM
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+      mapBlocks:
+        - name: D_ATRIUM
+          width: 20
+          length: 20
+  - type: STR_VESSEL_TIGER_TANK
+    battlescapeTerrainData:
+      name: TIGER_TANK
+      mapDataSets:
+        - BLANKS
+        - PREDATOR_NAZ
+      mapBlocks:
+        - name: TIGER_TANK
+          width: 10
+          length: 10
+  - type: STR_VESSEL_TIGER_TANK_JACK_BOUNTY
+    battlescapeTerrainData:
+      name: TIGER_TANK
+      mapDataSets:
+        - BLANKS
+        - PREDATOR_NAZ
+      mapBlocks:
+        - name: TIGER_TANK
+          width: 10
+          length: 10
+  - type: STR_LOC_DEMON_SACRIFICE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEMONSACRIFICE
+      mapDataSets:
+        - BLANKS
+        - SIETCH
+        - CATACDECOR
+        - RITUALS 
+        - MUJUNGLE 
+      mapBlocks:
+        - name: DEMONALTAR01
+          width: 20
+          length: 20
+  - type: STR_LOC_BEASTMEN_STORE
+    battlescapeTerrainData:
+      name: BEASTMANSTORE
+      mapDataSets:
+        - BLANKS
+        - RITUALS 
+        - MUJUNGLE 
+      mapBlocks:
+        - name: BEASTMANALTAR02
+          width: 10
+          length: 10
+  - type: STR_LOC_BEASTMEN_ALTAR
+    battlescapeTerrainData:
+      name: BEASTMANALTAR
+      mapDataSets:
+        - BLANKS
+        - RITUALS 
+        - MUJUNGLE 
+      mapBlocks:
+        - name: BEASTMANALTAR01
+          width: 20
+          length: 20
+  - type: STR_LOC_DISTRESS_BUNKER
+    battlescapeTerrainData:
+      name: DISTRESSBUNKER
+      mapDataSets:
+        - BLANKS
+        - URBAN40K
+        - URBITS40K
+      mapBlocks:
+        - name: DISTRESSBUNKER00
+          width: 10
+          length: 10
+        - name: DISTRESSBUNKER01
+          width: 10
+          length: 10
+        - name: DISTRESSBUNKER02
+          width: 10
+          length: 10
+  - type: STR_LOC_SHUTTLE
+    battlescapeTerrainData:
+      name: LOC_SHUTTLE
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_EXT_NOSE_SILVER
+        - C_EXT_NOSE_SIDE_SILVER
+        - C_EXT_ENGINE_S_SILVER
+        - C_INT
+        - DOORS2
+        - MOORINGS
+        - XCOMENTRY
+      mapBlocks:
+        - name: VESSEL_SHUTTLE
+          width: 20
+          length: 40
+  - type: STR_LOC_HT_HOUSE
+    battlescapeTerrainData:
+      name: HTHOUSE_00
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_00
+          width: 10
+          length: 10
+  - type: STR_LOC_HT_10X10_BUILDING
+    battlescapeTerrainData:
+      name: HT10X10BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_00B
+          width: 10
+          length: 10
+        - name: HTHOUSE_10
+          width: 10
+          length: 10
+        - name: HTHOUSE_11
+          width: 10
+          length: 10
+        - name: HTHOUSE_12
+          width: 10
+          length: 10
+  - type: STR_LOC_HT_20X20_NOT_HABITAT
+    battlescapeTerrainData:
+      name: HT20X20NOTHABITAT
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_01
+          width: 20
+          length: 20
+        - name: HTHOUSE_02
+          width: 20
+          length: 20
+        - name: HTHOUSE_06
+          width: 20
+          length: 20
+        - name: HTHOUSE_07
+          width: 20
+          length: 20
+        - name: HTHOUSE_08
+          width: 20
+          length: 20
+        - name: HTHOUSE_09
+          width: 20
+          length: 20
+  - type: STR_LOC_HT_20X20_HABITAT
+    battlescapeTerrainData:
+      name: HT20X20HABITAT
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_04
+          width: 20
+          length: 20
+        - name: HTHOUSE_05
+          width: 20
+          length: 20
+        - name: HTHOUSE_13
+          width: 20
+          length: 20
+        - name: HTHOUSE_14
+          width: 20
+          length: 20
+        - name: HTHOUSE_15
+          width: 20
+          length: 20
+  - type: STR_LOC_HT_LARGE_BUILDING
+    battlescapeTerrainData:
+      name: HT30X30BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_03
+          width: 30
+          length: 30
+        - name: HTHOUSE_02
+          width: 20
+          length: 20
+        - name: HTHOUSE_08
+          width: 20
+          length: 20
+  - type: STR_LOC_HT_30X30_BUILDING
+    battlescapeTerrainData:
+      name: HT30X30BUILDING
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 
+      mapBlocks:
+        - name: HTHOUSE_03
+          width: 30
+          length: 30
+  - type: STR_LOC_GOVT_CAR
+    battlescapeTerrainData:
+      name: GOVTCAR
+      mapDataSets:
+        - BLANKS
+        - XCARS_BLACK 
+      mapBlocks:
+        - name: G_VAN
+          width: 10
+          length: 10
+        - name: G_CAR
+          width: 10
+          length: 10
+        - name: G_CAR2
+          width: 10
+          length: 10
+  - type: STR_LOC_MONEY_VAN
+    battlescapeTerrainData:
+      name: GOVTCAR
+      mapDataSets:
+        - BLANKS
+        - XCARS_BLACK
+      mapBlocks:
+        - name: XCAR_UFO_1
+          width: 10
+          length: 10
+  - type: STR_ALLIED_STRYKER
+    battlescapeTerrainData:
+      name: STRYKER
+      mapDataSets:
+        - BLANKS
+        - XARMY
+      mapBlocks:
+        - name: STRYKER
+          width: 10
+          length: 10
+  - type: STR_LOC_GUILD_OUTPOST
+    battlescapeTerrainData:
+      name: GUHOUSE_01
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_DBLUE
+        - C_EXT_ROOF_DBLUE
+        - C_BITS2
+        - C_INT_HALF
+        - BATHBITZ_HT
+        - XBASEN_BEDS
+        - WAREBITS
+        - RET_BITS
+        - DOORSSEC
+        - DOORS2
+      mapBlocks:
+        - name: GUHOUSE_01
+          width: 20
+          length: 30
+        - name: GUHOUSE_02
+          width: 20
+          length: 30
+        - name: GUHOUSE_03
+          width: 20
+          length: 30
+  - type: STR_LOC_CHURCH_OUTPOST
+    battlescapeTerrainData:
+      name: CSHOUSE_01
+      mapDataSets:
+        - BLANKS
+        - CULTAN
+        - CULTBITS
+        - EASTER
+        - BATHBITZ_HT
+        - LIFTER
+        - XBASEN_BEDS
+        - FLOORSET
+        - DOORS2
+      mapBlocks:
+        - name: CSHOUSE_01
+          width: 20
+          length: 20
+  - type: STR_LOC_MAGE_VILLA
+    battlescapeTerrainData:
+      name: VILLA
+      mapDataSets:
+        - BLANKS
+        - GOVTDECOR
+        - ATLANVILLA
+        - DUNGEON_VILLA
+        - PENTA_X
+        - CATACDECOR
+        - MANSION_PAINTINGS
+      mapBlocks:
+        - name: VILLA_00
+          width: 30
+          length: 30
+  - type: STR_LOC_MAGE_VILLA_ALLEY_S
+    battlescapeTerrainData:
+      name: VILLA_ALLEY_S
+      mapDataSets:
+        - BLANKS
+        - GOVTDECOR
+        - ATLANVILLA
+        - DUNGEON_VILLA
+        - PENTA_X
+        - CATACDECOR
+        - MANSION_PAINTINGS
+      mapBlocks:
+        - name: VILLA_11
+          width: 10
+          length: 10
+  - type: STR_SEA_SUNKEN_UFO
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: SUNKEN_UFO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+        - SEASAND6
+        - SEAWEEDS
+        - SEAROCKS
+        - SEADEBRIS6
+        - SEADEBRIS6EXT
+      mapBlocks:
+        - name: UFO_110SUNK0
+          width: 10
+          length: 10
+        - name: UFO_120SUNK0
+          width: 20
+          length: 20
+  - type: STR_LOC_WHOREHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: LT_HOUSE_01
+      mapDataSets:
+        - BLANKS
+        - DAWNURBAN
+        - DAWNURBITS
+        - CRIBDECOR
+        - MANSIONBITS
+        - CITYFRNITURE
+      mapBlocks:
+        - name: LT_HOUSE_01
+          width: 20
+          length: 20
+        - name: LT_HOUSE_01G
+          width: 20
+          length: 20
+        - name: LT_HOUSE_02G
+          width: 20
+          length: 20
+  - type: STR_LOC_BARN_GROX
+    battlescapeTerrainData:
+      name: LOC_BARN_GROX
+      mapDataSets:
+        - BLANKS
+        - BARN_GROX
+      mapBlocks:
+        - name: LOC_BARN_GROX
+          width: 20
+          length: 20			  
+  - type: STR_LOC_KKK_HOUSE
+    battlescapeTerrainData:
+      name: STR_LOC_KKK_HOUSE
+      mapDataSets:
+        - BLANKS
+        - CULTAREA
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHOUSE11
+          width: 10
+          length: 10
+  - type: STR_LOC_HITMAN
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: STR_LOC_HITMAN
+      mapDataSets:
+        - BLANKS
+        - CULTAREA
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHOUSE01
+          width: 10
+          length: 10
+        - name: CULTHOUSE03
+          width: 10
+          length: 10
+        - name: CULTHOUSE06
+          width: 10
+          length: 10
+        - name: CULTHOUSE08
+          width: 10
+          length: 10
+        - name: CULTHOUSE09
+          width: 10
+          length: 10
+        - name: CULTHOUSE10
+          width: 10
+          length: 10
+        - name: CULTHOUSE11
+          width: 10
+          length: 10
+  - type: STR_LOC_CRACKHOUSE
+    battlescapeTerrainData:
+      name: STR_LOC_CRACKHOUSE
+      mapDataSets:
+        - BLANKS
+        - CULTAREA
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHOUSE00
+          width: 10
+          length: 10
+        - name: CULTHOUSE01
+          width: 10
+          length: 10
+        - name: CULTHOUSE02
+          width: 10
+          length: 10
+        - name: CULTHOUSE03
+          width: 10
+          length: 10
+        - name: CULTHOUSE04
+          width: 10
+          length: 10
+        - name: CULTHOUSE05
+          width: 10
+          length: 10
+        - name: CULTHOUSE06
+          width: 10
+          length: 10
+        - name: CULTHOUSE07
+          width: 10
+          length: 10
+        - name: CULTHOUSE08
+          width: 10
+          length: 10
+        - name: CULTHOUSE09
+          width: 10
+          length: 10
+        - name: CULTHOUSE10
+          width: 10
+          length: 10
+  - type: STR_LOC_HIGHWAY_STATION
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: STR_LOC_HIGHWAY_STATION
+      mapDataSets:
+        - BLANKS
+        - PORTROADS
+        - PORTURBITS
+        - ROADS
+        - URBITS
+        - SEAURBAN
+        - SEABITS
+      mapBlocks:
+        - name: PORTUFO18
+          width: 20
+          length: 20
+  - type: STR_LOC_ESCAPE_TOWER0
+    accel: 1
+    battlescapeTerrainData:
+      name: STR_LOC_ESCAPE_TOWER
+      mapDataSets:
+        - BLANKS
+        - PORTROADS
+        - XCOMENTRY 
+        - C_EXT_WALL 
+        - C_EXT_ROOF  
+        - C_EXT_ENGINE_S
+        - C_EXT_NOSE  
+        - C_EXT_NOSE_BUMPER 
+        - C_EXT_NOSE_SIDE 
+        - C_EXT_LANDGEAR
+        - C_INT_SMALL 
+        - C_INT_ENGINE_E
+      mapBlocks:
+        - name: ESCAPE_TOWER
+          width: 10
+          length: 10	  
+  - type: STR_LOC_ZOMBIE_PYRAMID
+    battlescapeTerrainData:
+      name: STR_LOC_ZOMBIE_PYRAMID
+      mapDataSets:
+        - BLANKS
+        - PYRAMID_DARK
+        - TDPORTAL_BLACK 
+      mapBlocks:
+        - name: PYRAMID_PORTAL
+          width: 10
+          length: 10
+  - type: STR_LOC_ARSENAL
+    battlescapeTerrainData:
+      name: STR_LOC_ARSENAL
+      mapDataSets:
+        - BLANKS
+        - URBAN40K
+        - URBITS40K
+        - XCOMENTRY
+        - BATHBITZ
+        - ABUNKER 
+      mapBlocks:
+        - name: ENEMYBUNKER_00
+          width: 20
+          length: 20
+  - type: STR_LOC_PREPPERS
+    battlescapeTerrainData:
+      name: STR_LOC_PREPPERS
+      mapDataSets:
+        - BLANKS
+        - URBAN40K
+        - URBITS40K
+        - XCOMENTRY
+        - BATHBITZ
+        - ABUNKER 
+      mapBlocks:
+        - name: ENEMYBUNKER_01
+          width: 20
+          length: 20
+  - type: STR_LOC_EUROSYNDICATE_ELIMINATION
+    battlescapeTerrainData:
+      name: CAFE01DIO
+      mapDataSets:
+        - BLANKS
+        - COMROADS
+        - COMBITS
+        - COMMERCE
+        - COMFRN
+        - CAFEENTRY
+      mapBlocks:
+        - name: CAFE01DIO
+          width: 20
+          length: 20
+  - type: STR_LOC_CRIB
+    battlescapeTerrainData:
+      name: CAFE00DIO
+      mapDataSets:
+        - BLANKS
+        - COMROADS
+        - COMBITS
+        - COMMERCE
+        - COMFRN
+        - CAFEENTRY
+      mapBlocks:
+        - name: CAFE00DIO
+          width: 10
+          length: 10
+  - type: STR_LOC_FUNKY_ZOMBIES
+    battlescapeTerrainData:
+      name: CAFE00DIO
+      mapDataSets:
+        - BLANKS
+        - COMROADS
+        - COMBITS
+        - COMMERCE
+        - COMFRN
+        - CAFEENTRY
+      mapBlocks:
+        - name: CAFE00DIO
+          width: 10
+          length: 10
+  - type: STR_LOC_HAUNTED_FOREST
+    battlescapeTerrainData:
+      name: CEMETERY_01
+      mapDataSets:
+        - BLANKS
+        - medieval
+      mapBlocks:
+        - name: CEMETERY_01
+          width: 10
+          length: 10
+  - type: STR_LOC_BUTCHER_CHAMBER
+    battlescapeTerrainData:
+      name: BUTCHER_CHAMBER
+      mapDataSets:
+        - BLANKS
+        - SIETCH
+        - XOPSMUJUNGLEADDON
+        - XCOMENTRY
+        - CATACDECOR
+        - CAVEBLACK
+        - XCOMEXIT
+        - PENTA_X
+        - DUNGEON
+      mapBlocks:
+        - name: CATACOMBS_DIABLO_03
+          width: 20
+          length: 20
+  - type: STR_LOC_DOOM_OUTPOST
+    battlescapeTerrainData:
+      name: APOC_TEMPLE_01
+      mapDataSets:
+        - BLANKS
+        - SIETCH_DARK
+        - CATACDECOR
+        - DUNGEON
+        - ASHEN1
+        - PENTA_X
+      mapBlocks:
+        - name: APOC_TEMPLE_01
+          width: 30
+          length: 30
+  - type: STR_LOC_ELFMAN_BROS
+    battlescapeTerrainData:
+      name: LOC_ELFMAN_BROS
+      mapDataSets:
+        - BLANKS
+        - GOVTDECOR
+        - GOVT
+        - RET_WALLS
+      mapBlocks:
+        - name: BANK_00
+          width: 30
+          length: 20
+        - name: BANK_01
+          width: 30
+          length: 20
+        - name: BANK_02
+          width: 30
+          length: 20
+        - name: BANK_03
+          width: 30
+          length: 20
+        - name: BANK_04
+          width: 30
+          length: 20
+        - name: BANK_05
+          width: 30
+          length: 20
+  - type: STR_SMALL_GROUND_CONVOY
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - CONVOY	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]					  
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]	
+  - type: STR_SMALL_GROUND_CONVOY_UNDERWATER
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - SAND	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]					  
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]	  			
+  - type: STR_MEDIUM_GROUND_CONVOY
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:	  
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - CONVOY	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]					  
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]	
+  - type: STR_MEDIUM_GROUND_CONVOY_UNDERWATER
+    battlescapeTerrainData:
+      name: CONVOY00
+      mapDataSets:	  
+        - BLANKS
+        - NKF_APC
+        - TRITON_3X
+        - TRITON_typhonX
+        - XCARST	
+        - SAND	
+      mapBlocks:
+        - name: AMPIBIOUS_APCENEMYCONVOY
+          width: 10
+          length: 80
+          items:
+            STR_CRAFT_TURRETGASENERMY_SPAWNER:		
+              - [4, 20, 1]
+              - [4, 25, 1]
+              - [4, 32, 1]
+              - [4, 37, 1]					  
+          fuseTimers:  
+            STR_CRAFT_TURRETGASENERMY_SPAWNER: [0, 0]				
+  - type: STR_MANSION
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20
+        - name: D_TAVERN
+          width: 30
+          length: 20
+        - name: D_ATRIUM
+          width: 20
+          length: 20
+  - type: STR_WESTMEN_TAVERN
+    battlescapeTerrainData:
+      name: D_TAVERN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_TAVERN
+          width: 30
+          length: 20
+  - type: STR_WESTMEN_TAVERN_EXTRACTION
+    battlescapeTerrainData:
+      name: D_TAVERN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_TAVERN
+          width: 30
+          length: 20
+  - type: STR_MANSION_MIB
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20
+        - name: D_ATRIUM
+          width: 20
+          length: 20
+  - type: STR_KEEP
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - CULTIVAT
+        - BARN
+        - SIBERIABASE
+        - SIBERIABASE2
+      mapBlocks:
+        - name: D_KEEP
+          width: 20
+          length: 20
+  - type: STR_MIB_TERROR_MISSION
+    battlescapeTerrainData:
+      name: VILLGE01
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+      mapBlocks:
+        - name: VILLGE01
+          width: 40
+          length: 40
+  - type: STR_MIB_BASE_LANDING
+    battlescapeTerrainData:
+      name: MBASE01
+      mapDataSets:
+        - BLANKS
+        - MILROADS
+        - MILURBITS
+        - MILURBAN
+        - MILFRNITURE
+      mapBlocks:
+        - name: MBASE01
+          width: 30
+          length: 30
+  - type: STR_CRIB
+    battlescapeTerrainData:
+      name: CRIB
+      mapDataSets:
+        - BLANKS
+        - CRIBURBAN
+        - CRIBURBITS
+        - CRIBDECOR
+        - MANSIONBITS
+        - CITYFRNITURE
+      mapBlocks:
+        - name: CRIB01
+          width: 20
+          length: 20
+  - type: STR_BARN_LUCHADORES
+    battlescapeTerrainData:
+      name: BARN_LUCHADORES
+      mapDataSets:
+        - BLANKS
+        - BARN
+      mapBlocks:
+        - name: BARN_00
+          width: 20
+          length: 20
+  - type: STR_CULTHOUSE
+    battlescapeTerrainData:
+      name: STR_CULTHOUSE
+      mapDataSets:
+        - BLANKS
+        - CULTMIL
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHOUSE00
+          width: 10
+          length: 10
+        - name: CULTHOUSE01
+          width: 10
+          length: 10
+        - name: CULTHOUSE02
+          width: 10
+          length: 10
+        - name: CULTHOUSE03
+          width: 10
+          length: 10
+        - name: CULTHOUSE04
+          width: 10
+          length: 10
+        - name: CULTHOUSE05
+          width: 10
+          length: 10
+        - name: CULTHOUSE06
+          width: 10
+          length: 10
+        - name: CULTHOUSE07
+          width: 10
+          length: 10
+        - name: CULTHOUSE08
+          width: 10
+          length: 10
+        - name: CULTHOUSE09
+          width: 10
+          length: 10
+        - name: CULTHOUSE10
+          width: 10
+          length: 10
+        - name: CULTHOUSE11
+          width: 10
+          length: 10
+        - name: CULTHOUSE12
+          width: 10
+          length: 10
+        - name: CULTHOUSE13
+          width: 10
+          length: 10
+  - type: STR_CULTHIDEOUT
+    size: STR_MEDIUM_UC
+    modSprite: interception_jammed
+    damageMax: 500
+    speedMax: 5000
+    accel: 10
+    power: 40
+    range: 20
+    score: 700
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: STR_CULTHIDEOUT
+      mapDataSets:
+        - BLANKS
+        - CULTMIL
+        - CULTDECOR
+        - CULTEXTRA
+      mapBlocks:
+        - name: CULTHIDEOUT00
+          width: 20
+          length: 20
+        - name: CULTHIDEOUT01
+          width: 20
+          length: 20
+        - name: CULTHIDEOUT02
+          width: 20
+          length: 20
+        - name: CULTHIDEOUT03
+          width: 20
+          length: 20
+        - name: CULTHIDEOUT04
+          width: 20
+          length: 20
+  - type: STR_DAGON_PYRAMID
+    battlescapeTerrainData:
+      name: DEEPS
+      mapDataSets:
+        - BLANKS
+        - SANDS
+        - MUJUNGLE
+        - JUNGLE
+      mapBlocks:
+        - name: DEEPS
+          width: 30
+          length: 30
+  - type: STR_MONGORN_CAVE
+    battlescapeTerrainData:
+      name: MONGORN_CAVE
+      mapDataSets:
+        - BLANKS
+        - MOUNT
+        - RITUALS
+      mapBlocks:
+        - name: MONGORN_CAVE
+          width: 20
+          length: 20
+  - type: STR_DURATHREAD_FACTORY_UFO
+    battlescapeTerrainData:
+      name: DURFACTORY
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWARE
+        - MILBARR
+        - MILTECH
+      mapBlocks:
+        - name: DURFACTORY
+          width: 20
+          length: 20

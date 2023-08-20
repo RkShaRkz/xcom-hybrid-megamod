@@ -1,0 +1,203 @@
+terrains:
+  - name: CULTAISLAND
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - CULTIVATISLAND
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+  - name: FORESTISLAND
+    mapDataSets:
+      - BLANKS
+      - FORESTISLAND
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+  - name: JUNGLEISLAND
+    mapDataSets:
+      - BLANKS
+      - JUNGLEISLAND
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+  - name: MOUNTISLAND
+    mapDataSets:
+      - BLANKS
+      - MOUNTISLAND
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20

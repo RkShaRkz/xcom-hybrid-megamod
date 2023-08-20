@@ -1,0 +1,262 @@
+cutscenes:
+  - type: intro
+    useUfoAudioSequence: true
+    videos:
+      - UFOINTRO/UFOINT.FLI
+  - type: intro2
+    videos:
+      #- ANIMS/LOGO.VID
+      - ANIMS/INTRO.VID  
+    slideshow:
+      musicId: GMNEWINT
+      slides:
+        - imagePath: FLOP_INT/INT00.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_1
+          captionSize: [320, 10]
+          captionPos: [0, 190]
+          captionColor: 249
+          captionAlign: 1
+        - imagePath: FLOP_INT/INT01.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_2
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT02.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_3
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT03.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_4
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT04.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_5
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT05.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_6
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT06.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_7
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT07.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_8
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT08.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_9
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT09.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_10
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT10.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_11
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT11.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_12
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT12.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_13
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT13.LBM
+          transitionSeconds: 10
+          caption: STR_INTRO_14
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT14.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_15
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT15.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_16
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT16.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_17
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT17.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_18
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT18.LBM
+          transitionSeconds: 5
+          caption: STR_INTRO_19
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT19.LBM
+          transitionSeconds: 5
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/INT20.LBM
+          transitionSeconds: 5
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249		  
+  - type: winGame
+    videos:
+      - ANIMS/OUTRO.VID  
+    slideshow:
+      transitionSeconds: 30
+      musicId: GMWIN
+      slides:
+        - imagePath: UFOINTRO/PICT1.LBM
+          caption: STR_VICTORY_1
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: UFOINTRO/PICT2.LBM
+          caption: STR_VICTORY_2
+          captionSize: [232, 64]
+          captionPos: [88, 136]
+          captionColor: 249
+        - imagePath: UFOINTRO/PICT3.LBM
+          caption: STR_VICTORY_3
+          captionSize: [254, 48]
+          captionPos: [66, 152]
+          captionColor: 249
+        - imagePath: UFOINTRO/PICT6.LBM
+          caption: STR_VICTORY_4
+          captionSize: [300, 200]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: UFOINTRO/PICT7.LBM
+          caption: STR_VICTORY_5
+          captionSize: [310, 42]
+          captionPos: [5, 158]
+          captionColor: 249	  	 
+  - type: loseGame
+    slideshow:
+      transitionSeconds: 30
+      musicId: GMLOSE
+      slides:
+        - imagePath: UFOINTRO/PICT4.LBM
+          caption: STR_GAME_OVER_1
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 249
+        - imagePath: UFOINTRO/PICT5.LBM
+          caption: STR_GAME_OVER_2
+          captionSize: [200, 34]
+          captionPos: [32, 0]
+          captionColor: 249
+  - type: tleth
+    videos:
+      - ANIMS/RISE.VID
+    slideshow:
+      musicId: GMSIG
+      slides:
+        - imagePath: FLOP_INT/TWE01.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_1
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/TWE02.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_2
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/TWE03.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_3
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/TWE04.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_4
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/TWE05.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_5
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/TWE06.LBM
+          transitionSeconds: 10
+          caption: STR_RISE_6
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+  - type: loseGame2
+    videos:
+      - ANIMS/GAMEOVER.VID
+    slideshow:
+      musicId: GMLOSE	  
+      slides:
+        - imagePath: FLOP_INT/GAO01.LBM
+          transitionSeconds: 10
+          caption: STR_GAMEOVER_1
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/GAO02.LBM
+          transitionSeconds: 10
+          caption: STR_GAMEOVER_2
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/GAO03.LBM
+          transitionSeconds: 10
+          caption: STR_GAMEOVER_3
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/GAO04.LBM
+          transitionSeconds: 10
+          caption: STR_GAMEOVER_4
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249
+        - imagePath: FLOP_INT/GAO05.LBM
+          transitionSeconds: 10
+          caption: STR_GAMEOVER_5
+          captionSize: [320, 48]
+          captionPos: [0, 152]
+          captionColor: 249		  

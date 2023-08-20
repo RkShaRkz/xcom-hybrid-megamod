@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - MGS Adrian
+  - MGS Aleksander
+  - MGS Alexander
+  - MGS Alf
+  - MGS Alfred
+  - MGS Anders
+  - MGS Andreas
+  - MGS Anton
+  - MGS Arne
+  - MGS Artur
+  - MGS Arvid
+  - MGS Asbjoorn
+  - MGS Atle
+  - MGS Balder
+  - MGS Baldur
+  - MGS Benjamin
+  - MGS Bjorn
+  - MGS Boone
+  - MGS Borg
+  - MGS Brander
+  - MGS Burnaby
+  - MGS Burr
+  - MGS Busby
+  - MGS Cadby
+  - MGS Canute
+  - MGS Carr
+  - MGS Cawley
+  - MGS Christian
+  - MGS Christoffer
+  - MGS Colby
+  - MGS Dag
+  - MGS Danby
+  - MGS Delling
+  - MGS Daniel
+  - MGS Didrik
+  - MGS Edvard
+  - MGS Einar
+  - MGS Eirik
+  - MGS Elvis
+  - MGS Emil
+  - MGS Eric
+  - MGS Erik
+  - MGS Erlend
+  - MGS Erling
+  - MGS Espen
+  - MGS Even
+  - MGS Fredrik
+  - MGS Frode
+  - MGS Gunnar
+  - MGS Haakon
+  - MGS Haavard
+  - MGS Hans
+  - MGS Harald
+  - MGS Havard
+  - MGS Henning
+  - MGS Henrik
+  - MGS Ivar
+  - MGS Jakob
+  - MGS Jan
+  - MGS Jens
+  - MGS Joachim
+  - MGS Joakim
+  - MGS Johan
+  - MGS Jokkum
+  - MGS Jon
+  - MGS Jonas
+  - MGS Jorgen
+  - MGS Julius
+  - MGS Kare
+  - MGS Karl
+  - MGS Kjell
+  - MGS Knut
+  - MGS knute
+  - MGS Kristian
+  - MGS Kristoffer
+  - MGS Lars
+  - MGS Leif
+  - MGS Ludvik
+  - MGS Mads
+  - MGS Magnus
+  - MGS Marcus
+  - MGS Marius
+  - MGS Martin
+  - MGS Martinus
+  - MGS Mathias
+  - MGS Matias
+  - MGS Mats
+  - MGS Mikkel
+  - MGS Mons
+  - MGS Nikolai
+  - MGS Nils
+  - MGS Olaf
+  - MGS Olan
+  - MGS Ole
+  - MGS Pal
+  - MGS Paul
+  - MGS Peder
+  - MGS Per
+  - MGS Petter
+  - MGS Reidar
+  - MGS Rolf
+  - MGS Sander
+  - MGS Sebastian
+  - MGS Sigurd
+  - MGS Simen
+  - MGS Sindre
+  - MGS Stian
+  - MGS Svein
+  - MGS Svend
+  - MGS Sverre
+  - MGS Thomas
+  - MGS Thor
+  - MGS Tobias
+  - MGS Tomas
+  - MGS Tor
+  - MGS Vegar
+  - MGS Vegard
+femaleFirst:
+  - MGS Abigael
+  - MGS Adelis
+  - MGS Agot
+  - MGS Alberte
+  - MGS Alfhild
+  - MGS Ane
+  - MGS Annbjorg
+  - MGS Annborg
+  - MGS Arnbjorg
+  - MGS Asdis
+  - MGS Aslaug
+  - MGS Benedikte
+  - MGS Bergit
+  - MGS Bergliot
+  - MGS Berit
+  - MGS Brigit
+  - MGS Canutte
+  - MGS Cathrine
+  - MGS Dagrun
+  - MGS Fredrika
+  - MGS Gerdy
+  - MGS Grete
+  - MGS Grethe
+  - MGS Gry
+  - MGS Gudlaug
+  - MGS Gunnhild
+  - MGS Gunnvor
+  - MGS Halldora
+  - MGS Hege
+  - MGS Heidrun
+  - MGS Hjordis
+  - MGS Idunn
+  - MGS Inge
+  - MGS Ingebjorg
+  - MGS Ingfrid
+  - MGS Inghild
+  - MGS Ingvild
+  - MGS Janne
+  - MGS Johanne
+  - MGS Jorunn
+  - MGS Kanutte
+  - MGS Kari
+  - MGS Karita
+  - MGS Karoline
+  - MGS Kirsten
+  - MGS Kjellfrid
+  - MGS Kjersti
+  - MGS Kjerstin
+  - MGS Kristi
+  - MGS Kristine
+  - MGS Lise
+  - MGS Lovise
+  - MGS Magnhild
+  - MGS Margarete
+  - MGS Margarethe
+  - MGS Margrethe
+  - MGS Marit
+  - MGS Rebekka
+  - MGS Silje
+  - MGS Sofia
+  - MGS Solaug
+  - MGS Thorbjorg
+  - MGS Torbjorg
+  - MGS Torhilda
+  - MGS Torid
+  - MGS Toril
+  - MGS Urd
+  - MGS Valdis
+  - MGS Vendela
+  - MGS Vibeke
+  - MGS Viva
+  - MGS Waldis
+  - MGS Yngvild
+maleLast:
+  - Aamodt
+  - Aas
+  - Aasen
+  - Aasgaard
+  - Abel
+  - Abrahamsen
+  - Alsgaard
+  - Alving
+  - Amundsen
+  - Amundson
+  - Andersen
+  - Andreassen
+  - Andresen
+  - Andsnes
+  - Antonisen
+  - Antonsen
+  - Arnesen
+  - Arup
+  - Asheim
+  - Aune
+  - Bakke
+  - Bakken
+  - Balle
+  - Baltzersen
+  - Berg
+  - Berge
+  - Berntsen
+  - Birkeland
+  - Birknes
+  - Bjoenkaer
+  - Bjoerndalen
+  - Bjone
+  - Bjordal
+  - Bjorlo
+  - Bjornebye
+  - Bjornson
+  - Bjornstad
+  - Blix
+  - Bo
+  - Bocklin
+  - Boe
+  - Borkman
+  - Brack
+  - Brandes
+  - Brat
+  - Brataas
+  - Bredesen
+  - Brekke
+  - Brenden
+  - Brogger
+  - Brovik
+  - Buraas
+  - Burass
+  - Christensen
+  - Christiansen
+  - Daehle
+  - Daehlie
+  - Dahl
+  - Dahn
+  - Dahue
+  - Danielsen
+  - Dybendahl
+  - Edvardsen
+  - Eftevang
+  - Eggen
+  - Eide
+  - Eliassen
+  - Elieson
+  - Ellingsen
+  - Elvsted
+  - Engen
+  - Enger
+  - Englund
+  - Engstrand
+  - Eriksen
+  - Ertzgard
+  - Evensen
+  - Fagerberg
+  - Fagernes
+  - Falck
+  - Fjaerestad
+  - Fjortoft
+  - Flemmen
+  - Flo
+  - Folkow
+  - Fosli
+  - Franck
+  - Fredriksen
+  - Fretheim
+  - Fuglesang
+  - Fuglestad
+  - Furuseth
+  - Gabler
+  - Gabrielsen
+  - Garborg
+  - Gimle
+  - Gjeldnes
+  - Gjelland
+  - Gjessing
+  - Grieg
+  - Grimseth
+  - Grimsmo
+  - Gritdal
+  - Grodas
+  - Groenvold
+  - Gronelv
+  - Guidon
+  - Gulbrandsen
+  - Gundersen
+  - Gunderson
+  - Gunnestad
+  - Gylfason
+  - Haakonsen
+  - Haarberg
+  - Haarland
+  - Haartz
+  - Hagen
+  - Halskar
+  - Halvorsen
+  - Hammer
+  - Hanevold
+  - Hanke
+  - Hansen
+  - Hanssen
+  - Hanstveit
+  - Hartmark
+  - Hasso
+  - Hasund
+  - Haug
+  - Hauge
+  - Haugen
+  - Haugland
+  - Haugsrud
+  - Heiberg
+  - Helgeland
+  - Helgerod
+  - Helland
+  - Helmer
+  - Henriksen
+  - Herdal
+  - Heyerdahl
+  - Hoan
+  - Hoeg
+  - Hoen
+  - Holm
+  - Holmann
+  - Holth
+  - Hopen
+  - Horn
+  - Hultgreen
+  - Hustveit
+  - Ibsen
+  - Ingebriktsson
+  - Ingstad
+  - Isaksen
+  - Iversen
+  - Jacobsen
+  - Jagge
+  - Jakobsen
+  - Jasperson
+  - Jelesens
+  - Jensen
+  - Jenssen
+  - Jevne
+  - Johannessen
+  - Johansen
+  - Johnsen
+  - Jorgensen
+  - Juell
+  - Kaland
+  - Karlan
+  - Karlsen
+  - Kase
+  - Kildal
+  - Kippe
+  - Kjeldaas
+  - Kjelstrup
+  - Kjorestad
+  - Kjorsvik
+  - Klovstod
+  - Knudsen
+  - Knutsen
+  - Koht
+  - Koss
+  - Krafft
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogstad
+  - Kultin
+  - Kvarme
+  - Landa
+  - Langslet
+  - Lanser
+  - Larsen
+  - Leirfall
+  - Leonhardsen
+  - Lid
+  - Lie
+  - Lien
+  - Lier
+  - Lind
+  - Lindahl
+  - Linde
+  - Listow
+  - Ljoekelsoey
+  - Loevaas
+  - Lorch
+  - Lous
+  - Lovborg
+  - Ludwigsen
+  - Lund
+  - Lunde
+  - Lyen
+  - Malmros
+  - Malmstrom
+  - Manders
+  - Marken
+  - Martinsen
+  - Mathiesen
+  - Mathisen
+  - Meling
+  - Meyer
+  - Midttun
+  - Mikkelsen
+  - Mikkelsplass
+  - Mo
+  - Moen
+  - Mork
+  - Mostue
+  - Munch
+  - Myhre
+  - Mykland
+  - Myklebust
+  - Myrland
+  - Naess
+  - Nanstveit
+  - Naustvik
+  - Neilsen
+  - Nerhus
+  - Nielsen
+  - Nilsen
+  - Njerve
+  - Njos
+  - Noberg
+  - Nore
+  - Nyberg
+  - Nygard
+  - Odegard
+  - Oedegaard
+  - Oesten
+  - Olsen
+  - Omholt
+  - Orden
+  - Orthe
+  - Ostenstad
+  - Ottesen
+  - Paldan
+  - Paulsen
+  - Pedersen
+  - Pederssen
+  - Pettersen
+  - Poulsen
+  - Prydz
+  - Quisling
+  - Ramsfeld
+  - Ramsfjell
+  - Rank
+  - Ranning
+  - Rasmussen
+  - Ratkje
+  - Rekdal
+  - Resi
+  - Retter
+  - Ribur
+  - Riseth
+  - Rodahl
+  - Rovlund
+  - Ruud
+  - Saeterstoel
+  - Saether
+  - Salvesen
+  - Sandvik
+  - Schei
+  - Schjerven
+  - Schroder
+  - Schwane
+  - Schytte
+  - Selle
+  - Selling
+  - Selvik
+  - Sikveland
+  - Simonsen
+  - Sivertsen
+  - Sivertson
+  - Sivlee
+  - Sjo
+  - Sjovold
+  - Skarsgaard
+  - Skarsgard
+  - Skavlan
+  - Skjelbraid
+  - Skjolsvold
+  - Skovgaard
+  - Skreien
+  - Smilla
+  - Solbakken
+  - Solbakker
+  - Solberg
+  - Solheim
+  - Solness
+  - Solskaer
+  - Sondral
+  - Sorensen
+  - Stamso
+  - Steen
+  - Stensrud
+  - Stianson
+  - Stirner
+  - Storelid
+  - Stram
+  - Strand
+  - Strandli
+  - Svasand
+  - Svendson
+  - Svenoy
+  - Syversen
+  - Tangen
+  - Tangvik
+  - Tesman
+  - Thomassen
+  - Thonstad
+  - Thoresen
+  - Thorsen
+  - Thue
+  - Thulesius
+  - Thune
+  - Thymann
+  - Tobiassen
+  - Tonder
+  - Tonsberg
+  - Torgereen
+  - Torp
+  - Traa
+  - Tunold
+  - Tveit
+  - Ulstein
+  - Ulving
+  - Utskjoer
+  - Veitberg
+  - Vigeland
+  - Vik
+  - Vind
+  - Waldum
+  - Wangel
+  - Wangen
+  - Wassmo
+  - Wikborg
+  - Wullum
+  - Yons
+  - Ytterhus
+  - Zakariassen

@@ -1,0 +1,128 @@
+lookWeights:
+  - 49
+  - 50
+  - 1
+  - 0
+maleFirst:
+  - MGS Adrian
+  - MGS Alexandru
+  - MGS Andrei
+  - MGS Bogdan
+  - MGS Catalin
+  - MGS Claudiu
+  - MGS Constantin
+  - MGS Cornel
+  - MGS Cosmin
+  - MGS Daniel
+  - MGS Dragos
+  - MGS Dumitru
+  - MGS Emil
+  - MGS Eugen
+  - MGS Florin
+  - MGS Gabriel
+  - MGS George
+  - MGS Gheorghe
+  - MGS Ilie
+  - MGS Ion
+  - MGS Liviu
+  - MGS Lucian
+  - MGS Marian
+  - MGS Marius
+  - MGS Mihai
+  - MGS Nicu
+  - MGS Octavian
+  - MGS Ovidiu
+  - MGS Petre
+  - MGS Radu
+  - MGS Robert
+  - MGS Sergiu
+  - MGS Silviu
+  - MGS Sorin
+  - MGS Stefan
+  - MGS Tiberiu
+  - MGS Tudor
+  - MGS Vasile
+  - MGS Viorel
+  - MGS Vlad
+femaleFirst:
+  - MGS Adelina
+  - MGS Alexandra
+  - MGS Alina
+  - MGS Ana
+  - MGS Andreea
+  - MGS Angela
+  - MGS Carmen
+  - MGS Catalina
+  - MGS Claudia
+  - MGS Corina
+  - MGS Dana
+  - MGS Daniela
+  - MGS Doina
+  - MGS Elena
+  - MGS Elisabeta
+  - MGS Felicia
+  - MGS Florentina
+  - MGS Gabriela
+  - MGS Georgiana
+  - MGS Gina
+  - MGS Ileana
+  - MGS Ioana
+  - MGS Irina
+  - MGS Iulia
+  - MGS Laura
+  - MGS Magda
+  - MGS Maria
+  - MGS Mariana
+  - MGS Mihaela
+  - MGS Mirela
+  - MGS Monica
+  - MGS Nadia
+  - MGS Nicoleta
+  - MGS Oana
+  - MGS Rodica
+  - MGS Roxana
+  - MGS Simona
+  - MGS Stefania
+  - MGS Violeta
+  - MGS Viorica
+maleLast:
+  - Anton
+  - Banica
+  - Barbu
+  - Cojocaru
+  - Constantin
+  - Cristea
+  - Dobre
+  - Dragomir
+  - Dumitru
+  - Ene
+  - Florea
+  - Georgescu
+  - Iancu
+  - Ilie
+  - Ionescu
+  - Iordan
+  - Lazar
+  - Luca
+  - Marinescu
+  - Mihalcea
+  - Munteanu
+  - Nastase
+  - Nicolae
+  - Nistor
+  - Olaru
+  - Olteanu
+  - Parvu
+  - Petre
+  - Popescu
+  - Preda
+  - Radu
+  - Sabau
+  - Savu
+  - Serban
+  - Stanciu
+  - Stanescu
+  - Tanase
+  - Tudor
+  - Ungureanu
+  - Voinea

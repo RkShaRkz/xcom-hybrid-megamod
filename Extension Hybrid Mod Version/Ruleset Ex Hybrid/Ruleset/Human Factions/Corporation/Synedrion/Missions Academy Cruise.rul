@@ -1,0 +1,125 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MISSION_ACADEMY_DONE: "Sydnedrion Cruise Ship Raid Cleared"	
+      STR_LOC_ACADEMY_CRUISE: "Sydnedrion Cruise Ship Raid"
+      STR_MARKER_ACADEMY_CRUISE: Cruising Counsellors
+      STR_ALERT_ACADEMY_CRUISE: Cruising Counsellors
+      STR_LOC_ACADEMY_CRUISE_BRIEFING: "The Sydnedrion Executives is hosting a secret meeting on this cruise ship. The Merc guild will pay a high price for their elimination."
+research:
+  - name: STR_MISSION_ACADEMY_DONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 300
+    needItem: true
+alienDeployments:
+  - type: STR_LOC_ACADEMY_CRUISE
+    startingCondition: STR_STARCON_ACADEMY_CRUISE
+    randomRace: [STR_ACADEMY,STR_ACADEMY]		
+    alert: STR_ALERT_ACADEMY_CRUISE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertDescription: STR_LOC_ACADEMY_CRUISE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 3
+      music: GMTACDRY    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_ACADEMY_CRUISE
+      desc: STR_LOC_ACADEMY_CRUISE_BRIEFING
+    markerName: STR_MARKER_ACADEMY_CRUISE
+    unlockedResearch: STR_MISSION_ACADEMY_DONE
+    duration: [25, 10000000000000]
+    despawnPenalty: 0
+    width: 30
+    length: 70
+    height: 9
+    terrains:
+      - LINERX
+    script: SHIP_P1L	  
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 16
+        dQty: 6
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 3
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_ACADEMY_CRUISE
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_ACADEMY: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: academyCruisin
+    missionWeights:
+      0:
+        STR_LOC_ACADEMY_CRUISE: 100
+    regionWeights:
+      0:
+        SEASPAWNS: 100
+    varName: adcruise
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_MISSION_ACADEMY_DONE: false
+    useTable: false
+    executionOdds: 3
+    varName: academycruisesydned
+    maxRuns: 1	
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+terrains:
+  - name: LINERX
+    enviroEffects: STR_LANDARMOURTOLAND
+    music:
+      - GMTACTIC
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - LINERA
+      - LINERB
+      - LINERCT
+      - LINERD
+      - DECKC
+    mapBlocks:
+      - name: LINERM
+        width: 30
+        length: 80

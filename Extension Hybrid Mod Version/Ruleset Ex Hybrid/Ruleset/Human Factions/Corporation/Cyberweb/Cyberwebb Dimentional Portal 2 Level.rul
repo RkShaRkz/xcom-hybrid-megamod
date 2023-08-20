@@ -1,0 +1,465 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CYBERWEB_HQPART1: "CyberRobotics HQ"	
+      STR_CYBERWEB_HQ: "CyberRobotics HQ Part 2"
+      STR_CYBERWEB_HQ_DESCRIPTION: "This is the Merc Guild here, we have reports that the CyberRobotics has a secret HQ here. Some other Major Factions are upset of its existance and has a big bounty for its destruction. We need a competant Military unit to do the mission. Pay will be above grade for such a mission."
+      STR_ALERT_CYBERWEB_HQ: "CyberRobotics HQ!"
+      STR_CYBERWEB_HQ_BRIEFING: "This is the Merc Guild here, we have reports that the CyberRobotics has a secret HQ here. Some other Major Factions are upset of its existance and has a big bounty for its destruction. We need a competant Military unit to do the mission. Pay will be above grade for such a mission."  
+alienDeployments:
+  - type: STR_CYBERWEB_HQPART1
+    width: 60
+    length: 60
+    height: 14
+    shade: 0
+    alert: STR_ALERT_CYBERWEB_HQ
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CYBERWEB_HQ_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_CYBERWEB_HQ_BRIEFING
+    music:
+      - GMTACTIC
+    markerName: STR_CYBERWEB_HQPART1
+    duration: [100, 200]
+    despawnPenalty: 20
+    enviroEffects: STR_LANDARMOURTOLAND
+    nextStage: STR_CYBERWEB_HQ
+    script: CYBERMAINBASESCRIPT
+    customUfo: STR_CYBERMAINBASE	
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 14
+        dQty: 9
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 7
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            []	
+  - type: STR_CYBERWEB_HQ
+    randomRace: [STR_CYBERWEB,STR_CYBERWEB] 	  
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    width: 60
+    length: 60
+    height: 14
+    alert: STR_ALERT_CYBERWEB_HQ
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CYBERWEB_HQ_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CYBERWEB_HQ_BRIEFING	  
+    markerName: STR_CYBERWEB_HQ
+    duration: [100, 244]
+    despawnPenalty: 50
+    music:
+      - GMTACTIC
+    terrains:
+      - CYBERWEB_WAREHOUSE
+    script: CYBERWEB_PORTAL
+    data:
+      - alienRank: 5
+        lowQty: 6
+        highQty: 15
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 10
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 3
+        highQty: 7
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+ufos:			
+  - type: STR_CYBERMAINBASE
+    battlescapeTerrainData:
+      name: MBASE01
+      mapDataSets:
+        - BLANKS
+        - MILROADS
+        - MILURBITS
+        - MILURBAN
+        - MILFRNITURE
+        - COMPUTERS
+        - ATLANTISMER		
+      mapBlocks:
+        - name: CYBERWEBBBASE
+          width: 30
+          length: 30				
+mapScripts:	
+  - type: CYBERMAINBASESCRIPT
+    commands:
+    - type: resize
+      size: [8, 8, 18]
+    - type: addCraft
+      terrain: globeTerrain
+    - type: addUFO
+      executions: 1
+      groups: 1
+      terrain: globeTerrain	
+    - type: addBlock
+      size: [1,1,2]
+      executions: 2
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain
+        groups: 1       	
+      - type: middle
+        size: [1, 1, 2]
+        terrain: TURRETBASECOUNTRY	
+#BuildingMain
+    - type: addBlock
+      size: [2,2,4]
+      executions: 1
+      executionChances: 33
+      label: 11
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [2,2,4]
+        terrain: PORT9
+    - type: addBlock
+      size: [2,2,6]
+      executions: 1
+      executionChances: 50
+      label: 12
+      conditionals: [-11]
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [2,2,6]
+        terrain: PORT10		
+    - type: addBlock
+      size: [2,2,6]
+      executions: 1
+      executionChances: 100
+      conditionals: [-11, -12]
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [2,2,6]
+        terrain: PORT10
+#Building2
+    - type: addBlock
+      size: [1,1,4]
+      executions: 2
+      executionChances: 33
+      label: 45
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: PORT6
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 50
+      label: 46
+      conditionals: [-45]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: PORT4
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 100
+      conditionals: [-45, -46]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: PORT3
+#Building3
+    - type: addBlock
+      size: [2,2,4]
+      executions: 1
+      executionChances: 33
+      label: 15	  
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [2,2,4]
+        terrain: TECHFACTLAB	  	  
+    - type: addBlock
+      size: [2,2,4]
+      executionChances: 50
+      label: 16
+      conditionals: [-15]
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [2,2,4]
+        terrain: URBANSECONDARY3
+    - type: addBlock
+      size: [2,2,4]
+      executionChances: 100
+      conditionals: [-15, -16]
+      verticalLevels:
+      - type: ground
+        size: [2,2,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [2,2,4]
+        terrain: URBANSECONDARY4
+#Building4
+    - type: addBlock
+      size: [1,1,4]
+      executions: 2
+      executionChances: 33
+      label: 17
+      terrain: globeTerrain
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 50
+      label: 18
+      conditionals: [-17]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: URBANSECONDARY5
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 100
+      conditionals: [-17, -18]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: URBANSECONDARY6 
+#Building5
+    - type: addBlock
+      size: [1,1,4]
+      executions: 2
+      executionChances: 33
+      label: 13
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: URBANSECONDARY7
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 50
+      label: 14
+      conditionals: [-13]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: ISLAND3 
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 100
+      conditionals: [-13, -14]
+      terrain: globeTerrain
+    - type: addBlock
+      size: 2
+      executions: 2
+      terrain: globeTerrain
+    - type: addBlock
+      size: 2
+      executions: 2
+      terrain: globeTerrain  	
+    - type: fillArea
+      terrain: globeTerrain	  
+  - type: CYBERWEB_PORTAL
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addUFO
+      UFOName: STR_CYBERPORTAL
+    - type: addUFO
+      UFOName: STR_CYBERCOMPUTER
+    - type: addBlock
+      size: 2
+      executions: 4
+      blocks: [0, 1, 2, 5, 6, 7, 8, 9, 10]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+      groups: 0
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: corner
+            set: 1
+            entry: 69
+          - type: westWall
+            set: 1
+            entry: 66
+          - type: northWall
+            set: 1
+            entry: 65
+          - type: floor
+            set: 1
+            entry: 74
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+        MCDReplacements:
+          - type: corner
+            set: 1
+            entry: 69
+          - type: westWall
+            set: 1
+            entry: 66
+          - type: northWall
+            set: 1
+            entry: 65
+          - type: floor
+            set: 1
+            entry: 74			
+alienMissions:
+  - type: STR_CYBERWEB_HQPART1
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CYBERWEB: 100
+    waves:
+      - ufo: STR_CYBERWEB_HQPART1
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: CyberwebDimensionalPortal
+    firstMonth: 0
+    executionOdds: 75
+    missionWeights:
+      0:
+        STR_CYBERWEB_HQPART1: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

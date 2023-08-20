@@ -1,0 +1,495 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_SPACE_FREIGHTER: "Colombo Oribital Space Station Raid Part 2"	
+      STR_LAUNCHPAD: "Colombo Oribital Space Station Raid"
+      STR_MARKER_SPACE_FREIGHTER: "Space Entry Point"
+      STR_ALERT_SPACE_FREIGHTER: "Space Freighter Spotted"
+      STR_SPACE_FREIGHTER_BRIEFING: "The TransGolbal is planning to reenable the Colombo Orbital Space Station. The station has been abandon for years, now the TransGolbal has refurbished it and now is planning to reuse the station to create a orbital staging and spying platform. This is against the interest of a few factions and they need the station to be destroyed or nulified. They have contacted the Merc Guild for help, and now they are willing to nominate us as the best Merc unit for the job. The first step in getting into the station is transportation. We need to raid a Rocket base and to steal a transport in getting to the station. The madam has located such a base belong to a hostile faction. We need to raid it and get to the Station's hanger. From there, the job is to eliminate all the station occupants. The job pays top dollar."
+      STR_SPACE_FREIGHTER_BRIEFING_2: "We have docked in the middle hangar. The job is to kill everyone and get back to the Transport. "
+      STR_MISSION_GUILD_FREIGHTER: "!Raid Colombo Orbital Space Station!"
+      STR_MISSION_GUILD_FREIGHTER_UFOPEDIA: "The Colombo Orbital Space Station is the orbital hub, at where any interplanetary journey between Earth and Moon are transit through frequently. Attacking the station is a risky business, but if we'll sniff out a good opportunity, the effort might be worth it. We can expect heavy security guards and robots, high Transtellar Syndicate officers, as well as mysterious researchers to the moon is on board. There is one issue... we need a space-capable ship to go on the station."   
+alienDeployments:
+  - type: STR_LAUNCHPAD
+    duration: [25, 10000000000000]  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND		
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []		
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []			
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []	
+    width: 60
+    length: 60
+    height: 12
+    markerName: STR_MARKER_SPACE_FREIGHTER
+    markerIcon: 7
+    customUfo: STR_LAUNCHPADXXX	
+    script: GUILD_LAUNCHPAD	
+    terrains:
+      - URBAN
+    nextStage: STR_SPACE_FREIGHTER
+    briefing:
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+      desc: STR_SPACE_FREIGHTER_BRIEFING	  
+    points: 5	
+  - type: STR_SPACE_FREIGHTER
+    randomRace: [STR_GUILD,STR_TRANS_STELLAR]   
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	     
+    alert: STR_ALERT_SPACE_FREIGHTER
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SPACE_FREIGHTER_BRIEFING
+    unlockedResearch: STR_MISSION_GUILD_FREIGHTERDONE
+    briefing:
+      palette: 7
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_SPACE_FREIGHTER  
+      desc: STR_SPACE_FREIGHTER_BRIEFING_2
+    markerName: STR_MARKER_SPACE_FREIGHTER
+    duration: [25, 10000000000000]
+    despawnPenalty: 100
+    width: 80
+    length: 80
+    height: 17
+    minShade: 15
+    music:
+      - GMTACTIC
+    terrains:
+      - SPACE_FREIGHTER_BASE
+    data:
+      - alienRank: 5
+        lowQty: 14
+        highQty: 18
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []		
+      - alienRank: 4
+        lowQty: 10
+        highQty: 15
+        dQty: 5
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 5
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 18
+        highQty: 24
+        dQty: 10
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 4
+        highQty: 6
+        dQty: 5
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_SPACE_FREIGHTER
+    despawnEvenIfTargeted: true
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_GUILD: 100
+    waves:
+      - ufo: STR_LAUNCHPAD
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+research:		
+  - name: STR_MISSION_GUILD_FREIGHTERDONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+ufos:
+  - type: STR_LAUNCHPADXXX
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - RET_SHIPDROPSHIP
+        - PIPESX
+        - U_WALL02HUMANBASEROCKET
+        - LIFTER
+        - MOON
+        - URBITS	  
+      mapBlocks:
+        - name: LAUNCHPAD
+          width: 20
+          length: 20		
+terrains:
+  - name: SMALLBASES
+    mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_SILVER
+        - C_EXT_ROOF_SILVER
+        - C_BITS2
+        - LIFTER
+        - C_INT
+        - COMPUTERS
+        - BATHBITZ_HT
+        - XBASEN_BITS
+        - DOORS1 	
+    mapBlocks:	
+      - name: HTHOUSE_00
+        width: 10
+        length: 10	
+mapScripts:	
+  - type: GUILD_LAUNCHPAD
+    commands:
+    - type: resize
+      size: [6, 6, 18]		
+    - type: addCraft
+      terrain: globeTerrain	 
+      groups: 1	  
+    - type: addUFO
+      terrain: globeTerrain	 
+      groups: 1		  
+      rects:
+        - [0,0,2,2]	  
+    - type: addBlock
+      executionChances: 100	
+      executions: 1 
+      size: 2	  
+      terrain: LAUNCHPADXXX  
+      rects:
+        - [0,0,2,2]
+    - type: addBlock
+      executions: 3
+      terrain: SMALLBARRACKFORT
+      rects:
+        - [0,0,2,5]		  
+    - type: addBlock
+      size: [1,1,5]
+      executionChances: 100
+      executions: 4
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain	
+        groups: 1
+      - type: middle
+        size: [1,1,5]
+        terrain: SMALLBASES	
+      rects:
+        - [0,0,2,5]	  					
+    - type: addBlock
+      size: 2
+      executions: 3 
+      terrain: globeTerrain		  
+    - type: fillArea
+      terrain: globeTerrain		
+missionScripts:
+  - type: transStellarFreighter
+    missionWeights:
+      0:
+        STR_SPACE_FREIGHTER: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    varName: spaceasssausas
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_MISSION_GUILD_FREIGHTERDONE: false
+    executionOdds: 100
+    startDelay: 1000	 	
+    facilityTriggers:
+      STR_MERCFACILITY: true
+    randomDelay: 40000

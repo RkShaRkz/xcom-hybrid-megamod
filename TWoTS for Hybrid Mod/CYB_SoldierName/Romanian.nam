@@ -1,0 +1,128 @@
+lookWeights:
+  - 49
+  - 50
+  - 1
+  - 0
+maleFirst:
+  - CS Adrian
+  - CS Alexandru
+  - CS Andrei
+  - CS Bogdan
+  - CS Catalin
+  - CS Claudiu
+  - CS Constantin
+  - CS Cornel
+  - CS Cosmin
+  - CS Daniel
+  - CS Dragos
+  - CS Dumitru
+  - CS Emil
+  - CS Eugen
+  - CS Florin
+  - CS Gabriel
+  - CS George
+  - CS Gheorghe
+  - CS Ilie
+  - CS Ion
+  - CS Liviu
+  - CS Lucian
+  - CS Marian
+  - CS Marius
+  - CS Mihai
+  - CS Nicu
+  - CS Octavian
+  - CS Ovidiu
+  - CS Petre
+  - CS Radu
+  - CS Robert
+  - CS Sergiu
+  - CS Silviu
+  - CS Sorin
+  - CS Stefan
+  - CS Tiberiu
+  - CS Tudor
+  - CS Vasile
+  - CS Viorel
+  - CS Vlad
+femaleFirst:
+  - CS Adelina
+  - CS Alexandra
+  - CS Alina
+  - CS Ana
+  - CS Andreea
+  - CS Angela
+  - CS Carmen
+  - CS Catalina
+  - CS Claudia
+  - CS Corina
+  - CS Dana
+  - CS Daniela
+  - CS Doina
+  - CS Elena
+  - CS Elisabeta
+  - CS Felicia
+  - CS Florentina
+  - CS Gabriela
+  - CS Georgiana
+  - CS Gina
+  - CS Ileana
+  - CS Ioana
+  - CS Irina
+  - CS Iulia
+  - CS Laura
+  - CS Magda
+  - CS Maria
+  - CS Mariana
+  - CS Mihaela
+  - CS Mirela
+  - CS Monica
+  - CS Nadia
+  - CS Nicoleta
+  - CS Oana
+  - CS Rodica
+  - CS Roxana
+  - CS Simona
+  - CS Stefania
+  - CS Violeta
+  - CS Viorica
+maleLast:
+  - Anton
+  - Banica
+  - Barbu
+  - Cojocaru
+  - Constantin
+  - Cristea
+  - Dobre
+  - Dragomir
+  - Dumitru
+  - Ene
+  - Florea
+  - Georgescu
+  - Iancu
+  - Ilie
+  - Ionescu
+  - Iordan
+  - Lazar
+  - Luca
+  - Marinescu
+  - Mihalcea
+  - Munteanu
+  - Nastase
+  - Nicolae
+  - Nistor
+  - Olaru
+  - Olteanu
+  - Parvu
+  - Petre
+  - Popescu
+  - Preda
+  - Radu
+  - Sabau
+  - Savu
+  - Serban
+  - Stanciu
+  - Stanescu
+  - Tanase
+  - Tudor
+  - Ungureanu
+  - Voinea

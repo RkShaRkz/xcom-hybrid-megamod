@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - MPS Francesco
+  - MPS Alessandro
+  - MPS Andrea
+  - MPS Lorenzo
+  - MPS Matteo
+  - MPS Mattia
+  - MPS Gabriele
+  - MPS Riccardo
+  - MPS Davide
+  - MPS Leonardo
+  - MPS Federico
+  - MPS Luca
+  - MPS Marco
+  - MPS Giuseppe
+  - MPS Tommaso
+  - MPS Antonio
+  - MPS Simone
+  - MPS Giovanni
+  - MPS Samuele
+  - MPS Christian
+  - MPS Alessio
+  - MPS Nicola
+  - MPS Diego
+  - MPS Pietro
+  - MPS Filippo
+  - MPS Edoardo
+  - MPS Cristian
+  - MPS Daniele
+  - MPS Emanuele
+  - MPS Michele
+  - MPS Gennaro
+  - MPS Vincenzo
+  - MPS Pasquale
+  - MPS Carmine
+  - MPS Carmelo
+  - MPS Paolo
+femaleFirst:
+  - MPS Sofia
+  - MPS Giulia
+  - MPS Sara
+  - MPS Martina
+  - MPS Giorgia
+  - MPS Chiara
+  - MPS Aurora
+  - MPS Alice
+  - MPS Emma
+  - MPS Alessia
+  - MPS Anna
+  - MPS Francesca
+  - MPS Noemi
+  - MPS Elisa
+  - MPS Matilde
+  - MPS Giada
+  - MPS Gaia
+  - MPS Greta
+  - MPS Elena
+  - MPS Beatrice
+  - MPS Viola
+  - MPS Rebecca
+  - MPS Nicole
+  - MPS Arianna
+  - MPS Ginevra
+  - MPS Vittoria
+  - MPS Asia
+  - MPS Ilaria
+  - MPS Federica
+  - MPS Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

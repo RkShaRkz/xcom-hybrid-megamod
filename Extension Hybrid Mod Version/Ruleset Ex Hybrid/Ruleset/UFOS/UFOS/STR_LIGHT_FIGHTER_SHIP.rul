@@ -1,0 +1,85 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_LIGHT_FIGHTER_SHIP: "Light fighter"
+      STR_LIGHT_FIGHTER_SHIP_SECTOID: "Light Fighter (Sectoid)"  
+      STR_LIGHT_FIGHTER_SHIP_FLOATER: "Light Fighter (Floater)"  
+      STR_LIGHT_FIGHTER_SHIP_MUTON: "Light Fighter (Muton)"
+      STR_LIGHT_FIGHTER_SHIP_UFOPEDIA: "These miniature UFOs are built for intercepting enemy vessels. They are extremely fast and deadly to any unarmed craft."   
+ufopaedia:
+  - id: STR_LIGHT_FIGHTER_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_LIGHT_FIGHTER_SHIP
+    text: STR_LIGHT_FIGHTER_SHIP_UFOPEDIA
+    listOrder: 160130
+research:	
+  - name: STR_LIGHT_FIGHTER_SHIP
+    points: 50
+    cost: 180
+    needItem: true		
+    lookup: STR_LIGHT_FIGHTER_SHIP
+ufos:
+  - type: STR_LIGHT_FIGHTER_SHIP
+    modSprite: InterceptionLightFighter
+    size: STR_VERY_SMALL
+    damageMax: 80
+    speedMax: 4750
+    accel: 9
+    power: 20
+    range: 16
+    score: 125
+    reload: 9
+    breakOffTime: 180
+    hitBonus: 10
+    radarRange: 550
+    hunterKillerPercentage: 70
+    huntMode: 1
+    battlescapeTerrainData:
+      name: UFO1C
+      mapDataSets:
+        - BLANKS
+        - UFO1
+      mapBlocks:
+        - name: UFO1C
+          width: 10
+          length: 10		  
+alienDeployments:
+  - type: STR_LIGHT_FIGHTER_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_LIGHT_FIGHTER_SHIP	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_LIGHT_FIGHTER_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_LIGHT_FIGHTER_SHIP	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	

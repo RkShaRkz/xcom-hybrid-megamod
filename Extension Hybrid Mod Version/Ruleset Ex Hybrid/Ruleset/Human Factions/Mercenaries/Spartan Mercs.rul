@@ -1,0 +1,598 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      SPARTAN_ARMOR_P0_UFOPEDIA: "Elite Mercs Scout Examination. NV: 9. CAMO 10/3."
+      SPARTAN_ARMOR_P1_UFOPEDIA: "Elite Mercs Rifleman Examination. NV: 9. CAMO 10/3."
+      SPARTAN_ARMOR_P2_UFOPEDIA: "Elite Mercs Heavy Trooper Examination. NV: 9. CAMO 10/3."
+      SPARTAN_ARMOR_P3_UFOPEDIA: "Elite Mercs Lieutenant Examination. NV: 12. CAMO 10/3."	
+      SPARTAN_ARMOR_P0: "Elite Mercs Scout Examination"
+      SPARTAN_ARMOR_P1: "Elite Mercs Rifleman Examination"
+      SPARTAN_ARMOR_P2: "Elite Mercs Heavy Trooper Examination"
+      SPARTAN_ARMOR_P3: "Elite Mercs Lieutenant Examination"	
+      STR_SPARTAN_AUTOPSY_UFOPEDIA: "The material and armour used by these mercenaries reflects of their status as elite. Heavy balistic armor and kevlar fibres. These mercs are fit and able soldiers. They are formidable opponants if they are fighting against us."	
+      STR_SPARTAN_CORPSE: Kevlar Armor Parts	  
+      STR_SPARTANS: "Elite Mercenaries"	  
+      STR_SPARTAN_SCOUT: "Elite Mercs Soldier"
+      STR_SPARTAN_RIFLEMAN: "Elite Mercs Sargent"
+      STR_SPARTAN_HEAVY: "Elite Mercs Lieutenant"
+      STR_SPARTAN_CAPTAIN: "Elite Mercs Captain"  	  
+      STR_SPARTAN_SCOUT_ROBBERY: "Interrogate: Elite Mercs. Scout (0/2/0)"
+      STR_SPARTAN_RIFLEMAN_ROBBERY: "Interrogate: Elite Mercs Rifleman (0/2/0)"
+      STR_SPARTAN_HEAVY_ROBBERY: "Interrogate: Elite Mercs Heavy Trp. (0/2/0)"
+      STR_SPARTAN_CAPTAIN_ROBBERY: "Interrogate: Elite Mercs Lieutenant (0/4/0)"
+      STR_SPARTAN_SCOUT_SALVAGE: "s: Elite Mercs Scout (0/2/0)"
+      STR_SPARTAN_RIFLEMAN_SALVAGE: "S: Elite Mercs Rifleman (0/2/0)"
+      STR_SPARTAN_HEAVY_SALVAGE: "S: Elite Mercs Heavy Trp. (0/2/0)"	
+      STR_SPARTAN_SCOUTID: "Elite Mercs Soldier ID"
+      STR_SPARTAN_RIFLEMANID: "Elite Mercs Sargent ID"
+      STR_SPARTAN_HEAVYID: "Elite Mercs Lieutenant ID"
+      STR_SPARTAN_CAPTAINID: "Elite Mercs Captain ID" 
+      STR_SPARTANS_UFOPEDIA: "One of the more reputable Mercenary group for hire, these Elite Mercs as they call themselves, take pride in wearing uniforms and organize in rank formation that's destinctively of their own. This make them stand out as elite Mercenaries that can be hire for a fat sum. Although they only hire members from former military, however, the grade of their service and skill can only be class as average. Still, their services are hired by many factions and local govt for special security duties."	
+      STR_SPARTAN_SCOUT_UFOPEDIA: "The Soldier in the Elite Mercs rank is the lowest and the worst paid, but they are also the fastest and most agile thanks to their light armor and weapon. They are mostly found as Sentry and guard duties. Often are the cannon fodder in comnbat situation."
+      STR_SPARTAN_RIFLEMAN_UFOPEDIA: "A Sargent in the Elite Merc rank is usually the team leader that lead the grunts. Usually a soldier with five years plus experience is expected to be promoted as a Sargent, and usually that's as high as they will go."
+      STR_SPARTAN_HEAVY_UFOPEDIA: "A Elite Merc Lieutenant is always officers hired from former Military units with officers rank. They are expected to have power armor training so they can wear the heavy armor that the ranks entails. Usually they act as anchor points in assault missions."	
+      STR_SPARTAN_CAPTAIN_UFOPEDIA: "Captains in the Elite Mercs get paid fat money and bonuses, usually are hired from ex-senior officers in former a military. However, most are hired for their connections to get the unit hired. They get a bonus and everyone get paid. It is a good system. When the real fighting starts, they are not always at the frontline. It is a good life, to be a Captain."	 
+alienRaces:
+  - id: STR_SPARTANS
+    members:
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_HEAVY
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+  - id: STR_SPARTANS_UNDERWATER	
+    members:
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_HEAVY
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_CAPTAIN
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_SCOUT
+ufopaedia:	  
+  - id: STR_SPARTANS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SPARTANS
+    text: STR_SPARTANS_UFOPEDIA
+    text_width: 180
+    listOrder: 26500
+  - id: STR_SPARTAN_SCOUT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SPARTAN_SCOUT
+    text: STR_SPARTAN_SCOUT_UFOPEDIA
+    text_width: 180
+    listOrder: 26510
+  - id: STR_SPARTAN_RIFLEMAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SPARTAN_RIFLEMAN
+    text: STR_SPARTAN_RIFLEMAN_UFOPEDIA
+    text_width: 180
+    listOrder: 26515
+  - id: STR_SPARTAN_HEAVY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SPARTAN_HEAVY
+    text: STR_SPARTAN_HEAVY_UFOPEDIA
+    text_width: 180
+    listOrder: 26529
+  - id: STR_SPARTAN_CAPTAIN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_SPARTAN_CAPTAIN
+    text: STR_SPARTAN_CAPTAIN_UFOPEDIA
+    text_width: 180
+    listOrder: 26530	
+research:	  
+  - name: STR_SPARTANS
+    ##requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_SPARTAN_SCOUT
+      - STR_SPARTAN_RIFLEMAN
+      - STR_SPARTAN_HEAVY
+      - STR_SPARTAN_CAPTAIN
+  - name: STR_SPARTAN_CAPTAIN
+    requiresBaseFunc: [INTERROGATION]     
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SPARTANS	   	  
+  - name: STR_SPARTAN_HEAVY
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SPARTANS  
+  - name: STR_SPARTAN_SCOUT
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SPARTANS
+  - name: STR_SPARTAN_RIFLEMAN
+    requiresBaseFunc: [INTERROGATION]    
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SPARTANS	  
+units:	
+  - type: STR_SPARTAN_SCOUT
+    race: STR_SPARTANS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 70
+      stamina: 80
+      health: 35
+      bravery: 70
+      reactions: 75
+      firing: 70
+      throwing: 35
+      strength: 34
+      psiStrength: 45
+      psiSkill: 0
+      melee: 50
+      #Mana: 75
+    armor: SPARTAN_ARMOR_P0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 4
+    aggression: 1
+    sniper: 25
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_GRENADE
+  - type: STR_SPARTAN_RIFLEMAN
+    race: STR_SPARTANS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 70
+      reactions: 65
+      firing: 65
+      throwing: 40
+      strength: 38
+      psiStrength: 40
+      psiSkill: 0
+      melee: 45
+      #Mana: 70
+    armor: SPARTAN_ARMOR_P1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 4
+    aggression: 1
+    sniper: 66
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP		
+  - type: STR_SPARTAN_HEAVY
+    race: STR_SPARTANS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 70
+      health: 45
+      bravery: 70
+      reactions: 55
+      firing: 65
+      throwing: 50
+      strength: 44
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 65
+    armor: SPARTAN_ARMOR_P2
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    sniper: 66
+    spotter: 0
+    builtInWeaponSets:
+      - - STR_HMG
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_RIFLE_CLIP
+  - type: STR_SPARTAN_CAPTAIN
+    race: STR_SPARTANS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 90
+      reactions: 75
+      firing: 80
+      throwing: 50
+      strength: 42
+      psiStrength: 50
+      psiSkill: 0
+      melee: 60
+      #Mana: 60
+    armor: SPARTAN_ARMOR_P3
+    standHeight: 22
+    kneelHeight: 14
+    value: 35
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 5
+    aggression: 1
+    sniper: 33
+    spotter: 3
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_LARGE_ROCKET
+        - STR_MEDI_KIT	
+    canSurrender: true
+armors:	
+  - type: SPARTAN_ARMOR_P0
+    spriteSheet: SPT_0.PCK
+    spriteInv: SpartanScoutInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 34, 164, 245, 166, 245, 166]
+    corpseBattle:
+      - STR_SPARTAN_0_CORPSE_BATTLE
+    corpseGeo: STR_SPARTAN_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDay: -10
+    camouflageAtDark: -3
+    frontArmor: 7
+    sideArmor: 6
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.2
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 2 ]
+  - type: SPARTAN_ARMOR_P1
+    spriteSheet: SPT_1.PCK
+    spriteInv: SpartanRiflemanInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 34, 164, 245, 166, 245, 166]
+    corpseBattle:
+      - STR_SPARTAN_1_CORPSE_BATTLE
+    corpseGeo: STR_SPARTAN_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDay: -10
+    camouflageAtDark: -3
+    frontArmor: 8
+    sideArmor: 7
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.4
+      - 0.7
+      - 1.2
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 2 ]
+  - type: SPARTAN_ARMOR_P2
+    spriteSheet: SPT_2.PCK
+    spriteInv: SpartanHeavyInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    corpseBattle:
+      - STR_SPARTAN_2_CORPSE_BATTLE
+    corpseGeo: STR_SPARTAN_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDay: -10
+    camouflageAtDark: -3
+    frontArmor: 9
+    sideArmor: 8
+    rearArmor: 7
+    underArmor: 7
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.3
+      - 0.7
+      - 1.2
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: AUX_FISTO
+    loftempsSet: [ 3 ]
+  - type: SPARTAN_ARMOR_P3
+    spriteSheet: SPT_3.PCK
+    spriteInv: SpartanCaptainInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 34, 164, 245, 166, 245, 166]
+    corpseBattle:
+      - STR_SPARTAN_3_CORPSE_BATTLE
+    corpseGeo: STR_SPARTAN_CORPSE
+    visibilityAtDark: 12
+    camouflageAtDay: -10
+    camouflageAtDark: -3
+    frontArmor: 18
+    sideArmor: 16
+    rearArmor: 12
+    underArmor: 8
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.2
+      - 0.7
+      - 1.2
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_KUNG_FU_ALT
+    loftempsSet: [ 2 ]
+items:
+  - type: STR_SPARTAN_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3560
+    floorSprite: 3560
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_SPARTAN_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3561
+    floorSprite: 3564
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_SPARTAN_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3554
+    floorSprite: 3601
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_SPARTAN_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3555
+    floorSprite: 3563
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45	
+  - type: STR_SPARTAN_CORPSE
+    categories: [STR_BAT_CAT_COMPONENT]
+    #supportedInventorySections: *InventorySectionsStandard
+    size: 0.1
+    costSell: 300
+    bigSprite: 3656
+    floorSprite: 3702
+    weight: 4
+    costThrow:
+      energy: 8
+      time: 40
+    invWidth: 2
+    armor: 70	
+  - type: STR_MERC_SPAWNERE
+    spawnUnit: STR_SPARTAN_SCOUT
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_MERCOFFICER_SPAWNERE
+    spawnUnit: STR_SPARTAN_RIFLEMAN
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4		
+  - type: STR_SPARTAN_SCOUT
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 15000
+  - type: STR_SPARTAN_RIFLEMAN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 10000
+  - type: STR_SPARTAN_HEAVY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 15000
+  - type: STR_SPARTAN_CAPTAIN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 40000

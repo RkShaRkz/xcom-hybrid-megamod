@@ -1,0 +1,71 @@
+eventScripts:
+#-------------------------------------------happens
+  - type: MYSTERY_SCRIPT
+    eventWeights:
+      0:
+        STR_SHIP_LOST: 50
+        STR_DEEP_LIGHTS: 50
+    firstMonth: 0
+    executionOdds: 5
+       
+  - type: HORROR_SEEN_SCRIPT
+    eventWeights:
+      0:
+        STR_HORROR_SEEN: 100
+    firstMonth: 10
+    executionOdds: 5
+    
+  - type: INNSMOUTH_SCRIPT
+    eventWeights:
+      0:
+        STR_INNSMOUTH_1: 100
+      8:
+        STR_INNSMOUTH_1: 50
+        STR_INNSMOUTH_2: 50
+    firstMonth: 5
+    executionOdds: 5
+
+  - type: EXOSUITS_EVENT_SCRIPT
+    eventWeights:
+      0:
+        STR_EXOSUITS_EVENT_1: 30
+        STR_EXOSUITS_EVENT_2: 30
+        STR_EXOSUITS_EVENT_3: 30
+    firstMonth: 0
+    executionOdds: 5
+    researchTriggers:
+       STR_EXOSUIT: true
+       
+  - type: DREAMS_SCRIPT
+    oneTimeSequentialEvents:
+      - STR_DREAMS_1
+      - STR_DREAMS_2
+      - STR_DREAMS_3
+    firstMonth: 3
+    executionOdds: 5
+
+  - type: BARRACUDA_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+      - STR_BARRACUDA_EVENT
+      - STR_BARRACUDA_EVENT
+      - STR_BARRACUDA_EVENT #3 times only
+    firstMonth: 0
+    executionOdds: 5
+    researchTriggers:
+       STR_BARRACUDA: true
+       
+  - type: CURE_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+      - STR_CURE_1_EVENT
+    firstMonth: 0
+    executionOdds: 5
+    researchTriggers:
+       STR_ALIEN_REANIMATION_ZONE: true
+       
+  - type: CURE_2_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+      - STR_CURE_2_EVENT
+    firstMonth: 0
+    executionOdds: 5
+    researchTriggers:
+       STR_ADVANCED_BIONIC: true

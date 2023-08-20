@@ -1,0 +1,167 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_DEMON_SACRIFICE: Demonic Sacrifices
+      STR_MARKER_DEMON_SACRIFICE: Sacrificial Altar
+      STR_ALERT_DEMON_SACRIFICE: Demonic Sacrifices
+      STR_LOC_DEMON_SACRIFICE_BRIEFING: "The Merc Guild has another job for ya, if you are keen. Our underground contacts has detected the Cult of Apocalypse is planning to sacrificing some humans in some dark rituals so to appease their dark gods that they worship. The families of those victims are paying a good reward for their rescue. We must hurry and intercept of these rituals, before it is too late. Remember, no rescue, no reward."   
+alienDeployments:
+  - type: STR_DEMON_SACRIFICE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  
+    alert: STR_ALERT_DEMON_SACRIFICE
+    alertDescription: STR_LOC_DEMON_SACRIFICE_BRIEFING
+    alertBackground: BACK04.SCR
+    unlockedResearch: STR_DEMONSACRIFICE_DONE	
+    briefing:
+      palette: 5
+      music: GMENBASE2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_DEMON_SACRIFICE
+      desc: STR_LOC_DEMON_SACRIFICE_BRIEFING
+    markerName: STR_LOC_DEMON_SACRIFICE
+    duration: [10, 20]
+    despawnPenalty: 50
+    width: 60
+    length: 60
+    height: 8
+    script: DEMON_SACRIFICE
+    data:
+      - alienRank: 8
+        lowQty: 12
+        highQty: 20
+        dQty: 8
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_DEMON_SACRIFICE
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true 
+research:		
+  - name: STR_DEMONSACRIFICE_DONE
+    #requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 50
+    needItem: true
+mapScripts:	  
+  - type: DEMON_SACRIFICE
+    commands:
+    - type: resize
+      size: [8, 8, 18]		
+    - type: addCraft
+    - type: addUFO
+      UFOName: STR_SACRIFICE_ALTAR
+      groups: 1	 
+    - type: addBlock
+      size: [1,1,1]
+      executions: 4	  
+      executionChances: 100
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,1]
+        terrain: NUKEZONEDOWNBUILDING
+    - type: addBlock
+      size: [1,1,1]
+      executions: 2
+      executionChances: 100
+      label: 13
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,1]
+        terrain: NUKEZONEDOWNBUILDING
+    - type: addBlock
+      size: [1,1,1]
+      executions: 1	  
+      executionChances: 100
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,1]
+        terrain: URBANJUNKRAT		
+    - type: addBlock
+      size: 2
+      executions: 3
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain	
+missionScripts:
+  - type: DemonicSacrifice
+    missionWeights:
+      0:
+        STR_LOC_DEMON_SACRIFICE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

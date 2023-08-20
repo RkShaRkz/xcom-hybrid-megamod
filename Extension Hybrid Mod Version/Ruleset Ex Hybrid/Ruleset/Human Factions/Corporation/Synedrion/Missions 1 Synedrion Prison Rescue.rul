@@ -1,0 +1,284 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_PRISONRESCUE_MISSION: "Syn Mission 1: Synedrion Prison Rescue"
+      STR_LOC_PRISONRESCUE: "Syn Mission 1: Synedrion Prison Rescue"
+      STR_MUTANT_CAPTIVES: Mutant Captives  
+      STR_MARKER_PRISONRESCUE: Synedrion Prison Rescue
+      STR_ALERT_PRISONRESCUE: Synedrion Prison Rescue
+      STR_MUTANT_CAPTIVES_UFOPEDIA: "The Mutants are grateful for their rescue. The leader of the Mutant Alliance, the Madam as we call her, will pay us for their safe passage to her, by selling them."
+      STR_LOC_PRISONRESCUE_TEMPERATE_BRIEFING: "The Merc Guild is offering a crucial mission to any units that can rescue some captive Mutants for the Mutant Alliance. If the unit can pull off the rescue, you will win the Alliance big favours. However, these captive mutants are currently held in a heavily fortified Synedrion compound. The rescue pay is above grade."
+alienDeployments:
+  - type: STR_LOC_PRISONRESCUE_MISSION
+    unlockedResearch: STR_MISSION1END  
+    alert: STR_ALERT_PRISONRESCUE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED	
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alertDescription: STR_LOC_PRISONRESCUE_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 6
+      music: GMTACDRY    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_PRISONRESCUE
+      desc: STR_LOC_PRISONRESCUE_TEMPERATE_BRIEFING
+    markerName: STR_MARKER_PRISONRESCUE
+    duration: [25, 10000000000000]
+    #escapeType: 2       	# craft/entry tiles serve as exit
+    #markCiviliansAsVIP: true 	
+    #vipSurvivalPercentage: 100	
+    despawnPenalty: 0
+    width: 80
+    length: 80
+    height: 9
+    script: LOCSCRIPTPRISONRESCUE
+    data:
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+items:
+  - type: STR_MUTANTCAPTIVE_SPAWNER
+    spawnUnit: STR_MUTANT_CAPTIVES
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_MUTANT_CAPTIVES
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 405000			
+ufopaedia:	
+  - id: STR_MUTANT_CAPTIVES
+    requires:
+      - STR_MUTANT_CAPTIVES
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MUTANT_CAPTIVES_UFOPEDIA	
+research:
+  - name: STR_MUTANT_CAPTIVES
+    requiresBaseFunc: [INTERROGATION]	 
+    cost: 1
+    points: 40
+    needItem: true	
+  - name: STR_MISSION1END 
+    points: 25
+    needItem: true	
+alienMissions:
+  - type: STR_LOC_PRISONRESCUE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+         STR_ACADEMY: 100
+    waves:
+      - ufo: STR_LOC_PRISONRESCUE_MISSION
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: synedprisonrescue
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LOC_PRISONRESCUE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    varName: synprisonassad
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_MISSION1END: false	  
+    facilityTriggers:
+      STR_MERCFACILITY: true
+ufos:
+  - type: STR_LOC_PRISONRESCUE
+    battlescapeTerrainData:
+      name: SMALLRRISON
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - XBASE1		
+      mapBlocks:
+        - name: SMALLPRISONPIRATEZ
+          width: 10
+          length: 10		  
+units:
+  - type: STR_MUTANT_CAPTIVES
+    race: STR_LOKNAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: CIV_ARMOR_LOKNAR_1
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    ignoredByAI: true
+terrains:	
+  - name: SMALLRRISONMUTANT
+    mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - XBASE1
+    mapBlocks:
+      - name: SMALLPRISON
+        width: 10
+        length: 10	
+        items:	
+          STR_SYNSOLDIER_SPAWNER: 
+            - [6, 6, 1]
+            - [6, 6, 1]
+            - [6, 6, 1]
+            - [6, 6, 1]			
+          STR_MUTANTCAPTIVE_SPAWNER:			
+            - [3, 3, 0]  			
+            - [3, 3, 0]   			
+            - [6, 6, 0]   			
+        fuseTimers:            
+          STR_SYNSOLDIER_SPAWNER: [0, 0]		  
+          STR_MUTANTCAPTIVE_SPAWNER: [0, 0] 	
+mapScripts:
+  - type: LOCSCRIPTPRISONRESCUE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	
+    - type: addBlock
+      terrain: SMALLRRISONMUTANT
+      executions: 1
+      executionChances: 100 	  
+    - type: addBlock
+      size: [1,1,5]
+      executions: 3  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [1,1,5]
+        terrain: OUTPOSTTOWERFACTION
+    - type: addBlock
+      terrain: SMALLBARRACKFORT
+      executions: 1
+      executionChances: 100 		  
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain		

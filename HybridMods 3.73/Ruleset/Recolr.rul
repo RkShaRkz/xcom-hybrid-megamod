@@ -1,0 +1,10 @@
+customPalettes: 
+  - type: PAL_BATTLESCAPE_1
+    target: PAL_BATTLESCAPE_1
+    file: Resources/Pals/TEST/PAL_BATTLESCAPEORG.pal
+  - type: PAL_BATTLESCAPE_2
+    target: PAL_BATTLESCAPE_2
+    file: Resources/Pals/TEST/PAL_BATTLESCAPE.pal
+  - type: PAL_BATTLESCAPE_3
+    target: PAL_BATTLESCAPE_3
+    file: Resources/Pals/TEST/PAL_BATTLESCAPE.pal

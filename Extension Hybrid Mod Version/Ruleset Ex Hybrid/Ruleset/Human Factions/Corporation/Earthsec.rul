@@ -1,0 +1,355 @@
+extraStrings:
+  - type: en-US
+    strings: 
+	  #DarkWater body guard is using Power armour and Operative is using personal armour.
+      STR_MARSEC_HUNTER_DRONE_TERRORIST_DISASSEMBLY: "D/A: Msc. Hunter Drone (4/7)"
+      STR_MARSEC_SENTRY_DRONE_TERRORIST_DISASSEMBLY: "D/A: Msc. Sentry Drone (3/12)"	
+      STR_MARSEC_HUNTER_DRONE_UFOPEDIA: "A very fast drone designed to quickly find intruders inside of Seasec's vessels and facilities. SHIELDS: 50/10 (Blue). NV: 20. ThV: 50%"
+      STR_MARSEC_SENTRY_DRONE_UFOPEDIA: "A powerful robotic guardian with very fast reactions. SHIELDS: 100/20 (Blue). NV: 20. ThV: 50%"	
+      STR_MARSEC_HUNTER_DRONE_TERRORIST: "DarkWater Hunter Drone"
+      MARSEC_HUNTER_DRONE_ARMOR: "DarkWater Hunter Drone Examination"
+      STR_MARSEC_SENTRY_DRONE_TERRORIST: "DarkWater Sentry Drone"
+      MARSEC_SENTRY_DRONE_ARMOR: "DarkWater Sentry Drone Examination"	
+      MARSEC_ARMOR_P0: "Seasec Marine Armor"    
+      STR_MARSEC_SECURITY_ROBBERY: "Interrogate: Mar. Operative (2/0/0)"
+      STR_MARSEC_BODYGUARD_ROBBERY: "Interrogate: Mar. Bodyguard (1/0/9)"  
+      STR_MARSEC_MARINE_ROBBERY: "Interrogate: Seasec C.M. (2/2/7)"   
+      MARSEC_ARMOR_P0_UFOPEDIA: "Seasec Colonial Marine Armor. Flying. Evasion: REA*20% + MEL*30%. V.Def+35. NV: 30. ThV: 80%. SPOT: 10. SHIELDS: 150/30 (Red)" 
+      FLOATER_ARMOR_P3_UFOPEDIA: "Commerce Syndicate Powered Armor. NV: 20. ThV: 60%"	
+      FLOATER_ARMOR_P2_UFOPEDIA: "Commerce Syndicate Security Armor. NV: 16. ThV: 40%"	
+      FLOATER_ARMOR_P2: "Commerce SyndicateSecurity Armor"
+      FLOATER_ARMOR_P3: "Commerce Syndicate Powered Armor"	
+      MARSEC_ARMOR_P0: "Seasec Marine Armor"   
+      STR_MARSEC_MARINE: "DarkWater Special Agent" 	  
+      STR_MARSEC_MARINEID: "DarkWater Special Agent ID" 
+      STR_MARSEC_MARINE_UFOPEDIA: "The job of the special agent is field operation. They will do intelligence service for their clients in hostile countries or targeted cities, their work will include spying and espionage "	
+      STR_MARSEC_SECURITY: "DarkWater Special Operative" #Tac armour from police.
+      STR_MARSEC_SECURITYID: "DarkWater Special Operative ID" #Tac armour from police.
+      STR_MARSEC_SECURITY_UFOPEDIA: "The job of an DarkWater Special Operative is to coordinate field agents in gathering intel and supervising support for these agents. Their job will include running hidden cells of agents, crytography and etc. If not in hostile deployment, their job also in charge of team security, providing team leader support for guards and agents protecting V.I.P"		  
+      STR_MARSEC_BODYGUARDID: "DarkWater Special Guard ID" #Police armour 	  
+      STR_MARSEC_BODYGUARD: "DarkWater Special Guard" #Police armour 
+      STR_MARSEC_BODYGUARD_UFOPEDIA: "DarkWater Special Guard is just another fancy name for bodyguard duties. Their role is to protect V.I.P or important security sites. They usually carries conceal weapons to protect of their V.I.P charge."	  
+      STR_HUMAN_SOLDIER_COMMANDO: "DarkWater Special Commando"
+      STR_HUMAN_SOLDIER_COMMANDOID: "DarkWater Special Commando ID"		
+      STR_HUMAN_SOLDIER_COMMANDO_UFOPEDIA: "Special Commandos are mostly ex-special forces, train in Covert Ops, Sniping and other duties only found in Special Forces missions. This include rescuing hostages, killing Terrorist and infiltration duties."  	
+      STR_MARSEC: "DarkWater Private Security"  
+      STR_MARSEC_UFOPEDIA: "DarkWater Private Security is a specialised Mercenary outfit that hires only ex-special forces soldiers. This Private Security operates in a niche market, doing special jobs like mostly private security or special forces. For Private Security, these soldiers are contract out for VIP duties and Special forces are asigned to Covert Ops and Special Missions."   
+alienRaces:
+  - id: STR_MARSEC
+    members:
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_HUMAN_SOLDIER_COMMANDO
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+    retaliationAggression: -100
+  - id: STR_MARSEC_UNDERWATER	
+    members:
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+      - STR_MARSEC_SECURITY
+    retaliationAggression: -100	
+ufopaedia:	
+  - id: STR_HUMAN_SOLDIER_COMMANDO
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_HUMAN_SOLDIER_COMMANDO
+    text: STR_HUMAN_SOLDIER_COMMANDO_UFOPEDIA
+    text_width: 180
+    listOrder: 21300	
+  - id: STR_MARSEC
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MARSEC
+    text: STR_MARSEC_UFOPEDIA
+    text_width: 140
+    listOrder: 21002 
+  - id: STR_MARSEC_SECURITY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MARSEC_SECURITY
+    text: STR_MARSEC_SECURITY_UFOPEDIA
+    text_width: 180
+    listOrder: 21125 	  
+research:
+  - name: STR_HUMAN_SOLDIER_COMMANDO
+    requiresBaseFunc: [INTERROGATION]     
+    cost: 20
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MARSEC	  
+  - name: STR_MARSEC
+    ##requiresBaseFunc: [RESEARCH]   
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_MARSEC_SECURITY
+      - STR_HUMAN_SOLDIER_COMMANDO  
+  - name: STR_MARSEC_SECURITY
+    requiresBaseFunc: [INTERROGATION]   
+    cost: 15
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_MARSEC
+units:
+  - type: STR_HUMAN_SOLDIER_COMMANDO
+    race: STR_RACE_HUMAN
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 80
+      firing: 95
+      throwing: 50
+      strength: 40
+      psiStrength: 2
+      psiSkill: 0
+      melee: 60
+      #Mana: 120
+    armor: SOLDIER_ARMOR_P0
+    standHeight: 22
+    kneelHeight: 14
+    value: 0
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 6
+    aggression: 1
+    sniper: 50
+    spotter: 3
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP				
+  - type: STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+    race: STR_MARSEC
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 80
+      stamina: 110
+      health: 62
+      bravery: 80
+      reactions: 75
+      firing: 110
+      throwing: 70
+      strength: 52
+      psiStrength: 44
+      psiSkill: 0
+      melee: 72
+      #Mana: 110
+    armor: STR_DEEPSEASUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 25
+    deathSound: [41, 42, 43]
+    energyRecovery: 50
+    intelligence: 6
+    aggression: 2
+    sniper: 33
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_HEAVY_LASER		
+        - STR_GRENADE	
+        - STR_GRENADE
+        - STR_GRENADE		
+    canSurrender: true	
+  - type: STR_MARSEC_SECURITY
+    race: STR_MARSEC
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 55
+      stamina: 80
+      health: 45
+      bravery: 70
+      reactions: 50
+      firing: 70
+      throwing: 55
+      strength: 42
+      psiStrength: 38
+      psiSkill: 0
+      melee: 60
+      #Mana: 90
+    armor: FLOATER_ARMOR_P2
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 20
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    sniper: 33
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	 
+        - STR_SMG_CLIP		
+armors:
+  - type: SOLDIER_ARMOR_P0
+    spriteSheet: SOL_0.PCK
+    spriteInv: HumanCommandoInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    corpseBattle:
+      - STR_SOLDIER_0_CORPSE_BATTLE
+    #corpseGeo: STR_ELECTRONIC_PIECES
+    visibilityAtDark: 20
+    camouflageAtDay: -15
+    camouflageAtDark: -5
+    heatVision: 60
+    frontArmor: 32
+    sideArmor: 28
+    rearArmor: 24
+    underArmor: 16
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      #health: *SECTION_HEALTH_RECOVERY_TOUGH
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.0 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]	
+  - type: FLOATER_ARMOR_P2
+    spriteSheet: BAN_1.PCK
+    spriteInv: GhoulInventoryImage
+    corpseBattle:
+      - STR_TRADER_1_CORPSE_BATTLE
+    #corpseGeo: STR_SECURITY_CORPSE
+    visibilityAtDark: 12
+    heatVision: 50
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    meleeDodge:
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 0.5
+      - 1.0
+      - 3.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.2 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]  
+items:	
+  - type: STR_SOLDIER_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 45
+    bigSprite: 3730
+    floorSprite: 3730
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 55	
+  - type: STR_TRADER_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 50
+    bigSprite: 3601
+    floorSprite: 3601
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 65	
+  - type: STR_MARSEC_SECURITY
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    #liveAlien: true
+    costSell: 65000		
+  - type: STR_HUMAN_SOLDIER_COMMANDO
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    #liveAlien: true
+    costSell: 65000
+  - type: STR_HUMAN_SOLDIER_COMMANDO_UNDERWATER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    #prisonType: 1		
+    #liveAlien: true
+    #costSell: 65000 
+    recoveryTransformations:
+      STR_HUMAN_SOLDIER_COMMANDO: [1] 

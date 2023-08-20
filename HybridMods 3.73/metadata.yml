@@ -1,0 +1,10 @@
+name: "Hybridmod"
+version: "3.72"
+requiredExtendedVersion: "NA"
+author: "Precentor Apollyon"
+description: "Full Hybridgame."
+id: FullHybridgame
+master: xcom1
+#isMaster: true
+reservedSpace: 4
+resourceConfig: Ruleset/transparency.rul

@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - CS Adam
+  - CS Adrian
+  - CS Aidan
+  - CS Alan
+  - CS Alexander
+  - CS Alistair
+  - CS Andrew
+  - CS Arthur
+  - CS Ben
+  - CS Benjamin
+  - CS Bradley
+  - CS Brendan
+  - CS Brett
+  - CS Bruce
+  - CS Carl
+  - CS Charles
+  - CS Charlie
+  - CS Christopher
+  - CS Colin
+  - CS Connor
+  - CS Craig
+  - CS Damien
+  - CS Daniel
+  - CS David
+  - CS Declan
+  - CS Derek
+  - CS Desmond
+  - CS Donald
+  - CS Dylan
+  - CS Edmund
+  - CS Edward
+  - CS Euan
+  - CS Frank
+  - CS Francis
+  - CS Gareth
+  - CS Gary
+  - CS Geoffrey
+  - CS George
+  - CS Graeme
+  - CS Graham
+  - CS Grant
+  - CS Gregor
+  - CS Gregory
+  - CS Hamish
+  - CS Harold
+  - CS Harry
+  - CS Ian
+  - CS Iain
+  - CS James
+  - CS Jason
+  - CS John
+  - CS Jordan
+  - CS Keith
+  - CS Ken
+  - CS Kenneth
+  - CS Lewis
+  - CS Liam
+  - CS Malcolm
+  - CS Mark
+  - CS Michael
+  - CS Neil
+  - CS Patrick
+  - CS Paul
+  - CS Peter
+  - CS Raymond
+  - CS Rhys
+  - CS Richard
+  - CS Robert
+  - CS Rory
+  - CS Roy
+  - CS Ryan
+  - CS Samuel
+  - CS Scott
+  - CS Simon
+  - CS Stephen
+  - CS Steven
+  - CS Thomas
+  - CS William
+femaleFirst:
+  - CS Abigail
+  - CS Aileen
+  - CS Ailsa
+  - CS Alice
+  - CS Alison
+  - CS Amy
+  - CS Andrea
+  - CS Ann
+  - CS Anna
+  - CS Annabel
+  - CS Anne
+  - CS Bridget
+  - CS Carol
+  - CS Catherine
+  - CS Clara
+  - CS Claire
+  - CS Clare
+  - CS Courtney
+  - CS Cynthia
+  - CS Eleanor
+  - CS Elizabeth
+  - CS Emily
+  - CS Emma
+  - CS Fiona
+  - CS Frances
+  - CS Gail
+  - CS Gemma
+  - CS Gillian
+  - CS Gilly
+  - CS Grace
+  - CS Hanna
+  - CS Hannah
+  - CS Harriet
+  - CS Heather
+  - CS Helen
+  - CS Holly
+  - CS Isabel
+  - CS Isobel
+  - CS Isla
+  - CS Jade
+  - CS Jane
+  - CS Janet
+  - CS Janice
+  - CS Janine
+  - CS Jayne
+  - CS Jean
+  - CS Jenna
+  - CS Jennifer
+  - CS Jenny
+  - CS Jessica
+  - CS Jill
+  - CS Joyce
+  - CS Kate
+  - CS Katie
+  - CS Kimberley
+  - CS Kirsten
+  - CS Kirsty
+  - CS Kylie
+  - CS Lauren
+  - CS Lesley
+  - CS Leslie
+  - CS Lilleth
+  - CS Lillian
+  - CS Lindsay
+  - CS Lisa
+  - CS Lorna
+  - CS Lucy
+  - CS Lynn
+  - CS Lynette
+  - CS Margaret
+  - CS Maria
+  - CS Mary
+  - CS Megan
+  - CS Moira
+  - CS Murron
+  - CS Patricia
+  - CS Rebecca
+  - CS Samantha
+  - CS Sarah
+  - CS Shannon
+  - CS Siobhan
+  - CS Stacey
+  - CS Theresa
+  - CS Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

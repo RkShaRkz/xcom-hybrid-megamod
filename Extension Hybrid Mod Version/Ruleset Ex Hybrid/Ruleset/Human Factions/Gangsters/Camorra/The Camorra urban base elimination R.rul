@@ -1,0 +1,134 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_OSIRON_STAKEOUTXX: "Gang urban base elimination"
+        STR_OSIRON_STAKEOUT_DESCRIPTION: "The Merc Guild has the scoop that some Gang is making base from a house in the slum of this city. Of course the city's mayor is not happy about it. He will pay a good bounty for their elimination. Our news crew will cover the scoop, while you have to also defend them."
+        STR_OSIRON_STAKEOUTXX_BRIEFING: "The Merc Guild has got the scoop that some Gang is making base from a house in the slum of this city. Of course the city's mayor is not happy about it. He will pay a good bounty for their elimination. Our news crew will cover the scoop, while you have to also defend them."
+        STR_ALERT_OSIRON_STAKEOUT: "Gang urban urban base elimination"
+alienDeployments:
+  - type: STR_OSIRON_STAKEOUTXX
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	     
+    width: 40
+    length: 40
+    height: 18
+    alert: STR_ALERT_OSIRON_STAKEOUT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_OSIRON_STAKEOUT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_OSIRON_STAKEOUTXX_BRIEFING  
+    markerName: STR_OSIRON_STAKEOUT
+    duration: [90, 160]
+    despawnPenalty: 70
+    script: GENERALSLUMWAR
+    customUfo: STR_STAKEOUTHOUSE
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []		
+mapScripts:
+  - type: GENERALSLUMWAR
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN			
+alienMissions:
+  - type: STR_OSIRON_STAKEOUT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 100
+          STR_EXALT: 100
+          STR_OSIRON: 100
+          STR_BLACK_LOTUS: 100
+    waves:
+      - ufo: STR_OSIRON_STAKEOUT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+ufos:
+  - type: STR_STAKEOUTHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10		
+missionScripts:
+  - type: osironStakeoutStandard
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_OSIRON_STAKEOUT: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

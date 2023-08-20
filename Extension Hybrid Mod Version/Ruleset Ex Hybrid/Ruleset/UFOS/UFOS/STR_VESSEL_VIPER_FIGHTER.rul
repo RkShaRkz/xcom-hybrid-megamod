@@ -1,0 +1,99 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_VIPER_FIGHTER: UAC-RG1 Raptor Heavy Fighter
+      STR_VESSEL_VIPER_FIGHTER_UFOPEDIA: "The UAC-RG1 Raptor Heavy Fighter is a mass produce heavy fighter used by the various faction from around the world. It is heavy armed with excellent speed to fight of any sky battles without good results."
+ufopaedia:
+  - id: STR_VESSEL_VIPER_FIGHTER
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_VIPER_FIGHTER
+research:
+  - name: STR_VESSEL_VIPER_FIGHTER
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_VIPER_FIGHTER
+ufos:
+  - type: STR_VESSEL_VIPER_FIGHTER
+    size: STR_SMALL
+    modSprite: InterceptionViper
+    hitBonus: 40
+    radarRange: 200
+    hunterKillerPercentage: 100
+    huntBehavior: 2
+    armor: 3
+    damageMax: 70
+    speedMax: 2850
+    avoidBonus: 30
+    accel: 3
+    power: 100
+    range: 60
+    reload: 72
+    fireSound: 305	
+    score: 400
+    breakOffTime: 1200
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: NIGHTMARE
+      mapDataSets:
+        - BLANKS
+        - PLANE2
+        - XOPSTRANSPORT2
+        - INTRCEPT3X
+        - LIFTER		
+      mapBlocks:
+        - name: NIGHTMAREENEMY
+          width: 20
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_VIPER_FIGHTER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_VIPER_FIGHTER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_VIPER_FIGHTER_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_VIPER_FIGHTER
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []

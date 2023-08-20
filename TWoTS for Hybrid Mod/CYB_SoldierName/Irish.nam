@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - CS Aidan
+  - CS Andrew
+  - CS Brendon
+  - CS Cathal
+  - CS Cian
+  - CS Cillian
+  - CS Conor
+  - CS Cormac
+  - CS Daniel
+  - CS Darragh
+  - CS David
+  - CS Donal
+  - CS Eoghan
+  - CS Eoin
+  - CS Finn
+  - CS Jack
+  - CS James
+  - CS John
+  - CS Liam
+  - CS Luke
+  - CS Michael
+  - CS Mick
+  - CS Oisin
+  - CS Owen
+  - CS Paddy
+  - CS Padraig
+  - CS Pat
+  - CS Patrick
+  - CS Pete
+  - CS Ronan
+  - CS Rory
+  - CS Sean
+  - CS Thomas
+femaleFirst:
+  - CS Aine
+  - CS Aisling
+  - CS Aoife
+  - CS Caoimhe
+  - CS Ciara
+  - CS Clara
+  - CS Fiona
+  - CS Grainne
+  - CS Karen
+  - CS Kate
+  - CS Kathleen
+  - CS Lisa
+  - CS Lorna
+  - CS Mary
+  - CS Michelle
+  - CS Niamh
+  - CS Orla
+  - CS Rachel
+  - CS Roisin
+  - CS Saoirse
+  - CS Sarah
+  - CS Shauna
+  - CS Sinead
+  - CS Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

@@ -1,0 +1,548 @@
+armors: #done
+  - type: TRICENE_ARMOR
+    spriteSheet: TRD_6.PCK 
+    allowInv: false
+    corpseBattle:
+      - TRICENE_CORPSE_1
+      - TRICENE_CORPSE_2
+      - TRICENE_CORPSE_3
+      - TRICENE_CORPSE_4
+    frontArmor: 120
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 8
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.9 #Fire
+      - 0.9 #HE
+      - 0.8 #Laser
+      - 0.9 #Plasma
+      - 0.9 #Stunt
+      - 1.1 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.2 #Electric
+      - 1.0 #BiorganicSpikes
+      - 200.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_DEEPSEASUIT_UC_LAND
+    spriteSheet: XCOM_20.PCK
+    spriteInv: MAN_20
+    corpseItem: STR_CORPSESUIT
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.8 #Fire
+      - 0.9 #HE
+      - 0.9 #Laser
+      - 1.0 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon			  
+    loftemps: 3
+    drawingRoutine: 13
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+  - type: STR_PLASTIC_AQUA_ARMOR_UC_LAND
+    spriteSheet: XCOM10.PCK
+    spriteInv: MAN_23
+    corpseItem: STR_PLASTICCORPSE_ARMOR
+    frontArmor: 60
+    sideArmor: 35
+    rearArmor: 30
+    underArmor: 25
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.8 #Fire
+      - 0.9 #HE
+      - 0.8 #Laser
+      - 0.9 #Plasma
+      - 0.7 #Stunt
+      - 0.9 #Melee 
+      - 0.9 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 0.8 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon			  
+    loftempsSet: [ 3 ]
+    drawingRoutine: 13
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+  - type: STR_ION_ARMOR_UC_LAND
+    spriteSheet: XCOM11.PCK
+    spriteInv: MAN_12
+    corpseItem: STR_CORPSE_ION
+    frontArmor: 132
+    sideArmor: 70
+    rearArmor: 100
+    underArmor: 55
+    damageModifier:
+      - 1.0 #None
+      - 0.7 #NormalBullets
+      - 0.0 #Fire
+      - 0.8 #HE
+      - 0.7 #Laser
+      - 0.8 #Plasma
+      - 0.7 #Stunt
+      - 0.9 #Melee 
+      - 0.9 #Acid
+      - 0.0 #Smoke
+      - 0.6 #Sonic
+      - 0.9 #GaussAP
+      - 0.7 #Electric
+      - 0.9 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon			  
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+  - type: STR_MAGNETIC_ION_ARMOR_UC_LAND
+    spriteSheet: XCOM11.PCK
+    spriteInv: MAN_88
+    corpseItem: STR_CORPSE_ION
+    frontArmor: 142
+    sideArmor: 80
+    rearArmor: 110
+    underArmor: 65
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 0.0 #Fire
+      - 0.7 #HE
+      - 0.6 #Laser
+      - 0.7 #Plasma
+      - 0.6 #Stunt
+      - 0.8 #Melee 
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.5 #Sonic
+      - 0.8 #GaussAP
+      - 0.6 #Electric
+      - 0.8 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon			  
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+    movementType: 3
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+  - type: AQUATOID_ARMOR0
+    spriteSheet: AQUATOID.PCK
+    corpseItem: STR_AQUATOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.95
+      - 0.95
+      - 0.95
+      - 1.0
+      - 0.95
+      - 1.0
+      - 1.4
+      - 1.5
+      - 0.0 #Smoke
+      - 0.75 #Sonic
+      - 1.1 #GaussAP
+      - 0.95 #Electric
+      - 1.2 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon			  
+    loftempsSet: [ 2 ]
+    drawingRoutine: 15
+  - type: DEEP_ONE_ARMOR0
+    spriteSheet: DEEPONE.PCK
+    allowInv: false
+    corpseItem: STR_DEEP_ONE_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.9 #Fire
+      - 0.8 #HE
+      - 0.9 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.2 #GaussAP
+      - 0.9 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: GILLMAN_ARMOR0
+    spriteSheet: GILLMAN.PCK
+    corpseItem: STR_GILLMAN_CORPSE
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.2 #GaussAP
+      - 0.9 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: TASOTH_ARMOR0
+    spriteSheet: TASOTHNEW.PCK
+    corpseItem: STR_TASOTH_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.9 #HE
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 1.1 #Stunt
+      - 0.9 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.2 #GaussAP
+      - 1.1 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftemps: 3
+    drawingRoutine: 14
+  - type: CALCINITE_ARMOR0
+    spriteSheet: CALCIN.PCK
+    allowInv: false
+    corpseItem: STR_CALCINITE_CORPSE
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.9 #Fire
+      - 1.0 #HE
+      - 0.9 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 0.8 #Melee 
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.2 #GaussAP
+      - 0.8 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: TENTACULAT_ARMOR0
+    spriteSheet: CHUPACABRA.PCK
+    allowInv: false
+    corpseItem: STR_TENTACULAT_CORPSE
+    frontArmor: 45
+    sideArmor: 25
+    rearArmor: 15
+    underArmor: 5
+    movementType: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 1.0 #Fire
+      - 1.5 #HE
+      - 0.8 #Laser
+      - 1.0 #Plasma
+      - 1.1 #Stunt
+      - 1.1 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 1.2 #GaussAP
+      - 0.5 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftemps: 2
+    drawingRoutine: 19	
+  - type: LOBSTERMAN_ARMOR0
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 0.2 #NormalBullets
+      - 0.3 #Fire
+      - 0.3 #HE
+      - 0.3 #Laser
+      - 0.8 #Plasma
+      - 1.1 #Stunt
+      - 2.0 #Melee 
+      - 1.1 #Acid
+      - 0.0 #Smoke
+      - 0.3 #Sonic
+      - 0.9 #GaussAP
+      - 0.4 #Electric
+      - 0.3 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: LOBSTERMAN_ARMOR1
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 18
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 0.2 #NormalBullets
+      - 0.3 #Fire
+      - 0.3 #HE
+      - 0.3 #Laser
+      - 0.8 #Plasma
+      - 1.1 #Stunt
+      - 2.0 #Melee 
+      - 1.1 #Acid
+      - 0.0 #Smoke
+      - 0.3 #Sonic
+      - 0.9 #GaussAP
+      - 0.4 #Electric
+      - 0.3 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: LOBSTERMAN_ARMOR2
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    frontArmor: 22
+    sideArmor: 22
+    rearArmor: 20
+    underArmor: 12
+    damageModifier:
+      - 1.0 #None
+      - 0.2 #NormalBullets
+      - 0.3 #Fire
+      - 0.3 #HE
+      - 0.3 #Laser
+      - 0.8 #Plasma
+      - 1.1 #Stunt
+      - 2.0 #Melee 
+      - 1.1 #Acid
+      - 0.0 #Smoke
+      - 0.3 #Sonic
+      - 0.9 #GaussAP
+      - 0.4 #Electric
+      - 0.3 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]	  
+  - type: BIODRONE_ARMOR0
+    spriteSheet: BIODRONE.PCK
+    allowInv: false
+    corpseItem: STR_BIODRONE_CORPSE
+    frontArmor: 25
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 5
+    movementType: 1
+    fearImmune: true	
+    bleedImmune: true	
+    painImmune: true		
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.6 #HE
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.9 #Stunt
+      - 1.45 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.2 #GaussAP
+      - 1.5 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+    drawingRoutine: 16
+    constantAnimation: true
+  - type: COELACANTH_ARMOR_LAND
+    spriteSheet: OLDAQUATANKS.PCK
+    allowInv: false
+    #corpseGeo: STR_COELACANTH_CORPSE
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    fearImmune: true	
+    bleedImmune: true	
+    painImmune: true		
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.8 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.5 #GaussAP
+      - 1.3 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+  - type: DISPLACER_ARMOR_LAND
+    spriteSheet: OLDAQUATANKS.PCK
+    allowInv: false
+    #corpseGeo: STR_DISPLACER_CORPSE
+    corpseBattle:
+      - DISPLACER_CORPSE_1
+      - DISPLACER_CORPSE_2
+      - DISPLACER_CORPSE_3
+      - DISPLACER_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    movementType: 1
+    fearImmune: true	
+    bleedImmune: true	
+    painImmune: true		
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.7 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.5 #GaussAP
+      - 1.3 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    constantAnimation: true	

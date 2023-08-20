@@ -1,0 +1,127 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_TAVERNX : "Raid Hostile Party"
+      STR_MARKER_TAVERN: Party Location
+      STR_ALERT_TAVERN: "Raid Hostile Party"
+      STR_MISSION_TAVERN: "Raid Hostile Party!"
+      STR_LOC_TAVERN_BRIEFING: "The Mercenary guild has detected news of an enemy faction is meeting to plan of a raid from a tavern nearby. The guild wants a Merc unit to raid of this tavern and desrupt of the meeting. Eliminate all and you will be rewarded handsomely"   
+alienDeployments:
+  - type: STR_LOC_TAVERNX 
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_TAVERN
+    alertDescription: STR_LOC_TAVERN_BRIEFING
+    alertBackground: BACK04.SCR
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 2
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_MISSION_TAVERN
+      desc: STR_LOC_TAVERN_BRIEFING
+    markerName: STR_MARKER_TAVERN
+    duration: [12, 36]
+    despawnPenalty: 100
+    width: 30
+    length: 30
+    height: 7
+    terrains:
+      - URBAN	
+    script: DTAVERNMISSION 
+    data:
+      - alienRank: 5
+        lowQty: 16
+        highQty: 24
+        dQty: 6
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_TAVERN
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_LOC_TAVERNX 
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: partyTime
+    missionWeights:
+      0:
+        STR_LOC_TAVERN: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    firstMonth: 0
+    executionOdds: 4
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:	 
+  - type: DTAVERNMISSION
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN 
+      groups: 1		  
+    - type: addBlock
+      size: 3	
+      terrain: DTAVERN 
+    - type: fillArea
+      terrain: URBAN 
+terrains:
+  - name: DTAVERN
+    mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+    mapBlocks:
+      - name: D_TAVERN
+        width: 30
+        length: 30

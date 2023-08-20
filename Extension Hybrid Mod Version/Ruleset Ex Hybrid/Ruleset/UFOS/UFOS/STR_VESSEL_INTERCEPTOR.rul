@@ -1,0 +1,81 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_VESSEL_INTERCEPTOR_UNDERWATER: "Mig-40 FireFox Underwater"	
+      STR_VESSEL_INTERCEPTOR: "Mig-40 FireFox"
+      STR_VESSEL_INTERCEPTOR_UFOPEDIA: "The Mig 40 FireFox is the former U.S.S.R premiere long duration heavy intercetor with mach 2+ capabilities. Its vast internal fuel tank enable it to stay in the air for a long time for interception and escort duties."  	  
+ufopaedia:
+  - id: STR_VESSEL_INTERCEPTOR
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_BRAVEWHALERPLANS
+    text: STR_VESSEL_INTERCEPTOR_UFOPEDIA
+research:
+  - name: STR_VESSEL_INTERCEPTOR
+    points: 50
+    cost: 180	
+    needItem: true
+    needItem: true	
+ufos:
+  - type: STR_VESSEL_INTERCEPTOR
+    size: STR_VERY_SMALL
+    sprite: 0
+    modSprite: BIG_BRAVE_WHALER_CPAL
+    damageMax: 65
+    speedMax: 3655
+    accel: 3	
+    power: 70
+    range: 30
+    score: 50
+    reload: 48
+    breakOffTime: 100
+    fireSound: 305
+    armor: 5
+    radarRange: 300
+    huntBehavior: 0	
+    huntMode: 2
+    huntSpeed: 50	
+    hunterKillerPercentage: 30
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0		
+    battlescapeTerrainData:
+      name: VESSEL_CC5
+      mapDataSets:
+        - BLANKS
+        - PLANE3
+        - INTRCEPT3
+      mapBlocks:
+        - name: WHALEINTERCEPT
+          width: 20
+          length: 20		
+alienDeployments:
+  - type: STR_VESSEL_INTERCEPTOR
+    missionBountyItem: STR_BRAVEWHALERPLANS 
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_INTERCEPTOR_UNDERWATER
+    depth: [1, 1]  
+    missionBountyItem: STR_BRAVEWHALERPLANS 	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

@@ -1,0 +1,116 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_MAGAZYNMAFII: "Bandits Elimination"
+      STR_LOC_MAGAZYNMAFII_TITLE: "Bandits Elimination"
+      STR_MARKER_LOC_MAGAZYNMAFII: "Bandits Elimination"
+      STR_LOC_MAGAZYNMAFII_BRIEFING: "The Bandits are having a meet up in a house nearby. The Merc Guild has put a bounty on their elimination. Should be an easy mission for any small mercenary units."    
+alienDeployments:
+  - type: STR_LOC_MAGAZYNMAFII
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  
+    alert: STR_LOC_MAGAZYNMAFII
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_MAGAZYNMAFII_BRIEFING
+    briefing:
+      palette: 4
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_MAGAZYNMAFII_TITLE
+      desc: STR_LOC_MAGAZYNMAFII_BRIEFING
+    markerName: STR_MARKER_LOC_MAGAZYNMAFII
+    duration: [75, 150]
+    customUfo: STR_TRAITORHOUSE
+    script: GENERALSPAWN	
+    width: 60
+    length: 60
+    height: 9
+    data:
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+ufos:
+  - type: STR_TRAITORHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: TRAITORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10		  
+alienMissions:
+  - type: STR_LOC_MAGAZYNMAFII
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_RAIDER: 10	  
+          STR_BANDIT_ROBBERS: 10
+          STR_RAIDER_TERROR: 10
+          STR_RATMEN: 15
+          STR_BANDIT_ROBBERS: 15
+          STR_BANDIT_TOWN: 15	
+          STR_BANDIT: 15
+          STR_BANDIT_VILLAGE: 10
+    waves:
+      - ufo: STR_LOC_MAGAZYNMAFII
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: DoubleCrossingDudes
+    missionWeights:
+      0:
+        STR_LOC_MAGAZYNMAFII: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true   

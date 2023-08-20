@@ -1,0 +1,31 @@
+# X-COM 1 (UFO: Enemy Unknown) ruleset
+# For documentation on these values, see http://ufopaedia.org/index.php?title=Rulesets_(OpenXcom)
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 6
+  day: 1
+  month: 1
+  year: 2040
+baseDefenseMapFromLocation: 1
+costEngineer: 25000
+costScientist: 30000
+initialFunding: 7500	  
+timePersonnel: 72
+disableUnderwaterSounds: true
+alienFuel: [STR_ELERIUM_115, 50]
+fontName: Font.dat
+#transparencyLUTs: #done
+#  - colors: 
+#     - [  8,  8, 12, 2 ] # "white"
+#     - [ 16,  8,  0, 2 ] # orange
+#     - [  0, 12, 12, 2 ] # cyan
+#     - [  4, 16,  4, 2 ] # green
+
+constants: 
+  - explosionOffset: 8
+  - smokeOffset: 230
+  - underwaterSmokeOffset: 238  
+#  - smokeOffset: 56
+#  - underwaterSmokeOffset: 8

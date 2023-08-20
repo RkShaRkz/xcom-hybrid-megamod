@@ -1,0 +1,96 @@
+lookWeight:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - MPS Johan
+  - MPS Fredrik
+  - MPS Sten
+  - MPS Olof
+  - MPS Anders
+  - MPS Sven
+  - MPS Mattias
+  - MPS Jesper
+  - MPS David
+  - MPS Henrik
+  - MPS Lars
+  - MPS Mikael
+  - MPS Andreas
+  - MPS Robin
+  - MPS Christian
+  - MPS Joakim
+  - MPS John
+  - MPS Linus
+  - MPS Mats
+  - MPS Tommy
+  - MPS Per
+  - MPS Sebastian
+  - MPS Edvin
+  - MPS Bo
+  - MPS Leif
+  - MPS Jens
+  - MPS Jonas  
+  - MPS Peter
+  - MPS Thomas
+  - MPS Erik
+femaleFirst:
+  - MPS Christine
+  - MPS Annika
+  - MPS Isabel
+  - MPS Anna
+  - MPS Lena
+  - MPS Mia
+  - MPS Pia
+  - MPS Petra
+  - MPS Madeleine
+  - MPS Johanna
+  - MPS Gunilla
+  - MPS Eva
+  - MPS Ellinor
+  - MPS Elisabet
+  - MPS Amanda
+  - MPS Carin
+  - MPS Mikaela
+  - MPS Magdalena
+  - MPS Ellen
+  - MPS Ingrid
+  - MPS Inger
+  - MPS Linda
+  - MPS Karin
+  - MPS Maria  
+  - MPS Sara
+  - MPS Emma  
+  - MPS Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

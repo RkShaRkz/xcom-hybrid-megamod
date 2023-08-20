@@ -1,0 +1,160 @@
+# Note: It's not a coincidence that the last names mirror the male names, traditionally "last" names in ethiopia are the father or grandfather's first name.
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - CS Abebe
+  - CS Adamu
+  - CS Ahadu
+  - CS Alem
+  - CS Alemu
+  - CS Alem Neh
+  - CS Amara
+  - CS Amare
+  - CS Assefa
+  - CS Asnake
+  - CS Bekele
+  - CS Berhanu
+  - CS Berihun
+  - CS Bogale
+  - CS Brehan
+  - CS Brehanu
+  - CS Dabir
+  - CS Dahnay
+  - CS Daniachew
+  - CS Dawit
+  - CS Demeke
+  - CS Demissie
+  - CS Desta
+  - CS Gebra Hana
+  - CS Gebre Kiristos
+  - CS Gere Mariam
+  - CS Geriel
+  - CS Getachew
+  - CS Geteye
+  - CS Girma
+  - CS Hagos
+  - CS Hakim
+  - CS Iskinder
+  - CS Kaleb
+  - CS Kebede
+  - CS Kelile
+  - CS Lake
+  - CS Lebna
+  - CS Lemma
+  - CS Li'ol
+  - CS Mebrete
+  - CS Mebreatu
+  - CS Mechela
+  - CS Melku
+  - CS Mulu Alem
+  - CS Negasi
+  - CS Nigus
+  - CS Tesfa
+  - CS Tesfaye
+  - CS Wendimu
+  - CS Werkneh
+  - CS Yonas
+femaleFirst:
+  - CS Aamina
+  - CS Abeba
+  - CS Abebech
+  - CS Abrihet
+  - CS Adina
+  - CS Afework
+  - CS Afeworki
+  - CS Aisha
+  - CS Alem Nesh
+  - CS Amira
+  - CS Asnaku
+  - CS Aster
+  - CS Ayana
+  - CS Berta
+  - CS Bogalech
+  - CS Brehane
+  - CS Brihan
+  - CS Dahnay
+  - CS Demeku
+  - CS Desta
+  - CS Edom
+  - CS Eldana
+  - CS Eleni
+  - CS Elhanan
+  - CS Elsa
+  - CS Gabra
+  - CS Genet
+  - CS Hagos
+  - CS Helen
+  - CS Kassa
+  - CS Kebedech
+  - CS Lakech
+  - CS Lielit
+  - CS Makeda
+  - CS Martha
+  - CS Melke
+  - CS Meseret
+  - CS Mihret
+  - CS Mulu Ken
+  - CS Nigest
+  - CS Rahel
+  - CS Samrawit
+  - CS Sara
+  - CS Tenagne
+  - CS Werknesh
+  - CS Yenee
+  - CS Zema
+maleLast:
+  - Abebe
+  - Adamu
+  - Ahadu
+  - Alem
+  - Alemu
+  - Alem Neh
+  - Amara
+  - Amare
+  - Assefa
+  - Asnake
+  - Bekele
+  - Berhanu
+  - Berihun
+  - Bogale
+  - Brehan
+  - Brehanu
+  - Dabir
+  - Dahnay
+  - Daniachew
+  - Dawit
+  - Demeke
+  - Demissie
+  - Desta
+  - Gebra Hana
+  - Gebre Kiristos
+  - Gere Mariam
+  - Geriel
+  - Getachew
+  - Geteye
+  - Girma
+  - Hagos
+  - Hakim
+  - Iskinder
+  - Kaleb
+  - Kebede
+  - Kelile
+  - Lake
+  - Lebna
+  - Lemma
+  - Li'ol
+  - Mebrete
+  - Mebreatu
+  - Mechela
+  - Melku
+  - Mulu Alem
+  - Negasi
+  - Nigus
+  - Tesfa
+  - Tesfaye
+  - Wendimu
+  - Werkneh
+  - Yonas

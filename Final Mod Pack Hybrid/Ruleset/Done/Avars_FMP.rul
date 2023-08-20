@@ -1,0 +1,65 @@
+﻿startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 6
+  day: 1
+  month: 1
+  year: 2040
+baseDefenseMapFromLocation: 1	  
+costEngineer: 25000
+costScientist: 30000
+timePersonnel: 72
+initialFunding: 6000
+disableUnderwaterSounds: true
+alienFuel: [STR_ELERIUM_115, 50]    
+#initialFunding: 5000
+chanceToStopRetaliation: 75
+allowCountriesToCancelAlienPact: true
+psiUnlockResearch: STR_MC_SOLDIERS
+noLOSAccuracyPenaltyGlobal: 50
+alienFuel: [STR_ZRBITE, 20]
+crewEmergencyEvacuationSurvivalChance: 100      # default
+pilotsEmergencyEvacuationSurvivalChance: 100    # default
+showDogfightDistanceInKm: true
+drawEnemyRadarCircles: 2
+hunterKillerFastRetarget: true
+stunningImprovesMorale: true
+surrenderMode: 2
+turnAIUseGrenade: 1
+turnAIUseBlaster: 2  
+ufoTractorBeamSizeModifiers:
+  - 300 # very small, tractor beams are 300% or 3x as effective
+  - 200
+  - 150
+  - 100
+  - 50 # very large, tractor beams are 50% or 1/2x as effective
+fixedUserOptions:
+  battleUFOExtenderAccuracy: true
+  canSellLiveAliens: true
+  battleExplosionHeight: 1
+  alienBleeding: true
+  weaponSelfDestruction: false
+  aggressiveRetaliation: false
+  allowPsiStrengthImprovement: false
+  allowPsionicCapture: true
+  bleedingIndicator: true
+  sneakyAI: false
+  friendlyCraftEscort: true
+maxLookVariant: 8
+escortRange: 20
+escortsJoinFightAgainstHK: true
+customTrainingFactor: 50
+extendedRunningCost: true
+extendedItemReloadCost: true
+bughuntMinTurn: 20
+bughuntMaxEnemies: 3
+bughuntRank: -1 # no VIPs
+bughuntLowMorale: 40
+bughuntTimeUnitsLeft: 65
+oneHandedPenaltyGlobal: 75
+fontName: Font.dat
+constants: 
+  - explosionOffset: 8
+  - smokeOffset: 230
+  - underwaterSmokeOffset: 238 

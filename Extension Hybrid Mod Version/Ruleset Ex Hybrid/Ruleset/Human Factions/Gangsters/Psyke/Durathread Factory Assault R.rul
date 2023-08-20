@@ -1,0 +1,145 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DURATHREAD_FACTORYDUMP: "Gang Drug Factory Assault"
+      STR_ALERT_DURATHREAD_FACTORY: "Gang Drug Factory Assault"	
+      STR_DURATHREAD_FACTORY_LOCATION: "Gang Drug Factory Assault"
+      STR_DURATHREAD_FACTORY_LOCATION_UFOPEDIA: "The Merc Guild got reports that a gang is using a factory to producing illegal drugs in this region. Some big faction has taken notice and wanted it to be shut down. They will pay top dollar for your effort. The job is for a good size Merc unit."
+      STR_DURATHREAD_FACTORY_DESCRIPTION: "The Merc Guild got reports that a gang is using a factory to producing illegal drugs in this region. Some big faction has taken notice and wanted it to be shut down. They will pay top dollar for your effort. The job is for a good size Merc unit."
+      STR_DURATHREAD_FACTORYDUMP_BRIEFING: "The Merc Guild got reports that a gang is using a factory to producing illegal drugs in this region. Some big faction has taken notice and wanted it to be shut down. They will pay top dollar for your effort. The job is for a good size Merc unit."
+alienDeployments:
+  - type: STR_DURATHREAD_FACTORYDUMP
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED   
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDARMOURTOLAND  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_DURATHREAD_FACTORY
+    alertBackground: BACK04.SCR
+    alertDescription: STR_DURATHREAD_FACTORY_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_DURATHREAD_FACTORYDUMP_BRIEFING	  
+    markerName: STR_DURATHREAD_FACTORY
+    duration: [96, 225]
+    despawnPenalty: 20
+    music:
+      - GMTACTIC
+    script: FACTORYDURAMAP
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+mapScripts:			
+  - type: FACTORYDURAMAP
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		  
+    - type: addBlock
+      executions: 1
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: URBAN
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESOSIRIONXP1
+        maxRepeats: 1 	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain 
+alienMissions:
+  - type: STR_DURATHREAD_FACTORY
+    #interruptResearch: STR_DURATHREAD_MANUFACTURING
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+    waves:
+      - ufo: STR_DURATHREAD_FACTORYDUMP
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: DurathreadFactory
+    firstMonth: 0
+    executionOdds: 10	
+    missionWeights:
+      0:
+        STR_DURATHREAD_FACTORY: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

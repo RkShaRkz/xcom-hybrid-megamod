@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MPS Aleksandar
+  - MPS Andon
+  - MPS Andrey
+  - MPS Andrian
+  - MPS Anton
+  - MPS Antoni
+  - MPS Angel
+  - MPS Apostol
+  - MPS Atanas
+  - MPS Bogdan
+  - MPS Bogomil
+  - MPS Borislav
+  - MPS Boyko
+  - MPS Damyan
+  - MPS Danail
+  - MPS Desislav
+  - MPS Dimitar
+  - MPS Dragomir
+  - MPS Gavrail
+  - MPS Georgi
+  - MPS Hristo
+  - MPS Ilian
+  - MPS Iliya
+  - MPS Ivan
+  - MPS Ivaylo
+  - MPS Ivo
+  - MPS Kaloyan
+  - MPS Kiril
+  - MPS Konstantin
+  - MPS Krasimir
+  - MPS Krastyo
+  - MPS Lyuben
+  - MPS Lyubomir
+  - MPS Lyudmil
+  - MPS Marko
+  - MPS Miroslav
+  - MPS Momchil
+  - MPS Nikola
+  - MPS Ognyan
+  - MPS Penko
+  - MPS Petar
+  - MPS Plamen
+  - MPS Radomir
+  - MPS Samuil
+  - MPS Spas
+  - MPS Stanimir
+  - MPS Stanislav
+  - MPS Stoyan
+  - MPS Teodor
+  - MPS Tihomir
+  - MPS Todor
+  - MPS Toma
+  - MPS Tsvetan
+  - MPS Vasil
+  - MPS Ventsislav
+  - MPS Viktor
+  - MPS Vladimir
+  - MPS Vladislav
+  - MPS Yanko
+  - MPS Yoan
+  - MPS Yordan
+  - MPS Yosif
+  - MPS Zahari
+  - MPS Zhivko
+  - MPS Zlatko
+femaleFirst:
+  - MPS Ana
+  - MPS Antonia
+  - MPS Bilyana
+  - MPS Bisera
+  - MPS Bogomila
+  - MPS Borislava
+  - MPS Boyana
+  - MPS Desislava
+  - MPS Elisaveta
+  - MPS Emiliya
+  - MPS Gergana
+  - MPS Hristina
+  - MPS Iva
+  - MPS Ivana
+  - MPS Ivelina
+  - MPS Ivet
+  - MPS Izabela
+  - MPS Krasimira
+  - MPS Lidiya
+  - MPS Lilyana
+  - MPS Lyubina
+  - MPS Lyubomira
+  - MPS Lyudmila
+  - MPS Maya
+  - MPS Mirela
+  - MPS Miroslava
+  - MPS Nadejda
+  - MPS Nevena
+  - MPS Nikolina
+  - MPS Pavla
+  - MPS Pavlina
+  - MPS Radomira
+  - MPS Radoslava
+  - MPS Radostina
+  - MPS Rayna
+  - MPS Rosa
+  - MPS Rositsa
+  - MPS Silviya
+  - MPS Simona
+  - MPS Snezhana
+  - MPS Sofiya
+  - MPS Stanislava
+  - MPS Stanka
+  - MPS Stoyanka
+  - MPS Svetla
+  - MPS Svetlana
+  - MPS Tanya
+  - MPS Tatyana
+  - MPS Teodora
+  - MPS Tereza
+  - MPS Tsveta
+  - MPS Tsvetelina
+  - MPS Veselina
+  - MPS Viktoria
+  - MPS Violeta
+  - MPS Vladimira
+  - MPS Yana
+  - MPS Yoana
+  - MPS Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

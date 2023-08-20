@@ -1,0 +1,97 @@
+events:
+#-------------------------------------------happens
+  - name: STR_SHIP_LOST
+    description: STR_SHIP_LOST_DESCRIPTION
+    background: MONSTERBACKIMAGE
+    points: -50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_HORROR_SEEN
+    description: STR_HORROR_SEEN_DESCRIPTION
+    background: MONSTERBACKIMAGE
+    points: -150
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DEEP_LIGHTS
+    description: STR_DEEP_LIGHTS_DESCRIPTION
+    background: LIGHTSBACKIMAGE
+    points: -20
+    timer: 20
+    timerRandom: 43500
+  - name: STR_INNSMOUTH_1
+    description: STR_INNSMOUTH_1_DESCRIPTION
+    background: INNSMOUTHBACKIMAGE
+    points: -100
+    timer: 20
+    timerRandom: 43500
+  - name: STR_INNSMOUTH_2
+    description: STR_INNSMOUTH_2_DESCRIPTION
+    background: INNSMOUTHBACKIMAGE
+    points: -100
+    randomItemList: [STR_MUTANT_CORPSE, STR_MUTANT_CORPSE, STR_DEEP_ONE_CORPSE]
+    timer: 20
+    timerRandom: 43500
+#-------------------------------------------Divers
+  - name: STR_EXOSUITS_EVENT_1
+    description: STR_EXOSUITS_EVENT_1_DESCRIPTION
+    background: EXOSUITBACKIMAGE
+    points: 50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_EXOSUITS_EVENT_2
+    description: STR_EXOSUITS_EVENT_2_DESCRIPTION
+    background: EXOSUITBACKIMAGE
+    everyMultiItemList : [STR_ZRBITE: 10]
+    timer: 20
+    timerRandom: 43500
+  - name: STR_EXOSUITS_EVENT_3
+    description: STR_EXOSUITS_EVENT_3_DESCRIPTION
+    background: EXOSUITBACKIMAGE
+    randomItemList : [STR_ELERIUM]
+    timer: 20
+    timerRandom: 43500
+#-------------------------------------------Bad dreams 
+  - name: STR_DREAMS_1
+    description: STR_DREAMS_1_DESCRIPTION
+    background: DREAMSBACKIMAGE
+    points: -10
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DREAMS_2
+    description: STR_DREAMS_2_DESCRIPTION
+    background: DREAMSBACKIMAGE
+    points: -50
+    timer: 20
+    timerRandom: 43500
+  - name: STR_DREAMS_3
+    description: STR_DREAMS_3_DESCRIPTION
+    background: DREAMSBACKIMAGE
+    points: -50
+    funds: -100000
+    timer: 20
+    timerRandom: 43500
+#-------------------------------------------Advances 
+  - name: STR_BARRACUDA_EVENT
+    description: STR_BARRACUDA_EVENT_DESCRIPTION
+    background: BACK12.SCR
+    points: 250
+    funds: 5000000
+    regionList: [STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_MEDITERRANEAN, STR_SOUTH_CHINA_SEA, STR_INDIAN_OCEAN, STR_THE_EAST_SEA, STR_EURASIA]
+    city: true
+    timer: 20
+    timerRandom: 43500
+
+  - name: STR_CURE_1_EVENT
+    description: STR_CURE_1_EVENT_DESCRIPTION
+    background: SCIENCEBACKIMAGE
+    points: 200
+    funds: 4000000
+    timer: 20
+    timerRandom: 43500
+    
+  - name: STR_CURE_2_EVENT
+    description: STR_CURE_2_EVENT_DESCRIPTION
+    background: SCIENCEBACKIMAGE
+    points: 1000
+    timer: 20
+    timerRandom: 43500

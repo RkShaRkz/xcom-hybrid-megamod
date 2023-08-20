@@ -1,0 +1,115 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BLACK_LOTUS_PARTY: "Gang Mansion Meeting"
+      STR_BLACK_LOTUS_PARTY_DESCRIPTION: "Gang Mansion Meeting"
+      STR_BLACK_LOTUS_PARTY_BRIEFING: "The Merc Guild has received reports of a high level Gang leadership meeting in a mansion in this region. Interupting and assassinating this meeting could disrupt the Gang's criminal organization for years to come. Some major wealthy organization has pay good bounty for any Merc unit willing to interupt this meeting."
+      STR_ALERT_BLACK_LOTUS_PARTY: "Gang Mansion Meeting"
+alienDeployments:
+  - type: STR_BLACK_LOTUS_PARTY
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	   	
+    width: 40
+    length: 40
+    height: 18
+    alert: STR_ALERT_BLACK_LOTUS_PARTY
+    alertBackground: BACK04.SCR
+    alertDescription: STR_BLACK_LOTUS_PARTY_DESCRIPTION
+    markerName: STR_BLACK_LOTUS_PARTY
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_BLACK_LOTUS_PARTY_BRIEFING  
+    duration: [54, 100]
+    despawnPenalty: 20
+    script: GENERALSPAWNXP1
+    music:
+      - GMTACTIC
+    customUfo: STR_MANSION4 
+    #terrains:
+    #  - EMANSION_SMALL
+    data:
+      - alienRank: 4
+        lowQty: 7
+        highQty: 14
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 8
+        highQty: 15
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 4
+        highQty: 11
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_BLACK_LOTUS_PARTY
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true	
+missionScripts:
+  - type: blackLotusParty
+    firstMonth: 5
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_BLACK_LOTUS_PARTY: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

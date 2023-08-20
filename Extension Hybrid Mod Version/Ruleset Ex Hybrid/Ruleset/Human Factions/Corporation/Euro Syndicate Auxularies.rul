@@ -1,0 +1,760 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_ALERT_OLD_ARCHIVES_DEFENSE_SYNDICATE: "The Centre TARGETS MILITARY ARCHIVES!"	
+        STR_SYNDICATE_AGENT_DISGUISE_UC: "The Centre AGENT DISGUISE"
+        STR_SYNDICATE_AGENT_DISGUISE_UC_UFOPEDIA: "With the use of the Impersonatron, our operatives can infiltrate any The Centre facility."
+        STR_SYNDICATE_AGENT_DISGUISE_H_UC: "The Centre AGENT DISGUISE (H)"	
+        STR_SYNDICATE_LABS_NETWORK: "The Centre Labs Network"
+        STR_SYNDICATE_LABS_NETWORK_UFOPEDIA: "The core of The Centre activity relies on developing, using and selling exotic technologies. The organization maintains a vast network of secret laboratories, mostly hidden inside more mundane research facilities which are owned by various companies controlled by the The Centre. Mapping this network is a necessary element of our fight against the The Centre."
+        STR_SYNDICATE_AGENT_ARMOR_ADAPTATION: "The Centre Agent Processing"	
+        STR_SYNDICATE_EXPERIMENTS: "The Centre Experiments"
+        STR_SYNDICATE_EXPERIMENTS_UFOPEDIA: "Interrogating a scientist who worked for The Centre gave us some leads concerning the monsters roaming the Earth. In fact, the organization seems responsible for a good deal of these appearances. While their motives are yet unclear, we must find one of their cloning laboratories and intercept enough data to uncover this global conspiracy.{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}New objective: find secret files on monster experiments. They should be found on The Centre scientists in their secret bases."	
+        STR_SYNDICATE_WORKER_ARMOR: "The Centre Associate Combat Analysis"
+        STR_SYNDICATE_AGENT_ARMOR: "The Centre Agent Combat Analysis"
+        STR_SYNDICATE_MERC_ARMOR: "The Centre SWAT Agent Analysis"
+        STR_SYNDICATE_MERC_CAPTAIN_ARMOR: "The Centre Security Captain Combat Analysis"
+        STR_SYNDICATE_SCIENTIST_ARMOR: "The Centre Scientist Combat Analysis"
+        STR_SYNDICATE_CEO_FALSEFORM_ARMOR: "The Centre CEO Combat Analysis"
+        STR_SYNDICATE_CEO_TRUEFORM_ARMOR: "True The Centre CEO Combat Analysis"
+        STR_SYNDICATE_CEO_TRUEFORM_PSI_WEAPON: "The Centre CEO Psi Attack"
+        STR_SYNDICATE_CEO_TRUEFORM_MELEE_WEAPON: "The Centre CEO Melee Attack"
+        STR_SYNDICATE_CEO: "Goa'uld Symbiote CEO"
+        STR_SYNDICATE_CEO_TRUEFORM_CORPSE: "Goa'uld Symbiote Corpse"
+        STR_SYNDICATE_CEO_TRUEFORM_UFOPEDIA: "This horrifying being maintains a human facade, but can change into its true form when in pain or under stress. It is an enhanced human, modified with exotic biochemicals to gain great strength, intelligence and psionic powers. This is considered a special gift among the The Centre, only bestowed upon the highest officials. This tech seems to be much more advanced than anything else the organization has."
+        STR_SYNDICATE_CEO_TRUEFORM_AUTOPSY: "Goa'uld Symbiote Corpse Autopsy"
+        STR_SYNDICATE_CEO_TRUEFORM_AUTOPSY_UFOPEDIA: "The Goa'uld Symbiote is a parasite living in a host animal such as a human. In biology a symbiote is an organism that lives with or off another organism receiving and/or giving benefits. Parasitism, a form of symbiosis in which one organism benefits while the other is harmed, describes the Goa'uld relationship with their hosts because they take control of another being's body against their will."
+        STR_SYNDICATE_WALKER_CANNON: "Syndicate Combat Walker Cannon" #Replace
+        STR_SYNDICATE_WALKER_ARMOR: "Syndicate Combat Walker Combat Analysis"
+        STR_SYNDICATE_NETWORK: "The Centre Network"
+        STR_SYNDICATE_NETWORK_UFOPEDIA: "Our initial investigation of the The Centre allowed us to identify a few connections with the corporate sector. The organization is built on a worldwide network of companies which serve as their moneymakers and public representatives - sometimes even unknowingly.{NEWLINE}In order to proceed with stopping the The Centre from doing more harm, we must identify these companies and seize their data for investigation. However, we can't just go in cannons blazing from the sky, we need to do it discreetly. I'll get us a location, you send a civilian car with agents wearing civilian clothes, or bam! the data is kaputt."
+        STR_SYNDICATE_OPERATIONS: "The Centre Operations"
+        STR_SYNDICATE_OPERATIONS_UFOPEDIA: "We have analyzed the data seized at the office building and mapped some companies that are secretly owned or manipulated by the The Centre. Now guess what's on the list: BlackOps Industries! Apparently our supplier is little more than a puppet, used by The The Centre to make some good money... Although it's uncertain if they even realize who they are really working for.{NEWLINE}This puts BlackOps in a very awkward position. With this information we could seriously damage their reputation, or possibly even destroy them outright, but I have a better idea: let's use it for some, ummm, leverage during our next business meeting. I'm sure they will be more than willing to give us some special treatment... Perhaps even grant us permission to use their precious designs for manufacturing? After all we are a valued customer, and protectors of the Earth... Haha!"
+        STR_SYNDICATE_FLOPPY: "The Centre Floppy Disc"  
+        STR_SYNDICATE_RETALIATION: "The Centre Retaliation"
+        STR_SYNDICATE_PHASE_2: "The Centre CEO Arrest"
+        STR_SYNDICATE_PHASE_2_DESCRIPTION: "Your agents will enter a major The Centre office building. Your task is to arrest the CEO for questioning. No other rules apply, so do as you wish!{NEWLINE}Expect to fight numerous The Centre forces of varying quality in an office building and its direct proximity."
+        STR_SYNDICATE_PHASE_2_BRIEFING: "Your agents will enter a major The Centre office building. Your task is to arrest the CEO for questioning. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
+        STR_SYNDICATE_CHRYSSALID_RESEARCH: "The Centre Bio Research"
+        STR_SYNDICATE_CHRYSSALID_RESEARCH_UFOPEDIA: "According to the captured The Centre Scientist, the organization is conducting extensive research on the alien creatures we keep encountering. Their research seems to be much more advanced than ours, and therefore is potentially priceless.{NEWLINE}The Centre research laboratories are well-protected and hard to find, but there is one opportunity we can use: one of these labs, located in a former Red Dawn base, suffered some sort of monster outbreak and was promptly abandoned. We should go there, deal with the threat and get the samples. Just be careful, as it is crawling with those demonic spiders..."
+        STR_SYNDICATE_HQ_DEFEATED: "The Centre was defeated."
+        STR_SYNDICATE_PISSED: "The Centre is pissed, congrats."
+        STR_REACTOR_SAVED_FROM_SYNDICATE: "Fusion reactor has been saved."
+        STR_SYNDICATE_REPULSED: "The Centre was repulsed... for now."  
+        STR_SYNDICATE_HQ_ACCESS: "The Centre HQ Access"
+        STR_SYNDICATE_HQ_ACCESS_UFOPEDIA: "Okay, so we have a... bold plan. The idea is to get inside the The Centre HQ by impersonating their agents. We have collected enough identities by now to pick a few. We will use Impersonatrons to change our appearance.{NEWLINE}When I say 'we', of course I mean our agents, not myself... Which is a shame, since this is really exciting!"
+        STR_SYNDICATE_SUMMARY: "The Centre Summary Report"
+        STR_SYNDICATE_SUMMARY_UFOPEDIA: "From: United Nations Committee{NEWLINE}Subject: The The Centre{NEWLINE}Commander,{NEWLINE}The Council has received and reviewed your report concerning the international criminal organization known as the The Centre. The evidence you have presented was judged to be valid, and the Council has agreed to take direct action against this organization.{NEWLINE}Your orders are to attack the The Centre and take down its main base of operations. In order to do so, you must arrest one of their regional leaders and interrogate them to discover the location of their HQ. Take any action you deem necessary, but do not make it too public.{NEWLINE}Good job so far, Commander. We believe you will deal with this matter swiftly. Remember, we will be watching."  
+        STR_SYNDICATE_MYSTERIOUS_PARCEL_RECEIVED: "Mysterious Parcel from The Centre Received"
+        STR_SYNDICATE_MYSTERIOUS_PARCEL: "Mysterious Parcel from The Centre"
+        STR_SYNDICATE_MYSTERIOUS_PARCEL_DESCRIPTION: "Commander, we received a a package we haven't ordered. It appears to be harmless, but it bears a The Centre logo..."
+        STR_SYNDICATE_MYSTERIOUS_PARCEL_UFOPEDIA: "Despite all that has transpired, we still have common enemies. Take this.{NEWLINE}[Decrypted Alien Embassy Key acquired]"
+        STR_SYNDICATE_TESTAMENT_DECRYPTION: "The Centre Final Message Decryption"
+        STR_SYNDICATE_TESTAMENT_ENCRYPTED: "The Centre Final Message"
+        STR_SYNDICATE_TESTAMENT_ENCRYPTED_UFOPEDIA: "From the underground complex, we have recovered a coded message which appears to be from the ACTUAL head of the The Centre. It appears it can be decrypted with one of those rings we found on The Centre personnel. Would you like me to try it?"
+        STR_SYNDICATE_TESTAMENT_DECRYPTED: "Decrypted The Centre Testament"
+        STR_SYNDICATE_TESTAMENT: "The Centre Testament"
+        STR_SYNDICATE_TESTAMENT_UFOPEDIA: "Greetings, X-Com Commander.{NEWLINE}{NEWLINE}By dismantling our The Centre cell on Earth you have proven your superiority over the lowly masses. You have the potential to attain true superhumanity. All you need to do is to cast away your allegiance to the so-called Enlightened Ones, whose only objective is to keep man in the dark, and strive for mastery over nature and thyself.{NEWLINE}{NEWLINE}Either you will join us, or you will be destroyed along all other subhumans. Think well."
+        STR_SYNDICATE_SUPERMUTANT: "The Centre Supermutant"
+        STR_SYNDICATE_SUPERMUTANT_UFOPEDIA: "Supermutants are created by the The Centre by infecting human volunteers with a special mutagen. The resulting specimens possess great physical strength and mental abilities. They are also able to hide their true form and pass for a normal human. However, the process has an extremely high mortality rate, and also there are... other failures."	
+        STR_SYNDICATE_CEO_TRUEFORM: "The Centre CEO"	#Need replace	
+        STR_SYNDICATE_SUPERSOLDIER_CORPSE: "Syndicate Supersoldier Corpse"
+        STR_SYNDICATE_SUPERSOLDIER: "Syndicate Supersoldier"
+        STR_SYNDICATE_SUPERSOLDIER_UFOPEDIA: "Syndicate soldiers are cybernetically enhanced, surgically modified machines of war. Their physical abilities exceed virtually all baseline humans. Their brains are also modified to enhance with advance Cybernetic abilities, giving them an additional edge in combat."
+        STR_SYNDICATE_SUPERSOLDIER_CORPSE_UFOPEDIA: "After we surgically peel away the skin of these Soldiers, they are the first generation Cybernetic Soldiers with their entire biological Skeleton striped away and replace by Cybernetics. This is why they are almost indestructable. However, these are first generations, used by the other Sky Motor Syndicate that has risen since the Disconnection. The Eurocorp Syndicate has more sophisticated generations after that make their Cybernetic soldiers even more tougher"		
+        STR_SYNDICATE_WALKER: "Syndicate Combat Walker" #Need replace
+        STR_SYNDICATE_WALKER_UFOPEDIA: "The Syndicate Combat Walker bot is well-armored and equipped with a rotary cannon. It is well-suited for indoor use."
+        STR_SYNDICATE_WALKER_CORPSE: "Wrecked Syndicate Combat Walker"
+        STR_SYNDICATE_WALKER_AUTOPSY: "Wrecked Syndicate Combat Walker Examination"
+        STR_SYNDICATE_WALKER_AUTOPSY_UFOPEDIA: "This Combat Walker is heavily armored and equipped with a rotary cannon. Its design is old but still lethal, but appears to be mass-produced by other Syndicates. The walking frame seems reasonably agile, but not very fast. It operates autonomously and is smart enough to tell a friend from foe using visual and hearing feed - most of the time, anyway."
+        STR_SYNDICATE_MERC_CAPTAIN: "Sky Motor Syndicate Security Captain"		
+        STR_SYNDICATE_SCIENTIST: "Sky Motor Syndicate Scientist" #Check why weapon not showing.	
+        STR_SYNDICATE_MERC: "Sky Motor Syndicate Mercenary"	
+        STR_SYNDICATE_WORKER: "Sky Motor Syndicate Office Workers" #Keep 
+        STR_SYNDICATE_CEO_FALSEFORM: "Sky Motor Syndicate Executives" #Need replace
+        STR_SYNDICATE_CEO_TRUEFORM: "Sky Motor Syndicate Executives" #Replace		
+        STR_SYNDICATE_AGENT: "Sky Motor Syndicate Agents" #Replace
+        STR_SYNDICATE_MERC_CAPTAINID: "Sky Motor Syndicate Security Captain ID"		
+        STR_SYNDICATE_SCIENTISTID: "Sky Motor Syndicate Scientist ID" #Check why weapon not showing.	
+        STR_SYNDICATE_MERCID: "Sky Motor Syndicate Mercenary ID"	
+        STR_SYNDICATE_WORKERID: "Sky Motor Syndicate Office Workers ID" #Keep 
+        STR_SYNDICATE_CEO_TRUEFORMID: "Sky Motor Syndicate Executives ID" #Replace
+        STR_SYNDICATE_CEO_TRUEFORM_UFOPEDIA: "These Executives are the power players within the Syndicate. Their decisions can steer the Syndicate toward its future. The capture of one can be usually ransom back for a good reward, unless he or she is deemed expendable."	
+        STR_SYNDICATE_SCIENTIST_UFOPEDIA: "The job of a Scientist in the Syndicate is research and development. Either for the next gen vechicle or something that Syndicate can use to sell as future products. They are the Syndicate best assets and they are usually is highly protected to where they go."
+        STR_SYNDICATE_MERC_CAPTAIN_UFOPEDIA: "Recruited from Special Forces operatives, these hired killers are trained in the best technique in warfare. They wear heavy armour and typically are team leaders in the Corporate security forces. They are usually heavily armed and highly motivated."
+        STR_SYNDICATE_MERC_UFOPEDIA: "These are hired soldier. General Mercenary or security contractors that are hired for your typical corporate security equiped with heavy armour. These ex-miliary and Mercenary are highly trained and skilled, the best of what money can hired."
+        STR_SYNDICATE_WORKER_UFOPEDIA: "Pretty much your typical office workers, every day they come and do their job and walk out. Not much into company politics and they will nonetheless defend themselves if attacked."	
+        STR_SYNDICATE_AGENT_UFOPEDIA: "The Security forces of this Syndicate are fanatically loyal agents, whom are Cybernetically enhance with advance combat prosthetics that gives them an edge, while performing security duties. These combat prosthetics has given these agents advance abillites and extra toughness when facing rival adversaries. A typical Security agents are usually chosen for their loyalty and years of service for the company."			
+        STR_SYNDICATE: "Sky Motor Syndicate"
+        STR_SYNDICATE_UFOPEDIA: "Sky Motor Syndicate is one of the world's predominant vechicle manufacturer. Its primary product and source of income is the manufacture of commercial and military planes and vehicle with a world wide market. Rich enough to have of its own in-house security to help with its commercial turf war with the other businesses. Its aggressive business model and expansion strategies, has left them with few allies and many enemies."		
+alienRaces:
+  - id: STR_SYNDICATE
+    membersRandom:
+      - [STR_SYNDICATE_CEO_FALSEFORM,STR_SYNDICATE_CEO_TRUEFORM,STR_SYNDICATE_CEO_TRUEFORM]
+      - [STR_SYNDICATE_MERC_CAPTAIN]
+      - [STR_SYNDICATE_MERC_CAPTAIN]
+      - [STR_SYNDICATE_SCIENTIST]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_DOGA]
+      - [STR_DOGA]
+  - id: STR_SYNDICATE_UNDERWATER	  	
+    retaliationAggression: -100
+    membersRandom:
+      - [STR_SYNDICATE_CEO_FALSEFORM,STR_SYNDICATE_CEO_TRUEFORM,STR_SYNDICATE_CEO_TRUEFORM]
+      - [STR_SYNDICATE_MERC_CAPTAIN]
+      - [STR_SYNDICATE_MERC_CAPTAIN]
+      - [STR_SYNDICATE_SCIENTIST]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_MERC]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_SYNDICATE_WORKER]
+      - [STR_DOGA]
+      - [STR_DOGA]
+    retaliationMission: STR_SYNDICATE_RETALIATION
+ufopaedia:		
+  - id: STR_SYNDICATE_CEO_TRUEFORM
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_CEO_TRUEFORM_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_SYNDICATE_CEO_TRUEFORM
+    listOrder: 152990
+  - id: STR_SYNDICATE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_SYNDICATE
+    listOrder: 183000
+  - id: STR_SYNDICATE_MERC
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_MERC_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_SYNDICATE_MERC
+    listOrder: 153010
+  - id: STR_SYNDICATE_MERC_CAPTAIN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_MERC_CAPTAIN_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_SYNDICATE_MERC_CAPTAIN
+    listOrder: 153015
+  - id: STR_SYNDICATE_SCIENTIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_SCIENTIST_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_SYNDICATE_SCIENTIST
+    listOrder: 153020	
+  - id: STR_SYNDICATE_WORKER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SYNDICATE_WORKER_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_SYNDICATE_WORKER
+    listOrder: 152990	
+research:
+  - name: STR_SYNDICATE
+    cost: 50
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_SYNDICATE_WORKER
+      - STR_SYNDICATE_MERC
+      - STR_SYNDICATE_MERC_CAPTAIN
+      - STR_SYNDICATE_CEO_TRUEFORM
+      - STR_SYNDICATE_SCIENTIST
+  - name: STR_SYNDICATE_WORKER
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SYNDICATE
+    listOrder: 152990
+  - name: STR_SYNDICATE_MERC
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SYNDICATE
+    listOrder: 153010
+  - name: STR_SYNDICATE_MERC_CAPTAIN
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SYNDICATE
+    listOrder: 153015
+  - name: STR_SYNDICATE_CEO_TRUEFORM
+    cost: 50
+    points: 100
+    needItem: true
+    destroyItem: true
+    listOrder: 153070
+    unlocks:
+      - STR_SYNDICATE	
+  - name: STR_SYNDICATE_SCIENTIST
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_SYNDICATE
+    listOrder: 153020	
+units:
+  - type: STR_SYNDICATE_WORKER
+    race: STR_SYNDICATE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 58
+      health: 36
+      bravery: 50
+      reactions: 25
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 25
+      #mana: 50
+    armor: STR_SYNDICATE_WORKER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [41, 42, 43]
+    intelligence: 1
+    aggression: 1
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_COMBAT_KNIFE
+  - type: STR_SYNDICATE_MERC
+    race: STR_SYNDICATE
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 48
+      stamina: 80
+      health: 30
+      bravery: 80
+      reactions: 35
+      firing: 50
+      throwing: 40
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 35
+      #mana: 50
+    armor: STR_SYNDICATE_MERC_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 4
+    sniper: 20
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_LIGHT_MINIGUN
+        - STR_LIGHT_MINIGUN_CLIP
+        - STR_LIGHT_MINIGUN_CLIP
+        - STR_LIGHT_MINIGUN_CLIP
+  - type: STR_SYNDICATE_MERC_CAPTAIN
+    race: STR_SYNDICATE
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 58
+      stamina: 90
+      health: 42
+      bravery: 90
+      reactions: 65
+      firing: 60
+      throwing: 50
+      strength: 45
+      psiStrength: 45
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_SYNDICATE_MERC_CAPTAIN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 4
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_MINIGUN
+        - STR_MINIGUN_CLIP
+        - STR_MINIGUN_CLIP
+        - STR_GRENADE		
+  - type: STR_SYNDICATE_CEO_FALSEFORM
+    race: STR_SYNDICATE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 87
+      stamina: 130
+      health: 90
+      bravery: 100
+      reactions: 60
+      firing: 90
+      throwing: 58
+      strength: 75
+      psiStrength: 70
+      psiSkill: 0
+      melee: 75
+      #mana: 70
+    armor: STR_SYNDICATE_CEO_FALSEFORM_ARMOR
+    deathSound: [41, 42, 43]	
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: 203
+    intelligence: 5
+    aggression: 3
+    sniper: 15
+    spotter: 2
+    canSurrender: true
+    #spawnUnit: STR_GOUALDSERPENT
+    builtInWeapons:
+      - STR_COMBAT_KNIFE
+  - type: STR_SYNDICATE_CEO_TRUEFORM
+    race: STR_SYNDICATE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 90
+      stamina: 160
+      health: 180
+      bravery: 90
+      reactions: 60
+      firing: 90
+      throwing: 58
+      strength: 90
+      psiStrength: 70
+      psiSkill: 0
+      melee: 75
+      #mana: 70
+    armor: STR_SYNDICATE_CEO_FALSEFORM_ARMOR
+    deathSound: [41, 42, 43]	
+    standHeight: 24
+    kneelHeight: 16
+    value: 50
+    intelligence: 5
+    aggression: 3
+    spotter: 2
+    energyRecovery: 50
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_LASER_PISTOL
+        - STR_GRENADE	
+        - STR_GRENADE	
+  - type: STR_SYNDICATE_SCIENTIST
+    race: STR_SYNDICATE
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 60
+      stamina: 90
+      health: 28
+      bravery: 70
+      reactions: 30
+      firing: 40
+      throwing: 40
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 26
+      #mana: 50
+    armor: STR_SYNDICATE_SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 1
+    canSurrender: true
+    builtInWeapons:
+      - STR_COMBAT_KNIFE
+armors:
+  - type: STR_SYNDICATE_SCIENTIST_ARMOR
+    spriteSheet: UAC_ENGINEER.PCK
+    spriteInv: inventory_UAC_ENGINEER
+    corpseBattle:
+      - STR_SYNDICATE_SCIENTIST_CORPSE	  
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    damageModifier: &LabcoatResists
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.75
+      - 4.0 #SMoke
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ]  
+  - type: STR_SYNDICATE_WORKER_ARMOR
+    spriteSheet: SYNDICATE_WORKER.PCK
+    spriteInv: inventory_SYNDICATE_WORKER
+    corpseBattle:
+      - STR_SYNDICATE_WORKER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_SYNDICATE_MERC_ARMOR
+    spriteSheet: MOTOR_MAN.PCK
+    spriteInv: inventory_MOTOR_MAN
+    corpseBattle:
+      - STR_SYNDICATE_MERC_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    #psiDefence: *StandardDynamic#psiDefence
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.25
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+  - type: STR_SYNDICATE_MERC_CAPTAIN_ARMOR
+    spriteSheet: SYNDICATE_AGENT.PCK
+    spriteInv: inventory_SYNDICATE_AGENT
+    corpseBattle:
+      - STR_SYNDICATE_MERC_CAPTAIN_CORPSE	  
+    visibilityAtDark: 9
+    frontArmor: 20
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    overKill: 1.5
+    damageModifier: &SyndicateAgentResists
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]  
+  - type: STR_SYNDICATE_CEO_FALSEFORM_ARMOR
+    spriteSheet: EXALT_MASTER.PCK
+    spriteInv: inventory_EXALT_MASTER
+    corpseBattle:
+      - STR_EXALT_MASTER_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 11
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+items:
+  - type: STR_SYNDICATE_SCIENTIST_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 35
+    bigSprite: 1130
+    floorSprite: 486
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false	
+  - type: STR_SYNDICATE_WORKER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 577
+    floorSprite: 457
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_MERC_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 45
+    bigSprite: 659
+    floorSprite: 519
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 50
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_MERC_CAPTAIN_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 45
+    bigSprite: 496
+    floorSprite: 413
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 50
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_SYNDICATE_CEO_FALSEFORM
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 600000
+    listOrder: 153070	
+  - type: STR_SYNDICATE_CHRYSSALID_RESEARCH
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_SYNDICATE_HQ
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SYNDICATE_HQ_ACCESS
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SYNDICATE_OPERATIONS
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SYNDICATE_NETWORK
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SYNDICATE_TESTAMENT_ENCRYPTED
+    bigSprite: 307
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_SYNDICATE_CEO_TRUEFORM
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 600000
+    listOrder: 153070	]		
+  - type: STR_SYNDICATE_WORKER
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 3000
+    listOrder: 152990
+  - type: STR_SYNDICATE_AGENT
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 9000
+    listOrder: 153000
+  - type: STR_SYNDICATE_MERC
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 12000
+    listOrder: 153010
+  - type: STR_SYNDICATE_MERC_CAPTAIN
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 18000
+    listOrder: 153015
+  - type: STR_SYNDICATE_SCIENTIST
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 20000
+    listOrder: 153020	

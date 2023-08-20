@@ -1,0 +1,1130 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_RED_DAWN_KEYCARD: "Psyke Memory Card"
+      STR_RED_DAWN_KEYCARD_UFOPEDIA: "We have successfully decoded the memory card. All of the Psyke's secrets, including names, addresses, logbooks, expenses, contacts, aliases, estates - we have it all, Commander. Their future is in your hands.{NEWLINE}I have the data ready for disclosure to the right people. If this is done, the Psyke is finished. But ultimately it's your call if, and when, we want to do this. I will support your every decision.{NEWLINE}{NEWLINE}- Chief Intelligence Officer"		
+      STR_DESTROY_ZSRR: "Terminate The Psyke!"
+      STR_DESTROY_ZSRR_UFOPEDIA: "Job done, Commander - we have informed the United Nations and the president of Russia of the complete Psyke agenda and all associated details. This will be more than enough to get all of their commanding officers sentenced to a long time in prison, or worse. I wish we could see their faces now!{NEWLINE}Now we can concentrate on the really important things! And we can also sell any Psyke Keycards we may have, we don't need them anymore."  
+      STR_ZSRR_RATIONALE: "Psyke Rationale"
+      STR_ZSRR_RATIONALE_UFOPEDIA: "Composed mostly of former Soviet officials dissatisfied with the new order of things, Psyke runs on an efficient mix of ideology and pragmatism. They consider the alien society - or at least what they know about it from evidence recovered from old USSR warehouses - to be superior in terms of technology, and arguably also morality. Their goal is to survive the inevitable alien conquest and possibly even profit from it. They consider the aliens not much different from us, and that we should become more like them to better fit within the alien empire. They also believe that the aliens must have some sort of internal discourse, and that they can be influenced from within by means of classical politics. Much of their effort is focused on gathering resources for future negotiations with the invaders, after we join them."	
+      STR_ZSRR_NETWORK: "Psyke Network"
+      STR_ZSRR_NETWORK_UFOPEDIA: "The Psyke has good connections both in the army and in business circles. I don't mean just the big business, but also shop owners, car mechanics and the like. All of them provide good places for all sorts of activity, from meetings and military briefings to combat training and maybe even doing science. If we place these locations under surveillance, we may have a chance of surprising them while they are there, hopefully with some higher-ranking officer. If we manage to even get to them, that is."  
+      STR_ZSRR_GANGER_ARMOR: "Psyke Ganger Combat Analysis"
+      STR_ZSRR_MOLOLEC_ARMOR: "Psyke Lad Combat Analysis"
+      STR_ZSRR_MATROS_ARMOR: "Psyke Sailor Combat Analysis"
+      STR_ZSRR_RED_OPS_MALE_ARMOR: "Psyke Soldier Combat Analysis"
+      STR_ZSRR_RED_OPS_FEMALE_ARMOR: "Psyke Soldier Combat Analysis"
+      STR_ZSRR_PIONEER_MALE_ARMOR: "Psyke Pioneer Combat Analysis"
+      STR_ZSRR_PIONEER_FEMALE_ARMOR: "Psyke Pioneer Combat Analysis"
+      STR_ZSRR_UBEK_ARMOR: "Psyke Coordinator Combat Analysis"
+      STR_ZSRR_OPERATIONS: "Psyke Operations"
+      STR_ZSRR_OPERATIONS_UFOPEDIA: "Commander, looks like we're getting somewhere with the Psyke structure. I have completed a list of prominent Psyke supporters and it's only a matter of time until we locate some high-ranking Psyke officer paying them a visit, or maybe an entire party. That should be a big step towards crippling the Psyke for good.{NEWLINE}Needless to say, these houses are big and heavily defended, so it's your call if we strike or not; we can always wait for the next opportunity.{NEWLINE}{NEWLINE}{NEWLINE}Also from now on, we will not bother with Psyke safehouses; such tasks will be delegated to Council Salvagers instead."	
+      STR_ZSRR_BIO_ENHANCEMENT: "Psyke Bio-Enhancement"
+      STR_ZSRR_BIO_ENHANCEMENT_UFOPEDIA: "All members of the Psyke are subjected to a medical procedure that significantly increases their basic combat abilities, mainly damage resilience and strength. Even the lowest ranks are boosted - in fact, it appears to be an important point of their recruitment process - which suggests that it is widely available and cheap, despite being much more advanced than any standard medical knowledge. It is based on retroviral agents which modify the person's metabolism to create artificial proteins which promote muscle growth and alter muscle tissue to increase efficiency."	
+      STR_ALERT_ZSRR_GANG_WAR: "GANG WAR!"	
+      STR_ZSRR_STORM_TRADE: "Psyke Storm Trade"
+      STR_ZSRR_STORM_TRADE_UFOPEDIA: "In order to fund their operations, Psyke distributes a certain chemical product, used for muscle tissue development. This mysterious mixture dubbed 'Storm' is directly related to the otherworldly Psyke technology, ridiculously expensive and in most cases completely pointless (or highly harmful). However, there are rare cases of very successful users of Storm who gain superhuman abilities with no ill effects. These rumors keep Psyke in the business.{NEWLINE}We should have a closer look at this business of theirs..."	
+      STR_ZSRR_GOPNIK_DREAM: "Gopnik Dream"
+      STR_ZSRR_GOPNIK_DREAM_DESCRIPTION: "Psyke aggressively promotes their propaganda among the unemployed youth of {0}. Many recruits flock to bolster their ranks, tempted by promises of physical and political power for all. The Council insists that this does not bode well.{NEWLINE}[-100 points]"
+      STR_ZSRR_POWER_STRUGGLE_ON_THE_STREETS: "Power Struggle on The Streets"
+      STR_ZSRR_POWER_STRUGGLE_ON_THE_STREETS_DESCRIPTION: "During a random shootout between Psyke members and another gang in {0}, local police forces became involved. The cleanup was quite exhausting, but the Council managed to avoid too much attention from the press and politicians alike. They seem to think it's our fault for not dealing with the organization swiftly enough.{NEWLINE}[-75 points]"	
+      STR_CORRUPT_POLITICIAN_ZSRR: "Corrupt Politician"
+      STR_CORRUPT_POLITICIAN_ZSRR_DESCRIPTION: "A local politician from {0} was arrested and is now awaiting trial on grounds of corruption. The true reason behind this arrest was evidence that the individual secretly supported Psyke, carefully put together by your trusted operatives. It feels good to be on top of things.{NEWLINE}[150 points]"
+      STR_ZSRR_PIONEER: "Psyke Pioneer"	 
+      STR_ZSRR_MOLOLEC_UFOPEDIA: "A Psyke Recruit is a punk that the gang has recently picked up from the slum of a street in a poor third world country. The role of a recruit can be any dirty work the gang can find. From Kitchen duties to Sentry duties."  
+      STR_ZSRR_GANGER_UFOPEDIA: "Any recruit whom had been in the gang for a few years, would get promotion to be a Ganger. Usually he or she is promoted by killing of any competition and won of the rank, when it became available. It also means whomever is holding of this rank is one vicious hombre. "	  
+      STR_ZSRR_MATROS_UFOPEDIA: "Any Ganger whom has a few murders or kill in its belt, and eliminate of the prior Bouncer whom was holding the rank or got it in a free for all when the prior Bouncer gets promoted, retains this rank until he or she gets replace by a more vicious successor. A Bouncer rules of his or her underling through force of will or intimidation. For he or she can't trust of whom shall replace them the next day. Thus is the life of a Psyke gang member."	  
+      STR_ZSRR_RED_OPS_UFOPEDIA: "A Captain within the Psyke gang is a skillful and strong person. Usually is one whom had won a lot of fights to gain the rank. The rank also holds a position of high influence within the gang. More often a Captain runs a local chapter of the gang in a city."		  
+      STR_ZSRR_PIONEER_UFOPEDIA: "A Psyke Warrior, is a usually a bouncer whom has proven his worth to the gang. Usually such action that promote a Bouncer is rare and is often something the gang will remember for a long time. More often the position is recruited exclusively to ex-soldiers and Mercenaries or those whom had military experience. The rank also comes with a uniform, that shows of the Gang's militant side."		   
+      STR_ZSRR_UBEK_UFOPEDIA: "Usually the most talented of the Captains are nominated as a Boss Leader. More often a Captain has to kill to win the rank. A Boss Leader is in charge of the gang, a least within of a continent. Usually there are no more than four or five Boss Leader whom are in charge of the gang world wide."
+      STR_ZSRR: "Psyke"
+      STR_ZSRR_UFOPEDIA: "Psyke is a criminal gang once started in the city slum areas. The core culture within of this gang is whomever the strongest shall rule. It is not a surprising fact that to promote of yourself within of this gang, you to kill your way up. For Strength is Might and so much of this philoshophy is worshipped that the gang even adopt a militarised dress code to differentiate of itself from the other gang. Part of the major reason that led to the growth of the gang, is Psiclone. The invention of it is the major reason of why Psyke was once the most powerful gang in the South American continent. It was until that the implant was no longer of their exclusive property, that their fortune has wane. Now, they dabbled in other usual criminal activities like drugs, crime and prostitution to stay afloat."	  
+      STR_ZSRR_RED_OPS_FEMALE: "Psyke Soldier"
+      STR_ZSRR_RED_OPS_MALE: "Psyke Captain"
+      STR_ZSRR_UBEK: "Psyke Boss Leader"	  
+      STR_ZSRR_PIONEER_MALE: "Psyke Warrior"
+      STR_ZSRR_PIONEER_FEMALE: "Psyke Pioneer"
+      STR_ZSRR_MATROS: "Psyke Bouncer"
+      STR_ZSRR_MOLOLEC: "Psyke Recruit"
+      STR_ZSRR_GANGER: "Psyke Ganger"
+      STR_ZSRR_RED_OPS_FEMALEID: "Psyke Soldier female ID"
+      STR_ZSRR_RED_OPS_MALEID: "Psyke Captain ID"
+      STR_ZSRR_UBEKID: "Psyke Boss Leader ID"	  
+      STR_ZSRR_PIONEER_MALEID: "Psyke Warrior ID"
+      STR_ZSRR_PIONEER_FEMALEID: "Psyke Pioneer Female ID"
+      STR_ZSRR_MATROSID: "Psyke Bouncer ID"
+      STR_ZSRR_MOLOLECID: "Psyke Recruit ID"
+      STR_ZSRR_GANGERID: "Psyke Ganger ID"	
+      STR_PSICLONE: "Psiclone"
+      STR_PSICLONE_UFOPEDIA: "This cybernetic implant was invented by a renegade Synedrion scientist for the gang Psyke. The implant, after injecting into the neck of the subject, it can manupulate the brainwave within the pleasure centre of the brain. Intially, Psyke was the exclusive distributor, until the design was widely copied and spread to the other criminal organziations."	  
+ufopaedia:
+  - id: STR_PSICLONE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PSICLONE_UFOPEDIA
+    requires:
+      - STR_PSICLONE
+    listOrder: 57900
+  - id: STR_ZSRR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_ZSRR
+    listOrder: 180190	
+  - id: STR_ZSRR_UBEK
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_UBEK_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_UBEK
+    listOrder: 150270
+  - id: STR_ZSRR_GANGER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_GANGER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_GANGER
+    listOrder: 150200
+  - id: STR_ZSRR_MOLOLEC
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_MOLOLEC_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_MOLOLEC
+    listOrder: 150210
+  - id: STR_ZSRR_MATROS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_MATROS_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_MATROS
+    listOrder: 150220
+  - id: STR_ZSRR_PIONEER_MALE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_PIONEER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_PIONEER_MALE
+    listOrder: 150214
+  - id: STR_ZSRR_PIONEER_FEMALE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_PIONEER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_PIONEER_FEMALE
+    listOrder: 150214	
+  - id: STR_ZSRR_RED_OPS_MALE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_RED_OPS_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_RED_OPS_MALE
+    listOrder: 150220	
+  - id: STR_ZSRR_RED_OPS_FEMALE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_ZSRR_RED_OPS_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_RED_OPS_FEMALE
+    listOrder: 150220		
+alienRaces:
+  - id: STR_ZSRR
+    membersRandom:
+      - [STR_ZSRR_UBEK]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_PIONEER_MALE]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_GANGER]
+      - [STR_ZSRR_PIONEER_MALE]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_GANGER]
+      - [STR_ZSRR_MOLOLEC]
+      - [STR_ZSRR_MOLOLEC]
+      - [STR_ZSRR_MOLOLEC]	
+    retaliationAggression: -100
+  - id: STR_ZSRR_UNDERWATER	  
+    retaliationAggression: -100
+    membersRandom:
+      - [STR_ZSRR_UBEK]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_PIONEER_MALE]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_GANGER]
+      - [STR_ZSRR_PIONEER_MALE]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_MATROS]
+      - [STR_ZSRR_GANGER]
+      - [STR_ZSRR_MOLOLEC]
+      - [STR_ZSRR_MOLOLEC]
+      - [STR_ZSRR_MOLOLEC]	
+research:
+  - name: STR_PSICLONE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 40
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_ZSRR
+    #requiresBaseFunc: [RESEARCH]   
+    cost: 10
+    points: 200
+    dependencies:
+      - STR_ZSRR_GANGER
+      - STR_ZSRR_MOLOLEC
+      - STR_ZSRR_MATROS
+      - STR_ZSRR_UBEK
+      - STR_ZSRR_PIONEER_MALE
+      - STR_ZSRR_RED_OPS_FEMALE
+      - STR_ZSRR_RED_OPS_MALE
+      - STR_ZSRR_PIONEER_FEMALE
+  - name: STR_ZSRR_RED_OPS_MALE
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150215		  
+  - name: STR_ZSRR_RED_OPS_FEMALE
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150215		  
+  - name: STR_ZSRR_GANGER
+    requiresBaseFunc: [INTERROGATION] 
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150200
+  - name: STR_ZSRR_MOLOLEC
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150210
+  - name: STR_ZSRR_MATROS
+    requiresBaseFunc: [INTERROGATION] 
+    cost: 20
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150220
+  - name: STR_ZSRR_PIONEER_FEMALE
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150215	
+  - name: STR_ZSRR_PIONEER_MALE
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150215	 
+  - name: STR_ZSRR_UBEK
+    requiresBaseFunc: [INTERROGATION]
+    cost: 50
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ZSRR
+    listOrder: 150270
+units:
+  - type: STR_ZSRR_GANGER
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 50
+      health: 50
+      bravery: 70
+      reactions: 35
+      firing: 40
+      throwing: 45
+      strength: 40
+      psiStrength: 25
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_ZSRR_GANGER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 4
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 4
+    sniper: 25
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP
+        - STR_PSICLONE		
+  - type: STR_ZSRR_MOLOLEC
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 50
+      health: 50
+      bravery: 70
+      reactions: 35
+      firing: 45
+      throwing: 45
+      strength: 40
+      psiStrength: 30
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_ZSRR_MOLOLEC_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 6
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 4
+    sniper: 30
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_PSICLONE		
+  - type: STR_ZSRR_PIONEER_FEMALE
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 66
+      health: 35
+      bravery: 80
+      reactions: 40
+      firing: 45
+      throwing: 40
+      strength: 36
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_ZSRR_PIONEER_FEMALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 1
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE	
+        - STR_PSICLONE		
+  - type: STR_ZSRR_UBEK
+    race: STR_ZSRR
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 65
+      bravery: 90
+      reactions: 65
+      firing: 75
+      throwing: 60
+      strength: 45
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+      #mana: 70
+    armor: STR_ZSRR_UBEK_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    sniper: 80
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_ROCKET_LAUNCHER
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+        - STR_GRENADE
+        - STR_PSICLONE
+  - type: STR_ZSRR_PIONEER_MALE
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 66
+      health: 35
+      bravery: 80
+      reactions: 40
+      firing: 45
+      throwing: 40
+      strength: 36
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #mana: 50
+    armor: STR_ZSRR_PIONEER_MALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 1
+    sniper: 50
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+  - type: STR_ZSRR_MATROS
+    race: STR_ZSRR
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 64
+      stamina: 60
+      health: 50
+      bravery: 80
+      reactions: 40
+      firing: 45
+      throwing: 45
+      strength: 40
+      psiStrength: 30
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_ZSRR_MATROS_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 4
+    sniper: 40
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP		
+  - type: STR_ZSRR_RED_OPS_MALE
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 90
+      health: 55
+      bravery: 80
+      reactions: 50
+      firing: 65
+      throwing: 50
+      strength: 45
+      psiStrength: 40
+      psiSkill: 0
+      melee: 60
+      #mana: 60
+    armor: STR_ZSRR_RED_OPS_MALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 3
+    sniper: 75
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	
+  - type: STR_ZSRR_RED_OPS_FEMALE
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 55
+      bravery: 80
+      reactions: 50
+      firing: 65
+      throwing: 50
+      strength: 45
+      psiStrength: 40
+      psiSkill: 0
+      melee: 60
+    armor: STR_ZSRR_RED_OPS_FEMALE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 3
+    sniper: 75
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP		
+armors:
+  - type: STR_ZSRR_GANGER_ARMOR
+    spriteSheet: ZSRR_GANGER.PCK
+    spriteInv: inventory_ZSRR_GANGER
+    corpseBattle:
+      - STR_ZSRR_GANGER_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &StandardCivilianResists
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_MOLOLEC_ARMOR
+    spriteSheet: ZSRR_MOLOLEC.PCK
+    spriteInv: inventory_ZSRR_MOLOLEC
+    corpseBattle:
+      - STR_ZSRR_MOLOLEC_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_MATROS_ARMOR
+    spriteSheet: ZSRR_MATROS.PCK
+    spriteInv: inventory_ZSRR_MATROS
+    corpseBattle:
+      - STR_ZSRR_MATROS_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_RED_OPS_MALE_ARMOR
+    spriteInv: inventory_ZSRR_RED_OPS_MALE
+    spriteSheet: ZSRR_RED_OPS_MALE.PCK
+    corpseBattle:
+      - STR_ZSRR_RED_OPS_MALE_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    camouflageAtDay: 30
+    camouflageAtDark: -2
+    visibilityAtDark: 11
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 12
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &RedOpsResists
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_RED_OPS_FEMALE_ARMOR
+    spriteInv: inventory_ZSRR_RED_OPS_FEMALE
+    spriteSheet: ZSRR_RED_OPS_FEMALE.PCK
+    corpseBattle:
+      - STR_ZSRR_RED_OPS_FEMALE_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    camouflageAtDay: 30
+    camouflageAtDark: -2
+    visibilityAtDark: 11
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 8
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier: &RedOpsResists
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_PIONEER_MALE_ARMOR
+    spriteSheet: EXALT_GOON.PCK
+    spriteInv: inventory_EXALT_GOON
+    corpseBattle:
+      - STR_ZSRR_PIONEER_MALEX_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 18
+    sideArmor: 10
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 3.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+  - type: STR_ZSRR_PIONEER_FEMALE_ARMOR
+    spriteSheet: ZSRR_PIONEER.PCK
+    spriteInv: inventory_ZSRR_PIONEER_FEMALE
+    forcedTorso: 2
+    corpseBattle:
+      - STR_ZSRR_PIONEER_FEMALE_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    camouflageAtDay: 30
+    camouflageAtDark: -2
+    visibilityAtDark: 10
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 8
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZSRR_UBEK_ARMOR
+    spriteSheet: ZSRR_UBEK.PCK
+    spriteInv: inventory_ZSRR_UBEK
+    weight: 5
+    corpseBattle:
+      - STR_ZSRR_UBEK_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    visibilityAtDark: 11
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+items:
+  - type: STR_PSICLONE
+    requires:
+      - STR_PSICLONE
+    size: 0.1
+    costSell: 22000
+    weight: 5
+    bigSprite: 329
+    floorSprite: 289
+    handSprite: 824
+    meleeHitSound: 36
+    power: 0
+    damageBonus:
+      psiStrength: 0.75
+    meleeAnimation: 4
+    damageType: 7
+    damageAlter:
+      ArmorEffectiveness: 0.2
+      ToHealth: 0.0
+      ToMorale: 1.0
+      ToWound: 0
+      ToArmor: 0.0
+      ToTile: 0.0
+    accuracyMelee: 110
+    meleeMultiplier:
+      melee: 0.75
+      psiSkill: 0.4
+    costThrow:
+      energy: 10
+    flatRate: false
+    tuMelee: 50
+    battleType: 3
+    clipSize: -1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    experienceTrainingMode: 26
+    attraction: 10
+    listOrder: 57910
+  - type: STR_ZSRR_UBEK_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 292
+    floorSprite: 250
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 35	
+  - type: STR_ZSRR_GANGER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 287
+    floorSprite: 245
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_ZSRR_MOLOLEC_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 281
+    floorSprite: 241
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_ZSRR_MATROS_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 286
+    floorSprite: 244
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_ZSRR_RED_OPS_MALE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 285
+    floorSprite: 243
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+  - type: STR_ZSRR_RED_OPS_FEMALE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 282
+    floorSprite: 242
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+  - type: STR_ZSRR_PIONEER_MALEX_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 325
+    floorSprite: 285
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+  - type: STR_ZSRR_PIONEER_FEMALE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 282
+    floorSprite: 242
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30	
+  - type: STR_ZSRR_RED_OPS_MALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150230
+  - type: STR_ZSRR_RED_OPS_FEMALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150240
+  - type: STR_ZSRR_PIONEER_FEMALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 12000
+    listOrder: 150217	
+  - type: STR_ZSRR_PIONEER_MALE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 12000
+    listOrder: 150215
+  - type: STR_ZSRR_UBEK
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 35000
+    listOrder: 150270		
+  - type: STR_ZSRR_GANGER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 4000
+    listOrder: 150200
+  - type: STR_ZSRR_MOLOLEC
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 150210	
+  - type: STR_ZSRR_MATROS
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 21000
+    listOrder: 150220	

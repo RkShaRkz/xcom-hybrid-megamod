@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MPS Abel
+  - MPS Adam
+  - MPS Adrian
+  - MPS Akos
+  - MPS Albert
+  - MPS Alex
+  - MPS Andor
+  - MPS Andras
+  - MPS Antal
+  - MPS Arnold
+  - MPS Aron
+  - MPS Arpad
+  - MPS Attila
+  - MPS Balazs
+  - MPS Balint
+  - MPS Barna
+  - MPS Barnabas
+  - MPS Bela
+  - MPS Bence
+  - MPS Bendeguz
+  - MPS Benedek
+  - MPS Benjamin
+  - MPS Bertalan
+  - MPS Botond
+  - MPS Csaba
+  - MPS Csongor
+  - MPS Daniel
+  - MPS David
+  - MPS Denes
+  - MPS Dezso
+  - MPS Dominik
+  - MPS Elemer
+  - MPS Emil
+  - MPS Endre
+  - MPS Erik
+  - MPS Erno
+  - MPS Ervin
+  - MPS Ferenc
+  - MPS Gabor
+  - MPS Gergely
+  - MPS Gergo
+  - MPS Geza
+  - MPS Gusztav
+  - MPS Gyorgy
+  - MPS Gyozo
+  - MPS Gyula
+  - MPS Henrik
+  - MPS Imre
+  - MPS Istvan
+  - MPS Ivan
+  - MPS Janos
+  - MPS Jeno
+  - MPS Jozsef
+  - MPS Kalman
+  - MPS Karoly
+  - MPS Kevin
+  - MPS Kornel
+  - MPS Kristof
+  - MPS Krisztian
+  - MPS Krisztofer
+  - MPS Lajos
+  - MPS Laszlo
+  - MPS Levente
+  - MPS Lorant
+  - MPS Marcell
+  - MPS Mark
+  - MPS Martin
+  - MPS Marton
+  - MPS Mate
+  - MPS Matyas
+  - MPS Mihaly
+  - MPS Miklos
+  - MPS Milan
+  - MPS Nandor
+  - MPS Noel
+  - MPS Norbert
+  - MPS Oliver
+  - MPS Otto
+  - MPS Pal
+  - MPS Patrik
+  - MPS Peter
+  - MPS Richard
+  - MPS Robert
+  - MPS Roland
+  - MPS Rudolf
+  - MPS Sandor
+  - MPS Szabolcs
+  - MPS Szilard
+  - MPS Szilveszter
+  - MPS Tamas
+  - MPS Tibor
+  - MPS Tivadar
+  - MPS Viktor
+  - MPS Vilmos
+  - MPS Vince
+  - MPS Zalan
+  - MPS Zoltan
+  - MPS Zsigmond
+  - MPS Zsolt
+  - MPS Zsombor
+femaleFirst:
+  - MPS Adrienn
+  - MPS Agi
+  - MPS Agnes
+  - MPS Agota
+  - MPS Alberta
+  - MPS Alexa
+  - MPS Alexandra
+  - MPS Aliz
+  - MPS Anasztazia
+  - MPS Andrea
+  - MPS Anett
+  - MPS Angyalka
+  - MPS Aniko
+  - MPS Anita
+  - MPS Anna
+  - MPS Annamaria
+  - MPS Aranka
+  - MPS Aurelia
+  - MPS Barbara
+  - MPS Beata
+  - MPS Beatrix
+  - MPS Bella
+  - MPS Bernadett
+  - MPS Berta
+  - MPS Bettina
+  - MPS Bianka
+  - MPS Boglarka
+  - MPS Bora
+  - MPS Borbala
+  - MPS Boriska
+  - MPS Borka
+  - MPS Brigitta
+  - MPS Cili
+  - MPS Csilla
+  - MPS Dia
+  - MPS Diana
+  - MPS Dora
+  - MPS Dorina
+  - MPS Dorottya
+  - MPS Edina
+  - MPS Edit
+  - MPS Emese
+  - MPS Emma
+  - MPS Eniko
+  - MPS Erika
+  - MPS Ernesztina
+  - MPS Erzsebet
+  - MPS Erzsi
+  - MPS Eszter
+  - MPS Etel
+  - MPS Etelka
+  - MPS Eva
+  - MPS Evelin
+  - MPS Fanni
+  - MPS Franciska
+  - MPS Gabriella
+  - MPS Gitta
+  - MPS Gizella
+  - MPS Gyongyi
+  - MPS Gyorgyi
+  - MPS Hajna
+  - MPS Hajnalka
+  - MPS Hanna
+  - MPS Henrietta
+  - MPS Ibolya
+  - MPS Ica
+  - MPS Ildiko
+  - MPS Ilka
+  - MPS Ilona
+  - MPS Iren
+  - MPS Irenke
+  - MPS Irma
+  - MPS Janka
+  - MPS Jolan
+  - MPS Judit
+  - MPS Julia
+  - MPS Julianna
+  - MPS Juliska
+  - MPS Karola
+  - MPS Karolina
+  - MPS Katalin
+  - MPS Katarina
+  - MPS Kati
+  - MPS Katinka
+  - MPS Kinga
+  - MPS Kitti
+  - MPS Klara
+  - MPS Klaudia
+  - MPS Kriszta
+  - MPS Krisztina
+  - MPS Laura
+  - MPS Lili
+  - MPS Lilla
+  - MPS Linka
+  - MPS Liza
+  - MPS Magdolna
+  - MPS Mara
+  - MPS Margit
+  - MPS Margo
+  - MPS Maria
+  - MPS Mariann
+  - MPS Marianna
+  - MPS Marika
+  - MPS Marta
+  - MPS Melinda
+  - MPS Monika
+  - MPS Nikolett
+  - MPS Nikoletta
+  - MPS Noemi
+  - MPS Nora
+  - MPS Olga
+  - MPS Orsolya
+  - MPS Petra
+  - MPS Piroska
+  - MPS Reka
+  - MPS Renata
+  - MPS Rita
+  - MPS Roza
+  - MPS Rozalia
+  - MPS Rozsa
+  - MPS Sara
+  - MPS Sarolta
+  - MPS Szabina
+  - MPS Szilvia
+  - MPS Terez
+  - MPS Terezia
+  - MPS Timea
+  - MPS Tunde
+  - MPS Valeria
+  - MPS Veronika
+  - MPS Viktoria
+  - MPS Virag
+  - MPS Vivien
+  - MPS Zita
+  - MPS ZsaZsa
+  - MPS Zsanett
+  - MPS Zsofia
+  - MPS Zsuzska
+  - MPS Zsuzsanna
+  - MPS Zsuzsi
+maleLast:
+  - Alfoldi
+  - Andrassy
+  - Annus
+  - Antal
+  - Arany
+  - Bakos
+  - Balassa
+  - Balazs
+  - Balint
+  - Balla
+  - Balog
+  - Balogh
+  - Barati
+  - Barna
+  - Barsony
+  - Barta
+  - Bartok
+  - Bathory
+  - Berzevicky
+  - Biro
+  - Bocskay
+  - Bodnar
+  - Bogdan
+  - Bognar
+  - Borbely
+  - Bori
+  - Boros
+  - Budai
+  - Csillag
+  - Csollany
+  - Csonka
+  - Csurgo
+  - Czako
+  - Czene
+  - Czobor
+  - Dardai
+  - Daroczy
+  - Deak
+  - Dobos
+  - Doczi
+  - Dombi
+  - Dozsa
+  - Dudas
+  - Egerszegi
+  - Eotvos
+  - Fabian
+  - Farago
+  - Farkas
+  - Fazekas
+  - Feher
+  - Fekete
+  - Ferenczy
+  - Fodor
+  - Forgach
+  - Forgacs
+  - Fulop
+  - Gal
+  - Gaspar
+  - Gazdag
+  - Gero
+  - Guba
+  - Gulyas
+  - Gyorffy
+  - Gyulai
+  - Hajdu
+  - Halasz
+  - Halmai
+  - Hamori
+  - Hankiss
+  - Hedervary
+  - Hegedus
+  - Hollo
+  - Horanszky
+  - Horthy
+  - Horvath
+  - Hrutka
+  - Hunyadi
+  - Illes
+  - Illeshazy
+  - Ilyes
+  - Istvanffy
+  - Jagadics
+  - Jakab
+  - Jaszi
+  - Jokai
+  - Jonas
+  - Joo
+  - Juhasz
+  - Kalanyos
+  - Kaldi
+  - Kallay
+  - Kammerer
+  - Karolyi
+  - Katona
+  - Kazinczy
+  - Kelemen
+  - Kemeny
+  - Kerekes
+  - Kertes
+  - Kiraly
+  - Kis
+  - Kiss
+  - Knesevich
+  - Koban
+  - Kocsis
+  - Kodaly
+  - Koranyi
+  - Kortosi
+  - Kossuth
+  - Kovacs
+  - Kovago
+  - Kozma
+  - Kulcsar
+  - Kun
+  - Kurti
+  - Kurtosi
+  - Kurutz
+  - Kuti
+  - Kutsera
+  - Lajtos
+  - Lakatos
+  - Laszlo
+  - Lehotka
+  - Lengyel
+  - Ligeti
+  - Liptak
+  - Lisztes
+  - Lugosi
+  - Lukacs
+  - Madar
+  - Magyar
+  - Major
+  - Malek
+  - Mandula
+  - Markovits
+  - Mate
+  - Matyus
+  - Mecs
+  - Meszaros
+  - Mindszenty
+  - Molnar
+  - Munkacsy
+  - Nadasdy
+  - Nagy
+  - Nemes
+  - Nemeth
+  - Noszaly
+  - Novak
+  - Nyilas
+  - Nyilasi
+  - Olah
+  - Onodi
+  - Orban
+  - Orczy
+  - Orosz
+  - Orsos
+  - Pal
+  - Palagyi
+  - Pandy
+  - Pap
+  - Papp
+  - Partos
+  - Pasztor
+  - Pataki
+  - Pazmany
+  - Pecely
+  - Perneky
+  - Peter
+  - Petofi
+  - Pinter
+  - Pongratz
+  - Pulszky
+  - Racz
+  - Rakosi
+  - Redik
+  - Revay
+  - Rezessy
+  - Ronay
+  - Rosner
+  - Rosza
+  - Rubik
+  - Safar
+  - Sandor
+  - Sebok
+  - Sereny
+  - Simon
+  - Sipos
+  - Soltesz
+  - Solti
+  - Solymosi
+  - Somogyi
+  - Soos
+  - Supola
+  - Suto
+  - Svarcz
+  - Szabo
+  - Szalai
+  - Szalay
+  - Szatmary
+  - Szechenyi
+  - Szekely
+  - Szekeres
+  - Szelepcsenyi
+  - Szeman
+  - Szemere
+  - Szilagyi
+  - Szoke
+  - Szucs
+  - Szuhay
+  - Tabory
+  - Takacs
+  - Tamas
+  - Teleki
+  - Temesvari
+  - Tessedik
+  - Thurzo
+  - Tisza
+  - Tokes
+  - Tokody
+  - Tolgyesi
+  - Torok
+  - Toth
+  - Ujlaky
+  - Urbanik
+  - Vajda
+  - Vamosi
+  - Varadi
+  - Varga
+  - Varkonyi
+  - Vass
+  - Vegh
+  - Verboczy
+  - Veres
+  - Vidrai
+  - Vincze
+  - Virag
+  - Voros
+  - Wessely
+  - Zatony
+  - Zavadszky
+  - Zrinyi
+  - Zsivozky
+  - Zsoldos

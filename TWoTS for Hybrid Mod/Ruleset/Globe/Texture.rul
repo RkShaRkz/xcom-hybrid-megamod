@@ -1,0 +1,10 @@
+globe:
+  textures:
+    - id: -28
+      startingCondition: STR_TERRORALLOWED 	
+      deployments:
+        STR_CARGO_SHIP_PIRATES: 100		
+    - id: -29
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_COLD_EXCAVATION: 100				

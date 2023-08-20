@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MGS Jan
+  - MGS Tomas
+  - MGS Zbysek
+  - MGS Zdenik
+  - MGS Michal
+  - MGS Martin
+  - MGS Jioi
+  - MGS Ivo
+  - MGS Pavel
+  - MGS Karel
+  - MGS Frantisek
+  - MGS Ctirad
+  - MGS Zbynik
+  - MGS Vladimir
+  - MGS Jaroslav
+  - MGS Petr
+  - MGS Josef
+  - MGS Vaclav
+  - MGS Miroslav
+  - MGS Mila
+  - MGS Lukas
+  - MGS David
+  - MGS Jakub
+  - MGS Stanislav
+  - MGS Roman
+  - MGS Ondoej
+  - MGS Radek
+  - MGS Antonin
+  - MGS Jozef
+  - MGS Emil
+  - MGS Filip
+  - MGS Ales  
+  - MGS Alexandr
+  - MGS Alexej
+  - MGS Ambroz	
+  - MGS Andrej
+  - MGS Arnost
+  - MGS Artur
+  - MGS Augustyn
+  - MGS Bartolomej	
+  - MGS Bedrich
+  - MGS Benedikt
+  - MGS Bernard
+  - MGS Blahoslav
+  - MGS Blazej
+  - MGS Bohdan
+  - MGS Bohumil
+  - MGS Bohumir	
+  - MGS Bohuslav
+  - MGS Boleslav
+  - MGS Bonifac
+  - MGS Borek
+  - MGS Boris
+  - MGS Borivoj
+  - MGS Bretislav
+  - MGS Bronislav
+  - MGS Bruno
+  - MGS Ctibor
+  - MGS Cenek
+  - MGS Cestmir	
+  - MGS Dalibor
+  - MGS Dalimil
+  - MGS Dobroslav
+  - MGS Dominik
+  - MGS Drahoslav
+  - MGS Dusan
+  - MGS Eduard
+  - MGS Erik
+  - MGS Evzen
+  - MGS Felix
+  - MGS Ferdinand
+  - MGS Gustav
+  - MGS Hanus	
+  - MGS Havel
+  - MGS Herman
+  - MGS Hubert
+  - MGS Hugo
+  - MGS Hynek
+  - MGS Ignac
+  - MGS Igor
+  - MGS Ilja
+  - MGS Ivan
+  - MGS Jachym
+  - MGS Jarmil
+  - MGS Jaromir
+  - MGS Jeronym
+  - MGS Jindrich
+  - MGS Jiri	
+  - MGS Jonas	
+  - MGS Julius
+  - MGS Kamil
+  - MGS Kazimir
+  - MGS Klement
+  - MGS Kristian
+  - MGS Krystof
+  - MGS Kvetoslav
+  - MGS Kvido
+  - MGS Ladislav
+  - MGS Leopold
+  - MGS Leos	
+  - MGS Libor
+  - MGS Lubomir
+  - MGS Lubor
+  - MGS Lubos	
+  - MGS Ludek
+  - MGS Ludvik
+  - MGS Lukas	
+  - MGS Lumir
+  - MGS Marcel
+  - MGS Marek
+  - MGS Marian
+  - MGS Matej	
+  - MGS Matous	
+  - MGS Maxmilian	
+  - MGS Medard
+  - MGS Mikulas	
+  - MGS Milan
+  - MGS Milos	
+  - MGS Miloslav
+  - MGS Mojmir
+  - MGS Oldrich
+  - MGS Oleg
+  - MGS Oliver
+  - MGS Ondrej	
+  - MGS Oskar
+  - MGS Otakar
+  - MGS Otmar
+  - MGS Oto
+  - MGS Pankrac	
+  - MGS Patrik
+  - MGS Pravoslav
+  - MGS Prokop
+  - MGS Premysl
+  - MGS Radim
+  - MGS Radomir
+  - MGS Radoslav
+  - MGS Radovan
+  - MGS Rostislav
+  - MGS Rudolf
+  - MGS Rehor	
+  - MGS Samuel
+  - MGS Servac
+  - MGS Silvestr
+  - MGS Slavomir
+  - MGS Sobeslav
+  - MGS Svatopluk
+  - MGS Svatoslav
+  - MGS Simon
+  - MGS Stefan
+  - MGS Stepan	
+  - MGS Tadeas	
+  - MGS Teodor
+  - MGS Tibor
+  - MGS Tomas	
+  - MGS Valdemar
+  - MGS Valentyn
+  - MGS Vavrinec
+  - MGS Venceslav
+  - MGS Vendelin
+  - MGS Veroslav
+  - MGS Viktor
+  - MGS Vilem
+  - MGS Vincenc
+  - MGS Vit
+  - MGS Vitezslav
+  - MGS Vladan
+  - MGS Vladislav
+  - MGS Vlastimil
+  - MGS Vlastislav
+  - MGS Vojtech
+  - MGS Vratislav
+  - MGS Zbynek
+  - MGS Zdenek
+  - MGS Zikmund
+femaleFirst:
+  - MGS Anna
+  - MGS Marie
+  - MGS Jana
+  - MGS Iva
+  - MGS Irina
+  - MGS Ludmila
+  - MGS Pavla
+  - MGS Kateoina
+  - MGS Simona
+  - MGS Lucie
+  - MGS Lenka
+  - MGS Alena
+  - MGS Gabina
+  - MGS Jioina
+  - MGS Michaela
+  - MGS Ivana
+  - MGS Monika
+  - MGS Veronika
+  - MGS Jarmila
+  - MGS Zdeoka
+  - MGS Jitka
+  - MGS Helena
+  - MGS Petra
+  - MGS Eva
+  - MGS Hana
+  - MGS Vira
+  - MGS Tereza
+  - MGS Adela
+  - MGS Adele
+  - MGS Adriena
+  - MGS Agata
+  - MGS Alica
+  - MGS Alzbeta
+  - MGS Ana
+  - MGS Ancika
+  - MGS Andel
+  - MGS Andela
+  - MGS Aneta
+  - MGS Anezka
+  - MGS Anichka
+  - MGS Antoinetta
+  - MGS Antonie
+  - MGS Bara
+  - MGS Barbora
+  - MGS Barcinka
+  - MGS Barunka
+  - MGS Baruska
+  - MGS Blanka
+  - MGS Bohdana
+  - MGS Bohumila
+  - MGS Bohuslava
+  - MGS Bora
+  - MGS Bozena
+  - MGS Branislava
+  - MGS Dagmar
+  - MGS Daleka
+  - MGS Dalibora
+  - MGS Dominika
+  - MGS Drahomira
+  - MGS Drahoslava
+  - MGS Dusa
+  - MGS Dusana
+  - MGS Dusanka
+  - MGS Duska
+  - MGS Edita
+  - MGS Eliska
+  - MGS Elita
+  - MGS Emilia
+  - MGS Frantiska
+  - MGS Hedvika
+  - MGS Irena
+  - MGS Izabela
+  - MGS Jaromila
+  - MGS Jaroslava
+  - MGS Jindriska
+  - MGS Jirina
+  - MGS Johana
+  - MGS Jolana
+  - MGS Josefa
+  - MGS Judita
+  - MGS Julia
+  - MGS Kamila
+  - MGS Karina
+  - MGS Karolina
+  - MGS Katarina
+  - MGS Katerina
+  - MGS Katica
+  - MGS Kristyna
+  - MGS Kunigunde
+  - MGS Kveta
+  - MGS Ladislava
+  - MGS Leona
+  - MGS Libena
+  - MGS Libuse
+  - MGS Lida
+  - MGS Lidmila
+  - MGS Lubomira
+  - MGS Lucina
+  - MGS Lydie
+  - MGS Madlenka
+  - MGS Magdalena
+  - MGS Maria
+  - MGS Marketa
+  - MGS Matylda
+  - MGS Milada
+  - MGS Milana
+  - MGS Milena
+  - MGS Miloslava
+  - MGS Nada
+  - MGS Nadezda
+  - MGS Otilie
+  - MGS Pavlina
+  - MGS Radka
+  - MGS Radomila
+  - MGS Radomira
+  - MGS Radoslava
+  - MGS Ruzena
+  - MGS Sara
+  - MGS Sobeska
+  - MGS Sobeslava
+  - MGS Stanislava
+  - MGS Stefanija
+  - MGS Stepanka
+  - MGS Svetla
+  - MGS Svetlana
+  - MGS Tatana
+  - MGS Ursula
+  - MGS Vaclava
+  - MGS Vendula
+  - MGS Vera
+  - MGS Vladimira
+  - MGS Vlasta
+  - MGS Zdenka
+  - MGS Zofie
+  - MGS Zoja
+  - MGS Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - MPS Abdullah
+  - MPS Abu
+  - MPS Ahmed
+  - MPS Ali
+  - MPS Bilal
+  - MPS Fadil
+  - MPS Farid
+  - MPS Faysal
+  - MPS Ghassan
+  - MPS Habib
+  - MPS Hakim
+  - MPS Hassan
+  - MPS Ibrahim
+  - MPS Khalid
+  - MPS Mahmoud
+  - MPS Muhammad
+  - MPS Najib
+  - MPS Nasir
+  - MPS Omar
+  - MPS Rashid
+  - MPS Tariq
+  - MPS Yusuf
+femaleFirst:
+  - MPS Alia
+  - MPS Amirah
+  - MPS Asma
+  - MPS Farah
+  - MPS Fatima
+  - MPS Ghaliya
+  - MPS Hafsa
+  - MPS Haniya
+  - MPS Iman
+  - MPS Jalila
+  - MPS Jawahir
+  - MPS Karima
+  - MPS Laila
+  - MPS Latifa
+  - MPS Malaika
+  - MPS Maryam
+  - MPS Mona
+  - MPS Nadia
+  - MPS Noor
+  - MPS Rafiqa
+  - MPS Samira
+  - MPS Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

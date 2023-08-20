@@ -1,0 +1,613 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_NAZI_8_CORPSE_BATTLE_UFOPEDIA: "The Corpse of the Super Soldier is genetically engineered from the finest science of the Forth Reich can produced. The Soldier is an unfortunate volunteer, pump full of chem to be super strength. So it can use the power armour with its weapons."	
+      STR_NAZI_8_CORPSE_BATTLE: "Forth Reich SuperSoldier Corpse"	
+      STR_BLACK_SUN_STORMTROOPER_ARMOR: "Black Sun Stormtrooper Combat Analysis"	
+      STR_BLACK_SUN_STORMTROOPER_ARMOR_UFOPEDIA: "Black Sun Stormtrooper Combat Analysis"		  
+      NAZI_ARMOR_P1: "Humanist Soldier Examination"
+      NAZI_ARMOR_P2: "Humanist Instructor Examination"
+      NAZI_ARMOR_P4: "Humanist Leader Examination"
+      NAZI_ARMOR_P6: "Humanist Stormtrooper Armor"
+      NAZI_ARMOR_P8: "Humanist Supersoldier Armor"
+      NAZI_ARMOR_P7: "Humanist Activist Examination"	
+      NAZI_ARMOR_P1_UFOPEDIA: "Humanist Soldier Examination. NV: 9. CAMO: 5/0."
+      NAZI_ARMOR_P2_UFOPEDIA: "Humanist Instructor Examination. NV: 9."
+      NAZI_ARMOR_P4_UFOPEDIA: "Humanist Leader Examination. NV: 9. CAMO: 0/1."
+      NAZI_ARMOR_P6_UFOPEDIA: "Humanist Stormtrooper Armor. NV: 16. ThV: 50%. CAMO: 0/2."
+      NAZI_ARMOR_P7_UFOPEDIA: "Humanist Activist Examination. NV: 9."	
+      STR_NAZI_SOLDIER_SALVAGE: "S: Hum. Soldier (0/0/2)"
+      STR_NAZI_KKK_SALVAGE: "S: Hum. Activist (0/0/2)"	  
+      STR_NAZI_HACKING: Humanist Files Hacking  
+      STR_NAZI_HACKING_UFOPEDIA: "With our improved netrunning skills and gear, we can now hack the elusive Humanists for any secret info they might be keeping, although it will cost us more resources than hacking the Govts."	  
+      STR_NAZI_SOLDIER_ROBBERY: "Interrogate: Hum. Soldier (0/0/2)"
+      STR_NAZI_SS_ROBBERY: "Interrogate: Hum. Instructor (0/2/0)"
+      STR_NAZI_STORMTROOPER_ROBBERY: "Interrogate: Hum. S-trooper (2/0/1)"
+      STR_NAZI_SUPERSOLDIER_ROBBERY: "Interrogate: Supersoldier (1/0/26)"
+      STR_NAZI_LEADERPIRATE_ROBBERY: "Interrogate: Hum. Leader (0/2/1)"
+      STR_NAZI_KKK_ROBBERY: "Interrogate: Hum. Activist (0/0/2)"    	  	  	  
+      STR_NAZI_KKK: "SS Hauptsturmführer"  	  
+      STR_BLACK_SUN_STORMTROOPER: "SS ShockTrooper"	
+      STR_NAZI_SOLDIERPIRATE: "SS Soldier"
+      STR_NAZI_SS: "SS Sturmbannführer"
+      STR_NAZI_LEADERPIRATE: "SS Oberführer"
+      STR_NAZI_STORMTROOPER: "SS Stormtrooper"	
+      STR_NAZI_KKKID: "SS Hauptsturmführer ID"  	  
+      STR_BLACK_SUN_STORMTROOPERID: "SS ShockTrooper ID"	
+      STR_NAZI_SOLDIERPIRATEID: "SS Soldier ID"
+      STR_NAZI_SSID: "SS Sturmbannführer ID"
+      STR_NAZI_LEADERPIRATEID: "SS Oberführer ID"
+      STR_NAZI_STORMTROOPERID: "SS StormTrooper ID"
+      STR_NAZI_SUPERSOLDIER: "SS Supersoldier"	  
+      STR_NAZIS_TERROR: "Forth Reich Legionaries, Legion Das Reich"
+      STR_MIXED_KKK: "Forth Reich Legionaries, Legion Totenkopf"		  
+      STR_NAZISEXP: "Forth Reich Legionaries, Legion Frundsberg"
+      STR_NAZISEXP_UFOPEDIA: "The Forth Reich Legionaries, was founded in eastern europe. It used to be reputable Mercenary command under a different name, till its senior officers killed its former commander and changed its name. Now pattern of itself with similarity to the Arm forces of Nazi Germany in World War 2, it mostly hires recruits with far right point of view. This army group is well funded and equiped, with their own distinctive uniforms and rank structures plus equipments. Most countries has banned them as a terrorist organzation, yet, some has still court them for their services. "		
+      STR_BLACK_SUN_STORMTROOPER_UFOPEDIA: "The Shock Trooper is a SS soldier trained in infiltration and assault tactics, wearing heavier armor, they will be led by a Hauptsturmführer wearing storm trooper armor to "
+      STR_NAZI_SUPERSOLDIER_UFOPEDIA: "The Supersoldiers are a created beast, with the help of the Synedrion. The soldier is vat growth, genetically modified with super strength and other stats to be the best soldier the Reich can field. They can be grown within months and utterly fanatical, cause they can't think for themselves, other than following orders blindly. Part of the side effect of this creation is the lacking in intelligence. "
+      STR_NAZI_SOLDIERPIRATE_UFOPEDIA: "The SS Soldier rank is the lowest, most recruit starts at this level, just fresh out of training and given a gun. With their ideology, they are just murderers with excuse to shoot of those whom are not pure in their eyes."
+      STR_NAZI_SS_UFOPEDIA: "A Sturmbannführer is one of officer ranks, most of these are the best and brightest of young recruits that the Forth Reich has selected from and given officer training. Most are young, ambitious, fanatical and vicious, ready to die for the ideals of the Forth Reich."
+      STR_NAZI_LEADERPIRATE_UFOPEDIA: "Any Sturmbannführer with more than a few years of experience, if the ranks open up, the best will be promote to a Oberführer. A Oberführer carries a lot of responsibilities, not to mention they are the number one target for any on the feild to kill. Most officers of this rank are view as public enemy number one from around the world, with a high price tag for their death."	  	   
+alienRaces:
+  - id: STR_MIXED_KKK
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+  - id: STR_MIXED_KKK_UNDERWATER	
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER	 
+      - STR_BLACK_SUN_STORMTROOPER	  
+    retaliationAggression: -100	  
+  - id: STR_NAZISEXP
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER	  
+    retaliationAggression: -100
+  - id: STR_NAZISEXP_UNDERWATER	
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER	 
+  - id: STR_NAZIS_TERROR
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER	  
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+    retaliationAggression: -100
+  - id: STR_NAZIS_TERROR_UNDERWATER	
+    members:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_NAZI_SUPERSOLDIER	  
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+      - STR_BLACK_SUN_STORMTROOPER
+    retaliationAggression: -100	
+research:
+  - name: STR_NAZI_SUPERSOLDIER
+    cost: 15
+    points: 50
+    needItem: true	
+    destroyItem: true
+    unlocks:
+      - STR_NAZISEXP
+  - name: STR_NAZI_8_CORPSE_BATTLE
+    cost: 35
+    points: 50    
+    points: 10
+    dependencies:
+      - STR_NAZI_SUPERSOLDIER	 
+  - name: STR_BLACK_SUN_STORMTROOPER
+    cost: 15
+    points: 50
+    needItem: true	
+    destroyItem: true
+    unlocks:
+      - STR_NAZISEXP	
+  - name: STR_NAZI_LEADERPIRATE   
+    cost: 20
+    points: 66
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_NAZISEXP
+  - name: STR_NAZI_STORMTROOPER
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_NAZISEXP	  
+  - name: STR_NAZISEXP  
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_NAZI_LEADERPIRATE
+      - STR_NAZI_STORMTROOPER
+      - STR_NAZI_SUPERSOLDIER
+      - STR_BLACK_SUN_STORMTROOPER
+ufopaedia:
+  - id: STR_NAZI_SUPERSOLDIER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NAZI_SUPERSOLDIER
+    text: STR_NAZI_SUPERSOLDIER_UFOPEDIA
+    text_width: 180
+    listOrder: 25165	
+  - id: STR_NAZI_LEADERPIRATE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NAZI_LEADERPIRATE
+    text: STR_NAZI_LEADERPIRATE_UFOPEDIA
+    text_width: 180
+    listOrder: 25140
+  - id: STR_NAZI_STORMTROOPER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NAZI_STORMTROOPER
+    text: STR_NAZI_STORMTROOPER_UFOPEDIA
+    text_width: 180
+    listOrder: 25160
+  - id: STR_BLACK_SUN_STORMTROOPER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BLACK_SUN_STORMTROOPER
+    text: STR_BLACK_SUN_STORMTROOPER_UFOPEDIA
+    text_width: 180
+    listOrder: 25170	  
+  - id: STR_NAZISEXP
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NAZISEXP
+    text: STR_NAZISEXP_UFOPEDIA
+    text_width: 128
+    listOrder: 25000	
+units:		
+  - type: STR_BLACK_SUN_STORMTROOPER
+    race: STR_BLACK_SUN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 65
+      bravery: 90
+      reactions: 45
+      firing: 75
+      throwing: 55
+      strength: 42
+      psiStrength: 52
+      psiSkill: 0
+      melee: 60
+      #mana: 50
+    armor: STR_BLACK_SUN_STORMTROOPER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 5
+    aggression: 2
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE	
+  - type: STR_NAZI_SUPERSOLDIER
+    race: STR_NAZIS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 70
+      stamina: 90
+      health: 75
+      bravery: 90
+      reactions: 30
+      firing: 40
+      throwing: 20
+      strength: 70
+      psiStrength: 90
+      psiSkill: 0
+      melee: 50
+      #Mana: 125
+    armor: NAZI_ARMOR_P8
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 60
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 5
+    aggression: 2
+    livingWeapon: true
+    sniper: 33
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_MINIGUN
+        - STR_MINIGUN_CLIP
+        - STR_MINIGUN_CLIP		
+        - STR_MINIGUN_CLIP
+  - type: STR_NAZI_LEADERPIRATE
+    race: STR_NAZIS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 90
+      health: 45
+      bravery: 90
+      reactions: 65
+      firing: 75
+      throwing: 45
+      strength: 33
+      psiStrength: 60
+      psiSkill: 0
+      melee: 75
+      #Mana: 111
+    armor: NAZI_ARMOR_P4
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 50
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 6
+    aggression: 1
+    sniper: 33
+    spotter: 4
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+  - type: STR_NAZI_STORMTROOPER
+    race: STR_NAZIS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 50
+      stamina: 90
+      health: 65
+      bravery: 90
+      reactions: 45
+      firing: 75
+      throwing: 55
+      strength: 42
+      psiStrength: 52
+      psiSkill: 0
+      melee: 60
+      #Mana: 125
+    armor: NAZI_ARMOR_P6
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 5
+    aggression: 2
+    spotter: 1		
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP
+        - STR_GRENADE
+        - STR_LMG_CLIP
+armors:	
+  - type: NAZI_ARMOR_P6
+    spriteSheet: NAZ_6.PCK
+    spriteInv: NaziStormtrooperInventoryImage
+    corpseBattle:
+      - STR_NAZI_6_CORPSE_BATTLE
+    #corpseGeo: STR_SECURITY_CORPSE
+    visibilityAtDark: 16
+    heatVision: 50
+    camouflageAtDark: -2
+    overKill: 0.75
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 40
+    meleeDodge:
+      reactions: 0.3
+      #bravery: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_TOUGH
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      #stun: *SECTION_STUN_RECOVERY_TOUGH
+      #health: *SECTION_HEALTH_RECOVERY_TOUGH
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.8
+      - 0.8
+      - 0.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+  - type: NAZI_ARMOR_P4
+    spriteSheet: NAZ_4.PCK
+    spriteInv: NaziLeaderInventoryImage
+    corpseBattle:
+      - STR_NAZI_4_CORPSE_BATTLE
+    #corpseGeo: STR_GOVT_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDark: -1
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.15
+      #bravery: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_TOUGH
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      #stun: *SECTION_STUN_RECOVERY_TOUGH
+      #health: *SECTION_HEALTH_RECOVERY_TOUGH
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 1.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: NAZI_ARMOR_P8
+    spriteSheet: NAZ_8.PCK
+    spriteInv: NaziSupersoldierInventoryImage
+    corpseBattle:
+      - STR_NAZI_8_CORPSE_BATTLE
+    #corpseGeo: STR_PBA_CORPSE
+    allowInv: false
+    visibilityAtDark: 20
+    heatVision: 60
+    overKill: 1.0
+    frontArmor: 125
+    sideArmor: 115
+    rearArmor: 105
+    underArmor: 100
+    meleeDodge:
+      flatHundred: 0.3
+    meleeDodgeBackPenalty: 0.25
+    damageModifier:
+      - 0.9
+      - 1.0
+      - 0.05
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.5
+      - 0.7
+      - 0.5
+      - 0.0
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 5 ]	
+  - type: STR_BLACK_SUN_STORMTROOPER_ARMOR
+    spriteSheet: BLACK_SUN_STORMTROOPER.PCK
+    spriteInv: inventory_BLACK_SUN_STORMTROOPER
+    corpseBattle:
+      - STR_BLACK_SUN_STORMTROOPER_CORPSE
+    visibilityAtDark: 16
+    heatVision: 50
+    camouflageAtDark: -2
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 40
+    meleeDodge:
+      reactions: 0.3
+      bravery: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.05
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.15
+        health: -0.0625
+        stunCurrent: 0.09
+      health:
+        stunNormalized: -0.165
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.8
+      - 0.8
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+items:
+  - type: STR_NAZI_8_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 80
+    bigSprite: 3598
+    floorSprite: 3598
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 10
+    armor: 110
+  - type: STR_NAZI_4_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3594
+    floorSprite: 3594
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_NAZI_6_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 60
+    bigSprite: 3596
+    floorSprite: 3596
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 75
+  - type: STR_BLACK_SUN_STORMTROOPER_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 60
+    bigSprite: 1012
+    floorSprite: 880
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 75
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: false
+  - type: STR_NAZI_SUPERSOLDIER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    prisonType: 1	
+    recover: true
+    liveAlien: true
+    costSell: 80000	
+  - type: STR_NAZI_STORMTROOPER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_NAZI_LEADERPIRATE
+    requiresBaseFunc: [INTERROGATION]  
+    transferTime: 96
+    size: 0.0
+    prisonType: 1	
+    recover: true
+    liveAlien: true
+    costSell: 100000	
+  - type: STR_BLACK_SUN_STORMTROOPER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 7000
+    listOrder: 153605

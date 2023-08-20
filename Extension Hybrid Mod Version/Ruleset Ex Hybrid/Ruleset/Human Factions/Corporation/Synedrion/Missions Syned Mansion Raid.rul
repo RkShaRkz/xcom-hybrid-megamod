@@ -1,0 +1,225 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_EMANSION: Syndedrion item Mansion Raid
+      STR_MARKER_EMANSION: Syndedrion item Mansion Raid
+      STR_ALERT_EMANSION: Syndedrion item Mansion Raid
+      STR_LOC_EMANSION_BRIEFING: "This is the Merc guild here. A valuable item belonging to the Syndedrion is hidden in this mansion. The guild want this mansion and every one in it eliminated. Payment upon job well done."    
+alienDeployments:
+  - type: STR_LOC_EMANSION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_EMANSION
+    alertDescription: STR_LOC_EMANSION_BRIEFING
+    alertBackground: BACK04.SCR
+    randomRace: [STR_ACADEMY,STR_ACADEMY]	
+    briefing:
+      palette: 4
+      background: BACK04.SCR
+      music: GMTACDRY    
+      showTarget: false
+      desc: STR_LOC_EMANSION_BRIEFING	  
+    markerName: STR_MARKER_EMANSION
+    duration: [25, 10000000000000]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 18
+    turnLimit: 36
+    chronoTrigger: 1 #(0-lose, 1-abort, 2-win)
+    script: TEMPMANS	
+    data:
+      - alienRank: 5 #security
+        lowQty: 1
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 7 #security2
+        lowQty: 1
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3  #students
+        lowQty: 6
+        highQty: 14
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4  #hostesses
+        lowQty: 6
+        highQty: 14
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2 #maintenance
+        lowQty: 6
+        highQty: 12
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 6 #guest
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1 #boss
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0 #master
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []					
+alienMissions:
+  - type: STR_LOC_EMANSION
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_ACADEMY: 100
+    waves:
+      - ufo: STR_LOC_EMANSION
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+research:		
+  - name: STR_MUMMYTOMBS
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 300
+    needItem: true	
+mapScripts:		
+  - type: TEMPMANS
+    commands:
+    - type: addCraft
+      groups: 1 	
+      terrain: globeTerrain		
+    #- type: addUFO
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	
+    - type: addBlock
+      size: [1,1,3]
+      executions: 1
+      executionChances: 100	  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1   
+      - type: middle
+        size: [1,1,3]
+        terrain: COUNTRYMANSIONX	 	  
+    - type: fillArea	  	
+      terrain: globeTerrain		
+missionScripts:
+  - type: emansionRobbery1
+    missionWeights:
+      0:
+        STR_LOC_EMANSION: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 3
+    startDelay: 1000
+    varName: synmansuons
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_MISSION_PIR_EMANSION: true
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

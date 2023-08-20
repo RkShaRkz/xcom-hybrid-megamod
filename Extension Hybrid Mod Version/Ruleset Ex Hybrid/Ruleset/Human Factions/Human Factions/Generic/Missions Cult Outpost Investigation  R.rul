@@ -1,0 +1,136 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALERT_CULT_HIDEOUT: "Hostile Outpost Investigation"	  
+      STR_CULT_HIDEOUT: "Hostile Outpost Investigation"
+      STR_CULT_HIDEOUT_TEMPERATE_CHURCH_OF_DAGON: "Hostile Outpost Investigation"
+      STR_CULT_HIDEOUT_BLACK_LOTUS_DESCRIPTION: "The Mercenary guild has intercept information of a new Hostile Outpost build within of this area. Investigate and Destroy and you will be rewarded appropriately."
+      STR_CULT_HIDEOUT_BLACK_LOTUS_BRIEFING: "The Mercenary guild has intercept information of a new Hostile Outpost build within of this area. Investigate and Destroy and you will be rewarded appropriately."  
+alienDeployments:
+  - type: STR_CULT_HIDEOUT_TEMPERATE_CHURCH_OF_DAGON
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_CULT_HIDEOUT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_HIDEOUT_BLACK_LOTUS_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CULT_HIDEOUT_BLACK_LOTUS_BRIEFING
+    markerName: STR_CULT_HIDEOUT
+    duration: [72, 144]
+    despawnPenalty: 100
+    music:
+      - GMTACTIC
+    script: GENERALSPAWNXP1	  
+    customUfo: STR_FACTION_OUTPOST
+    data:
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+alienMissions:			
+  - type: STR_CULT_HIDEOUT_CHURCH_OF_DAGON
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5		  
+    waves:
+      - ufo: STR_CULT_HIDEOUT_TEMPERATE_CHURCH_OF_DAGON
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+ufos:
+  - type: STR_FACTION_OUTPOST
+    battlescapeTerrainData:
+      name: STR_NAZI_HOUSE
+      mapDataSets:
+        - BLANKS
+        - MILEXT
+        - MILWAREGHOUL
+        - MILBARRGHOUL
+        - MILINDUSTRIALGHOUL
+        - MILTECHGHOUL
+      mapBlocks:
+        - name: OUTPOSTTOWER
+          width: 10
+          length: 10  	
+missionScripts:
+  - type: CultHideoutDagon
+    firstMonth: 0
+    executionOdds: 6
+    missionWeights:
+      0:
+        STR_CULT_HIDEOUT_CHURCH_OF_DAGON: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

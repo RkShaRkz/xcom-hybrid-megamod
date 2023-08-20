@@ -1,0 +1,1325 @@
+terrains:
+  - name: CORAL  
+    enviroEffects: STR_UNDERWATERENVIRO	
+    civilianTypes:
+      - STR_ABYSSIAN_CIVILIAN  
+  - name: XBASES
+    enviroEffects: STR_LANDENVIRO
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    mapBlocks:
+      - name: XBASES00
+        width: 10
+        length: 10
+      - name: XBASES01
+        width: 10
+        length: 10
+      - name: XBASES02
+        width: 10
+        length: 10
+      - name: XBASES03
+        width: 10
+        length: 10
+      - name: XBASES04
+        width: 10
+        length: 10
+      - name: XBASES05
+        width: 10
+        length: 10
+      - name: XBASES06
+        width: 10
+        length: 10
+      - name: XBASES07
+        width: 10
+        length: 10
+      - name: XBASES08
+        width: 10
+        length: 10
+      - name: XBASES09
+        width: 10
+        length: 10
+      - name: XBASES10
+        width: 10
+        length: 10
+      - name: XBASES11
+        width: 10
+        length: 10
+      - name: XBASES12
+        width: 10
+        length: 10
+      - name: XBASES13
+        width: 10
+        length: 10
+      - name: XBASES14
+        width: 10
+        length: 10
+      - name: XBASES15
+        width: 10
+        length: 10
+      - name: XBASES16
+        width: 10
+        length: 10
+      - name: XBASES17
+        width: 10
+        length: 10
+      - name: XBASES18
+        width: 10
+        length: 10
+      - name: XBASES19
+        width: 10
+        length: 10
+      - name: XBASES20
+        width: 10
+        length: 10
+        groups: 1
+      - name: XBASEB00
+        width: 10
+        length: 10
+      - name: XBASEB01
+        width: 10
+        length: 10
+      - name: XBASEB02
+        width: 10
+        length: 10
+      - name: XBASEB03
+        width: 10
+        length: 10
+      - name: XBASEB04
+        width: 10
+        length: 10
+      - name: XBASEB05
+        width: 10
+        length: 10
+      - name: XBASEB06
+        width: 10
+        length: 10
+      - name: XBASEB07
+        width: 10
+        length: 10
+      - name: XBASEB08
+        width: 10
+        length: 10
+      - name: XBASEB09
+        width: 10
+        length: 10
+      - name: XBASEB10
+        width: 10
+        length: 10
+      - name: XBASEB11
+        width: 10
+        length: 10
+      - name: XBASEB12
+        width: 10
+        length: 10
+      - name: XBASEB13
+        width: 10
+        length: 10
+      - name: XBASET00
+        width: 10
+        length: 10
+      - name: XBASET01
+        width: 10
+        length: 10
+      - name: XBASET02
+        width: 10
+        length: 10
+      - name: XBASET03
+        width: 10
+        length: 10
+      - name: XBASET04
+        width: 10
+        length: 10
+      - name: XBASET06
+        width: 10
+        length: 10
+      - name: XBASET07
+        width: 10
+        length: 10
+      - name: XBASET08
+        width: 10
+        length: 10
+      - name: XBASET09
+        width: 10
+        length: 10
+      - name: XBASET11
+        width: 10
+        length: 10
+      - name: XBASET12
+        width: 10
+        length: 10
+      - name: XBASET13
+        width: 10
+        length: 10
+      - name: XBASET14
+        width: 10
+        length: 10
+        
+  - name: AENTRY
+    enviroEffects: STR_UNDERWATERREALLYDEEPENVIRO
+    music:
+      - GMTACWET
+    depth: [3, 3]
+    ambience: 67
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ORGANIC1BSH
+      - ENTRY
+    mapBlocks:
+      - name: AENTRY00
+        width: 20
+        length: 20
+        groups: 2
+        items:
+          STR_BRAIN:
+            - [8, 8, 2]
+      - name: AENTRY01
+        width: 20
+        length: 20
+        groups: 3
+      - name: AENTRY02
+        width: 20
+        length: 20
+        groups: 4
+        items:
+          STR_BRAIN:
+            - [11, 8, 2]
+      - name: AENTRY03
+        width: 20
+        length: 20
+        groups: 5
+      - name: AENTRY04
+        width: 20
+        length: 20
+        groups: 6
+      - name: AENTRY05
+        width: 20
+        length: 20
+        groups: 7
+      - name: AENTRY06
+        width: 20
+        length: 20
+        groups: 8
+        items:
+          STR_BRAIN:
+            - [8, 11, 2]
+      - name: AENTRY07
+        width: 20
+        length: 20
+        groups: 9
+      - name: AENTRY08
+        width: 20
+        length: 20
+        groups: 10
+        items:
+          STR_BRAIN:
+            - [11, 11, 2]
+  - name: SHORE
+    enviroEffects: STR_LANDENVIRO 
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+      - ISLAND2
+      - SEA
+      - CULT
+    ambience: 67
+    ambientVolume: 0.25
+    mapBlocks:
+      - name: willage_shore
+        width: 10
+        length: 10
+        groups: 4
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA13
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA14
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA15
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA16
+        width: 10
+        length: 10
+        groups: 3
+      - name: CULTA17
+        width: 10
+        length: 10
+        groups: 3
+      - name: CULTA18
+        width: 10
+        length: 10
+        groups: 3
+      - name: willage_shore_2
+        width: 10
+        length: 10
+        groups: 4
+        
+        
+  - name: MU2
+    enviroEffects: STR_UNDERWATERMIDEEPENVIRO
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - MU2
+      - UFOBITS
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+    depth: [1, 2]
+    ambience: 67
+    mapBlocks:
+      - name: MU00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MU201
+        width: 10
+        length: 10
+      - name: MU202
+        width: 10
+        length: 10
+      - name: MU03
+        width: 10
+        length: 10
+      - name: MU04
+        width: 10
+        length: 10
+      - name: MU205
+        width: 10
+        length: 10
+      - name: MU06
+        width: 10
+        length: 10
+      - name: MU207
+        width: 10
+        length: 10
+      - name: MU08
+        width: 10
+        length: 10
+      - name: MU209
+        width: 20
+        length: 20
+        groups: 4
+      - name: MU10
+        width: 20
+        length: 20
+      - name: MU11
+        width: 20
+        length: 20
+        
+  - name: MU3T
+    enviroEffects: STR_UNDERWATERENVIRO	
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - MU2
+      - UFOBITS
+      - MU3
+    depth: [3, 3]
+    ambience: 67
+    mapBlocks:
+      - name: MU300
+        width: 10
+        length: 10
+      - name: MU301
+        width: 10
+        length: 10
+        groups: 1
+      - name: MU302
+        width: 10
+        length: 10
+      - name: MU303
+        width: 10
+        length: 10
+      - name: MU304
+        width: 10
+        length: 10
+      - name: MU305
+        width: 20
+        length: 20
+      - name: MU306
+        width: 20
+        length: 20
+        items:
+          STR_ALIEN_KEY:
+            - [9, 9, 1]
+  - name: UFOSCOUT
+    enviroEffects: STR_UNDERWATERENVIRO	
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+      - UFO1
+    depth: [2, 3]
+    ambience: 67
+    script: SCOUT_CRASH
+    mapBlocks:
+      - name: UFOSCOUT
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM:
+            - [4, 4, 0]
+        groups: 4
+      - name: SEABED00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED02
+        width: 10
+        length: 10
+      - name: SEABED03
+        width: 10
+        length: 10
+      - name: SEABED04
+        width: 10
+        length: 10
+      - name: SEABED05
+        width: 10
+        length: 10
+      - name: SEABED06
+        width: 10
+        length: 10
+      - name: SEABED07
+        width: 10
+        length: 10
+      - name: SEABED08
+        width: 10
+        length: 10
+      - name: SEABED09
+        width: 10
+        length: 10
+        
+  - name: LABENTRY
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - ISLAND2
+      - CULTIVAT
+    depth: [0, 0]
+    ambience: 67
+    script: LAB_ENTRY
+    mapBlocks:
+      - name: LABENTRY00
+        width: 10
+        length: 10
+      - name: LABENTRY01
+        width: 10
+        length: 10
+      - name: LABENTRY02
+        width: 10
+        length: 10
+      - name: LABENTRY03
+        width: 10
+        length: 10
+        groups: 1
+      - name: LABENTRY04
+        width: 10
+        length: 10
+        
+  - name: UFOBATTLE
+    enviroEffects: STR_UNDERWATERENVIRO	
+    music:
+      - GMTACWET
+    mapDataSets:
+        - BLANKS
+        - U_EXT02 
+        - U_WALL02 
+        - U_PODS 
+        - U_BITS 
+        - DEBRIS 
+        - SAND 
+        - WEEDS 
+        - ROCKS 
+        - UFOBITS 
+    depth: [2, 3]
+    ambience: 67
+    script: SCOUT_CRASH
+    mapBlocks:
+      - name: UFO_160
+        width: 30
+        length: 30
+        groups: 4
+        items:
+          STR_ELERIUM:
+            - [5, 14, 0]
+            - [14, 5, 0]
+            - [23, 14, 0]
+          STR_ALIEN_CODES:
+            - [14, 22, 2]
+      - name: UFO_160_1
+        width: 10
+        length: 10
+        groups: 1
+      - name: UFO_160_2
+        width: 10
+        length: 10
+      - name: UFO_160_3
+        width: 10
+        length: 10
+        
+  - name: BARCRASH
+    enviroEffects: STR_UNDERWATERENVIRO	
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+      - BARRACUDA
+    depth: [2, 3]
+    ambience: 67
+    mapBlocks:
+      - name: BARRACUDACRASH
+        width: 10
+        length: 10
+        groups: 4
+      - name: MSUNK00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MSUNK01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MSUNK02
+        width: 20
+        length: 20
+      - name: MSUNK03
+        width: 20
+        length: 20
+      - name: MSUNK04
+        width: 20
+        length: 20
+      - name: MSUNK05
+        width: 20
+        length: 20
+      - name: MSUNK06
+        width: 20
+        length: 20
+      - name: MSUNK07
+        width: 10
+        length: 10
+      - name: MSUNK08
+        width: 10
+        length: 10
+      - name: MSUNK09
+        width: 10
+        length: 10
+      - name: MSUNK10
+        width: 10
+        length: 10
+      - name: MSUNK11
+        width: 10
+        length: 10
+      - name: MSUNK12
+        width: 10
+        length: 10
+  - name: ISLAND
+    enviroEffects: STR_LANDENVIRO
+    script: ISLAND_TERROR
+    
+  - name: URBAN_ISLAND
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - NROADS
+      - NURBITS2
+      - NURBAN
+      - NFRNITURE
+      - BEACHBITS
+      - BEACHURBITS
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBANISLE
+    ambience: 67
+    ambientVolume: 0
+    mapBlocks:
+      - name: URBEACH01
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBEACH02
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBEACH03
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBEACH07
+        width: 10
+        length: 10
+        groups: 6
+      - name: URBEACH08
+        width: 10
+        length: 10
+        groups: 6
+      - name: URBEACH09
+        width: 10
+        length: 10
+        groups: 6
+      - name: URBEACH10
+        width: 10
+        length: 10
+        groups: 6
+      - name: URBEACH11
+        width: 10
+        length: 10
+        groups: 6
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN06a
+        width: 20
+        length: 20
+      - name: URBAN06b
+        width: 20
+        length: 20
+      - name: URBAN06c
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN09b
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN14a
+        width: 10
+        length: 10
+      - name: URBAN14b
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN18b
+        width: 10
+        length: 10
+        
+  - name: URBAN_TEMPLE
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - NROADS
+      - NURBITS2
+      - NURBAN
+      - NFRNITURE
+      - U_PODS1
+      - GRUNGE4EMPTY
+      - UINT1
+    script: URBANTEMPLE
+    ambience: 67
+    ambientVolume: 0
+    mapBlocks:
+      - name: TEMPLE00
+        width: 20
+        length: 20
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN14a
+        width: 10
+        length: 10
+      - name: URBAN14b
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN18b
+        width: 10
+        length: 10
+        
+  - name: A_LAB
+    enviroEffects: STR_UNDERWATERREALLYDEEPENVIRO
+    music:
+      - GMTACWET
+    depth: [1, 1]
+    ambience: 67
+    mapDataSets:
+      - BLANKS
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3B
+    mapBlocks:
+      - name: A_LAB01
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_LAB07
+        width: 20
+        length: 20
+        groups: 4
+      - name: A_LAB02
+        width: 10
+        length: 10
+        groups: 3
+      - name: A_LAB03
+        width: 10
+        length: 10
+        groups: 3
+      - name: A_LAB04
+        width: 10
+        length: 10
+        groups: 3
+      - name: A_LAB05
+        width: 10
+        length: 10
+        groups: 3
+  - name: A_BARGE_T
+    enviroEffects: STR_UNDERWATERREALLYDEEPENVIRO
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS_EMPTY
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+      - UINT_R2
+      - WHALE
+    mapBlocks:
+      - name: A_BARGE01
+        width: 10
+        length: 10
+      - name: A_BARGE02
+        width: 10
+        length: 10
+      - name: A_BARGE03
+        width: 10
+        length: 10
+      - name: A_BARGE04
+        width: 10
+        length: 10
+      - name: A_BARGE05
+        width: 10
+        length: 20
+        groups: 1
+      - name: A_BARGE06
+        width: 10
+        length: 10
+      - name: A_BARGE07
+        width: 10
+        length: 10
+      - name: A_BARGE08
+        width: 10
+        length: 10
+      - name: A_BARGE09
+        width: 10
+        length: 10
+      - name: A_BARGE10
+        width: 10
+        length: 10
+      - name: A_BARGE11
+        width: 10
+        length: 10
+      - name: A_BARGE12
+        width: 10
+        length: 10
+      - name: A_BARGE13
+        width: 10
+        length: 10
+      - name: A_BARGE14
+        width: 10
+        length: 10
+      - name: A_BARGE15
+        width: 10
+        length: 10
+      - name: A_BARGE00
+        width: 10
+        length: 10
+
+  - name: COLDISLE
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - COLDISLEA1
+      - COLDISLEA2
+      - SEA
+      - COLDISLEB1
+      - COLDISLEB2
+    civilianTypes:
+      - STR_HUMAN_SOLDIER
+      - STR_HUMAN_OFFICER
+    mapBlocks:
+      - name: COLDISLE00 #0
+        width: 10
+        length: 10
+        groups: 1
+      - name: COLDISLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: COLDISLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: COLDISLE03 #3 HILLS 
+        width: 10
+        length: 10
+      - name: COLDISLE04
+        width: 10
+        length: 10
+      - name: COLDISLE05
+        width: 10
+        length: 10
+      - name: COLDISLE06
+        width: 10
+        length: 10
+      - name: COLDISLE07
+        width: 10
+        length: 10
+      - name: COLDISLE08
+        width: 10
+        length: 10
+      - name: COLDISLE09
+        width: 10
+        length: 10
+      - name: COLDISLE10
+        width: 10
+        length: 10
+      - name: COLDISLE11
+        width: 10
+        length: 10
+      - name: COLDISLE14 #12 SHORE
+        width: 10
+        length: 10
+      - name: COLDISLE15
+        width: 10
+        length: 10
+      - name: COLDISLE16
+        width: 10
+        length: 10
+      - name: COLDISLE17 #15 BUILDINGS
+        width: 10
+        length: 10
+      - name: COLDISLE18
+        width: 10
+        length: 10
+      - name: COLDISLE19
+        width: 10
+        length: 10
+      - name: COLDISLE20
+        width: 10
+        length: 10
+      - name: COLDISLE21
+        width: 10
+        length: 10
+      - name: COLDISLE22 #20
+        width: 10
+        length: 10
+      - name: COLDISLE23
+        width: 10
+        length: 10
+      - name: COLDISLE24
+        width: 10
+        length: 10
+      - name: COLDISLE25
+        width: 10
+        length: 10
+      - name: COLDISLE26 #24
+        width: 10
+        length: 10
+      - name: COLDISLE30 #25 EXCAVATION SITE
+        width: 20
+        length: 20
+
+  - name: CRYPT_A
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - CRYPTABANDONED
+      - CRYPT4M
+      - AREA51_D4_TFTD
+    mapBlocks:
+      - name: CRYPT_A00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CRYPT_A01
+        width: 10
+        length: 10
+      - name: CRYPT_A02
+        width: 10
+        length: 10
+      - name: CRYPT_A03
+        width: 10
+        length: 10
+      - name: CRYPT_A04
+        width: 10
+        length: 10
+      - name: CRYPT_A05
+        width: 10
+        length: 10
+      - name: CRYPT_A06
+        width: 10
+        length: 10
+  - name: PORTWORM
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - PORT01
+      - PORT02
+      - FLOAT
+    ambience: 67
+    ambientVolume: 0.25
+    civilianTypes:
+      - FEMALE_CIVILIAN
+      - MALE_CIVILIAN
+    mapBlocks:
+      - name: PORT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORT02MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT03MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT04MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT05MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT06MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT07MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT08MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT09MW
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORT10
+        width: 10
+        length: 10
+      - name: PORT11
+        width: 10
+        length: 10
+      - name: PORT12
+        width: 10
+        length: 10
+      - name: PORT13
+        width: 10
+        length: 10
+      - name: PORT14
+        width: 10
+        length: 10
+      - name: PORT15
+        width: 10
+        length: 10
+      - name: PORT16
+        width: 10
+        length: 10
+      - name: PORT17
+        width: 20
+        length: 20
+      - name: PORT18
+        width: 20
+        length: 20
+      - name: PORT19
+        width: 20
+        length: 20
+      - name: PORT20
+        width: 20
+        length: 20
+        groups: 5
+  - name: MILITARY_T
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - AREA51_A1_TFTD
+      - AREA51_B1_TFTD
+      - AREA51_C1_TFTD
+      - AREA51_D1_TFTD
+    ambience: 67
+    ambientVolume: 0.25
+    civilianTypes:
+      - STR_HUMAN_SOLDIER
+      - STR_HUMAN_OFFICER
+    mapBlocks:
+      - name: AREA51BASE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AREA51BASE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: AREA51BASE102
+        width: 10
+        length: 10
+      - name: AREA51BASE106
+        width: 10
+        length: 10
+      - name: AREA51BASE60
+        width: 10
+        length: 10
+      - name: AREA51BASE64
+        width: 10
+        length: 10
+      - name: AREA51BASE67
+        width: 10
+        length: 10
+      - name: AREA51BASE68
+        width: 10
+        length: 10
+      - name: AREA51BASE69
+        width: 10
+        length: 10
+      - name: AREA51BASE71
+        width: 10
+        length: 10
+      - name: AREA51BASE73
+        width: 10
+        length: 10
+      - name: AREA51BASE77
+        width: 10
+        length: 10
+      - name: AREA51BASE78
+        width: 10
+        length: 10
+      - name: AREA51BASE81
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE88
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE91
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE93
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE94
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE95
+        width: 20
+        length: 20
+        groups: 4
+      - name: AREA51BASE96
+        width: 20
+        length: 20
+        groups: 4
+
+
+  - name: TSUTER
+    enviroEffects: STR_UNDERWATERENVIRO
+    music:
+      - GMTACWET
+    depth: [1, 1]
+    ambience: 67
+    mapDataSets:
+      - BLANKS
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    mapBlocks:
+      - name: A_BASE00
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: 2
+      - name: TSU01
+        width: 10
+        length: 10
+      - name: TSU02
+        width: 10
+        length: 10
+      - name: TSU03
+        width: 10
+        length: 10
+      - name: TSU04
+        width: 10
+        length: 10
+      - name: TSU05
+        width: 10
+        length: 10
+      - name: TSU06
+        width: 10
+        length: 10
+      - name: TSU07
+        width: 10
+        length: 10
+      - name: TSU08
+        width: 10
+        length: 10
+      - name: A_BASE02
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_BASE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_BASE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_BASE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_BASE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: A_BASE09
+        width: 10
+        length: 10
+        groups: 2
+        
+#additional underwater civilians
+  - name: VOLC
+    enviroEffects: STR_UNDERWATERENVIRO
+    civilianTypes:
+      - STR_ABYSSIAN_CIVILIAN
+  - name: SEABED
+    enviroEffects: STR_UNDERWATERENVIRO
+    civilianTypes:
+      - STR_ABYSSIAN_CIVILIAN
+  - name: BLOOP
+    enviroEffects: STR_UNDERWATERENVIRO
+    music:
+      - GMTACWET
+    depth: [3, 3]
+    ambience: 67
+    mapDataSets:
+      - BLANKS
+      - CRYPT1
+      - CRYPT2
+      - CRYPT13
+      - CRYPT14
+      - UFOBITS
+    mapBlocks:
+      - name: BLOOP00
+        width: 20
+        length: 20
+      - name: BLOOP01
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: 1
+      - name: BLOOP02
+        width: 10
+        length: 10
+      - name: BLOOP03
+        width: 10
+        length: 10
+      - name: BLOOP04
+        width: 10
+        length: 10	
+  - name: WORM_I
+    enviroEffects: STR_LANDENVIRO
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - FLOAT
+      - SEA
+    mapBlocks:
+      - name: FLIS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FLIS01
+        width: 10
+        length: 10
+      - name: FLIS02
+        width: 10
+        length: 10
+      - name: FLIS03
+        width: 10
+        length: 10
+      - name: FLIS04
+        width: 10
+        length: 10
+      - name: FLIS05
+        width: 10
+        length: 10
+      - name: FLIS06
+        width: 10
+        length: 10
+      - name: FLIS07
+        width: 10
+        length: 10
+      - name: FLIS08
+        width: 10
+        length: 10
+      - name: FLIS09
+        width: 10
+        length: 10
+      - name: FLIS10
+        width: 10
+        length: 10
+      - name: FLIS11
+        width: 10
+        length: 10
+      - name: FLIS03A
+        width: 10
+        length: 10
+      - name: FLIS05A
+        width: 10
+        length: 10
+      - name: FLIS06A
+        width: 10
+        length: 10
+      - name: FLIS08A
+        width: 10
+        length: 10

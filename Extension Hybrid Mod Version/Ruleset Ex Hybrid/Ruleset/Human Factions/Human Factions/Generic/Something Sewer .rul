@@ -1,0 +1,261 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OOZE_NESTPART1: "Sewers Investigation"	
+      STR_OOZE_NEST: "Sewers Investigation Part 2"
+      STR_ALERT_OOZE_NEST: "Sewers Investigation"
+      STR_OOZE_NEST_DESCRIPTION: "There is something strange lurking in a city's sewers. The Mercenary guild believes there is some malicious activies going on. They need a well equiped Mercenary Unit to investigate of its Malicious origins. Pay is standard grade."
+      STR_OOZE_NEST_BRIEFING: "There is something strange lurking in a city's sewers. The Mercenary guild believes there is some malicious activies going on. They need a well equiped Mercenary Unit to investigate of its Malicious origins. Pay is standard grade."
+alienDeployments:
+  - type: STR_OOZE_NESTPART1  
+    duration: [300, 420]  
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 	
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	 	
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 4
+    script: GENERALSPAWNREBELBASE
+    terrains:
+      - URBAN
+    alert: STR_ALERT_OOZE_NEST
+    alertBackground: BACK03.SCR
+    alertDescription: STR_OOZE_NEST_DESCRIPTION
+    nextStage: STR_OOZE_NEST
+    markerName: STR_OOZE_NEST
+    markerIcon: 4	
+    alertBackground: BACK03.SCR
+    briefing:
+      background: BACK03.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_OOZE_NEST_BRIEFING  
+    despawnPenalty: 1000
+  - type: STR_OOZE_NEST
+    randomRace: [STR_GIANT_SPIDER,STR_ZSRR,STR_EXALT,STR_OSIRON,STR_BLACK_LOTUS,STR_BANDIT_TOWN,STR_RAIDER,STR_ZOMBIE_FARMER,STR_GIANT_RAT,STR_BULLFROG]
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	     
+    width: 50
+    length: 50
+    height: 14
+    shade: 4
+    alert: STR_ALERT_OOZE_NEST
+    alertBackground: BACK03.SCR
+    alertDescription: STR_OOZE_NEST_DESCRIPTION
+    briefing:
+      background: BACK03.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_OOZE_NEST_BRIEFING  	  
+    markerName: STR_OOZE_NEST
+    duration: [100, 244]
+    despawnPenalty: 20
+    enviroEffects: STR_SEWERS
+    music:
+      - GMTACTIC
+    terrains:
+      - SEWERS
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_OOZE_NEST
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_OOZE: 100
+    waves:
+      - ufo: STR_OOZE_NESTPART1  
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: oozeNest
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_OOZE_NEST: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

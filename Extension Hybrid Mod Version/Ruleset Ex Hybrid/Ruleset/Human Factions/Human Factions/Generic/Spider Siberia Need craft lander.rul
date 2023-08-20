@@ -1,0 +1,99 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SPIDER_SIBERIA: "Abandoned Underground Base Recon"
+      STR_ALERT_SPIDER_SIBERIA: "Abandoned Underground Base Recon"
+      STR_SPIDER_SIBERIA_BRIEFING: "The Mercenary guild has the need of an underground base for a major client. It just happened that she located an abandon underground base that suits her need. We need a Merc unit to do a final check and dust up before the clinet move in. Pay is standard grade."
+      STR_SPIDER_SIBERIA_DESCRIPTION: "Abandoned Underground Base Recon"
+      STR_SPIDER_SIBERIA_COMPLETE: "Abandoned Underground Base Recon"
+alienDeployments:
+  - type: STR_SPIDER_SIBERIA   
+    width: 60
+    length: 60
+    height: 18
+    terrains:
+      - STORMMOUNTAIN_CHRYSSALID_CAPSULES
+    alert: STR_ALERT_SPIDER_SIBERIA
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SPIDER_SIBERIA_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_SPIDER_SIBERIA_BRIEFING 
+    music:
+      - GMTACTIC
+    markerName: STR_SPIDER_SIBERIA
+    duration: [300, 420]
+    despawnPenalty: 10
+    unlockedResearch: STR_SPIDER_SIBERIA_COMPLETE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	 
+    data:
+      - alienRank: 5
+        lowQty: 30
+        highQty: 55
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_SPIDER_SIBERIA
+    #interruptResearch: STR_SPIDER_SIBERIA_COMPLETE
+    despawnEvenIfTargeted: false
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MAGMA_MERCS: 10
+          STR_GOVT: 10
+          STR_SMUGGLER: 10
+          STR_UAC: 10
+          STR_SPARTANS: 10
+          STR_RAIDER: 10			  
+          STR_BANDIT: 10
+          STR_MARSEC: 10
+          STR_SYNDICATE: 10
+          STR_NAZIS_TERROR: 10
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: spiderSiberia
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_SPIDER_SIBERIA: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

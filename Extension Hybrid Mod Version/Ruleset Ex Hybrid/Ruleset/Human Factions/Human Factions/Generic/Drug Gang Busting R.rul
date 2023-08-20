@@ -1,0 +1,101 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_STORM_SEIZURE: "Drug Gang Busting"
+      STR_ALERT_STORM_SEIZURE: "Drug Gang Busting"
+      STR_STORM_SEIZURE_BRIEFING: "The Mercenary guild has report of illegal drug trade in cities with gangs. Goverment factions are paying big dollars for Merc units to help stop these gangs spreading of these cancer in the cities."
+      STR_STORM_SEIZURE_DESCRIPTION: "The Mercenary guild has report of illegal drug trade in cities with gangs. Goverment factions are paying big dollars for Merc units to help stop these gangs spreading of these cancer in the cities."
+alienDeployments:
+  - type: STR_STORM_SEIZURE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_STORM_SEIZURE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_STORM_SEIZURE_DESCRIPTION
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      desc: STR_STORM_SEIZURE_BRIEFING 
+    music:
+      - GMTACTIC
+    markerName: STR_STORM_SEIZURE
+    duration: [100, 200]
+    despawnPenalty: 100
+    customUfo: STR_DRUGHOUSESTORM
+    script: GENERALSPAWNXP1
+    terrains:
+      - URBAN
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_STORM_SEIZURE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 100
+          STR_EXALT: 100
+          STR_OSIRON: 100
+          STR_BLACK_LOTUS: 100
+    waves:
+      - ufo: STR_STORM_SEIZURE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+ufos:
+  - type: STR_DRUGHOUSESTORM
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10	
+missionScripts:
+  - type: stormSeizure
+    firstMonth: 0
+    executionOdds: 1
+    missionWeights:
+      0:
+        STR_STORM_SEIZURE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

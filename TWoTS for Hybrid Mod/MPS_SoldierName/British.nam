@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - MPS Adam
+  - MPS Adrian
+  - MPS Aidan
+  - MPS Alan
+  - MPS Alexander
+  - MPS Alistair
+  - MPS Andrew
+  - MPS Arthur
+  - MPS Ben
+  - MPS Benjamin
+  - MPS Bradley
+  - MPS Brendan
+  - MPS Brett
+  - MPS Bruce
+  - MPS Carl
+  - MPS Charles
+  - MPS Charlie
+  - MPS Christopher
+  - MPS Colin
+  - MPS Connor
+  - MPS Craig
+  - MPS Damien
+  - MPS Daniel
+  - MPS David
+  - MPS Declan
+  - MPS Derek
+  - MPS Desmond
+  - MPS Donald
+  - MPS Dylan
+  - MPS Edmund
+  - MPS Edward
+  - MPS Euan
+  - MPS Frank
+  - MPS Francis
+  - MPS Gareth
+  - MPS Gary
+  - MPS Geoffrey
+  - MPS George
+  - MPS Graeme
+  - MPS Graham
+  - MPS Grant
+  - MPS Gregor
+  - MPS Gregory
+  - MPS Hamish
+  - MPS Harold
+  - MPS Harry
+  - MPS Ian
+  - MPS Iain
+  - MPS James
+  - MPS Jason
+  - MPS John
+  - MPS Jordan
+  - MPS Keith
+  - MPS Ken
+  - MPS Kenneth
+  - MPS Lewis
+  - MPS Liam
+  - MPS Malcolm
+  - MPS Mark
+  - MPS Michael
+  - MPS Neil
+  - MPS Patrick
+  - MPS Paul
+  - MPS Peter
+  - MPS Raymond
+  - MPS Rhys
+  - MPS Richard
+  - MPS Robert
+  - MPS Rory
+  - MPS Roy
+  - MPS Ryan
+  - MPS Samuel
+  - MPS Scott
+  - MPS Simon
+  - MPS Stephen
+  - MPS Steven
+  - MPS Thomas
+  - MPS William
+femaleFirst:
+  - MPS Abigail
+  - MPS Aileen
+  - MPS Ailsa
+  - MPS Alice
+  - MPS Alison
+  - MPS Amy
+  - MPS Andrea
+  - MPS Ann
+  - MPS Anna
+  - MPS Annabel
+  - MPS Anne
+  - MPS Bridget
+  - MPS Carol
+  - MPS Catherine
+  - MPS Clara
+  - MPS Claire
+  - MPS Clare
+  - MPS Courtney
+  - MPS Cynthia
+  - MPS Eleanor
+  - MPS Elizabeth
+  - MPS Emily
+  - MPS Emma
+  - MPS Fiona
+  - MPS Frances
+  - MPS Gail
+  - MPS Gemma
+  - MPS Gillian
+  - MPS Gilly
+  - MPS Grace
+  - MPS Hanna
+  - MPS Hannah
+  - MPS Harriet
+  - MPS Heather
+  - MPS Helen
+  - MPS Holly
+  - MPS Isabel
+  - MPS Isobel
+  - MPS Isla
+  - MPS Jade
+  - MPS Jane
+  - MPS Janet
+  - MPS Janice
+  - MPS Janine
+  - MPS Jayne
+  - MPS Jean
+  - MPS Jenna
+  - MPS Jennifer
+  - MPS Jenny
+  - MPS Jessica
+  - MPS Jill
+  - MPS Joyce
+  - MPS Kate
+  - MPS Katie
+  - MPS Kimberley
+  - MPS Kirsten
+  - MPS Kirsty
+  - MPS Kylie
+  - MPS Lauren
+  - MPS Lesley
+  - MPS Leslie
+  - MPS Lilleth
+  - MPS Lillian
+  - MPS Lindsay
+  - MPS Lisa
+  - MPS Lorna
+  - MPS Lucy
+  - MPS Lynn
+  - MPS Lynette
+  - MPS Margaret
+  - MPS Maria
+  - MPS Mary
+  - MPS Megan
+  - MPS Moira
+  - MPS Murron
+  - MPS Patricia
+  - MPS Rebecca
+  - MPS Samantha
+  - MPS Sarah
+  - MPS Shannon
+  - MPS Siobhan
+  - MPS Stacey
+  - MPS Theresa
+  - MPS Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

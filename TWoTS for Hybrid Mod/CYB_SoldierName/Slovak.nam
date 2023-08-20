@@ -1,0 +1,184 @@
+lookWeights:
+  - 45
+  - 55
+  - 0
+  - 0
+maleFirst:
+  - CS Andrej
+  - CS Arpad
+  - CS Branislav
+  - CS Ctibor
+  - CS David
+  - CS Dusan
+  - CS Frantisek
+  - CS Jakub
+  - CS Jan
+  - CS Jaroslav
+  - CS Jozef
+  - CS Juraj
+  - CS Julius
+  - CS Ladislav
+  - CS Lubomir
+  - CS Lubos
+  - CS Ludovit
+  - CS Lukas
+  - CS Martin
+  - CS Matej
+  - CS Michal
+  - CS Milan
+  - CS Miroslav
+  - CS Mojmir
+  - CS Ondrej
+  - CS Pavol
+  - CS Peter
+  - CS Radomir
+  - CS Radoslav
+  - CS Rastislav
+  - CS Richard
+  - CS Roman
+  - CS Slavomir
+  - CS Stanislav
+  - CS Tomas
+  - CS Vladimir
+  - CS Vratko
+  - CS Zdeno
+femaleFirst:
+  - CS Adela
+  - CS Agata
+  - CS Andrea
+  - CS Anna
+  - CS Dasa
+  - CS Elena
+  - CS Eva
+  - CS Hana
+  - CS Helena
+  - CS Ivana
+  - CS Jarmila
+  - CS Jaroslava
+  - CS Katarina
+  - CS Karolina
+  - CS Kristina
+  - CS Kvetoslava
+  - CS Lenka
+  - CS Linda
+  - CS Lucia
+  - CS Ludmila
+  - CS Maria
+  - CS Michaela
+  - CS Milena
+  - CS Monika
+  - CS Natalia
+  - CS Nela
+  - CS Petra
+  - CS Tatiana
+  - CS Tereza
+  - CS Veronika
+  - CS Viera
+  - CS Zdenka
+  - CS Zoja
+  - CS Zora
+  - CS Zuzana
+maleLast:
+  - Baca
+  - Banik
+  - Beno
+  - Bezdicka
+  - Bondra
+  - Bosansky
+  - Brezina
+  - Cernuska
+  - Cyprich
+  - Dano
+  - Dula
+  - Filip
+  - Gernic
+  - Gregor
+  - Gregus
+  - Goga
+  - Halak
+  - Halda
+  - Haluska
+  - Hascak
+  - Holub
+  - Horvath
+  - Janik
+  - Janosik
+  - Janoska
+  - Jurina
+  - Keniz
+  - Kmet
+  - Kolesar
+  - Kolnik
+  - Kostrec
+  - Kovac
+  - Liptak
+  - Liska
+  - Lukac
+  - Majesky
+  - Marian
+  - Medved
+  - Mihalik
+  - Mikus
+  - Mojzis
+  - Molnar
+  - Nagy
+  - Nemec
+  - Novak
+  - Ondrejkovic
+  - Ondrus
+  - Oravec
+  - Pasko
+  - Pavlas
+  - Pavuk
+  - Prochazka
+  - Rakocz
+  - Senko
+  - Skokan
+  - Slezak
+  - Sloboda
+  - Slovak
+  - Szabo
+  - Toma
+  - Valovsky
+  - Varga
+  - Vaskovic
+  - Viktorin
+femaleLast:
+  - Adamcova
+  - Banasova
+  - Dubovska
+  - Durianova
+  - Farkasovska
+  - Ficova
+  - Filipova
+  - Haluskova
+  - Heckova
+  - Hubinska
+  - Janosikova
+  - Kocisova
+  - Kovacikova
+  - Kovacova
+  - Kovacova
+  - Krajcirova
+  - Kubincova
+  - Luptakova
+  - Mala
+  - Malachovska
+  - Martinova
+  - Matusova
+  - Melcerova
+  - Mikusova
+  - Moravcova
+  - Nemcova
+  - Oravcova
+  - Patrikova
+  - Peskova
+  - Petrovicka
+  - Plchova
+  - Puchertova
+  - Rusova
+  - Senkova
+  - Simekova
+  - Slobodova
+  - Sturova
+  - Vacvalova

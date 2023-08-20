@@ -1,0 +1,390 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_SENTRY_SHIP: "Sentry ship"  
+      STR_SENTRY_SHIP_SECTOID: "Sentry Ship (Sectoid)"  
+      STR_SENTRY_SHIP_FLOATER: "Sentry Ship (Floater)"  
+      STR_SENTRY_SHIP_MUTON: "Sentry Ship (Muton)"  
+      STR_SENTRY_SHIP_UFOPEDIA: "This small UFO is tasked with observation and patrol duties. It is armed for war and will provide some challenge to our interceptors."   
+ufopaedia:
+  - id: STR_SENTRY_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SENTRY_SHIP
+    text: STR_SENTRY_SHIP_UFOPEDIA
+research:	
+  - name: STR_SENTRY_SHIP
+    points: 50
+    cost: 180	
+    needItem: true			
+    lookup: STR_SENTRY_SHIP	
+ufos:
+  - type: STR_SENTRY_SHIP
+    modSprite: InterceptionSentry
+    size: STR_SMALL
+    damageMax: 200
+    speedMax: 2300
+    armor: 5
+    accel: 8
+    power: 35
+    range: 42
+    score: 125
+    reload: 36
+    breakOffTime: 340
+    hitBonus: 10
+    radarRange: 700
+    hunterKillerPercentage: 20
+    huntMode: 1
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_SENTRY_SHIP_SECTOID
+        missionCustomDeploy: STR_SENTRY_SHIP_SECTOID
+        hitBonus: 10
+      STR_FLOATER:
+        craftCustomDeploy: STR_SENTRY_SHIP_FLOATER
+        missionCustomDeploy: STR_SENTRY_SHIP_FLOATER
+        hitBonus: 15
+      STR_MUTON:
+        craftCustomDeploy: STR_SENTRY_SHIP_MUTON
+        missionCustomDeploy: STR_SENTRY_SHIP_MUTON
+    battlescapeTerrainData:
+      name: SENTRY
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: SENTRY00
+          width: 20
+          length: 20
+  - type: STR_SENTRY_SHIP_UNDERWATER	
+    battlescapeTerrainData:
+      name: SENTRY
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: SENTRY00
+          width: 20
+          length: 20			
+alienDeployments:
+  - type: STR_SENTRY_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_SENTRY_SHIP 	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_SENTRY_SHIP_SECTOID
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_SENTRY_SHIP 	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_SENTRY_SHIP_FLOATER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_SENTRY_SHIP 	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_SENTRY_SHIP_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_SENTRY_SHIP 	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_SENTRY_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    unlockedResearch: STR_SENTRY_SHIP 	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+    script: SENTRYSHIPEAX 		
+  - type: STR_SENTRY_SHIP_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_SENTRY_SHIP 	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	
+    script: SENTRYSHIPEAX 	
+  - type: STR_SENTRY_SHIP_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_SENTRY_SHIP 	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	
+    script: SENTRYSHIPEAX 	
+  - type: STR_SENTRY_SHIP_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_SENTRY_SHIP 	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	
+    script: SENTRYSHIPEAX 	
+mapScripts:			
+  - type: SENTRYSHIPEAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_SENTRY_SHIP_UNDERWATER	
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain 			

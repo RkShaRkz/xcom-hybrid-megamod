@@ -1,0 +1,69 @@
+#
+# metadata.yaml for Faithful for Hybrid Mod
+#
+# original changelog can be found in metadata for Reaver's Faithful
+# changelog:
+#
+#
+# resource authors/sources:
+# Chiko: alien and terran plasma variants
+#		* https://openxcom.org/forum/index.php/topic,383.0.html
+#		* available via Chiko's Alternate Xcom (Chiko)
+# Shadow: variations on Chiko's designs and blue plasma bullet sprite
+#		* https://openxcom.org/forum/index.php/topic,1710.0.html
+#		* obtained via Terran Plasma Weapons (Shadow)
+# CanadianBeaver: auto-pistol, machinegun, automatic lasers, first aid kit, and a few other items
+#		* https://openxcom.org/forum/index.php?topic=4823.0
+#		* obtained via Awesome Guns (CanadianBeaver)
+#		* additional credits on mod page
+# Dioxine: large general stores and living quarters sprites, large and small living quarters maps
+#		* https://openxcom.org/forum/index.php?topic=2806.0
+#		* obtained via Improved Living Quarters + Large Stores (Dioxine)
+# Ryskeliini: heavy armor design
+#		* https://openxcom.org/forum/index.php?topic=1281.0
+#		* available via Combat Armor (Warboy1982)
+# Robin: variation of Ryskeliini's sprites
+#		* https://openxcom.org/forum/index.php/topic,2117.0.html
+#		* obtained via Armored Vest (Robin)
+# XOps: corridor and large laboratory, radar, and hyper wave decoder sprites
+#		* https://openxcom.org/forum/index.php/topic,2913.0.html
+#		* obtained via Xeno Operations (XOps)
+#
+#
+# tool authors/sources:
+# Volutar: MCDEdit
+#		* https://ufopaedia.org/index.php/MCDEdit
+#		uses: edit MCD tileset pieces and images
+# DaiShiva: MapView
+#		* http://openxcommods.weebly.com/mapview.html
+#		uses: edit battlescape maps
+# Bomb Bloke//Humax: XCOMExtractor
+#		* http://www.openxcom.com/mod/xcom-image-extractor
+#		uses: convert .PCK images into .gif format
+# Mark Tyler: mtPaint
+#		* http://mtpaint.sourceforge.net/
+#		uses: pixel editor which preserves palettes
+# Falko: SpriteConverter and PaletteConverter tools
+#		* https://falkooxc2.pythonanywhere.com/
+#		uses: make spritesheets, fix palettes, perform palette swaps
+#
+# special thanks:
+# Meridian:
+#		for always being extremely patient and helpful no matter how difficult I have been
+#		for being extremely skillful with the code and helping me when I get stuck
+# 
+#
+# The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; various tiles
+#		in LIGHTNIA.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
+#		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
+#		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
+#		Stalker, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; adjustment
+#		to AwesomeGuns' machinegun; all added bullet sprites
+
+name: "Faithful for Hybrid Mod"
+version: 1.4.3.02
+description: "Reaver's Faithful adapted for use with Hybrid Mod"
+author: The Reaver of Darkness
+
+master: xcom1
+reservedSpace: 2

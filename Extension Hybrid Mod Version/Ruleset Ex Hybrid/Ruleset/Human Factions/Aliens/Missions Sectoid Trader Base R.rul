@@ -1,0 +1,214 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_SECTOIDTRADERS: "Alien Oupost detected" 
+      STR_MISSION_SECTOIDTRADERS_BASE: "Alien Oupost detected"  
+      STR_SECTOIDTRADERS_BASE_BRIEFING: "Reports has been made to the Merc Guild and they have given us the location of a huge mobile UFO Base. Raiding the base will give us alien tech and weapons, if not good loot. Also the govts will pay us good money to see it gone."	  
+alienDeployments:
+  - type: STR_SECTOIDTRADERS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    #startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alertBackground: BACK03.SCR	
+    width: 50
+    length: 50
+    height: 7
+    script: LOCSCRIPTS	
+    duration: [100, 200]
+    customUfo: STR_SECTOIDTRADERS_BASE	
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 6
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_MISSION_SECTOIDTRADERS_BASE
+      desc: STR_SECTOIDTRADERS_BASE_BRIEFING
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+alienMissions:
+  - type: STR_MISSION_SECTOIDTRADERS_BASE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+        STR_SECTOID: 20
+        STR_SNAKEMAN: 20
+        STR_MUTON: 30
+        STR_FLOATER: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        interruptPercentage: 10
+        count: 1
+        trajectory: P24
+        timer: 9000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P24
+        timer: 5000
+      - ufo: STR_SECTOIDTRADERS
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true 		
+missionScripts: 
+  - type: giftsOfBlood_SwayRets
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_MISSION_SECTOIDTRADERS_BASE: 100	
+    useTable: false
+    executionOdds: 23
+    startDelay: 1000
+    randomDelay: 40000
+    regionWeights:
+      0:
+        LANDSPAWNS: 100		
+    facilityTriggers:
+      STR_MERCFACILITY: true
+ufos:
+  - type: STR_SECTOIDTRADERS_BASE
+    battlescapeTerrainData:
+      name: D_RET_BASE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - U_WALL02
+        - U_BITS
+        - U_EXT02
+        - U_BASE
+        - URBAN		
+      mapBlocks:
+        - name: SECTOIDTRADERBASE
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [1, 6, 1]
+              - [2, 6, 1]
+              - [1, 7, 1]
+              - [2, 7, 1]	  

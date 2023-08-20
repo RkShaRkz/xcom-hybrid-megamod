@@ -1,0 +1,146 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_ALERT_OSIRON_AA_AMMO_TRADE: "Gang Illegal Weapon's trade"
+        STR_OSIRON_AA_AMMO_TRADEXX: "Gang Illegal Weapon's trade"
+        STR_OSIRON_AA_AMMO_TRADE_DESCRIPTION: "The Merc Guild has received reports that some Gang has opened a secret black market dealing in weapons in in this city. Some other various black market faction are extremely unhappy with this activity. There is a bounty for its elimination. Remember to protect the news crew covering the scoop."
+        STR_OSIRON_AA_AMMO_TRADEXX_BRIEFING: "The Merc Guild has received reports that some Gang has opened a secret black market dealing in weapons in in this city. Some other various black market faction are extremely unhappy with this activity. There is a bounty for its elimination. Remember to protect the news crew covering the scoop."	
+alienDeployments:
+  - type: STR_OSIRON_AA_AMMO_TRADEXX
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	      
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_OSIRON_AA_AMMO_TRADE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_OSIRON_AA_AMMO_TRADE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_OSIRON_AA_AMMO_TRADEXX_BRIEFING 
+    markerName: STR_OSIRON_AA_AMMO_TRADE
+    duration: [90, 160]
+    despawnPenalty: 200
+    music:
+      - GMTACTIC
+    script: GENERALOSIRIONAMMOWAREHOUSE
+    data:
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_OSIRON_AA_AMMO_TRADE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 100
+          STR_EXALT: 100
+          STR_OSIRON: 100
+          STR_BLACK_LOTUS: 100
+    waves:
+      - ufo: STR_OSIRON_AA_AMMO_TRADE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:
+  - type: GENERALOSIRIONAMMOWAREHOUSE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: URBAN
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESOSIRIONAMMOXP1
+        maxRepeats: 1 	  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN	  
+terrains:		
+  - name: WAREHOUSESOSIRIONAMMOXP1
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE  
+    mapBlocks:
+      - name: WAREHOUSES
+        width: 10
+        length: 10	  
+missionScripts:
+  - type: osironAATrade
+    firstMonth: 0
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_OSIRON_AA_AMMO_TRADE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,115 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SKI_RESORT: "Cultist Holiday"
+      STR_ALERT_SKI_RESORT: "Cultist Holiday"
+      STR_SKI_RESORT_BRIEFING: "The Merc Guild has gotten the scoop again! We got news that cultist are meeting up in a small remote resort for some wierd bad business. Your team is to eliminate these scums. We pay good money for the job, as long as our news crew is safe in covering the scoop."
+      STR_SKI_RESORT_DESCRIPTION: "The Merc Guild has gotten the scoop again! We got news that cultist are meeting up in a small remote resort for some wierd bad business. Your team is to eliminate these scums. We pay good money for the job, as long as our news crew is safe in covering the scoop."
+alienDeployments:
+  - type: STR_SKI_RESORT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDARMOURTOLAND	
+    alert: STR_ALERT_SKI_RESORT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SKI_RESORT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      title: STR_SKI_RESORT
+      desc: STR_SKI_RESORT_BRIEFING	  
+    markerName: STR_SKI_RESORT
+    duration: [36, 72]
+    despawnPenalty: 50
+    music:
+      - GMTACTIC
+    customUfo: STR_SECRETMEETINGHOUSE
+    script: GENERALSPAWNXP1
+    width: 50
+    length: 50
+    height: 18	
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+ufos:
+  - type: STR_SECRETMEETINGHOUSE
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10				
+alienMissions:
+  - type: STR_SKI_RESORT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CHURCH_OF_DAGON: 20
+          STR_CHURCHPIRATE: 20
+          STR_CHURCH_TERROR: 20
+          STR_CULT_OF_CHERNOBOG: 20	  
+          STR_CULT_OF_APOCALYPSE: 20	
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: skiResort
+    firstMonth: 0
+    executionOdds: 10
+    missionWeights:
+      0:
+        STR_SKI_RESORT: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

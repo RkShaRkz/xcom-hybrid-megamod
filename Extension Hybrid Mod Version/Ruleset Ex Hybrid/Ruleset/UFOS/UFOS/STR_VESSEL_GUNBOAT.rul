@@ -1,0 +1,103 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_GUNBOAT: Skymotor Assault GunShip
+      STR_VESSEL_GUNBOAT_UFOPEDIA: "The Skymotor assault gunship is a fast, heavily armed combat gunship that's design for assault forces to either spearhead or to escort an enemy military factions armada."  
+ufopaedia:
+  - id: STR_VESSEL_GUNBOAT
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_GUNBOAT
+    text: STR_VESSEL_GUNBOAT_UFOPEDIA
+research:
+  - name: STR_VESSEL_GUNBOAT
+    points: 50
+    cost: 180	
+    needItem: true
+    lookup: STR_VESSEL_GUNBOAT
+ufos:
+  - type: STR_VESSEL_GUNBOAT
+    size: STR_VERY_SMALL
+    modSprite: InterceptionCCCloudcar
+    damageMax: 140
+    speedMax: 700
+    accel: 2
+    power: 70
+    range: 30
+    fireSound: 305	
+    score: 20
+    reload: 48
+    breakOffTime: 200
+    hunterKillerPercentage: 100
+    huntBehavior: 2
+    huntAlertSound: 89	
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0		
+    battlescapeTerrainData:
+      name: MI2400
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_RED
+        - C_EXT_ROOF_RED
+        - C_EXT_NOSE_BUMPLESS_RED
+        - C_EXT_NOSE_SIDE_RED
+        - C_EXT_ENGINE_S_RED
+        - C_INT_XCOM
+        - C_EXT_XCOM
+        - LIFTER
+        - DOORSSEC
+        - PLANEENGINE1	
+      mapBlocks:	  
+        - name: MI2400
+          width: 10
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_GUNBOAT
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_GUNBOAT	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []	
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_GUNBOAT_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_GUNBOAT	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []	
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []			

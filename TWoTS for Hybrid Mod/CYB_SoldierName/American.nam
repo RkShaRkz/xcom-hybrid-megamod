@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - CS Aaron
+  - CS Adam
+  - CS Adrian
+  - CS Alfredo
+  - CS Austin
+  - CS Brandon
+  - CS Brian
+  - CS Calvin
+  - CS Carl
+  - CS Chance
+  - CS Charlie
+  - CS Clarence
+  - CS Cody
+  - CS Connor
+  - CS Damian
+  - CS Donald
+  - CS Dwight
+  - CS Dylan
+  - CS Ed
+  - CS Eduardo
+  - CS Elliott
+  - CS Ethan
+  - CS Evan
+  - CS Ezekiel
+  - CS Garrett
+  - CS George
+  - CS Giovanni
+  - CS Grayson
+  - CS James
+  - CS Jason
+  - CS Jay
+  - CS Jeremy
+  - CS Joel
+  - CS John
+  - CS Joshua
+  - CS Keith
+  - CS Kevin
+  - CS Lester
+  - CS Liam
+  - CS Mark
+  - CS Omar
+  - CS Oscar
+  - CS Owen
+  - CS Parker
+  - CS Pete
+  - CS Rick
+  - CS Robert
+  - CS Samuel
+  - CS Santiago
+  - CS Saul
+  - CS Scott
+  - CS Seth
+  - CS Shawn
+  - CS Simon
+  - CS Spencer
+  - CS Steven
+  - CS Timothy
+  - CS Tom
+  - CS Tucker
+  - CS Victor
+  - CS Vincent
+  - CS Virgil
+femaleFirst:
+  - CS Adriana
+  - CS Alexandra
+  - CS Alexis
+  - CS Allison
+  - CS Angela
+  - CS Anna
+  - CS Audrey
+  - CS Barbara
+  - CS Bethany
+  - CS Brianna
+  - CS Cadence
+  - CS Catherine
+  - CS Chelsea
+  - CS Chloe
+  - CS Cora
+  - CS Denise
+  - CS Esperanza
+  - CS Esther
+  - CS Evelyn
+  - CS Faith
+  - CS Gabrielle
+  - CS Georgia
+  - CS Guadalupe
+  - CS Isabel
+  - CS Jasmine
+  - CS Jillian
+  - CS Julia
+  - CS Kaitlyn
+  - CS Kara
+  - CS Karen
+  - CS Kelly
+  - CS Layla
+  - CS Lily
+  - CS Lucy
+  - CS Madeline
+  - CS Madison
+  - CS Margaret
+  - CS Maria
+  - CS Melanie
+  - CS Melissa
+  - CS Mia
+  - CS Michelle
+  - CS Miranda
+  - CS Olivia
+  - CS Paige
+  - CS Patricia
+  - CS Reese
+  - CS Riley
+  - CS Sarah
+  - CS Savannah
+  - CS Selena
+  - CS Sigourney
+  - CS Taylor
+  - CS Tiffany
+  - CS Vanessa
+  - CS Violet
+  - CS Zoey
+maleLast:
+  - Becker
+  - Benedict
+  - Bowers
+  - Bradley
+  - Brewster
+  - Bryant
+  - Burroughs
+  - Carlton
+  - Carr
+  - Carter
+  - Chase
+  - Childers
+  - Colby
+  - Crawley
+  - Crossett
+  - Daley
+  - Davies
+  - Dodge
+  - Evans
+  - Gallagher
+  - Gates
+  - Goddard
+  - Grady
+  - Griffith
+  - Gutierrez
+  - Harding
+  - Harper
+  - Hicks
+  - Horton
+  - Hudson
+  - Hunt
+  - Johnson
+  - Kay
+  - Kellogg
+  - Kemp
+  - Kendrick
+  - King
+  - Kirk
+  - Lawson
+  - Machado
+  - McNeil
+  - Meador
+  - Miller
+  - Mitchell
+  - Morris
+  - Nash
+  - North
+  - O'Connell
+  - Ortiz
+  - Palacios
+  - Partridge
+  - Patrick
+  - Perkins
+  - Porter
+  - Prewitt
+  - Rapp
+  - Ritchie
+  - Rooney
+  - Rossi
+  - Salomon
+  - Scroggins
+  - Shelley
+  - Smiley
+  - Sorensen
+  - Stein
+  - Stephens
+  - Stoddard
+  - Thompson
+  - Tirado
+  - Underwood
+  - Wade
+  - Wagner
+  - Webb

@@ -1,0 +1,820 @@
+manufacture:
+  - delete: STR_AQUA_PLASTICS
+  - delete: STR_COELACANTH_GAUSS
+  - delete: STR_DISPLACER_SONIC
+  - delete: STR_DISPLACER_PWT
+  - delete: STR_MC_DISRUPTOR
+  - delete: STR_BLASTA_CANNON
+  - delete: STR_CANNON_POWER_CLIP
+  - delete: STR_BLASTA_RIFLE
+  - delete: STR_BLASTA_POWER_CLIP
+  - delete: STR_BLASTA_PISTOL
+  - delete: STR_PISTOL_POWER_CLIP
+  - delete: STR_DISRUPTOR_PULSE_LAUNCHER
+  - delete: STR_DISRUPTOR_AMMO
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MC_READER
+  - delete: STR_ION_BEAM_ACCELERATORS
+  - delete: STR_MAGNETIC_NAVIGATION
+  - delete: STR_VIBROBLADE
+  - delete: STR_THERMIC_LANCE
+  - delete: STR_HEAVY_THERMIC_LANCE
+  - delete: STR_GAUSS_PISTOL
+  - delete: STR_GAUSS_RIFLE
+#requiresBaseFunc: [BIOLAB]
+#crafts
+# - name: STR_POSIDON
+#    category: STR_CRAFT
+#     requiresBaseFunc: [SALVAGE]  	
+#     requires:
+#       - STR_POSIDON
+#       - STR_TRITONPLANS
+#       - STR_TUNGSTEN  
+#       - STR_STEEL
+#       - STR_CRAFTFUELSYSTEM
+#       - STR_JETENGINE
+#       - STR_TITANIUM	  
+#       - STR_NAGIVATIONSYSTEM 
+#       - STR_AIRCRAFTCONTROLSYSTEM
+#       - STR_VTOLSYS		 	 
+#     space: 19
+#     time: 21000
+#     cost: 16000000
+#     listOrder: 3650
+#     requiredItems:
+#       STR_TRITONPLANS: 1
+#      STR_TUNGSTEN: 15
+#       STR_STEEL: 8
+#       STR_TITANIUM: 60
+#       STR_CRAFTFUELSYSTEM: 6 
+#       STR_JETENGINE: 4
+#       STR_ALUMINIUM: 45
+#       STR_NAGIVATIONSYSTEM: 2
+#       STR_AIRCRAFTCONTROLSYSTEM: 6
+#       STR_HYBRIDAQUAJETENGINE: 1	
+#       STR_ELECTRONICS: 5
+#       STR_VTOLSYS: 2	  	
+  #- name: STR_POSEIDON
+  #  category: STR_CRAFT
+  #  requiresBaseFunc: [SALVAGE]  	
+  #  requires:
+  #    - STR_POSEIDON
+  #    - STR_TRIDENTPLANS
+  #    - STR_TUNGSTEN  	  
+  #    - STR_STEEL
+  #    - STR_CRAFTFUELSYSTEM
+  #    - STR_JETENGINE
+  #    - STR_TITANIUM	  
+  #    - STR_NAGIVATIONSYSTEM 
+  #    - STR_AIRCRAFTCONTROLSYSTEM
+  #    - STR_VTOLSYS		 	 
+  #  space: 25
+  #  time: 32000
+  #  cost: 40000000
+  #  listOrder: 3845
+  #  requiredItems:
+  #    STR_TRIDENTPLANS: 1
+  #    STR_TUNGSTEN: 12
+  #    STR_TITANIUM: 100
+  #    STR_STEEL: 8
+   #   STR_CRAFTFUELSYSTEM: 3
+   #   STR_JETENGINE: 6
+   #   STR_ALUMINIUM: 30
+   #   STR_NAGIVATIONSYSTEM: 3
+   #   STR_AIRCRAFTCONTROLSYSTEM: 12
+   #   STR_HYBRIDAQUAJETENGINE: 3
+   #   STR_ELECTRONICS: 10
+   #   STR_VTOLSYS: 6 
+  - name: STR_STINGER
+    category: STR_CRAFT
+    requiresBaseFunc: [SALVAGE]  	
+    requires:
+     - STR_STINGER_SUB
+    space: 22
+    time: 18000
+    cost: 20000000
+    listOrder: 3754
+    requiredItems:	  
+      STR_AQUA_PLASTICS: 55
+      STR_ION_BEAM_ACCELERATORS: 1
+      STR_MAGNETIC_NAVIGATION: 1
+      STR_ALIEN_SUB_CONSTRUCTION: 3
+      STR_UFO_POWER_SOURCE: 1	
+  - name: STR_WALKER
+    category: STR_PERSONAL_ARMOR
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_WALKER
+    space: 30
+    time: 1400
+    cost: 200000
+    requiredItems:
+      STR_AQUA_PLASTICS: 40
+      STR_MOLECTRONICS: 5
+      STR_ZRBITE: 25
+      STR_ION_BEAM_ACCELERATORS: 1
+      STR_ALIEN_CRYOGENICS: 1
+      STR_ALIEN_SUB_CONSTRUCTION: 1
+      STR_ALIEN_ALLOYS: 5
+  - name: STR_WALKER2
+    category: STR_PERSONAL_ARMOR
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_WALKER2
+    space: 35
+    time: 1800
+    cost: 200000
+    requiredItems:
+      STR_AQUA_PLASTICS: 50
+      STR_MOLECTRONICS: 5
+      STR_ZRBITE: 25
+      STR_ION_BEAM_ACCELERATORS: 1
+      STR_ALIEN_SUB_CONSTRUCTION: 1
+      STR_ALIEN_ALLOYS: 5
+  - name: STR_PISTOL_RECYCLE
+    category: STR_VIVISECTION
+    space: 2
+    time: 20
+    cost: 100
+    requiresBaseFunc: [SALVAGE] 	
+    requires:
+     - STR_PISTOL_POWER_CLIP
+     - STR_ZRBITE
+    requiredItems:
+      STR_PISTOL_POWER_CLIP: 1
+    producedItems:
+      STR_ZRBITE: 1
+  - name: STR_RIFLE_RECYCLE
+    category: STR_VIVISECTION
+    space: 2
+    time: 20
+    requiresBaseFunc: [SALVAGE] 	
+    cost: 100
+    requires:
+     - STR_BLASTA_POWER_CLIP
+     - STR_ZRBITE
+    requiredItems:
+      STR_BLASTA_POWER_CLIP: 1
+    producedItems:
+      STR_ZRBITE: 1
+  - name: STR_CANNON_RECYCLE
+    category: STR_VIVISECTION
+    requiresBaseFunc: [SALVAGE] 	
+    space: 2
+    time: 20
+    cost: 100
+    requires:
+     - STR_CANNON_POWER_CLIP
+     - STR_ZRBITE
+    requiredItems:
+      STR_CANNON_POWER_CLIP: 1
+    producedItems:
+      STR_ZRBITE: 2	  
+  #- name: STR_MC_SOLDIER
+  #  category: STR_HIRING
+  #  requiresBaseFunc: [BIOLAB]
+  #  space: 2
+  #  time: 50
+  #  cost: 100000
+    #requires:
+    # - STR_MC_LAB
+    #requiredItems:
+    #  STR_ALIEN_IMPLANTER: 1
+    #  STR_ALIEN_LEARNING_ARRAYS: 1
+    #  STR_MERCSOLDIERHIRE: 1	  
+    #spawnedPersonType: STR_MC_SOLDIER
+    #producedItems: {}
+  #- name: STR_SHIELDED_SOLDIER
+  #  category: STR_HIRING
+  #  requiresBaseFunc: [BIOLAB]
+  #  space: 2
+  #  time: 50
+  #  cost: 60000
+    #requires:
+    # - STR_MC_LAB
+    #requiredItems:
+    #  STR_ALIEN_IMPLANTER: 2
+    #  STR_MERCSOLDIERHIRE: 1	  
+    #spawnedPersonType: STR_SHIELDED_SOLDIER
+    #producedItems: {}
+  #- name: STR_IMP_SOLDIER
+  #  category: STR_HIRING
+  #  requiresBaseFunc: [BIOLAB]
+  #  space: 2
+  #  time: 50
+  #  cost: 80000
+    #requires:
+    # - STR_MC_LAB
+   # requiredItems:
+   #   STR_ALIEN_IMPLANTER: 1
+   #   STR_ALIEN_LEARNING_ARRAYS: 2
+   #   STR_MERCSOLDIERHIRE: 1
+   # spawnedPersonType: STR_IMP_SOLDIER
+   # producedItems: {}	  	  
+#Craft Weapons
+#  - name: STR_CRAFT_GAS_CANNON    #Gas Cannon #
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_SUPCAV_AMMO
+#    space: 6
+#    time: 300
+#    cost: 20000
+#  - name: STR_CRAFT_AQUA_CANNON    #Aqua-plastic Gas Cannon #
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_AQUA_CANNON
+#    space: 6
+#    time: 300
+#    cost: 18000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 20
+#  - name: STR_CRAFT_GAS_CANNON_ROUNDS_X50    #Gas Cannon Ammo #
+#    category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_SUPCAV_AMMO
+#    space: 2
+#    time: 50
+#    cost: 1000
+  #- name: STR_GAUSS_CANNON
+  #  requiredItems:
+  #    STR_MAGNETIC_NAVIGATION: 1
+#  - name: STR_GAUSS_CANNON_AMMO    #Gauss Cannon Ammo #
+#    category: STR_CRAFT_AMMUNITION
+#    space: 2 
+#    time: 250
+#    cost: 2000
+    
+#  - name: STR_PULSE_WAVE_TORPEDOES    #P.W.T Ammo #
+#    category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_PWT_CANNON
+#    space: 6
+#    time: 600
+#    cost: 28000
+#    requiredItems:
+#      STR_ZRBITE: 7
+      
+#  - name: STR_DOLPHIN_LAUNCHER
+#    category: STR_CRAFT_WEAPON
+#   requires:
+#     - STR_DOLPHIN
+#    space: 6
+#    time: 350
+#    cost: 40000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 10
+#  - name: STR_DOLPHIN_TORPEDOES
+#     category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_DOLPHIN
+#    space: 2
+#    time: 35
+#    cost: 8000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 2
+#  - name: STR_KRAKEN_LAUNCHER
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_KRAKEN
+#    space: 6
+#    time: 350
+#    cost: 50000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 10
+#  - name: STR_KRAKEN_TORPEDOES
+#    category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_KRAKEN
+#    space: 2
+#    time: 40
+#    cost: 14000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 2
+#      STR_ZRBITE: 5
+
+#  - name: STR_BIOTORP_LAUNCHER
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_BIOTORP
+#    space: 6
+#    requiresBaseFunc: [BIOLAB]
+#    time: 600
+#    cost: 60000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 10
+#  - name: STR_BIOTORP_TORPEDOES
+#    category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_BIOTORP
+#    space: 2
+#    requiresBaseFunc: [BIOLAB]
+#    time: 70
+#    cost: 4000
+#    requiredItems:
+#      STR_ALIEN_CLONING: 1
+      
+#  - name: STR_JOHNNY_LAUNCHER
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_JOHNNY
+#    space: 6
+#    time: 350
+#    cost: 50000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 10
+#  - name: STR_JOHNNY_TORPEDOES
+#    category: STR_CRAFT_AMMUNITION
+#    requires:
+#     - STR_JOHNNY
+#    space: 2
+#    time: 30
+#    cost: 50000
+#    requiredItems:
+#      STR_AQUA_PLASTICS: 3
+#  - name: STR_ION_RIFLE_UC
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_ION_RIFLE_UC
+#    space: 6
+#    time: 300
+#    cost: 80000
+#    requiredItems:
+#      STR_ZRBITE: 20
+#      STR_ION_BEAM_ACCELERATORS: 1
+#  - name: STR_ARRAY
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_ARRAY
+#    space: 5
+#    time: 350
+#    cost: 80000
+#    requiredItems:
+#      STR_MAGNETIC_NAVIGATION: 2
+#  - name: STR_MI_D
+#    category: STR_CRAFT_WEAPON
+#    requires:
+#     - STR_MI_D
+#    space: 5
+#    time: 350
+#    cost: 70000
+#    requiredItems:
+#      STR_ION_BEAM_ACCELERATORS: 6
+#      STR_ZRBITE: 20
+#Armor
+
+#more molectronic for vanilla armors
+#walker ammo
+#Weapons
+#  - name: STR_PARTICLE_DISTURBANCE_GRENADE
+#    category: STR_WEAPON
+#    requires:
+#     - STR_PARTICLE_DISTURBANCE_GRENADE
+#    space: 2
+#    time: 80
+#    cost: 400
+#  - name: STR_THERMAL_TAZER
+#    category: STR_WEAPON
+#    requires:
+#     - STR_THERMAL_TAZER
+#    space: 3
+#    time: 200
+#    cost: 1000
+#gauss
+
+  - name: STR_EXCHANGE_SPAWNER
+    category: STR_EXCHANGE
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_JELLYMEN_TRADE
+     - STR_SPAWNER
+    space: 1
+    time: 80
+    cost: 1500
+    requiredItems:
+      STR_ZRBITE: 10
+    producedItems:
+      STR_SPAWNER: 1
+      
+  - name: STR_EXCHANGE_TANGLER
+    category: STR_EXCHANGE
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_JELLYMEN_TRADE
+     - STR_TANGLER
+    space: 1
+    time: 80
+    cost: 1500
+    requiredItems:
+      STR_ZRBITE: 5
+    producedItems:
+      STR_TANGLER: 1
+      
+  - name: STR_EXCHANGE_VAMPIRE
+    category: STR_EXCHANGE
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_JELLYMEN_TRADE
+     - STR_VAMPIRE_WEAPON #For clarity
+    space: 1
+    time: 80
+    cost: 1500
+    requiredItems:
+      STR_ZRBITE: 15
+    producedItems:
+      STR_VAMPIRE_WEAPON: 1
+      
+  - name: STR_EXCHANGE_SUPRESSOR
+    category: STR_EXCHANGE
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_JELLYMEN_TRADE
+     - STR_SUPRESSOR
+    space: 1
+    time: 80
+    cost: 1500
+    requiredItems:
+      STR_ZRBITE: 15
+    producedItems:
+      STR_SUPRESSOR: 1
+      
+  - name: STR_EXCHANGE_BRAIN
+    category: STR_EXCHANGE
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_JELLYMEN_TRADE
+     - STR_BRAIN
+    space: 1
+    time: 80
+    cost: 1500
+    requiredItems:
+      STR_ZRBITE: 20
+    producedItems:
+      STR_BRAIN: 1
+      
+  - name: STR_ALIEN_KEY
+    category: STR_UFO_COMPONENT
+    space: 2
+    time: 50
+    cost: 1000
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_ALIEN_KEY
+    requiredItems:
+      STR_MOLECTRONICS: 10
+      STR_ZRBITE: 1
+    producedItems:
+      STR_ALIEN_KEY: 1
+  - name: STR_MAGNETIC_NAVIGATION    #Magnetic Navigation #
+    category: STR_UFO_COMPONENT
+    requiresBaseFunc: [BASICWORKSHOP]	
+    requires:
+     - STR_MAGNETIC_NAVIGATION
+    space: 12
+    time: 600
+    cost: 15000
+    requiredItems:
+      STR_NEURAL_COMPONENTS: 5
+      STR_MOLECTRONICS: 10
+      STR_ZRBITE: 1
+#Ubersoldaten
+#Vivisection
+  - name: STR_ION_BEAM_ACCELERATORS_RECYCLE
+    category: STR_VIVISECTION
+    space: 2
+    time: 180
+    requiresBaseFunc: [SALVAGE] 	
+    cost: 100
+    requires:
+     - STR_ION_BEAM_ACCELERATORS
+     - STR_ZRBITE
+    requiredItems:
+      STR_ION_BEAM_ACCELERATORS: 1
+    producedItems:
+      STR_ZRBITE: 5
+      STR_NEURAL_COMPONENTS: 1
+  - name: STR_MAGNETIC_NAVIGATION_RECYCLE
+    category: STR_VIVISECTION
+    space: 2
+    time: 140
+    requiresBaseFunc: [SALVAGE] 	
+    cost: 100
+    requires:
+     - STR_MAGNETIC_NAVIGATION
+     - STR_ALIEN_MOLECTRONIC
+    requiredItems:
+      STR_MAGNETIC_NAVIGATION: 1
+    producedItems:
+      STR_MOLECTRONICS: 4
+      STR_NEURAL_COMPONENTS: 1
+#  - name: STR_PULSER_RECYCLE
+#    category: STR_VIVISECTION
+#    space: 2
+#    time: 25
+#    cost: 100
+#    requires:
+#     - STR_ALIEN_GRENADE
+#     - STR_ZRBITE
+#    requiredItems:
+#      STR_ALIEN_GRENADE: 2
+#    producedItems:
+#      STR_ZRBITE: 1
+#  - name: STR_SHOKBOMB_RECYCLE
+#    category: STR_VIVISECTION
+#    space: 2
+#    time: 20
+#    cost: 100
+#    requires:
+#     - STR_STUN_BOMB
+#     - STR_ZRBITE
+#    requiredItems:
+#      STR_STUN_BOMB: 1
+#    producedItems:
+#      STR_ZRBITE: 1
+  - name: STR_AQUATOID_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_SECTOID_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_AQUATOID_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 2
+  - name: STR_GILLMAN_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_GILLMAN_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_GILLMAN_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+  - name: STR_NAGA_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_NAGA_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_NAGA_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+  - name: STR_DEEP_ONE_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_DEEP_ONE_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_DEEP_ONE_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 1
+  - name: STR_TASOTH_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_TASOTH_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_TASOTH_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 2
+  - name: STR_CALCINITE_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_CALCINITE_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_CALCINITE_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 1
+  - name: STR_TENTACULAT_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_TENTACULAT_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_TENTACULAT_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+  - name: STR_LOBSTERMAN_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_LOBSTERMAN_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_LOBSTERMAN_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 1
+  - name: STR_GHOST_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_GHOST_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_GHOST_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+  - name: STR_NEEDLER_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_NEEDLER_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_NEEDLER_CORPSE: 1
+    producedItems:
+      STR_ZRBITE: 2
+  - name: STR_BIODRONE_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_BIODRONE_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_BIODRONE_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 3
+      STR_AQUA_PLASTICS: 1
+  - name: STR_XARQUID_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_XARQUID_AUTOPSY
+    space: 4
+    time: 200
+    cost: 200
+    requiredItems:
+      STR_XARQUID_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 4
+  - name: STR_HALLUCINOID_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_HALLUCINOID_AUTOPSY
+    space: 4
+    time: 200
+    cost: 200
+    requiredItems:
+      STR_HALLUCINOID_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+  #- name: STR_TRISCENE_EXTRACTION
+  #  category: STR_VIVISECTION
+  #  requires:
+  #   - STR_ALIEN_MOLECTRONIC
+  #  - STR_TRISCENE_AUTOPSY
+  #  space: 4
+  #  time: 200
+  #  cost: 200
+  #  requiredItems:
+  #    STR_TRISCENE_CORPSE: 1
+  #  producedItems:
+  #    STR_MOLECTRONICS: 1
+  - name: STR_OCT_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_OCT_AUTOPSY
+    space: 4
+    time: 200
+    cost: 200
+    requiredItems:
+      STR_OCT_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 4
+  - name: STR_HELLCRAB_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_HELLCRAB_AUTOPSY
+    space: 4
+    time: 200
+    cost: 200
+    requiredItems:
+      STR_HELLCRAB_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 5
+  - name: STR_ABOMINATIONTFTD_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_ABOMINATION_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_ABOMINATION_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 3
+      
+  - name: STR_CARCHARODON_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_CARCHARODON_AUTOPSY
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_CARCHARODON_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+#upgraded aliens vivisection
+
+  - name: STR_HEAVYAQUATOID_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_SECTOID_AUTOPSY
+     - STR_HEAVYAQUATOID
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_HEAVYAQUATOID_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 3
+  - name: STR_HEAVYGILLMAN_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]		
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_GILLMAN_AUTOPSY
+     - STR_HEAVYGILLMAN
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_HEAVYGILLMAN_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 1
+      STR_AQUA_PLASTICS: 1
+  - name: STR_TASOTHGUARD_EXTRACTION
+    category: STR_VIVISECTION
+    requiresBaseFunc: [BIOLAB]	
+    requires:
+     - STR_ALIEN_MOLECTRONIC
+     - STR_TASOTH_AUTOPSY
+     - STR_TASOTHGUARD
+    space: 2
+    time: 120
+    cost: 100
+    requiredItems:
+      STR_TASOTHGUARD_CORPSE: 1
+    producedItems:
+      STR_MOLECTRONICS: 2
+      STR_AQUA_PLASTICS: 2

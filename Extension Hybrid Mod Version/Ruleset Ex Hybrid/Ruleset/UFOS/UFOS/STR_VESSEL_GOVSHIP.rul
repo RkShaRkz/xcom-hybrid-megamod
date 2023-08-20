@@ -1,0 +1,130 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_GOVSHIP: Skymotor Stealth Transport
+      STR_VESSEL_GOVSHIP_UFOPEDIA: "The Skymotor Stealh Transport is designed for factions to have a stealh insertion vechicle to carry troops into enemy territory undetected for special ops missions."  
+ufopaedia:
+  - id: STR_VESSEL_GOVSHIP
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_GOVSHIP
+    text: STR_VESSEL_GOVSHIP_UFOPEDIA
+research:
+  - name: STR_VESSEL_GOVSHIP
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_GOVSHIP
+ufos:
+  - type: STR_VESSEL_GOVSHIP
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionGovship
+    hitBonus: 20
+    damageMax: 110
+    speedMax: 2500
+    accel: 2
+    range: 40
+    power: 60
+    reload: 33
+    armor: 5
+    score: 20
+    breakOffTime: 2500
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0		
+    battlescapeTerrainData:
+      name: DRAKKAR
+      mapDataSets:
+        - BLANKS
+        - AVENGER_G3 
+        - C_EXT_ROOF_BLACK2
+        - C_INT_XCOM
+        - XOPSTRANSPORT2_RED
+        - TRITON_2
+        - C_EXT_ENGINE_S_BLACKX	
+        - PLANEENGINE		
+      mapBlocks:
+        - name: DRAKKAR
+          width: 10
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_GOVSHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_GOVSHIP
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_GOVSHIP_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_GOVSHIP
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

@@ -1,0 +1,161 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_COMMUNION_OF_APOCALYPSE: "Communion of Apocalypse"	
+      STR_ALERT_COMMUNION_OF_APOCALYPSE: "CULT OF APOCALYPSE GATHERS!"
+      STR_COMMUNION_OF_APOCALYPSE_DESCRIPTION: "This is Merc Guild here, we have has gotten reports from our feild operatives that the Cult of the Apoclaypse is celebrating of some unholy festival to their dark gods nearby. They need a competant Merc unit to investigate and wipe them out. The rewards are payable upon the completion of the mission.Do remember to protect of the documentary crew that's covering of this mission."
+      STR_COMMUNION_OF_APOCALYPSE_BRIEFING: "This is Merc Guild here, we have has gotten reports from our feild feild operatives that the Cult of the Apoclaypse is celebrating of some unholy festival to their dark gods nearby. They need a competant Merc unit to investigate and wipe them out. The rewards are payable upon the completion of the mission.Do remember to protect of the documentary crew that's covering of this mission."
+alienDeployments:
+  - type: STR_COMMUNION_OF_APOCALYPSE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE    
+    width: 60
+    length: 60
+    height: 18
+    script: GENERALSPAWNXP1
+    alert: STR_ALERT_COMMUNION_OF_APOCALYPSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_COMMUNION_OF_APOCALYPSE_DESCRIPTION
+    unlockedResearch: STR_UNHOLYCELEBRATION_DONE	
+    briefing:
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_COMMUNION_OF_APOCALYPSE
+      desc: STR_COMMUNION_OF_APOCALYPSE_BRIEFING	  
+    music:
+      - GMTACTIC
+    markerName: STR_COMMUNION_OF_APOCALYPSE
+    duration: [72, 144]
+    despawnPenalty: 40
+    enviroEffects: STR_LANDARMOURTOLAND
+    customUfo: STR_SACRIFICE_ALTAR
+    data:
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 7
+        dQty: 5
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 4
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 5
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 5
+        highQty: 10
+        dQty: 9
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 5
+        highQty: 10
+        dQty: 6
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+research:		
+  - name: STR_UNHOLYCELEBRATION_DONE
+    #requiresBaseFunc: [RESEARCH]     
+    cost: 0
+    points: 50
+    needItem: true
+alienMissions:
+  - type: STR_COMMUNION_OF_APOCALYPSE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CULT_OF_SPIRITS: 25
+          STR_APOCALYPSE_CULT: 25
+          STR_CULT_OF_CHERNOBOG: 25		  
+          STR_CULT_OF_APOCALYPSE: 25
+    waves:
+      - ufo: STR_COMMUNION_OF_APOCALYPSE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:
+  - type: GENERALSPAWNXP1
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1			  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: URBAN	  
+    - type: fillArea
+      terrain: URBAN		
+missionScripts:
+  - type: communionOfApocalypseEarly
+    executionOdds: 2
+    missionWeights:
+      0:
+        STR_COMMUNION_OF_APOCALYPSE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

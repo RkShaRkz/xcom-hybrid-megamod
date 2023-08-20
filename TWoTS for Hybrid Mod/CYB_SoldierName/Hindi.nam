@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - CS Abhijay
+  - CS Adil
+  - CS Chandresh
+  - CS Dev
+  - CS Dinesh
+  - CS Govinda
+  - CS Jaideep
+  - CS Kanak
+  - CS Mahesh
+  - CS Neelam
+  - CS Om
+  - CS Pallav
+  - CS Parmesh
+  - CS Rajesh
+  - CS Ranjit
+  - CS Samir
+  - CS Sanjiv
+  - CS Sudeep
+  - CS Vihaan
+  - CS Yogendra
+  - CS Sachin
+  - CS Rahul
+  - CS Anil
+  - CS Virender
+  - CS Kapil
+  - CS Sourav
+  - CS Harbhajan
+femaleFirst:
+  - CS Ajita
+  - CS Amma
+  - CS Avinashi
+  - CS Deepti
+  - CS Gulab
+  - CS Hina
+  - CS Indira
+  - CS Jasweer
+  - CS Kalinda
+  - CS Keva
+  - CS Madhuri
+  - CS Meera
+  - CS Neela
+  - CS Parvati
+  - CS Priti
+  - CS Ranhita
+  - CS Roshan
+  - CS Savitri
+  - CS Sitesh
+  - CS Ushma
+  - CS Vritika
+  - CS Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

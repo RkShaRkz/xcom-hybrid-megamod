@@ -1,0 +1,458 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_HUMAN_OSIRON_BOSSID: "The Camorra Boss ID"
+        STR_HUMAN_OSIRON_ELITEID: "The Camorra Capo ID" #Need replace.
+        STR_HUMAN_OSIRON_GOONID: "The Camorra Goon ID" #need replace
+        STR_HUMAN_OSIRON_BOSS: "The Camorra Boss"
+        STR_HUMAN_OSIRON_ELITE: "The Camorra Capo" #Need replace.
+        STR_HUMAN_OSIRON_GOON: "The Camorra Goon" #need replace
+        STR_PICKUP_OSIRON: "The Camorra Pickup"
+        STR_OSIRON_GOON_DISGUISE_UC: "The Camorra goon disguises"
+        STR_OSIRON_GOON_DISGUISE_UC_UFOPEDIA: "The Camorra has many notable contacts on the Black Market. It is only natural that we try to hijack them by impersonating the criminals."
+        STR_OSIRON_GOON_DISGUISE_H_UC: "The Camorra goon disguise (H)"
+        STR_GOOD_OSIRON_CRATE_OPENING: "Open Reinforced The Camorra Crate"
+        STR_GOOD_OSIRON_CRATE: "Reinforced The Camorra Crate"
+        STR_GOOD_OSIRON_CRATE_UFOPEDIA: "A sophisticated strongbox, protected with an electronic lock. Very hard to open by force."   	
+        STR_OSIRON_HACKED: "Hacked!"
+        STR_OSIRON_HACKED_DESCRIPTION: "Insufficient prevention measures caused some of our secret data to leak out, as well as some funds. We suspect that an The Camorra hacker was involved. This won't get us any good marks with the Council.{NEWLINE}[-100 points, -$50,000]"
+        STR_OSIRON_TRADE_BUST: "The Camorra Trade Bust"
+        STR_OSIRON_TRADE_BUST_DESCRIPTION: "We have successfully disrupted an The Camorra operation and seized their goods.{NEWLINE}[50 points, $50,000, Reinforced The Camorra Crate x3 acquired]"
+        STR_OSIRON_BROKER_ARRESTED: "The Camorra Broker Arrested"
+        STR_OSIRON_BROKER_ARRESTED_DESCRIPTION: "We managed to capture an The Camorra agent and seized some goods he was about to sell to another clandestine organization.{NEWLINE}[25 points, $20,000, Reinforced Camorra Crate acquired]"	
+        STR_HUMAN_OSIRON_GOON_ARMOR: "The Camorra Goon Combat Analysis"
+        STR_HUMAN_OSIRON_ELITE_ARMOR: "The Camorra Capo Combat Analysis"
+        STR_HUMAN_OSIRON_BOSS_ARMOR: "The Camorra Boss Combat Analysis"
+        STR_OSIRON_CRUISE: "Camorra Cruise Liner"
+        STR_OSIRON_CRUISE_DESCRIPTION: "We have detected an The Camorra smuggling vessel, posing as a cruise liner. Our job is to board it, apprehend the crew and secure any illegal cargo. Expect resistance from The Camorra agents and security. You cannot retreat from this mission."
+        STR_OSIRON_CRUISE_BRIEFING: "We have detected an The Camorra smuggling vessel, posing as a cruise liner. Our job is to board it, apprehend the crew and secure any illegal cargo. You cannot retreat from this mission."
+        STR_ALERT_OSIRON_CRUISE: "CAMORRA SEA VESSEL SPOTTED"	
+        STR_OSIRON: "The Camorra"
+        STR_OSIRON_UFOPEDIA: "The Camorra is a crime mafia originally hail from Italy. Its criminal activities are in all sorts of unusual stuff -from exotic illegal drugs to contraband ancient relics. Despite relatively recent, they now operates from around the entire globe, always looking for ways to acquire or sell their dangerous merchandise."	
+        STR_HUMAN_OSIRON_GOON: "The Camorra Goon" #need replace
+        STR_HUMAN_OSIRON_GOON_UFOPEDIA: "These are the soldiers of the Camorra. They are often outsiders and not part of the family, mostly they are adoptees hired from the streets, to do the Camorra's dirty work."
+        STR_HUMAN_OSIRON_ELITE: "The Camorra Capo" #Need replace.
+        STR_HUMAN_OSIRON_ELITE_UFOPEDIA: "These Leutinants are family, external or mostly intermediate by relation they are still family. They have a role to play in the Crime mafia, and they are usually in charge of a section of the mafia's illicit business activity. Usually highly motivated and fanatical, bewary of their loyalty to the family."
+        STR_HUMAN_OSIRON_BOSS: "The Camorra Boss"
+        STR_HUMAN_OSIRON_BOSS_UFOPEDIA: "Usually the higher rankers in the family, these bosses are in charge of the criminal branches within of the Mafia. They weld unusually high powers and has known to cause internal civil strife within of the Mafia when a power play happens."
+alienRaces:
+  - id: STR_OSIRON
+    members:
+      - STR_HUMAN_OSIRON_BOSS
+      - STR_HUMAN_OSIRON_BOSS
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+    retaliationAggression: -100
+  - id: STR_OSIRON_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_HUMAN_OSIRON_BOSS
+      - STR_HUMAN_OSIRON_BOSS
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_GOON
+ufopaedia: 
+  - id: STR_OSIRON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_OSIRON_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_OSIRON
+    listOrder: 180290
+  - id: STR_HUMAN_OSIRON_GOON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_OSIRON_GOON_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_OSIRON_GOON
+    listOrder: 152200
+  - id: STR_HUMAN_OSIRON_ELITE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_OSIRON_ELITE_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_OSIRON_ELITE
+    listOrder: 152230
+  - id: STR_HUMAN_OSIRON_BOSS
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_OSIRON_BOSS_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_OSIRON_BOSS
+    listOrder: 152240
+research:
+  - name: STR_HUMAN_OSIRON_GOON
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_OSIRON
+    listOrder: 152200
+  - name: STR_HUMAN_OSIRON_ELITE
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_OSIRON
+  - name: STR_HUMAN_OSIRON_BOSS
+    requiresBaseFunc: [INTERROGATION]
+    cost: 20
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_OSIRON
+  - name: STR_OSIRON
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_HUMAN_OSIRON_GOON
+      - STR_HUMAN_OSIRON_ELITE
+      - STR_HUMAN_OSIRON_BOSS
+    listOrder: 182000	  
+units:
+  - type: STR_HUMAN_OSIRON_GOON
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 45
+      health: 45
+      bravery: 70
+      reactions: 30
+      firing: 45
+      throwing: 40
+      strength: 35
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+      #mana: 50
+    armor: STR_HUMAN_OSIRON_GOON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 6
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 1
+    aggression: 3
+    canSurrender: true
+    sniper: 30
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_HUMAN_OSIRON_BOSS
+    race: STR_HUMAN
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 80
+      health: 60
+      bravery: 80
+      reactions: 45
+      firing: 65
+      throwing: 50
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 60
+      #mana: 50
+    armor: STR_HUMAN_OSIRON_BOSS_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 3
+    aggression: 1
+    canSurrender: true
+    sniper: 50
+    spotter: 1
+    builtInWeaponSets:	  	
+      - - STR_FLAMETHROWER
+        - STR_FLAMETHROWER_CLIP
+        - STR_FLAMETHROWER_CLIP
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_HUMAN_OSIRON_ELITE
+    race: STR_HUMAN
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 70
+      health: 55
+      bravery: 70
+      reactions: 45
+      firing: 53
+      throwing: 40
+      strength: 43
+      psiStrength: 30
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_HUMAN_OSIRON_ELITE_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 4
+    canSurrender: true
+    sniper: 45
+    builtInWeaponSets:	  
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP			
+armors:
+  - type: STR_HUMAN_OSIRON_GOON_ARMOR
+    spriteSheet: OSIRON_GOON.PCK
+    spriteInv: inventory_OSIRON_GOON
+    corpseBattle:
+      - STR_HUMAN_OSIRON_GOON_CORPSE
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_HUMAN_OSIRON_ELITE_ARMOR
+    spriteSheet: EXALT_ENFORCER.PCK
+    spriteInv: inventory_EXALT_ENFORCER
+    corpseBattle:
+      - STR_HUMAN_OSIRON_ELITE_CORPSE	
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 7, 7, 170, 170, 179, 179]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 11
+    frontArmor: 18
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 6
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        flatHundred: 0.08
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+  - type: STR_HUMAN_OSIRON_BOSS_ARMOR
+    spriteSheet: OSIRON_BOSS.PCK
+    spriteInv: inventory_OSIRON_BOSS
+    corpseBattle:
+      - STR_HUMAN_OSIRON_BOSS_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 144, 144, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+items:	
+  - type: STR_HUMAN_OSIRON_ELITE_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 326
+    floorSprite: 286
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 34
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_HUMAN_OSIRON_BOSS_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 484
+    floorSprite: 404
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_HUMAN_OSIRON_GOON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: 100
+    size: 0.4
+    weight: 40
+    bigSprite: 483
+    floorSprite: 403
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_HUMAN_OSIRON_GOON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 3000
+    listOrder: 152200	
+  - type: STR_HUMAN_OSIRON_ELITE
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 6000
+    listOrder: 152230	
+  - type: STR_HUMAN_OSIRON_BOSS
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 10000
+    listOrder: 152240	

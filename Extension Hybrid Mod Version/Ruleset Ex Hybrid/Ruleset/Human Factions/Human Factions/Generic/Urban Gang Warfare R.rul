@@ -1,0 +1,107 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ZSRR_GANG_WAR: "City Gang War"
+      STR_ZSRR_GANG_WAR_DESCRIPTION: "The Mercenary guild has got the scoop that there's a fierce gang war brewing in this city. The Mayor of the city has a big bounty for any military units that can come and pacify his city."
+      STR_ZSRR_GANG_WAR_BRIEFING: "The Mercenary guild has got the scoop that there's a fierce gang war brewing in this city. The Mayor of the city has a big bounty for any military units that can come and pacify his city."
+alienDeployments:
+  - type: STR_ZSRR_GANG_WAR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED     
+    width: 70
+    length: 70
+    height: 18
+    civiliansByType:
+      STR_EXALT_INFILTRATOR: 8
+      STR_POLICEWOMAN: 2
+      STR_MALE_GREASER: 2
+      STR_EXALT_LIQUIDATOR: 8
+    alert: STR_ALERT_ZSRR_GANG_WAR
+    alertBackground: BACK04.SCR
+    alertDescription: STR_ZSRR_GANG_WAR_DESCRIPTION
+    briefing:
+      desc: STR_ZSRR_GANG_WAR_BRIEFING
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+    markerName: STR_ZSRR_GANG_WAR
+    duration: [72, 144]
+    despawnPenalty: 50
+    music:
+      - GMTACTIC
+    script: GENERALSLUMWAR
+    data:
+      - alienRank: 5
+        lowQty: 20
+        highQty: 36
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+mapScripts:
+  - type: GENERALSLUMWAR
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		 		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: SLUMURBAN	  
+    - type: fillArea
+      terrain: SLUMURBAN			
+alienMissions:
+  - type: STR_ZSRR_GANG_WAR
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ZSRR: 34
+          STR_OSIRON: 33
+          STR_BLACK_LOTUS: 33
+    waves:
+      - ufo: STR_ZSRR_GANG_WAR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: zsrrGangWar
+    firstMonth: 4
+    executionOdds: 7
+    missionWeights:
+      0:
+        STR_ZSRR_GANG_WAR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

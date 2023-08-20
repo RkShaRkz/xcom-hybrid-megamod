@@ -1,0 +1,107 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_ALERT_MANSION_DEFENSE_SYNDICATE: "Hostile Faction Undergound Base"  
+        STR_ALERT_REACTOR_DEFENSE_SYNDICATE: "Hostile Faction Undergound Base"
+        STR_OLD_ARCHIVES_DEFENSE_SYNDICATE: "Hostile Faction Undergound Base"
+        STR_OLD_ARCHIVES_DEFENSE_SYNDICATE_DESCRIPTION: "The Mercenary guild has been contracted by a few Major factions for a merc unit to smash a mutually hostile faction that has a secret base which was recently discovered in this region. They will pay good money for its destruction."
+        STR_OLD_ARCHIVES_DEFENSE_SYNDICATE_BRIEFING: "The Mercenary guild has been contracted by a few Major factions for a merc unit to smash a mutually hostile faction that has a secret base which was recently discovered in this region. They will pay good money for its destruction."
+alienDeployments:
+  - type: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    width: 50
+    length: 50
+    height: 16
+    civilians: 12
+    alert: STR_ALERT_OLD_ARCHIVES_DEFENSE_SYNDICATE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE_BRIEFING  
+    markerName: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE
+    duration: [130, 180]
+    despawnPenalty: 1000
+    music:
+      - GMTACTIC
+    terrains:
+      - STORMMOUNTAIN_ARCHIVES
+    data:
+      - alienRank: 8
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 10
+        highQty: 20
+        dQty: 5
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 3
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE
+    #interruptResearch: STR_OLD_XCOM_DATA_REEL
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SYNDICATE: 10
+          STR_GOVT: 10
+          STR_SMUGGLER: 10
+          STR_UAC: 10
+          STR_NINJA: 10
+          STR_TRANS_STELLAR: 10			  
+          STR_GUILD: 10
+          STR_MARSEC: 10
+          STR_SYNDICATE: 10
+          STR_NAZIS_TERROR: 10		  
+    waves:
+      - ufo: STR_OLD_ARCHIVES_DEFENSE_SYNDICATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true			
+missionScripts:
+  - type: syndicateOldArchivesDefense
+    firstMonth: 0
+    executionOdds: 3
+    missionWeights:
+      0:
+        STR_OLD_ARCHIVES_DEFENSE_SYNDICATE: 100
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    startDelay: 5000
+    randomDelay: 25000
+    facilityTriggers:
+      STR_MERCFACILITY: true

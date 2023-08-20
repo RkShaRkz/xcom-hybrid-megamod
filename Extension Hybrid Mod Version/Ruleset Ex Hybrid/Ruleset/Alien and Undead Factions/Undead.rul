@@ -1,0 +1,2718 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_ZOMBIE_TROOPER_2_TERRORIST: "Zombie Trooper"
+      STR_ZOMBIE_TROOPER_2_TERRORIST_UFOPEDIA: "Synderion experiments with their drug Zombies come to a new height, with the Zombie trooper. Essentially, a drug Zombie is given extra higher brain function to have the intelligence of a child and given heavy armour. This Zombie can use weapons like a normal human does. However, any task more complicated will make the Zombie panick and can make it occassionally go bezerk. This version of the Zombie is also drug to give it extra strength and stamia for the heavy armour it wears."
+      STR_ZOMBIE_TROOPER_1_TERRORIST: "Zombie Soldier"
+      STR_ZOMBIE_TROOPER_1_TERRORIST_UFOPEDIA: "Synderion experiments with their drug Zombies come to a new height, with the Zombie trooper. Essentially, a drug Zombie is given extra higher brain function to have the intelligence of a child. This Zombie can use weapons like a normal human does. However, any task more complicated will make the Zombie panick and can make it occassionally go bezerk."
+      STR_ZOMBIE_TROOPER_CORPSE_UFOPEDIA: "This drug zombie is once a human, but genetically modified with drugs and surgical means to make it a walking tank. Its skin is half a centimetre thick in some areas. Its skeletal structure is heavily reinforced with large muscular mass, while giving it enormous strength. The only down size is the brain, it is shrunk to size to that of a cat. Obviously that its Synedrion masters has only wanted the Zombie to obey simple orders and not allow to think for itself."	
+      STR_ZOMBIE_TROOPER_CORPSE: "Zombie Remains"	  
+      STR_MEGAZOMBIE_TERRORIST: "Mancubus"
+      STR_MEGAZOMBIE_TERRORIST_UFOPEDIA: "The Mancubus is a special Drug zombie that's engineered to absorb heavy weapon fire. Most of the Zombie's skin are harden and also the bulk of it is fat. Pure fat, like a lot of drugs has been pump into the Zombie to make is grow this bulk. This make the zombie slow and large, with enormous strength and stamina at the sacrifice of speed. This zombie is a heavy Melee type. That means anything close to it will die, if its ham-like hands attacks."
+      STR_ZOMBIE_TROOPER_AUTOPSY: "Mancubus Autopsy"	
+      STR_MEGAZOMBIE_AUTOPSY: "Mancubus Autopsy"	  
+      STR_MEGAZOMBIE_CORPSE_UFOPEDIA: "The skeletal structure and skin of this zombie is heavily strengthen. Its bone is utterly solid and reinforce with bio-organic carbon fibre. The skin is at least half a centimetre thick in various places, with leather like toughness. Most of the Zombie's internal mass is just fat, like we have guessed that it will be. This zombie has been vat grown for years, before it is made ready for combat. Its intelligence are no better than that of a child. Apparently, its Synedrion master is wary of given it more intelligence that it should, in case it rebel."	  		 		
+      STR_MEGAZOMBIE_CORPSE: "Mancubus Remains"
+      STR_ZOMBIE_GRUBAS_TERRORIST: "Giga Zombie"
+      STR_ZOMBIE_GRUBAS_UFOPEDIA: "The Giza Zombie is a walking tank. Even more tougher than the Mancubus, this Zombie can survive heavy attack, due to its harden skin and muscular mass. Its main asset is its strength. For any one gets to its melee range will die instantly. "	  
+      STR_ZOMBIE_GRUBAS_CORPSE_AUTOPSY: "Giga Zombie Autopsy"	  
+      STR_ZOMBIE_GRUBAS_CORPSE_UFOPEDIA: "The remains of this drug zombie is massive. The Synderion has succeeded beyond of their expectation in creating a biological tank. The skin of this zombie is at least two centimetre thick is various places. Its skeletal structure is a solid mass of toughen bone, wrap with heavy muscles and given it titanic strength. Again, its intelligence is small, compare to that of a human."
+      STR_ZOMBIE_GRUBAS_CORPSE: "Giga Zombie Remains"
+      STR_ZOMBIE_INFECTOR_TERRORIST: "Zombie Mutator"
+      STR_ZOMBIE_INFECTOR_UFOPEDIA: "Mutator Zombies are the most dangerous variant of the drug Zombie series that the Synderion has been creating. This version of the Zombie is heavily genetically modified for speed, instead of bulk like the others. Its intelligence is a bar better than the others, due to the purpose that it is design for. To implant an egg, a biological engineered egg that once it is implanted on a host, the egg will slowly mutant the host into another Zombie Mutator. This is the Synderion most diablolical creation yet, for one wonders of where they drawn of their inspiration of this nightmare from. "
+      STR_ZOMBIE_INFECTOR_CORPSE_AUTOPSY: "Zombie Mutator Autopsy"	  
+      STR_ZOMBIE_INFECTOR_CORPSE_UFOPEDIA: "The Zombie Mutator's skeletal structure is lean and light, if compare to its other variant. Its bones are honeycomb for strength and lightness, not for toughness and its muscular mass is also lean. Obviously a shot or two from any weapon will take it down, but this Zombie is design for speed, not as a tank. The most frightening part of its internal organ is this organic spike on its chest that strike out and impale its victim, this impaler is join to a sac full of eggs. The brain structure of this zombie is well develop, with a size similar to that of a child. "
+      STR_ZOMBIE_INFECTOR_CORPSE: "Zombie Mutator Remains"	
+      STR_ZOMBIE_BOOMER_TERRORIST: "Zombie Exploder"
+      STR_ZOMBIE_BOOMER_CORPSE_UFOPEDIA: "This Zombie's corpse is really hard to get, for most has died in a huge and violent explosion. From the blacken remains, we found this zombie has a strong muscles that wrap around a honeycomb skeletal structure. The Skeleton is light, yet muscle is strong enough to kill people in one swat. Yet the stand out feature of this zombie is not its strength but the special organs in its stomach. It contains volatile chemicals that reacts explosively in death. This chemicals react with its muscular mass to form a huge explosion." 		  
+      STR_ZOMBIE_BOOMER_CORPSE_AUTOPSY: "Zombie Exploder Autopsy"	  
+      STR_ZOMBIE_BOOMER_UFOPEDIA: "This is the most dangerous Zombie there is, other than the Mutator. It may look like a regular toughen fat zombie, until it gets close. If this zombie dies in Melee range, which its fat hams hand can kill, it will explode with a huge explosive blast, killing anything close by."
+      STR_ZOMBIE_BOOMER_CORPSE: "Zombie Exploder Remains"	
+      STR_ZOMBIE_STERILE_TERRORIST: "Drug Zombie"
+      STR_ZOMBIE_STERILE_UFOPEDIA: "Drug Zombies were former humans, that the Synedrion has completely transformed them with its experiments.  
+	  The end result is a mindless Zombie, with its brain retaining only the most basic of behavior left and all higher mental function wiped away. The Zombie has no feeling of pain, its movement are slow and ponderous due to the lack of higher brain function, but it has incredible strength, capable of killing a man with one blow. The only good side in this is, this Zombie can't breed. So once it dies, there is no way it can be replaced."  
+      STR_ZOMBIE_STERILE_CORPSE_AUTOPSY: "Drug Zombie Autopsy"	  
+      STR_ZOMBIE_STERILE_CORPSE_UFOPEDIA: "This is a human once, with his or her brain is heavily modified. It is pump full of drugs with its skin and muscles sugically modified to be stronger and weapon resistant. The cost of creating zombie alone is prohibitive, yet as to why the Synderion is doing this inhuman thing is beyond explanation."
+      STR_ZOMBIE_STERILE_CORPSE: "Zombie Sterile Remains"	  
+      STR_ECTOPLASM: "Ectoplasm"	  
+      STR_ECTOPLASM_UFOPEDIA: "This semi-organic material is the left over from the Spritual entity that we have killed. It is semi-fluidic and sticky when touch. " 
+      STR_SKELETON: "Skeleton"
+      STR_SKELETON_UFOPEDIA: "In this dimention that the Stargate has travel too, some how, the skeletal remain of the dead is reanimated with a mysterious life force. It has a powerful intelligence, binding the loosely bones of its skeletal host together."	  
+      STR_SKELETON_CORPSE_AUTOPSY: "Skeleton Autopsy"	
+      STR_SKELETON_CORPSE: "Skeleton Remains"	  
+      STR_SKELETON_CORPSE_UFOPEDIA: "The Skeletal remains of this skeleton is nothing special just a collection of jumble up bones and decaying matter"	
+      STR_ANCIENT_SEA_GHOST: "Ancient Ghost"
+      STR_ANCIENT_SEA_GHOST_UFOPEDIA: "A Ghost is a supernatural and spiritual entity. It is the life force of former beings once has a physical body. These life force do not normally come out in the open, however, if the Spirit for some unknown reason, has a violent past that's associated in the area where it once live, it will haunt the place forever. A haunting usually brings out the ghost of the former person willing there. Once it manifest, a ghost can attack anyone it dislike violently with melee attack."	  
+      STR_BUG_EYE_GHOST: "Spiritual Orbs"
+      STR_BUG_EYE_GHOST_UFOPEDIA: "A spiritual orb can be classify as a ghost, but it doesn't manifest its whole body entirely, rather is fighten of its victims by appearing in a ball with a tail like shape. This ghost behave similarly to other ghosts. For ghost do not normally come out in the open, however, if the Spirit for some unknown reason, has a violent past that's associated in the area where it once live, it will haunt the place forever. A haunting usually brings out the ghost of the former person willing there. Once it manifest, a ghost can attack anyone it dislike violently with melee attack. "	  
+      STR_LICH: "Lich"
+      STR_LICH_UFOPEDIA: "Lich Remains"		  
+      STR_LICH_CORPSE_AUTOPSY: "Lich Remains"
+      STR_LICH_CORPSE: "Lich Remains"	  	  
+      STR_LICH_CORPSE_UFOPEDIA: "Lich Remains"	
+      STR_DR_HADRIEX: "Dr Hadriex"
+      STR_DR_HADRIEX_UFOPEDIA: "Dr. Hadriex told us about how a 'magical' item transported his crew to the 'other side', a spirit realm which mirrors our own. His story got quite incoherent afterwards, but apparently they established contact with some marine spirits and made a deal: the spirits would help the crew return to normal space, but they demanded human sacrifices. Since Hadriex was already quite insane by then, and pretty much a full-fledged Augur, he agreed. Only our intervention stopped their sinister plan..." 
+      STR_DR_HADRIEX_CORPSE_AUTOPSY: "Dr Hadriex Remains"	 
+      STR_DR_HADRIEX_CORPSE: "Dr Hadriex Remains"		  
+      STR_DR_HADRIEX_CORPSE_UFOPEDIA: "Dr Hadriex Remains"
+      STR_GHOUL_SOLDIER: "Ghoul Soldier"
+      STR_GHOUL_SOLDIER_UFOPEDIA: "This type of Zombie is similar to the base type, but special diet provided by a 'Strix' provides it with enough bioplasma to stabilize its metabolism at the cost of some body mass. Moreover, special hormones present in the food heavily affect its biology, abandoning procreation for general development. Ghouls are fast, fairly strong and surprisingly intelligent: they use objects, understand simple verbal commands and display social awareness. They are somewhat capable of speech, but not very responsive to stimuli and have little in the way of self-preservation, focusing on protecting their hive instead."	  
+      STR_GHOUL_CORPSE_AUTOPSY: "Ghoul Soldier Remains"	  
+      STR_GHOUL_CORPSE_UFOPEDIA: "This Zombie is significantly leaner and lighter than the standard type. The physiology is similar, but the body contains little energetic plasma. Also the cerebral tissues are very well developed, including advanced structures like in a normal human brain. Although it does not suffer degeneration like mundane Zombies, it is incapable of survival away from the hive."
+      STR_GHOUL_CORPSE: "Ghoul Remains"	  
+      STR_GHOUL_WARRIOR: "Ghoul Warrior"
+      STR_GHOUL_WARRIOR_UFOPEDIA: "Ghoul Warrior Remains"		  
+      STR_GHOUL_WARRIOR_CORPSE_AUTOPSY: "Ghoul Warrior Remains"	  
+      STR_GHOUL_WARRIOR_CORPSE_UFOPEDIA: "Ghoul Warrior Remains"
+      STR_GHOUL_WARRIOR_CORPSE: "Ghoul Warrior Remains"	
+      STR_TOMB_GUARD_FEMALE_TERRORIST: "Female Tomb Guard"
+      STR_TOMB_GUARD_FEMALE_TERRORIST_UFOPEDIA: "Having regrown even more human neural tissue, these former Infectors are smart enough to develop some consciousness. They are not exactly human, but surprisingly close: capable of basic communication, some abstract thinking and social interaction. Their brains are almost completely human; the parasite is still there, but because of how primitive it is, its influence on thought processes is negligible. Tomb Guardians command lesser Zombies with biochemical signals, using them as drones, soldiers and emergency food. Having very limited knowledge about the world, they eagerly collect all sorts of objects for examination."	  
+      STR_TOMB_GUARD_FEMALE_AUTOPSY: "Female Tomb Guard Remains"	  
+      STR_TOMB_GUARD_FEMALE_CORPSE_UFOPEDIA: "This specimen has a well-developed brain, with the alien parasite buried within it. Its biochemistry is still exotic, but it possesses analogues of all human body functions, including specialized organs like the larynx and gonads (though it's certainly unable to actually procreate with humans)."
+      STR_TOMB_GUARD_FEMALE_CORPSE: "Female Tomb Guard Remains"		
+      STR_TOMB_GUARD_MALE_TERRORIST: "Male Tomb Guard"
+      STR_TOMB_GUARD_MALE_TERRORIST_UFOPEDIA: "Having regrown even more human neural tissue, these former Infectors are smart enough to develop some consciousness. They are not exactly human, but surprisingly close: capable of basic communication, some abstract thinking and social interaction. Their brains are almost completely human; the parasite is still there, but because of how primitive it is, its influence on thought processes is negligible. Tomb Guardians command lesser Zombies with biochemical signals, using them as drones, soldiers and emergency food. Having very limited knowledge about the world, they eagerly collect all sorts of objects for examination."	  
+      STR_TOMB_GUARD_MALE_AUTOPSY: "Male Tomb Guard Remains"	  
+      STR_TOMB_GUARD_MALE_CORPSE_UFOPEDIA: "This specimen has a well-developed brain, with the alien parasite buried within it. Its biochemistry is still exotic, but it possesses analogues of all human body functions, including specialized organs like the larynx and gonads (though it's certainly unable to actually procreate with humans)."
+      STR_TOMB_GUARD_MALE_CORPSE: "Male Tomb Guard Remains"	
+      STR_STRIX_TERRORIST: "Strix Terrorist"
+      STR_STRIX_TERRORIST_UFOPEDIA: "Despite its exotic biology, this creature appears to resemble more a human than the Infector it evolved from. It is rather intelligent and capable of basic speech, though its psychology is simple and child-like. Since it can synthesize blood plasma, the Strix rarely eats other Zombies, but sometimes feeds on large animals, including humans. It has the ability to recruit lesser Zombies by tempting them with food and then making them into her personal drones. As opposed to earlier Zombies, it has a stable physiology and prolonged lifespan."  
+      STR_STRIX_AUTOPSY: "Strix Terrorist Remains"	  
+      STR_STRIX_CORPSE_UFOPEDIA: "Clearly a further stage of an Infector, this Zombie type holds large amounts of bioenergy, but appears to store it rather than use it. Nevertheless, its organs are highly developed, particularly the brain and digestive tract. Despite its exotic biology, it appears to resemble a human more than an Infector. It is equipped with modified mammary glands, able to secrete nutritious plasma."
+      STR_STRIX_CORPSE: "Strix Terrorist Remains"
+      STR_VAMPIRE_KNIGHT_LEADER: "Vampire Knight"
+      STR_VAMPIRE_KNIGHT_LEADER_UFOPEDIA: "This Zombie type is sentient and quite intelligent, though has limited understanding of humans. Thanks to its unearthly physiology, it draws energy from the planet itself in various forms; the rest he acquires directly from the soil when hibernating or by extracting fluids from other organisms. It is significantly more proactive and curious than the earlier forms. It has good social skills and maintains relationships with other high-tier Zombies, as well as commands lesser Zombies with vast empathic powers."	  
+      STR_VAMPIRE_KNIGHT_AUTOPSY: "Vampire Knight Remains"	  
+      STR_VAMPIRE_KNIGHT_CORPSE_UFOPEDIA: "This Zombie looks very human on the outside. Its chemistry is completely different from the previous stage: the cellular energy levels are off the scale, but there is very little actual metabolism going on. Moreover, there is very little energy in its blood. This means that the Vampire does not actually use the hyperenergetic chemical that earlier stages do. Oh, and there are no fangs, just body parts of the parasite that can crawl out of the vampire's mouth to feed on captured humans."
+      STR_VAMPIRE_KNIGHT_CORPSE: "Vampire Knight Remains"	
+      STR_VAMPIRE_QUEEN_COMMANDER: "Vampire Queen"
+      STR_VAMPIRE_QUEEN_COMMANDER_UFOPEDIA: "The Vampire Queen emerges in larger groups of Vampires. Her position is mostly a social construct, since Vampires tend to form hierarchical relationships, but her power is enforced with psionic and chemical control over her subjects. She is highly intelligent and possesses a strong self-consciousness. Commanding large numbers of subjects and personally powerful, the Vampire Queen makes a deadly enemy - or a fascinating interlocutor."	  
+      STR_VAMPIRE_QUEEN_AUTOPSY: "Vampire Queen Remains"	  
+      STR_VAMPIRE_QUEEN_CORPSE_UFOPEDIA: "This specimen is biologically identical to the Vampire Knight, except for a lower muscle mass and a slightly better developed brain - especially structures thought to be related to psionics."
+      STR_VAMPIRE_QUEEN_CORPSE: "Vampire Queen Remains"		
+      STR_MUMMY_MATRIARCH: "Mummy Matriach"
+      STR_MUMMY_MATRIARCH_UFOPEDIA: "Even more powerful than Vampires, Mummies are the ultimate form of Zombie. With extremely high energy levels and perfect efficiency, they utilize 100% of their mind and body potential. They shrug off significant damage, maintain a psi shield and can manifest raw energy in the form of violent explosions. With complete power over lesser Zombies, they can lead entire parasite armies and rule over small underground kingdoms."	  
+      STR_MUMMY_AUTOPSY: "Mummy Matriach Autopsy"	  
+      STR_MUMMY_CORPSE_UFOPEDIA: "This form is similar to a Vampire, but there are some notable, if subtle, differences. The metabolism is roughly the same, but the Mummy also stores energetic blood plasma inside her body, much like a Strix. The brain is very well-developed. Barring the wounds which killed it directly, the corpse shows no damage or imperfection."
+      STR_MUMMY_CORPSE: "Mummy Matriach Remains"		 	
+      STR_ANCIENT_GHOUL_WARRIOR: "Ancient Ghoul"
+      STR_ANCIENT_GHOUL_WARRIOR_UFOPEDIA: "Ancient Ghoul"		
+      STR_ANCIENT_MUMMY_MATRIARCH: "Ancient Mummy Matriach"
+      STR_ANCIENT_MUMMY_MATRIARCH_UFOPEDIA: "Ancient Mummy Matriach"	
+      STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST: "Ancient Female Tomb Guard"	
+      STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST_UFOPEDIA: "Ancient Female Tomb Guard"
+      STR_NIGHTMARE: "The Undead"
+      STR_GHOST: "The Haunted"	
+      STR_ZOMBIE_FARMER: "Synedrion Zombies Heavy"	
+      STR_ZOMBIE_STERILE: "Synedrion Zombies Light"		  
+alienRaces:
+  - id: STR_GHOST
+    members:
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+    retaliationAggression: -100
+  - id: STR_GHOST_UNDERWATER
+    members:
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_BUG_EYE_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+      - STR_ANCIENT_SEA_GHOST
+    retaliationAggression: -100	
+  - id: STR_NIGHTMARE
+    members:
+      - STR_VAMPIRE_QUEEN_COMMANDER
+      - STR_VAMPIRE_KNIGHT_LEADER
+      - STR_PHARAOH_COMMANDER
+      - STR_LICH
+      - STR_MUMMY_MATRIARCH
+      - STR_STRIX_TERRORIST
+      - STR_GHOUL_WARRIOR
+      - STR_GHOUL_SOLDIER
+      - STR_TOMB_GUARD_MALE_TERRORIST
+      - STR_TOMB_GUARD_FEMALE_TERRORIST
+      - STR_SKELETON
+      - STR_SKELETON
+    retaliationAggression: -100
+  - id: STR_NIGHTMARE
+    members:
+      - STR_VAMPIRE_QUEEN_COMMANDER
+      - STR_VAMPIRE_KNIGHT_LEADER
+      - STR_PHARAOH_COMMANDER
+      - STR_LICH
+      - STR_MUMMY_MATRIARCH
+      - STR_STRIX_TERRORIST
+      - STR_GHOUL_WARRIOR
+      - STR_GHOUL_SOLDIER
+      - STR_TOMB_GUARD_MALE_TERRORIST
+      - STR_TOMB_GUARD_FEMALE_TERRORIST
+      - STR_SKELETON
+      - STR_SKELETON
+    retaliationAggression: -100	
+  - id: STR_ZOMBIE_FARMER
+    members:
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+    retaliationAggression: -100	
+  - id: STR_ZOMBIE_FARMER_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+  - id: STR_ZOMBIE_STERILE
+    members:
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_TROOPER_1_TERRORIST
+      - STR_ZOMBIE_TROOPER_1_TERRORIST
+      - STR_ZOMBIE_TROOPER_2_TERRORIST
+      - STR_ZOMBIE_TROOPER_2_TERRORIST
+  - id: STR_ZOMBIE_STERILE_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_MEGAZOMBIE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_STERILE_TERRORIST
+      - STR_ZOMBIE_BOOMER_TERRORIST
+      - STR_ZOMBIE_TROOPER_1_TERRORIST
+      - STR_ZOMBIE_TROOPER_1_TERRORIST
+      - STR_ZOMBIE_TROOPER_2_TERRORIST
+      - STR_ZOMBIE_TROOPER_2_TERRORIST   
+ufopaedia:
+  - id: STR_STRIX_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_STRIX_TERRORIST_UFOPEDIA
+    requires:
+      - STR_STRIX_TERRORIST
+    listOrder: 56600
+  - id: STR_STRIX_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_STRIX_CORPSE
+    text: STR_STRIX_CORPSE_UFOPEDIA
+    text_width: 153			
+  - id: STR_VAMPIRE_KNIGHT_LEADER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_VAMPIRE_KNIGHT_LEADER_UFOPEDIA
+    requires:
+      - STR_VAMPIRE_KNIGHT_LEADER
+    listOrder: 56600
+  - id: STR_VAMPIRE_KNIGHT_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_VAMPIRE_KNIGHT_CORPSE
+    text: STR_VAMPIRE_KNIGHT_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_VAMPIRE_QUEEN_COMMANDER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_VAMPIRE_QUEEN_COMMANDER_UFOPEDIA
+    requires:
+      - STR_VAMPIRE_QUEEN_COMMANDER
+    listOrder: 56600
+  - id: STR_VAMPIRE_QUEEN_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_VAMPIRE_QUEEN_CORPSE
+    text: STR_VAMPIRE_QUEEN_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_SKELETON
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SKELETON_UFOPEDIA
+    requires:
+      - STR_SKELETON
+    listOrder: 56600
+  - id: STR_SKELETON_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SKELETON_CORPSE
+    text: STR_SKELETON_CORPSE_UFOPEDIA
+    text_width: 153	 
+  - id: STR_LICH
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_LICH_UFOPEDIA
+    requires:
+      - STR_LICH
+    listOrder: 56600
+  - id: STR_LICH_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_LICH_CORPSE
+    text: STR_LICH_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_DR_HADRIEX
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ECTOPLASM_UFOPEDIA
+    requires:
+      - STR_DR_HADRIEX
+    listOrder: 56600
+  - id: STR_DR_HADRIEX_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_DR_HADRIEX_CORPSE
+    text: STR_DR_HADRIEX_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_GHOUL_SOLDIER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GHOUL_SOLDIER_UFOPEDIA
+    requires:
+      - STR_GHOUL_SOLDIER
+    listOrder: 56600
+  - id: STR_GHOUL_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GHOUL_CORPSE
+    text: STR_GHOUL_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_GHOUL_WARRIOR
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_GHOUL_WARRIOR_UFOPEDIA
+    requires:
+      - STR_GHOUL_WARRIOR
+    listOrder: 56600
+  - id: STR_GHOUL_WARRIOR_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_GHOUL_WARRIOR_CORPSE
+    text: STR_GHOUL_WARRIOR_CORPSE_UFOPEDIA
+    text_width: 153			
+  - id: STR_ZOMBIE_GRUBAS_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_GRUBAS_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_GRUBAS_TERRORIST
+    listOrder: 56600
+  - id: STR_ZOMBIE_GRUBAS_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ZOMBIE_GRUBAS_CORPSE
+    text: STR_ZOMBIE_GRUBAS_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_ZOMBIE_INFECTOR_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_INFECTOR_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_INFECTOR_TERRORIST
+    listOrder: 56600
+  - id: STR_ZOMBIE_INFECTOR_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ZOMBIE_INFECTOR_CORPSE
+    text: STR_ZOMBIE_INFECTOR_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_ZOMBIE_BOOMER_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_BOOMER_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_BOOMER_TERRORIST
+    listOrder: 56600
+  - id: STR_ZOMBIE_BOOMER_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ZOMBIE_BOOMER_CORPSE
+    text: STR_ZOMBIE_BOOMER_CORPSE_UFOPEDIA
+    text_width: 153				
+  - id: STR_ZOMBIE_STERILE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_STERILE_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_BOOMER_TERRORIST
+    listOrder: 56600
+  - id: STR_ZOMBIE_STERILE_CORPSE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ZOMBIE_STERILE_CORPSE
+    text: STR_ZOMBIE_STERILE_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_TOMB_GUARD_FEMALE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_TOMB_GUARD_FEMALE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_TOMB_GUARD_FEMALE_TERRORIST
+    listOrder: 56600
+  - id: STR_TOMB_GUARD_FEMALE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_TOMB_GUARD_FEMALE_CORPSE
+    text: STR_TOMB_GUARD_FEMALE_CORPSE_UFOPEDIA
+    text_width: 153				
+  - id: STR_TOMB_GUARD_MALE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_TOMB_GUARD_MALE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_TOMB_GUARD_MALE_TERRORIST
+    listOrder: 56600
+  - id: STR_TOMB_GUARD_MALE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_TOMB_GUARD_MALE_CORPSE
+    text: STR_TOMB_GUARD_MALE_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_MUMMY_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MUMMY_CORPSE
+    text: STR_MUMMY_CORPSE_UFOPEDIA
+    text_width: 153		
+  - id: STR_MUMMY_MATRIARCH
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MUMMY_MATRIARCH_UFOPEDIA
+    requires:
+      - STR_MUMMY_MATRIARCH
+    listOrder: 56600
+  - id: STR_ANCIENT_GHOUL_WARRIOR
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ANCIENT_GHOUL_WARRIOR_UFOPEDIA
+    requires:
+      - STR_ANCIENT_GHOUL_WARRIOR
+    listOrder: 56600
+  - id: STR_ANCIENT_MUMMY_MATRIARCH
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ANCIENT_MUMMY_MATRIARCH_UFOPEDIA
+    requires:
+      - STR_ANCIENT_MUMMY_MATRIARCH
+    listOrder: 56600
+  - id: STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST
+    listOrder: 56600		
+  - id: STR_ZOMBIE_TROOPER_1_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_TROOPER_1_TERRORIST_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_TROOPER_1_TERRORIST
+    listOrder: 56600	
+  - id: STR_ZOMBIE_TROOPER_2_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ZOMBIE_TROOPER_2_TERRORIST_UFOPEDIA
+    requires:
+      - STR_ZOMBIE_TROOPER_2_TERRORIST
+    listOrder: 56600		
+  - id: STR_ANCIENT_SEA_GHOST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_ANCIENT_SEA_GHOST_UFOPEDIA
+    requires:
+      - STR_ANCIENT_SEA_GHOST
+    listOrder: 56600	
+  - id: STR_BUG_EYE_GHOST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_BUG_EYE_GHOST_UFOPEDIA
+    requires:
+      - STR_BUG_EYE_GHOST
+    listOrder: 56600	
+  - id: STR_MEGAZOMBIE_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_MEGAZOMBIE_TERRORIST_UFOPEDIA
+    requires:
+      - STR_MEGAZOMBIE_TERRORIST
+    listOrder: 56600
+  - id: STR_ECTOPLASM
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ECTOPLASM
+    text: STR_ECTOPLASM_UFOPEDIA
+    text_width: 153	
+  - id: STR_MEGAZOMBIE_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_MEGAZOMBIE_CORPSE
+    text: STR_MEGAZOMBIE_CORPSE_UFOPEDIA
+    text_width: 153	
+  - id: STR_ZOMBIE_TROOPER_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_ZOMBIE_TROOPER_CORPSE
+    text: STR_ZOMBIE_TROOPER_CORPSE_UFOPEDIA
+    text_width: 153	
+research:	
+  - name: STR_ANCIENT_MUMMY_MATRIARCH
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ANCIENT_GHOUL_WARRIOR
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_MUMMY_MATRIARCH
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_MUMMY_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_MUMMY_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_VAMPIRE_KNIGHT_LEADER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_STRIX_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_VAMPIRE_QUEEN_COMMANDER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_VAMPIRE_QUEEN_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_VAMPIRE_QUEEN_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_STRIX_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_STRIX_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_VAMPIRE_KNIGHT_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_VAMPIRE_KNIGHT_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_DR_HADRIEX
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 50
+    points: 150
+    needItem: true
+    destroyItem: true
+  - name: STR_DR_HADRIEX_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SKELETON_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SKELETON
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_SKELETON_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SKELETON_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_LICH
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_LICH_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_LICH_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_GHOUL_SOLDIER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GHOUL_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GHOUL_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_GHOUL_WARRIOR
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_GHOUL_WARRIOR_CORPSE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_GHOUL_WARRIOR_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_ZOMBIE_BOOMER_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ZOMBIE_BOOMER_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ZOMBIE_BOOMER_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_ZOMBIE_STERILE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ZOMBIE_STERILE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ZOMBIE_STERILE_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_ZOMBIE_GRUBAS_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ZOMBIE_GRUBAS_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ZOMBIE_GRUBAS_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_ZOMBIE_INFECTOR_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ZOMBIE_INFECTOR_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ZOMBIE_INFECTOR_CORPSE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_TOMB_GUARD_FEMALE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_TOMB_GUARD_FEMALE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_TOMB_GUARD_FEMALE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_TOMB_GUARD_MALE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_TOMB_GUARD_MALE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_TOMB_GUARD_MALE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_ZOMBIE_TROOPER_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ZOMBIE_TROOPER_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350		
+  - name: STR_ECTOPLASM
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_ECTOPLASM
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_MEGAZOMBIE_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_MEGAZOMBIE_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_ZOMBIE_TROOPER_1_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ZOMBIE_TROOPER_2_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_MEGAZOMBIE_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_BUG_EYE_GHOST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ANCIENT_SEA_GHOST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_BUG_EYE_GHOST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_ANCIENT_SEA_GHOST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 40
+    points: 40
+    needItem: true
+    destroyItem: true
+    listOrder: 118120	
+items:	
+  - type: STR_MUMMY_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 60000
+    weight: 34
+    bigSprite: 815
+    floorSprite: 741
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 40
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 70
+    listOrder: 62410
+  - type: STR_MUMMY_MATRIARCH
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 400000
+    listOrder: 115520	
+  - type: STR_ANCIENT_GHOUL_WARRIOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 400000
+    listOrder: 115520
+  - type: STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 400000
+    listOrder: 115520
+  - type: STR_ANCIENT_MUMMY_MATRIARCH	
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 400000
+    listOrder: 115520	
+  - type: STR_VAMPIRE_KNIGHT_LEADER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 90000
+    listOrder: 115500
+  - type: STR_STRIX_TERRORIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 70000
+    listOrder: 115430
+  - type: STR_VAMPIRE_QUEEN_COMMANDER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 3
+    recover: true
+    costSell: 200000
+    listOrder: 115510
+  - type: STR_VAMPIRE_KNIGHT_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 40000
+    weight: 65
+    bigSprite: 685
+    floorSprite: 637
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 80
+    listOrder: 62380
+  - type: STR_STRIX_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 35000
+    weight: 35
+    bigSprite: 729
+    floorSprite: 673
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 55
+    listOrder: 62370
+  - type: STR_VAMPIRE_QUEEN_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 40000
+    weight: 65
+    bigSprite: 726
+    floorSprite: 672
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 70
+    listOrder: 62390
+  - type: STR_SKELETON
+    categories: [STR_GHOSTS]
+    size: 0.0
+    recover: false
+   #liveAlien: true
+    prisonType: 3
+    costSell: 5000
+    listOrder: 119000
+  - type: STR_SKELETON_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    weight: 12
+    bigSprite: 1084
+    floorSprite: 929
+    invWidth: 2
+    invHeight: 1
+    costThrow:
+      energy: 6
+    battleType: 11
+    armor: 5
+    recover: true
+    recoverCorpse: false
+  - type: STR_LICH_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    weight: 14
+    bigSprite: 1088
+    floorSprite: 931
+    invWidth: 2
+    invHeight: 1
+    costThrow:
+      energy: 7
+    battleType: 11
+    armor: 5
+    recover: true
+    recoverCorpse: false
+  - type: STR_LICH
+    categories: [STR_GHOSTS]
+    size: 0.0
+    recover: false
+   #liveAlien: true
+    prisonType: 3
+    costSell: 15000
+    listOrder: 119010	
+  - type: STR_DR_HADRIEX_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 1046
+    floorSprite: 908
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 20
+  - type: STR_DR_HADRIEX
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 1
+    costSell: 20000
+    listOrder: 152140
+  - type: STR_GHOUL_SOLDIER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 30000
+    listOrder: 115480	
+  - type: STR_GHOUL_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 12000
+    weight: 18
+    bigSprite: 738
+    floorSprite: 679
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62330	
+  - type: STR_GHOUL_WARRIOR
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 30000
+    listOrder: 115490	
+  - type: STR_GHOUL_WARRIOR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 12000
+    weight: 22
+    bigSprite: 738
+    floorSprite: 680
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 30	
+  - type: STR_ZOMBIE_BOOMER_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 50000
+    listOrder: 115415
+  - type: STR_ZOMBIE_BOOMER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 6000
+    weight: 30
+    bigSprite: 867
+    floorSprite: 770
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    power: 80
+    blastRadius: 10
+    armor: 20
+    listOrder: 62315	
+  - type: STR_ZOMBIE_STERILE_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 20000
+    listOrder: 115400
+  - type: STR_ZOMBIE_STERILE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 6000
+    weight: 30
+    bigSprite: 301
+    floorSprite: 252
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 20
+    listOrder: 62300	
+  - type: STR_ZOMBIE_GRUBAS_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 30000
+    listOrder: 115410
+  - type: STR_ZOMBIE_GRUBAS_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 10000
+    weight: 45
+    bigSprite: 367
+    floorSprite: 325
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 20
+    listOrder: 62310	
+  - type: STR_ZOMBIE_INFECTOR_TERRORIST
+    categories: [STR_BEASTS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 40000
+    listOrder: 115420
+  - type: STR_ZOMBIE_INFECTOR_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 20000
+    weight: 32
+    bigSprite: 369
+    floorSprite: 327
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 15
+    battleType: 11
+    armor: 30
+    listOrder: 62320
+  - type: STR_TOMB_GUARD_FEMALE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    weight: 60
+    bigSprite: 478
+    floorSprite: 400
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 70
+  - type: STR_TOMB_GUARD_MALE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    weight: 60
+    bigSprite: 886
+    floorSprite: 400
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 70
+  - type: STR_TOMB_GUARD_FEMALE_TERRORIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 50000
+    listOrder: 115440
+  - type: STR_TOMB_GUARD_MALE_TERRORIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+   #liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 50000
+    listOrder: 115441	
+  - type: STR_ZOMBIE_TROOPER_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 20000
+    weight: 40
+    bigSprite: 485
+    floorSprite: 405
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 40
+    listOrder: 62350
+  - type: STR_ECTOPLASM
+    costSell: 1500
+    size: 0.1
+    weight: 2
+    specialType: 30
+    bigSprite: 818
+    floorSprite: 744
+    costThrow:
+      energy: 4
+    battleType: 11
+    armor: 6
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    listOrder: 56600	
+  - type: STR_MEGAZOMBIE_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 15000
+    battleType: 11
+    listOrder: 62360
+  - type: MEGAZOMBIE_CORPSE_1
+    name: STR_MEGAZOMBIE_CORPSE
+    floorSprite: 417
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 25
+  - type: MEGAZOMBIE_CORPSE_2
+    floorSprite: 418
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: MEGAZOMBIE_CORPSE_3
+    floorSprite: 419
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: MEGAZOMBIE_CORPSE_4
+    floorSprite: 420
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_ZOMBIE_TROOPER_1_TERRORIST
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 25000
+    listOrder: 115450
+  - type: STR_ZOMBIE_TROOPER_2_TERRORIST
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 25000
+    listOrder: 115460
+  - type: STR_MEGAZOMBIE_TERRORIST
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 3
+    costSell: 60000
+    listOrder: 115470	
+  - type: STR_ANCIENT_SEA_GHOST
+    size: 0.0
+    recover: true	
+    liveAlien: true
+    costSell: 75000		
+  - type: STR_BUG_EYE_GHOST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 75000			
+armors:	
+  - type: STR_SKELETON_ARMOR
+    spriteSheet: SKELETON.PCK
+    spriteInv: inventory_SKELETON
+    corpseBattle:
+      - STR_SKELETON_CORPSE
+    visibilityAtDark: 20
+    heatVision: 100
+    psiVision: 10
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: true
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &GenericDreamArmor
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_LICH_ARMOR
+    spriteInv: inventory_LICH
+    spriteSheet: LICH.PCK
+    corpseBattle:
+      - STR_LICH_CORPSE
+    visibilityAtDark: 20
+    heatVision: 100
+    psiVision: 20
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    meleeDodge:
+      reactions: 0.35
+    meleeDodgeBackPenalty: 0.5
+    drawingRoutine: 1
+    overKill: 1.5
+    damageModifier: &GenericDreamArmor
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_DR_HADRIEX_ARMOR
+    spriteSheet: HADRIEX.PCK
+    spriteInv: inventory_HADRIEX
+    corpseBattle:
+      - STR_DR_HADRIEX_CORPSE
+    visibilityAtDark: 9
+    psiVision: 2
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.25
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_GHOUL_ARMOR
+    spriteSheet: GHOUL.PCK
+    spriteInv: inventory_GHOUL
+    corpseBattle:
+      - STR_GHOUL_CORPSE
+    visibilityAtDark: 13
+    heatVision: 40
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: false
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_GHOUL_WARRIOR_ARMOR
+    spriteSheet: GHOUL_WARRIOR.PCK
+    spriteInv: inventory_GHOUL_WARRIOR
+    corpseBattle:
+      - STR_GHOUL_WARRIOR_CORPSE
+    corpseGeo: STR_GHOUL_CORPSE
+    visibilityAtDark: 13
+    heatVision: 40
+    frontArmor: 20
+    sideArmor: 8
+    rearArmor: 12
+    underArmor: 8
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: false
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ] 
+  - type: STR_ZOMBIE_BOOMER_ARMOR
+    spriteSheet: ZOMBIE_BOOMER.PCK
+    spriteInv: inventory_ZOMBIE_BOOMER
+    allowInv: false
+    corpseBattle:
+      - STR_ZOMBIE_BOOMER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    drawingRoutine: 4
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZOMBIE_STERILE_ARMOR
+    spriteSheet: ZOMBIE_STERILE.PCK
+    spriteInv: inventory_ZOMBIE
+    allowInv: false
+    corpseBattle:
+      - STR_ZOMBIE_STERILE_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    drawingRoutine: 4
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+  - type: STR_ZOMBIE_GRUBAS_ARMOR
+    spriteSheet: ZOMBIE_GRUBAS.PCK
+    spriteInv: inventory_ZOMBIE_GRUBAS
+    allowInv: false
+    corpseBattle:
+      - STR_ZOMBIE_GRUBAS_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 4 ]
+  - type: STR_ZOMBIE_INFECTOR_ARMOR
+    spriteSheet: ZOMBIE_INFECTOR.PCK
+    spriteInv: inventory_ZOMBIE_INFECTOR
+    allowInv: false
+    corpseBattle:
+      - STR_ZOMBIE_INFECTOR_CORPSE
+    visibilityAtDark: 14
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 4
+    bleedImmune: true
+    zombiImmune: true
+    createsMeleeThreat: false
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_TOMB_GUARD_FEMALE_ARMOR
+    spriteSheet: TOMB_GUARD.PCK
+    spriteInv: inventory_TOMB_GUARD_FEMALE
+    forcedTorso: 2
+    corpseBattle:
+      - STR_TOMB_GUARD_FEMALE_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 40
+    underArmor: 25
+    bleedImmune: true
+    zombiImmune: true
+    meleeDodge:
+      reactions: 0.35
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.9
+      - 0.7
+      - 0.7
+      - 0.3
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_TOMB_GUARD_MALE_ARMOR
+    spriteSheet: TOMB_GUARD.PCK
+    spriteInv: inventory_TOMB_GUARD_MALE
+    forcedTorso: 1
+    corpseBattle:
+      - STR_TOMB_GUARD_MALE_CORPSE
+    visibilityAtDark: 16
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 40
+    underArmor: 25
+    bleedImmune: true
+    zombiImmune: true
+    meleeDodge:
+      reactions: 0.35
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.9
+      - 0.7
+      - 0.7
+      - 0.3
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_STRIX_ARMOR
+    spriteSheet: STRIX.PCK
+    spriteInv: inventory_STRIX
+    allowInv: false
+    forcedTorso: 2
+    corpseBattle:
+      - STR_STRIX_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [83, 83, 83, 83, 83, 83, 83, 83]
+    spriteHairGroup: 9
+    spriteHairColor: [246, 246, 246, 246, 246, 246, 246, 246]
+    visibilityAtDark: 16
+    heatVision: 50
+    camouflageAtDark: -3
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    bleedImmune: true
+    zombiImmune: true
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 0.5
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_VAMPIRE_KNIGHT_ARMOR
+    spriteSheet: VAMPIRE_KNIGHT.PCK
+    spriteInv: inventory_VAMPIRE_KNIGHT
+    corpseBattle:
+      - STR_VAMPIRE_KNIGHT_CORPSE
+    visibilityAtDark: 25
+    heatVision: 66
+    psiVision: 8
+    camouflageAtDark: -4
+    frontArmor: 55
+    sideArmor: 45
+    rearArmor: 45
+    underArmor: 45
+    bleedImmune: true
+    zombiImmune: true
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.7
+      - 0.7
+      - 0.3
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_VAMPIRE_QUEEN_ARMOR
+    spriteSheet: VAMPIRE_QUEEN.PCK
+    spriteInv: inventory_VAMPIRE_QUEEN
+    corpseBattle:
+      - STR_VAMPIRE_QUEEN_CORPSE
+    visibilityAtDark: 20
+    heatVision: 100
+    psiVision: 14
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    bleedImmune: true
+    zombiImmune: true
+    movementType: 1
+    meleeDodge:
+      reactions: 0.65
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.7
+      - 0.7
+      - 0.3
+      - 0.65
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MUMMY_ARMOR
+    spriteSheet: MUMMY.PCK
+    spriteInv: inventory_MUMMY
+    forcedTorso: 2
+    corpseBattle:
+      - STR_MUMMY_CORPSE
+    spriteFaceGroup: 6
+    spriteFaceColor: [176, 176, 176, 176, 176, 176, 176, 176]
+    spriteHairGroup: 9
+    spriteHairColor: [246, 246, 246, 246, 246, 246, 246, 246]
+    visibilityAtDark: 25
+    heatVision: 80
+    psiVision: 12
+    camouflageAtDark: -4
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    bleedImmune: true
+    zombiImmune: true
+    movementType: 1
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        #flatHundred: 0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 0.5
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_BUG_EYE_GHOST_ARMOR
+    spriteSheet: BUG_EYE_GHOST.PCK
+    spriteInv: inventory_BUG_EYE_GHOST
+    allowInv: false
+    bleedImmune: true
+    zombiImmune: true
+    corpseBattle:
+      - STR_ECTOPLASM
+    visibilityAtDark: 20
+    psiVision: 10
+    personalLight: 13
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    painImmune: false
+    drawingRoutine: 4
+    recovery:
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.9
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.0
+    damageModifier:
+      - 1.0
+      - 0.05
+      - 0.2
+      - 0.2
+      - 0.4
+      - 0.2
+      - 0.0
+      - 0.1
+      - 0.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ANCIENT_SEA_GHOST_ARMOR
+    spriteSheet: ANCIENT_SEA_GHOST.PCK
+    spriteInv: inventory_ANCIENT_SEA_GHOST
+    allowInv: false
+    bleedImmune: true
+    zombiImmune: true
+    painImmune: false
+    corpseBattle:
+      - STR_ECTOPLASM
+    visibilityAtDark: 20
+    psiVision: 10
+    personalLight: 14
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.9
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.0
+    damageModifier:
+      - 1.0
+      - 0.05
+      - 0.2
+      - 0.2
+      - 0.4
+      - 0.2
+      - 0.0
+      - 0.1
+      - 0.0
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    #tags:
+      #HANDCUFF_PROTECTION: 100
+  - type: STR_ZOMBIE_TROOPER_1_ARMOR
+    spriteSheet: ZOMBIE_TROOPER_1.PCK
+    spriteInv: inventory_ZOMBIE_TROOPER
+    corpseBattle:
+      - STR_ZOMBIE_TROOPER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 10
+    underArmor: 6
+    bleedImmune: true
+    zombiImmune: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_ZOMBIE_TROOPER_2_ARMOR
+    spriteSheet: ZOMBIE_TROOPER_2.PCK
+    spriteInv: inventory_ZOMBIE
+    allowInv: false
+    corpseBattle:
+      - STR_ZOMBIE_TROOPER_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 6
+    bleedImmune: true
+    zombiImmune: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+  - type: STR_MEGAZOMBIE_ARMOR
+    spriteSheet: MEGAZOMBIE.PCK
+    spriteInv: inventory_MEGAZOMBIE
+    corpseBattle:
+      - MEGAZOMBIE_CORPSE_1
+      - MEGAZOMBIE_CORPSE_2
+      - MEGAZOMBIE_CORPSE_3
+      - MEGAZOMBIE_CORPSE_4
+    corpseGeo: STR_MEGAZOMBIE_CORPSE
+    visibilityAtDark: 12
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    drawingRoutine: 5
+    size: 2
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.75
+      - 0.75
+      - 1.0
+      - 0.7
+      - 0.7
+      - 0.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]	  	
+units:
+  - type: STR_SKELETON
+    race: STR_NIGHTMARE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 200
+      health: 20
+      bravery: 110
+      reactions: 35
+      firing: 35
+      throwing: 35
+      strength: 26
+      psiStrength: 20
+      psiSkill: 0
+      melee: 40
+      #mana: 100
+    armor: STR_SKELETON_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 2
+    aggression: 6
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_LICH
+    race: STR_NIGHTMARE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 200
+      health: 70
+      bravery: 90
+      reactions: 45
+      firing: 55
+      throwing: 55
+      strength: 32
+      psiStrength: 60
+      psiSkill: 0
+      melee: 70
+      #mana: 200
+    armor: STR_LICH_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 5
+    aggression: 1
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_DR_HADRIEX
+    race: STR_CULT_OF_SPIRITS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 55
+      stamina: 62
+      health: 44
+      bravery: 90
+      reactions: 42
+      firing: 44
+      throwing: 55
+      strength: 38
+      psiStrength: 75
+      psiSkill: 0
+      melee: 45
+      #mana: 60
+    armor: STR_DR_HADRIEX_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 4
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_GHOUL_SOLDIER
+    race: STR_ZOMBIE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 220
+      health: 84
+      bravery: 100
+      reactions: 54
+      firing: 40
+      throwing: 50
+      strength: 64
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+      #mana: 70
+    armor: STR_GHOUL_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 7
+    intelligence: 3
+    aggression: 4
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_GHOUL_WARRIOR
+    race: STR_ZOMBIE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 200
+      health: 89
+      bravery: 100
+      reactions: 59
+      firing: 53
+      throwing: 50
+      strength: 70
+      psiStrength: 65
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_GHOUL_WARRIOR_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 9
+    intelligence: 3
+    aggression: 4
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_ZOMBIE_BOOMER_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 160
+      health: 124
+      bravery: 110
+      reactions: 40
+      firing: 0
+      throwing: 0
+      strength: 94
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 70
+    armor: STR_ZOMBIE_BOOMER_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 3
+    aggression: 9
+    isLeeroyJenkins: true
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    specab: 1
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_ZOMBIE_STERILE_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 40
+      stamina: 110
+      health: 124
+      bravery: 110
+      reactions: 40
+      firing: 0
+      throwing: 0
+      strength: 84
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 70
+    armor: STR_ZOMBIE_STERILE_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 4
+    intelligence: 3
+    aggression: 6
+    isLeeroyJenkins: true
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_ZOMBIE_GRUBAS_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 44
+      stamina: 150
+      health: 184
+      bravery: 110
+      reactions: 44
+      firing: 0
+      throwing: 0
+      strength: 104
+      psiStrength: 80
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_ZOMBIE_GRUBAS_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 7
+    intelligence: 4
+    aggression: 5
+    isLeeroyJenkins: true
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_ZOMBIE_INFECTOR_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 140
+      health: 140
+      bravery: 110
+      reactions: 50
+      firing: 0
+      throwing: 0
+      strength: 84
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 70
+    armor: STR_ZOMBIE_INFECTOR_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 3
+    aggression: 5
+    isLeeroyJenkins: true
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_TOMB_GUARD_FEMALE_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 180
+      health: 180
+      bravery: 90
+      reactions: 55
+      firing: 40
+      throwing: 50
+      strength: 104
+      psiStrength: 80
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_TOMB_GUARD_FEMALE_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 16
+    intelligence: 4
+    aggression: 5
+    spotter: 1
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_TOMB_GUARD_MALE_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 180
+      health: 180
+      bravery: 90
+      reactions: 55
+      firing: 40
+      throwing: 50
+      strength: 104
+      psiStrength: 80
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_TOMB_GUARD_MALE_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 16
+    intelligence: 4
+    aggression: 5
+    spotter: 1
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_STRIX_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 55
+      stamina: 220
+      health: 200
+      bravery: 100
+      reactions: 55
+      firing: 50
+      throwing: 60
+      strength: 76
+      psiStrength: 70
+      psiSkill: 0
+      melee: 70
+      #mana: 70
+    armor: STR_STRIX_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 16
+    intelligence: 2
+    aggression: 4
+    spotter: 1
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+        - STR_WERECAT_WEAPON
+  - type: STR_VAMPIRE_KNIGHT_LEADER
+    race: STR_ZOMBIE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 200
+      health: 240
+      bravery: 90
+      reactions: 65
+      firing: 40
+      throwing: 50
+      strength: 120
+      psiStrength: 90
+      psiSkill: 0
+      melee: 110
+      #mana: 100
+    armor: STR_VAMPIRE_KNIGHT_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 22
+    intelligence: 5
+    aggression: 5
+    spotter: 2
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_VAMPIRE_QUEEN_COMMANDER
+    race: STR_ZOMBIE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 90
+      stamina: 250
+      health: 300
+      bravery: 100
+      reactions: 75
+      firing: 55
+      throwing: 55
+      strength: 100
+      psiStrength: 90
+      psiSkill: 40
+      melee: 100
+      #mana: 140
+    armor: STR_VAMPIRE_QUEEN_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 40
+    intelligence: 5
+    aggression: 4
+    spotter: 3
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_MUMMY_MATRIARCH
+    race: STR_ZOMBIE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 120
+      stamina: 290
+      health: 450
+      bravery: 100
+      reactions: 85
+      firing: 60
+      throwing: 65
+      strength: 110
+      psiStrength: 90
+      psiSkill: 50
+      melee: 100
+      #mana: 175
+    armor: STR_MUMMY_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 60
+    intelligence: 5
+    aggression: 3
+    spotter: 4
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_ANCIENT_GHOUL_WARRIOR
+    race: STR_ZOMBIE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 200
+      health: 89
+      bravery: 100
+      reactions: 59
+      firing: 53
+      throwing: 50
+      strength: 70
+      psiStrength: 65
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_GHOUL_WARRIOR_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 9
+    intelligence: 3
+    aggression: 4
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_ANCIENT_TOMB_GUARD_FEMALE_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 180
+      health: 180
+      bravery: 90
+      reactions: 55
+      firing: 40
+      throwing: 50
+      strength: 104
+      psiStrength: 80
+      psiSkill: 0
+      melee: 90
+      #mana: 70
+    armor: STR_TOMB_GUARD_FEMALE_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 16
+    intelligence: 4
+    aggression: 5
+    spotter: 1
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+  - type: STR_ANCIENT_MUMMY_MATRIARCH
+    race: STR_ZOMBIE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 120
+      stamina: 290
+      health: 500
+      bravery: 100
+      reactions: 75
+      firing: 60
+      throwing: 65
+      strength: 110
+      psiStrength: 90
+      psiSkill: 60
+      melee: 110
+      #mana: 175
+    armor: STR_MUMMY_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 60
+    intelligence: 5
+    aggression: 3
+    spotter: 4
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_ZOMBIE_TROOPER_1_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 150
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 40
+      throwing: 20
+      strength: 90
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 40
+    armor: STR_ZOMBIE_TROOPER_1_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 3
+    aggression: 5
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+  - type: STR_ZOMBIE_TROOPER_2_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 130
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 40
+      throwing: 20
+      strength: 90
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 40
+    armor: STR_ZOMBIE_TROOPER_2_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 10
+    intelligence: 3
+    aggression: 5
+    isLeeroyJenkins: true
+    livingWeapon: true
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_ROCKET_LAUNCHER
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+        - STR_INCENDIARY_ROCKET
+  - type: STR_MEGAZOMBIE_TERRORIST
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 180
+      health: 450
+      bravery: 110
+      reactions: 40
+      firing: 0
+      throwing: 0
+      strength: 180
+      psiStrength: 80
+      psiSkill: 0
+      melee: 75
+      #mana: 70
+    armor: STR_MEGAZOMBIE_ARMOR
+    standHeight: 24
+    kneelHeight: 22
+    value: 35
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 5
+    isLeeroyJenkins: true
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON	
+  - type: STR_BUG_EYE_GHOST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 180
+      health: 20
+      bravery: 110
+      reactions: 30
+      firing: 20
+      throwing: 30
+      strength: 3
+      psiStrength: 50
+      psiSkill: 0
+      melee: 75
+      #mana: 100
+    armor: STR_BUG_EYE_GHOST_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 8
+    value: 5
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 4
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE	
+  - type: STR_ANCIENT_SEA_GHOST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 60
+      stamina: 140
+      health: 20
+      bravery: 110
+      reactions: 33
+      firing: 20
+      throwing: 30
+      strength: 3
+      psiStrength: 60
+      psiSkill: 0
+      melee: 75
+      #mana: 100
+    armor: STR_ANCIENT_SEA_GHOST_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    intelligence: 2
+    aggression: 5
+    energyRecovery: 40
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE

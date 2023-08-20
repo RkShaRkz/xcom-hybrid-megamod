@@ -1,0 +1,112 @@
+alienMissions:
+  - type: STR_GANGSTERPATROL
+    points: 0
+    retaliationOdds: 5 
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+          STR_SMUGGLER: 20	  
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_RAIDER_FIGHTER
+        count: 1
+        trajectory: P21
+        timer: 10000
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 10000	
+  - type: STR_FACTION_RETALIATIONGANGSTERPRIRATZ
+    points: 0
+    objective: 4
+    spawnZone: 0	
+    spawnUfo: STR_VESSEL_LIGHT_GUNBOAT
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+          STR_SMUGGLER: 20
+    waves:
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 3500
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P27
+        timer: 3000	
+        interruptPercentage: 5
+  - type: STR_GANGSTERESOURCERAIDPRIATEZ
+    points: 30
+    retaliationOdds: 20
+    raceWeights:
+      0:
+          STR_ZSRR: 20
+          STR_EXALT: 20
+          STR_OSIRON: 20
+          STR_BLACK_LOTUS: 20
+          STR_SMUGGLER: 20	
+    waves:
+      - ufo: STR_VESSEL_LIGHT_GUNBOAT
+        count: 1
+        trajectory: P21
+        timer: 3500	
+        escort: true		
+        interruptPercentage: 5	
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: P21
+        timer: 4600
+        escort: true		
+        interruptPercentage: 5
+      - ufo: STR_VESSEL_BANDIT_COBRA
+        count: 1
+        trajectory: P21
+        timer: 4600
+        hunterKillerPercentage: 20
+        huntMode: 2
+        huntBehavior: 2
+        escort: true		
+        interruptPercentage: 5		
+      - ufo: STR_VESSEL_RAIDER_GUNSHIP
+        count: 1
+        trajectory: P20
+        timer: 5000
+        objective: true
+        interruptPercentage: 5	
+missionScripts:		
+  - type: gangsSpawnPatrol
+    missionWeights:
+      0:
+        STR_GANGSTERPATROL: 100			
+    firstMonth: 0
+    varName: gangsspawnpatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100	
+  - type: gangsresourceraidSpawnPatrol
+    missionWeights:
+      0:
+        STR_GANGSTERESOURCERAIDPRIATEZ: 100			
+    firstMonth: 0
+    varName: gangsresourcepatrol
+    maxRuns: -1
+    executionOdds: 5
+    regionWeights:
+      0:
+        LANDSPAWNS: 100			

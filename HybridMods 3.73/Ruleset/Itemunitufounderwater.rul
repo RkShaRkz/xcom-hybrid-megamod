@@ -1,0 +1,121 @@
+items: 
+  - type: STR_SECTOID_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_SNAKEMAN_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ETHEREAL_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 80000
+  - type: STR_ETHEREAL_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ETHEREAL_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_FLOATER_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_MEDIC_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_CHRYSSALID_TERRORIST_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000

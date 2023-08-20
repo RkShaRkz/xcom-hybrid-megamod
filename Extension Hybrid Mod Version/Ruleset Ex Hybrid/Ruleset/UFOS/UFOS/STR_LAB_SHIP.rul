@@ -1,0 +1,585 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_LAB_SHIP_SECTOID: "Lab Ship (Sectoid)"
+      STR_LAB_SHIP_FLOATER: "Lab Ship (Floater)"
+      STR_LAB_SHIP_MUTON: "Lab Ship (Muton)"
+      STR_LAB_SHIP: "Lab ship"
+      STR_LAB_SHIP_UFOPEDIA: "Lab Ships are large vessels, tasked with major research and harvest operations. Much bigger than Harvesters, they are equipped for conducting complex experiments on board. Their crew is numerous and rather well equipped." 
+ufopaedia:
+  - id: STR_LAB_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_LAB_SHIP
+    text: STR_LAB_SHIP_UFOPEDIA
+    listOrder: 160500
+research:	
+  - name: STR_LAB_SHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_LAB_SHIP	
+ufos:
+  - type: STR_LAB_SHIP
+    modSprite: InterceptionLabShip
+    size: STR_LARGE
+    damageMax: 2200
+    speedMax: 4400
+    accel: 5
+    power: 80
+    range: 45
+    score: 500
+    reload: 20
+    breakOffTime: 190
+    hitBonus: 10
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_LAB_SHIP_SECTOID
+        missionCustomDeploy: STR_LAB_SHIP_SECTOID
+        hitBonus: 10
+      STR_FLOATER:
+        craftCustomDeploy: STR_LAB_SHIP_FLOATER
+        missionCustomDeploy: STR_LAB_SHIP_FLOATER
+        hitBonus: 15
+      STR_MUTON:
+        craftCustomDeploy: STR_LAB_SHIP_MUTON
+        missionCustomDeploy: STR_LAB_SHIP_MUTON
+    battlescapeTerrainData:
+      name: LABSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC2
+        - U_OPER2
+        - UFOL83
+      mapBlocks:
+        - name: LABSHIP1
+          width: 30
+          length: 30
+  - type: STR_LAB_SHIP_UNDERWATER	
+    battlescapeTerrainData:
+      name: LABSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC2
+        - U_OPER2
+        - UFOL83
+      mapBlocks:
+        - name: LABSHIP1
+          width: 30
+          length: 30			
+alienDeployments:
+  - type: STR_LAB_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_LAB_SHIP	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_LAB_SHIP_SECTOID
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_LAB_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_LAB_SHIP_FLOATER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_LAB_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_LAB_SHIP_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_LAB_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_LAB_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_LAB_SHIP	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: LABSHIPAX	
+  - type: STR_LAB_SHIP_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_LAB_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: LABSHIPAX	
+  - type: STR_LAB_SHIP_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_LAB_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: LABSHIPAX	
+  - type: STR_LAB_SHIP_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_LAB_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 3
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16	
+    script: LABSHIPAX	
+mapScripts:   	  
+  - type: LABSHIPAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_LAB_SHIP_UNDERWATER	
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain			

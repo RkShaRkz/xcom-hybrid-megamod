@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - MGS An
+  - MGS Ang
+  - MGS Ao
+  - MGS Au
+  - MGS Au Yeung
+  - MGS Bai
+  - MGS Ban
+  - MGS Bao
+  - MGS Bau
+  - MGS Bi
+  - MGS Bo
+  - MGS Bu
+  - MGS Cai
+  - MGS Cao
+  - MGS Cha
+  - MGS Chai
+  - MGS Cham
+  - MGS Chan
+  - MGS Chang
+  - MGS Chao
+  - MGS Chau
+  - MGS Che
+  - MGS Cheah
+  - MGS Chee
+  - MGS Chen
+  - MGS Cheng
+  - MGS Cheong
+  - MGS Chern
+  - MGS Cheung
+  - MGS Chew
+  - MGS Chi
+  - MGS Chia
+  - MGS Chiang
+  - MGS Chiao
+  - MGS Chien
+  - MGS Chim
+  - MGS Chin
+  - MGS Ching
+  - MGS Chiong
+  - MGS Chiou
+  - MGS Chiu
+  - MGS Cho
+  - MGS Choi
+  - MGS Chong
+  - MGS Choo
+  - MGS Chou
+  - MGS Chow
+  - MGS Choy
+  - MGS Chu
+  - MGS Chua
+  - MGS Cheang
+  - MGS Chui
+  - MGS Chun
+  - MGS Chung
+  - MGS Cong
+  - MGS Cui
+  - MGS Dai
+  - MGS Dang
+  - MGS Dea
+  - MGS Deng
+  - MGS Ding
+  - MGS Do
+  - MGS Dong
+  - MGS Doo
+  - MGS Du
+  - MGS Duan
+  - MGS Dung
+  - MGS Eng
+  - MGS Fan
+  - MGS Fang
+  - MGS Fei
+  - MGS Feng
+  - MGS Fok
+  - MGS Fong
+  - MGS Foo
+  - MGS Fu
+  - MGS Fung
+  - MGS Gan
+  - MGS Gang
+  - MGS Gao
+  - MGS Gau
+  - MGS Ge
+  - MGS Geng
+  - MGS Go
+  - MGS Goh
+  - MGS Gong
+  - MGS Gu
+  - MGS Guan
+  - MGS Guo
+  - MGS Ha
+  - MGS Hai
+  - MGS Han
+  - MGS Hang
+  - MGS Hao
+  - MGS Hau
+  - MGS He
+  - MGS Ho
+  - MGS Hoh
+  - MGS Hom
+  - MGS Hon
+  - MGS Hong
+  - MGS Hoo
+  - MGS Hou
+  - MGS Hsi
+  - MGS Hsia
+  - MGS Hsiao
+  - MGS Hsieh
+  - MGS Hsiung
+  - MGS Hsu
+  - MGS Hsueh
+  - MGS Hu
+  - MGS Hua
+  - MGS Huang
+  - MGS Hui
+  - MGS Huie
+  - MGS Hum
+  - MGS Hung
+  - MGS Huo
+  - MGS Hwang
+  - MGS Hy
+  - MGS Ing
+  - MGS Ip
+  - MGS Jan
+  - MGS Jang
+  - MGS Jen
+  - MGS Jeng
+  - MGS Jeung
+  - MGS Jew
+  - MGS Ji
+  - MGS Jia
+  - MGS Jian
+  - MGS Jiang
+  - MGS Jiao
+  - MGS Jim
+  - MGS Jin
+  - MGS Jing
+  - MGS Jo
+  - MGS Joe
+  - MGS Jong
+  - MGS Joo
+  - MGS Jou
+  - MGS Jow
+  - MGS Ju
+  - MGS Jue
+  - MGS Jung
+  - MGS Kam
+  - MGS Kan
+  - MGS Kang
+  - MGS Kao
+  - MGS Kau
+  - MGS Ke
+  - MGS Keng
+  - MGS Kho
+  - MGS Khoo
+  - MGS Kiang
+  - MGS King
+  - MGS Ko
+  - MGS Koh
+  - MGS Kong
+  - MGS Koo
+  - MGS Kook
+  - MGS Kou
+  - MGS Ku
+  - MGS Kuan
+  - MGS Kuang
+  - MGS Kuk
+  - MGS Kung
+  - MGS Kuang
+  - MGS Kuo
+  - MGS Kwan
+  - MGS Kwock
+  - MGS Kwok
+  - MGS Kwon
+  - MGS Kwong
+  - MGS Lai
+  - MGS Lam
+  - MGS Lan
+  - MGS Lang
+  - MGS Lao
+  - MGS Lau
+  - MGS Lee
+  - MGS Lei
+  - MGS Leng
+  - MGS Leong
+  - MGS Leung
+  - MGS Lew
+  - MGS Li
+  - MGS Lian
+  - MGS Liang
+  - MGS Liao
+  - MGS Liaw
+  - MGS Lien
+  - MGS Liew
+  - MGS Lim
+  - MGS Lin
+  - MGS Ling
+  - MGS Liou
+  - MGS Liu
+  - MGS Lo
+  - MGS Loh
+  - MGS Lok
+  - MGS Long
+  - MGS Loo
+  - MGS Lou
+  - MGS Louie
+  - MGS Lu
+  - MGS Lua
+  - MGS Lui
+  - MGS Luk
+  - MGS Lum
+  - MGS Lung
+  - MGS Luo
+  - MGS Ma
+  - MGS Mah
+  - MGS Mai
+  - MGS Mak
+  - MGS Man
+  - MGS Mao
+  - MGS Mar
+  - MGS Mau
+  - MGS May
+  - MGS Mei
+  - MGS Meng
+  - MGS Miao
+  - MGS Min
+  - MGS Ming
+  - MGS Miu
+  - MGS Mo
+  - MGS Mok
+  - MGS Mon
+  - MGS Mou
+  - MGS Moy
+  - MGS Mu
+  - MGS Mui
+  - MGS Na
+  - MGS Ng
+  - MGS Ngai
+  - MGS Ngan
+  - MGS Ngo
+  - MGS Ni
+  - MGS Nie
+  - MGS Ning
+  - MGS Niu
+  - MGS On
+  - MGS Ong
+  - MGS Ou
+  - MGS Ou Yang
+  - MGS Ow
+  - MGS Owyang
+  - MGS Pan
+  - MGS Pang
+  - MGS Pao
+  - MGS Pei
+  - MGS Peng
+  - MGS Pi
+  - MGS Ping
+  - MGS Po
+  - MGS Pon
+  - MGS Pong
+  - MGS Poon
+  - MGS Pu
+  - MGS Pun
+  - MGS Qi
+  - MGS Qian
+  - MGS Qiao
+  - MGS Qin
+  - MGS Qiu
+  - MGS Qu
+  - MGS Quan
+  - MGS Que
+  - MGS Rao
+  - MGS Ren
+  - MGS Rong
+  - MGS Ruan
+  - MGS Sam
+  - MGS San
+  - MGS Sang
+  - MGS Seto
+  - MGS Sha
+  - MGS Sham
+  - MGS Shan
+  - MGS Shang
+  - MGS Shao
+  - MGS Shaw
+  - MGS Shek
+  - MGS Shen
+  - MGS Sheng
+  - MGS Sheu
+  - MGS Shi
+  - MGS Shiau
+  - MGS Shieh
+  - MGS Shih
+  - MGS Shing
+  - MGS Shiu
+  - MGS Shu
+  - MGS Shum
+  - MGS Shy
+  - MGS Shyu
+  - MGS Si
+  - MGS Sieh
+  - MGS Sin
+  - MGS Sing
+  - MGS Sit
+  - MGS Situ
+  - MGS Siu
+  - MGS So
+  - MGS Soh
+  - MGS Song
+  - MGS Soo
+  - MGS Soo Hoo
+  - MGS Soon
+  - MGS Soong
+  - MGS Su
+  - MGS Suen
+  - MGS Sui
+  - MGS Sum
+  - MGS Sun
+  - MGS Sung
+  - MGS Sze
+  - MGS Szeto
+  - MGS Tai
+  - MGS Tam
+  - MGS Tan
+  - MGS Tang
+  - MGS Tao
+  - MGS Tay
+  - MGS Te
+  - MGS Teh
+  - MGS Teng
+  - MGS Teo
+  - MGS Tian
+  - MGS Tien
+  - MGS Tin
+  - MGS Ting
+  - MGS Tiu
+  - MGS To
+  - MGS Toh
+  - MGS Tom
+  - MGS Tong
+  - MGS Tsai
+  - MGS Tsang
+  - MGS Tsao
+  - MGS Tsay
+  - MGS Tse
+  - MGS Tseng
+  - MGS Tso
+  - MGS Tsoi
+  - MGS Tsou
+  - MGS Tsu
+  - MGS Tsui
+  - MGS Tu
+  - MGS Tuan
+  - MGS Tung
+  - MGS Tzeng
+  - MGS U
+  - MGS Un
+  - MGS Ung
+  - MGS Wah
+  - MGS Wai
+  - MGS Wan
+  - MGS Wang
+  - MGS Wee
+  - MGS Wei
+  - MGS Wen
+  - MGS Weng
+  - MGS Wing
+  - MGS Wong
+  - MGS Woo
+  - MGS Woon
+  - MGS Wu
+  - MGS Xi
+  - MGS Xia
+  - MGS Xiang
+  - MGS Xiao
+  - MGS Xie
+  - MGS Xin
+  - MGS Xing
+  - MGS Xiong
+  - MGS Xu
+  - MGS Xue
+  - MGS Yam
+  - MGS Yan
+  - MGS Yang
+  - MGS Yao
+  - MGS Yap
+  - MGS Yau
+  - MGS Yaw
+  - MGS Ye
+  - MGS Yee
+  - MGS Yeh
+  - MGS Yen
+  - MGS Yep
+  - MGS Yeung
+  - MGS Yi
+  - MGS Yim
+  - MGS Yin
+  - MGS Ying
+  - MGS Yip
+  - MGS Yiu
+  - MGS Yong
+  - MGS Yoo
+  - MGS Yoon
+  - MGS You
+  - MGS Young
+  - MGS Yu
+  - MGS Yuan
+  - MGS Yue
+  - MGS Yuen
+  - MGS Yun
+  - MGS Yung
+  - MGS Zang
+  - MGS Zeng
+  - MGS Zha
+  - MGS Zhan
+  - MGS Zhang
+  - MGS Zhao
+  - MGS Zhen
+  - MGS Zheng
+  - MGS Zhong
+  - MGS Zhou
+  - MGS Zhu
+  - MGS Zhuang
+  - MGS Zhuo
+  - MGS Zong
+  - MGS Zou
+femaleFirst:
+  - MGS An
+  - MGS Ang
+  - MGS Ao
+  - MGS Au
+  - MGS Au Yeung
+  - MGS Bai
+  - MGS Ban
+  - MGS Bao
+  - MGS Bau
+  - MGS Bi
+  - MGS Bo
+  - MGS Bu
+  - MGS Cai
+  - MGS Cao
+  - MGS Cha
+  - MGS Chai
+  - MGS Cham
+  - MGS Chan
+  - MGS Chang
+  - MGS Chao
+  - MGS Chau
+  - MGS Che
+  - MGS Cheah
+  - MGS Chee
+  - MGS Chen
+  - MGS Cheng
+  - MGS Cheong
+  - MGS Chern
+  - MGS Cheung
+  - MGS Chew
+  - MGS Chi
+  - MGS Chia
+  - MGS Chiang
+  - MGS Chiao
+  - MGS Chien
+  - MGS Chim
+  - MGS Chin
+  - MGS Ching
+  - MGS Chiong
+  - MGS Chiou
+  - MGS Chiu
+  - MGS Cho
+  - MGS Choi
+  - MGS Chong
+  - MGS Choo
+  - MGS Chou
+  - MGS Chow
+  - MGS Choy
+  - MGS Chu
+  - MGS Chua
+  - MGS Cheang
+  - MGS Chui
+  - MGS Chun
+  - MGS Chung
+  - MGS Cong
+  - MGS Cui
+  - MGS Dai
+  - MGS Dang
+  - MGS Dea
+  - MGS Deng
+  - MGS Ding
+  - MGS Do
+  - MGS Dong
+  - MGS Doo
+  - MGS Du
+  - MGS Duan
+  - MGS Dung
+  - MGS Eng
+  - MGS Fan
+  - MGS Fang
+  - MGS Fei
+  - MGS Feng
+  - MGS Fok
+  - MGS Fong
+  - MGS Foo
+  - MGS Fu
+  - MGS Fung
+  - MGS Gan
+  - MGS Gang
+  - MGS Gao
+  - MGS Gau
+  - MGS Ge
+  - MGS Geng
+  - MGS Go
+  - MGS Goh
+  - MGS Gong
+  - MGS Gu
+  - MGS Guan
+  - MGS Guo
+  - MGS Ha
+  - MGS Hai
+  - MGS Han
+  - MGS Hang
+  - MGS Hao
+  - MGS Hau
+  - MGS He
+  - MGS Ho
+  - MGS Hoh
+  - MGS Hom
+  - MGS Hon
+  - MGS Hong
+  - MGS Hoo
+  - MGS Hou
+  - MGS Hsi
+  - MGS Hsia
+  - MGS Hsiao
+  - MGS Hsieh
+  - MGS Hsiung
+  - MGS Hsu
+  - MGS Hsueh
+  - MGS Hu
+  - MGS Hua
+  - MGS Huang
+  - MGS Hui
+  - MGS Huie
+  - MGS Hum
+  - MGS Hung
+  - MGS Huo
+  - MGS Hwang
+  - MGS Hy
+  - MGS Ing
+  - MGS Ip
+  - MGS Jan
+  - MGS Jang
+  - MGS Jen
+  - MGS Jeng
+  - MGS Jeung
+  - MGS Jew
+  - MGS Ji
+  - MGS Jia
+  - MGS Jian
+  - MGS Jiang
+  - MGS Jiao
+  - MGS Jim
+  - MGS Jin
+  - MGS Jing
+  - MGS Jo
+  - MGS Joe
+  - MGS Jong
+  - MGS Joo
+  - MGS Jou
+  - MGS Jow
+  - MGS Ju
+  - MGS Jue
+  - MGS Jung
+  - MGS Kam
+  - MGS Kan
+  - MGS Kang
+  - MGS Kao
+  - MGS Kau
+  - MGS Ke
+  - MGS Keng
+  - MGS Kho
+  - MGS Khoo
+  - MGS Kiang
+  - MGS King
+  - MGS Ko
+  - MGS Koh
+  - MGS Kong
+  - MGS Koo
+  - MGS Kook
+  - MGS Kou
+  - MGS Ku
+  - MGS Kuan
+  - MGS Kuang
+  - MGS Kuk
+  - MGS Kung
+  - MGS Kuang
+  - MGS Kuo
+  - MGS Kwan
+  - MGS Kwock
+  - MGS Kwok
+  - MGS Kwon
+  - MGS Kwong
+  - MGS Lai
+  - MGS Lam
+  - MGS Lan
+  - MGS Lang
+  - MGS Lao
+  - MGS Lau
+  - MGS Lee
+  - MGS Lei
+  - MGS Leng
+  - MGS Leong
+  - MGS Leung
+  - MGS Lew
+  - MGS Li
+  - MGS Lian
+  - MGS Liang
+  - MGS Liao
+  - MGS Liaw
+  - MGS Lien
+  - MGS Liew
+  - MGS Lim
+  - MGS Lin
+  - MGS Ling
+  - MGS Liou
+  - MGS Liu
+  - MGS Lo
+  - MGS Loh
+  - MGS Lok
+  - MGS Long
+  - MGS Loo
+  - MGS Lou
+  - MGS Louie
+  - MGS Lu
+  - MGS Lua
+  - MGS Lui
+  - MGS Luk
+  - MGS Lum
+  - MGS Lung
+  - MGS Luo
+  - MGS Ma
+  - MGS Mah
+  - MGS Mai
+  - MGS Mak
+  - MGS Man
+  - MGS Mao
+  - MGS Mar
+  - MGS Mau
+  - MGS May
+  - MGS Mei
+  - MGS Meng
+  - MGS Miao
+  - MGS Min
+  - MGS Ming
+  - MGS Miu
+  - MGS Mo
+  - MGS Mok
+  - MGS Mon
+  - MGS Mou
+  - MGS Moy
+  - MGS Mu
+  - MGS Mui
+  - MGS Na
+  - MGS Ng
+  - MGS Ngai
+  - MGS Ngan
+  - MGS Ngo
+  - MGS Ni
+  - MGS Nie
+  - MGS Ning
+  - MGS Niu
+  - MGS On
+  - MGS Ong
+  - MGS Ou
+  - MGS Ou Yang
+  - MGS Ow
+  - MGS Owyang
+  - MGS Pan
+  - MGS Pang
+  - MGS Pao
+  - MGS Pei
+  - MGS Peng
+  - MGS Pi
+  - MGS Ping
+  - MGS Po
+  - MGS Pon
+  - MGS Pong
+  - MGS Poon
+  - MGS Pu
+  - MGS Pun
+  - MGS Qi
+  - MGS Qian
+  - MGS Qiao
+  - MGS Qin
+  - MGS Qiu
+  - MGS Qu
+  - MGS Quan
+  - MGS Que
+  - MGS Rao
+  - MGS Ren
+  - MGS Rong
+  - MGS Ruan
+  - MGS Sam
+  - MGS San
+  - MGS Sang
+  - MGS Seto
+  - MGS Sha
+  - MGS Sham
+  - MGS Shan
+  - MGS Shang
+  - MGS Shao
+  - MGS Shaw
+  - MGS Shek
+  - MGS Shen
+  - MGS Sheng
+  - MGS Sheu
+  - MGS Shi
+  - MGS Shiau
+  - MGS Shieh
+  - MGS Shih
+  - MGS Shing
+  - MGS Shiu
+  - MGS Shu
+  - MGS Shum
+  - MGS Shy
+  - MGS Shyu
+  - MGS Si
+  - MGS Sieh
+  - MGS Sin
+  - MGS Sing
+  - MGS Sit
+  - MGS Situ
+  - MGS Siu
+  - MGS So
+  - MGS Soh
+  - MGS Song
+  - MGS Soo
+  - MGS Soo Hoo
+  - MGS Soon
+  - MGS Soong
+  - MGS Su
+  - MGS Suen
+  - MGS Sui
+  - MGS Sum
+  - MGS Sun
+  - MGS Sung
+  - MGS Sze
+  - MGS Szeto
+  - MGS Tai
+  - MGS Tam
+  - MGS Tan
+  - MGS Tang
+  - MGS Tao
+  - MGS Tay
+  - MGS Te
+  - MGS Teh
+  - MGS Teng
+  - MGS Teo
+  - MGS Tian
+  - MGS Tien
+  - MGS Tin
+  - MGS Ting
+  - MGS Tiu
+  - MGS To
+  - MGS Toh
+  - MGS Tom
+  - MGS Tong
+  - MGS Tsai
+  - MGS Tsang
+  - MGS Tsao
+  - MGS Tsay
+  - MGS Tse
+  - MGS Tseng
+  - MGS Tso
+  - MGS Tsoi
+  - MGS Tsou
+  - MGS Tsu
+  - MGS Tsui
+  - MGS Tu
+  - MGS Tuan
+  - MGS Tung
+  - MGS Tzeng
+  - MGS U
+  - MGS Un
+  - MGS Ung
+  - MGS Wah
+  - MGS Wai
+  - MGS Wan
+  - MGS Wang
+  - MGS Wee
+  - MGS Wei
+  - MGS Wen
+  - MGS Weng
+  - MGS Wing
+  - MGS Wong
+  - MGS Woo
+  - MGS Woon
+  - MGS Wu
+  - MGS Xi
+  - MGS Xia
+  - MGS Xiang
+  - MGS Xiao
+  - MGS Xie
+  - MGS Xin
+  - MGS Xing
+  - MGS Xiong
+  - MGS Xu
+  - MGS Xue
+  - MGS Yam
+  - MGS Yan
+  - MGS Yang
+  - MGS Yao
+  - MGS Yap
+  - MGS Yau
+  - MGS Yaw
+  - MGS Ye
+  - MGS Yee
+  - MGS Yeh
+  - MGS Yen
+  - MGS Yep
+  - MGS Yeung
+  - MGS Yi
+  - MGS Yim
+  - MGS Yin
+  - MGS Ying
+  - MGS Yip
+  - MGS Yiu
+  - MGS Yong
+  - MGS Yoo
+  - MGS Yoon
+  - MGS You
+  - MGS Young
+  - MGS Yu
+  - MGS Yuan
+  - MGS Yue
+  - MGS Yuen
+  - MGS Yun
+  - MGS Yung
+  - MGS Zang
+  - MGS Zeng
+  - MGS Zha
+  - MGS Zhan
+  - MGS Zhang
+  - MGS Zhao
+  - MGS Zhen
+  - MGS Zheng
+  - MGS Zhong
+  - MGS Zhou
+  - MGS Zhu
+  - MGS Zhuang
+  - MGS Zhuo
+  - MGS Zong
+  - MGS Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

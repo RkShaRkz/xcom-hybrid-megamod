@@ -1,0 +1,273 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_MUTANTVILLAGMISSION4: "Mutant Village Rescue from Synedrion Assault Heavy"
+      STR_MARKER_MUTANTVILLAGE4: "Mutant Village Rescue from Synedrion Assault Heavy"
+      STR_ALERT_MUTANTVILLAGE4: "Mutant Village Rescue from Synedrion Assault Heavy"
+      STR_LOC_MUTANTVILLAGE4_BRIEFING: "This is the Merc guild here. The capture of the Synedrion Agent and X's personal assistant, has made Synedrion hopping mad. Now, they are sending heavier armed Mercs to raid Mutant Villages, so they hope to recapture these missing Mutants. The Mutant Alliance has in need of your units to defend of their mutants again, for these renegade Mercs will exterminate of everything else that's not of their interest."    
+alienDeployments:
+  - type: STR_MUTANTVILLAGMISSION4
+    alert: STR_ALERT_MUTANTVILLAGE4
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	  	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_MUTANTVILLAGE4_BRIEFING
+    briefing:
+      palette: 4
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_ALERT_MUTANTVILLAGE4
+      desc: STR_LOC_MUTANTVILLAGE4_BRIEFING
+    markerName: STR_MARKER_MUTANTVILLAGE4
+    duration: [20, 50]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_MUTANTCAMPS
+    script: GENERALSPAWN
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 2
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 3
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []	
+      - alienRank: 5
+        lowQty: 2
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []								
+ufos:		
+  - type: STR_MUTANTCAMPS
+    battlescapeTerrainData:
+      name: Mutantcamp
+      mapDataSets:
+        - BLANKS
+        - Nuke1
+        - Nuke2
+        - Nuke3
+        - NUKE_WATER_2
+        - NUKE_UNDERGROUND
+        - PORTURBITS
+        - FRNITURE
+      mapBlocks:
+        - name: MUTANTCAMPSMALL2
+          width: 20
+          length: 20   
+          items:	
+            STR_WHOREGALC_SPAWNER:  		  
+              - [2, 6, 2]
+              - [8, 9, 2]			  
+              - [2, 2, 1]	
+              - [2, 18, 1]	
+              - [18, 2, 1]	
+              - [18, 18, 1]
+              - [4, 18, 2]
+            STR_TOUGHGALC_SPAWNER:			
+              - [10, 9, 2]	
+              - [10, 10, 2]	
+              - [11, 10, 2]				
+            STR_MUTANTMADAMC_SPAWNER:
+              - [17, 8, 2]	
+              - [13, 9, 2]	
+              - [13,17, 2]	
+              - [5,17, 2]					
+          fuseTimers:
+            STR_WHOREGALC_SPAWNER: [0, 0]		
+            STR_TOUGHGALC_SPAWNER: [0, 0]
+            STR_MUTANTMADAMC_SPAWNER: [0, 0]		
+alienMissions:
+  - type: STR_LOC_MUTANTVILLAGEMISSION2
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SPARTANS: 25
+          STR_MIXED_KKK: 25
+          STR_MAGMA_MERCS: 25
+          STR_NINJA: 25 	  
+    waves:
+      - ufo: STR_VESSEL_BANDIT_WASP
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 15000
+      - ufo: STR_VESSEL_BANDIT_MOSQUITO 
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 9600
+      - ufo: STR_VESSEL_RAIDER
+        count: 1
+        trajectory: PXC_PATROLXXA
+        timer: 12000	
+      - ufo: STR_MUTANTVILLAGMISSION4
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+terrains:
+  - name: STR_VESSEL_RAIDERMUTANTMERC
+    mapDataSets:
+      - BLANKS
+      - C_EXT_WALL
+      - C_EXT_ROOF
+      - C_EXT_ENGINE_E
+      - C_EXT_ENGINE_S
+      - C_EXT_NOSE
+      - C_EXT_NOSE_BUMPER
+      - C_EXT_NOSE_BUMPLESS
+      - C_EXT_NOSE_SIDE 
+      - C_BITS2
+      - C_INT
+      - DOORSSEC
+      - DOORS2
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - PLANEENGINES	  
+    mapBlocks:
+      - name: VESSEL_CC2
+        width: 10
+        length: 10		 		
+missionScripts:
+  - type: syndmutantbaseattackheavy
+    firstMonth: 0
+    lastMonth: 9
+    missionWeights:
+      0:
+        STR_LOC_MUTANTVILLAGEMISSION2: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 40
+    startDelay: 1000
+    randomDelay: 40000
+    researchTriggers:
+      STR_XASSISTANT: true	
+      STR_LOC_GDX_PRISON_DONE: false 
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:			
+  - type: GENERALSPAWN
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1		  
+    - type: addUFO
+      executions: 1
+      executionChances: 30  	  
+      terrain: globeTerrain
+      groups: 1	
+    - type: addBlock
+      size: [1,1,4]
+      executionChances: 11
+      label: 11
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        groups: 1  
+        terrain: globeTerrain
+      - type: middle
+        size: [1,1,4]
+        terrain: STR_VESSEL_RAIDERMUTANTMERC
+        maxRepeats: 1 	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain		  

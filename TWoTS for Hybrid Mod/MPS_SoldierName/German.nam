@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - MPS Thomas
+  - MPS Andreas
+  - MPS Michael
+  - MPS Frank
+  - MPS Peter
+  - MPS Joerg
+  - MPS Uwe
+  - MPS Matthias
+  - MPS Stefan
+  - MPS Juergen
+  - MPS Ralf
+  - MPS Bernd
+  - MPS Klaus
+  - MPS Torsten
+  - MPS Hans
+  - MPS Rainer
+  - MPS Jens
+  - MPS Martin
+  - MPS Dirk
+  - MPS Wolfgang
+  - MPS Norbert
+  - MPS Holger
+  - MPS Kai
+  - MPS Joachim
+  - MPS Christian
+  - MPS Karsten
+  - MPS Dieter
+femaleFirst:
+  - MPS Susanne
+  - MPS Sabine
+  - MPS Petra
+  - MPS Birgit
+  - MPS Andrea
+  - MPS Gabriele
+  - MPS Martina
+  - MPS Heike
+  - MPS Ute
+  - MPS Barbara
+  - MPS Bettina
+  - MPS Karin
+  - MPS Angelika
+  - MPS Monika
+  - MPS Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier

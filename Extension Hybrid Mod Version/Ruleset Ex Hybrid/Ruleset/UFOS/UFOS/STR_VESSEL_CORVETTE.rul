@@ -1,0 +1,194 @@
+extraStrings:
+  - type: en-US
+    strings:		
+      STR_VESSEL_CORVETTE: Corvette  
+      STR_VESSEL_CORVETTE_UFOPEDIA: "These Ufo corvettes are the Aliens' medium attack craft, master of none and jack of all trades. They are used for all sort of duties."
+ufopaedia:
+  - id: STR_VESSEL_CORVETTE
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_CORVETTE
+    text: STR_VESSEL_CORVETTE_UFOPEDIA
+research:
+  - name: STR_VESSEL_CORVETTE
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_CORVETTE
+ufos:
+  - type: STR_VESSEL_CORVETTE
+    size: STR_LARGE
+    modSprite: InterceptionCorvette
+    fireSound: 43
+    hitBonus: 25
+    damageMax: 400
+    speedMax: 5700
+    accel: 10
+    range: 65
+    power: 110
+    armor: 15
+    score: 1500
+    reload: 33
+    radarRange: 150
+    hunterKillerPercentage: 0
+    huntBehavior: 0
+    breakOffTime: 600
+    battlescapeTerrainData:
+      name: VES_290
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+      mapBlocks:
+        - name: VES_290
+          width: 20
+          length: 30
+alienDeployments:
+  - type: STR_VESSEL_CORVETTE
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_CORVETTE		
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_CORVETTE_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_CORVETTE	
+    depth: [1, 1]		
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []

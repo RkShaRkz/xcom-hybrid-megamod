@@ -1,0 +1,517 @@
+extraStrings:
+  - type: en-US
+    strings:		
+      STR_LOKNAR: "Mutants"
+      STR_LOKNAR_VILLAGER: "Mutant Villager"
+      STR_LOKNAR_VILLAGER2: "Mutant Villager"
+      STR_LOKNAR_VILLAGER3: "Mutant Villager"
+      STR_LOKNAR_VILLAGER4: "Mutant Villager"	  
+      STR_LOKNAR_VILLAGERID: "Mutant Villager"  
+alienRaces:
+  - id: STR_LOKNAR
+    members:
+      - STR_LOKNAR_VILLAGER
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER3
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER3	  
+      - STR_LOKNAR_VILLAGER4
+      - STR_LOKNAR_VILLAGER4
+      - STR_LOKNAR_VILLAGER4
+    retaliationAggression: -100
+  - id: STR_LOKNAR_UNDERWATER	
+    members:
+      - STR_LOKNAR_VILLAGER
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER3
+      - STR_LOKNAR_VILLAGER2
+      - STR_LOKNAR_VILLAGER3	  
+      - STR_LOKNAR_VILLAGER4
+      - STR_LOKNAR_VILLAGER4
+      - STR_LOKNAR_VILLAGER4
+    retaliationAggression: -100
+units:
+  - type: STR_LOKNAR_VILLAGER
+    race: STR_LOKNAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: CIV_ARMOR_LOKNAR_1
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE	
+  - type: STR_LOKNAR_VILLAGER2
+    race: STR_LOKNAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: STR_TAC_VEST_PEASANT
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    builtInWeaponSets:	
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_LOKNAR_VILLAGER3
+    race: STR_LOKNAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: STR_SLAVE_ARMOR_TAC_VEST
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+  - type: STR_LOKNAR_VILLAGER4
+    race: STR_LOKNAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 25
+      bravery: 60
+      reactions: 60
+      firing: 50
+      throwing: 45
+      strength: 24
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 55
+    armor: STR_SLAVE_ARMOR_PIRATE
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 1
+    intelligence: 4
+    aggression: 1
+    builtInWeaponSets:	
+      - - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP	
+        - STR_GRENADE	
+armors:
+  - type: STR_TAC_VEST_PEASANT
+    allowInv: true
+    spriteInv: inventory_BLANK   
+    spriteSheet: PIR_561.PCK
+    #customArmorPreviewIndex: 136
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    corpseBattle:
+      - STR_CORPSE_PEASANT_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 9
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0978
+      stun:
+        healthCurrent: 0.06
+        health: -0.08
+        stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      health:
+        stunNormalized: -0.165
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: STR_SLAVE_ARMOR_PIRATE
+    allowInv: true
+    spriteInv: inventory_BLANK   
+    spriteSheet: PIR_518.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    #customArmorPreviewIndex: 109
+    corpseBattle:
+      - STR_CORPSE_SLAVE_PIRATE
+    visibilityAtDark: 10
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    stats:
+       bravery: 10
+       psiStrength: 2
+       melee: 10
+       stamina: 5
+       tu: 5
+       firing: 5
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.15
+      bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.1
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: STR_SLAVE_ARMOR_TAC_VEST
+    allowInv: true
+    spriteInv: inventory_BLANK   
+    spriteSheet: PIR_511.PCK
+    #customArmorPreviewIndex: 159
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 95, 161, 161, 163, 162, 161, 163, 96, 96, 161, 160, 162, 96, 162, 161, 162, 96, 96, 163, 162, 163, 163, 161, 161, 163, 161, 96, 98, 97, 160, 161, 96, 163, 163, 161, 161, 96, 163, 162, 96, 162, 163, 162, 161, 161, 98, 163, 162, 96, 162, 162, 161, 163, 96, 161, 161, 162, 96, 96, 96, 98, 162, 96, 160, 162, 162, 163, 161, 96, 97, 97, 159, 159, 161, 160, 162, 98, 98, 98, 160, 161, 163, 163, 163, 96, 99, 96, 160, 97, 163, 162, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [96, 144, 160, 36, 246, 246, 246, 21, 246, 246, 54, 163, 64, 35, 159, 164, 162, 162, 160, 244, 144, 34, 246, 245, 4, 50, 2, 160, 246, 133, 117, 117, 163, 146, 163, 148, 246, 246, 245, 129, 85, 38, 244, 34, 159, 66, 245, 51, 244, 22, 162, 244, 160, 196, 38, 246, 196, 160, 246, 164, 163, 50, 162, 227, 161, 245, 163, 147, 246, 134, 246, 159, 146, 144, 96, 163, 245, 245, 159, 240, 246, 36, 97, 3, 245, 246, 162, 246, 5, 159, 95, 37, 96, 244, 38, 246]
+    corpseBattle:
+      - STR_CORPSE_SLAVE_TAC_VEST
+    weight: 6
+    personalLight: 5
+    stats:
+       tu: -5
+       stamina: -5
+    visibilityAtDark: 10
+    frontArmor: 25
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        moraleCurrent: -0.014
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+      energy:
+        #ManaNormalized: 20.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        #ManaNormalized: 8.0
+      health:
+        stunNormalized: -0.1
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.33
+      bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: CIV_ARMOR_LOKNAR_1
+    spriteSheet: LOK_1.PCK
+    spriteInv: LoknarVillagerInventoryImage
+    corpseBattle:
+      - CIV_LOKNAR_CORPSE_1
+    visibilityAtDark: 13
+    heatVision: 33
+    camouflageAtDay: -12
+    camouflageAtDark: -2
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      #morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      #stun: *SECTION_STUN_RECOVERY_NORMAL
+      #health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.3
+      #moraleCurrent: 0.33
+      #bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 2.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]
+items:	
+  - type: STR_WHOREGALC_SPAWNER
+    spawnUnit: STR_LOKNAR_VILLAGER2
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4		
+  - type: STR_TOUGHGALC_SPAWNER
+    spawnUnit: STR_LOKNAR_VILLAGER3
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+  - type: STR_MUTANTMADAMC_SPAWNER
+    spawnUnit: STR_LOKNAR_VILLAGER4
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_CORPSE_SLAVE_PIRATE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3518
+    floorSprite: 3518
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true
+  - type: STR_CORPSE_SLAVE_TAC_VEST
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3511
+    floorSprite: 3511
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 5
+    recover: true
+    recoverCorpse: true	
+  - type: STR_CORPSE_PEASANT_TAC_VEST
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3561
+    floorSprite: 3561
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 5	
+    recover: true
+    recoverCorpse: true		
+  - type: CIV_LOKNAR_CORPSE_1
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 30
+    bigSprite: 3431
+    floorSprite: 3431
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    armor: 40
+    battleType: 11
+    recover: true	
+  - type: STR_LOKNAR_VILLAGER
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 15000
+  - type: STR_LOKNAR_VILLAGER2
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 15000		
+  - type: STR_LOKNAR_VILLAGER3
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 15000	
+  - type: STR_LOKNAR_VILLAGER4
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 15000		  

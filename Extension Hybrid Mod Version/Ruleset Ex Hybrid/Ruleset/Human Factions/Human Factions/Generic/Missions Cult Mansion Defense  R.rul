@@ -1,0 +1,132 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_ALERT_CULT_MANSION_DEFENSE_EXALT: "Hostile Faction Mansion Assault"	
+        STR_CULT_MANSION_DEFENSE_EXALT: "Hostile Faction Assault"
+        STR_CULT_MANSION_DEFENSE_EXALT_DESCRIPTION: "The Mercenary guild has information that a hostile faction is planning to mount a major attack on its rival faction holding up in a Mansion. At the moment, the strike force is assembling near to the mansion. Your job is to launch a preemtive strike and decapitate this assault."
+        STR_CULT_MANSION_DEFENSE_EXALT_BRIEFING: "The Mercenary guild has information that a hostile faction is planning to mount a major attack on its rival faction holding up in a Mansion. At the moment, the strike force is assembling near to the mansion. Your job is to launch a preemtive strike and decapitate this assault."	
+alienDeployments:
+  - type: STR_CULT_MANSION_DEFENSE_EXALT
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 16
+    alert: STR_ALERT_CULT_MANSION_DEFENSE_EXALT
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_MANSION_DEFENSE_EXALT_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      desc: STR_CULT_MANSION_DEFENSE_EXALT_BRIEFING 
+    markerName: STR_CULT_MANSION_DEFENSE_EXALT
+    duration: [8, 16]
+    despawnPenalty: 100
+    music:
+      - GMTACTIC
+    customUfo: EMANSIONCLEANUP
+    script: GENERALSPAWNXP1	
+    terrains:
+      - MOUNT
+      - FOREST
+      - FORESTSWAMP
+      - CULTA
+    data:
+      - alienRank: 3
+        lowQty: 5
+        highQty: 10
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 8
+        highQty: 16
+        dQty: 10
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+ufos:				
+  - type: EMANSIONCLEANUP
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20				
+alienMissions:
+  - type: STR_CULT_MANSION_DEFENSE_EXALT
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_CULT_MANSION_DEFENSE_EXALT
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+missionScripts:
+  - type: mansionDefenseEXALT
+    firstMonth: 11
+    executionOdds: 9
+    missionWeights:
+      0:
+        STR_CULT_MANSION_DEFENSE_EXALT: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - CS Aaro
+  - CS Aatu
+  - CS Akseli
+  - CS Aleksi
+  - CS Antti
+  - CS Arttu
+  - CS Atte
+  - CS Eemeli
+  - CS Eero
+  - CS Eino
+  - CS Esko
+  - CS Elias
+  - CS Erkki
+  - CS Heikki
+  - CS Henrikki
+  - CS Ilmari
+  - CS Jaakko
+  - CS Jere
+  - CS Jesse
+  - CS Joel
+  - CS Joona
+  - CS Juhani
+  - CS Juho
+  - CS Julius
+  - CS Jussi
+  - CS Juuso
+  - CS Kalle
+  - CS Konsta
+  - CS Lauri
+  - CS Leevi
+  - CS Markku
+  - CS Matias
+  - CS Matti
+  - CS Mika
+  - CS Mikael
+  - CS Mikko
+  - CS Niilo
+  - CS Niklas
+  - CS Niko
+  - CS Onni
+  - CS Oskari
+  - CS Roope
+  - CS Sami
+  - CS Santeri
+  - CS Tapani
+  - CS Tommi
+  - CS Tuomas
+  - CS Valtteri
+  - CS Viljo
+  - CS Ville
+femaleFirst:
+  - CS Aino
+  - CS Anja
+  - CS Anna
+  - CS Anneli
+  - CS Anni
+  - CS Eila
+  - CS Elina
+  - CS Elisa
+  - CS Emilia
+  - CS Emma
+  - CS Emmi
+  - CS Eveliina
+  - CS Hanna
+  - CS Hannele
+  - CS Helena
+  - CS Helmi
+  - CS Iida
+  - CS Iina
+  - CS Ilona
+  - CS Jenni
+  - CS Johanna
+  - CS Julia
+  - CS Kaarina
+  - CS Karoliina
+  - CS Katariina
+  - CS Kristiina
+  - CS Laura
+  - CS Leena
+  - CS Liisa
+  - CS Maarit
+  - CS Maija
+  - CS Maria
+  - CS Marjatta
+  - CS Martta
+  - CS Milla
+  - CS Minna
+  - CS Noora
+  - CS Oona
+  - CS Pauliina
+  - CS Pirjo
+  - CS Riitta
+  - CS Ritva
+  - CS Saara
+  - CS Sanni
+  - CS Sari
+  - CS Sofia
+  - CS Susanna
+  - CS Tuula
+  - CS Tuuli
+  - CS Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

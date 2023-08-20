@@ -1,0 +1,46 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_GOLDCOIN: "Gold Bar $1000000"
+      STR_LOAN: "Obtain $50000000 Loan"	  
+      STR_LOANRECEIPT: "$50000000 Loan Receipt"
+items:
+  - type: STR_GOLDCOIN
+    size: 0
+    costBuy: 1000000
+    costSell: 1000000
+    weight: 1
+    bigSprite: 549
+    floorSprite: 549
+    clipSize: 1
+    power: 1
+    battleType: 9
+    armor: 200
+    invWidth: 1
+    invHeight: 1
+    costMindControl:
+      time: 20
+    accuracyMindControl: 40
+  - type: STR_LOANRECEIPT
+    size: 0
+    costBuy: 0
+    costSell: -50000000
+    monthlyMaintenance: 1600000
+    weight: 1
+    battleType: 0
+manufacture:
+  - name: STR_LOAN
+    category: STR_EQUIPMENT
+    space: 0
+    time: 1
+    cost: 1
+    producedItems:
+      STR_LOANRECEIPT: 1
+      STR_GOLDCOIN: 50
+extraSprites:	  
+  - type: FLOOROB.PCK
+    files:
+      549: Resources/Money/floorob_Gold.png
+  - type: BIGOBS.PCK
+    files:
+      549: Resources/Money/Gold_Bar.png

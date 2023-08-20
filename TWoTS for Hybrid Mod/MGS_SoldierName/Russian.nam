@@ -1,0 +1,166 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MGS Aleksandr
+  - MGS Aleksey
+  - MGS Anatoliy
+  - MGS Andrey
+  - MGS Anton
+  - MGS Artem
+  - MGS Artur
+  - MGS Boris
+  - MGS Denis
+  - MGS Dmitriy
+  - MGS Eduard
+  - MGS Evgeniy
+  - MGS Gennadiy
+  - MGS Georgiy
+  - MGS Grigoriy
+  - MGS Igor
+  - MGS Ilya
+  - MGS Ivan
+  - MGS Konstantin
+  - MGS Leonid
+  - MGS Maxim
+  - MGS Mihail
+  - MGS Nikolay
+  - MGS Oleg
+  - MGS Pavel
+  - MGS Petr
+  - MGS Roman
+  - MGS Ruslan
+  - MGS Sergey
+  - MGS Stanislav
+  - MGS Vadim
+  - MGS Valentin
+  - MGS Valeriy
+  - MGS Vasiliy
+  - MGS Viktor
+  - MGS Vitaliy
+  - MGS Vladimir
+  - MGS Vladislav
+  - MGS Vyacheslav
+  - MGS Yuriy
+femaleFirst:
+  - MGS Albina
+  - MGS Aleksandra
+  - MGS Alla
+  - MGS Alyona
+  - MGS Anastasiya
+  - MGS Anna
+  - MGS Antonina
+  - MGS Darya
+  - MGS Ekaterina
+  - MGS Elena
+  - MGS Evgeniya
+  - MGS Galina
+  - MGS Inna
+  - MGS Irina
+  - MGS Kristina
+  - MGS Kseniya
+  - MGS Larisa
+  - MGS Lidiya
+  - MGS Liliya
+  - MGS Lyubov
+  - MGS Lyudmila
+  - MGS Margarita
+  - MGS Marina
+  - MGS Mariya
+  - MGS Nadezhda
+  - MGS Natalya
+  - MGS Nina
+  - MGS Oksana
+  - MGS Olesya
+  - MGS Olga
+  - MGS Raisa
+  - MGS Svetlana
+  - MGS Tamara
+  - MGS Tatyana
+  - MGS Valentina
+  - MGS Varvara
+  - MGS Vera
+  - MGS Viktoriya
+  - MGS Yulia
+  - MGS Zinaida
+  - MGS Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

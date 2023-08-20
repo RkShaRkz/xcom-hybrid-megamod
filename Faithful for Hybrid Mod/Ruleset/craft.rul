@@ -1,0 +1,527 @@
+crafts:
+  - type: STR_INTERCEPTOR
+    listOrder: 80
+    sprite: 3
+    fuelMax: 1100
+    damageMax: 40
+    speedMax: 2100
+    accel: 3
+    weapons: 1
+    costBuy: 550000
+    costRent: 550000
+    refuelRate: 50
+    radarRange: 1200
+    radarChance: 40
+    transferTime: 96
+    score: 100
+  - type: STR_PUNISHER
+    listOrder: 90
+    sprite: 827
+    fuelMax: 800
+    damageMax: 100
+    speedMax: 1400
+    accel: 3
+    weapons: 2
+    soldiers: 1
+    maxItems: 40
+    costBuy: 650000
+    costRent: 650000
+    refuelRate: 50
+    radarRange: 900
+    radarChance: 40
+    transferTime: 96
+    maxSmallSoldiers: 1 
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 0 
+    maxLargeVehicles: 0
+    maxSmallUnits: 1
+    maxLargeUnits: 0	
+    score: 150
+    battlescapeTerrainData:
+      name: INTERCEPTOR
+      mapDataSets:
+        - BLANKS
+        - INTRCEPT
+      mapBlocks:
+        - name: INTERCEPTOR
+          width: 10
+          length: 10
+  - type: STR_CUSTODIAN
+    listOrder: 110
+    sprite: 824
+    fuelMax: 1400
+    damageMax: 175
+    speedMax: 570
+    accel: 1
+    weapons: 1
+    soldiers: 18
+    maxSmallSoldiers: 18 
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 18 
+    maxLargeVehicles: 3
+    maxSmallUnits: 18
+    maxLargeUnits: 3	
+    maxItems: 300
+    vehicles: 3
+    costBuy: 550000
+    costRent: 550000
+    refuelRate: 50
+    radarRange: 900
+    radarChance: 40
+    transferTime: 72
+    score: 200
+    craftInventoryTile: [3, 8, 1]	
+    battlescapeTerrainData:
+      name: DRAGONFLY
+      mapDataSets:
+        - BLANKS
+        - DRAGONFLY
+      mapBlocks:
+        - name: DRAGONFLY
+          width: 10
+          length: 20
+  - type: STR_SPARROW
+    listOrder: 120
+    requires:
+      - STR_SPARROW_CRAFT
+    sprite: 823
+    fuelMax: 2400
+    damageMax: 50
+    speedMax: 2500
+    accel: 4
+    weapons: 1
+    costRent: 200000
+    refuelRate: 100
+    radarRange: 1575
+    radarChance: 60
+    transferTime: 96
+    score: 50
+  - type: STR_ALBATROSS
+    listOrder: 130
+    requires:
+      - STR_ALBATROSS_CRAFT
+    sprite: 826
+    fuelMax: 1800
+    damageMax: 80
+    speedMax: 540
+    accel: 2
+    weapons: 1
+    costRent: 210000
+    refuelRate: 200
+    radarRange: 1350
+    radarChance: 80
+    transferTime: 96
+    score: 75
+    battlescapeTerrainData:
+      name: ALBATROS
+      mapDataSets:
+        - BLANKS
+        - PLANE
+      mapBlocks:
+        - name: ALBATROS
+          width: 10
+          length: 10
+    deployment:
+      - [6, 5, 0, 2]
+  - type: STR_STORMSTRIKE
+    listOrder: 140
+    requires:
+      - STR_STORMSTRIKE_CRAFT
+    sprite: 822
+    fuelMax: 2400
+    damageMax: 210
+    speedMax: 1800
+    accel: 3
+    weapons: 1
+    soldiers: 12
+    maxItems: 240
+    vehicles: 1
+    maxSmallSoldiers: 12 
+    maxLargeSoldiers: 1
+    maxSmallVehicles: 11 
+    maxLargeVehicles: 1
+    maxSmallUnits: 12
+    maxLargeUnits: 1	
+    costRent: 360000
+    refuelRate: 75
+    repairRate: 2
+    radarRange: 1500
+    radarChance: 60
+    transferTime: 72
+    score: 100
+    battlescapeTerrainData:
+      name: HAWKEYE
+      mapDataSets:
+        - BLANKS
+        - PLANE_FIX
+        - XBASE2
+        - XBASE1
+      mapBlocks:
+        - name: HAWKEYE
+          width: 10
+          length: 20
+  - type: STR_MARAUDER
+    listOrder: 150
+    requires:
+      - STR_MARAUDER_CRAFT
+    sprite: 828
+    fuelMax: 1000
+    damageMax: 180
+    speedMax: 1900
+    accel: 3
+    weapons: 2
+    soldiers: 1
+    maxSmallSoldiers: 1 
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 0
+    maxLargeVehicles: 0
+    maxSmallUnits: 1
+    maxLargeUnits: 0		
+    maxItems: 60
+    costRent: 270000
+    refuelRate: 75
+    repairRate: 2
+    radarRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 125
+    battlescapeTerrainData:
+      name: INTERCEPTOR
+      mapDataSets:
+        - BLANKS
+        - INTRCEPT
+      mapBlocks:
+        - name: INTERCEPTOR
+          width: 10
+          length: 10
+  - type: STR_VANQUISHER
+    listOrder: 410
+    requires:
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+    sprite: 825
+    fuelMax: 80
+    damageMax: 1100
+    speedMax: 3600
+    accel: 8
+    weapons: 2
+    soldiers: 26
+    maxSmallSoldiers: 26 
+    maxLargeSoldiers: 4
+    maxSmallVehicles: 25
+    maxLargeVehicles: 4
+    maxSmallUnits: 26
+    maxLargeUnits: 4	
+    maxItems: 400
+    vehicles: 4
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    repairRate: 3
+    radarRange: 900
+    radarChance: 40
+    score: 300
+    spacecraft: true
+    battlescapeTerrainData:
+      name: DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - DROPSHIP
+        - DROPSHIP2
+      mapBlocks:
+        - name: DROPSHIP
+          width: 10
+          length: 20
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [6, 4, 1, 0]
+      - [7, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [4, 4, 1, 0]
+      - [5, 4, 1, 0]
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [4, 6, 1, 0]
+      - [5, 6, 1, 0]
+      - [4, 12, 1, 4]
+      - [4, 14, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 14, 1, 0]
+  - type: STR_STALKER
+    listOrder: 420
+    requires:
+      - STR_STALKER_CRAFT
+    sprite: 867
+    fuelMax: 1000
+    damageMax: 400
+    speedMax: 3600
+    accel: 8
+    weapons: 1
+    soldiers: 12
+    maxSmallSoldiers: 12
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 11
+    maxLargeVehicles: 0
+    maxSmallUnits: 12
+    maxLargeUnits: 0		
+    maxItems: 160
+    vehicles: 0
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 100
+    repairRate: 4
+    radarRange: 1800
+    radarChance: 80
+    score: 150
+    spacecraft: true
+    battlescapeTerrainData:
+      name: STALKER
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIA
+      mapBlocks:
+        - name: STALKER
+          width: 20
+          length: 20
+    deployment:
+      - [6, 10, 1, 2]
+      - [6, 9, 1, 2]
+      - [6, 8, 1, 2]
+      - [8, 6, 1, 4]
+      - [9, 6, 1, 4]
+      - [10, 6, 1, 4]
+      - [12, 8, 1, 6]
+      - [12, 9, 1, 6]
+      - [12, 10, 1, 6]
+      - [10, 12, 1, 0]
+      - [9, 12, 1, 0]
+      - [8, 12, 1, 0]
+  - type: STR_HERACLES
+    listOrder: 430
+    requires:
+      - STR_HERACLES_CRAFT
+    sprite: 866
+    fuelMax: 240
+    damageMax: 1800
+    speedMax: 3300
+    accel: 7
+    weapons: 2
+    soldiers: 32
+    maxSmallSoldiers: 32
+    maxLargeSoldiers: 4
+    maxSmallVehicles: 31
+    maxLargeVehicles: 4
+    maxSmallUnits: 32
+    maxLargeUnits: 4	
+    maxItems: 1000
+    vehicles: 8
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 8
+    repairRate: 4
+    radarRange: 1725
+    radarChance: 80
+    score: 400
+    spacecraft: true
+    battlescapeTerrainData:
+      name: HERACLES
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIA
+      mapBlocks:
+        - name: HERACLES_TWO
+          width: 20
+          length: 20
+    deployment: #The first deployment set is for the old map: HERACLES.
+#      - [8, 6, 1, 0]
+#      - [9, 6, 1, 0]
+#      - [8, 7, 1, 0]
+#      - [9, 7, 1, 0]
+#      - [8, 8, 1, 0]
+#      - [9, 8, 1, 0]
+#      - [8, 9, 1, 0]
+#      - [9, 9, 1, 0]
+#      - [8, 10, 1, 0]
+#      - [9, 10, 1, 0]
+#      - [8, 11, 1, 0]
+#      - [9, 11, 1, 0]
+#      - [8, 12, 1, 0]
+#      - [9, 12, 1, 0]
+#      - [8, 13, 1, 0]
+#      - [9, 13, 1, 0]
+#      - [10, 6, 1, 0]
+#      - [11, 6, 1, 0]
+#      - [10, 7, 1, 0]
+#      - [11, 7, 1, 0]
+#      - [10, 8, 1, 0]
+#      - [11, 8, 1, 0]
+#      - [10, 9, 1, 0]
+#      - [11, 9, 1, 0]
+#      - [10, 10, 1, 0]
+#      - [11, 10, 1, 0]
+#      - [10, 11, 1, 0]
+#      - [11, 11, 1, 0]
+#      - [10, 12, 1, 0]
+#      - [11, 12, 1, 0]
+#      - [10, 13, 1, 0]
+#      - [11, 13, 1, 0]
+      - [7, 13, 0, 4]
+      - [11, 5, 0, 0]
+      - [7, 5, 0, 0]
+      - [12, 13, 0, 5]
+      - [3, 9, 1, 6]
+      - [15, 9, 1, 2]
+      - [5, 9, 1, 6]
+      - [13, 9, 1, 2]
+      - [3, 12, 0, 0]
+      - [4, 8, 0, 6]
+      - [14, 8, 0, 2]
+      - [16, 11, 0, 2]
+      - [5, 10, 0, 5]
+      - [4, 6, 0, 3]
+      - [14, 5, 0, 3]
+      - [14, 12, 0, 2]
+      - [3, 8, 1, 3]
+      - [14, 7, 1, 3]
+      - [15, 11, 1, 0]
+      - [6, 12, 1, 6]
+      - [6, 11, 0, 6]
+      - [8, 8, 0, 4]
+      - [12, 8, 0, 4]
+      - [10, 10, 0, 1]
+      - [12, 9, 1, 2]
+      - [7, 10, 1, 6]
+      - [6, 5, 1, 4]
+      - [9, 6, 1, 2]
+      - [12, 6, 1, 0]
+      - [5, 13, 1, 6]
+      - [9, 14, 1, 4]
+      - [11, 13, 1, 5]
+  - type: STR_STARSTREAK
+    listOrder: 440
+    requires:
+      - STR_STARSTREAK_CRAFT
+    sprite: 831
+    fuelMax: 360
+    damageMax: 800
+    speedMax: 9600
+    accel: 11
+    weapons: 4
+    soldiers: 6
+    maxSmallSoldiers: 6
+    maxLargeSoldiers: 0
+    maxSmallVehicles: 5
+    maxLargeVehicles: 0
+    maxSmallUnits: 6
+    maxLargeUnits: 0		
+    maxItems: 180
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 60
+    repairRate: 8
+    radarRange: 1425
+    radarChance: 60
+    score: 50
+    spacecraft: true
+    battlescapeTerrainData:
+      name: STARSTRE
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+      mapBlocks:
+        - name: STARSTRE
+          width: 10
+          length: 10
+  - type: STR_ASSASSIN
+    listOrder: 450
+    requires:
+      - STR_ASSASSIN_CRAFT
+    sprite: 832
+    fuelMax: 360
+    damageMax: 1000
+    speedMax: 5000
+    accel: 10
+    weapons: 2
+    soldiers: 14
+    maxSmallSoldiers: 14
+    maxLargeSoldiers: 3
+    maxSmallVehicles: 13
+    maxLargeVehicles: 3
+    maxSmallUnits: 14
+    maxLargeUnits: 3	
+    maxItems: 400
+    vehicles: 3
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 30
+    repairRate: 6
+    radarRange: 1650
+    radarChance: 70
+    score: 250
+    battlescapeTerrainData:
+      name: DRAGONFLY_DARK
+      mapDataSets:
+        - BLANKS
+        - DRAGONFLY
+      mapBlocks:
+        - name: DRAGONFLY
+          width: 10
+          length: 20
+  - type: STR_CIVILIAN_AIRCRAFT_UP
+    sprite: 0
+    fuelMax: 1200
+    damageMax: 150
+    speedMax: 1200
+    accel: 1
+    #soldiers: 120
+    refuelRate: 50
+    radarRange: 0
+    radarChance: 0
+    transferTime: 144
+    score: 100
+  - type: STR_MILITARY_AIRCRAFT_UP
+    sprite: 3
+    fuelMax: 10
+    damageMax: 200
+    speedMax: 1800
+    accel: 5
+    weapons: 2
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 10
+    radarRange: 0
+    radarChance: 0
+    transferTime: 72
+    score: 100
+  - type: STR_ADVANCED_CIVILIAN_AIRCRAFT_UP
+    sprite: 0
+    fuelMax: 1400
+    damageMax: 300
+    speedMax: 2000
+    accel: 2
+    #soldiers: 150
+    refuelRate: 50
+    radarRange: 0
+    radarChance: 0
+    transferTime: 144
+    score: 250
+  - type: STR_ADVANCED_MILITARY_AIRCRAFT_UP
+    sprite: 3
+    fuelMax: 15
+    damageMax: 500
+    speedMax: 2700
+    accel: 6
+    weapons: 2
+    #soldiers: 6
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 15
+    radarRange: 0
+    radarChance: 0
+    transferTime: 72
+    score: 250
+  - type: STR_WELCOME_GIFT_UP

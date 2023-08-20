@@ -1,0 +1,220 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_LABSHIP: Science Vessel  
+      STR_VESSEL_LABSHIP_UFOPEDIA: "These ufos are heavily armed for research and recon purposes. Usually a front line first in and first out in an area before other aliens ufos arrives." 
+ufopaedia:
+  - id: STR_VESSEL_LABSHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_LABSHIP
+    text: STR_VESSEL_LABSHIP_UFOPEDIA
+research:
+  - name: STR_VESSEL_LABSHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_LABSHIP
+ufos:
+  - type: STR_VESSEL_LABSHIP
+    size: STR_VERY_LARGE
+    modSprite: InterceptionLabship
+    fireSound: 43
+    hitBonus: 20
+    damageMax: 1100
+    speedMax: 3600
+    accel: 6
+    power: 90
+    range: 50
+    reload: 33
+    score: 1200
+    radarRange: 350
+    sightRange: 400
+    hunterKillerPercentage: 50
+    huntBehavior: 0
+    breakOffTime: 1000
+    battlescapeTerrainData:
+      name: VES_LAB
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+        - U_DISEC2
+        - U_OPER_G
+        - UFOL83_G
+      mapBlocks:
+        - name: VES_LAB
+          width: 30
+          length: 30
+          items:			  
+            STR_ELERIUM_115:
+              - [14, 25, 1]
+              - [14, 3, 1]
+              - [3, 14, 2]
+alienDeployments:
+  - type: STR_VESSEL_LABSHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_LABSHIP
+    width: 70
+    length: 70
+    height: 19
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 10
+        dQty: 6
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []	
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_LABSHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_LABSHIP
+    depth: [1, 1]		
+    width: 50
+    length: 50 
+    width: 70
+    length: 70
+    height: 19
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 6
+        highQty: 10
+        dQty: 6
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []	
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

@@ -1,0 +1,173 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_SMALL_ENVOY_SHIP: "Small Envoy Ship"
+      STR_SMALL_ENVOY_SHIP_UFOPEDIA: "These rare UFOs are designed to transport important Aliens. The vessel is fast and well armed for its size. These small VIP aliens UFOs must be captured at all cost, because of their passengers." 
+ufopaedia:
+  - id: STR_SMALL_ENVOY_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SMALL_ENVOY_SHIP
+    text: STR_SMALL_ENVOY_SHIP_UFOPEDIA
+    listOrder: 160600
+research:
+  - name: STR_SMALL_ENVOY_SHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_SMALL_ENVOY_SHIP
+ufos:
+  - type: STR_SMALL_ENVOY_SHIP
+    size: STR_SMALL
+    modSprite: InterceptionSmallEnvoyShip
+    damageMax: 410
+    speedMax: 3200
+    armor: 10
+    accel: 10
+    power: 42
+    range: 50
+    score: 450
+    reload: 70
+    breakOffTime: 500
+    hitBonus: 10
+    battlescapeTerrainData:
+      name: UFOF_100
+      mapDataSets:
+        - BLANKS
+        - U_EXT02GOLD
+        - U_WALL02GOLD
+        - U_BITSGOLD
+        - UFOL83GOLD
+      mapBlocks:
+        - name: SMALLENVOY1
+          width: 10
+          length: 10
+  - type: STR_SMALL_ENVOY_SHIP_UNDERWATER	
+    battlescapeTerrainData:
+      name: UFOF_100
+      mapDataSets:
+        - BLANKS
+        - U_EXT02GOLD
+        - U_WALL02GOLD
+        - U_BITSGOLD
+        - UFOL83GOLD
+      mapBlocks:
+        - name: SMALLENVOY1
+          width: 10
+          length: 10			  
+alienDeployments:
+  - type: STR_SMALL_ENVOY_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_SMALL_ENVOY_SHIP	
+    music:
+      - GMTACTIC
+    width: 50
+    length: 50
+    height: 16
+    data:
+      - alienRank: 3 #STR_MUTON_MEDIC
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1 #STR_MUTON_LEADER
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 4 #STR_MUTON_NAVIGATOR
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2 #STR_MUTON_ENGINEER
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_SMALL_ENVOY_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_SMALL_ENVOY_SHIP		
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    width: 50
+    length: 50
+    height: 16
+    data:
+      - alienRank: 3 #STR_MUTON_MEDIC
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1 #STR_MUTON_LEADER
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 4 #STR_MUTON_NAVIGATOR
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2 #STR_MUTON_ENGINEER
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    script: SMALLENVOYSHIPAX	
+mapScripts:	
+  - type: SMALLENVOYSHIPAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_SMALL_ENVOY_SHIP_UNDERWATER	
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain 

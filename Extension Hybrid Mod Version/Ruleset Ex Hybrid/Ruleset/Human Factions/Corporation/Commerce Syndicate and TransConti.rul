@@ -1,0 +1,1261 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_TRADER_PILOT_UFOPEDIA: "These dudes in funny-looking uniforms aren't actually that harmless. While nowhere as important as the Engineers, they're trained pilots and technicians, are pretty well paid, and will protect their ship with their lives - after all, losing it is going to make them lifelong debt-slaves to the Syndicate."
+      STR_TRADER_SPACEMAN_UFOPEDIA: "A breed of Syndicate GOs, unlucky enough to work in space. We can learn about various space-related stuff from them."
+      STR_TRADER_EXTERMINATOR_UFOPEDIA: "GOs can advance within the Syndicate, but it is very hard for them to do so. Those especially mean and rugged sometimes become Pest Control Managers. It's a better paid job, but a dirty one if there ever was; it entails dealing - permanently - with various nasty pests, from hostile fauna and flora to mutants. The Pest Control wear light, chem-resistant, flying suits to get where no one else can and are generally much more dangerous (and enthusiastic) than GOs, but their area of expertise isn't dealing with armed and organized opposition - like us."	
+      STR_TRADER_ATTENDANT_UFOPEDIA: "This little lady feels proud and empowered by her relatively-important duties and the weapon training she received and thus will not back down that easily in a gunfight. In reality, she's just another exploited female, as her duties are just various forms of serfdom, from making drinks to cleaning other people's mess to even more degrading tasks - even if none of them leave your hands dirty. At most, a bit sticky. Don't have more regrets shooting these than about any other corporate slaves."	
+      STR_UBER_BELTER_ROBBERY: "Interrogate: Diver (1/1/1)"	
+      FLOATER_ARMOR_P1_UFOPEDIA: "TransGolbal G.O. Examination. NV: 9."
+      FLOATER_ARMOR_P10_UFOPEDIA: "TransGolbal Team Leader Examination. NV: 9."
+      HUMAN_ARMOR_STEWARDESS_UFOPEDIA: "TransGolbal Hostess Examination. NV: 9."
+      HUMAN_ARMOR_SAILOR_UFOPEDIA: "TransGolbal Air Sailor Examination. NV: 9."
+      FLOATER_ARMOR_P8_UFOPEDIA: "TransGolbal PCM Suit. NV: 16. ThV: 40%"
+      FLOATER_ARMOR_P11_UFOPEDIA: "TransGolbal Space Suit (0-G). NV: 30."
+      FLOATER_ARMOR_P12_UFOPEDIA: "This thick and heavy suit provides its wearer with some measure of protection againts spacefaring hazards, like Chem, Electric, Daze, Fire, Plasma..."
+      FLOATER_ARMOR_P13_UFOPEDIA: "TransGolbal Officers are protected by advanced personal SHIELDS: 120/20 (Red), as well as antimagic shields."
+      FLOATER_ARMOR_P14_UFOPEDIA: "TransGolbal Navigators are protected by advanced personal SHIELDS: 180/30 (Blue)."
+      FLOATER_ARMOR_P15_UFOPEDIA: "TransGolbal Medic Examination. NV: 9."
+      FLOATER_ARMOR_P9_UFOPEDIA: "TransGolbal Security Armor. NV: 12."
+      FLOATER_ARMOR_P2_UFOPEDIA: "TransGolbal Security Armor. NV: 16. ThV: 40%"
+      FLOATER_ARMOR_P3_UFOPEDIA: "TransGolbal Powered Armor. NV: 20. ThV: 60%"
+      FLOATER_ARMOR_P4_UFOPEDIA: "TransGolbal Engineer Examination. NV: 9."
+      FLOATER_ARMOR_P5_UFOPEDIA: "TransGolbal Rep Examination. NV: 9."
+      FLOATER_ARMOR_P6_UFOPEDIA: "TransGolbal master's Armor. Flying. Evasion: 25% (half back penalty). V.Def+50. NV: 20. ThV: 60%. SHIELDS: 250/10 (Blue)"	
+      STR_GUILD_LEADER_BROKEN: Broken TransGolbal Rep	
+      STR_GUILD_CORPSE: Durathread Mesh
+      STR_GUILD_BROKEN: Broken TransGolbal Master
+      STR_GUILD_CORPSE_XXX: "Durathread (x25)"  	
+      STR_GUILD_ALARMED: "The TransGolbal is alarmed"
+      STR_GUILD_ANGRY: "The TransGolbal is angry"		
+      STR_TRADERS_ENG_KNOWHOW_UFOPEDIA: "Most of the Traders' technological expertise revolves around large-scale construction, powered armor and nuclear power; we have obtained knowledge that will let us advance in these areas."    
+      STR_TRADERS_ARC_KNOWHOW_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}We've gotten info about an ancient technology cache, supposedly hidden somewhere in the Eurasian Autonomy. We need to learn more about that area of the world before trying to seize it, though."
+      STR_TRADERS_COM_KNOWHOW_UFOPEDIA: "The intricate armored suits of Trader honchos hold no secrets from us anymore. We have a crucial bit of information required to build an ultimate suit of armor, as soon as we have mastered all the branches of armor-smithing."	
+      STR_TRADERS_ENG_KNOWHOW: TransGolbal ENGINEERING
+      STR_TRADERS_ARC_KNOWHOW: TransGolbal REP'S SECRETS
+      STR_TRADERS_COM_KNOWHOW: TransGolbal MASTER'S SECRETS	
+      FLOATER_ARMOR_P1: "TransGolbal G.O. Examination"
+      FLOATER_ARMOR_P10: "TransGolbal Team Leader Examination"
+      FLOATER_ARMOR_P13: "TransGolbal Ship Officer Examination"
+      FLOATER_ARMOR_P15: "TransGolbal Medic Examination"
+      HUMAN_ARMOR_STEWARDESS: "TransGolbal Hostess Examination"
+      HUMAN_ARMOR_SAILOR: "TransGolbal Air Sailor Examination"
+      FLOATER_ARMOR_P8: "TransGolbal PCM Suit"
+      FLOATER_ARMOR_P11: "TransGolbal Space Suit"
+      FLOATER_ARMOR_P9: "TransGolbal Security Armor"
+      FLOATER_ARMOR_P2: "TransGolbalSecurity Armor"
+      FLOATER_ARMOR_P3: "TransGolbal Powered Armor"
+      FLOATER_ARMOR_P4: "TransGolbal Engineer Examination"
+      FLOATER_ARMOR_P5: "TransGolbal Rep Examination"
+      FLOATER_ARMOR_P6: "TransGolbal Master's Armor"	
+      STR_GUILD_SPACE_TECH_SALVAGE: "S+: TransGolbal Tech (1/1/1)"
+      STR_GUILD_SPACE_TECH_ROBBERY: "Interrogate: TransGolbal Tech (1/1/1)"
+      STR_GUILD_SPACE_TECH_UFOPEDIA: "Employees of space-oriented branches of the Syndicate, like tranS-Stellar or DeepcoreMining. They make do in crappy habitations and live their lives tending to a plethora of machineries found on space ships, space mines and all other space establishments. They're proud to be humanity's pioneers in the space conquest - but is it still pioneering, if you're doing the same thing all over for several generations?"	  	    
+      STR_GUILD_SOLDIER_ROBBERY: "Interrogate: TransGolbal Sargent(0/1/0)"
+      STR_GUILD_TEAM_LEADER_ROBBERY: "Interrogate: TransGolbal Manager (0/1/1)"
+      STR_GUILD_MEDIC_ROBBERY: "Interrogate: TransGolbal Medic (0/0/8)"
+      STR_GUILD_EXTERMINATOR_ROBBERY: "Interrogate: TransGolbal Manager  (1/1/0)"
+      STR_GUILD_PILOT_ROBBERY: "Interrogate: TransGolbal Sailor (0/1/0)"
+      STR_GUILD_SPACEMAN_ROBBERY: "Interrogate: TransGolbal Spaceman (1/2/2)"
+      STR_GUILD_LEADER_ROBBERY: "Interrogate: TransGolbal Rep (0/2/1)"
+      STR_GUILD_COMMANDER_ROBBERY: "Interrogate: TransGolbalMaster (1/1/18)"  	  
+      STR_GUILD_LEADER_INRG: "I: TransGolbal Rep (0/2/1)"
+      STR_GUILD_COMMANDER_INRG: "I: TransGolbalmaster (1/1/18)"
+      STR_GUILD_PILOT_SALVAGE: "S: TransGolbal Sailor (0/1/0)"
+      STR_GUILD_SPACEMAN_SALVAGE: "S: TransGolbal Spaceman (1/2/2)"
+      STR_GUILD_SOLDIER_SALVAGE: "S: GO (0/1/0)"  
+      STR_GUILD_EXTERMINATOR_SALVAGE: "S: TransGolbal TeamLeader (1/1/0)"
+      STR_GUILD_LEADER_SALVAGE: "$: TransGolbal Rep (0/2/1)"	  
+      STR_GUILD_ATTENDANT_ROBBERY: "Interrogate: TransGolbal Hostess (0/1/1)"	  
+      STR_GUILD_ATTENDANT_SALVAGE: "s: TransGolbal Hostess (0/1/1)"		  
+      STR_GUILD_ATTENDANT_WORKERY: "Pimp: TransGolbal Hostess"			  
+      STR_GUILD_GUARD_ROBBERY: "Interrogate: TransGolbal Marine (1/1/0)"	  
+      STR_GUILD_GUARD_SALVAGE: "S: TransGolbal Marine (1/1/0)"	  
+      FLOATER_ARMOR_P12: "TransGolbal Tech Examination"
+      FLOATER_ARMOR_P14: "TransGolbal Navigator Examination"	  
+      STR_GUILD_ENGINEER_BROKEN: Broken TransGolbal Engineer 	  
+      STR_GUILD_ENGINEER_ROBBERY: "Interrogate: TransGolbal Engineer (0/2/3)"
+      STR_GUILD_ENGINEER_INRG: "I: TransGolbal Engineer (0/2/3)"	  	  
+      STR_GUILD_ENGINEER_SALVAGE: "S+: TransGolbal Engineer (0/2/3)"	  
+      STR_GUILD_ENGINEER_UFOPEDIA: "This guy is something more than just a deck maintenance officer, I'm telling you. Trader Engineers are important, expensive specialists, who make Syndicate's ships and other facilities run as smoothly as possible and are often in somewhat influential positions. They're not really warriors, but they are rich enough to carry good weapons and wear some armor, so beware."
+      STR_GUILD_SPACE_TECH: "TransGolbal Technician"  
+      STR_GUILD_GUARD: "TransGolbal Marine"	
+      STR_GUILD_ENGINEER: "TransGolbal Engineer"	  
+      STR_GUILD_SHIP_OFFICER: "TransGolbal Ship Officer"	  
+      STR_GUILD_SOLDIER: "TransGolbal Security"
+      STR_GUILD_TEAM_LEADER: "TransGolbal Manager"
+      STR_GUILD_MEDIC: "TransGolbal Medic"
+      STR_GUILD_LEADER: "TransGolbal Captain"
+      STR_GUILD_COMMANDER: "TransGolbal Executive"
+      STR_GUILD_PILOT: "TransGolbal Pilot"
+      STR_GUILD_SPACEMAN: "TransGolbal Hazmat Tech"  
+      STR_GUILD_EXTERMINATOR: "TransGolbal TeamLeader" 
+      STR_GUILD_ATTENDANT: "TransGolbal Hostess"
+      STR_UBER_BELTER: "TransCorp Technician"	 	  
+      STR_GUILD_NAVIGATOR: "TransGolbal Navigator"
+      STR_GUILD_SPACE_TECHID: "TransGolbal Technician ID"  
+      STR_GUILD_GUARDID: "TransGolbal Marine ID"	
+      STR_GUILD_ENGINEERID: "TransGolbal Engineer ID"	  
+      STR_GUILD_SHIP_OFFICERID: "TransGolbal Ship Officer ID"	  
+      STR_GUILD_SOLDIERID: "TransGolbal Security ID"
+      STR_GUILD_TEAM_LEADERID: "TransGolbal Security Manager ID"
+      STR_GUILD_MEDICID: "TransGolbal Medic ID"
+      STR_GUILD_LEADERID: "TransGolbal Captain ID"
+      STR_GUILD_COMMANDERID: "TransGolbal Executive ID"
+      STR_GUILD_PILOTID: "TransGolbal Pilot ID"
+      STR_GUILD_SPACEMANID: "TransGolbal Hazmat Tech ID"  
+      STR_GUILD_EXTERMINATORID: "TransGolbal TeamLeader ID" 
+      STR_GUILD_ATTENDANTID: "TransGolbal Hostess"
+      STR_UBER_BELTERID: "TransCorp Technician ID"	 	  
+      STR_GUILD_NAVIGATORID: "TransGolbal Navigator ID"	
+      STR_GUILD_EXTERMINATOR_UFOPEDIA: "TransGolbal Security TeamLeader reports under of the Security Manager and is in charge of a team of Security Guard or Officers. They are highly loyal and motivated, ready to defend TransGlobal assets to the death if needed." 
+      STR_GUILD_SPACE_TECH_UFOPEDIA: "TransGolbal Master Technicians are in charge of the techs that runs the transport. They are team leaders in the maintanance department, making sure every thing runs in ship shape. They are usually lightly armed, if enountered in a cornered situation." 
+      STR_GUILD_ENGINEER_UFOPEDIA: "TransGolbal Engineers are responsible for the maintenance of heavy machinery that's found in a plane or ship, like its engines. They are always greasy and dirty looking, but strong and brawny. Due to their job, when it comes to defending the transport they are on, don't be surprise at seeing them welding of heavy weapons. " 
+      STR_GUILD_PILOT_UFOPEDIA: "The TransGolbal Pilot job can describe of one that drive either a plane or ship. It is a pretty mid level role, and they are expected to be well trained, including defensive firearms should the transport they are in is attacked."
+      STR_GUILD_SPACEMAN_UFOPEDIA: "TransGolbal Hazmat Technician's job is to maintain TransGlobal Assets in hazardous enviroment such as the sea, land or air. They wear special protective suits that allows them to work in the hostile enviroment they are in. Their role could include security within the same said Enviroment." 
+      STR_GUILD_LEADER_UFOPEDIA: "TransGlobal Captains are in charge of a transport, can it be a ship, plane and etc. They weld high authoritive powers and also have high responsibilities to the assets they are in charge. They will be expected to defend the assets they are in charge of to the death."
+      STR_GUILD_COMMANDER_UFOPEDIA: "The TransGolbal Executives are the brains of the TransGlobal. They are the movers and shakers, decision makers within the Syndicate or Organization. Naturally, they weld important powers and capturing one can net a good bounty. Beware though, if they are cornered, they still got good weapons they can use to defend of themselves." 
+      STR_GUILD_SHIP_OFFICER_UFOPEDIA: "TransGolbal Ship Officer are those whom are second in command of a transport or ship. They carry heavy responsibility for their roles. Naturally, they will fiercely defend the assets they are in charge of with the appropriate weaponary"	
+      STR_GUILD_NAVIGATOR_UFOPEDIA: "TransGlobal Navigators are often in charge of a ship or plane's direction or of where the transport is heading. They are well armed, if caught in a jinx. Expect them to defend of the transport they are in fanatically, for their lives is at stake."		  
+      STR_GUILD_TEAM_LEADER_UFOPEDIA: "TransGlobal Security Manager are in charge of local site security for the assets they are on or looking after. Expect them to be highly motivated and armed. For they got a lot at stake, if something goes wrong."
+      STR_GUILD_MEDIC_UFOPEDIA: "The TransGlobal Paramedic is a highly train medical officer that offer in house medical care for its staff and customers should the need arise. They are also armed for self defense, should they are caught in a difficult situation." 		  
+      STR_GUILD_GUARD_UFOPEDIA: "TransGlobal security guards are often third party contractors hired just for temporary assignments. Poorly armed and motivated, their roles are mostly just an eye and ear for the in-house security until reinforcement arrived." 
+      STR_GUILD_SOLDIER_UFOPEDIA: "TransGolbal Security Officers are in-house security agents that look after TransGlobal Security assets and its customers. More heavily armed than that of a guard, they are highly motivated and ready to fanatically do their job."
+      STR_UBER_BELTER_UFOPEDIA: "TransCorp Technician job is to maintain the electronics of the day to day system on a ship, plane or anything that move. They are again, just basic I.T tech working to make a buck, not much into the big picture of TransGlobal. They are also well train to fight off hijackers, should a TransGlobal transport is hijacked. Though not highly trained."
+      STR_GUILD_ATTENDANT_UFOPEDIA: "The job of the attendant is to look after passengers using of TransCorp services. They are mostly clueless civillians working for a buck, happy in their job on customer service and not caring of TransGlobal's bigger picture. However, if in danger, these attendants will not hesitate to try and defend themselves, with whatever weapons they can find." 
+      STR_PASSENGERS: "TransCorp with Passengers"
+      STR_GUILD: "TransGolbal"  
+      STR_GUILD_UFOPEDIA: "TransGlobal, is a major megaconglomerate or Syndicate that owned almost sixty percent of the worlds transportation services. This Syndicate has its fingers on air travel, postal, ocean liner tranportation.. anything to do with travel it has its hands on. So powerful and rich that this transportation giant is, that it has its own private security for its security needs. It it utterly ruthless too, in its business dealing. Recently the business is diversifying into other areas, including politics and world affairs."  	  
+      STR_TRANS_STELLAR: "TransCorp"  
+      STR_TRANS_STELLAR_UFOPEDIA: "TransCorp is a major subsidiary of the TransGolbal. This branch of the business looks after the major transportation services, for humans that is, in terms of travel to and around the world. It has a substantial force of people looking after assets like planes, ships and more. Anything involving tranportation of human passengers."	   
+alienRaces:
+  - id: STR_TRANS_STELLAR
+    membersRandom:
+      - [STR_GUILD_TEAM_LEADER]
+      - [STR_GUILD_NAVIGATOR]
+      - [STR_GUILD_SHIP_OFFICER]
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_ENGINEER]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_SOLDIER] 
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_SOLDIER] 
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+    retaliationAggression: -100
+  - id: STR_TRANS_STELLAR_UNDERWATER
+    membersRandom:
+      - [STR_GUILD_TEAM_LEADER]
+      - [STR_GUILD_NAVIGATOR]
+      - [STR_GUILD_SHIP_OFFICER]
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SOLDIER] 
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+    retaliationAggression: -100	 	
+  - id: STR_GUILD
+    members:
+      - STR_GUILD_NAVIGATOR
+      - STR_GUILD_SHIP_OFFICER
+      - STR_GUILD_SHIP_OFFICER	  
+      - STR_GUILD_TEAM_LEADER 	
+      - STR_GUILD_TEAM_LEADER 		
+      - STR_GUILD_TEAM_LEADER
+      - STR_GUILD_EXTERMINATOR	
+      - STR_GUILD_SOLDIER
+      - STR_GUILD_SOLDIER 	  
+      - STR_GUILD_SOLDIER 	
+      - STR_GUILD_SOLDIER
+      - STR_GUILD_SOLDIER
+      - STR_GUILD_SOLDIER
+      - STR_GUILD_SOLDIER
+    retaliationAggression: -100	
+  - id: STR_GUILD_UNDERWATER	
+    members:
+      - STR_GUILD_NAVIGATOR
+      - STR_GUILD_SHIP_OFFICER
+      - STR_GUILD_SHIP_OFFICER	  
+      - STR_GUILD_TEAM_LEADER 	
+      - STR_GUILD_TEAM_LEADER 		
+      - STR_GUILD_TEAM_LEADER
+      - STR_GUILD_EXTERMINATOR	
+      - STR_GUILD_EXTERMINATOR
+      - STR_GUILD_SPACEMAN	
+      - STR_GUILD_SPACEMAN
+      - STR_GUILD_SPACEMAN	  
+      - STR_GUILD_EXTERMINATOR	
+      - STR_GUILD_SPACEMAN
+      - STR_GUILD_SPACEMAN 
+    retaliationAggression: -100	 
+  - id: STR_PASSENGERS
+    membersRandom:
+      - [STR_GUILD_TEAM_LEADER]
+      - [STR_GUILD_NAVIGATOR]
+      - [STR_GUILD_SHIP_OFFICER]
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_ENGINEER]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_EXTERMINATOR]
+      - [STR_GUILD_EXTERMINATOR]
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_SOLDIER]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+    retaliationAggression: -100
+  - id: STR_PASSENGERS_UNDERWATER	
+    membersRandom:
+      - [STR_GUILD_TEAM_LEADER]
+      - [STR_GUILD_NAVIGATOR]
+      - [STR_GUILD_SHIP_OFFICER]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_TANKTERROR_CANNON]
+      - [STR_TANKTERROR_CANNON]
+      - [STR_GUILD_GUARD]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_SPACEMAN]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+      - [STR_GUILD_ATTENDANT]
+    retaliationAggression: -100	
+ufopaedia:
+  - id: STR_GUILD
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD
+    text: STR_GUILD_UFOPEDIA
+    text_width: 140
+  - id: STR_TRANS_STELLAR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_TRANS_STELLAR
+   #image_id: TRANS_STELLAR_UFOPEDIA_PICTURE
+    text: STR_TRANS_STELLAR_UFOPEDIA
+    text_width: 180
+    listOrder: 21006
+  - id: STR_GUILD_SOLDIER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_SOLDIER
+   #image_id: TRADER_CIV_UFOPEDIA_PICTURE
+    text: STR_GUILD_SOLDIER_UFOPEDIA
+    text_width: 180
+    listOrder: 21110
+  - id: STR_GUILD_TEAM_LEADER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_TEAM_LEADER
+   #image_id: TRADER_TEAM_LEADER_UFOPEDIA_PICTURE
+    text: STR_GUILD_TEAM_LEADER_UFOPEDIA
+    text_width: 180
+    listOrder: 21112
+  - id: STR_GUILD_ATTENDANT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_ATTENDANT
+   #image_id: TRADER_ATTENDANT_UFOPEDIA_PICTURE
+    text: STR_TRADER_ATTENDANT_UFOPEDIA
+    text_width: 180
+    listOrder: 21115
+  - id: STR_GUILD_EXTERMINATOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_EXTERMINATOR
+   #image_id: TRADER_EXTERMINATOR_UFOPEDIA_PICTURE
+    text: STR_TRADER_EXTERMINATOR_UFOPEDIA
+    text_width: 180
+    listOrder: 21118
+  - id: STR_GUILD_SPACEMAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_SPACEMAN
+   #image_id: TRADER_SPACEMAN_UFOPEDIA_PICTURE
+    text: STR_TRADER_SPACEMAN_UFOPEDIA
+    text_width: 180
+    listOrder: 21119
+  - id: STR_GUILD_ENGINEER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_ENGINEER
+   #image_id: TRADER_ENGINEER_UFOPEDIA_PICTURE
+    text: STR_GUILD_ENGINEER_UFOPEDIA
+    text_width: 180
+    listOrder: 21140
+  - id: STR_GUILD_SHIP_OFFICER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_SHIP_OFFICER
+   #image_id: GUILD_SHIP_OFFICER_UFOPEDIA_PICTURE
+    text: STR_GUILD_SHIP_OFFICER_UFOPEDIA
+    text_width: 180
+    listOrder: 21145
+  - id: STR_GUILD_NAVIGATOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_GUILD_NAVIGATOR
+   #image_id: GUILD_NAVIGATOR_UFOPEDIA_PICTURE
+    text: STR_GUILD_NAVIGATOR_UFOPEDIA
+    text_width: 180
+    listOrder: 21147
+research:
+  - name: STR_GUILD_ATTENDANT
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+  - name: STR_GUILD_NAVIGATOR 
+    cost: 30
+    points: 100
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+      - STR_TRANS_STELLAR
+  - name: STR_GUILD_SHIP_OFFICER 
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+      - STR_TRANS_STELLAR
+  - name: STR_GUILD_SPACEMAN 
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+  - name: STR_GUILD_EXTERMINATOR
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+  - name: STR_TRANS_STELLAR  
+    cost: 0
+    points: 100
+    needItem: false
+    dependencies:
+      - STR_GUILD_SHIP_OFFICER
+      - STR_GUILD_NAVIGATOR
+  - name: STR_GUILD_ENGINEER  
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+  - name: STR_GUILD_TEAM_LEADER   
+    cost: 10
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD
+  - name: STR_GUILD_SOLDIER  
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_GUILD	
+  - name: STR_GUILD 
+    cost: 0
+    points: 100
+    #needItem: false
+    dependencies:
+      - STR_GUILD_ENGINEER
+      - STR_GUILD_EXTERMINATOR
+      - STR_GUILD_ATTENDANT
+      - STR_GUILD_SPACEMAN
+      - STR_GUILD_SHIP_OFFICER
+      - STR_GUILD_NAVIGATOR
+      - STR_GUILD_SOLDIER
+      - STR_GUILD_TEAM_LEADER
+units:	
+  - type: STR_GUILD_SOLDIER
+    race: STR_FLOATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 75
+      health: 40
+      bravery: 50
+      reactions: 20
+      firing: 40
+      throwing: 40
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 30
+      #Mana: 55
+    armor: FLOATER_ARMOR_P1
+    #armor: STR_PEASANT_ARMOR_JUMPSUITM	
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 8
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_GUILD_TEAM_LEADER
+    race: STR_FLOATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 55
+      stamina: 50
+      health: 35
+      bravery: 80
+      reactions: 40
+      firing: 30
+      throwing: 25
+      strength: 25
+      psiStrength: 33
+      psiSkill: 0
+      melee: 25
+      #Mana: 65
+    armor: FLOATER_ARMOR_P10
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 25
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LASER_PISTOL
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE		
+  - type: STR_GUILD_ENGINEER
+    race: STR_FLOATER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 50
+      bravery: 60
+      reactions: 40
+      firing: 55
+      throwing: 55
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+      #Mana: 70
+    armor: FLOATER_ARMOR_P4
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 18
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 7
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:  
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP	  		  	
+  - type: STR_GUILD_EXTERMINATOR
+    race: STR_FLOATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 35
+      bravery: 70
+      reactions: 40
+      firing: 50
+      throwing: 45
+      strength: 38
+      psiStrength: 40
+      psiSkill: 0
+      melee: 35
+      #Mana: 75
+    armor: FLOATER_ARMOR_P8
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 13
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 4
+    aggression: 2
+    sniper: 25
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:  	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP		
+  - type: STR_GUILD_SPACEMAN
+    race: STR_FLOATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 40
+      firing: 45
+      throwing: 40
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 40
+    deathSound: [41, 42, 43]
+    armor: FLOATER_ARMOR_P11
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    energyRecovery: 30
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:  			
+      - - STR_JET_HARPOON
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+        - STR_GRENADE	
+  - type: STR_GUILD_SHIP_OFFICER
+    race: STR_FLOATER
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 90
+      health: 45
+      bravery: 80
+      reactions: 60
+      firing: 60
+      throwing: 40
+      strength: 37
+      psiStrength: 65
+      psiSkill: 0
+      melee: 65
+      #Mana: 100
+    armor: FLOATER_ARMOR_P13
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 35
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 6
+    aggression: 1
+    spotter: 2
+    canSurrender: true
+    builtInWeaponSets: 
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_GUILD_NAVIGATOR
+    race: STR_FLOATER
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 50
+      stamina: 80
+      health: 55
+      bravery: 90
+      reactions: 75
+      firing: 60
+      throwing: 40
+      strength: 33
+      psiStrength: 25
+      psiSkill: 10
+      melee: 50
+      #Mana: 125
+    armor: FLOATER_ARMOR_P14
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 0
+    value: 50
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 8
+    aggression: 0
+    spotter: 3
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SMG
+        - STR_SMG_CLIP
+        - STR_SMG_CLIP			
+  - type: STR_GUILD_ATTENDANT
+    race: STR_FLOATER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 35
+      firing: 35
+      throwing: 30
+      strength: 20
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+      #Mana: 60
+    armor: HUMAN_ARMOR_STEWARDESS
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 4
+    aggression: 0
+    builtInWeaponSets:  	
+      - - STR_COMBAT_KNIFE	
+    canSurrender: true		
+armors:
+  - type: HUMAN_ARMOR_STEWARDESS
+    spriteSheet: HUM_1.PCK
+    spriteInv: TraderAttendantInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 96, 96, 98, 158, 160, 161]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 162, 144, 36, 245, 245, 36, 166]
+    corpseBattle:
+      - STR_HUMAN_1_CORPSE_BATTLE
+    #corpseGeo: STR_GUILD_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.05
+      #bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 1.5
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.85
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: FLOATER_ARMOR_P14
+    spriteSheet: PIR_169.PCK
+    customArmorPreviewIndex: 84
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    weight: 5
+    corpseBattle:
+      - STR_TRADER_14_CORPSE_BATTLE
+    #corpseGeo: STR_CLOTHING_OFFICER
+    personalLight: 5
+    overKill: 1.0
+    stats:
+       tu: 20
+       stamina: 30
+       melee: 25
+       bravery: 100
+       psiStrength: 10
+    visibilityAtDark: 12
+    antiCamouflageAtDay: 5
+    antiCamouflageAtDark: 5
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    meleeDodge:
+      reactions: 0.45
+      melee: 0.15
+      bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      time:
+        tu: 0.5
+        #ManaNormalized: 150.0
+      #Mana:
+        moraleCurrent: -0.07
+        rank: 1.0
+      energy:
+        #ManaNormalized: 36.0
+        healthCurrent: 0.25
+        stunCurrent: -0.2
+      morale:
+        flatHundred: -0.1
+        #ManaNormalized: 14.0
+        moraleCurrent: -0.1777
+        bravery: 0.0888
+      stun:
+        bravery: 1.0
+        rank: 10.0
+        stunCurrent: 0.036
+        flatHundred: -2.1
+        #ManaNormalized: 9.0
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.5
+      moraleCurrent: 0.33
+      bravery: 0.35
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_KUNG_FU
+    loftempsSet: [ 3 ]	
+  - type: FLOATER_ARMOR_P1
+    spriteSheet: PIR_555.PCK
+    forcedTorso: 1	
+    spriteFaceGroup: 6
+    spriteFaceColor: [97, 97, 97, 97, 161, 158, 163, 161, 95, 95, 97, 96, 159, 95, 161, 97, 97, 97, 97, 97, 97, 161, 163, 162, 96, 97, 95, 97, 160, 161, 161, 160, 97, 97, 97, 96, 160, 160, 160, 161, 97, 97, 95, 97, 158, 161, 161, 161, 97, 97, 98, 97, 176, 176, 161, 161, 97, 96, 97, 97, 161, 161, 163, 162]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 165, 165, 20, 246, 246, 167, 246, 246, 246, 165, 34, 246, 246, 246, 20, 36, 144, 246, 146, 146, 246, 246, 20, 160, 146, 163, 162, 34, 246, 246, 246, 225, 160, 230, 145, 22, 176, 20, 246, 163, 246, 163, 34, 163, 210, 36, 246, 144, 223, 246, 246, 146, 32, 246, 246, 33, 160, 246, 34, 146, 163, 246, 246]
+    customArmorPreviewIndex: 130
+    #storeItem: STR_RUNT_OUTFIT
+    corpseBattle:
+      - STR_TRADER_0_CORPSE_BATTLE	  
+    #corpseGeo: STR_GUILD_CORPSE
+    weight: -4
+    visibilityAtDark: 9
+    camouflageAtDay: -6
+    camouflageAtDark: -2
+    personalLight: 5
+    overKill: 0.75
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 8
+    stats:
+       reactions: 10
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #time:
+        #tu: 0.5
+        #ManaNormalized: 125.0
+      #Mana:
+        #moraleCurrent: -0.014
+      #energy:
+        #ManaNormalized: 20.0
+        #healthCurrent: 0.25
+        #stunCurrent: -0.2
+      #stun:
+        #healthCurrent: 0.06
+        #health: -0.08
+        #stunCurrent: 0.063
+        #ManaNormalized: 6.0
+      #morale:
+        #flatHundred: -0.1
+        #flatOne 2.0
+        #ManaNormalized: 14.0
+        #moraleCurrent: -0.1777
+        #bravery: 0.0978
+      #health:
+        #stunNormalized: -0.165
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.2
+      #moraleCurrent: 0.33
+      #bravery: 0.3
+    damageModifier:
+      - 0.5
+      - 0.8
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 1.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 3 ]
+  - type: FLOATER_ARMOR_P10
+    spriteSheet: TRD_10.PCK
+    spriteInv: TraderTeamLeaderInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 160, 160, 160, 160, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 34, 164, 245, 166, 245, 166]
+    corpseBattle:
+      - STR_TRADER_10_CORPSE_BATTLE
+    #corpseGeo: STR_GUILD_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.1
+      #bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      #stun: *SECTION_STUN_RECOVERY_TOUGH
+      #health: *SECTION_HEALTH_RECOVERY_TOUGH
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.2
+      - 1.0
+      - 1.4
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: AUX_FISTO
+    loftempsSet: [ 2 ]	
+  - type: FLOATER_ARMOR_P4
+    spriteSheet: TRD_3.PCK
+    spriteInv: TraderEngineerInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    corpseBattle:
+      - STR_TRADER_3_CORPSE_BATTLE
+    #corpseGeo: STR_GUILD_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 20
+    sideArmor: 18
+    rearArmor: 16
+    underArmor: 12
+    meleeDodge:
+      reactions: 0.2
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.4
+      - 1.0
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.9
+      - 0.8
+      - 1.25
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: FLOATER_ARMOR_P8
+    spriteSheet: TRD_8.PCK
+    spriteInv: TraderExterminatorInventoryImage
+    corpseBattle:
+      - STR_TRADER_8_CORPSE_BATTLE
+    #corpseGeo: STR_GRAV_CORPSE
+    visibilityAtDark: 16
+    heatVision: 40
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    drawingRoutine: 0
+    movementType: 1
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_TOUGH
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      #health: *SECTION_HEALTH_RECOVERY_TOUGH
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    #specialWeapon: STR_UNARMED_BASIC
+    loftempsSet: [ 2 ]
+  - type: FLOATER_ARMOR_P11
+    spriteSheet: TRD_11.PCK
+    spriteInv: TraderSpacemanInventoryImage
+    corpseBattle:
+      - STR_TRADER_11_CORPSE_BATTLE
+    #corpseGeo: STR_GUILD_CORPSE
+    visibilityAtDark: 30
+    movementType: 1
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 9
+    meleeDodge:
+      reactions: 0.1
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+      #stun: &SECTION_STUN_RECOVERY_EVA
+        #healthCurrent: 0.1
+        #health: -0.1
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 1.0
+      - 0.8
+      - 0.9
+      - 0.7
+      - 1.0
+      - 0.7
+      - 0.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: FLOATER_ARMOR_P13
+    spriteSheet: TRD_13.PCK
+    spriteInv: GuildShipOfficerInventoryImage
+    corpseBattle:
+      - STR_TRADER_13_CORPSE_BATTLE
+    #corpseGeo: STR_GUILD_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+      #bravery: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_IMPROVED
+    damageModifier:
+      - 0.6
+      - 1.0
+      - 1.5
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.75
+      - 3.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]	
+items:
+  - type: STR_TRADER_8_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 45
+    bigSprite: 3528
+    floorSprite: 3528
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 55
+  - type: STR_TRADER_11_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3821
+    floorSprite: 3821
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45
+  - type: STR_TRADER_10_CORPSE_BATTLE
+    #supportedInventorySections: *InventorySectionsStandard
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 3820
+    floorSprite: 3820
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_TRADER_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3523
+    floorSprite: 3523
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40	
+  - type: STR_TRADER_13_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3823
+    floorSprite: 3823
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 8
+    armor: 40
+  - type: STR_HUMAN_1_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3701
+    floorSprite: 3701
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40	
+  - type: STR_TRADER_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3504
+    floorSprite: 3504
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recoveryPoints: 5
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11		
+  - type: STR_TRADER_14_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3169
+    floorSprite: 3169
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 8
+    armor: 40	
+  - type: STR_GUILD_CORPSE
+    categories: [STR_BAT_CAT_RESOURCE]
+    #supportedInventorySections: *InventorySectionsStandard
+    size: 0.1
+    costSell: 500
+    bigSprite: 3645
+    floorSprite: 3629
+    weight: 4
+    costThrow:
+      energy: 8
+      time: 40
+    invWidth: 2
+    invHeight: 2
+    armor: 80	
+  - type: STR_GUILD_SOLDIER
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 25000	
+  - type: STR_GUILD_TEAM_LEADER
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 40000		
+  - type: STR_GUILD_EXTERMINATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1		
+    costSell: 35000	
+  - type: STR_GUILD_ATTENDANT
+    transferTime: 72
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1		
+    costSell: 35000			
+  - type: STR_GUILD_SPACEMAN
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 40000			
+  - type: STR_GUILD_ENGINEER
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 70000
+    transferTime: 180
+  - type: STR_GUILD_SHIP_OFFICER
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 160000	
+  - type: STR_GUILD_NAVIGATOR
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 250000

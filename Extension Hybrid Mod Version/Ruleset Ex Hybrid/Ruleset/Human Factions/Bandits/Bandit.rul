@@ -1,0 +1,1492 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GOLDCOIN: "Gold Bar"	
+      STR_GOLDCOIN_UFOPEDIA: "The classic currency exchange for the humanity since its discovery from the dawn of time. This golden metal's universal value has never diminished ever since. Favoured by all factions in the exchange of goods and it is a rare commodity even the aliens are also attracted."	  
+      STR_PLATINUMCOIN: "Platinum Bar"	
+      STR_PLATINUMCOIN_UFOPEDIA: "Even rarer than gold, this metal set the bar when it comes to high class and high trade exchange. Where a bar is usually enough to buy a person into retirement."		
+      STR_BANDIT: "Bandits"	
+      STR_BANDIT_UFOPEDIA: "Hail from the often lawless countries and down-trodden societies, to make a quick buck and at the expense of others, these bridgands will do anything for a living. Ruthless and vicious, they will even kill the helpless for their possessions. However, they are often disorganised and ill-equipped. It is the only sole disadvantage these scum has, when it comes to their extermination."	 	
+      STR_BANDIT_TOWN: "Town Bandits"
+      STR_BANDIT_ROBBERS: "Robbers and Bandits"
+      STR_BANDIT_VILLAGE: "Village Bandits"
+      STR_RATMEN: "Pirates"  	  
+      STR_BANDIT_RATMAN_UFOPEDIA: "The Pirates are the sea version of the Bandits. No different than their land version cousins,they still loot and kill, on ship instead of on land."
+      STR_BANDIT_RATMAN_HUNTER_UFOPEDIA: "More experience of the Pirates, these are harden veterans from a few Pirate raids. Treat them with extreme respect when killing them, for they are more dangerous than your average Pirate"	
+      STR_BANDIT_RATMAN_STORMRAT_UFOPEDIA:  "The Stormrates are the more elite ranks of Pirates, very experience and dangerous, wearing expensive body armour purchase from their loots and with good weapons, they are a force to reckon with."
+      STR_BANDIT_RATMAN_LEADER_UFOPEDIA: "Boss of the Pirate gang, they are in charge of any Pirate raids and is usually a very good organiser and charismatic. Capturing or killing one will often earn you a very good bounty."
+      STR_BANDIT_BOY_UFOPEDIA: "The saddest part of the Bandit story, a boy, usually an often from the street, recruited to be a future bandit and pirate. Usually they are too brainwashed to know what is good or bad."	  
+      STR_BANDIT_HIGHWAYMAN_UFOPEDIA: "The Highwaymen are road robbers, they often held up cars on dirt road with their guns and rob poor souls that come in their way."
+      STR_BANDIT_DRIFTER_UFOPEDIA: "Drifters are often loners that wander from town to town for a buck, either they kill or rob someone for that buck. Uncaring what life is in the future."
+      STR_BANDIT_RUFFIAN_UFOPEDIA: "Among the Bandits, the ruffians are wild and unpredicatable. So this reflect their nature when it comes to robbing people. They do so in the most terrifying ways possible."
+      STR_BANDIT_TROUBLEMAKER_UFOPEDIA: "Trouble makers are often rebels who hated the rules and laws of society. Yet too poor to survive, other than robbing the unfortunate for a buck to survive."
+      STR_BANDIT_DUDE_UFOPEDIA: "These are usually drug dealers and suppliers, knowledgable and cool. Uncaring about the law and not shy of using rutless methods to make a buck if they can."
+      STR_BANDIT_FUSSBALLER_UFOPEDIA: "Known as Berserkers, these bandits are often too high on drugs to care about the living, they terrorised their victims with shouts and war cry before robbing them. Most are mentally ill."
+      STR_BANDIT_HITMAN_UFOPEDIA: "The Hitmen are educated bandits. They know the deals and know how of robbing banks, they do research and investigation on a bank before robbing them."
+      STR_BANDIT_BOSS_UFOPEDIA: "Often Charismatic and uneducated, these bandit bosses got the brains and know how to knock a bunch of bandits together and form a unit. So together they stand a chance at smashing a bigger target, yet they lack the weapons and organization to make them deadly. Big factions pay good money for the death and capture of these boss."
+      STR_BANDIT_TOMB_RUNNER_UFOPEDIA: "These are often Tomb raiders. Vutures having no respect for the dead and raid them of their belongings. Often the most cowardly in the bandit ranks."  
+      STR_BANDIT_RUFFIAN: "Ruffian" #no change
+      STR_BANDIT_TOMB_RUNNER: "Tomb Runner" #No change	  
+      STR_BANDIT_BOSS: "Bandit Boss" #Not done		  
+      STR_BANDIT_RATMAN: "Pirate"
+      STR_BANDIT_RATMAN_HUNTER: "Pirate Brigand" #No change.
+      STR_BANDIT_RATMAN_STORMRAT: "Stormrat"
+      STR_BANDIT_RATMAN_LEADER: "Pirate Mob Lieutenant"	   
+      STR_BANDIT_FUSSBALLER: "Baller" #Done	
+      STR_BANDIT_HIGHWAYMAN: "Highwayman"
+      STR_BANDIT_TROUBLEMAKER: "Troublemaker" #no change
+      STR_BANDIT_DUDE: "Brigand" #no change
+      STR_BANDIT_HITMAN: "Hitman"	  
+      STR_BANDIT_BOY: "Bandit Runt" #no change
+      STR_BANDIT_DRIFTER: "Drifter" # No change
+      STR_BANDIT_RUFFIANID: "Ruffian ID" #no change
+      STR_BANDIT_TOMB_RUNNERID: "Tomb Runner ID" #No change	  
+      STR_BANDIT_BOSSID: "Bandit Boss ID" #Not done		  
+      STR_BANDIT_RATMANID: "Pirate ID"
+      STR_BANDIT_RATMAN_HUNTERID: "Pirate Brigand ID" #No change.
+      STR_BANDIT_RATMAN_STORMRATID: "Stormrat ID"
+      STR_BANDIT_RATMAN_LEADERID: "Pirate Mob Lieutenant ID"	   
+      STR_BANDIT_FUSSBALLERID: "Baller ID" #Done	
+      STR_BANDIT_HIGHWAYMANID: "Highwayman ID"
+      STR_BANDIT_TROUBLEMAKERID: "Troublemaker ID" #no change
+      STR_BANDIT_DUDEID: "Brigand ID" #no change
+      STR_BANDIT_HITMANID: "Hitman ID"	  
+      STR_BANDIT_BOYID: "Bandit Runt ID" #no change
+      STR_BANDIT_DRIFTERID: "Drifter ID" # No change  
+      BANDIT_ARMOR_P0: "Pirate Examination"
+      BANDIT_ARMOR_P7: "Pirate Brigand Examination"
+      BANDIT_ARMOR_P5: "Pirate Mob Lieutenant Examination"
+      BANDIT_ARMOR_P1: "Ghoul Examination"
+      BANDIT_ARMOR_P8: "Ghoul Soldier Examination"
+      BANDIT_ARMOR_P9: "B-Boy Examination"
+      BANDIT_ARMOR_P2: "Highwayman Examination"
+      BANDIT_ARMOR_P3: "Drifter Examination"
+      BANDIT_ARMOR_P16: "Ruffian Examination"
+      BANDIT_ARMOR_P17: "Troublemaker Examination"
+      BANDIT_ARMOR_P18: "Stormrat Examination"
+      BANDIT_ARMOR_P13: "Baller Examination"
+      BANDIT_ARMOR_P12: "Brigand Armor"
+      BANDIT_ARMOR_P14: "Hitman Examination"
+      BANDIT_ARMOR_P15: "Bandit Boss Examination"
+      BANDIT_ARMOR_P11: "Tomb Runner Examination"
+      BANDIT_ARMOR_P6: "Blood Hound Examination"  	
+      BANDIT_ARMOR_P0_UFOPEDIA: "Pirate Examination. NV: 15. CAMO: 8/1"
+      BANDIT_ARMOR_P7_UFOPEDIA: "Pirate Brigand Examination. NV: 15. CAMO 12/4."
+      BANDIT_ARMOR_P5_UFOPEDIA: "Pirate Mob Lieutenant Examination. NV: 15. CAMO: 6/1"
+      BANDIT_ARMOR_P1_UFOPEDIA: "Ghoul Examination. NV: 12. ThV: 50%"
+      BANDIT_ARMOR_P8_UFOPEDIA: "Ghoul Soldier Examination. NV: 16. ThV: 70%"
+      BANDIT_ARMOR_P9_UFOPEDIA: "B-Boy Examination. NV: 9."
+      BANDIT_ARMOR_P2_UFOPEDIA: "Highwayman Examination. NV: 9. CAMO 0/2."
+      BANDIT_ARMOR_P3_UFOPEDIA: "Drifter Examination. NV: 9."
+      BANDIT_ARMOR_P16_UFOPEDIA: "Ruffian Examination. NV: 9."
+      BANDIT_ARMOR_P17_UFOPEDIA: "Troublemaker Examination. NV: 9."
+      BANDIT_ARMOR_P18_UFOPEDIA: "Stormrat Examination. NV: 15. ThV: 30%. CAMO 8/3"
+      BANDIT_ARMOR_P13_UFOPEDIA: "Baller Examination. NV: 9."
+      BANDIT_ARMOR_P12_UFOPEDIA: "Brigand Armor. NV: 9."
+      BANDIT_ARMOR_P14_UFOPEDIA: "Hitman Examination. NV: 12. ThV: 20%. SPOT: 3"
+      BANDIT_ARMOR_P15_UFOPEDIA: "Bandit Boss Examination. NV: 12. ThV: 20%"
+      BANDIT_ARMOR_P11_UFOPEDIA: "Tomb Runner Examination. NV: 12. CAMO 3/3."
+      BANDIT_ARMOR_P6_UFOPEDIA: "Blood Hound Examination. NV: 16. ThV: 50%"	
+      STR_BANDIT_TROUBLEMAKER_SALVAGE: "s: Troublemaker (0/0/2)"
+      STR_BANDIT_DUDE_SALVAGE: "S: Brigand (1/2/0)"
+      STR_BANDIT_FUSSBALLER_SALVAGE: "S: Baller (0/2/1)"	  
+      STR_BANDIT_HIGHWAYMAN_ROBBERY: "Interrogate: Highwayman (0/0/3)"
+      STR_BANDIT_BOY_ROBBERY: "Interrogate: B-Boy (0/0/2)"
+      STR_BANDIT_DRIFTER_ROBBERY: "Interrogate: Drifter (0/1/1)"
+      STR_BANDIT_RUFFIAN_ROBBERY: "Interrogate: Ruffian (0/1/1)"
+      STR_BANDIT_TROUBLEMAKER_ROBBERY: "Interrogate: Troublemaker (0/0/2)"
+      STR_BANDIT_DUDE_ROBBERY: "Interrogate: Brigand (1/2/0)"
+      STR_BANDIT_FUSSBALLER_ROBBERY: "Interrogate: Baller (0/2/1)"
+      STR_BANDIT_HITMAN_ROBBERY: "Interrogate: Hitman (1/1/0)"
+      STR_BANDIT_BOSS_ROBBERY: "Interrogate: Bandit Boss (1!/2/1)"
+      STR_BANDIT_TOMB_RUNNER_ROBBERY: "Interrogate: Tomb Runner (0/1/1)"
+      STR_BANDIT_RATMAN_STORMRAT_ROBBERY: "Interrogate: Stormrat (0/3/3)"
+      STR_BANDIT_RATMAN_LEADER_ROBBERY: "Interrogate: Ratman Ldr. (0/2/1)"	   
+      STR_BANDIT_GHOUL: "Ghoul" #Find a zombie thing from 40k or Rosesigma
+      STR_BANDIT_GHOUL_SCI: "Ghoul Soldier" #Change to scientist  
+      STR_BANDIT_GHOUL_UFOPEDIA: "These despicable creatures suffer from the horrible Necron disease. The full enviro suits they wear protect both themselves from their surroundings, and vice versa. They sometimes conduct 'harvest' raids to replace their failing organs with fresh ones, taken from their victims. They live in small communities, known for their medical and chemical knowledge. The disease they suffer from, apart from disfiguration, decay and horrible smell, also gives them some unique feats - like the ability to regenerate lost health during battle, at the cost of a major strain to their bodies. They're immune to chem and smoke, and resistant to daze, laser and concussion. Their sole weakness is Burn damage, but when they stop burning, they just regenerate back. They see through smoke quite well (ThV: 50%). Better to kill them fast to avoid trouble."
+alienRaces:
+  - id: STR_BANDIT_ROBBERS
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_TOMB_RUNNER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_TOMB_RUNNER
+      - STR_BANDIT_DUDE
+  - id: STR_BANDIT_ROBBERS_UNDERWATER	
+    members:
+      - STR_HUMAN_MASTER #Not done
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_TOMB_RUNNER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_TOMB_RUNNER #Not done
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+  - id: STR_BANDIT_TOWN
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_BOY
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE  
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+    retaliationAggression: -100
+  - id: STR_BANDIT_TOWN_UNDERWATER	
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_BOY
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+    retaliationAggression: -100
+  - id: STR_BANDIT
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_BOY
+      - STR_BANDIT_BOY
+    retaliationAggression: -100
+  - id: STR_BANDIT_UNDERWATER	
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_RUFFIAN
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_RUFFIAN
+      - STR_BANDIT_BOY
+      - STR_BANDIT_DRIFTER
+  - id: STR_BANDIT_VILLAGE
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_RUFFIAN
+      - STR_BANDIT_BOY
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_BOY
+      - STR_BANDIT_FUSSBALLER	  
+    retaliationAggression: -100
+  - id: STR_BANDIT_VILLAGE_UNDERWATER	
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_RUFFIAN
+      - STR_BANDIT_BOY
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_BOY
+      - STR_BANDIT_FUSSBALLER		  
+  - id: STR_RATMEN
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_BOY
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_BOY
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_DRIFTER
+    retaliationAggression: -100
+  - id: STR_RATMEN_UNDERWATER	
+    members:
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_DRIFTER	
+      - STR_BANDIT_BOY
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_BOY
+      - STR_BANDIT_DRIFTER	
+      - STR_BANDIT_DRIFTER	
+    retaliationAggression: -100	
+ufopaedia:
+  - id: STR_BANDIT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT
+    text: STR_BANDIT_UFOPEDIA
+    text_width: 100
+    listOrder: 23500
+  - id: STR_BANDIT_BOY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_BOY
+    text: STR_BANDIT_BOY_UFOPEDIA
+    text_width: 180
+    listOrder: 23531
+  - id: STR_BANDIT_HIGHWAYMAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_HIGHWAYMAN
+    text: STR_BANDIT_HIGHWAYMAN_UFOPEDIA
+    text_width: 180
+    listOrder: 23532
+  - id: STR_BANDIT_DRIFTER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_DRIFTER
+    text: STR_BANDIT_DRIFTER_UFOPEDIA
+    text_width: 180
+    listOrder: 23533
+  - id: STR_BANDIT_RUFFIAN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_RUFFIAN
+    text: STR_BANDIT_RUFFIAN_UFOPEDIA
+    text_width: 180
+    listOrder: 23534
+  - id: STR_BANDIT_TROUBLEMAKER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_TROUBLEMAKER
+    text: STR_BANDIT_TROUBLEMAKER_UFOPEDIA
+    text_width: 180
+    listOrder: 23535
+  - id: STR_BANDIT_FUSSBALLER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_FUSSBALLER
+    text: STR_BANDIT_FUSSBALLER_UFOPEDIA
+    text_width: 180
+    listOrder: 23536
+  - id: STR_BANDIT_DUDE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_DUDE
+    text: STR_BANDIT_DUDE_UFOPEDIA
+    text_width: 180
+    listOrder: 23537
+  - id: STR_BANDIT_TOMB_RUNNER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BANDIT_TOMB_RUNNER
+    text: STR_BANDIT_TOMB_RUNNER_UFOPEDIA
+    text_width: 180
+    listOrder: 23540
+research:
+  - name: STR_BANDIT  
+    cost: 0
+    points: 50
+    needItem: false
+    dependencies:
+      - STR_BANDIT_BOY
+      - STR_BANDIT_HIGHWAYMAN
+      - STR_BANDIT_DRIFTER
+      - STR_BANDIT_RUFFIAN
+      - STR_BANDIT_TROUBLEMAKER
+      - STR_BANDIT_DUDE
+      - STR_BANDIT_FUSSBALLER
+      - STR_BANDIT_TOMB_RUNNER  
+  - name: STR_BANDIT_BOY 
+    cost: 5
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_HIGHWAYMAN 
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_DRIFTER    
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_RUFFIAN   
+    cost: 7
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_TROUBLEMAKER    
+    cost: 5
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_DUDE   
+    cost: 7
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_FUSSBALLER    
+    cost: 7
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+  - name: STR_BANDIT_TOMB_RUNNER   
+    cost: 10
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_BANDIT
+units:	
+  - type: STR_BANDIT_FUSSBALLER
+    race: STR_BANDIT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 70
+      reactions: 50
+      firing: 35
+      throwing: 67
+      strength: 44
+      psiStrength: 35
+      psiSkill: 0
+      melee: 70
+      #Mana: 70
+    armor: BANDIT_ARMOR_P13
+    standHeight: 21
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    energyRecovery: 45
+    intelligence: 2
+    aggression: 4
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_BANDIT_HIGHWAYMAN
+    race: STR_BANDIT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 50
+      stamina: 50
+      health: 45
+      bravery: 70
+      reactions: 40
+      firing: 50
+      throwing: 35
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 50
+      #Mana: 85
+    armor: BANDIT_ARMOR_P2
+    standHeight: 21
+    kneelHeight: 14
+    value: 12
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 4
+    aggression: 1
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_BANDIT_DUDE
+    race: STR_BANDIT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 55
+      stamina: 50
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 50
+      throwing: 40
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+      #Mana: 75
+    armor: BANDIT_ARMOR_P12
+    standHeight: 21
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 3
+    aggression: 2
+    canSurrender: true	
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_BANDIT_DRIFTER
+    race: STR_BANDIT
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 60
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 55
+      firing: 60
+      throwing: 45
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 55
+      #Mana: 85
+    armor: BANDIT_ARMOR_P3
+    standHeight: 21
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    sniper: 25
+    spotter: 0
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE	
+        - STR_GRENADE		
+        - STR_GRENADE		
+  - type: STR_BANDIT_BOY
+    race: STR_BANDIT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 70
+      health: 27
+      bravery: 50
+      reactions: 50
+      firing: 35
+      throwing: 40
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 45
+      #Mana: 65
+    armor: BANDIT_ARMOR_P9
+    deathSound: [41, 42, 43]	
+    standHeight: 21
+    kneelHeight: 14
+    value: 5
+    deathSound: 41
+    panicSound: 355
+    berserkSound: 371
+    energyRecovery: 35
+    intelligence: 3
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE	
+        - STR_COMBAT_KNIFE
+  - type: STR_BANDIT_RUFFIAN
+    race: STR_BANDIT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 50
+      reactions: 40
+      firing: 40
+      throwing: 45
+      strength: 30
+      psiStrength: 30
+      psiSkill: 0
+      melee: 45
+      #Mana: 70
+    armor: BANDIT_ARMOR_P16
+    standHeight: 21
+    kneelHeight: 14
+    value: 15
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE	
+  - type: STR_BANDIT_TROUBLEMAKER
+    race: STR_BANDIT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 63
+      stamina: 70
+      health: 30
+      bravery: 60
+      reactions: 45
+      firing: 35
+      throwing: 40
+      strength: 25
+      psiStrength: 25
+      psiSkill: 0
+      melee: 35
+      #Mana: 70
+    armor: BANDIT_ARMOR_P17
+    standHeight: 21
+    kneelHeight: 14
+    value: 5
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 2
+    aggression: 2
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_BANDIT_TOMB_RUNNER
+    race: STR_BANDIT
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 80
+      health: 40
+      bravery: 60
+      reactions: 62
+      firing: 55
+      throwing: 55
+      strength: 28
+      psiStrength: 45
+      psiSkill: 0
+      melee: 55
+      #Mana: 75
+    armor: BANDIT_ARMOR_P11
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 4
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_GRENADE	
+armors:
+  - type: BANDIT_ARMOR_P18
+    spriteSheet: PIRATESHEET.PCK
+    spriteInv: PIRATEINV
+    corpseBattle:
+      - STR_BAN_18_CORPSE_BATTLE
+    ##corpseGeo: STR_SPARTAN_CORPSE	  
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    forcedTorso: 1		
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		  
+    loftempsSet: [ 3 ] 
+  - type: BANDIT_ARMOR_P5
+    spriteSheet: ZSRR_UBEK.PCK
+    spriteInv: inventory_ZSRR_UBEK
+    weight: 5
+    corpseBattle:
+      - STR_BAN_5_CORPSE_BATTLE
+    ##corpseGeo: STR_MEDALLION	
+    visibilityAtDark: 11
+    frontArmor: 4
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: BANDIT_ARMOR_P7
+    spriteSheet: HUM_3.PCK
+    spriteInv: HumanMale3InventoryImage
+    corpseBattle:
+      - STR_BAN_7_CORPSE_BATTLE
+    ##corpseGeo: STR_FOOD_BAG	  
+    visibilityAtDark: 9
+    frontArmor: 3
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 1.0 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: BANDIT_ARMOR_P0
+    spriteSheet: WESTMAN.PCK
+    spriteInv: inventory_WESTMAN
+    corpseBattle:
+      - STR_BAN_0_CORPSE_BATTLE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    visibilityAtDark: 9
+    frontArmor: 2
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		  
+    loftempsSet: [ 3 ] 
+  - type: BANDIT_ARMOR_P13
+    spriteSheet: PIR_7.PCK
+    customArmorPreviewIndex: 22
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_BAN_13_CORPSE_BATTLE
+    weight: 4
+    personalLight: 5
+    visibilityAtDark: 12
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    damageModifier:
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]  
+  - type: BANDIT_ARMOR_P14
+    spriteSheet: PIRATESSSHEET.PCK
+    spriteInv: PIRATESSINV
+    corpseBattle:
+      - STR_BAN_14_CORPSE_BATTLE
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]  
+  - type: BANDIT_ARMOR_P15
+    spriteSheet: PIRATESHEET.PCK
+    spriteInv: PIRATEINV
+    corpseBattle:
+      - STR_BAN_15_CORPSE_BATTLE
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    forcedTorso: 1		
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		  
+    loftempsSet: [ 3 ] 
+  - type: BANDIT_ARMOR_P16
+    spriteSheet: BAN_16.PCK
+    spriteInv: RuffianInventoryImage
+    corpseBattle:
+      - STR_BAN_16_CORPSE_BATTLE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 96, 160, 160, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.45
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.4
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 3.5
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: BANDIT_ARMOR_P17
+    spriteSheet: BAN_17.PCK
+    spriteInv: RuffianFemInventoryImage
+    corpseBattle:
+      - STR_BAN_17_CORPSE_BATTLE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 96, 160, 160, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+  - type: BANDIT_ARMOR_P2
+    spriteSheet: MUT_6.PCK
+    spriteInv: YoungUberInventoryImage
+    corpseBattle:
+      - STR_BAN_2_CORPSE_BATTLE
+    ##corpseGeo: STR_SCRAPMETAL	
+    visibilityAtDark: 12
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      #morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      #stun: *SECTION_STUN_RECOVERY_NORMAL
+      #health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: &SECTION_PSIDEF_UBER
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 0.8
+      - 2.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]  
+  - type: BANDIT_ARMOR_P11
+    spriteSheet: BAN_11.PCK
+    spriteInv: TombRunnerInventoryImage
+    corpseBattle:
+      - STR_BAN_11_CORPSE_BATTLE
+    visibilityAtDark: 12
+    camouflageAtDark: -3
+    camouflageAtDay: -3
+    frontArmor: 8
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.45
+      melee: 0.15
+      #bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.7
+      - 0.7
+      - 3.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]	
+  - type: BANDIT_ARMOR_P3
+    spriteSheet: BAN_3.PCK
+    spriteInv: DrifterInventoryImage
+    corpseBattle:
+      - STR_BAN_3_CORPSE_BATTLE
+    visibilityAtDark: 9
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.15
+      #bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      #morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.1
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]	
+  - type: BANDIT_ARMOR_P9
+    spriteSheet: BAN_9.PCK
+    spriteInv: BanditBoyInventoryImage
+    corpseBattle:
+      - STR_BAN_9_CORPSE_BATTLE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 96, 160, 160, 163]
+    visibilityAtDark: 9
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.1
+      #bravery: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]
+  - type: BANDIT_ARMOR_P12
+    spriteSheet: BAN_12.PCK
+    spriteInv: BanditDudeInventoryImage
+    corpseBattle:
+      - STR_BAN_12_CORPSE_BATTLE
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 96, 160, 160, 163]
+    visibilityAtDark: 9
+    frontArmor: 16
+    sideArmor: 10
+    rearArmor: 12
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 1.5
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.85
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]		
+items:	
+  - type: STR_BOUNTYOSIINVESTIGATIONSMALL	
+    recoveryTransformations:
+      STR_GOLDCOIN: [3]
+      #STR_GOODREPUTATION: [1]	
+  - type: STR_BOUNTYOSIINVESTIGATIONMED	
+    recoveryTransformations:
+      STR_GOLDCOIN: [8]
+      #STR_GOODREPUTATION: [1]	
+  - type: STR_BOUNTYOSIINVESTIGATIONLARGE	
+    recoveryTransformations:
+      STR_PLATINUMCOIN: [1]
+      STR_GOLDCOIN: [5]	  
+      #STR_GOODREPUTATION: [2]
+  - type: STR_GOLDCOIN
+    size: 0
+    costBuy: 100000
+    costSell: 100000
+    weight: 1
+    battleType: 0
+  - type: STR_PLATINUMCOIN
+    size: 0
+    costBuy: 1000000
+    costSell: 1000000
+    weight: 1
+    battleType: 0	
+  - type: STR_BAN_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_BAN_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3603
+    floorSprite: 3603
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40	
+  - type: STR_BAN_9_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3609
+    floorSprite: 3609
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 1
+    armor: 40
+  - type: STR_BAN_11_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3611
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 1
+    armor: 40
+  - type: STR_BAN_12_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3612
+    floorSprite: 3612
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 1
+    armor: 50
+  - type: STR_BAN_13_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3907
+    floorSprite: 3111
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 1
+    armor: 40
+  - type: STR_BAN_14_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 1
+    armor: 45
+  - type: STR_BAN_15_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 60
+    bigSprite: 3200
+    floorSprite: 3913
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 60
+    battleType: 11
+    recoveryPoints: 3
+  - type: STR_BAN_18_CORPSE_BATTLE
+    name: STR_CORPSE
+    #categories: [STR_CORPSES]
+    weight: 22
+    costSell: 500
+    size: 1.0
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: true
+    recoveryPoints: 5	
+  - type: STR_BAN_16_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3616
+    floorSprite: 3616
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_BAN_17_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3617
+    floorSprite: 3617
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 3
+    armor: 40	
+  - type: STR_BAN_5_CORPSE_BATTLE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    armor: 25
+    battleType: 11
+    recover: true
+    recoveryPoints: 5
+    costSell: 1	
+  - type: STR_BAN_7_CORPSE_BATTLE
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    recover: true
+    recoveryPoints: 5
+    costSell: 1
+    armor: 40	
+  - type: STR_BAN_0_CORPSE_BATTLE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3200
+    floorSprite: 3913
+    invWidth: 2
+    invHeight: 3
+    armor: 25
+    battleType: 11
+    recover: true
+    recoveryPoints: 5
+    costSell: 1		
+  - type: STR_BANDIT_BOY
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 2000
+  - type: STR_BANDIT_HIGHWAYMAN
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    prisonType: 1	
+    recover: true
+    liveAlien: true
+    costSell: 3500
+  - type: STR_BANDIT_DRIFTER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 2500				
+  - type: STR_BANDIT_DUDE
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 5000	
+  - type: STR_BANDIT_FUSSBALLER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1	
+    costSell: 5000
+  - type: STR_BANDIT_TROUBLEMAKER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 50000	
+  - type: STR_BANDIT_RUFFIAN
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 50000	
+  - type: STR_BANDIT_TOMB_RUNNER
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 50000	

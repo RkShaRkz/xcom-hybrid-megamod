@@ -1,0 +1,147 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_DEBTOR: "Debtor"
+      STR_DEBTOR_UFOPEDIA: "The debtor has squeal out of this loot during interrogation. Aside from the debt recovered, we also get a share of the loot."	  
+      STR_DEBTCOLLECTION: "Debt Collection"
+      STR_LOC_BARN_GROX_TITLE: "Debt Collection"
+      STR_MARKER_LOC_BARN_GROX: "Debt Collection"
+      STR_LOC_BARN_GROX_BRIEFING: "The Mercenary guild has an easy job for you. There's a dude owning a lot of debt to the guild and we wants to have a chat with him. The fellow is a bit hard to find, because he has since gone into hiding. The Guild only has a vague location of where the fellow is, your job is to find, capture and bring the fellow to us."  
+ufopaedia:
+  - id: STR_DEBTOR
+    requires:
+      - STR_DEBTOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_DEBTOR_UFOPEDIA
+alienDeployments:
+  - type: STR_DEBTCOLLECTION
+    alert: STR_DEBTCOLLECTION
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      	
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_BARN_GROX_BRIEFING
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 7
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_BARN_GROX_TITLE
+      desc: STR_LOC_BARN_GROX_BRIEFING
+    markerName: STR_MARKER_LOC_BARN_GROX
+    duration: [10, 18]
+    width: 50
+    length: 50
+    height: 9
+    #turnLimit: 5
+    #chronoTrigger: 3 #(0-lose, 1-abort, 2-win)
+    customUfo: STR_DEBTORHOUSE
+    script: GENERALSPAWN
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_BARN_GROX
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 100
+    waves:
+      - ufo: STR_DEBTCOLLECTION
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+items:		
+  - type: STR_DEBTOR
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+  - type: STR_DEBTOR_SPAWNER
+    spawnUnit: STR_DEBTOR
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	
+ufos:
+  - type: STR_DEBTORHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10
+          items:
+            STR_DEBTOR_SPAWNER:                          
+              - [3, 3, 0]             
+          fuseTimers:            
+            STR_DEBTOR_SPAWNER: [0, 0]		  
+units:		
+  - type: STR_DEBTOR
+    race: STR_CIVILIANZ_1
+    rank: STR_LIVE_SOLDIER	
+    stats: 
+      tu: 45
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_MALE_CIVILIAN_TECHNICIAN_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]  				  
+missionScripts:
+  - type: GroxBarn
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_BARN_GROX: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true 

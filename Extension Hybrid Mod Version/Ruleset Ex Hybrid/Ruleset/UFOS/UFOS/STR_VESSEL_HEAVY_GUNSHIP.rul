@@ -1,0 +1,182 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VESSEL_HEAVY_GUNSHIP: Heavy Gunship
+      STR_VESSEL_HEAVY_GUNSHIP_UFOPEDIA: "A more heavily armed version of the Patrol ufo, this version of the ufo is design to tackle heavier enemies that operate within of the Alien conquered dominion."
+ufopaedia:
+  - id: STR_VESSEL_HEAVY_GUNSHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_HEAVY_GUNSHIP
+    text: STR_VESSEL_HEAVY_GUNSHIP_UFOPEDIA
+research:
+  - name: STR_VESSEL_HEAVY_GUNSHIP
+    points: 50
+    cost: 180	
+    needItem: true	
+    lookup: STR_VESSEL_HEAVY_GUNSHIP
+ufos:
+  - type: STR_VESSEL_HEAVY_GUNSHIP
+    size: STR_MEDIUM_UC
+    modSprite: InterceptionHeavyGunship
+    fireSound: 43
+    hitBonus: 25
+    damageMax: 800
+    speedMax: 4600
+    accel: 8
+    power: 100
+    range: 60
+    reload: 27
+    armor: 10
+    score: 1000
+    radarRange: 150
+    hunterKillerPercentage: 100
+    huntBehavior: 0
+    breakOffTime: 10000
+    battlescapeTerrainData:
+      name: VES_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_OPER_G
+        - U_BITS_G
+      mapBlocks:
+        - name: VES_120
+          width: 20
+          length: 20
+          items:		  
+            STR_ELERIUM_115:
+              - [17, 1, 1]
+              - [17, 15, 1]
+alienDeployments:
+  - type: STR_VESSEL_HEAVY_GUNSHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_HEAVY_GUNSHIP	
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 7
+        highQty: 13
+        dQty: 6
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_HEAVY_GUNSHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_HEAVY_GUNSHIP
+    depth: [1, 1]		
+    width: 50
+    length: 50
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 7
+        highQty: 13
+        dQty: 6
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

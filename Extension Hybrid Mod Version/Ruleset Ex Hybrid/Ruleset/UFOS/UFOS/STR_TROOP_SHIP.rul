@@ -1,0 +1,728 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_TROOP_SHIP: "Troop Ship" 
+      STR_TROOP_SHIP_ELIMINATOR: "Troop Ship (Eliminator)"
+      STR_TROOP_SHIP_SECTOID: "Troop Ship (Sectoid)"  
+      STR_TROOP_SHIP_FLOATER: "Troop Ship (Floater)"  
+      STR_TROOP_SHIP_MUTON: "Troop Ship (Muton)"    
+      STR_TROOP_SHIP_TERROR_MISSION: "TERROR MISSION"
+      STR_TROOP_SHIP_TERROR_MISSION_SECTOID: "TERROR MISSION (SECTOID)"
+      STR_TROOP_SHIP_TERROR_MISSION_FLOATER: "TERROR MISSION (FLOATER)"
+      STR_TROOP_SHIP_TERROR_MISSION_MUTON: "TERROR MISSION (MUTON)"
+      STR_TROOP_SHIP_TERROR_MISSION_ELIMINATOR: "TERROR MISSION (ELIMINATOR)"  
+      STR_TROOP_SHIP_UFOPEDIA: "This advanced troop insertion ship is specifically designed for speed. Its construction is light, but it is protected by powerful weapons. Its hold can carry a large number of elite alien soldiers." 
+ufopaedia:
+  - id: STR_TROOP_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_TROOP_SHIP
+    text: STR_TROOP_SHIP_UFOPEDIA
+    listOrder: 160566
+research:
+  - name: STR_TROOP_SHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_TROOP_SHIP
+ufos:
+  - type: STR_TROOP_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_TROOP_SHIP	
+    modSprite: InterceptionTroopShip
+    size: STR_LARGE
+    sprite: 5
+    damageMax: 1500
+    #shieldCapacity: 450
+    #shieldRecharge: 75
+    #shieldRechargeInGeoscape: 300
+    #shieldBleedThrough: 100
+    speedMax: 7200
+    armor: 30
+    accel: 8
+    power: 270
+    range: 55
+    score: 800
+    reload: 40
+    breakOffTime: 3000
+    hitBonus: 20
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_TROOP_SHIP_SECTOID
+        missionCustomDeploy: STR_TROOP_SHIP_TERROR_MISSION_SECTOID
+        hitBonus: 20
+      STR_FLOATER:
+        craftCustomDeploy: STR_TROOP_SHIP_FLOATER
+        missionCustomDeploy: STR_TROOP_SHIP_TERROR_MISSION_FLOATER
+        hitBonus: 30
+      STR_MUTON:
+        craftCustomDeploy: STR_TROOP_SHIP_MUTON
+        missionCustomDeploy: STR_TROOP_SHIP_TERROR_MISSION_MUTON
+    battlescapeTerrainData:
+      name: UFO_151
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: TROOPSHIP00
+          width: 20
+          length: 20
+        - name: TROOPSHIP01
+          width: 20
+          length: 20
+  - type: STR_TROOP_SHIP_UNDERWATER
+    battlescapeTerrainData:
+      name: UFO_151
+      mapDataSets:
+        - BLANKS		
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: TROOPSHIP00
+          width: 20
+          length: 20
+        - name: TROOPSHIP01
+          width: 20
+          length: 20		  
+alienDeployments:
+  - type: STR_TROOP_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_TROOP_SHIP  
+    music:
+      - GMTACTIC
+    data: &TroopShip
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_TROOP_SHIP_SECTOID
+    isHidden: true
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_TROOP_SHIP
+    music:
+      - GMTACTIC
+    data: &TroopShipSectoid
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_TROOP_SHIP_FLOATER
+    isHidden: true
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_TROOP_SHIP
+    music:
+      - GMTACTIC
+    data: &TroopShipFloater
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_TROOP_SHIP_MUTON
+    isHidden: true
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_TROOP_SHIP
+    music:
+      - GMTACTIC
+    data: &TroopShipMuton
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_TROOP_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_TROOP_SHIP	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data: &TroopShip
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 20
+    script: TROOPSHIPSEAX	
+  - type: STR_TROOP_SHIP_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_TROOP_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &TroopShipSectoid
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 20
+    script: TROOPSHIPSEAX		
+  - type: STR_TROOP_SHIP_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_TROOP_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &TroopShipFloater
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 20
+    script: TROOPSHIPSEAX		
+  - type: STR_TROOP_SHIP_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_TROOP_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data: &TroopShipMuton
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: TROOPSHIPSEAX		
+mapScripts:	
+  - type: TROOPSHIPSEAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_TROOP_SHIP_UNDERWATER
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain

@@ -1,0 +1,125 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_ATRIUM_CHURCH: Govt Offical Extermination
+      STR_ALERT_CHURCH_CAMP: Govt Offical Extermination
+      STR_CHURCH_CAMP_BRIEFING: "The Mercenary Guild has been informed by one of its operatives that some govt offical is holding a meeting in a mansion nearby. Some rival govt faction wanted them dead. There is a reward in wiping them out and you keep whatever loot your unit find!"    
+alienDeployments:
+  - type: STR_LOC_ATRIUM_CHURCH
+    alert: STR_ALERT_CHURCH_CAMP
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  	
+    alertDescription: STR_CHURCH_CAMP_BRIEFING
+    alertBackground: BACK04.SCR
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 4
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_ATRIUM_CHURCH 
+      desc: STR_CHURCH_CAMP_BRIEFING
+    markerName: STR_LOC_ATRIUM_CHURCH
+    duration: [50, 100]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 8
+    customUfo: STR_MANSION4
+    script: LOCSCRIPTS
+    data:
+      - alienRank: 8
+        lowQty: 5
+        highQty: 15
+        dQty: 10
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 2
+        highQty: 2
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_MISSION_LOC_ATRIUM
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_MIB: 100
+    waves:	
+      - ufo: STR_LOC_ATRIUM_CHURCH
+        count: 1
+        trajectory: MISSION_SPAWN
+        timer: 100000
+        objective: true 
+missionScripts:	
+  - type: churchAtrium
+    missionWeights:
+      0:
+        STR_MISSION_LOC_ATRIUM: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

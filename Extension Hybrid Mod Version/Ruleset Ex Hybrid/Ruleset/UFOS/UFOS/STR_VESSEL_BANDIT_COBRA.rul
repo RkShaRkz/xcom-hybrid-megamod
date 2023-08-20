@@ -1,0 +1,139 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_BANDIT_COBRA: SkyMotors SV-3 Surveillance Star 
+      STR_VESSEL_BANDIT_COBRA_UFOPEDIA: "A Surveillance Star is a vechicle packed with advance sensors that is used by many faction as a recon vechicle. Its powerful sensors and computers, allow it to scout an area before more activities commences." 
+ufopaedia:
+  - id: STR_VESSEL_BANDIT_COBRA
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_BANDIT_COBRA
+    text: STR_VESSEL_BANDIT_COBRA_UFOPEDIA
+research:
+  - name: STR_VESSEL_BANDIT_COBRA
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_BANDIT_COBRA
+ufos:
+  - type: STR_VESSEL_BANDIT_COBRA
+    size: STR_SMALL
+    modSprite: InterceptionBACobra
+    damageMax: 70
+    avoidBonus: 15
+    speedMax: 500
+    accel: 2
+    fireSound: 4
+    hitBonus: 40
+    power: 25
+    range: 30
+    reload: 19
+    score: 150
+    radarRange: 650
+    hunterKillerPercentage: 50
+    huntBehavior: 0
+    huntAlertSound: 89
+    breakOffTime: 1000
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: VESSEL_BA3
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_RED
+        - C_EXT_ROOF_RED
+        - C_EXT_NOSE_BUMPLESS_RED
+        - C_EXT_ENGINE_S_RED
+        - C_EXT_XCOM
+        - LIFTER
+        - C_INT_HALF
+        - DOORSSEC
+        - C_EXT_NOSE_SIDE_RED
+        - C_INT_ENGINE_E
+      mapBlocks:
+        - name: VESSEL_BA3
+          width: 20
+          length: 10	
+alienDeployments:
+  - type: STR_VESSEL_BANDIT_COBRA
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_BANDIT_COBRA	
+    width: 50
+    length: 50
+    height: 19
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_BANDIT_COBRA_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_BANDIT_COBRA	
+    depth: [1, 1]	
+    width: 50
+    length: 50
+    height: 119
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

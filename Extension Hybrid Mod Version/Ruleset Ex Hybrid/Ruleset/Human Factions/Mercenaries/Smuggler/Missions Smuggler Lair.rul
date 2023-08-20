@@ -1,0 +1,370 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_LOC_SMUGGLER_LAIRATERNATE: "Smuggler Lair"	
+      STR_LOC_SMUGGLER_LAIRPART1: "Smuggler Lair Part 1" 	
+      STR_LOC_SMUGGLER_LAIR: "Smuggler Lair"
+      STR_ALERT_SMUGGLER_LAIR: "Smuggler Lair"
+      STR_LOC_SMUGGLER_LAIR_TITLE: "Smuggler Lair"
+      STR_MARKER_LOC_SMUGGLER_LAIR: "Smuggler Lair"
+      STR_LOC_SMUGGLER_LAIR_BRIEFING: "The Mercenary Guild has found one of the Smuggler safehouses. The Local Govts will pay good money for any merc units to smash this Smuggling ring. This would be a two stage mission. Do note that the Civillians may not be too happy at seeing a large unit like yours in their city. For the Smugglers has been good to the local population."    
+alienDeployments:
+  - type: STR_LOC_SMUGGLER_LAIRPART1  
+    duration: [100, 200]
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 4
+    script: GENERALSPAWNREBELBASE
+    alert: STR_ALERT_SMUGGLER_LAIR
+    nextStage: STR_LOC_SMUGGLER_LAIR
+    markerName: STR_MARKER_LOC_SMUGGLER_LAIR
+    markerIcon: 4	
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE
+      desc: STR_LOC_SMUGGLER_LAIR_BRIEFING	  
+    despawnPenalty: 1000
+  - type: STR_LOC_SMUGGLER_LAIR
+    race: STR_SMUGGLER 
+    alert: STR_ALERT_SMUGGLER_LAIR
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 7
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_SMUGGLER_LAIR_TITLE
+      desc: STR_LOC_SMUGGLER_LAIR_BRIEFING
+    markerName: STR_MARKER_LOC_SMUGGLER_LAIR
+    duration: [50, 100]
+    width: 70
+    length: 70
+    height: 4
+    shade: 4
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	  
+    script: SEWERS_SMUGGLERS 
+    terrains:
+      - SEWERS
+    data:
+      - alienRank: 4
+        lowQty: 8
+        highQty: 16
+        dQty: 6
+        percentageOutsideUfo: 80
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+  - type: STR_LOC_SMUGGLER_LAIRATERNATE
+    race: STR_SMUGGLER   
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_SMUGGLER_LAIR
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 7
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_SMUGGLER_LAIR_TITLE
+      desc: STR_LOC_SMUGGLER_LAIR_BRIEFING
+    markerName: STR_MARKER_LOC_SMUGGLER_LAIR
+    duration: [90, 160]
+    despawnPenalty: 200
+    music:
+      - GMTACTIC
+    script: GENERALSMGWAREHOUSE
+    data:
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []			
+alienMissions:
+  - type: STR_LOC_SMUGGLER_LAIR
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_CIVILIANZ_1: 100
+    waves:
+      - ufo: STR_LOC_SMUGGLER_LAIRPART1
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+  - type: STR_LOC_SMUGGLER_LAIRALTER
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SMUGGLER: 100
+    waves:
+      - ufo: STR_LOC_SMUGGLER_LAIRATERNATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+terrains:		
+  - name: STR_REBELHOUSE
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - ATLANTISMER 
+    mapBlocks:
+      - name: REBELBASEHOUSE
+        width: 10
+        length: 10		
+mapScripts:
+  - type: GENERALSMGWAREHOUSE
+    commands:
+    - type: resize
+      size: [8, 8, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: URBAN
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESOSIRIONAMMOXP1
+        maxRepeats: 1 	  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: SLUMURBAN	  
+    - type: fillArea
+      terrain: SLUMURBAN	
+  - type: GENERALSPAWNREBELBASE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,1]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1
+      - type: decoration
+        size: [1,1,1]
+        terrain: STR_REBELHOUSE
+        maxRepeats: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain 		
+missionScripts:
+  - type: technocracySmugglerLair
+    missionWeights:
+      0:
+        STR_LOC_SMUGGLER_LAIR: 50
+        STR_LOC_SMUGGLER_LAIRALTER: 50		
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 5
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true 

@@ -1,0 +1,1165 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_CROC_CADET: "Croc Cadet"
+      STR_CROC_CADET_UFOPEDIA: "Crocs are the cannon fodder of the Reptoid empire. Numerous and ferocious, but not stupid, they are widely employed by Reptoids as soldiers and workers. They live in autonomous communities, in the upper regions of deep Shogg. They are very resistant to heat and fire."	  
+      STR_CROC_AUTOPSY: "Croc Autopsy"	
+      STR_CROC_CORPSE: "Croc Corpse"	  
+      STR_CROC_CORPSE_UFOPEDIA: "This humanoid reptilian has thick scales and well-developed muscles. Its tissues seem highly resistant to heat, which suggests that they are best suited for a much hotter environment than present Earth. Its genetic structure looks perfectly terrestrial, though."	
+      STR_REPTOID_DRAKE: "Reptoid Drake"
+      STR_REPTOID_DRAKE_UFOPEDIA: "Reptoid Drakes are Reptoid military officers wearing powered suits of armor. They are highly trained, use the best Reptoid equipment available and are very dangerous in battle." 
+      STR_REPTOID: "Reptoid"		  
+      STR_REPTOID_UFOPEDIA: "Reptoids have been on Earth for quite a while. They were here long before the invasion began. They possess extraordinary intelligence, which makes them excellent spies and field agents. There is not much we can say about their origins, but their long history on Earth and their genetic closeness to ourselves point to a terrestrial genesis."	  
+      STR_REPTOID_SHADOW: "Reptoid Shadow"
+      STR_REPTOID_SHADOW_CORPSE: "Reptoid Shadow Corpse"	
+      STR_REPTOID_SHADOW_UFOPEDIA: "Reptoid Shadows are elite assassins and spies, mostly operating in Shogg. They have perfected stealth, combat and mental techniques. Luckily for us, they are very rare."	  
+      STR_REPTOID_AUTOPSY: "Reptoid autopsy"	
+      STR_REPTOID_CORPSE: "Reptoid Corpse"	  
+      STR_REPTOID_CORPSE_UFOPEDIA: "This creature is covered with tough scales, able to withstand small caliber bullets with ease. Curiously, despite its reptilian appearance, it seems to be quite resistant to heat. The brain is highly developed, suggesting a possible superhuman intelligence. Its most interesting feature however is the DNA, which is either terrestrial in origin or modeled after Earth creatures."	
+      STR_PHARAOH_COMMANDER: "The Pharaoh"
+      STR_PHARAOH_COMMANDER_UFOPEDIA: "The Pharaoh"	  	  
+      STR_SALAMANDRON_TERRORIST: "Salamandron Terrorist"
+      STR_SALAMANDRON_TERRORIST_UFOPEDIA: "The Salamandron is a frightening beast, vaguely resembling ancient predators but also quite different. Designed solely for terror, it is equipped with incendiary rockets, able to lay waste to a small town within minutes. Its behavior can be regulated by a set of small receivers implanted into its brain, but it largely operates on its own, making it difficult to control but also virtually invulnerable to jamming."	  	  
+      STR_SALAMANDRON_AUTOPSY: "Salamandron autopsy"	
+      STR_SALAMANDRON_CORPSE: "Salamandron Corpse"	  
+      STR_SALAMANDRON_CORPSE_UFOPEDIA: "This creature is very sturdy. It is covered with thick scales that are extremely resistant to heat, but not so much to laser cutters. Its tiny brain features a number of small implants whose purpose seems to be provoking basic 'fight or flight' reactions within its system."
+      STR_REPTOID_AGENT: "Reptoid Agent"  
+      STR_REPTOID_ENGINEER: "Reptoid Engineer"
+      STR_REPTOID_COMMANDO: "Reptoid Commando"
+      STR_REPTOID_COMMANDO_CORPSE: "Reptoid Commando Corpse"  
+      STR_REPTOID_LEADER: "Reptoid Leader"  	  
+      STR_REPTOID_COMMANDER: "Reptoid Commander"  		  
+alienRaces:
+  - id: STR_REPTOID
+    members:
+      - STR_REPTOID_COMMANDER
+      - STR_REPTOID_LEADER
+      - STR_REPTOID_ENGINEER
+      - STR_REPTOID_SHADOW
+      - STR_REPTOID_COMMANDO
+      - STR_REPTOID_AGENT
+      - STR_SALAMANDRON_TERRORIST
+      - STR_SALAMANDRON_TERRORIST
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_PHARAOH_COMMANDER
+  - id: STR_REPTOID_UNDERWATER
+    members:
+      - STR_REPTOID_COMMANDER
+      - STR_REPTOID_LEADER
+      - STR_REPTOID_ENGINEER
+      - STR_REPTOID_SHADOW
+      - STR_REPTOID_COMMANDO
+      - STR_REPTOID_AGENT
+      - STR_SALAMANDRON_TERRORIST
+      - STR_SALAMANDRON_TERRORIST
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_CROC_CADET
+      - STR_PHARAOH_COMMANDER
+ufopaedia:
+  - id: STR_REPTOID
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_REPTOID_UFOPEDIA
+    requires:
+      - STR_REPTOID
+    listOrder: 56600
+  - id: STR_CROC_CADET
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_CROC_CADET_UFOPEDIA
+    requires:
+      - STR_CROC_CADET
+    listOrder: 56600
+  - id: STR_CROC_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_CROC_CORPSE
+    text: STR_CROC_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_REPTOID_SHADOW
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_REPTOID_SHADOW_UFOPEDIA
+    requires:
+      - STR_REPTOID_SHADOW
+    listOrder: 56600	
+  - id: STR_PHARAOH_COMMANDER
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_PHARAOH_COMMANDER_UFOPEDIA
+    requires:
+      - STR_PHARAOH_COMMANDER
+    listOrder: 56600	
+  - id: STR_SALAMANDRON_TERRORIST
+    type_id: 10
+    section: STR_ENEMYUNITS
+    text: STR_SALAMANDRON_TERRORIST_UFOPEDIA
+    requires:
+      - STR_SALAMANDRON_TERRORIST
+    listOrder: 56600
+  - id: STR_REPTOID_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_REPTOID_CORPSE
+    text: STR_REPTOID_CORPSE_UFOPEDIA
+    text_width: 153
+  - id: STR_REPTOID_DRAKE
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_REPTOID_DRAKE
+    text: STR_REPTOID_DRAKE_UFOPEDIA
+    text_width: 153	
+  - id: STR_SALAMANDRON_AUTOPSY
+    type_id: 10
+    section: STR_ENEMYUNITS
+    requires:
+      - STR_SALAMANDRON_CORPSE
+    text: STR_SALAMANDRON_CORPSE_UFOPEDIA
+    text_width: 153		
+research:	
+  - name: STR_CROC_CADET
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_CROC_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_CROC_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+  - name: STR_REPTOID_AGENT
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+    lookup: STR_REPTOID	
+  - name: STR_REPTOID_ENGINEER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+    lookup: STR_REPTOID		
+  - name: STR_REPTOID_COMMANDO
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+    lookup: STR_REPTOID		
+  - name: STR_REPTOID_SHADOW
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_REPTOID_LEADER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+    lookup: STR_REPTOID		
+  - name: STR_REPTOID_COMMANDER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+    lookup: STR_REPTOID		
+  - name: STR_PHARAOH_COMMANDER
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010
+  - name: STR_SALAMANDRON_TERRORIST
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 30
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 118010	
+  - name: STR_REPTOID_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_REPTOID_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350	
+  - name: STR_SALAMANDRON_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 30
+    points: 50
+    lookup: STR_SALAMANDRON_AUTOPSY
+    needItem: true
+    destroyItem: true
+    listOrder: 62350
+units:	  
+  - type: STR_CROC_CADET
+    race: STR_REPTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 68
+      stamina: 100
+      health: 75
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 50
+      strength: 90
+      psiStrength: 40
+      psiSkill: 0
+      melee: 58
+      #mana: 100
+    armor: STR_CROC_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 8
+    intelligence: 1
+    aggression: 3
+    energyRecovery: 40
+    sniper: 20
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_SPEAR	
+      - - STR_SPEAR
+      - - STR_SPEAR   		
+  - type: STR_REPTOID_AGENT
+    race: STR_REPTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+      #mana: 70
+    armor: STR_REPTOID_STANDARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 15
+    deathSound: 8
+    intelligence: 5
+    aggression: 2
+    sniper: 70
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_SPEAR	
+      - - STR_SPEAR
+      - - STR_SPEAR   	
+  - type: STR_REPTOID_COMMANDO
+    race: STR_REPTOID
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 107
+      health: 52
+      bravery: 80
+      reactions: 60
+      firing: 60
+      throwing: 70
+      strength: 66
+      psiStrength: 50
+      psiSkill: 0
+      melee: 60
+      #mana: 70
+    armor: STR_REPTOID_COMMANDO_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 22
+    deathSound: 8
+    intelligence: 6
+    aggression: 2
+    sniper: 70
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_TRIDENT
+      - - STR_TRIDENT
+      - - STR_TRIDENT 	
+  - type: STR_REPTOID_ENGINEER
+    race: STR_REPTOID
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 94
+      health: 45
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+      #mana: 70
+    armor: STR_REPTOID_STANDARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 24
+    deathSound: 8
+    intelligence: 8
+    aggression: 2
+    sniper: 70
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_TANGLER
+        - STR_COCOON
+        - STR_COCOON   	
+      - - STR_TANGLER
+        - STR_COCOON
+        - STR_COCOON   
+      - - STR_TANGLER
+        - STR_COCOON
+        - STR_COCOON  	
+  - type: STR_REPTOID_SHADOW
+    race: STR_REPTOID
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 80
+      stamina: 206
+      health: 60
+      bravery: 90
+      reactions: 70
+      firing: 65
+      throwing: 75
+      strength: 69
+      psiStrength: 65
+      psiSkill: 0
+      melee: 95
+      #mana: 100
+    armor: STR_REPTOID_SHADOW_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 35
+    deathSound: 8
+    intelligence: 6
+    aggression: 3
+    sniper: 70
+    spotter: 3
+    builtInWeaponSets:
+      - - STR_SPEAR	
+      - - STR_SPEAR
+      - - STR_SPEAR  	
+  - type: STR_REPTOID_LEADER
+    race: STR_REPTOID
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 50
+      bravery: 80
+      reactions: 55
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+      #mana: 100
+    armor: STR_REPTOID_DRAKE_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 40
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+    sniper: 40
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON 		
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON  
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON   	
+  - type: STR_REPTOID_COMMANDER
+    race: STR_REPTOID
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 68
+      stamina: 96
+      health: 60
+      bravery: 80
+      reactions: 80
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 82
+      #mana: 100
+    armor: STR_REPTOID_COMMANDER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 75
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+    sniper: 40
+    spotter: 3
+    builtInWeaponSets:
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON 		
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON  
+      - - STR_ACID_GUN
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E
+        - STR_HARP_CLIP_E	
+        - STR_COCOON
+        - STR_COCOON   
+  - type: STR_SALAMANDRON_TERRORIST
+    race: STR_SALAMANDRON
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 55
+      stamina: 90
+      health: 80
+      bravery: 90
+      reactions: 14
+      firing: 20
+      throwing: 0
+      strength: 75
+      psiStrength: 20
+      psiSkill: 0
+      melee: 60
+    armor: STR_SALAMANDRON_ARMOR
+    standHeight: 24
+    kneelHeight: 18
+    value: 40
+    deathSound: 74
+    moveSound: 185
+    intelligence: 2
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+  - type: STR_PHARAOH_COMMANDER
+    race: STR_REPTOID
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 80
+      stamina: 206
+      health: 60
+      bravery: 90
+      reactions: 70
+      firing: 65
+      throwing: 75
+      strength: 69
+      psiStrength: 65
+      psiSkill: 0
+      melee: 95
+      #mana: 100
+    armor: STR_PHARAOH_ARMOR
+    standHeight: 22
+    kneelHeight: 22
+    value: 7
+    intelligence: 3
+    aggression: 4
+    deathSound: 253
+    spawnUnit: STR_REPTOID_SHADOW
+    builtInWeaponSets:
+      - - STR_VAMPIRE_WEAPON
+        - STR_COCOON
+        - STR_COCOON
+        - STR_COCOON	
+armors:
+  - type: STR_CROC_ARMOR
+    spriteSheet: CROC.PCK
+    spriteInv: inventory_CROC
+    corpseBattle:
+      - STR_CROC_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    frontArmor: 22
+    sideArmor: 22
+    rearArmor: 18
+    underArmor: 16
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 10
+    movementType: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.5
+      - 0.9
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_CROC
+    loftempsSet: [ 3 ]
+  - type: STR_REPTOID_STANDARD_ARMOR
+    spriteSheet: REPTOID.PCK
+    spriteInv: inventory_REPTOID
+    corpseBattle:
+      - STR_REPTOID_CORPSE
+    visibilityAtDark: 20
+    psiVision: 5
+    heatVision: 25
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 12
+    underArmor: 10
+    #psiDefence: *StandardDynamic#psiDefence
+    movementType: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.9
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_REPTOID_COMMANDO_ARMOR
+    spriteSheet: REPTOID_COMMANDO.PCK
+    spriteInv: inventory_REPTOID_COMMANDO
+    corpseBattle:
+      - STR_REPTOID_COMMANDO_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    psiVision: 2
+    frontArmor: 50
+    sideArmor: 45
+    rearArmor: 40
+    underArmor: 45
+    #psiDefence: *StandardDynamic#psiDefence
+    movementType: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.5
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_REPTOID_SHADOW_ARMOR
+    spriteSheet: REPTOID_SHADOW.PCK
+    spriteInv: inventory_REPTOID_SHADOW
+    corpseBattle:
+      - STR_REPTOID_SHADOW_CORPSE
+    corpseGeo: STR_REPTOID_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    psiVision: 7
+    camouflageAtDay: 4
+    camouflageAtDark: 4
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 12
+    underArmor: 10
+    #psiDefence: *StandardDynamic#psiDefence
+    movementType: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.3
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.25
+        health: -0.05
+    meleeDodge:
+      reactions: 1.0
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.9
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    loftempsSet: [ 3 ]
+  - type: STR_REPTOID_DRAKE_ARMOR
+    spriteSheet: REPTOID_DRAKE.PCK
+    spriteInv: inventory_REPTOID_DRAKE
+    corpseBattle:
+      - STR_REPTOID_DRAKE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    psiVision: 6
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 70
+    underArmor: 65
+    #psiDefence: *StandardDynamic#psiDefence
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &ReptoidDrakeResists
+      - 1.0
+      - 1.0
+      - 0.1
+      - 0.8
+      - 0.6
+      - 0.6
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_POWER_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_REPTOID_COMMANDER_ARMOR
+    spriteSheet: REPTOID_DRAKE.PCK
+    spriteInv: inventory_REPTOID_DRAKE
+    corpseBattle:
+      - STR_REPTOID_DRAKE_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 70
+    underArmor: 65
+    #psiDefence: *StandardDynamic#psiDefence
+    movementType: 1
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.5
+    overKill: 1.5
+    damageModifier: &ReptoidDrakeResists
+      - 1.0
+      - 1.0
+      - 0.1
+      - 0.8
+      - 0.6
+      - 0.6
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_POWER_SUIT
+    loftempsSet: [ 3 ]
+  - type: STR_PHARAOH_ARMOR
+    spriteSheet: PHARAOH.PCK
+    spriteInv: inventory_PHARAOH
+    corpseBattle:
+      - STR_REPTOID_SHADOW_CORPSE
+    visibilityAtDark: 20
+    heatVision: 25
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 12
+    underArmor: 10
+    #psiDefence: *StandardDynamic#psiDefence
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        flatHundred: 0.3
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 1.0
+    meleeDodgeBackPenalty: 0.0
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.9
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.4
+      - 0.8
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_COMMANDO
+    deathFrames: 16
+    loftempsSet: [ 2 ]
+  - type: STR_SALAMANDRON_ARMOR
+    spriteSheet: SALAMANDRON.PCK
+    spriteInv: inventory_SALAMANDRON
+    allowInv: false
+    bleedImmune: false
+    zombiImmune: true
+    corpseBattle:
+      - SALAMANDRON_CORPSE_1
+      - SALAMANDRON_CORPSE_2
+      - SALAMANDRON_CORPSE_3
+      - SALAMANDRON_CORPSE_4
+    corpseGeo: STR_SALAMANDRON_CORPSE
+    visibilityAtDark: 20
+    heatVision: 33
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 25
+    #psiDefence: *StandardDynamic#psiDefence
+    drawingRoutine: 5
+    size: 2
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    createsMeleeThreat: true
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 92, 89, 90, 91 ]		
+items:
+  - type: STR_CROC_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 40000
+    weight: 50
+    bigSprite: 796
+    floorSprite: 725
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 32
+    listOrder: 67180	
+  - type: STR_CROC_CADET
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 143600	
+  - type: STR_REPTOID_AGENT
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 80000
+    listOrder: 143500
+  - type: STR_REPTOID_ENGINEER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0
+   #liveAlien: true
+    costSell: 120000
+    listOrder: 143510
+  - type: STR_REPTOID_COMMANDO
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+   #liveAlien: true
+    prisonType: 0	
+    costSell: 120000
+    listOrder: 143530
+  - type: STR_REPTOID_SHADOW
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+   #liveAlien: true
+    recover: true
+    prisonType: 0	
+    costSell: 200000
+    listOrder: 143520
+  - type: STR_REPTOID_LEADER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 170000
+    listOrder: 143540
+  - type: STR_REPTOID_COMMANDER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 240000
+    listOrder: 143550
+  - type: STR_PHARAOH_COMMANDER
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 240000
+    listOrder: 143550	
+  - type: STR_SALAMANDRON_TERRORIST
+    categories: [STR_ALIEN_SPECIMENS]
+    size: 0.0
+    recover: true
+    prisonType: 0	
+   #liveAlien: true
+    costSell: 60000
+    listOrder: 144070	
+  - type: STR_REPTOID_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 40000
+    weight: 40
+    bigSprite: 97
+    floorSprite: 123
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 67140
+  - type: STR_SALAMANDRON_CORPSE
+    categories: [STR_CORPSES]
+    size: 1
+    costSell: 30000
+    battleType: 11
+    listOrder: 70250
+  - type: SALAMANDRON_CORPSE_1
+    name: STR_SALAMANDRON_CORPSE
+    floorSprite: 255
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+    listOrder: 70250
+  - type: SALAMANDRON_CORPSE_2
+    floorSprite: 256
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SALAMANDRON_CORPSE_3
+    floorSprite: 257
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SALAMANDRON_CORPSE_4
+    floorSprite: 258
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false		
+  - type: STR_REPTOID_DRAKE_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.6
+    costSell: 85000
+    weight: 60
+    bigSprite: 426
+    floorSprite: 361
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 56
+    listOrder: 67170
+    recoveryTransformations:
+      STR_REPTOID_CORPSE: [1] 
+  - type: STR_REPTOID_COMMANDO_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.5
+    costSell: 50000
+    weight: 48
+    bigSprite: 770
+    floorSprite: 706
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 67160
+    recoveryTransformations:
+      STR_REPTOID_CORPSE: [1]	
+  - type: STR_REPTOID_SHADOW_CORPSE
+    categories: [STR_CORPSES]
+    costSell: 40000
+    size: 0.6
+    weight: 40
+    bigSprite: 858
+    floorSprite: 767
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 26
+    recoveryPoints: 5
+    recoveryTransformations:
+      STR_REPTOID_CORPSE: [1]	

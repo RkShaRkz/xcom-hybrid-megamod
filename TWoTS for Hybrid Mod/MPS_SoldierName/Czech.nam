@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MPS Jan
+  - MPS Tomas
+  - MPS Zbysek
+  - MPS Zdenik
+  - MPS Michal
+  - MPS Martin
+  - MPS Jioi
+  - MPS Ivo
+  - MPS Pavel
+  - MPS Karel
+  - MPS Frantisek
+  - MPS Ctirad
+  - MPS Zbynik
+  - MPS Vladimir
+  - MPS Jaroslav
+  - MPS Petr
+  - MPS Josef
+  - MPS Vaclav
+  - MPS Miroslav
+  - MPS Mila
+  - MPS Lukas
+  - MPS David
+  - MPS Jakub
+  - MPS Stanislav
+  - MPS Roman
+  - MPS Ondoej
+  - MPS Radek
+  - MPS Antonin
+  - MPS Jozef
+  - MPS Emil
+  - MPS Filip
+  - MPS Ales  
+  - MPS Alexandr
+  - MPS Alexej
+  - MPS Ambroz	
+  - MPS Andrej
+  - MPS Arnost
+  - MPS Artur
+  - MPS Augustyn
+  - MPS Bartolomej	
+  - MPS Bedrich
+  - MPS Benedikt
+  - MPS Bernard
+  - MPS Blahoslav
+  - MPS Blazej
+  - MPS Bohdan
+  - MPS Bohumil
+  - MPS Bohumir	
+  - MPS Bohuslav
+  - MPS Boleslav
+  - MPS Bonifac
+  - MPS Borek
+  - MPS Boris
+  - MPS Borivoj
+  - MPS Bretislav
+  - MPS Bronislav
+  - MPS Bruno
+  - MPS Ctibor
+  - MPS Cenek
+  - MPS Cestmir	
+  - MPS Dalibor
+  - MPS Dalimil
+  - MPS Dobroslav
+  - MPS Dominik
+  - MPS Drahoslav
+  - MPS Dusan
+  - MPS Eduard
+  - MPS Erik
+  - MPS Evzen
+  - MPS Felix
+  - MPS Ferdinand
+  - MPS Gustav
+  - MPS Hanus	
+  - MPS Havel
+  - MPS Herman
+  - MPS Hubert
+  - MPS Hugo
+  - MPS Hynek
+  - MPS Ignac
+  - MPS Igor
+  - MPS Ilja
+  - MPS Ivan
+  - MPS Jachym
+  - MPS Jarmil
+  - MPS Jaromir
+  - MPS Jeronym
+  - MPS Jindrich
+  - MPS Jiri	
+  - MPS Jonas	
+  - MPS Julius
+  - MPS Kamil
+  - MPS Kazimir
+  - MPS Klement
+  - MPS Kristian
+  - MPS Krystof
+  - MPS Kvetoslav
+  - MPS Kvido
+  - MPS Ladislav
+  - MPS Leopold
+  - MPS Leos	
+  - MPS Libor
+  - MPS Lubomir
+  - MPS Lubor
+  - MPS Lubos	
+  - MPS Ludek
+  - MPS Ludvik
+  - MPS Lukas	
+  - MPS Lumir
+  - MPS Marcel
+  - MPS Marek
+  - MPS Marian
+  - MPS Matej	
+  - MPS Matous	
+  - MPS Maxmilian	
+  - MPS Medard
+  - MPS Mikulas	
+  - MPS Milan
+  - MPS Milos	
+  - MPS Miloslav
+  - MPS Mojmir
+  - MPS Oldrich
+  - MPS Oleg
+  - MPS Oliver
+  - MPS Ondrej	
+  - MPS Oskar
+  - MPS Otakar
+  - MPS Otmar
+  - MPS Oto
+  - MPS Pankrac	
+  - MPS Patrik
+  - MPS Pravoslav
+  - MPS Prokop
+  - MPS Premysl
+  - MPS Radim
+  - MPS Radomir
+  - MPS Radoslav
+  - MPS Radovan
+  - MPS Rostislav
+  - MPS Rudolf
+  - MPS Rehor	
+  - MPS Samuel
+  - MPS Servac
+  - MPS Silvestr
+  - MPS Slavomir
+  - MPS Sobeslav
+  - MPS Svatopluk
+  - MPS Svatoslav
+  - MPS Simon
+  - MPS Stefan
+  - MPS Stepan	
+  - MPS Tadeas	
+  - MPS Teodor
+  - MPS Tibor
+  - MPS Tomas	
+  - MPS Valdemar
+  - MPS Valentyn
+  - MPS Vavrinec
+  - MPS Venceslav
+  - MPS Vendelin
+  - MPS Veroslav
+  - MPS Viktor
+  - MPS Vilem
+  - MPS Vincenc
+  - MPS Vit
+  - MPS Vitezslav
+  - MPS Vladan
+  - MPS Vladislav
+  - MPS Vlastimil
+  - MPS Vlastislav
+  - MPS Vojtech
+  - MPS Vratislav
+  - MPS Zbynek
+  - MPS Zdenek
+  - MPS Zikmund
+femaleFirst:
+  - MPS Anna
+  - MPS Marie
+  - MPS Jana
+  - MPS Iva
+  - MPS Irina
+  - MPS Ludmila
+  - MPS Pavla
+  - MPS Kateoina
+  - MPS Simona
+  - MPS Lucie
+  - MPS Lenka
+  - MPS Alena
+  - MPS Gabina
+  - MPS Jioina
+  - MPS Michaela
+  - MPS Ivana
+  - MPS Monika
+  - MPS Veronika
+  - MPS Jarmila
+  - MPS Zdeoka
+  - MPS Jitka
+  - MPS Helena
+  - MPS Petra
+  - MPS Eva
+  - MPS Hana
+  - MPS Vira
+  - MPS Tereza
+  - MPS Adela
+  - MPS Adele
+  - MPS Adriena
+  - MPS Agata
+  - MPS Alica
+  - MPS Alzbeta
+  - MPS Ana
+  - MPS Ancika
+  - MPS Andel
+  - MPS Andela
+  - MPS Aneta
+  - MPS Anezka
+  - MPS Anichka
+  - MPS Antoinetta
+  - MPS Antonie
+  - MPS Bara
+  - MPS Barbora
+  - MPS Barcinka
+  - MPS Barunka
+  - MPS Baruska
+  - MPS Blanka
+  - MPS Bohdana
+  - MPS Bohumila
+  - MPS Bohuslava
+  - MPS Bora
+  - MPS Bozena
+  - MPS Branislava
+  - MPS Dagmar
+  - MPS Daleka
+  - MPS Dalibora
+  - MPS Dominika
+  - MPS Drahomira
+  - MPS Drahoslava
+  - MPS Dusa
+  - MPS Dusana
+  - MPS Dusanka
+  - MPS Duska
+  - MPS Edita
+  - MPS Eliska
+  - MPS Elita
+  - MPS Emilia
+  - MPS Frantiska
+  - MPS Hedvika
+  - MPS Irena
+  - MPS Izabela
+  - MPS Jaromila
+  - MPS Jaroslava
+  - MPS Jindriska
+  - MPS Jirina
+  - MPS Johana
+  - MPS Jolana
+  - MPS Josefa
+  - MPS Judita
+  - MPS Julia
+  - MPS Kamila
+  - MPS Karina
+  - MPS Karolina
+  - MPS Katarina
+  - MPS Katerina
+  - MPS Katica
+  - MPS Kristyna
+  - MPS Kunigunde
+  - MPS Kveta
+  - MPS Ladislava
+  - MPS Leona
+  - MPS Libena
+  - MPS Libuse
+  - MPS Lida
+  - MPS Lidmila
+  - MPS Lubomira
+  - MPS Lucina
+  - MPS Lydie
+  - MPS Madlenka
+  - MPS Magdalena
+  - MPS Maria
+  - MPS Marketa
+  - MPS Matylda
+  - MPS Milada
+  - MPS Milana
+  - MPS Milena
+  - MPS Miloslava
+  - MPS Nada
+  - MPS Nadezda
+  - MPS Otilie
+  - MPS Pavlina
+  - MPS Radka
+  - MPS Radomila
+  - MPS Radomira
+  - MPS Radoslava
+  - MPS Ruzena
+  - MPS Sara
+  - MPS Sobeska
+  - MPS Sobeslava
+  - MPS Stanislava
+  - MPS Stefanija
+  - MPS Stepanka
+  - MPS Svetla
+  - MPS Svetlana
+  - MPS Tatana
+  - MPS Ursula
+  - MPS Vaclava
+  - MPS Vendula
+  - MPS Vera
+  - MPS Vladimira
+  - MPS Vlasta
+  - MPS Zdenka
+  - MPS Zofie
+  - MPS Zoja
+  - MPS Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

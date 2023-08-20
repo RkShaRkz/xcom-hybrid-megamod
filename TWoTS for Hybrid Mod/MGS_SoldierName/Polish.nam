@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MGS Jan
+  - MGS Andrzej
+  - MGS Piotr
+  - MGS Krzysztof
+  - MGS Stanislaw
+  - MGS Tomasz
+  - MGS Pawel
+  - MGS Jozef
+  - MGS Marcin
+  - MGS Marek
+  - MGS Michal
+  - MGS Grzegorz
+  - MGS Jerzy
+  - MGS Tadeusz
+  - MGS Adam
+  - MGS Lukasz
+  - MGS Zbigniew
+  - MGS Ryszard
+  - MGS Dariusz
+  - MGS Henryk
+  - MGS Mariusz
+  - MGS Kazimierz
+  - MGS Wojciech
+  - MGS Robert
+  - MGS Mateusz
+  - MGS Marian
+  - MGS Rafal
+  - MGS Jacek
+  - MGS Janusz
+  - MGS Miroslaw  
+femaleFirst:
+  - MGS Anna
+  - MGS Maria
+  - MGS Katarzyna
+  - MGS Malgorzata
+  - MGS Agnieszka
+  - MGS Krystyna
+  - MGS Barbara
+  - MGS Ewa
+  - MGS Elzbieta
+  - MGS Zofia
+  - MGS Janina
+  - MGS Teresa
+  - MGS Joanna
+  - MGS Magdalena
+  - MGS Monika
+  - MGS Jadwiga
+  - MGS Danuta
+  - MGS Irena
+  - MGS Halina
+  - MGS Helena
+  - MGS Beata
+  - MGS Aleksandra
+  - MGS Marta
+  - MGS Dorota
+  - MGS Marianna
+  - MGS Grazyna
+  - MGS Jolanta
+  - MGS Stanislawa
+  - MGS Iwona
+  - MGS Karolina
+maleLast:
+  - Nowak
+  - Kowalski
+  - Wisniewski
+  - Dabrowski
+  - Lewandowski
+  - Wojcik
+  - Kaminski
+  - Kowalczyk
+  - Zielinski
+  - Szymanski
+  - Wozniak
+  - Kozlowski
+  - Jankowski
+  - Wojciechowski
+  - Kwiatkowski
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowski
+  - Grabowski
+  - Nowakowski
+  - Pawlowski
+  - Michalski
+  - Nowicki
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonski
+  - Krol
+femaleLast:
+  - Nowak
+  - Kowalska
+  - Wisniewska
+  - Dabrowska
+  - Lewandowska
+  - Wojcik
+  - Kaminska
+  - Kowalczyk
+  - Zielinska
+  - Szymanska
+  - Wozniak
+  - Kozlowska
+  - Jankowska
+  - Wojciechowska
+  - Kwiatkowska
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowska
+  - Grabowska
+  - Nowakowska
+  - Pawlowska
+  - Michalska
+  - Nowicka
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonska
+  - Krol

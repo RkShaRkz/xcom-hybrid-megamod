@@ -1,0 +1,519 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_STRIKER_FLOATER: "Striker (Floater)"
+      STR_STRIKER_UFOPEDIA: "This very advanced UFO can only be spotted during alien missions of utmost importance. They specialize in hunting down better armed human aircraft and also carry a well-equipped alien crew."  
+      STR_STRIKER_ELIMINATOR: "Striker (Eliminator)"
+      STR_STRIKER_MUTON: "Striker (Muton)"
+      STR_STRIKER_SECTOID: "Striker (Sectoid)" 
+ufopaedia:
+  - id: STR_STRIKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_STRIKER
+    text: STR_STRIKER_UFOPEDIA
+    listOrder: 160563
+research:
+  - name: STR_STRIKER
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_STRIKER
+ufos:
+  - type: STR_STRIKER
+    modSprite: InterceptionStriker
+    size: STR_MEDIUM_UC
+    damageMax: 900
+    speedMax: 3600
+    armor: 20
+    accel: 9
+    power: 115
+    range: 55
+    score: 300
+    reload: 19
+    breakOffTime: 190
+    hitBonus: 20
+    radarRange: 1200
+    hunterKillerPercentage: 50
+    huntMode: 1
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_STRIKER_SECTOID
+        missionCustomDeploy: STR_STRIKER_SECTOID
+        hitBonus: 20
+      STR_FLOATER:
+        craftCustomDeploy: STR_STRIKER_FLOATER
+        missionCustomDeploy: STR_STRIKER_FLOATER
+        hitBonus: 30
+      STR_MUTON:
+        craftCustomDeploy: STR_STRIKER_MUTON
+        missionCustomDeploy: STR_STRIKER_MUTON
+    battlescapeTerrainData:
+      name: STRIKER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: STRIKER00
+          width: 20
+          length: 20
+  - type: STR_STRIKER_UNDERWATER  
+    battlescapeTerrainData:
+      name: STRIKER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: STRIKER00
+          width: 20
+          length: 20  		  
+alienDeployments:
+  - type: STR_STRIKER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_STRIKER	
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_SECTOID
+    isHidden: true
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_STRIKER		
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_FLOATER
+    isHidden: true
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_STRIKER		
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_STRIKER		
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_STRIKER		
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+    script: STRIKERSEAX
+  - type: STR_STRIKER_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    unlockedResearch: STR_STRIKER	
+    script: STRIKERSEAX	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    depth: [1, 1]   	
+    isHidden: true
+    unlockedResearch: STR_STRIKER	
+    script: STRIKERSEAX		
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16
+  - type: STR_STRIKER_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    depth: [1, 1]   	
+    isHidden: true
+    unlockedResearch: STR_STRIKER	
+    script: STRIKERSEAX		
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 8
+        dQty: 9
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 16	
+mapScripts:	
+  - type: STRIKERSEAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_STRIKER_UNDERWATER
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain 

@@ -1,0 +1,203 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGHAUNTEDFOREST: "Stargate Command Cheyenne Mountain Complex"	
+      STR_LOC_HAUNTED_FOREST: "Stargate: Explore new planet"
+      STR_ALERT_HAUNTED_FOREST: "Stargate: Explore new planet"
+      STR_MARKER_LOC_HAUNTED_FOREST: "Stargate: Explore new planet"
+      STR_LOC_HAUNTED_FOREST_BRIEFING: "This is Stargate Command, we have established a solid wormhole connection to a new planet. We need a competant Mercenary unit to check out this new world. If the inhabitant proven to be hostile, you are to use whatever means neccessary to pacify them."   
+alienDeployments:
+  - type: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGHAUNTEDFOREST
+    randomRace: [STR_CIVILIANZ_1,STR_CIVILIANZ_1] 		
+    duration: [25, 10000000000000]	
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 12
+    markerName: STR_CHEYENNEMOUNTAINCOMPLEX
+    markerIcon: 8
+    script: CHEYENNECOMPLEX
+    nextStage: STR_LOC_HAUNTED_FOREST
+    briefing:
+      title: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX
+      desc: STR_STARGATE_CHEYENNEMOUNTAINCOMPLEX_BRIEFING
+      palette: 4
+      music: GMTACDRY
+      background: BACK01.SCR
+    points: 5
+  - type: STR_LOC_HAUNTED_FOREST
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_ALERT_HAUNTED_FOREST
+    alertBackground: BACK01.SCR
+    alertDescription: STR_LOC_HAUNTED_FOREST_BRIEFING
+    briefing:
+      palette: 7
+      background: BACK01.SCR
+      showTarget: false
+      title: STR_LOC_HAUNTED_FOREST
+      desc: STR_LOC_HAUNTED_FOREST_BRIEFING
+    markerName: STR_MARKER_LOC_HAUNTED_FOREST
+    unlockedResearch: STR_HAUNTEDFORRESTCOMPLETE
+    duration: [100, 200]
+    minShade: 4
+    width: 40
+    length: 40
+    height: 9
+    customUfo: STR_LOC_HAUNTED_FOREST
+    terrains:
+      - JUNGLE2BLACK
+    data:
+      - alienRank: 6
+        lowQty: 4
+        highQty: 10
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []	
+ufos:			
+  - type: STR_LOC_HAUNTED_FOREST
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: CEMETERY_01
+      mapDataSets:
+        - BLANKS
+        - medieval
+      mapBlocks:
+        - name: CEMETERY_01
+          width: 10
+          length: 10			
+mapScripts:
+  - type: STR_JUNGLEBLACK
+    commands:
+    - type: resize
+      size: [8, 8, 12]	
+    - type: addBlock
+      size: [1,1,2]
+      executionChances: 100
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: JUNGLE2BLACK	 
+        groups: 1
+      - type: middle
+        size: [1,1,2]
+        terrain: STARGATEENTRYX
+    - type: fillArea	
+      terrain: JUNGLE2BLACK				
+alienMissions:
+  - type: STR_LOC_HAUNTED_FOREST
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_NIGHTMARE: 100
+    waves:
+      - ufo: STR_CHEYENNEMOUNTAINCOMPLEXREPORTINGHAUNTEDFOREST
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+terrains:		
+  - name: JUNGLE2BLACK
+    mapDataSets:
+      - BLANKS
+      - BLACKJUNGLE
+    script: STR_JUNGLEBLACK
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10	
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+      - name: JUNGLE49
+        width: 20
+        length: 20
+        groups: 1		
+research:		
+  - name: STR_HAUNTEDFORRESTCOMPLETE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+missionScripts:
+  - type: hauntedForest
+    missionWeights:
+      0:
+        STR_LOC_HAUNTED_FOREST: 100
+    regionWeights:
+      0:
+        CheyenneMountainbasespawns: 100
+    useTable: false
+    executionOdds: 2
+    minDifficulty: 1
+    firstMonth: 2
+    varName: hauntedforrest
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_HAUNTEDFORRESTCOMPLETE: false
+      STR_STARGATE: true
+    startDelay: 1000
+    randomDelay: 40000

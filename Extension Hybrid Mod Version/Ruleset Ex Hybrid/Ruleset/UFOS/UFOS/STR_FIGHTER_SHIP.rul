@@ -1,0 +1,262 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_FIGHTER_SHIP_SECTOID: "Fighter (Sectoid)"
+      STR_FIGHTER_SHIP_FLOATER: "Fighter (Floater)"
+      STR_FIGHTER_SHIP_MUTON: "Fighter (Muton)"
+      STR_FIGHTER_SHIP: "Fighter"  
+      STR_FIGHTER_SHIP_UFOPEDIA: "Fighters are built solely to destroy Earth aircraft, including our interceptors. They are extremely well armed for their size, but their crew is very small." 
+ufopaedia:
+  - id: STR_FIGHTER_SHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_FIGHTER_SHIP
+    text: STR_FIGHTER_SHIP_UFOPEDIA
+    listOrder: 160150
+research:
+  - name: STR_FIGHTER_SHIP
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_FIGHTER_SHIP
+ufos:
+  - type: STR_FIGHTER_SHIP
+    modSprite: InterceptionFighter
+    size: STR_SMALL
+    damageMax: 300
+    speedMax: 3800
+    accel: 9
+    power: 55
+    range: 31
+    score: 175
+    reload: 13
+    breakOffTime: 220
+    hitBonus: 10
+    radarRange: 800
+    hunterKillerPercentage: 50
+    huntMode: 1
+    raceBonus:
+      STR_SECTOID:
+        craftCustomDeploy: STR_FIGHTER_SHIP_SECTOID
+        missionCustomDeploy: STR_FIGHTER_SHIP_SECTOID
+        hitBonus: 10
+      STR_FLOATER:
+        craftCustomDeploy: STR_FIGHTER_SHIP_FLOATER
+        missionCustomDeploy: STR_FIGHTER_SHIP_FLOATER
+        hitBonus: 15
+      STR_MUTON:
+        craftCustomDeploy: STR_FIGHTER_SHIP_MUTON
+        missionCustomDeploy: STR_FIGHTER_SHIP_MUTON
+    battlescapeTerrainData:
+      name: FIGHTER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: FIGHTER00
+          width: 20
+          length: 20
+  - type: STR_FIGHTER_SHIP_UNDERWATER	
+    battlescapeTerrainData:
+      name: FIGHTER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: FIGHTER00
+          width: 20
+          length: 20			
+alienDeployments:
+  - type: STR_FIGHTER_SHIP
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_FIGHTER_SHIP		
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_FIGHTER_SHIP_SECTOID
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_FIGHTER_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_FIGHTER_SHIP_FLOATER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_FIGHTER_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_FIGHTER_SHIP_MUTON
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_FIGHTER_SHIP	
+    isHidden: true
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+  - type: STR_FIGHTER_SHIP_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_FIGHTER_SHIP	
+    depth: [1, 1]   	
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+    script: FIGHTERSHIPAX	
+  - type: STR_FIGHTER_SHIP_SECTOID_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_FIGHTER_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	
+    script: FIGHTERSHIPAX		
+  - type: STR_FIGHTER_SHIP_FLOATER_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_FIGHTER_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16	
+    script: FIGHTERSHIPAX		
+  - type: STR_FIGHTER_SHIP_MUTON_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO
+    unlockedResearch: STR_FIGHTER_SHIP	
+    depth: [1, 1]   	
+    isHidden: true
+    music:
+      - GMTACWET
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+    width: 50
+    length: 50
+    height: 16
+    script: FIGHTERSHIPAX		
+mapScripts:    
+  - type: FIGHTERSHIPAX
+    commands:
+    - type: resize
+      size: [6, 6, 20]
+    - type: addCraft 
+      groups: 1
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_FIGHTER_SHIP_UNDERWATER		
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN,GAL]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 40  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN]
+    - type: addBlock
+      size: 1
+      executions: 3
+      executionChances: 30  
+      randomTerrain: [CORAL,SEABED,SEADESERT,SEAFORESTX,SEAMOUNTAIN] 	  
+    - type: addBlock
+      size: 2
+      executions: 2	 
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain  			

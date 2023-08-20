@@ -1,0 +1,410 @@
+lookWeight:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - MGS Abassi
+  - MGS Abayomi
+  - MGS Abejide
+  - MGS Abiodun
+  - MGS Abiola
+  - MGS Adebayo
+  - MGS Adejola
+  - MGS Adisa
+  - MGS Adunbi
+  - MGS Ajala
+  - MGS Ajani
+  - MGS Akanni
+  - MGS Akin
+  - MGS Akinlabi
+  - MGS Akinlana
+  - MGS Akins
+  - MGS Akono
+  - MGS Amadi
+  - MGS Aniweta
+  - MGS Apara
+  - MGS Ayodele
+  - MGS Azagba
+  - MGS Babafemi
+  - MGS Bem
+  - MGS Boseda
+  - MGS Chidike
+  - MGS Chijioke
+  - MGS Chike
+  - MGS Chukwuma
+  - MGS Dada
+  - MGS David
+  - MGS Dumaka
+  - MGS Ehioze
+  - MGS Ekundayo
+  - MGS Emeka
+  - MGS Emmanuel
+  - MGS Ewansiha
+  - MGS Ezekiel
+  - MGS Fasina
+  - MGS Gowo
+  - MGS Idowu
+  - MGS Imarogbe
+  - MGS Isah
+  - MGS Iyapo
+  - MGS Jaja
+  - MGS Jumoke
+  - MGS Kayode
+  - MGS Kehinde
+  - MGS Kosoko
+  - MGS Kwame
+  - MGS Madu
+  - MGS Mazi
+  - MGS Modupe
+  - MGS Morihinze
+  - MGS Moses
+  - MGS Ndulu
+  - MGS Ngozi
+  - MGS Nosakhere
+  - MGS Nwabudike
+  - MGS Obasi
+  - MGS Obataiye
+  - MGS Obayana
+  - MGS Obi
+  - MGS Obike
+  - MGS Ode
+  - MGS Odion
+  - MGS Ogbonna
+  - MGS Okechuku
+  - MGS Okpara
+  - MGS Oladele
+  - MGS Olafemi
+  - MGS Olaniyan
+  - MGS Olawale
+  - MGS Olawutobi
+  - MGS Olubayo
+  - MGS Olufemi
+  - MGS Olugbala
+  - MGS Olujimi
+  - MGS Olumide
+  - MGS Olumiji
+  - MGS Olushola
+  - MGS Oluwa
+  - MGS Oluwaseyi
+  - MGS Oluyemi
+  - MGS Omolara
+  - MGS Omorede
+  - MGS Onuwachi
+  - MGS Opeyemi
+  - MGS Osahar
+  - MGS Osakwe
+  - MGS Osayaba
+  - MGS Osayande
+  - MGS Osayimwese
+  - MGS Osaze
+  - MGS Samuel
+  - MGS Stanley
+  - MGS Sunday
+  - MGS Taiwo
+  - MGS Tobi
+  - MGS Echechi
+  - MGS Uzoma
+  - MGS Weke
+  - MGS Worie
+femaleFirst:
+  - MGS Abagbe
+  - MGS Abagebe
+  - MGS Abayomi
+  - MGS Abebi
+  - MGS Abegbe
+  - MGS Abeje
+  - MGS Abeke
+  - MGS Abena
+  - MGS Abeo
+  - MGS Abidemi
+  - MGS Abimbola
+  - MGS Abiona
+  - MGS Abisola
+  - MGS Adamma
+  - MGS Adanna
+  - MGS Adanya
+  - MGS Adebola
+  - MGS Adebomi
+  - MGS Adedagbo
+  - MGS Adedewe
+  - MGS Adedoja
+  - MGS Adeleke
+  - MGS Adenrele
+  - MGS Adeola
+  - MGS Aderinola
+  - MGS Adesimbo
+  - MGS Adesina
+  - MGS Adeyemi
+  - MGS Adio
+  - MGS Adjoa
+  - MGS Aduke
+  - MGS Aina
+  - MGS Aiyetoro
+  - MGS Ajala
+  - MGS Ajani
+  - MGS Akanke
+  - MGS Alaba
+  - MGS Alke
+  - MGS Ama
+  - MGS Amonke
+  - MGS Annakiya
+  - MGS Anuli
+  - MGS Arria
+  - MGS Asabi
+  - MGS Auta
+  - MGS Ayo
+  - MGS Ayobami
+  - MGS Ayobunmi
+  - MGS Ayodele
+  - MGS Ayofemi
+  - MGS Ayoka
+  - MGS Ayoluwa
+  - MGS Ayomide
+  - MGS Ayoola
+  - MGS Azalee
+  - MGS Baderinwa
+  - MGS Baina
+  - MGS Bayo
+  - MGS Becca
+  - MGS Bekide
+  - MGS Binah
+  - MGS Bolade
+  - MGS Bolanile
+  - MGS Bunmi
+  - MGS Chidimma
+  - MGS Chika
+  - MGS Chinonso
+  - MGS Chinue
+  - MGS Chioma
+  - MGS Chisom
+  - MGS Chizoba
+  - MGS Cynthia
+  - MGS Dada
+  - MGS Danuwa
+  - MGS Daurama
+  - MGS Dayo
+  - MGS Dubaku
+  - MGS Dumaka
+  - MGS Ebele
+  - MGS Ebun
+  - MGS Edenausegbo
+  - MGS Ehizemen
+  - MGS Ekaghogho
+  - MGS Exenesenarh
+  - MGS Enomwoyi
+  - MGS Esosa
+  - MGS Etinosa
+  - MGS Fabayo
+  - MGS Faraa
+  - MGS Farih
+  - MGS Fayola
+  - MGS Fayolla
+  - MGS Femi
+  - MGS Fola
+  - MGS Folade
+  - MGS Folami
+  - MGS Folashade
+  - MGS Dolayan
+  - MGS Foluke
+  - MGS Gimbya
+  - MGS Hanna
+  - MGS Hasana
+  - MGS Hazika
+  - MGS Hembadoon
+  - MGS Idowu
+  - MGS Ifama
+  - MGS Ife
+  - MGS Ifetayo
+  - MGS Ige
+  - MGS Ijaba
+  - MGS Ikuseghan
+  - MGS Innya
+  - MGS Irawagbon
+  - MGS Isoke
+  - MGS Iverem
+  - MGS Iyabo
+  - MGS Izegbe
+  - MGS Joy
+  - MGS Jumoke
+  - MGS Kehinde
+  - MGS Kinah
+  - MGS Kiziah
+  - MGS Kokumo
+  - MGS Limber
+  - MGS Lina
+  - MGS Lisha
+  - MGS Marjorie
+  - MGS Mbafor
+  - MGS Mbeke
+  - MGS Mhonum
+  - MGS Monifa
+  - MGS Morayo
+  - MGS Natashenka
+  - MGS Ngozi
+  - MGS Nkiruka
+  - MGS Nneka
+  - MGS Nnenaya
+  - MGS Nnenia
+  - MGS Nsia
+  - MGS Nourbese
+  - MGS Nwakaeo
+  - MGS Obioma
+  - MGS Ode
+  - MGS Ofure
+  - MGS Olabunmi
+  - MGS Olaniyi
+  - MGS Olateju
+  - MGS Olayinka
+  - MGS Olubayo
+  - MGS Olubunmi
+  - MGS Olufemi
+  - MGS Olufunke
+  - MGS Olufunmilayo
+  - MGS Oluremi
+  - MGS Omalara
+  - MGS Omolara
+  - MGS Omorenoniwara
+  - MGS Omorose
+  - MGS Omosede
+  - MGS Omosupe
+  - MGS omusupe
+  - MGS Oni
+  - MGS Onyeka
+  - MGS Osayioniwabo
+  - MGS Osemweoyenmwen
+  - MGS Oseye
+  - MGS Sade
+  - MGS Shade
+  - MGS Shiminege
+  - MGS Tanisha
+  - MGS Thema
+  - MGS Theresa
+  - MGS Titilayo
+  - MGS Tobi
+  - MGS Uchefuna
+  - MGS Urbi
+  - MGS Yahimba
+  - MGS Yejide
+  - MGS Yetunde
+  - MGS Yewande
+  - MGS Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

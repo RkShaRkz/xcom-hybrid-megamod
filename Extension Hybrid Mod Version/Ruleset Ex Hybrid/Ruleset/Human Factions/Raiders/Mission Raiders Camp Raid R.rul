@@ -1,0 +1,144 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_CANNIBAL_CAMP: Raider Camp Raid
+      STR_MARKER_CANNIBAL_CAMP: Raider Camp Raid
+      STR_ALERT_CANNIBAL_CAMP: Raider Camp Raid
+      STR_LOC_CANNIBAL_CAMP_BRIEFING: "The Merc Guild has located a camp ran by a gang of either Raiders or Bandits. This camp is a threat to some nearby Mutant settlements. Eliminate these hostiles for a reward."   
+alienDeployments:
+  - type: STR_CANNIBAL_CAMP
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	      
+    alert: STR_ALERT_BOUNTY_HUNT_B
+    alertDescription: STR_LOC_CANNIBAL_CAMP_BRIEFING
+    alertBackground: BACK04.SCR
+    briefing:
+      palette: 5
+      music: GMTACDRY   
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_CANNIBAL_CAMP
+      desc: STR_LOC_CANNIBAL_CAMP_BRIEFING
+    markerName: STR_LOC_CANNIBAL_CAMP
+    duration: [50, 100]
+    despawnPenalty: 0
+    width: 80
+    length: 80
+    height: 8
+    script: CANNIBAL_CAMP_LANDING
+    data:
+      - alienRank: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+mapScripts:
+  - type: CANNIBAL_CAMP_LANDING
+    commands:
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	
+    - type: addUFO
+      UFOName: STR_LOC_CANNIBAL_CAMP
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: [1,1,2]
+      executions: 4
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 0]
+        terrain: globeTerrain  
+        groups: 1  		
+      - type: middle
+        size: [1, 1, 2]
+        terrain: NUKEZONEDOWNBUILDING
+    - type: addBlock
+      size: 2
+      executions: 8
+      terrain: globeTerrain 
+    - type: fillArea
+      terrain: globeTerrain 
+ufos:
+  - type: STR_LOC_CANNIBAL_CAMP
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: CANNIBALCAMP
+      mapDataSets:
+        - BLANKS
+        - JUNGLE
+        - BARN_JUNK
+        - FRNITURE
+        - URBITS_JUNK
+        - CULTIVAT
+        - CUNTTRYROAD_LT
+      mapBlocks:
+        - name: URBANJUNK24M
+          width: 20
+          length: 20		  
+alienMissions:
+  - type: STR_LOC_CANNIBAL_CAMP
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_RAIDER_TERROR: 10			  
+          STR_RAIDER: 30  
+          STR_BANDIT_ROBBERS: 10
+          STR_BANDIT_TOWN: 10
+          STR_BANDIT: 20
+          STR_BANDIT_VILLAGE: 10
+          STR_RATMEN: 10
+    waves:
+      - ufo: STR_CANNIBAL_CAMP
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: cannibalCamp0
+    missionWeights:
+      0:
+        STR_LOC_CANNIBAL_CAMP: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+    randomDelay: 40000

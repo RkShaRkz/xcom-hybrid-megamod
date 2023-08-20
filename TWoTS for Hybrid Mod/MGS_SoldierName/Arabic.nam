@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - MGS Abdullah
+  - MGS Abu
+  - MGS Ahmed
+  - MGS Ali
+  - MGS Bilal
+  - MGS Fadil
+  - MGS Farid
+  - MGS Faysal
+  - MGS Ghassan
+  - MGS Habib
+  - MGS Hakim
+  - MGS Hassan
+  - MGS Ibrahim
+  - MGS Khalid
+  - MGS Mahmoud
+  - MGS Muhammad
+  - MGS Najib
+  - MGS Nasir
+  - MGS Omar
+  - MGS Rashid
+  - MGS Tariq
+  - MGS Yusuf
+femaleFirst:
+  - MGS Alia
+  - MGS Amirah
+  - MGS Asma
+  - MGS Farah
+  - MGS Fatima
+  - MGS Ghaliya
+  - MGS Hafsa
+  - MGS Haniya
+  - MGS Iman
+  - MGS Jalila
+  - MGS Jawahir
+  - MGS Karima
+  - MGS Laila
+  - MGS Latifa
+  - MGS Malaika
+  - MGS Maryam
+  - MGS Mona
+  - MGS Nadia
+  - MGS Noor
+  - MGS Rafiqa
+  - MGS Samira
+  - MGS Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

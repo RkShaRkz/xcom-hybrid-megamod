@@ -1,0 +1,142 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALERT_LO_WO_REFUGE: "Diablo Senior Leader Assassination"
+      STR_LO_WO_BRIEFING: "The Merc Guild has information that the leader of the Diablo is hiding in a secret house somewhere. Eliminate him and a lot of faction will pay good money for his death."
+      STR_SECRETS_OF_LO_WO: "Abdul Hanssa's Scroll of Secrets"	
+      STR_DOSSIER_LO_WO: "Dossier: Abdul Hanssa"
+      STR_DOSSIER_LO_WO_UFOPEDIA: ">ROLE: Assassin{NEWLINE}>AFFILIATION: Diablo{NEWLINE}>DETAILS: A very frail-looking old man whom nobody expects to be able to kill people in their prime, three times his size, unarmed, without much effort. He is one of the top assassins and teachers for the Diablo. His age and friendly demeanor makes it easy for him to make allies, no matter the circumstances.{NEWLINE}>STATUS: Interpol notified"
+      STR_LO_WO_REFUGE: "Diablo Senior Leader Assassination"	
+      STR_SECRETS_OF_LO_WO_UFOPEDIA: "The Leader of Diablo is not there, rather it was a trap. However, you will still get paid.. pending on any expenses or losses incured."
+alienDeployments:
+  - type: STR_LO_WO_REFUGE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_TERRORALLOWED
+    enviroEffects: STR_LANDENVIRO	   	
+    width: 50
+    length: 50
+    height: 18
+    alert: STR_ALERT_LO_WO_REFUGE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LO_WO_REFUGE_DESCRIPTION
+    unlockedResearch: STR_LOWOASSANINATION_DONE
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_LO_WO_BRIEFING	  
+    markerName: STR_LO_WO_REFUGE
+    duration: [25, 10000000000000]
+    despawnPenalty: 50
+    music:
+      - GMTACTIC
+    customUfo: STR_LOWOHOUSE
+    script: GENERALSPAWNXP1
+    data:
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 40
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_LO_WO_REFUGE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_BLACK_LOTUS: 100
+    waves:
+      - ufo: STR_LO_WO_REFUGE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+mapScripts:		
+  - type: GENERALSPAWNREBEL
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1		
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain			
+ufos:
+  - type: STR_LOWOHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: DEBTORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10
+ufopaedia:
+  - id: STR_LOWOASSANINATION_DONE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_LOWOASSANINATION_DONE
+    text: STR_SECRETS_OF_LO_WO_UFOPEDIA
+    text_width: 176
+    listOrder: 53914		  
+research:
+  - name: STR_LOWOASSANINATION_DONE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true	  
+missionScripts:
+  - type: loWoRefuge
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_LO_WO_REFUGE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    varName: diabloassassin
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:
+      STR_LOWOASSANINATION_DONE: false	
+    maxRuns: 1
+    varName: lo_wo
+    executionOdds: 100
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

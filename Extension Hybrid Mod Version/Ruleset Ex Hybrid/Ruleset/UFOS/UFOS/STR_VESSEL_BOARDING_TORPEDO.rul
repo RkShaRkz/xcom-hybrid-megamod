@@ -1,0 +1,189 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_BOARDING_TORPEDO: Boarding Torpedo  
+      STR_VESSEL_BOARDING_TORPEDO_UFOPEDIA: "This ufo is nicknamed the Boarding Torpedo for a specific reason. They are design to attack and capture human aircraft. They are well armed and dangerous. Treat them with respect."	
+ufopaedia:
+  - id: STR_VESSEL_BOARDING_TORPEDO
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_VESSEL_BOARDING_TORPEDO
+    text: STR_VESSEL_BOARDING_TORPEDO_UFOPEDIA
+research:
+  - name: STR_VESSEL_BOARDING_TORPEDO
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_BOARDING_TORPEDO
+ufos:
+  - type: STR_VESSEL_BOARDING_TORPEDO
+    size: STR_SMALL
+    modSprite: InterceptionUnknown
+    damageMax: 400
+    speedMax: 4500
+    accel: 1
+    power: 0
+    range: 0
+    score: 600
+    reload: 17
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: VES_410
+      mapDataSets:
+        - BLANKS
+        - U_EXT_G
+        - U_WALL_G
+        - U_PODS_G
+        - U_BITS_G
+        - U_DISEC2
+      mapBlocks:
+        - name: VES_410
+          width: 10
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_BOARDING_TORPEDO
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND  
+    unlockedResearch: STR_VESSEL_BOARDING_TORPEDO	
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_BOARDING_TORPEDO_UNDERWATER
+    startingCondition: STR_UNDERWATERTEST
+    enviroEffects: STR_UNDERWATERENVIRO 
+    unlockedResearch: STR_VESSEL_BOARDING_TORPEDO
+    depth: [1, 1]	
+    width: 60
+    length: 60
+    height: 17
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []

@@ -1,0 +1,361 @@
+lookWeight:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - MPS Afonso
+  - MPS Alberto
+  - MPS Alexandre
+  - MPS Alvaro
+  - MPS Andre
+  - MPS Antonio
+  - MPS Augusto
+  - MPS Bernardo
+  - MPS Bruno
+  - MPS Carlos
+  - MPS Cristiano
+  - MPS Daniel
+  - MPS David
+  - MPS Diogo
+  - MPS Duarte
+  - MPS Eduardo
+  - MPS Fabio
+  - MPS Fernando
+  - MPS Filipe
+  - MPS Flavio
+  - MPS Francisco
+  - MPS Frederico
+  - MPS Gabriel
+  - MPS Goncalo
+  - MPS Guilherme
+  - MPS Gustavo
+  - MPS Helder
+  - MPS Henrique
+  - MPS Hugo
+  - MPS Ivo
+  - MPS Jaime
+  - MPS Joao
+  - MPS Joaquim
+  - MPS Jorge
+  - MPS Jose
+  - MPS Julio
+  - MPS Leonardo
+  - MPS Leonel
+  - MPS Luis
+  - MPS Manuel
+  - MPS Marcelo
+  - MPS Marcio
+  - MPS Marco
+  - MPS Mario
+  - MPS Miguel
+  - MPS Nelson
+  - MPS Nuno
+  - MPS Orlando
+  - MPS Paulo
+  - MPS Pedro
+  - MPS Rafael
+  - MPS Raul
+  - MPS Ricardo
+  - MPS Roberto
+  - MPS Rodolfo
+  - MPS Rodrigo
+  - MPS Rui
+  - MPS Samuel
+  - MPS Sergio
+  - MPS Tiago
+  - MPS Telmo
+  - MPS Tomas
+  - MPS Vasco
+  - MPS Vitor
+femaleFirst:
+  - MPS Alice
+  - MPS Ana
+  - MPS Anabela
+  - MPS Andreia
+  - MPS Angela
+  - MPS Aurora
+  - MPS Barbara
+  - MPS Beatriz
+  - MPS Bia
+  - MPS Carina
+  - MPS Carla
+  - MPS Carolina
+  - MPS Catarina
+  - MPS Catia
+  - MPS Celeste
+  - MPS Celia
+  - MPS Celina
+  - MPS Clara
+  - MPS Claudia
+  - MPS Cristiana
+  - MPS Cristina
+  - MPS Daniela
+  - MPS Dalia
+  - MPS Debora
+  - MPS Diana
+  - MPS Dulce
+  - MPS Elsa
+  - MPS Eva
+  - MPS Fatima
+  - MPS Fernanda
+  - MPS Filipa
+  - MPS Filomena
+  - MPS Flavia
+  - MPS Florbela
+  - MPS Francisca
+  - MPS Gabriela
+  - MPS Gloria
+  - MPS Helena
+  - MPS Ilda
+  - MPS Ines
+  - MPS Irene
+  - MPS Isabel
+  - MPS Joana
+  - MPS Josefina
+  - MPS Julia
+  - MPS Lara
+  - MPS Laura
+  - MPS Leonor
+  - MPS Liliana
+  - MPS Luisa
+  - MPS Madalena
+  - MPS Mafalda
+  - MPS Manuela
+  - MPS Margarida
+  - MPS Maria
+  - MPS Mariana
+  - MPS Marina
+  - MPS Marisa
+  - MPS Marta
+  - MPS Matilde
+  - MPS Monica
+  - MPS Natalia
+  - MPS Nadia
+  - MPS Olivia
+  - MPS Patricia
+  - MPS Paula
+  - MPS Rafaela
+  - MPS Raquel
+  - MPS Rita
+  - MPS Rute
+  - MPS Sandra
+  - MPS Sara
+  - MPS Sofia
+  - MPS Sonia
+  - MPS Soraia
+  - MPS Susana
+  - MPS Tania
+  - MPS Teresa
+  - MPS Telma
+  - MPS Vanessa
+  - MPS Vera
+maleLast:
+  - Abrantes
+  - Abreu
+  - Agostinho
+  - Albano
+  - Albuquerque
+  - Aleixo
+  - Almeida
+  - Alves
+  - Amaro
+  - Amaral
+  - Andrade
+  - Anjos
+  - Antunes
+  - Araujo
+  - Assis
+  - Azevedo
+  - Barata
+  - Barreiras
+  - Barreto
+  - Barros
+  - Barroso
+  - Bastos
+  - Bento
+  - Beja
+  - Borges
+  - Brandao
+  - Brito
+  - Cabral
+  - Cadete
+  - Caetano
+  - Caldeira
+  - Campos
+  - Cardoso
+  - Carneiro
+  - Carrico
+  - Carrilho
+  - Carvalho
+  - Castro
+  - Cavaco
+  - Cavaleiro
+  - Chaves
+  - Coelho
+  - Conceicao
+  - Correia
+  - Cortes
+  - Costa
+  - Coutinho
+  - Couto
+  - Crespo
+  - Cristovao
+  - Cruz
+  - Cunha
+  - Cunhal
+  - Delgado
+  - Dias
+  - Dinis
+  - Dionisio
+  - Domingos
+  - Duarte
+  - Esteves
+  - Farinha
+  - Fernandes
+  - Ferreira
+  - Figueira
+  - Figueiredo
+  - Fitas
+  - Fragoso
+  - Fragata
+  - Francisco
+  - Franco
+  - Freire
+  - Freitas
+  - Fonseca
+  - Fontes
+  - Fortes
+  - Furtado
+  - Galvao
+  - Gama
+  - Garcia
+  - Godinho
+  - Gomes
+  - Goncalves
+  - Gouveia
+  - Graca
+  - Grilo
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guimaraes
+  - Henriques
+  - Homem
+  - Horta
+  - Jacinto
+  - Jesus
+  - Lameiras
+  - Laranjeiro
+  - Leal
+  - Lima
+  - Lopes
+  - Lourenco
+  - Luz
+  - Macedo
+  - Machado
+  - Madeira
+  - Maia
+  - Magalhaes
+  - Marques
+  - Martinho
+  - Martins
+  - Marujo
+  - Mateus
+  - Matias
+  - Matos
+  - Maximo
+  - Meireles
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mestre
+  - Mira
+  - Miranda
+  - Moniz
+  - Monteiro
+  - Morais
+  - Moreira
+  - Morgado
+  - Mota
+  - Moura
+  - Mourinho
+  - Nascimento
+  - Neto
+  - Neves
+  - Nobrega
+  - Nogueira
+  - Noronha
+  - Nunes
+  - Oliveira
+  - Pacheco
+  - Pais
+  - Paiva
+  - Parreira
+  - Pato
+  - Peixe
+  - Peixoto
+  - Pereira
+  - Pessoa
+  - Pimentel
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pires
+  - Portugal
+  - Povoa
+  - Prata
+  - Queiros
+  - Raimundo
+  - Ramalho
+  - Ramos
+  - Raposo
+  - Rato
+  - Real
+  - Rebelo
+  - Reis
+  - Relvas
+  - Ribeiro
+  - Rio
+  - Rocha
+  - Rodrigues
+  - Ronaldo
+  - Rosario
+  - Roseiro
+  - Salgado
+  - Salgueiro
+  - Sampaio
+  - Sanches
+  - Santana
+  - Santos
+  - Sebastiao
+  - Semedo
+  - Sequeira
+  - Serra
+  - Serrao
+  - Serras
+  - Silva
+  - Silvestre
+  - Silvino
+  - Simoes
+  - Soares
+  - Sobral
+  - Sousa
+  - Tavares
+  - Teixeira
+  - Teles
+  - Torres
+  - Valadas
+  - Valente
+  - Varandas
+  - Varela
+  - Vasconcelos
+  - Vaz
+  - Veloso
+  - Viana
+  - Vicente
+  - Vidal
+  - Vieira
+  - Viegas
+  - Vitorino
+  - Xavier

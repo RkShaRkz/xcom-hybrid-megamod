@@ -1,0 +1,173 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_HUMANIST_VILLA: "Mercenary Villa"
+      STR_LOC_HUMANIST_VILLA_TITLE: "Mercenary Villa"
+      STR_MARKER_LOC_HUMANIST_VILLA: "Mercenary Villa"
+      STR_LOC_HUMANIST_VILLA_BRIEFING: "The Merc guild has heard of news that the The Forth Reich Mercenary group is having a vital meeting in a Mansion nearby. Killing them all will put some confusion in their ranks. You will be rewarded handsomely."  
+alienDeployments:
+  - type: STR_HUMANIST_VILLA
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	        
+    alert: STR_LOC_HUMANIST_VILLA_TITLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_HUMANIST_VILLA_BRIEFING
+    briefing:
+      palette: 6
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_HUMANIST_VILLA_TITLE
+      desc: STR_LOC_HUMANIST_VILLA_BRIEFING
+    markerName: STR_MARKER_LOC_HUMANIST_VILLA
+    duration: [35, 75]
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_NAZI_VILLA
+    script: GENERALSPAWN
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 4
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 8
+        highQty: 14
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 6
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []	
+ufos:		
+  - type: STR_NAZI_VILLA
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20			
+alienMissions:
+  - type: STR_LOC_HUMANIST_VILLA
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIXED_KKK: 33
+          STR_NAZISEXP: 33	
+          STR_NAZIS_TERROR: 34
+    waves:
+      - ufo: STR_HUMANIST_VILLA
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: humanistVilla
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_HUMANIST_VILLA: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

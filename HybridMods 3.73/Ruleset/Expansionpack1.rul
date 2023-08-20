@@ -1,0 +1,3011 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MERCCITYRAID: "Merc City Raid Mission"
+      STR_SPKMERCS: "MERCS"
+      STR_MERCRACE: "MERC RACE"
+      STR_SPKMERCS_UFOPEDIA: "Not yet done"
+      STR_MERC_COMMANDER: "Merc Commander" 
+      STR_MERC_LEADER: "Merc Leader" 
+      STR_MERCLEADER_UFOPEDIA: "Not yet done" 
+      STR_MERC_SOLDIER: "Merc Soldier"
+      STR_SPKMERCS_UFOPEDIA: "Not yet done" 
+      STR_MERC_ENGINEER: "Merc Engineer" 
+      STR_MERCENGINEER_UFOPEDIA: "Not yet done"  
+      STR_MERC_NAVIGATOR: "Merc Navigator"
+      STR_MERCNAV_UFOPEDIA: "Not yet done"   	  
+      STR_MERC_COMMANDER_UNDERWATER: "Merc Commander" 
+      STR_MERC_LEADER_UNDERWATER: "Merc Leader"  
+      STR_MERC_SOLDIER_UNDERWATER: "Merc Soldier" 	  
+      STR_MERC_ENGINEER_UNDERWATER: "Merc Engineer"  
+      STR_MERC_NAVIGATOR_UNDERWATER: "Merc Navigator"      
+      STR_STANDARDMERC_UC: "MERC ARMOUR"
+      STR_TANKTERROR_CANNON: "Merc Cannon Tank"  
+      STR_TANKTERROR_LAUNCHER: "Merc Launcher Tank"  
+      STR_TANKTERROR_CANNON_CEOLO: "Merc Coelacanth Gas Cannon Tank"  
+      STR_TANKTERROR_LAUNCHER_CEOLO: "Merc Coelacanth Torpedoes Tank" 
+      STR_EMEMYCITYRAID: "Mercenary Terror Raid" 
+      STR_ENEMYSKYRANGER: "Mercenary Sky Ranger" 
+      STR_ENEMYTRITON: "Mercenary Titon"
+      STR_ENEMYSKYRANGER_UNDERWATER: "Mercenary Sky Ranger Underwater" 
+      STR_ENEMYTRITON_UNDERWATER: "Mercenary Titon Underwater" 	  
+      MERCTERRORSPAWN: "Mercenary Terror"
+      STR_SCRAPSKYRANGER: "Sky Ranger Salvage"  
+      STR_SCRAPTRITON: "Titon Salvage"
+      STR_SUBRAPIDDARTGUN: "Dart Sub-Rapid" 
+      STR_HARPOONRIFLESCOPED: "Scoped Harpoon rifle" 
+      STR_LIGHTWEGHTLAUNCHERQUAD: "Disposable Quad LWT Launcher"   
+      STR_RIFLESCOPE: "Scoped Sniper Rifle" 
+      STR_UZI: "Uzi Submachine Pistol"
+      STR_QUADROCKETLAUNCHER: "Disposable Quad LRPG" 
+      STR_HEVRAPIDHARPOON: "Rapidfire Harpoon" 
+      STR_HEAVYMACHINEGUN: "LMG Squad Weapon"
+      STR_SUBRAPIDDARTGUN_UFOPEDIA: "The Dart Sub-Rapid is the fast firing version of the Dart Pistol. Although limited by the capacity of its ammo, but it does provide critical fire power in close confine situations. " 
+      STR_HARPOONRIFLESCOPED_UFOPEDIA: "The Scoped Harpoon rifle is the long range version of the Sub-Harpoon. Its lack of fast firing is made up for its range and accuracy" 
+      STR_RIFLESCOPE_UFOPEDIA: "The Scoped Rifle uses the large ammo capacity from the Assault Rifle and modified for long range firepower. Critical in long Range Firesupport in a battlefield"   
+      STR_LIGHTWEGHTLAUNCHERQUAD_UFOPEDIA: "The Single use, disposable quad light weight Torpedo launcher does the job of saturation bombardment. Although each torpedoes does less damage than its standard size version, the davastation of an area is more than made up for its lacking in damage power."   
+      STR_QUADROCKETLAUNCHER_UFOPEDIA: "The Disposable Quad Rocket Propel Grenade is a single used Launcher housing four rocket Propelled Grenade. Useful for saturation bombardment. Avoid the use of it in a Confine spaces."
+      STR_UZI_UFOPEDIA: "The Uzi Submachine Pistol is the ultimate close confine weapon, for tight spaces and needed a lot of firepower. Unfortunately, this weapon is limited by its magazine size that's shared with the Pistol."   
+      STR_HEVRAPIDHARPOON_UFOPEDIA: "Rapidfire Harpoon is a battlefield squad support weapon for underwater, its rapid fire allows for suppressing fire against underwater foes."
+      STR_HEAVYMACHINEGUN_UFOPEDIA: "The LMG Squad Weapon is a sustain fire Squad suppot weapon that bring automatic heavy fire on the battlefield. User must beware of its ammo consumption, for it needs frequent ammo reloads."   	  
+      TANKCANNONTERROR_WEAPON: "Tank Cannon"  
+      TANKTOPEDOESWEAPON: "Tank Rocket Launcher"
+      TANKLAUNCHERTERROR_WEAPON: "Tank Gas Cannon"
+      TANKTOPEDOESWEAPON: "Tank Torpedoes Launcher"
+      STR_DEEPSEASUIT_MERC: "Merc Diving Suit"
+      STR_SWIMAQUALUNGMERC: "Merc AquaLung"
+      STR_CORPSEMERC: "Dead Mercenary"  
+      STR_CORPSESUITMERC: "Dead Mercenary"   
+      STR_CORPSE_SWIMWEARMERC: "Dead Mercenary"  
+      STR_PISTOL_CLIPTC: "Ammo Pistol Tungsten Core" 
+      STR_PISTOL_CLIPTCAA: "Ammo Pistol Alien Alloy Tungsten Core" 
+      STR_PISTOL_CLIPAA: "Ammo Pistol Alien Alloy"   
+      STR_RIFLE_CLIPTC: "Ammo Rifle Tungsten Core" 
+      STR_RIFLE_CLIPTCAA: "Ammo Rifle Alien Alloy Tungsten Core"
+      STR_RIFLE_CLIPAA: "Ammo Rifle Alien Alloy"  
+      STR_DART_PODAP: "Ammo Dart Aqua Plastic Core"
+      STR_DART_PODTC: "Ammo Dart Tungsten Core"
+      STR_DART_PODTCAP: "Ammo Dart Aqua Plastic Tungsten Core"
+      STR_HARPOON_PODTCAP: "Ammo Harpoon Aqua Plastic Tungsten Core"
+      STR_HARPOON_PODTC: "Ammo Harpoon Tungsten Core"
+      STR_HARPOON_PODAP: "Ammo Harpoon Aqua Plastic Core"	  
+      STR_TRITONRECOVER: "Salvaged Triton."     
+      STR_SKYRANGERRECOVER: "Salvaged Skyranger."
+      STR_PISTOL_CLIPTC_UFOPEDIA: "Pistol Ammo with Tungsten Core bullets, does more damage than regular bullets." 
+      STR_PISTOL_CLIPAA_UFOPEDIA: "Pistol Ammo with Alien Alloy coated bullets, does more damage than regular bullets." 
+      STR_PISTOL_CLIPTCAA_UFOPEDIA: "Pistol Ammo with Alien Alloy coated Tungsten core bullets, this is the most dense version of the ammo we can come up with from all the recent innovation. It almost pack the punch of a cannon."   
+      STR_RIFLE_CLIPAA_UFOPEDIA: "Rifle Ammo with Alien Alloy coated bullets, does more damage than regular bullets. This is more than made up for its lacking in damage power." 
+      STR_RIFLE_CLIPTC_UFOPEDIA: "Rifle Ammo with Tungsten Core bullets, does more damage than regular bullets."
+      STR_RIFLE_CLIPTCAA_UFOPEDIA: "Rifle Ammo with Alien Alloy coated Tungsten core bullets, this is the most potent version of the ammo we can come up with from all the recent innovation. It almost pack the firepower of a tank."     
+      STR_DART_PODAP_UFOPEDIA: "Dart Ammo with Aqua Plastic coated bullets, the smooth coating of the Aqua plastic on the bullet create less friction against water, giving it more punch than regular dart ammo."
+      STR_DART_PODTC_UFOPEDIA: "Dart Ammo with Tungsten Core bullets, does more damage than regular bullets."     
+      STR_DART_PODTCAP_UFOPEDIA: "Dart Ammo with Alien Plastic coated Tungsten core bullets, the aqua plastic coating give the bullet a smoother performance underwater with a solid tungsten core. It pack the punch of a gas cannon."
+      STR_HARPOON_PODTCAP_UFOPEDIA: "Harpoon Ammo with Alien Plastic coated Tungsten core bullets, the aqua plastic coating give the bullet a smoother performance underwater with a solid tungsten core. Provide a punch almost equal to a sonic weapon."   
+      STR_HARPOON_PODTC_UFOPEDIA: "Harpoon Ammo with Tungsten Core bullets, does more damage than regular harpoon ammo."
+      STR_HARPOON_PODAP_UFOPEDIA: "Harpon Ammo with Aqua Plastic coated bullets, the smooth coating of the Aqua plastic on the bullet create less friction against water, giving it more punch than regular harpoon."
+ufopaedia: #done
+  - id: STR_MERC_COMMANDER
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    #image_id: UP006.BDY
+    image_id: SPKMERCS.SPK
+    text: STR_MERCCOMMANDER_UFOPEDIA
+  - id: STR_MERC_LEADER
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    #image_id: UP006.BDY
+    image_id: SPKMERCS.SPK
+    text: STR_MERCLEADER_UFOPEDIA
+  - id: STR_MERC_ENGINEER
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    #image_id: UP006.BDY
+    image_id: SPKMERCS.SPK
+    text: STR_MERCENGINEER_UFOPEDIA
+  - id: STR_MERC_NAVIGATOR
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    #image_id: UP006.BDY
+    image_id: SPKMERCS.SPK
+    text: STR_MERCNAV_UFOPEDIA
+  - id: STR_SPKMERCS
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SPKMERCS
+    #image_id: UP006.BDY
+    image_id: SPKMERCS.SPK
+    text: STR_SPKMERCS_UFOPEDIA
+  - id: STR_SUBRAPIDDARTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SUBRAPIDDARTGUN_UFOPEDIA	
+  - id: STR_HARPOONRIFLESCOPED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOONRIFLESCOPED_UFOPEDIA	
+  - id: STR_RIFLESCOPE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLESCOPE_UFOPEDIA	
+  - id: STR_UZI
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UZI_UFOPEDIA	
+  - id: STR_LIGHTWEGHTLAUNCHERQUAD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LIGHTWEGHTLAUNCHERQUAD_UFOPEDIA
+  - id: STR_QUADROCKETLAUNCHER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_QUADROCKETLAUNCHER_UFOPEDIA
+  - id: STR_HEVRAPIDHARPOON
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEVRAPIDHARPOON_UFOPEDIA
+  - id: STR_HEAVYMACHINEGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEAVYMACHINEGUN_UFOPEDIA
+  - id: STR_PISTOL_CLIPTC
+    type_id: 4
+    requires:
+      - STR_PISTOL_CLIPTC
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_CLIPTC_UFOPEDIA
+  - id: STR_PISTOL_CLIPTCAA
+    type_id: 4
+    requires:
+      - STR_PISTOL_CLIPTCAA
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_CLIPTCAA_UFOPEDIA
+  - id: STR_PISTOL_CLIPAA
+    type_id: 4
+    requires:
+      - STR_PISTOL_CLIPAA
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_CLIPAA_UFOPEDIA	
+  - id: STR_RIFLE_CLIPTC
+    type_id: 4
+    requires:
+      - STR_RIFLE_CLIPTC
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLE_CLIPTC_UFOPEDIA
+  - id: STR_RIFLE_CLIPTCAA
+    type_id: 4
+    requires:
+      - STR_RIFLE_CLIPTCAA
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLE_CLIPTCAA_UFOPEDIA
+  - id: STR_RIFLE_CLIPAA
+    type_id: 4
+    requires:
+      - STR_RIFLE_CLIPAA
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLE_CLIPAA_UFOPEDIA
+  - id: STR_DART_PODTC
+    type_id: 4
+    requires:
+      - STR_DART_PODTC
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DART_PODTC_UFOPEDIA
+  - id: STR_DART_PODTCAP
+    type_id: 4
+    requires:
+      - STR_DART_PODTCAP
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DART_PODTCAP_UFOPEDIA
+  - id: STR_DART_PODAP
+    type_id: 4
+    requires:
+      - STR_DART_PODAP
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DART_PODAP_UFOPEDIA
+  - id: STR_HARPOON_PODTC
+    type_id: 4
+    requires:
+      - STR_HARPOON_PODTC
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_PODTC_UFOPEDIA
+  - id: STR_HARPOON_PODTCAP
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_HARPOON_PODTCAP
+    text: STR_HARPOON_PODTCAP_UFOPEDIA
+  - id: STR_HARPOON_PODAP
+    type_id: 4
+    requires:
+      - STR_HARPOON_PODAP
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HARPOON_PODAP_UFOPEDIA
+research: 
+#Interrogation
+  - name: STR_SPKMERCS
+    points: 1
+    needItem: true
+  - name: STR_MERC_COMMANDER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_COMMANDER
+    needItem: true
+  - name: STR_MERC_LEADER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_LEADER
+    needItem: true
+  - name: STR_MERC_SOLDIER
+    cost: 20
+    points: 50
+    lookup: STR_SPKMERCS
+    needItem: true
+  - name: STR_MERC_ENGINEER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_ENGINEER
+    needItem: true
+  - name: STR_MERC_NAVIGATOR
+    cost: 20
+    points: 50
+    lookup: STR_MERC_NAVIGATOR
+    needItem: true
+  - name: STR_MERC_COMMANDER_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_COMMANDER
+    needItem: true
+  - name: STR_MERC_LEADER_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_LEADER
+    needItem: true
+  - name: STR_MERC_SOLDIER_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_SPKMERCS
+    needItem: true
+  - name: STR_MERC_NAVIGATOR_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_NAVIGATOR
+    needItem: true
+  - name: STR_MERC_ENGINEER_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_MERC_ENGINEER
+    needItem: true
+  - name: STR_MERC_SOLDIER_UNDERWATER
+    cost: 20
+    points: 50
+    lookup: STR_SPKMERCS
+    needItem: true	
+  - name: STR_PISTOL_CLIPTC
+    cost: 20
+    points: 50
+    lookup: STR_PISTOL_CLIPTC
+    needItem: true
+  - name: STR_PISTOL_CLIPTCAA
+    cost: 20
+    points: 50
+    lookup: STR_PISTOL_CLIPTCAA
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_PISTOL_CLIPTC
+  - name: STR_PISTOL_CLIPAA
+    cost: 20
+    points: 50
+    lookup: STR_PISTOL_CLIPAA
+    dependencies:
+      - STR_ALIEN_ALLOYS
+  - name: STR_RIFLE_CLIPTC
+    cost: 20
+    points: 50
+    lookup: STR_RIFLE_CLIPTC
+    needItem: true	
+  - name: STR_RIFLE_CLIPTCAA
+    cost: 20
+    points: 50
+    lookup: STR_RIFLE_CLIPTCAA
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_RIFLE_CLIPTC
+  - name: STR_RIFLE_CLIPAA
+    cost: 20
+    points: 50
+    lookup: STR_RIFLE_CLIPTCAA
+    dependencies:
+      - STR_ALIEN_ALLOYS
+  - name: STR_DART_PODTC
+    cost: 20
+    points: 50
+    lookup: STR_DART_PODTC
+    needItem: true	
+  - name: STR_DART_PODTCAP
+    cost: 20
+    points: 50
+    lookup: STR_DART_PODTCAP
+    dependencies:
+      - STR_DART_PODTC
+      - STR_AQUA_PLASTICS
+  - name: STR_DART_PODAP
+    cost: 20
+    points: 50
+    lookup: STR_DART_PODAP
+    dependencies:
+      - STR_AQUA_PLASTICS	
+  - name: STR_HARPOON_PODTC
+    cost: 20
+    points: 50
+    lookup: STR_HARPOON_PODTC
+    needItem: true	
+  - name: STR_HARPOON_PODTCAP
+    cost: 20
+    points: 50
+    lookup: STR_HARPOON_PODTCAP
+    dependencies:
+      - STR_HARPOON_PODTC
+      - STR_AQUA_PLASTICS
+  - name: STR_HARPOON_PODAP
+    cost: 20
+    points: 50
+    lookup: STR_HARPOON_PODAP
+    dependencies:
+      - STR_AQUA_PLASTICS
+crafts:	  
+  - type: STR_SKYRANGERRECOVER
+    sprite: 0
+    fuelMax: 1500
+    damageMax: 150
+    speedMax: 760
+    accel: 2
+    soldiers: 14
+    vehicles: 3
+    costSell: 2500000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 1
+    score: 200
+    battlescapeTerrainData:
+      name: PLANE
+      mapDataSets:
+        - BLANKS
+        - PLANE
+      mapBlocks:
+        - name: PLANE
+          width: 10
+          length: 20
+  - type: STR_TRITONRECOVER
+    sprite: 150
+    fuelMax: 1400
+    damageMax: 160
+    speedMax: 790
+    accel: 2
+    soldiers: 14
+    vehicles: 3
+    costSell: 4500000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 1
+    score: 200
+    battlescapeTerrainData:
+      name: TRITON
+      mapDataSets:
+        - BLANKS
+        - TRITON
+      mapBlocks:
+        - name: TRITON
+          width: 10
+          length: 20
+    deployment:
+      - [5, 7, 0, 4]
+      - [4, 7, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 3, 0, 4]
+      - [4, 3, 0, 4]
+      - [5, 2, 0, 4]
+      - [4, 2, 0, 4]
+      - [3, 7, 0, 4]
+      - [3, 6, 0, 4]		  
+manufacture:
+  - name: STR_SKYRANGERRECOVER
+    category: STR_CRAFT  
+    requiredItems:
+      STR_SCRAPSKYRANGER: 1
+    space: 20
+    time: 50
+    cost: 1000000
+  - name: STR_TRITONRECOVER
+    category: STR_CRAFT  
+    requiredItems:
+      STR_SCRAPTRITON: 1
+    space: 20
+    time: 50
+    cost: 2000000
+  - name: STR_PISTOL_CLIPAA
+    requires:
+     - STR_ALIEN_ALLOYS
+    space: 30
+    time: 60
+    cost: 2000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_PISTOL_CLIP: 1
+  - name: STR_PISTOL_CLIPTCAA
+    requires:
+     - STR_ALIEN_ALLOYS
+     - STR_PISTOL_CLIPTC	 
+    space: 30
+    time: 1200
+    cost: 2500
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_PISTOL_CLIPTC: 1	 
+  - name: STR_RIFLE_CLIPAA
+    requires:
+     - STR_ALIEN_ALLOYS
+    space: 30
+    time: 1200
+    cost: 2000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_RIFLE_CLIP: 1
+  - name: STR_RIFLE_CLIPTCAA
+    requires:
+     - STR_ALIEN_ALLOYS
+     - STR_RIFLE_CLIPTC	 
+    space: 30
+    time: 1200
+    cost: 2500
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_RIFLE_CLIPTC: 1	
+  - name: STR_DART_PODAP
+    requires:
+     - STR_AQUA_PLASTICS
+    space: 30
+    time: 1200
+    cost: 2000
+    requiredItems:
+      STR_AQUA_PLASTICS: 1
+      STR_DART_POD: 1
+  - name: STR_DART_PODTCAP
+    requires:
+     - STR_AQUA_PLASTICS
+     - STR_DART_PODTC	 
+    space: 30
+    time: 1200
+    cost: 2500
+    requiredItems:
+      STR_AQUA_PLASTICS: 1
+      STR_DART_PODTC: 1	
+  - name: STR_HARPOON_PODAP
+    requires:
+     - STR_AQUA_PLASTICS
+    space: 30
+    time: 1200
+    cost: 2000
+    requiredItems:
+      STR_AQUA_PLASTICS: 1
+      STR_HARPOON_POD: 1
+  - name: STR_HARPOON_PODTCAP
+    requires:
+     - STR_AQUA_PLASTICS
+     - STR_HARPOON_PODTC	 
+    space: 30
+    time: 1200
+    cost: 2500
+    requiredItems:
+      STR_AQUA_PLASTICS: 1
+      STR_HARPOON_PODTC: 1
+armors:
+  - type: STR_DEEPSEASUIT_MERC
+    spriteSheet: XCOM_20.PCK
+    spriteInv: MAN_20
+    corpseItem: STR_CORPSESUIT
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.8 #Fire
+      - 0.9 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.8 #Stunt
+      - 1.0 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.9 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon		  
+    loftemps: 3
+    drawingRoutine: 13
+    drawBubbles: true
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+  - type: STR_STANDARDMERC_UC
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSEMERC
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.6 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.1 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 200.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+  - type: STR_SWIMAQUALUNGMERC
+    spriteSheet: SwimwearAQUALUNG.PCK  
+    spriteInv: CANAQUA_1
+    drawBubbles: true
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 96, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairGroup: 9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_SWIMWEARMERC
+    visibilityAtDark: 9
+    personalLight: 5
+    stats:
+       tu: 5
+       stamina: 10
+       melee: 5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.7 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.1 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+  - type: TANK_ARMOR1
+    spriteSheet: TANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.9 #NormalBullets
+      - 0.4 #Fire
+      - 0.75 #HE
+      - 0.8 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 1.5 #GaussAP
+      - 1.3 #Electric
+      - 1.1 #BiorganicSpikes
+      - 200.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.8 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+    painImmune: true
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+  - type: COELACANTH_ARMOR1
+    spriteSheet: OLDAQUATANKS.PCK
+    allowInv: false
+    #corpseGeo: STR_COELACANTH_CORPSE
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #NormalBullets
+      - 0.4 #Fire
+      - 0.8 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 0.0 #Stunt
+      - 0.8 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.8 #Sonic
+      - 1.5 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.2 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    drawBubbles: true
+    painImmune: true
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true	
+units:
+  - type: STR_TANKTERROR_CANNON
+    race: STR_MERCRACE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR1
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeapons:
+      - TANKCANNONTERROR_WEAPON
+  - type: STR_TANKTERROR_LAUNCHER
+    race: STR_MERCRACE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR1
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeapons:
+      - TANKLAUNCHERTERROR_WEAPON
+  - type: STR_TANKTERROR_CANNON_CEOLO
+    race: STR_MERCRACE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: COELACANTH_ARMOR1
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeapons:
+      - TANKGAS_CANNON_WEAPON
+  - type: STR_TANKTERROR_LAUNCHER_CEOLO
+    race: STR_MERCRACE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: COELACANTH_ARMOR1
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeapons:
+      - TANKTOPEDOESWEAPON
+  - type: STR_MERC_COMMANDER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_STANDARDMERC_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_COMMANDER_UNDERWATER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_DEEPSEASUIT_MERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_LEADER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_STANDARDMERC_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_LEADER_UNDERWATER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_DEEPSEASUIT_MERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_SOLDIER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_STANDARDMERC_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_SOLDIER_UNDERWATER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_SWIMAQUALUNGMERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_ENGINEER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_STANDARDMERC_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_NAVIGATOR
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_STANDARDMERC_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3	
+  - type: STR_MERC_ENGINEER_UNDERWATER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_SWIMAQUALUNGMERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3
+  - type: STR_MERC_NAVIGATOR_UNDERWATER
+    race: STR_MERCRACE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 70
+      bravery: 70
+      reactions: 76
+      firing: 65
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 25
+    armor: STR_SWIMAQUALUNGMERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 1
+    sniper: 75
+    spotter: 3		
+alienRaces:
+  - id: STR_MERCRACE
+    #retaliationMission: STR_DIMENTIONAL_RETALIATION
+    retaliationAggression: -100
+    members:
+      - STR_MERC_COMMANDER
+      - STR_MERC_LEADER
+      - STR_MERC_NAVIGATOR
+      - STR_MERC_ENGINEER
+      - STR_MERC_NAVIGATOR
+      - STR_MERC_ENGINEER
+      - STR_MERC_SOLDIER
+      - STR_TANKTERROR_CANNON
+      - STR_TANKTERROR_LAUNCHER
+  - id: STR_MERCRACE_UNDERWATER
+    #retaliationMission: STR_DIMENTIONAL_RETALIATION
+    retaliationAggression: -100
+    members:
+      - STR_MERC_COMMANDER_UNDERWATER
+      - STR_MERC_LEADER_UNDERWATER
+      - STR_MERC_NAVIGATOR_UNDERWATER
+      - STR_MERC_ENGINEER_UNDERWATER
+      - STR_MERC_NAVIGATOR_UNDERWATER
+      - STR_MERC_ENGINEER_UNDERWATER
+      - STR_MERC_SOLDIER_UNDERWATER
+      - STR_TANKTERROR_CANNON_CEOLO
+      - STR_TANKTERROR_LAUNCHER_CEOLO
+#alienMissions:
+  #- type: STR_MERCCITYRAID
+  #  points: 0
+  #  objective: 0
+  #  spawnZone: 0 #Mission zone for terror missions
+  #  raceWeights:
+  #    0:
+  #      STR_MERCRACE: 100
+  #  waves:
+  #    - ufo: STR_ENEMYSKYRANGER
+  #      count: 1
+  #     trajectory: P20
+  #     timer: 8000
+  #   - ufo: STR_ENEMYTRITON
+  #     count: 1
+  #     trajectory: P20
+  #     timer: 10000
+  #   - ufo: STR_ENEMYSKYRANGER
+  #     count: 1
+  #     trajectory: P20
+  #     timer: 5000
+  #   - ufo: STR_ENEMYTRITON
+  #     count: 1
+  #     trajectory: P20
+  #     timer: 9000
+  #   - ufo: STR_EMEMYCITYRAID
+  #     count: 1
+  #     trajectory: MISSION_SPAWN
+  #     timer: 0
+  #     objective: true
+#missionScripts:
+#  - type: MERCCITYRAID
+#    firstMonth: 0
+#    missionWeights:
+#      0:
+#        STR_MERCCITYRAID: 100		
+#    avoidRepeats: -1 
+#    maxRuns: -1
+#    varName: cityraidmerc
+#    useTable: false
+#    executionOdds: 100
+#    regionWeights:
+#      0:
+#        MERCTERRORSPAWN: 100
+ufos:
+  - type: STR_ENEMYSKYRANGER
+    size: STR_MEDIUM_UC
+    modSprite: smallufosky
+    #sprite: 0
+    damageMax: 150   
+    speedMax: 760   
+    accel: 2    
+    power: 0
+    range: 0
+    score: 200
+    reload: 56
+    breakOffTime: 200
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH1
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY1
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH2
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY2
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH3
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY3
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH4
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY4
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH5
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY5
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH6
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY6
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH7
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY7
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH8
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY8
+          width: 10       
+          length: 20
+  - type: STR_ENEMYSKYRANGERCRASH9
+    battlescapeTerrainData:     
+      name: PLANE      
+      mapDataSets:      
+        - BLANKS       
+        - PLANEENGINE      
+      mapBlocks:       
+        - name: PLANEENEMY9
+          width: 10       
+          length: 20		  
+  - type: STR_ENEMYTRITON
+    size: STR_MEDIUM_UC
+    modSprite: smallufotriton
+    #sprite: 0
+    damageMax: 160
+    speedMax: 790
+    accel: 2
+    power: 0
+    range: 0
+    score: 50
+    reload: 56
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE  
+      mapBlocks:
+        - name: TRITONENEMY
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH1
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE  
+      mapBlocks:
+        - name: TRITON_2ENEMY1
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH2
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE  
+      mapBlocks:
+        - name: TRITON_2ENEMY2
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH3
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE   
+      mapBlocks:
+        - name: TRITON_2ENEMY3
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH4
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE   
+      mapBlocks:
+        - name: TRITON_2ENEMY4
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH5
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE   
+      mapBlocks:
+        - name: TRITON_2ENEMY5
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH6
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE    
+      mapBlocks:
+        - name: TRITON_2ENEMY6
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH7
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE  
+      mapBlocks:
+        - name: TRITON_2ENEMY7
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH8
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE    
+      mapBlocks:
+        - name: TRITON_2ENEMY8
+          width: 10
+          length: 20
+  - type: STR_ENEMYTRITONCRASH9
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+        - PLANEENGINE    
+      mapBlocks:
+        - name: TRITON_2ENEMY9
+          width: 10
+          length: 20		  
+alienDeployments:
+  - type: STR_EMEMYCITYRAID
+    enviroEffects: STR_TERRORALLOWEDENVIRO
+    startingCondition: STR_TERRORALLOWED
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_ROCKET_LAUNCHER
+            - STR_SMALL_ROCKET
+            - STR_LARGE_ROCKET
+            - STR_INCENDIARY_ROCKET
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_AUTO_CANNON
+            - STR_AC_AP_AMMO
+            - STR_AC_HE_AMMO
+            - STR_AC_I_AMMO	
+            - STR_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVY_CANNON
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP		
+            - STR_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLESCOPE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE  
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 70
+    length: 70
+    height: 9
+    civilians: 16
+    terrains:
+      - URBAN
+    script: URBANMERC
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_ENEMYSKYRANGER
+    enviroEffects: STR_LANDENVIRO
+    startingCondition: STR_LAND
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_ROCKET_LAUNCHER
+            - STR_SMALL_ROCKET
+            - STR_LARGE_ROCKET
+            - STR_INCENDIARY_ROCKET
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLESCOPE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVY_CANNON
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP		
+            - STR_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVY_CANNON
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP		
+            - STR_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_ROCKET_LAUNCHER
+            - STR_SMALL_ROCKET
+            - STR_LARGE_ROCKET
+            - STR_INCENDIARY_ROCKET
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 70
+    length: 70
+    height: 4
+    missionBountyItem: STR_SCRAPSKYRANGER
+    race: STR_MERCRACE
+    script: CRASHSKYRANGER	
+  - type: STR_ENEMYSKYRANGER_UNDERWATER
+    enviroEffects: STR_UNDERWATERENVIRO
+    startingCondition: STR_UNDERWATERTEST	
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_GAS_CANNON
+            - STR_GC_AP_AMMO
+            - STR_GC_HE_AMMO
+            - STR_GC_P_AMMO		
+            - STR_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HEVRAPIDHARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC		
+            - STR_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HARPOONRIFLESCOPED
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_GAS_CANNON
+            - STR_GC_AP_AMMO
+            - STR_GC_HE_AMMO
+            - STR_GC_P_AMMO		
+            - STR_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HYDRO_JET_CANNON
+            - STR_HJC_AP_AMMO
+            - STR_HJC_HE_AMMO
+            - STR_HJC_P_AMMO
+            - STR_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_TORPEDO_LAUNCHER
+            - STR_SMALL_TORPEDO
+            - STR_LARGE_TORPEDO
+            - STR_PHOSPHOROUS_TORPEDO
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 70
+    length: 70
+    height: 4
+    missionBountyItem: STR_SCRAPSKYRANGER
+    race: STR_MERCRACE
+    script: CRASHSKYRANGER	
+  - type: STR_ENEMYTRITON
+    enviroEffects: STR_LANDENVIRO
+    startingCondition: STR_LAND  
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_ROCKET_LAUNCHER
+            - STR_SMALL_ROCKET
+            - STR_LARGE_ROCKET
+            - STR_INCENDIARY_ROCKET
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVYMACHINEGUN
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_AUTO_CANNON
+            - STR_AC_AP_AMMO
+            - STR_AC_HE_AMMO
+            - STR_AC_I_AMMO	
+            - STR_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_HEAVY_CANNON
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP
+            - STR_HEAVY_CANNON_CLIP			
+            - STR_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_UZI
+            - STR_PISTOL_CLIPTC
+            - STR_PISTOL_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE
+          -
+            - STR_RIFLESCOPE
+            - STR_RIFLE_CLIPTC
+            - STR_RIFLE_CLIPTC
+            - STR_GRENADE  
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 70
+    length: 70
+    height: 4
+    missionBountyItem: STR_SCRAPTRITON
+    race: STR_MERCRACE
+    script: CRASHTRITON
+  - type: STR_ENEMYTRITON_UNDERWATER
+    enviroEffects: STR_UNDERWATERENVIRO
+    startingCondition: STR_UNDERWATERTEST	  
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HYDRO_JET_CANNON
+            - STR_HJC_AP_AMMO
+            - STR_HJC_HE_AMMO
+            - STR_HJC_P_AMMO
+            - STR_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_GAS_CANNON
+            - STR_GC_AP_AMMO
+            - STR_GC_HE_AMMO
+            - STR_GC_P_AMMO		
+            - STR_GRENADE
+            - STR_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HARPOONRIFLESCOPED
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_TORPEDO_LAUNCHER
+            - STR_SMALL_TORPEDO
+            - STR_LARGE_TORPEDO
+            - STR_PHOSPHOROUS_TORPEDO
+            - STR_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HYDRO_JET_CANNON
+            - STR_HJC_AP_AMMO
+            - STR_HJC_HE_AMMO
+            - STR_HJC_P_AMMO
+            - STR_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SUBRAPIDDARTGUN
+            - STR_DART_PODTC
+            - STR_DART_PODTC
+            - STR_GRENADE
+          -
+            - STR_JET_HARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC
+            - STR_GRENADE
+          -
+            - STR_HEVRAPIDHARPOON
+            - STR_HARPOON_PODTC
+            - STR_HARPOON_PODTC		
+            - STR_GRENADE
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 70
+    length: 70
+    height: 4
+    missionBountyItem: STR_SCRAPTRITON
+    race: STR_MERCRACE
+    script: CRASHTRITON	
+mapScripts: 	
+  - type: CRASHTRITON
+    commands:
+    - type: addCraft 
+      groups: 1
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITON
+      terrain: globeTerrain
+      executionChances: 10
+      label: 1
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH1
+      terrain: globeTerrain
+      executionChances: 11
+      label: 2
+      conditionals: [-1]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH2
+      terrain: globeTerrain
+      executionChances: 12
+      label: 3
+      conditionals: [-1, -2]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH3
+      terrain: globeTerrain
+      executionChances: 14
+      label: 4
+      conditionals: [-1, -2, -3]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH4
+      terrain: globeTerrain
+      executionChances: 17
+      label: 5
+      conditionals: [-1, -2, -3, -4]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH5
+      terrain: globeTerrain
+      executionChances: 20
+      label: 6
+      conditionals: [-1, -2, -3, -4, -5] 
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH6
+      terrain: globeTerrain
+      executionChances: 25
+      label: 7
+      conditionals: [-1, -2, -3, -4, -5, -6] 
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH7
+      terrain: globeTerrain
+      executionChances: 33
+      label: 8
+      conditionals: [-1, -2, -3, -4, -5, -6, -7]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH8
+      terrain: globeTerrain
+      executionChances: 50
+      label: 9
+      conditionals: [-1, -2, -3, -4, -5, -6, -7, -8]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYTRITONCRASH9
+      terrain: globeTerrain
+      executionChances: 100 
+      conditionals: [-1, -2, -3, -4, -5, -6, -7, -8, -9] 
+    - type: addBlock
+      size: 2
+      executions: 2	
+      groups: 1   
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain
+  - type: CRASHSKYRANGER
+    commands:
+    - type: addCraft 
+      groups: 1
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGER
+      terrain: globeTerrain
+      executionChances: 10
+      label: 1
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH1
+      terrain: globeTerrain
+      executionChances: 11
+      label: 2
+      conditionals: [-1]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH2
+      terrain: globeTerrain
+      executionChances: 12
+      label: 3
+      conditionals: [-1, -2]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH3
+      terrain: globeTerrain
+      executionChances: 14
+      label: 4
+      conditionals: [-1, -2, -3]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH4
+      terrain: globeTerrain
+      executionChances: 17
+      label: 5
+      conditionals: [-1, -2, -3, -4]
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH5
+      terrain: globeTerrain
+      executionChances: 20
+      label: 6
+      conditionals: [-1, -2, -3, -4, -5] 
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH6
+      terrain: globeTerrain
+      executionChances: 25
+      label: 7
+      conditionals: [-1, -2, -3, -4, -5, -6] 
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH7
+      terrain: globeTerrain
+      executionChances: 33
+      label: 8
+      conditionals: [-1, -2, -3, -4, -5, -6, -7]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH8
+      terrain: globeTerrain
+      executionChances: 50
+      label: 9
+      conditionals: [-1, -2, -3, -4, -5, -6, -7, -8]   
+    - type: addUFO
+      groups: 1
+      UFOName: STR_ENEMYSKYRANGERCRASH9
+      terrain: globeTerrain
+      executionChances: 100 
+      conditionals: [-1, -2, -3, -4, -5, -6, -7, -8, -9] 
+    - type: addBlock
+      size: 2
+      executions: 2	
+      groups: 1   
+      terrain: globeTerrain
+    - type: fillArea
+      terrain: globeTerrain
+  - type: URBANMERC
+    commands:
+    - type: addCraft
+    - type: addUFO
+      groups: 1		
+      UFOName: STR_ENEMYSKYRANGER
+      terrain: URBAN	
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [3, 4, 10, 11, 12, 13, 14]
+      freqs: [3, 3, 2, 2, 2, 2, 2]		
+extraSprites:
+  - type: smallufosky
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/enemycraftsprites/uso_sky_int.png
+  - type: smallufotriton
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/enemycraftsprites/uso_triton_int.png
+  - type: FLOOROB.PCK
+    files:
+      1401: Resources/newweaponpack/quadrpgf.png
+      1402: Resources/newweaponpack/FloorobUACsniper.gif
+      1403: Resources/newweaponpack/FloorobUZI.gif
+      1404: Resources/newweaponpack/floorob_Multilauncher_orange.png
+      1405: Resources/newweaponpack/riflef.png
+      1407: Resources/newweaponpack/Floorhevmachinegun.png
+  - type: BIGOBS.PCK
+    files:
+      1401: Resources/newweaponpack/QuadRPGS.png
+      1402: Resources/newweaponpack/BigobUACsniper.gif
+      1403: Resources/newweaponpack/BigobUZI.gif
+      1404: Resources/newweaponpack/bigob_MultiLauncher_orange.png
+      1405: Resources/newweaponpack/HarpoonSniperRifle.png
+      1406: Resources/newweaponpack/SubRapidHarpoonCompact.png
+      1407: Resources/newweaponpack/Bighevmachinegun.png
+      1408: Resources/newweaponpack/RapidHarpoons.png
+      1409: Resources/newweaponpack/DartAmmoAPTC.png
+      1410: Resources/newweaponpack/DartAmmoAP.png
+      1411: Resources/newweaponpack/DartAmmoTC.png
+      1412: Resources/newweaponpack/HarpoonAmmoAP.png
+      1413: Resources/newweaponpack/HarpoonAmmoAPTC.png
+      1414: Resources/newweaponpack/HarpoonAmmoTC.png
+      1415: Resources/newweaponpack/PistolAmmoTC.png
+      1416: Resources/newweaponpack/PistolAmmoALTC.png
+      1417: Resources/newweaponpack/PistolAmmoAL.png		  
+      1418: Resources/newweaponpack/RifleAmmoTC.png
+      1419: Resources/newweaponpack/RifleAmmoALTC.png
+      1420: Resources/newweaponpack/RifleAmmoAL.png		  	  
+  - type: HANDOB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 160
+    files:
+      1501: Resources/newweaponpack/handob_MultiLauncher_orange.png
+      1511: Resources/newweaponpack/Handob_quadrpg.png
+      1521: Resources/newweaponpack/HandobsUACsniper.gif
+      1531: Resources/newweaponpack/HandobsUZI.gif
+      1541: Resources/newweaponpack/Handhevmachinegun.png
+  - type: SPKMERCS.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/SPK.gif
+items:
+  - type: STR_JET_HARPOON
+    compatibleAmmo:
+      - STR_HARPOON_POD
+      - STR_HARPOON_PODTCAP
+      - STR_HARPOON_PODTC
+      - STR_HARPOON_PODAP	
+  - type: STR_DART_PISTOL
+    compatibleAmmo:
+      - STR_DART_POD
+      - STR_DART_PODAP
+      - STR_DART_PODTC
+      - STR_DART_PODTCAP  
+  - type: STR_RIFLE
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+      - STR_RIFLE_CLIPTC
+      - STR_RIFLE_CLIPTCAA
+      - STR_RIFLE_CLIPAA 
+  - type: STR_PISTOL
+    compatibleAmmo:
+      - STR_PISTOL_CLIP
+      - STR_PISTOL_CLIPTC
+      - STR_PISTOL_CLIPAA
+      - STR_PISTOL_CLIPTCAA  
+  - type: STR_CORPSEMERC
+    weight: 22
+    bigSprite: 45
+    floorSprite: 39
+    invWidth: 2
+    invHeight: 3
+    costSell: 10000		
+    recover: true
+    battleType: 11	
+    armor: 1	
+  - type: STR_CORPSESUITMERC
+    weight: 25
+    bigSprite: 512
+    floorSprite: 512
+    invWidth: 2
+    invHeight: 3
+    costSell: 10000
+    battleType: 11	
+    armor: 5
+    recover: true
+  - type: STR_CORPSE_SWIMWEARMERC
+    name: STR_CORPSE
+    size: 0.4
+    weight: 22
+    bigSprite: 528
+    floorSprite: 711
+    invWidth: 2
+    invHeight: 3
+    battleType: 11	
+    costSell: 10000		
+    recover: true
+  - type: STR_PISTOL_CLIPTC
+    size: 0.1
+    costSell: 2500
+    weight: 3
+    bigSprite: 1415
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 33
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    armor: 12
+  - type: STR_PISTOL_CLIPAA
+    size: 0.1
+    costSell: 3000
+    weight: 3
+    bigSprite: 1417
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 37
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    armor: 12	
+  - type: STR_RIFLE_CLIPTC
+    size: 0.1
+    costSell: 3000
+    weight: 3
+    bigSprite: 1418
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 38
+    damageType: 11
+    clipSize: 20
+    battleType: 2
+  - type: STR_PISTOL_CLIPTCAA
+    size: 0.1
+    costSell: 4000
+    weight: 3
+    bigSprite: 1416
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 42
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    armor: 12
+  - type: STR_RIFLE_CLIPTCAA
+    size: 0.1
+    costSell: 4000
+    weight: 3
+    bigSprite: 1419
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 66
+    damageType: 11
+    clipSize: 20
+    battleType: 2	
+  - type: STR_DART_PODTC
+    size: 0.1
+    costSell: 2000
+    weight: 2
+    bigSprite: 1411
+    floorSprite: 1767 
+    handSprite: 1315
+    hitSound: 116
+    hitAnimation: 216
+    power: 20
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5	
+  - type: STR_DART_PODAP
+    size: 0.1
+    costSell: 2000
+    weight: 2
+    bigSprite: 1410
+    floorSprite: 1767 
+    handSprite: 1315
+    hitSound: 116
+    hitAnimation: 216
+    power: 21
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5		
+  - type: STR_HARPOON_PODAP
+    size: 0.1
+    costSell: 2000
+    weight: 2
+    bigSprite: 1412
+    floorSprite: 1998
+    handSprite: 1325
+    hitSound: 116
+    hitAnimation: 216
+    power: 42
+    damageType: 11
+    clipSize: 10
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10	
+  - type: STR_HARPOON_PODTC
+    size: 0.1
+    costSell: 2000
+    weight: 2
+    bigSprite: 1414
+    floorSprite: 1998
+    handSprite: 1325
+    hitSound: 116
+    hitAnimation: 216
+    power: 40
+    damageType: 11
+    clipSize: 10
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+  - type: STR_RIFLE_CLIPAA
+    size: 0.1
+    costSell: 2000
+    weight: 3
+    bigSprite: 1420
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 39
+    damageType: 11
+    clipSize: 20
+    battleType: 2	
+  - type: STR_DART_PODTCAP
+    size: 0.1
+    costSell: 3000
+    weight: 2
+    bigSprite: 1409
+    floorSprite: 1767 
+    handSprite: 1315
+    hitSound: 116
+    hitAnimation: 216
+    power: 26
+    damageType: 11
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5	
+  - type: STR_HARPOON_PODTCAP
+    size: 0.1
+    costSell: 4000
+    weight: 2
+    bigSprite: 1413
+    floorSprite: 1998
+    handSprite: 1325
+    hitSound: 116
+    hitAnimation: 216
+    power: 50
+    damageType: 11
+    clipSize: 10
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10		
+  - type: STR_MERC_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1
+  - type: STR_MERC_COMMANDER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1
+  - type: STR_MERC_LEADER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1
+  - type: STR_MERC_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1	
+  - type: STR_MERC_SOLDIER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1	
+  - type: STR_MERC_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1
+  - type: STR_MERC_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+  - type: STR_MERC_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000	
+  - type: STR_MERC_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_MERC_NAVIGATOR_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000	
+  - type: STR_MERC_ENGINEER_UNDERWATER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000		
+  - type: STR_TANKTERROR_CANNON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1	
+  - type: STR_TANKTERROR_LAUNCHER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1	
+  - type: STR_TANKTERROR_CANNON_CEOLO
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1	
+  - type: STR_TANKTERROR_LAUNCHER_CEOLO
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1		
+  - type: STR_SCRAPSKYRANGER
+    size: 20
+    costSell: 20000
+  - type: STR_SCRAPTRITON
+    size: 20
+    costSell: 1
+#SEA Weapons
+  - type: STR_SUBRAPIDDARTGUN
+    size: 0.1
+    costBuy: 1300
+    costSell: 20000
+    weight: 7
+    bigSprite: 1406
+    floorSprite: 1766
+    handSprite: 301
+    bulletSprite: 35
+    fireSound: 950
+    compatibleAmmo:
+      - STR_DART_POD
+      - STR_DART_PODAP
+      - STR_DART_PODTC
+      - STR_DART_PODTCAP	  
+    accuracyAuto: 40	  
+    tuAuto: 35	
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    autoShots: 5
+  - type: STR_HARPOONRIFLESCOPED
+    size: 0.2
+    costBuy: 2500
+    costSell: 1250
+    weight: 4
+    bigSprite: 1405
+    floorSprite: 1405
+    handSprite: 685
+    bulletSprite: 35
+    fireSound: 115
+    compatibleAmmo:
+      - STR_HARPOON_POD
+      - STR_HARPOON_PODTCAP
+      - STR_HARPOON_PODTC
+      - STR_HARPOON_PODAP	
+    accuracySnap: 150
+    accuracyAimed: 180
+    tuSnap: 40
+    tuAimed: 55
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+  - type: STR_LIGHTWEGHTLAUNCHERQUAD
+    size: 0.4
+    costBuy: 2500
+    costSell: 1200
+    weight: 5
+    bigSprite: 1401
+    floorSprite: 1401
+    handSprite: 1511
+    bulletSprite: 36
+    fireSound: 119
+    hitSound: 0
+    power: 50	
+    hitAnimation: 8
+    accuracyAuto: 60
+    tuAuto: 50	
+    accuracySnap: 90
+    tuSnap: 25
+    battleType: 1
+    clipSize: 4
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    underwaterOnly: true
+    autoShots: 4
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_HEVRAPIDHARPOON
+    size: 0.2
+    costBuy: 4500
+    costSell: 2250
+    weight: 8
+    bigSprite: 1408
+    floorSprite: 1518
+    handSprite: 685
+    bulletSprite: 35
+    fireSound: 115
+    compatibleAmmo:
+      - STR_HARPOON_POD
+      - STR_HARPOON_PODTCAP
+      - STR_HARPOON_PODTC
+      - STR_HARPOON_PODAP		  
+    accuracyAuto: 50	  
+    tuAuto: 25
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 5		
+#LAND WEAPONS
+  - type: STR_HEAVYMACHINEGUN
+    size: 0.2
+    costBuy: 3500
+    costSell: 1650
+    weight: 8
+    bigSprite: 1407
+    floorSprite: 1407
+    handSprite: 1541
+    bulletSprite: 3
+    fireSound: 4
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+      - STR_RIFLE_CLIPTC
+      - STR_RIFLE_CLIPTCAA
+      - STR_RIFLE_CLIPAA 
+    accuracyAuto: 45  
+    tuAuto: 30
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    landOnly: true
+    autoShots: 10	
+  - type: STR_RIFLESCOPE
+    size: 0.2
+    costBuy: 1400
+    costSell: 650
+    weight: 9
+    bigSprite: 1402
+    floorSprite: 1402
+    handSprite: 1521
+    bulletSprite: 3
+    fireSound: 4
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+      - STR_RIFLE_CLIPTC
+      - STR_RIFLE_CLIPTCAA
+      - STR_RIFLE_CLIPAA 	  
+    accuracySnap: 140
+    accuracyAimed: 160
+    tuSnap: 40
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    landOnly: true
+  - type: STR_UZI
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 2
+    bigSprite: 1403
+    floorSprite: 1403
+    handSprite: 1531
+    bulletSprite: 1
+    fireSound: 4
+    compatibleAmmo:
+      - STR_PISTOL_CLIP
+      - STR_PISTOL_CLIPTC
+      - STR_PISTOL_CLIPAA
+      - STR_PISTOL_CLIPTCAA  
+    accuracyAuto: 40
+    tuAuto: 30
+    autoShots: 5
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    landOnly: true	
+  - type: STR_QUADROCKETLAUNCHER
+    size: 0.2
+    costBuy: 2000
+    costSell: 1000
+    weight: 5
+    bigSprite: 1404
+    floorSprite: 1404
+    handSprite: 1501
+    bulletSprite: 0
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 8
+    power: 50	
+    damageType: 3
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 85
+    autoShots: 4
+    tuAuto: 30
+    tuSnap: 25
+    tuAimed: 50
+    clipSize: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    underwaterOnly: false
+    autoShots: 4
+    landOnly: true
+  - type: TANKCANNONTERROR_WEAPON
+    weight: 3
+    bigSprite: 54
+    bulletSprite: 4
+    fireSound: 12
+    hitSound: 13
+    hitAnimation: 26
+    power: 70
+    damageType: 1
+    clipSize: -1
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    turretType: 0
+  - type: TANKLAUNCHERTERROR_WEAPON
+    weight: 3
+    bigSprite: 42
+    bulletSprite: 0
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 8	
+    power: 85
+    damageType: 3
+    clipSize: -1
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    turretType: 1
+  - type: TANKGAS_CANNON_WEAPON
+    weight: 3
+    bigSprite: 974
+    bulletSprite: 39
+    fireSound: 119
+    hitSound: 13
+    hitAnimation: 26
+    power: 60
+    damageType: 1
+    clipSize: -1
+    battleType: 2	
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    turretType: 0
+    vaporColor: 0
+    vaporDensity: 15
+  - type: TANKTOPEDOESWEAPON
+    weight: 3
+    bigSprite: 973
+    fireSound: 119
+    bulletSprite: 36	
+    hitSound: 0
+    hitAnimation: 8
+    power: 90
+    damageType: 3
+    clipSize: -1
+    battleType: 2	
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    turretType: 1
+    underwaterOnly: true
+    vaporColor: 1
+    vaporDensity: 20

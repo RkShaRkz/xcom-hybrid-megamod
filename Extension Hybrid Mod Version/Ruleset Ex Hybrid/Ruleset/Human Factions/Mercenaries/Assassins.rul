@@ -1,0 +1,331 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_NIN_1_CORPSE_BATTLE: "Shadow Initiate Corpse"
+      STR_NIN_2_CORPSE_BATTLE: "Shadow Warrior Corpse"
+      STR_NIN_3_CORPSE_BATTLE: "Shadow Master Corpse" 	
+      NINJA_ARMOR_1_UFOPEDIA: "Shadow Initiate Examination. NV: 12. ThV: 25%. CAMO 15/5."
+      NINJA_ARMOR_2_UFOPEDIA: "Shadow Warrior Examination. NV: 13. ThV: 35%. CAMO 21/7. SPOT: 3. Evasion flanking penalty halved."
+      NINJA_ARMOR_3_UFOPEDIA: "Shadow Master Examination. NV: 14. ThV: 35%. CAMO 10/3. SPOT: 3. SHIELDS: 54/27 (Purple). Evasion flanking penalty halved."	  
+      STR_NINJA_GAL_ID: "Shadow Initiate ID"
+      STR_NINJA_WARRIOR_ID: "Shadow Warrior ID"
+      STR_NINJA_ASSAULT_ID: "Shadow Master ID"
+      STR_NINJA_GAL_SALVAGE: "S^: Ninja Gal (1/1/0)"
+      STR_NINJA_JETBIKES_UFOPEDIA: "The Shadow Clans are prone to conduct air patrols, riding these vehicles. They're fast, very difficult to hit and can jump our transports at the least opportune moment. We must be careful from now on."
+      STR_NINJA_ENDURANCE_TRAINING_UFOPEDIA: "Elemental endurance is a part of advanced Ninja training. By exposing themselves to elements, The Shadow Clans develop techniques to resist Fire, Electricity, Bio and Mind damage, as well as adverse weather. They also increase their mental and physical resistance that way. This has to do with their perverse VooDoo, and as such, is impossible for us to mimic. However, insights into their techniques can give us a new philosophical perspective on things."
+      STR_NINJA_ENDURANCE_TRAINING: "Ninja Endurance Training"
+      STR_NINJA_JETBIKES: "Ninja Jetbikes"
+      STR_NINJA_GAL: "Shadow Initiate"
+      STR_NINJA_WARRIOR: "Shadow Warrior"
+      STR_NINJA_ASSAULT: "Shadow Master"
+      STR_NINJA: "Shadow Assassins"
+      STR_NINJA_UFOPEDIA: "The Shadow Clans are a long-established organization, a fusion of the eastern arabic cults and ancient Japanese ninja traditions. Nowdays, these clans hired themselves out to the highest bidder. Doing their master's dirty work ranging from assassination to stealing. Stealty, silent and deadly, they are a force to be reckon with."
+      STR_NINJA_GAL_UFOPEDIA: "The most junior ranks in the Shadow clans, these initiate are often used as trainee foot soldiers. To help boost their experience in the field, they are often used in the most mundane of duties."
+      STR_NINJA_WARRIOR_UFOPEDIA: "Shadow Warriors are the more experience assassins in the Shadow Clan ranks, they wore specialised armor that make them almost invisible and they kill silently. Often working in specialised assignmentes in one or two, they often succeed in their jobs with deadly success."
+      STR_NINJA_ASSAULT_UFOPEDIA: "These are the elite warriors in the Shadow clan ranks. These warriors have better armour and experience than their lower warrior rankers. These elite assault warriors often has dozen of missions done in their belt and very experience. Tread with care when you encounter one."	  
+alienRaces:
+  - id: STR_NINJA
+    members:
+      - STR_NINJA_ASSAULT
+      - STR_NINJA_ASSAULT #Replace 
+      - STR_NINJA_ASSAULT #Replace
+      - STR_NINJA_WARRIOR #Keep
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR	  
+    retaliationAggression: -100
+  - id: STR_NINJA_UNDERWATER	
+    members:
+      - STR_NINJA_ASSAULT
+      - STR_NINJA_ASSAULT
+      - STR_NINJA_ASSAULT
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR #Keep
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_WARRIOR	  
+    retaliationAggression: -100
+ufopaedia:	
+  - id: STR_NIN_2_CORPSE_BATTLE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: NINJA_ARMOR_2_UFOPEDIA
+    requires:
+      - STR_NIN_2_CORPSE_BATTLE
+  - id: STR_NIN_3_CORPSE_BATTLE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: NINJA_ARMOR_3_UFOPEDIA
+    requires:
+      - STR_NIN_3_CORPSE_BATTLE
+  - id: STR_NINJA
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NINJA
+    text: STR_NINJA_UFOPEDIA
+    text_width: 112
+    listOrder: 23400
+  - id: STR_NINJA_WARRIOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NINJA_WARRIOR
+    text: STR_NINJA_WARRIOR_UFOPEDIA
+    text_width: 180
+    listOrder: 23415
+  - id: STR_NINJA_ASSAULT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NINJA_ASSAULT
+    text: STR_NINJA_ASSAULT_UFOPEDIA
+    text_width: 180
+    listOrder: 23420	
+research:
+  - name: STR_NINJA
+    ##requiresBaseFunc: [RESEARCH]   
+    cost: 0
+    points: 50
+    needItem: false
+    dependencies:
+      - STR_NINJA_WARRIOR
+      - STR_NINJA_ASSAULT
+  - name: STR_NINJA_WARRIOR
+    requiresBaseFunc: [INTERROGATION]      
+    cost: 15
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_NINJA
+  - name: STR_NINJA_ASSAULT
+    requiresBaseFunc: [INTERROGATION]      
+    cost: 15
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_NINJA
+  - name: STR_NIN_2_CORPSE_BATTLE
+    ##requiresBaseFunc: [RESEARCH]   
+    points: 10
+    dependencies:
+      - STR_NINJA_WARRIOR
+  - name: STR_NIN_3_CORPSE_BATTLE
+    ##requiresBaseFunc: [RESEARCH]     
+    points: 10
+    dependencies:
+      - STR_NINJA_ASSAULT
+      - STR_NINJA_ASSAULT
+units:
+  - type: STR_NINJA_WARRIOR
+    race: STR_NINJA
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 80
+      stamina: 100
+      health: 75
+      bravery: 90
+      reactions: 90
+      firing: 70
+      throwing: 85
+      strength: 50
+      psiStrength: 60
+      psiSkill: 0
+      melee: 90
+      #Mana: 50
+    armor: NINJA_ARMOR_2
+    standHeight: 21
+    kneelHeight: 14
+    value: 16
+    deathSound: [44, 45, 46]
+    energyRecovery: 50
+    sniper: 33
+    spotter: 2
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_RAIL_RIFLE
+        - STR_RAIL_RIFLE_CLIP
+        - STR_RAIL_RIFLE_CLIP
+        - STR_GRENADE
+  - type: STR_NINJA_ASSAULT
+    race: STR_NINJA
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 120
+      stamina: 120
+      health: 75
+      bravery: 100
+      reactions: 100
+      firing: 70
+      throwing: 85
+      strength: 55
+      psiStrength: 65
+      psiSkill: 0
+      melee: 110
+      #Mana: 50
+    armor: NINJA_ARMOR_3
+    standHeight: 21
+    kneelHeight: 14
+    value: 20
+    deathSound: [44, 45, 46]
+    energyRecovery: 50
+    sniper: 10
+    spotter: 2
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_HEAVY_RAILGUN
+        - STR_HEAVY_RAILGUN_CLIP
+        - STR_HEAVY_RAILGUN_CLIP
+        - STR_HEAVY_RAILGUN_CLIP
+        - STR_GRENADE		
+    canSurrender: true
+armors:		
+  - type: NINJA_ARMOR_2
+    spriteSheet: PIR_36.PCK
+    customArmorPreviewIndex: 49
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_NIN_2_CORPSE_BATTLE
+    ##corpseGeo: STR_RAIDER_CORPSE	
+    weight: -3
+    personalLight: 5
+    visibilityAtDark: 20
+    heatVision: 30
+    camouflageAtDay: 0
+    camouflageAtDark: -5
+    stats:
+       tu: -5
+       stamina: -5
+       reactions: -15
+       melee: -10
+       firing: 10
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    meleeDodge:
+      reactions: 0.1
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: NINJA_ARMOR_3
+    spriteSheet: NIN_2.PCK
+    spriteInv: NinjaWarriorInventoryImage
+    spriteHairGroup: 9
+    spriteHairColor: [144, 244, 36, 162, 80, 162, 38, 244]
+    corpseBattle:
+      - STR_NIN_3_CORPSE_BATTLE
+    ##corpseGeo: STR_GRAV_CORPSE	
+    visibilityAtDark: 13
+    heatVision: 35
+    camouflageAtDay: -21
+    camouflageAtDark: -7
+    antiCamouflageAtDay: 3
+    antiCamouflageAtDark: 3
+    moveSound: 999
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    meleeDodge:
+      reactions: 0.4
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.25
+    damageModifier:
+      - 0.6
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.8
+      - 1.0
+      - 0.75
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 2 ]  
+items:
+  - type: STR_NINJA_WARRIOR
+    requiresBaseFunc: [INTERROGATION]  
+    transferTime: 72
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 30000	
+  - type: STR_NINJA_ASSAULT
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1	
+    liveAlien: true
+    costSell: 45000
+  - type: STR_NIN_2_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 45
+    bigSprite: 3936
+    floorSprite: 3936
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 9
+    armor: 50
+  - type: STR_NIN_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3452
+    floorSprite: 3452
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 9
+    armor: 50	

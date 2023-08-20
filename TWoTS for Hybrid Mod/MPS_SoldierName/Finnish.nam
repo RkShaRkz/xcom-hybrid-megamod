@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - MPS Aaro
+  - MPS Aatu
+  - MPS Akseli
+  - MPS Aleksi
+  - MPS Antti
+  - MPS Arttu
+  - MPS Atte
+  - MPS Eemeli
+  - MPS Eero
+  - MPS Eino
+  - MPS Esko
+  - MPS Elias
+  - MPS Erkki
+  - MPS Heikki
+  - MPS Henrikki
+  - MPS Ilmari
+  - MPS Jaakko
+  - MPS Jere
+  - MPS Jesse
+  - MPS Joel
+  - MPS Joona
+  - MPS Juhani
+  - MPS Juho
+  - MPS Julius
+  - MPS Jussi
+  - MPS Juuso
+  - MPS Kalle
+  - MPS Konsta
+  - MPS Lauri
+  - MPS Leevi
+  - MPS Markku
+  - MPS Matias
+  - MPS Matti
+  - MPS Mika
+  - MPS Mikael
+  - MPS Mikko
+  - MPS Niilo
+  - MPS Niklas
+  - MPS Niko
+  - MPS Onni
+  - MPS Oskari
+  - MPS Roope
+  - MPS Sami
+  - MPS Santeri
+  - MPS Tapani
+  - MPS Tommi
+  - MPS Tuomas
+  - MPS Valtteri
+  - MPS Viljo
+  - MPS Ville
+femaleFirst:
+  - MPS Aino
+  - MPS Anja
+  - MPS Anna
+  - MPS Anneli
+  - MPS Anni
+  - MPS Eila
+  - MPS Elina
+  - MPS Elisa
+  - MPS Emilia
+  - MPS Emma
+  - MPS Emmi
+  - MPS Eveliina
+  - MPS Hanna
+  - MPS Hannele
+  - MPS Helena
+  - MPS Helmi
+  - MPS Iida
+  - MPS Iina
+  - MPS Ilona
+  - MPS Jenni
+  - MPS Johanna
+  - MPS Julia
+  - MPS Kaarina
+  - MPS Karoliina
+  - MPS Katariina
+  - MPS Kristiina
+  - MPS Laura
+  - MPS Leena
+  - MPS Liisa
+  - MPS Maarit
+  - MPS Maija
+  - MPS Maria
+  - MPS Marjatta
+  - MPS Martta
+  - MPS Milla
+  - MPS Minna
+  - MPS Noora
+  - MPS Oona
+  - MPS Pauliina
+  - MPS Pirjo
+  - MPS Riitta
+  - MPS Ritva
+  - MPS Saara
+  - MPS Sanni
+  - MPS Sari
+  - MPS Sofia
+  - MPS Susanna
+  - MPS Tuula
+  - MPS Tuuli
+  - MPS Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

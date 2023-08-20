@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - CS Alain
+  - CS Alban
+  - CS Armand
+  - CS Benoit
+  - CS Bruno
+  - CS Calvin
+  - CS Christian
+  - CS Claude
+  - CS Corentin
+  - CS Damien
+  - CS Denis
+  - CS Emile
+  - CS Etienne
+  - CS Ethan
+  - CS Fabien
+  - CS Francis
+  - CS Frederic
+  - CS Gaston
+  - CS Gerard
+  - CS Guillaume
+  - CS Henri
+  - CS Hugo
+  - CS Jacques
+  - CS Jean
+  - CS Jules
+  - CS Leon
+  - CS Lionel
+  - CS Louis
+  - CS Lucas
+  - CS Mathis
+  - CS Marc
+  - CS Marcel
+  - CS Michel
+  - CS Nathan
+  - CS Nicolas
+  - CS Olivier
+  - CS Pascal
+  - CS Paul
+  - CS Pierre
+  - CS Philippe
+  - CS Quentin
+  - CS Raphael
+  - CS Remi
+  - CS Rene
+  - CS Robert
+  - CS Roger
+  - CS Sebastien
+  - CS Simon
+  - CS Sylvain
+  - CS Thibault
+  - CS Victor
+  - CS Vincent
+  - CS Yves
+femaleFirst:
+  - CS Anne
+  - CS Audrey
+  - CS Brigitte
+  - CS Camille
+  - CS Catherine
+  - CS Chantal
+  - CS Claire
+  - CS Clara
+  - CS Cloe
+  - CS Danielle
+  - CS Dominique
+  - CS Elisabeth
+  - CS Eva
+  - CS Florence
+  - CS Francoise
+  - CS Gaelle
+  - CS Geraldine
+  - CS Helene
+  - CS Isabelle
+  - CS Ludivine
+  - CS Lydia
+  - CS Jacqueline
+  - CS Jeanne
+  - CS Julie
+  - CS Laure
+  - CS Lina
+  - CS Lilou
+  - CS Maelys
+  - CS Marie
+  - CS Marion
+  - CS Marguerite
+  - CS Maud
+  - CS Murielle
+  - CS Nathalie
+  - CS Odile
+  - CS Rachel
+  - CS Rose
+  - CS Sabine
+  - CS Sandrine
+  - CS Stephanie
+  - CS Sonia
+  - CS Sylvie
+  - CS Valerie
+  - CS Veronique
+  - CS Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

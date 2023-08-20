@@ -1,0 +1,159 @@
+﻿globe:
+  textures:
+    - id: 0
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: FORESTSWAMP
+          weight: 10
+        - name: RURAL
+          weight: 5
+        - name: URBANNATIVE
+          weight: 5
+    - id: 1
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: RURAL
+          weight: 20
+          area: [13, 180, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: INDUSTRIALSLUM
+          weight: 20
+        - name: URBAN
+          weight: 30
+        - name: COMRCURBAN
+          weight: 10
+          area: [0, 360, -30, 0]
+        - name: COMRCURBAN
+          weight: 10
+          area: [0, 360, 0, 30]
+    - id: 2
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: RURAL
+          weight: 20
+          area: [13, 180, -90, 0]
+        - name: URBAN
+          weight: 10
+        - name: URBAN_DAWN
+          weight: 5
+        - name: INDUSTRIALSLUM
+          weight: 10
+        - name: COMRCURBAN
+          weight: 10
+          area: [0, 360, -30, 0]
+        - name: COMRCURBAN
+          weight: 10
+          area: [0, 360, 0, 30]
+    - id: 3
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: RURAL
+          weight: 20
+          area: [13, 180, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: URBAN
+          weight: 15
+        - name: URBANJUNK
+          weight: 7
+        - name: INDUSTRIALSLUM
+          weight: 7
+    - id: 4
+      terrain:
+        - name: RURAL
+          weight: 20
+        - name: URBANJUNK
+          weight: 7
+          area: [0, 360, 0, 90]
+        - name: INDUSTRIALSLUM
+          weight: 7
+        - name: URBANNATIVE
+          weight: 7
+          area: [0, 360, -30, 0]
+        - name: URBANNATIVE
+          weight: 10
+          area: [0, 360, 0, 30]
+    - id: 6
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: INDUSTRIALSLUM
+          weight: 10
+        - name: URBAN
+          weight: 10
+    - id: 7
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: DESERT
+          weight: 80
+          area: [0, 230, -90, 0] # Eurasia and North Africa east of Greenwich
+        - name: DESERT
+          weight: 50
+          area: [290, 360, -90, 0] # Eurasia and North Africa west of Greenwich
+        - name: XOPSDESERT_NOCACTI
+          weight: 20
+          area: [230, 290, -90, 0] # North America
+        - name: XOPSDESERT_NOCACTI
+          weight: 80
+          area: [280, 310, 0, 90] # South America
+        - name: XOPSDESERT_NOCACTI
+          weight: 50
+          area: [0, 280, 0, 90] # South Africa and Australia
+        - name: XOPSDESERT_NOCACTI
+          weight: 50
+          area: [310, 360, 0, 90] # goddamn South Atlantic
+        - name: COMRCURBAN
+          weight: 5
+        - name: URBANJUNK
+          weight: 7
+    - id: 8
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: URBANJUNK
+          weight: 5
+    - id: 9
+      #startingCondition: STR_LAND	
+      terrain:
+        - name: POLAR
+          weight: 10
+        - name: FOREST_SNOW
+          weight: 15
+        - name: FORESTSWAMP_SNOW
+          weight: 15
+    - id: -550
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_SMALL_GROUND_CONVOY_TEMPERATE_HYBRID: 100
+    - id: -551
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_SMALL_GROUND_CONVOY_JUNGLE_HYBRID: 100
+    - id: -552
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_SMALL_GROUND_CONVOY_COLD_HYBRID: 100
+    - id: -553
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_SMALL_GROUND_CONVOY_DESERT_HYBRID: 100
+    - id: -560
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_MEDIUM_GROUND_CONVOY_TEMPERATE_HYBRID: 100
+    - id: -561
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_MEDIUM_GROUND_CONVOY_JUNGLE_HYBRID: 100
+    - id: -562
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_MEDIUM_GROUND_CONVOY_COLD_HYBRID: 100
+    - id: -563
+      #startingCondition: STR_LAND	
+      deployments:
+        STR_MEDIUM_GROUND_CONVOY_DESERT_HYBRID: 100

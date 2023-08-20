@@ -1,0 +1,744 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_ACADEMY_12_CORPSE_BATTLE: "Corpse"	
+      STR_SECTOID_MEDIC_ROBBERY: "Interrogate: Acd. Medic (1/1/3)"
+      STR_SECTOID_ENGINEER_ROBBERY: "Interrogate: Acd. Engineer (1/1/2)"
+      STR_SECTOID_LEADER_ROBBERY: "Interrogate: Acd. Esper (1/2/2)"
+      STR_SECTOID_COMMANDER_ROBBERY: "Interrogate: Acd. Provost (1/3/12)"  
+      STR_SECTOID_SOLDIER_ROBBERY: "Interrogate: Researcher (0/1/1)"
+      STR_SECTOID_EXPLORER_ROBBERY: "Interrogate: Explorer (1/1/2)"
+      STR_SECTOID_NAVIGATOR_ROBBERY: "Interrogate: Osr. Security (2/0/0)"	
+      SECTOID_ARMOR_P12_UFOPEDIA: "Synedrion Student Examination. NV: 9."
+      SECTOID_ARMOR_P11_UFOPEDIA: "Synedrion Nurse Examination. NV: 10."
+      SECTOID_ARMOR_P1_UFOPEDIA: "Synedrion Researcher Examination. NV: 9."
+      SECTOID_ARMOR_P9_UFOPEDIA: "Synedrion Hazmat Suit. Great protective value against dangerous environments, much less so against bullets, but at least it's equipped with night-vision. NV: 16. ThV: 20%"
+      SECTOID_ARMOR_P3_UFOPEDIA: "Synedrion Medic Armor. NV: 16."
+      SECTOID_ARMOR_P3B_UFOPEDIA: "Synedrion Engineer Armor. NV: 16."
+      SECTOID_ARMOR_P13_UFOPEDIA: "Synedrion Scientist Armor. Flying. NV: 20. ThV: 70%. SPOT: 5. SHIELDS: 100/20 (Blue)"
+      SECTOID_ARMOR_P14_UFOPEDIA: "Synedrion Counsellor Examination. Evasion: REA*50% + MEL*10% + BRA*35% (half back penalty). NV: 12. SENSE: 2."
+      SECTOID_ARMOR_P15_UFOPEDIA: "Synedrion Thrall Examination. Evasion: REA*50% + MEL*10% + BRA*15%. NV: 9."
+      SECTOID_ARMOR_P4_UFOPEDIA: "Synedrion Esper Examination. NV: 20. SENSE: 3."
+      SECTOID_ARMOR_P5_UFOPEDIA: "Synedrion Provost Examination. Flying. NV: 20. ThV: 60%. SENSE: 4. SHIELDS: 60/30 (Blue)"	
+      STR_SECTOID_ENGINEER_BROKEN: Broken Synedrion Engineer
+      STR_SECTOID_MEDIC_BROKEN: Broken Synedrion Medic
+      STR_SECTOID_LEADER_BROKEN: Broken Synedrion Esper
+      STR_SECTOID_COMMANDER_BROKEN: Broken Synedrion Provost  	
+      STR_ACADEMY_CORPSE: Integrated Devices  
+      STR_ACADEMY_ALARMED: "The Synedrion is alarmed"
+      STR_ACADEMY_ANGRY: "The Synedrion is angry"
+      STR_ACADEMY_MED_KNOWHOW_UFOPEDIA: "We have learned that part of the locking mechanisms on Minilaunchers is a genetic code - if we can defeat the electronic part too, we'll be able to use them. We can also start studying our own physiology as long as we have a reference material from the Raiders, who are of the same species."
+      STR_ACADEMY_ENG_KNOWHOW_UFOPEDIA: "We have obtained a host of Synedrion technical secrets, pertaining to such things as laser weaponry and mind-machine interfacing."  
+      STR_ACADEMY_ARC_KNOWHOW_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}We have learned the Synedrion's secrets of VooDoo."
+      STR_ACADEMY_COM_KNOWHOW_UFOPEDIA: "The Provost was thoroughly researched and revealed all her secrets, including how to break the VooDoo curse on Stellar Empire weapons."  
+      STR_ACADEMY_CORPSE_EXTRACTION: "E: Integrated Devices" 	
+      SECTOID_ARMOR_P12: "Synedrion Student Examination"
+      SECTOID_ARMOR_P11: "Synedrion Medic Examination"
+      SECTOID_ARMOR_P1: "Synedrion Researcher Examination"
+      SECTOID_ARMOR_P9: "Synedrion Hazmat Suit"
+      SECTOID_ARMOR_P3: "Synedrion Medic Armor"
+      SECTOID_ARMOR_P3B: "Synedrion Engineer Armor"
+      SECTOID_ARMOR_P13: "Synedrion Scientist Armor"
+      SECTOID_ARMOR_P14: "Synedrion Counsellor Examination"
+      SECTOID_ARMOR_P15: "Synedrion Thrall Examination"
+      SECTOID_ARMOR_P4: "Synedrion Esper Examination"
+      SECTOID_ARMOR_P5: "Synedrion Provost Examination"	
+      STR_ACADEMY_STUDENT_ROBBERY: "Interrogate: Acd. Student (0/1/1)"
+      STR_ACADEMY_NURSE_ROBBERY: "Interrogate: Acd. Medic (0/0/3)"
+      STR_ACADEMY_SCIENTIST_ROBBERY: "Interrogate: Acd. Scientist (1/4/12)"
+      STR_ACADEMY_COUNSELLOR_ROBBERY: "Interrogate: Acd. Counsellor (0/1/4)"  
+      STR_ACADEMY_SCIENTIST_INRG: "I: Acd. Esper (1/2/2)"
+      STR_ACADEMY_COUNSELLOR_INRG: "I: Acd. Provost (1/3/9)"  
+      STR_ACADEMY_SCIENTIST_SALVAGE: "$: Acd. Scientist (1/4/12)"
+      STR_ACADEMY_COUNSELLOR_SALVAGE: "$: Acd. Counsellor (0/1/4)"
+      STR_ACADEMY_THRALL_SALVAGE: "S@: Acd. Thrall (0)"
+      STR_ACADEMY_STUDENT_SALVAGE: "s: Acd. Student (0/1/1)"
+      STR_ACADEMY_NURSE_SALVAGE: "s: Acd. Medic (0/0/3)"	  
+      STR_ACADEMY_MED_KNOWHOW: Synedrion MEDICINE
+      STR_ACADEMY_ENG_KNOWHOW: Synedrion ENGINEERING
+      STR_ACADEMY_COM_KNOWHOW: Synedrion Counsellor's SECRETS
+      STR_ACADEMY_ARC_KNOWHOW: Synedrion ESP SECRETS
+      STR_ACADEMY_RECRUITMENT: "Synedrion Recruitment"
+      STR_ACADEMY_RECRUITMENT_UFOPEDIA: "The quest to become one of the Synedrion begins at a very early age. Children attend all-female boarding schools, most of which are located in the countryside and co-financed by the Synedrion. After a very strict selective process that continues till the age of 18, only the smartest students are allowed to compete for enrollment into one of Synedrion's universities - Scientific and Medical Academies. Graduates of the former become Researchers, the latter - Nurses. The most prestigeous are Astro Academies, which deal primarly with arcanist students and post-graduate Explorers. The numerous dropouts don't have it easy - some succeed with the Eurocorp Syndicate, the Church or local administration, but many are forced to take jobs as maids, waitresses or outright prostitutes."
+      STR_ACADEMY_HIERARCHY: "Synedrion Hierarchy"
+      STR_ACADEMY_HIERARCHY_UFOPEDIA: "The Synedrion comprises of three main Cathedrals, identifiable by badge colors, supposedly styled after the mythical Knights of Cydonia themselves.{NEWLINE}>Technical Cathedral (Red): They're tasked with supervising and researching machinery and 'hard sciences'. Ranks: Researcher, Engineer, Scientist.{NEWLINE}>Medical Cathedral (Green): They oversee physical and mental health of Earth's peoples. Ranks: Nurse, Medic, Counselor.{NEWLINE}>Astro Cathedral (Blue): These elites study the power of the mind, and supervise all the other Academicians. Ranks: Supervisor, Esper, Provost. Provosts form the Collegiate, which rules over all the Synedrion.{NEWLINE}>Students are at the very bottom and do the hardest work. Explorers take dangerous duties to be admitted into Astro Cathedral from either of the two others."
+      STR_ACADEMY_LEGACY: "Synedrion's Legacy"
+      STR_ACADEMY_LEGACY_UFOPEDIA: "You're one with us. It is we, the Synedrion, who created you. Neither your savage villages you barely remember, nor that Dr. X of yours, but it was us who taught you how to think, and what to think. You try to deny it, but just think a little: don't you find males brutish and inferior? But you only recently got to know any males at all. Like us, you seek to claim your privilege, to live a comfortable life amongst this sea of chaos. With your escape, you became a mere delinquent who wants punishment. Even if you keep running, you will only recreate what we are in a new form. After all, what is there to life but to seek pleasure? (-300 Infamy)"
+      STR_ACADEMY_PURPOSE: "Synedrion's Purpose"
+      STR_ACADEMY_PURPOSE_UFOPEDIA: "The Aliens pursue an unending quest of gathering data on all possible paths of evolution. This seems like a major reason for conquering more and more worlds. They have created the Synedrion for the singular purpose of gathering biological and psychological data from all over the world, then sending it to Mars for the Governor-Brain to process. Nobody in the Synedrion needs or really wants to know all of this, as long as they can enjoy their privileges."  
+      STR_ACADEMY_EXPLORER_UNDERWATER: "Synedrion Hazmat Tech Underwater"
+      STR_ACADEMY_NURSE: "Synedrion Medic"
+      STR_ACADEMY_STUDENT: "Synedrion Student"
+      STR_ACADEMY_EXPLORER: "Synedrion Hazmat Tech"
+      STR_ACADEMY_SCIENTIST: "Synedrion Scientist"
+      STR_ACADEMY_COUNSELLOR: "Synedrion Counsellor"
+      STR_ACADEMY_THRALL: "Synedrion Thrall"
+      STR_ACADEMY_NURSEID: "Synedrion Medic ID"
+      STR_ACADEMY_STUDENTID: "Synedrion Student ID"
+      STR_ACADEMY_EXPLORERID: "Synedrion Hazmat Tech ID"
+      STR_ACADEMY_SCIENTISTID: "Synedrion Scientist ID"
+      STR_ACADEMY_COUNSELLORID: "Synedrion Counsellor ID"  
+      STR_ACADEMY: "The Synedrion"
+      STR_ACADEMY_STUDENT_UFOPEDIA: "A Synedrion Student are a typical recent university graduate, they are the best graduates there is, from the Bio-medical field. The high salaries given to these students, has blinded them of what is ethical, in genetic research. Still, money can turn a blind eye to what is right or wrong. For the fear of any authorities whom are after of the crimes they are commiting, they usually defend themselves to the death. "
+      STR_ACADEMY_UFOPEDIA: "The Synedrion is a Mega-conglomerate specialised in Biotechnology. Mainly genetics and biohacking or splicing, with contracts from various other Goverments and Megacorps to create future bio-organic products. This can include super-soldiers and combat mutants. Often, the Synedrion will conduct of their illegal experiments that's againt the norm of humanity in poor and destitude countries, where the local goverments can be bribe to look the other way. Their experimental subjects are mostly unfortunate civillians kidnap in those countries, with the local authority turned a blind eye. The Mutant Alliance is a product of their illegal research, and these Mutants has an eternal grudge against the Synedrion."
+      STR_ACADEMY_NURSE_UFOPEDIA: "The Synedrion Medic is one whom has worked in the Synedrion Bio-research for years. They are usually in charge of a team of students, doing relevant specialised research in deparments. Like the Students, they will usually defend of themselves fanatically to the death, thanks to their role in field of unethical experiments. "
+      STR_ACADEMY_EXPLORER_UFOPEDIA: "The role of a Hazmat tech is to explore hazardous enviroments to obtain needed biological samples. Some of the ingridients required by the Scientist on the field or during experiments, are exotic and hard to obtain, like from the bottom of the sea. These Hazmat explorers will go to these places to obtain the needed biological samples. However, they are heavily armed, in case of encountering trouble. "
+      STR_ACADEMY_SCIENTIST_UFOPEDIA: "A Synedrion Scientist is one of the foremost bio-eneticist in the world. However, these scientist has tainted of themselves with unethical biological and genetic experiments. Most of them, are shunned or banished from most world wide leading bio-research institution. However, within of the Synedrion, they are like minor lords whom are running of their own turf in research departments. They are well respected and powerfully connected in the upper echelon. "
+      STR_ACADEMY_COUNSELLOR_UFOPEDIA: "The Synedrion Councils runs the Synedrion. The Counsellors, elected from the Scientist, usually for life, makes the decisions of what research to conduct and of the directions that the company will follows in the uncharted waters of the future. Rich and powerfully connected to local goverment and authorities. They often able to evade of any criminal accusations that's thrown against them." 
+      STR_ACADEMY_THRALL_UFOPEDIA: "An Synedrion thrall,is a product of Synedrion experiments. At least it is one of their more successful ones. The origin of the creature is best forgotten, it is now a showcase of the Synedrion success. It is a genetically enhance guard dog, powerful and dangerous, it will rip an intruder to peices with its claws and jaw. It also has human like inteligence to obey orders."  	  
+alienRaces:
+  - id: STR_ACADEMY
+    membersRandom:
+      - [STR_ACADEMY_COUNSELLOR]
+      - [STR_ACADEMY_EXPLORER]
+      - [STR_ACADEMY_EXPLORER]
+      - [STR_ACADEMY_EXPLORER]
+      - [STR_ACADEMY_EXPLORER]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+    retaliationAggression: -100	
+  - id: STR_ACADEMY_UNDERWATER
+    membersRandom:
+      - [STR_ACADEMY_COUNSELLOR]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_EXPLORER_UNDERWATER]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_STUDENT]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+      - [STR_ACADEMY_THRALL]
+    retaliationAggression: -100
+ufopaedia:	
+  - id: STR_ACADEMY
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ACADEMY
+    text: STR_ACADEMY_UFOPEDIA
+    text_width: 180
+    listOrder: 20135
+  - id: STR_ACADEMY_COUNSELLOR
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ACADEMY_COUNSELLOR
+    text: STR_ACADEMY_COUNSELLOR_UFOPEDIA
+    text_width: 180
+    listOrder: 20135
+  - id: STR_ACADEMY_EXPLORER
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ACADEMY_EXPLORER
+    text: STR_ACADEMY_EXPLORER_UFOPEDIA
+    text_width: 180
+    listOrder: 20126
+  - id: STR_ACADEMY_STUDENT
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ACADEMY_STUDENT
+    text: STR_ACADEMY_STUDENT_UFOPEDIA
+    text_width: 180
+    listOrder: 20120
+  - id: STR_ACADEMY_THRALL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_ACADEMY_THRALL
+    text: STR_ACADEMY_THRALL_UFOPEDIA
+    text_width: 180
+    listOrder: 20205	
+research:
+  - name: STR_ACADEMY_STUDENT
+    requiresBaseFunc: [INTERROGATION]      
+    cost: 7
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ACADEMY
+  - name: STR_ACADEMY_COUNSELLOR
+    requiresBaseFunc: [INTERROGATION]      
+    cost: 25
+    points: 75
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ACADEMY
+  - name: STR_ACADEMY_THRALL
+    requiresBaseFunc: [INTERROGATION]        
+    cost: 15
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ACADEMY
+  - name: STR_ACADEMY_EXPLORER
+    requiresBaseFunc: [INTERROGATION]       
+    cost: 10
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ACADEMY	  
+  - name: STR_ACADEMY
+    ##requiresBaseFunc: [RESEARCH]   
+    cost: 10
+    points: 200
+    dependencies:
+      - STR_ACADEMY_COUNSELLOR
+      - STR_ACADEMY_STUDENT
+      - STR_ACADEMY_EXPLORER
+      - STR_ACADEMY_THRALL
+units:
+  - type: STR_ACADEMY_EXPLORER
+    race: STR_ACADEMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 30
+      firing: 50
+      throwing: 35
+      strength: 32
+      psiStrength: 50
+      psiSkill: 0
+      melee: 30
+      #Mana: 55
+    armor: SECTOID_ARMOR_P9
+    standHeight: 22
+    kneelHeight: 14
+    value: 11
+    deathSound: [41, 42, 43]
+    energyRecovery: 22
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_AC_HE_AMMO
+        - STR_GRENADE
+  - type: STR_ACADEMY_EXPLORER_UNDERWATER
+    race: STR_ACADEMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 30
+      firing: 50
+      throwing: 35
+      strength: 32
+      psiStrength: 50
+      psiSkill: 0
+      melee: 30
+      #Mana: 55
+    armor: SECTOID_ARMOR_P9_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 11
+    deathSound: [41, 42, 43]
+    energyRecovery: 22
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_GAS_CANNON
+        - STR_GC_AP_AMMO
+        - STR_GC_HE_AMMO
+        - STR_GC_HE_AMMO
+        - STR_GRENADE		
+  - type: STR_ACADEMY_STUDENT
+    race: STR_ACADEMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 70
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 30
+      throwing: 30
+      strength: 20
+      psiStrength: 33
+      psiSkill: 0
+      melee: 20
+      #Mana: 45
+    armor: SECTOID_ARMOR_P12	  
+    #armor: STR_LABCOAT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [41, 42, 43]
+    energyRecovery: 35
+    intelligence: 3
+    aggression: 0
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+        - STR_GRENADE
+        - STR_GRENADE
+  - type: STR_ACADEMY_COUNSELLOR
+    race: STR_ACADEMY
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 50
+      bravery: 100
+      reactions: 60
+      firing: 60
+      throwing: 45
+      strength: 33
+      psiStrength: 75
+      psiSkill: 25
+      melee: 50
+      #Mana: 75
+    #armor: STR_BRAINER_OUTFIT_UC
+    armor: SECTOID_ARMOR_P14	
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43]
+    energyRecovery: 50
+    intelligence: 8
+    aggression: 0
+    canSurrender: true
+    livingWeapon: true
+    #psiWeapon: AUX_SEDUCTION
+    builtInWeaponSets:
+      - - STR_LASER_PISTOL
+        - STR_GRENADE	
+        - STR_GRENADE		
+  - type: STR_ACADEMY_THRALL
+    race: STR_ACADEMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 100
+      health: 75
+      bravery: 90
+      reactions: 60
+      firing: 30
+      throwing: 45
+      strength: 60
+      psiStrength: 10
+      psiSkill: 0
+      melee: 60
+      #Mana: 60
+    armor: SECTOID_ARMOR_P15
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    aggroSound: 119
+    deathSound: 90
+    energyRecovery: 50
+    intelligence: 2
+    aggression: 6
+    canSurrender: true
+    livingWeapon: true	
+    builtInWeaponSets:
+      - - STR_WERECAT_WEAPON
+armors:	
+  - type: SECTOID_ARMOR_P9
+    spriteSheet: SCI_9.PCK
+    spriteInv: AcademyExplorerInventoryImage
+    corpseBattle:
+      - STR_ACADEMY_9_CORPSE_BATTLE
+    visibilityAtDark: 16
+    heatVision: 20
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      #time: *SECTION_TIME_RECOVERY_NORMAL
+      #Mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      #energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 0.15
+      - 0.8
+      - 0.8
+      - 0.9
+      - 0.6
+      - 1.0
+      - 0.1
+      - 0.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 0.0 #Cold
+      - 2.0 #Heat
+      - 0.5 #Radiation
+      - 0.1 #XCOMBioweapon	
+    loftempsSet: [ 3 ]
+  - type: SECTOID_ARMOR_P9_UNDERWATER
+    spriteSheet: SCI_9.PCK
+    spriteInv: AcademyExplorerInventoryImage
+    corpseBattle:
+      - STR_ACADEMY_9_CORPSE_BATTLE
+    visibilityAtDark: 16
+    heatVision: 20
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 0.8
+      - 1.0
+      - 0.15
+      - 0.8
+      - 0.8
+      - 0.9
+      - 0.6
+      - 1.0
+      - 0.1
+      - 0.0
+      - 1.0 #Sonic
+      - 1.0 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 0.0 #Cold
+      - 2.0 #Heat
+      - 0.5 #Radiation
+      - 0.1 #XCOMBioweapon	
+    loftempsSet: [ 3 ]	
+  - type: SECTOID_ARMOR_P12
+    spriteSheet: XCOM_29.PCK
+    #requires: STR_TROLLIUM
+    weight: 3
+    corpseBattle:
+      - STR_ACADEMY_12_CORPSE_BATTLE	
+    visibilityAtDark: 9
+    personalLight: 5
+    forcedTorso: 1	
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #morale:
+        #flatHundred: -0.1
+        #manaNormalized: 14.0
+      #time:
+        #tu: 0.5
+        #manaNormalized: 125.0
+      #energy:
+        #manaNormalized: 20
+        #healthCurrent: 0.25
+      #stun:
+        #healthCurrent: 0.06
+        #health: -0.09
+        #stunCurrent: 0.036
+        #manaNormalized: 8.0
+      #health:
+        #stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.75
+      - 4.0
+      - 0.8 #Sonic
+      - 0.8 #GaussAP
+      - 0.8 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_LABCOAT
+    loftempsSet: [ 3 ] 
+  - type: SECTOID_ARMOR_P14
+    spriteSheet: PIR_280.PCK
+    customArmorPreviewIndex: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    #storeItem: STR_BRAINER_OUTFIT
+    weight: 4
+    personalLight: 5
+    corpseBattle:
+      - STR_ACADEMY_14_CORPSE_BATTLE
+    stats:
+       #bravery: 20
+       stamina: -5
+       melee: -10
+    visibilityAtDark: 16
+    antiCamouflageAtDay: 5
+    antiCamouflageAtDark: 5
+    heatVision: 20
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      reactions: 0.25
+      melee: 0.05
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #time:
+        #tu: 0.5
+        #ManaNormalized: 150.0
+      #Mana:
+        #moraleCurrent: -0.014
+      #energy:
+        #ManaNormalized: 16.0
+        #healthCurrent: 0.20
+        #stunCurrent: -0.2
+      #morale:
+        #flatHundred: -0.1
+        #flatOne 3.0
+        #ManaNormalized: 14.0
+        #moraleCurrent: -0.1777
+        #bravery: 0.0888
+      #stun:
+        #healthCurrent: 0.045
+        #health: -0.08
+        #stunCurrent: 0.036
+        #ManaNormalized: 9.0
+      #health:
+        #stunNormalized: -0.165
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.5
+      #moraleCurrent: 0.33
+      #bravery: 0.2
+    damageModifier:
+      - 0.6
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 2.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: SECTOID_ARMOR_P15
+    spriteSheet: WEREWOLF.PCK
+    allowInv: true
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_ACADEMY_15_CORPSE_BATTLE	  
+    visibilityAtDark: 20
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      health:
+        stunNormalized: -0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.3
+    overKill: 1.5
+    damageModifier: &WerewolfResists
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+items:
+  - type: STR_ACADEMY_14_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3280
+    floorSprite: 3280
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: 9
+  - type: STR_ACADEMY_12_CORPSE_BATTLE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 817
+    floorSprite: 743
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: true	
+  - type: STR_ACADEMY_15_CORPSE_BATTLE
+    categories: [STR_CORPSES]
+    size: 0.3
+    costSell: 15000
+    weight: 44
+    bigSprite: 466
+    floorSprite: 389
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 40
+    listOrder: 62610
+  - type: STR_ACADEMY_9_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3549
+    floorSprite: 3549
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: 5
+    armor: 45	
+  - type: STR_ACADEMY_CORPSE
+    categories: [STR_BAT_CAT_COMPONENT]
+    #supportedInventorySections: *InventorySectionsStandard
+    size: 0.1
+    costSell: 1250
+    bigSprite: 3652
+    floorSprite: 3702
+    weight: 6
+    costThrow:
+      energy: 10
+      time: 40
+    invWidth: 2
+    invHeight: 2		
+  - type: STR_SYNSCIENTIST_SPAWNER
+    spawnUnit: STR_ACADEMY_COUNSELLOR
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_SYNENGINEER_SPAWNER
+    spawnUnit: STR_ACADEMY_STUDENT
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_ACADEMY_EXPLORER
+    requiresBaseFunc: [INTERROGATION]  
+    transferTime: 72
+    prisonType: 1		
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    costSell: 40000
+  - type: STR_ACADEMY_EXPLORER_UNDERWATER
+    requiresBaseFunc: [INTERROGATION]  
+    transferTime: 72
+    prisonType: 1		
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000	
+    recoveryTransformations:
+      STR_ACADEMY_EXPLORER: [1] 	
+  - type: STR_ACADEMY_COUNSELLOR
+    requiresBaseFunc: [INTERROGATION]  
+    transferTime: 240
+    size: 0.0
+    prisonType: 1		
+    recover: true
+    liveAlien: true
+    costSell: 100000
+  - type: STR_ACADEMY_THRALL
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 2	
+    liveAlien: true
+    costSell: 10000
+  - type: STR_ACADEMY_STUDENT
+    requiresBaseFunc: [INTERROGATION]  
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 15000		

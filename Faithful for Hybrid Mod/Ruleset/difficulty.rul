@@ -1,0 +1,27 @@
+difficultyCoefficient: [0, 1, 2, 3, 4]
+aimAndArmorMultipliers: [0.5, 0.8, 1.0, 1.2, 1.5]
+statGrowthMultipliers:
+  tu: 25
+  stamina: 25
+  health: 25
+  bravery: 0
+  reactions: 25
+  firing: 0
+  throwing: 0
+  strength: 25
+  psiStrength: 25
+  psiSkill: 0
+  melee: 4
+# for more information on what these numbers mean, see
+# http://ufopaedia.org/index.php?title=Alien_Stats_(TFTD)#Calculating_Statistics
+# statGrowthMultipliers are the increments
+# difficultyCoefficients are MultiplierA
+# aimAndArmorMultipliers are MultiplierB
+turnAIUseGrenade: 2
+turnAIUseBlaster: 3
+defeatScore: -900
+defeatFunds: -1000000
+constants:
+  - damageRange: 50
+  - explosiveDamageRange: 50
+  - fireDamageRange: [10, 30]

@@ -1,0 +1,114 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      SSTR_NAZIVENGENGE_DONE_UFOPEDIA: "Although we cannot bring back the lives of those civillians lost in the attack, but we did make those Forth Reich Merc pay for their crime."	
+      STR_KKK_HOUSE: "Mercenary Vengence"
+      STR_LOC_KKK_HOUSE_TITLE: "Mercenary Vengence"
+      STR_MARKER_LOC_KKK_HOUSE: "Mercenary Vengence"
+      STR_LOC_KKK_HOUSE_BRIEFING: "The Forth Reich Mercenary group has just make an example of a poor civillan settlement nearby by wiping them out. Now, these goons are celebrating of their evil deeds in a house nearby. Return them the favour and the Merc Guild will reward you handsomely."  
+ufopaedia:	
+  - id: STR_NAZIVENGENGE_DONE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NAZIVENGENGE_DONE
+    text: STR_NAZIVENGENGE_DONE_UFOPEDIA
+    text_width: 180
+    listOrder: 24110
+alienDeployments:
+  - type: STR_KKK_HOUSE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	        
+    alert: STR_LOC_KKK_HOUSE_TITLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_KKK_HOUSE_BRIEFING
+    unlockedResearch: STR_NAZIVENGENGE_DONE
+    script: GENERALSPAWN	
+    briefing:
+      palette: 7
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_KKK_HOUSE_TITLE
+      desc: STR_LOC_KKK_HOUSE_BRIEFING
+    markerName: STR_MARKER_LOC_KKK_HOUSE
+    duration: [25, 10000000000000]
+    width: 40
+    length: 40
+    height: 9
+    script: STANDARD4
+    customUfo: STR_NAZI_HOUSE
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 2
+        dQty: 4
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_KKK_HOUSE
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MIXED_KKK: 33
+          STR_NAZISEXP: 33	
+          STR_NAZIS_TERROR: 34
+    waves:
+      - ufo: STR_KKK_HOUSE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+ufos:		
+  - type: STR_NAZI_HOUSE
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20	
+research:
+  - name: STR_NAZIVENGENGE_DONE
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true  
+missionScripts:
+  - type: humanistHouse
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_KKK_HOUSE: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    researchTriggers:
+      STR_NAZIVENGENGE_DONE: false		
+    useTable: false
+    executionOdds: 100
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true

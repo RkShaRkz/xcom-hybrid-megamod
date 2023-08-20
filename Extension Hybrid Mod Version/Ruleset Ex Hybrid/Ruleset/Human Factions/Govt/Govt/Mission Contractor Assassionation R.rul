@@ -1,0 +1,95 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_LOC_EXTERMINATOR: "Contractor Assassination"
+      STR_LOC_EXTERMINATOR_TITLE: "Contractor Assassination"
+      STR_MARKER_LOC_EXTERMINATOR: "Contractor Assassination"
+      STR_LOC_EXTERMINATOR_BRIEFING: "The Mercenary Guild has a job for you. A client is not happy with the service that a former govt contractor has render it. The assasionation of the contractor would make our client very happy. Do the job and you will be well rewarded."  
+alienDeployments:
+  - type: STR_LOC_EXTERMINATOR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	    
+    alert: STR_LOC_EXTERMINATOR_TITLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_EXTERMINATOR_BRIEFING
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 0
+      background: BACK04.SCR
+      music: GMTACDRY
+      showTarget: false
+      title: STR_LOC_EXTERMINATOR_TITLE
+      desc: STR_LOC_EXTERMINATOR_BRIEFING
+    markerName: STR_MARKER_LOC_EXTERMINATOR
+    width: 50
+    length: 50
+    height: 9
+    duration: [54, 100]	
+    customUfo: STR_ALLIED_STRYKER
+    script: GENERALSPAWN	
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 16
+        dQty: 8
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+alienMissions:
+  - type: STR_LOC_EXTERMINATOR
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_MEGAPOL: 100	
+          STR_MEGAPOL_LATE: 100	
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 10
+    waves:
+      - ufo: STR_LOC_EXTERMINATOR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: TheProffesional
+    missionWeights:
+      0:
+        STR_LOC_EXTERMINATOR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 3	  
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_PUBSANDBROTHEL: true    

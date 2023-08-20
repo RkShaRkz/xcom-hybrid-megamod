@@ -1,0 +1,201 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MISSION_COMMS_TOWER: Hostile Faction Tower 
+      STR_MISSION_COMMS_TOWER_UFOPEDIA: "Information has passed down to the Mercenary guild that some hostile faction has build a communication tower close by. This means the faction building it is expanding its sphere of influence. Some govt is paying big money for its elimination."
+      STR_LOC_COMMS_TOWER_TEMPERATE: Hostile Faction Tower 
+      STR_MARKER_COMMS_TOWER: Comms Tower
+      STR_ALERT_COMMS_TOWER: Comms Tower
+      STR_LOC_COMMS_TOWER_TEMPERATE_BRIEFING: "Information has passed down to the Mercenary guild that hostile faction has build a communication tower close by. This means the faction building it is expanding its sphere of influence. Some govt is paying big money for its elimination."	  
+alienDeployments:
+  - type: STR_LOC_COMMS_TOWER_TEMPERATE
+    alert: STR_ALERT_COMMS_TOWER
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED    
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	      		
+    alertDescription: STR_LOC_COMMS_TOWER_TEMPERATE_BRIEFING
+    alertBackground: BACK04.SCR
+    music:
+      - GMTACTIC	
+    briefing:
+      palette: 6
+      music: GMENBASE    
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_COMMS_TOWER
+      desc: STR_LOC_COMMS_TOWER_TEMPERATE_BRIEFING
+    markerName: STR_MARKER_COMMS_TOWER
+    duration: [100, 200]
+    despawnPenalty: 0
+    width: 60
+    length: 60
+    height: 10
+    script: COMMS_TOWER_LANDING
+    data: &commsTowerDeployment
+      - alienRank: 5
+        lowQty: 4
+        highQty: 4
+        dQty: 4
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 8
+        lowQty: 2
+        highQty: 2
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []            
+          -
+            []
+          -
+            []			
+alienMissions:
+  - type: STR_LOC_COMMS_TOWER
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 	
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	  
+    waves:
+      - ufo: STR_LOC_COMMS_TOWER_TEMPERATE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+missionScripts:
+  - type: commsTower8
+    missionWeights:
+      0:
+        STR_LOC_COMMS_TOWER: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    researchTriggers:
+      STR_MISSION_COMMS_TOWER: true 
+    useTable: false
+    executionOdds: 3
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_MERCFACILITY: true
+mapScripts:	  
+  - type: COMMS_TOWER_LANDING
+    commands:
+    - type: addCraft
+      terrain: globeTerrain
+      groups: 1	  
+    - type: addBlock
+      size: [1,1,5]
+      executions: 1  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain
+        groups: 1  
+      - type: middle
+        size: [1,1,5]
+        terrain: OUTPOSTTOWERFACTION
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain
+terrains:
+  - name: OUTPOSTTOWERFACTION
+    enviroEffects: STR_LANDARMOURTOLAND
+    mapDataSets:
+      - BLANKS
+      - MILEXT
+      - MILWAREGHOUL
+      - MILBARRGHOUL
+      - MILINDUSTRIALGHOUL
+      - MILTECHGHOUL
+    mapBlocks:
+      - name: OUTPOSTTOWER
+        width: 10
+        length: 10	  

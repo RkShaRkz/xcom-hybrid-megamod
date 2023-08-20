@@ -1,0 +1,89 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CROC_RAID: "Hostile Faction City Raid"
+      STR_ALERT_CROC_RAID: "Hostile Faction City Raid"
+      STR_CROC_RAID_TEMPERATE: "Hostile Faction City Raid"
+      STR_CROC_RAID_DESCRIPTION: "A Hostile faction has suddenly attacked a city. They're shooting people left and right! Contain the incident and save whomever you can."
+      STR_CROC_RAID_BRIEFING: "The Mercenary guild has detected a hostile faction was raiding a nearby settlement. Destroy this hostile faction before the cause any more harm. The Local Govt will pay handsomely for the job's completion."
+      STR_CROC_RAID_UFOPEDIA: "The Mercenary guild has detected a hostile faction was raiding a nearby settlement. Destroy this hostile faction before the cause any more harm. The Local Govt will pay handsomely for the job's completion."
+alienDeployments:
+  - type: STR_CROC_RAID_TEMPERATE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONSMALL   
+    width: 50
+    length: 50
+    height: 18
+    civilians: 8
+    alert: STR_ALERT_CROC_RAID
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CROC_RAID_DESCRIPTION
+    briefing:
+      showTarget: false
+      background: BACK04.SCR
+      palette: 2
+      music: GMENBASE
+      desc: STR_CROC_RAID_BRIEFING
+    script: CROCRAID  
+    music:
+      - GMTACTIC
+    markerName: STR_CROC_RAID
+    duration: [72, 144]
+    despawnPenalty: 150
+    data:
+      - alienRank: 8
+        lowQty: 4
+        highQty: 9
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CROC_RAID_TEMPERATE
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_BANDIT_ROBBERS: 25
+          STR_BANDIT_TOWN: 25
+          STR_RATMEN: 25			  
+          STR_RAIDER_TERROR: 25			  
+          STR_RAIDER: 25
+    waves:
+      - ufo: STR_CROC_RAID
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:			
+  - type: CROCRAID
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: CYBERCITYA
+    - type: fillArea
+      terrain: CYBERCITYA		  
+missionScripts:
+  - type: CrocRaidTemperate
+    firstMonth: 0
+    executionOdds: 5
+    useTable: false
+    regionWeights:
+      0:
+        LANDSPAWNS: 100  
+    startDelay: 20
+    missionWeights:
+      0:
+        STR_CROC_RAID_TEMPERATE: 100
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,439 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_POSTAL: "The Infected"	
+      STR_HUMAN_POSTAL0_ARMOR: "Homicidal Maniac Combat Analysis"
+      STR_HUMAN_POSTAL1_ARMOR: "Homicidal Soldier Combat Analysis"
+      STR_HUMAN_POSTAL2_ARMOR: "Homicidal Madman Combat Analysis"
+      STR_HUMAN_POSTALARMOR0_UFOPEDIA: "Homicidal Maniac Combat Analysis"
+      STR_HUMAN_POSTALARMOR1_UFOPEDIA: "Homicidal Soldier Combat Analysis"
+      STR_HUMAN_POSTALARMOR2_UFOPEDIA: "Homicidal Madman Combat Analysis"	  
+      STR_POSTAL1: "Crazed Soldier"	  
+      STR_POSTAL_INTERROGATED: "Mass Murderer Interrogated"
+      STR_POSTAL0: "Homicidal Maniac"	
+      STR_POSTAL_DIARY: "Madman's Diary"
+      STR_POSTAL_DIARY_UFOPEDIA: "'The walls of Byzantium crumble slowly. The gold peels off skull-Ziggurat under the angered skies. Storm is brewing. First drops seep through the cracks of the concrete pavement, coming down, down, into the sewers where they live. The rats. Multiplying, devouring, scheming. Coming out into the city at night, leaving their blasphemous fetishes, catching people, drugging those who see them, drugging me... I won't last much longer. The gods are angry, the sky is blazing with lightning, almost every night now. The tower will fall, struck down in flames. The rats can be everywhere, rats wearing human guises. Rats must die if Man is to survive the great cleansing. Like Prometheus, I stole their secret fire, and I will use it to exact my wrath. The lightning...! It comes again... In high heavens and hellish pits alike, it is time.'"	
+      STR_POSTAL_RAMPAGE: "Madman Rampage"
+      STR_POSTAL_RAMPAGE_BRIEFING: "An extremist and self-styled vigilante learned some closely guarded secrets regarding the aliens, the government and other associated topics. This shock prompted him to become an extremist (this time a really hardcore one) and plan a terrorist attack to bring the population's attention to the ongoing secret war. We must apprehend and eliminate him before he kills too many people. To abort the mission return X-Com operatives to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_POSTAL2: "Insane Vigilante"
+      STR_HUMAN_POSTAL0: "Homicidal Maniac"
+      STR_HUMAN_POSTAL1: "Homicidal Soldier"
+      STR_HUMAN_POSTAL2: "Homicidal Madman" 
+      STR_HUMAN_POSTAL0ID: "Homicidal Maniac ID"
+      STR_HUMAN_POSTAL1ID: "Homicidal Soldier ID"
+      STR_HUMAN_POSTAL2ID: "Homicidal Madman ID" #Need replacing Use random units.	
+      STR_POSTAL_INTERROGATED_UFOPEDIA: "From the analysis in their behaviorial patterns and body fluids, we found all the offenders having of a virus that is artificially engineered inside them. The life cycle of this virus is only a few days, once infected, it will cause the brain to shut down its higher function and send its victim to behave in their most primal ways. The true origin of this Virus is unknown at this stage. We are unable to find the source of the spread or a cure. Again the virus has a short life cycle, the victim usually came to him or herself after a few day. However, usually by then, they would have been labelled as a murderer."
+      STR_HUMAN_POSTAL0_UFOPEDIA: "After capturing the offender, we analysed of his saliva and blood. We discover this person has been infected by some kind of virus."
+      STR_HUMAN_POSTAL1_UFOPEDIA: "The capture of the offender, we analysed of his saliva and blood. We discover some kind of virus has infected him. The pattern is the same with the others. He is not of himself, so he is more of a victim than the offender."
+      STR_HUMAN_POSTAL2_UFOPEDIA: "After the analysis of this person's saliva and blood stream, we detect a faint virus that has shut down the higer function of this person brain, causing him to behave in the most primal ways."	  	  
+alienRaces:
+  - id: STR_POSTAL
+    members:
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL2
+      - STR_HUMAN_POSTAL1
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+    retaliationAggression: -100
+  - id: STR_POSTAL_UNDERWATER	  
+    retaliationAggression: -100
+    members:
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL2
+      - STR_HUMAN_POSTAL1
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL0
+ufopaedia:		  
+  - id: STR_HUMAN_POSTAL0
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_POSTAL0_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_POSTAL0
+    listOrder: 153480
+  - id: STR_HUMAN_POSTAL1
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_POSTAL1_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_POSTAL1
+    listOrder: 153480
+  - id: STR_HUMAN_POSTAL2
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_HUMAN_POSTAL2_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_HUMAN_POSTAL2
+    listOrder: 153480
+  - id: STR_POSTAL
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_POSTAL_INTERROGATED
+    text: STR_POSTAL_INTERROGATED_UFOPEDIA
+    text_width: 126
+    listOrder: 24000		
+research:
+  - name: STR_HUMAN_POSTAL0		
+    cost: 10
+    points: 10
+    needItem: true
+    requiresBaseFunc: [INTERROGATION]
+    destroyItem: true
+    unlocks:
+      - STR_POSTAL
+  - name: STR_HUMAN_POSTAL1
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_POSTAL
+  - name: STR_HUMAN_POSTAL2
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_POSTAL 
+  - name: STR_POSTAL
+    ##requiresBaseFunc: [RESEARCH]  
+    cost: 1
+    points: 10
+    needItem: true
+    destroyItem: true
+    listOrder: 57700	
+    dependencies:
+      - STR_HUMAN_POSTAL0
+      - STR_HUMAN_POSTAL1
+      - STR_HUMAN_POSTAL2
+units:
+  - type: STR_HUMAN_POSTAL0
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 45
+      health: 55
+      bravery: 90
+      reactions: 30
+      firing: 45
+      throwing: 35
+      strength: 30
+      psiStrength: 25
+      psiSkill: 0
+      melee: 35
+      #mana: 80
+    armor: STR_HUMAN_POSTAL0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 2
+    aggression: 5
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE	
+  - type: STR_HUMAN_POSTAL1
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 77
+      stamina: 50
+      health: 65
+      bravery: 90
+      reactions: 45
+      firing: 65
+      throwing: 45
+      strength: 40
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+      #mana: 80
+    armor: STR_HUMAN_POSTAL1_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 40
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 3
+    aggression: 5	
+    builtInWeaponSets:	  
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS	
+  - type: STR_HUMAN_POSTAL2
+    race: STR_CULT_OF_APOCALYPSE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 93
+      stamina: 60
+      health: 80
+      bravery: 90
+      reactions: 45
+      firing: 75
+      throwing: 45
+      strength: 60
+      psiStrength: 65
+      psiSkill: 0
+      melee: 60
+      #mana: 90
+    armor: STR_HUMAN_POSTAL2_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 60
+    deathSound: [41, 42, 43]
+    energyRecovery: 25
+    intelligence: 5
+    aggression: 5
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP			
+armors:
+  - type: STR_HUMAN_POSTAL0_ARMOR
+    spriteSheet: POSTAL0.PCK
+    spriteInv: inventory_POSTAL0
+    corpseBattle:
+      - STR_HUMAN_POSTAL0_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 11
+    underArmor: 7
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_HUMAN_POSTAL1_ARMOR
+    spriteSheet: POSTAL1.PCK
+    spriteInv: inventory_MALE_OFFICER_SOLDIER
+    corpseBattle:
+      - STR_HUMAN_POSTAL1_CORPSE
+    visibilityAtDark: 9
+    camouflageAtDay: 30
+    camouflageAtDark: -2
+    frontArmor: 22
+    sideArmor: 10
+    rearArmor: 12
+    underArmor: 8
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT_VEST
+    loftempsSet: [ 3 ]
+  - type: STR_HUMAN_POSTAL2_ARMOR
+    spriteSheet: POSTAL2.PCK
+    spriteInv: inventory_POSTAL2
+    corpseBattle:
+      - STR_HUMAN_POSTAL2_CORPSE
+    camouflageAtDay: 20
+    camouflageAtDark: -4
+    visibilityAtDark: 11
+    frontArmor: 28
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 14
+    meleeDodge:
+      reactions: 0.2
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.8
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    #specialWeapon: STR_UNARMED_SUIT_VEST
+    loftempsSet: [ 3 ]	
+items:
+  - type: STR_HUMAN_POSTAL0_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: -10000
+    size: 0.4
+    weight: 40
+    bigSprite: 462
+    floorSprite: 385
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false  
+  - type: STR_HUMAN_POSTAL1_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: -10000
+    size: 0.4
+    weight: 40
+    bigSprite: 463
+    floorSprite: 386
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 35
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_HUMAN_POSTAL2_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    costSell: -10000
+    size: 0.4
+    weight: 40
+    bigSprite: 464
+    floorSprite: 387
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 45
+    recoveryPoints: 1
+    recover: true
+    recoverCorpse: false
+  - type: STR_HUMAN_POSTAL0
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150230
+  - type: STR_HUMAN_POSTAL1
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150230
+  - type: STR_HUMAN_POSTAL2
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150230

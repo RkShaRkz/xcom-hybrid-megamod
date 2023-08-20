@@ -1,0 +1,213 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_BOUNTY_HUNTERS: "Bounty Hunters"		
+      STR_MERIDIAN_HUNTERX: "Meridian the Hunter"	
+      STR_MERIDIAN_HUNTERXID: "Known to be ruthless and with a personality demanding cult worship, this induvidual is an efficient hunter and killer among the bounty hunters. He ususally sadistically terrorised his victim, before humiliating them and then kill them. The are factions placing high bounty on his head. However rumour has it that the Sydnedrion faction has clone this hunter, this might explain the multiple sighting of him at the same time from around the world. "
+      STR_MERIDIAN_HUNTERX_UFOPEDIA: "Meridian the Hunter"
+      STR_NATASHA_MOROZOVA: "Natasha Morozova"
+      STR_NATASHA_MOROZOVAID: "Natasha Morozova ID"	  
+      STR_NATASHA_MOROZOVA_UFOPEDIA: "Known as the Russian Black Widow, this lady has a kill list long enough to fill a regiment. She is well known to hunt silently and efficiently, in all enviroment from Desert to Snow. Highly regarded by those that hired her and hated by those whose friend she kills. However rumour has it that the Sydnedrion faction has clone this hunter, this might explain the multiple sighting of him at the same time from around the world." 
+alienRaces:	  
+  - id: STR_BOUNTY_HUNTERS
+    members:
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+    retaliationAggression: -100
+  - id: STR_BOUNTY_HUNTERS_UNDERWATER
+    members:
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+      - STR_NATASHA_MOROZOVA
+      - STR_MERIDIAN_HUNTERX
+    retaliationAggression: -100		  
+ufopaedia:	  
+  - id: STR_NATASHA_MOROZOVA
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_NATASHA_MOROZOVA
+    text: STR_NATASHA_MOROZOVA_UFOPEDIA	  
+    listOrder: 144401	
+  - id: STR_MERIDIAN_HUNTERX
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_MERIDIAN_HUNTERX
+    text: STR_MERIDIAN_HUNTERX_UFOPEDIA	  
+    listOrder: 144401		
+research:
+  - name: STR_NATASHA_MOROZOVA
+    requiresBaseFunc: [INTERROGATION]
+    cost: 50
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_MERIDIAN_HUNTERX
+    requiresBaseFunc: [INTERROGATION]
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+armors:
+  - type: STR_NATASHA_MOROZOVA_ARMOR
+    spriteInv: inventory_NATASHA_MOROZOVA
+    spriteSheet: NATASHA_MOROZOVA.PCK
+    corpseBattle:
+      - STR_NATASHA_MOROZOVA_CORPSE
+    #corpseGeo: STR_DURATHREAD
+    camouflageAtDay: 20 #light cammo
+    camouflageAtDark: -5
+    visibilityAtDark: 11
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 8
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.3
+    recovery:
+      energy:
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 3 ]	
+units:
+  - type: STR_NATASHA_MOROZOVA
+    race: STR_ZSRR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 55
+      bravery: 90
+      reactions: 75
+      firing: 90
+      throwing: 45
+      strength: 40
+      psiStrength: 65
+      psiSkill: 0
+      melee: 75
+      #mana: 70
+    armor: STR_NATASHA_MOROZOVA_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 14
+    deathSound: [44, 45, 46]
+    energyRecovery: 30
+    intelligence: 7
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    sniper: 85
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_GRENADE
+  - type: STR_MERIDIAN_HUNTERX
+    race: STR_FREELANCER
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 112
+      stamina: 170
+      health: 135
+      bravery: 90
+      reactions: 95
+      firing: 90
+      throwing: 90
+      strength: 80
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+      #mana: 90
+    armor: STR_MALE_MAGMA_HEAVY_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 55
+    intelligence: 4
+    aggression: 3
+    sniper: 80
+    builtInWeaponSets:	
+      - - STR_HEAVY_SNIPER_RIFLE
+        - STR_HEAVY_SNIPER_RIFLE_CLIP
+        - STR_HEAVY_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_GRENADE
+items:	
+  - type: STR_NATASHA_MOROZOVA_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 972
+    floorSprite: 854
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+  - type: STR_NATASHA_MOROZOVA
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    liveAlien: true
+    prisonType: 1
+    recover: true
+    costSell: 14000
+    listOrder: 150243	
+  - type: STR_MERIDIAN_HUNTERX
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 1
+    costSell: 1000000
+    listOrder: 144400	

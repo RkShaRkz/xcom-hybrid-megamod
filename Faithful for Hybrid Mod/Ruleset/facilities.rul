@@ -1,0 +1,697 @@
+facilities:
+  - type: STR_SEASMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 12
+    monthlyCost: 20000
+    radarRange: 1800
+    radarChance: 40	
+    mapName: XBASE_04	 
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1    	
+  - type: STR_ACCESS_LIFT_UNDERWATER
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    mapName: XBASE_00
+    fakeUnderwater: 1
+    provideBaseFunc: [SEABASE]
+    manaRecoveryPerDay: -1
+    verticalLevels:	
+    - type: ground
+      size: [1, 1, 2]
+      #blocks: 1
+      terrain: XBASEMAIN
+    - type: middle
+      size: [1, 1, 3]
+      terrain: SEABEDNONE
+  - type: STR_ACCESS_LIFT
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    #mapName: XBASE_00
+    fakeUnderwater: 0
+    provideBaseFunc: [LANDBASE]	
+    manaRecoveryPerDay: -1
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      terrain: XBASEMAIN
+    - type: middle
+      size: [1, 1, 3]  
+      terrain: URBANSECONDARYBASE
+  - type: STR_SEALIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 20000
+    personnel: 25
+    mapName: XBASE_01
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_LIVING_QUARTERS 
+    spriteShape: 1
+    spriteFacility: 18
+    requiresBaseFunc: [LANDBASE]		
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 20000
+    personnel: 25
+    mapName: XBASE_01
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEALABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 60000
+    labs: 25
+    mapName: XBASE_02
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    requiresBaseFunc: [LANDBASE]		
+    buildTime: 26
+    monthlyCost: 60000
+    labs: 25
+    mapName: XBASE_02
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1
+  - type: STR_SEAWORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 800000
+    buildTime: 32
+    monthlyCost: 70000
+    workshops: 25
+    mapName: XBASE_03
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  			
+  - type: STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    requiresBaseFunc: [LANDBASE]		
+    buildCost: 800000
+    buildTime: 32
+    monthlyCost: 70000
+    workshops: 25
+    mapName: XBASE_03
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 12
+    requiresBaseFunc: [LANDBASE]		
+    monthlyCost: 20000
+    radarRange: 1800
+    radarChance: 40		
+    mapName: XBASE_04
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEALARGE_RADAR_SYSTEM
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 800000
+    buildTime: 25
+    monthlyCost: 15000
+    radarRange: 2577
+    radarChance: 20
+    mapName: XBASE_05
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_LARGE_RADAR_SYSTEM
+    spriteShape: 1
+    spriteFacility: 22
+    requiresBaseFunc: [LANDBASE]	
+    buildCost: 2000000
+    buildTime: 27
+    monthlyCost: 80000
+    radarRange: 2700
+    radarChance: 20
+    mapName: XBASE_05
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEAMISSILE_DEFENSES
+    spriteShape: 2
+    spriteFacility: 23
+    buildCost: 200000
+    buildTime: 16	
+    monthlyCost: 10000
+    defense: 1000
+    hitRatio: 80
+# Chance to shoot down terror ship with 2 Missile Defenses: 43.5%
+# Chance to shoot down terror ship with 3 Missile Defenses: 77.1%
+# Chance to shoot down terror ship with 4 Missile Defenses: 92.2%
+# Chance to shoot down terror ship with 5 Missile Defenses: 97.6%
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASE_06	
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_MISSILE_DEFENSES
+    spriteShape: 2
+    spriteFacility: 23	
+    monthlyCost: 10000
+    defense: 1000
+    hitRatio: 80
+# Chance to shoot down terror ship with 2 Missile Defenses: 43.5%
+# Chance to shoot down terror ship with 3 Missile Defenses: 77.1%
+# Chance to shoot down terror ship with 4 Missile Defenses: 92.2%
+# Chance to shoot down terror ship with 5 Missile Defenses: 97.6%	
+    buildCost: 200000
+    buildTime: 16
+    requiresBaseFunc: [LANDBASE]		
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASE_06
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_SEAGENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 10000
+    storage: 100	
+    mapName: XBASE_07
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 10000
+    storage: 100
+    requiresBaseFunc: [LANDBASE]		
+    mapName: XBASE_07
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1
+  - type: STR_SEAALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    aliens: 10	
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    buildCost: 800000
+    buildTime: 14
+    monthlyCost: 120000	
+    mapName: XBASE_08	
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    requiresBaseFunc: [LANDBASE]		
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    buildCost: 800000
+    buildTime: 14
+    monthlyCost: 120000	
+    aliens: 10
+    mapName: XBASE_08
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEALASER_DEFENSES
+    requires:
+      - STR_LASER_DEFENSE
+    spriteShape: 3
+    spriteFacility: 26
+    buildTime: 24
+    fireSound: 8
+    hitSound: 10	
+    buildCost: 600000
+    monthlyCost: 30000
+    hitRatio: 95
+    defense: 1200
+# Chance to shoot down terror ship with 2 Laser Defenses: 79.0%
+# Chance to shoot down terror ship with 3 Laser Defenses: 97.6%
+# Chance to shoot down battleship with 5 Laser Defenses: 38.7%		
+    mapName: XBASE_09
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_LASER_DEFENSES
+    requires:
+      - STR_LASER_DEFENSE
+    spriteShape: 3
+    spriteFacility: 26
+    buildTime: 24
+    requiresBaseFunc: [LANDBASE]		
+    fireSound: 8
+    hitSound: 10
+    buildCost: 600000
+    monthlyCost: 30000
+    hitRatio: 95
+    defense: 1200
+# Chance to shoot down terror ship with 2 Laser Defenses: 79.0%
+# Chance to shoot down terror ship with 3 Laser Defenses: 97.6%
+# Chance to shoot down battleship with 5 Laser Defenses: 38.7%		
+    mapName: XBASE_09
+    verticalLevels:	
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEAPLASMA_DEFENSES
+    requires:
+      - STR_PLASMA_DEFENSE
+    spriteShape: 3
+    spriteFacility: 27
+    buildTime: 34
+    hitRatio: 70
+    fireSound: 9
+    hitSound: 10	
+    buildCost: 2400000
+    monthlyCost: 120000
+    defense: 2400
+# Chance to shoot down terror ship with 1 Plasma Defense: 52.5%
+# Chance to shoot down terror ship with 2 Plasma Defenses: 80.5%
+# Chance to shoot down terror ship with 3 Plasma Defenses: 92.6%
+# Chance to shoot down battleship ship with 2 Plasma Defenses: 12.3%
+# Chance to shoot down battleship ship with 3 Plasma Defenses: 36.8%
+# Chance to shoot down battleship ship with 4 Plasma Defenses: 60.0%
+# Chance to shoot down battleship ship with 5 Plasma Defenses: 77.0%
+    mapName: XBASE_10	
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_PLASMA_DEFENSES
+    requires:
+      - STR_PLASMA_DEFENSE
+    spriteShape: 3
+    spriteFacility: 27
+    requiresBaseFunc: [LANDBASE]		
+    buildTime: 34
+    hitRatio: 70
+    fireSound: 9
+    hitSound: 10
+    buildCost: 2400000
+    monthlyCost: 120000
+    defense: 2400
+# Chance to shoot down terror ship with 1 Plasma Defense: 52.5%
+# Chance to shoot down terror ship with 2 Plasma Defenses: 80.5%
+# Chance to shoot down terror ship with 3 Plasma Defenses: 92.6%
+# Chance to shoot down battleship ship with 2 Plasma Defenses: 12.3%
+# Chance to shoot down battleship ship with 3 Plasma Defenses: 36.8%
+# Chance to shoot down battleship ship with 4 Plasma Defenses: 60.0%
+# Chance to shoot down battleship ship with 5 Plasma Defenses: 77.0%		
+    mapName: XBASE_10
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEAFUSION_BALL_DEFENSES
+    requires:
+      - STR_FUSION_DEFENSE
+    spriteShape: 3
+    spriteFacility: 28
+    fireSound: 7
+    hitSound: 10	
+    buildCost: 40000000
+    buildTime: 42
+    monthlyCost: 2000000
+    defense: 12000
+    hitRatio: 100		
+    mapName: XBASE_11	
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_FUSION_BALL_DEFENSES
+    requires:
+      - STR_FUSION_DEFENSE
+    spriteShape: 3
+    spriteFacility: 28
+    requiresBaseFunc: [LANDBASE]		
+    fireSound: 7
+    hitSound: 10	
+    buildCost: 40000000
+    buildTime: 42
+    monthlyCost: 2000000
+    defense: 12000
+    hitRatio: 100
+# Chance to shoot down battleship with 1 Fusion Defense: 100%		
+    mapName: XBASE_11
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_SEAGRAV_SHIELD
+    requires:
+      - STR_GRAV_SHIELD
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildCost: 6000000
+    monthlyCost: 150000	
+    buildTime: 38
+    mapName: XBASE_12
+    requiresBaseFunc: [SEABASE]
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_GRAV_SHIELD
+    requires:
+      - STR_GRAV_SHIELD
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildTime: 38
+    buildCost: 6000000
+    monthlyCost: 150000	
+    requiresBaseFunc: [LANDBASE]		
+    mapName: XBASE_12
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_SEAMIND_SHIELD
+    requires:
+      - STR_MIND_SHIELD
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    buildTime: 33
+    monthlyCost: 5000
+    mapName: XBASE_13
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_MIND_SHIELD
+    requires:
+      - STR_MIND_SHIELD
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    requiresBaseFunc: [LANDBASE]		
+    buildTime: 33
+    monthlyCost: 5000
+    mapName: XBASE_13
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1 
+  - type: STR_SEAPSIONIC_LABORATORY
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 16000
+    psiLabs: 10
+    mapName: XBASE_14
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_PSIONIC_LABORATORY
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 16000
+    psiLabs: 10
+    mapName: XBASE_14
+    requiresBaseFunc: [LANDBASE]		
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  
+  - type: STR_SEAHYPER_WAVE_DECODER
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    radarRange: 2700
+    radarChance: 100
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 4200000
+    buildTime: 26
+    monthlyCost: 180000
+    mapName: XBASE_15
+    requiresBaseFunc: [SEABASE]	
+    verticalLevels: 
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: SEABEDNONE
+      groups: 1 
+      maxRepeats: 1  	
+  - type: STR_HYPER_WAVE_DECODER
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    radarRange: 2700
+    radarChance: 100
+    spriteShape: 2
+    spriteFacility: 32
+    requiresBaseFunc: [LANDBASE]		
+    buildCost: 4200000
+    buildTime: 26
+    monthlyCost: 180000
+    mapName: XBASE_15
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 2]
+      blocks: 1
+    - type: decoration
+      size: [1, 1, 0]	  
+      terrain: baseTerrain
+      #terrain: globeTerrain
+      groups: 1 
+      maxRepeats: 1  		
+  - type: STR_HANGAR
+    provideBaseFunc: [SMALLCRAFT,LARGECRAFT]
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    requiresBaseFunc: [LANDBASE]
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    mapName: XBASE_16

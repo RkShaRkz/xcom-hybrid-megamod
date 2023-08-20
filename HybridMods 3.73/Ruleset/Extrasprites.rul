@@ -1,0 +1,898 @@
+extraSprites:
+  - type: TRISCENE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TRISCENE.gif
+  - type: TRISCENEAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TRISCENEautopsy.gif
+  - type: AQUATIOD.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/aquatoid.gif
+  - type: AQUATIODAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/aquatoidautopsy.gif
+  - type: TRD_6.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 400
+    files:
+      0: Resources/tank2/Tricene/TRD_6.png
+  - type: XARSQUID.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/XARSQUID.gif
+  - type: XARSQUIDAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/XARSQUID_autopsy.gif	
+  - type: HALLUCINOID.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/HALLUCINOID.gif
+  - type: HALLUCINOIDAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/HALLUCINOID_autopsy.gif	
+  - type: smallusosurvey
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_survey_int.png
+  - type: smallusoescort
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_ESCORT_int.png
+  - type: smallusocruiser
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_cruiser_int.png
+  - type: smallusoheavycruiser
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_heavycruiser_int.png
+  - type: smallusohunter
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_hunter_int.png
+  - type: smallusofleetsupply
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_fleetsupply_int.png
+  - type: smallusodreadnought
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_Dreadnought_int.png
+  - type: smallusoTFTDbattleship
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/usosprites/uso_Battleship_int.png  
+  - type: GILLMAN.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/gillman.gif
+  - type: GILLMANAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/gillman_autopsy.gif
+  - type: AQUATIOD.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/aquatoid.gif
+  - type: AQUATIODAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/aquatoidautopsy.gif
+  - type: LOBSTERMAN.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/lobsterman.gif
+  - type: LOBSTERMANAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/lobsterman_autopsy.gif
+  - type: TASOTH.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TASOTH.gif
+  - type: TASOTHAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TASOTH_autopsy.gif	
+  - type: CALCINITE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/CALCINITE.gif
+  - type: CALCINITEAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/CALCINITE_autopsy.gif
+  - type: DEEPONE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/DEEPONE.gif
+  - type: DEEPONEAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/DEEPONE_autopsy.gif	
+  - type: BIODRONE.SPK	
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/BIODRONE.gif
+  - type: BIODRONEAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/BIODRONE_autopsy.gif		
+  - type: TENTACULAT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TENTACULAT.gif
+  - type: TENTACULATAUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UFOPEDIA/TENTACULAT_autopsy.gif			  
+  - type: BASEBITS.PCK
+    files:
+      183: Resources/Crafts/XTritonBase.png
+      217: Resources/Crafts/BarracudaBase.gif
+      218: Resources/Crafts/HammerheadBase.gif
+      219: Resources/Crafts/LeviathanBase.gif
+      220: Resources/Crafts/MantaBase.gif
+  - type: INTICON.PCK
+    files:
+      150: Resources/Crafts/XTritonMinimised.gif
+      161: Resources/Crafts/XTritonDogfight.gif
+      184: Resources/Crafts/Barracudaminimised.gif
+      185: Resources/Crafts/HammerheadMinimised.gif
+      186: Resources/Crafts/Leviathanminimised.gif
+      187: Resources/Crafts/Mantaminimised.gif
+      195: Resources/Crafts/Barracudadogfight.gif 
+      196: Resources/Crafts/Hammerheaddogfight.gif 
+      197: Resources/Crafts/Leviathandogfight.gif
+      198: Resources/Crafts/Mantadogfight.gif
+  - type: AQUATOID.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Aliens/AquatoidRace/AQUATOID.png
+  - type: inventory_AQUATOID
+    singleImage: true
+    files:
+      0: Resources/Aliens/AquatoidRace/inventory_AQUATOID.png
+  - type: TASOTHNEW.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 1040
+    files:
+      0: Resources/Aliens/TASOTH.png
+  - type: inventory_TASOTHNEW
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_TASOTH.png
+  - type: LOBSTER.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Aliens/LOBSTER.PNG
+  - type: GILLMAN.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Aliens/GILLMAN.PNG
+  - type: DEEPONE.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Aliens/DEEPONE.PNG
+  - type: CALCIN.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Aliens/CALCIN.PNG
+  - type: CALCINITE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Ufopedia/calcinite.gif
+  - type: CALCINITE_AUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Ufopedia/calcinite_autopsy.gif
+  - type: BIODRONE.PCK
+    width: 264
+    height: 164
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/BIODRON.png
+  - type: CHUPACABRA.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Aliens/AlienBombRace/CHUPACABRA.png
+  - type: OLDAQUATANKS.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/Tanks/AQUAPLASTIC_TANKS.png
+  - type: FLOOROB.PCK
+    files:
+      110: Resources/Corpses/flogillman_corpse.gif	  
+      111: Resources/Corpses/flocalcinite_corpse.gif
+      112: Resources/Corpses/flodeepone_corpse.gif
+      120: Resources/Corpses/flolobsterman_corpse.gif
+      122: Resources/Corpses/biodrone_corpsef.gif
+      502: Resources/Armour/floorob_AQUA_PLASTIC_SUIT.png
+      512: Resources/armour/DivingSuit/floorob_DIVING_SUIT.png
+      513: Resources/Armour/ClanOfficerArmor/xcom11_corpseflo.gif	  
+      336: Resources/Aliens/AquatoidRace/floorob_AQUATOID.png
+      1854: Resources/Aliens/floorob_TASOTH_CORPSE.png	  
+      1894: Resources/Aliens/AlienBombRace/floorob_CHUPACABRA_CORPSE.png		  
+      1841: Resources/AquaPlasticTanks/floor_COELACANTH1.png
+      1842: Resources/AquaPlasticTanks/floor_COELACANTH2.png
+      1843: Resources/AquaPlasticTanks/floor_COELACANTH3.png
+      1844: Resources/AquaPlasticTanks/floor_COELACANTH4.png
+      1854: Resources/Aliens/floorob_TASOTH_CORPSE.png
+      1884: Resources/AquaPlasticTanks/floor_DISRUPTOR1.png
+      1885: Resources/AquaPlasticTanks/floor_DISRUPTOR2.png
+      1886: Resources/AquaPlasticTanks/floor_DISRUPTOR3.png
+      1887: Resources/AquaPlasticTanks/floor_DISRUPTOR4.png
+      402: Resources/Weapons/FLOOROB_ACIDRIFLE.gif
+      404: Resources/Weapons/FLOOROB_ACIDCANNON.gif
+      515: Resources/Weapons/FLOOROB_ACIDPISTOL.gif
+      570: Resources/AlienWeapon/FLOOROB/blasta_cannon.gif
+      601: Resources/AlienWeapon/FLOOROB/Disruptorammo.gif
+      602: Resources/AlienWeapon/FLOOROB/heavy_thermic_lance.gif
+      603: Resources/AlienWeapon/FLOOROB/blasta_rifle.gif
+      604: Resources/AlienWeapon/FLOOROB/blasta_pistol.gif
+      606: Resources/AlienWeapon/FLOOROB/thermic_lance.gif
+      607: Resources/AlienWeapon/FLOOROB/vibroblade.gif
+      1425: Resources/AlienWeapon/Thermal Shok HEBOMBflr.gif 	  
+      1502: Resources/TFTDaquaweapons/FloorDisruptertorpedolaunher.gif
+      1503: Resources/TFTDaquaweapons/FloorHydrocannon.gif
+      1504: Resources/TFTDaquaweapons/floorob_GasCannon.png
+      1505: Resources/TFTDaquaweapons/floorob_GasCannonAmmoAP.png
+      1506: Resources/TFTDaquaweapons/floorob_GasCannonAmmoHE.png
+      1507: Resources/TFTDaquaweapons/floorob_GasCannonAmmoI.png
+      1508: Resources/TFTDaquaweapons/Floortorpedo.gif
+      1509: Resources/TFTDaquaweapons/Floortorpedolauncher.gif
+      1510: Resources/TFTDaquaweapons/floorob_HydrocannonAmmoAP.png
+      1518: Resources/TFTDaquaweapons/floorob_DartRifle.png  
+      1766: Resources/TFTDaquaweapons/floorob_DartPistol.png
+      1767: Resources/TFTDaquaweapons/Weapons/floorob_DartpistolClip.png
+      1768: Resources/TFTDaquaweapons/Weapons/Ioncannonclipf.png #Sonic Cannon
+      1769: Resources/TFTDaquaweapons/Weapons/Ionrifleclipf.png #Sonic Rfile
+      1770: Resources/TFTDaquaweapons/Weapons/Ionpistolclipf.png #Sonic Pistol
+      1771: Resources/TFTDaquaweapons/Weapons/Ioncannongausscannonclipf.png #Heavy Gauss Cannon 
+      1772: Resources/TFTDaquaweapons/Weapons/IonrifleclipfGauss.png #Heavy Gauss Rifle	
+      1773: Resources/TFTDaquaweapons/Weapons/Ionpistolclipfgauss.png
+      1774: Resources/AlienAlloyammo/floorob_AAheavy.png
+      1775: Resources/AlienAlloyammo/floorob_AApistolClip.png 
+      1776: Resources/AlienAlloyammo/floorob_AArifle.png
+      1989: Resources/tank2/Tricene/floor_DISRUPTOR1.png
+      1990: Resources/tank2/Tricene/floor_DISRUPTOR2.png
+      1991: Resources/tank2/Tricene/floor_DISRUPTOR3.png
+      1992: Resources/tank2/Tricene/floor_DISRUPTOR4.png	  
+      1998: Resources/TFTDaquaweapons/floorob_DartRifleClip.png  
+  - type: BIGOBS.PCK
+    files:
+      57: Resources/AlienWeapon/BIGOBS/vibroblade.gif
+      58: Resources/AlienWeapon/BIGOBS/blasta_pistol.gif
+      59: Resources/AlienWeapon/BIGOBS/vibroblade.gif
+      60: Resources/AlienWeapon/BIGOBS/blasta_pistol.gif
+      61: Resources/AlienWeapon/BIGOBS/vibroblade.gif	  
+      110: Resources/Corpses/gillman_corpse.gif
+      111: Resources/Corpses/calcinite_corpse.gif
+      112: Resources/Corpses/deepone_corpse.gif
+      120: Resources/Corpses/lobsterman_corpse.gif
+      122: Resources/Corpses/biodrone_corpse.gif
+      388: Resources/Aliens/AquatoidRace/bigob_AQUATOID.png	  
+      502: Resources/Armour/bigob_AQUA_PLASTIC_SUIT.png  
+      512: Resources/armour/DivingSuit/bigob_DIVING_SUIT.png
+      513: Resources/Armour/ClanOfficerArmor/xcom11_corpse.gif
+      1901: Resources/Aliens/bigobs_TASOTH_CORPSE.png	  
+      1921: Resources/Aliens/AlienBombRace/bigob_chupacabra_corpse.png	  
+      300: Resources/Corpses/calcinite_claw.png
+      301: Resources/Corpses/lobsterman_claw.png
+      302: Resources/AlienWeapon/LargeRocket.png
+      570: Resources/AlienWeapon/BIGOBS/blasta_cannon.gif
+      603: Resources/AlienWeapon/BIGOBS/blasta_rifle.gif
+      604: Resources/AlienWeapon/BIGOBS/blasta_pistol.gif
+      606: Resources/AlienWeapon/BIGOBS/thermic_lance.gif
+      607: Resources/AlienWeapon/BIGOBS/vibroblade.gif
+      702: Resources/AlienWeapon/BIGOBS/heavy_thermic_lance.gif
+      711: Resources/AlienWeapon/DisruptorAmmo.png
+      964: Resources/Weapons/BIGOB_ACIDPISTOL.gif
+      966: Resources/Weapons/BIGOB_ACIDRIFLE.gif
+      967: Resources/Weapons/BIGOB_ACIDCANNON.gif
+      971: Resources/TFTDaquaweapons/bigob_DartPistol.png
+      972: Resources/TFTDaquaweapons/bigob_DartPistolClipA.png
+      973: Resources/TFTDaquaweapons/bigob_Torpedolauncher.png
+      974: Resources/TFTDaquaweapons/bigob_Hydrocannon.png
+      975: Resources/TFTDaquaweapons/bigob_GasCannon.png
+      976: Resources/TFTDaquaweapons/bigob_GasCannonAmmoAP.png
+      978: Resources/TFTDaquaweapons/bigob_GasCannonAmmoHE.png
+      979: Resources/TFTDaquaweapons/bigob_GasCannonAmmoI.png
+      980: Resources/TFTDaquaweapons/HydracannonammoHE.png
+      981: Resources/TFTDaquaweapons/HydrocannonammoAP.png
+      982: Resources/TFTDaquaweapons/HydrocannonammoINT.png
+      983: Resources/TFTDaquaweapons/TorpedoammoHE.png
+      984: Resources/TFTDaquaweapons/TorpedoINTAMMO1.gif
+      986: Resources/TFTDaquaweapons/Torpedostuntammo.png
+      987: Resources/TFTDaquaweapons/bigob_disruptorlauncher.png
+      1003: Resources/TFTDaquaweapons/Weapons/DartRifle.png
+      1013: Resources/TFTDaquaweapons/Weapons/Ioncannonclip.png
+      1014: Resources/TFTDaquaweapons/Weapons/Ioncannonclip2.png
+      1016: Resources/TFTDaquaweapons/Weapons/Ionpistolclip.png  #Sonic Pistol
+      1017: Resources/TFTDaquaweapons/Weapons/Ionpistolclip2.png #Gauss Pistol
+      1020: Resources/TFTDaquaweapons/Weapons/Ionrifleclip.png
+      1021: Resources/TFTDaquaweapons/Weapons/Ionrifleclip2.png
+      1022: Resources/AlienAlloyammo/bigob_AAheavy.png
+      1023: Resources/AlienAlloyammo/bigob_AArifle.png
+      1024: Resources/AlienAlloyammo/bigob_AApistol.png
+      1425: Resources/AlienWeapon/Thermal Shok HEBOMBammoBig.png  
+      1809: Resources/TFTDaquaweapons/DartRifleClipA.png
+  - type: HANDOB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 160
+    files:
+      191: Resources/Weapons/HANDOB_ACIDPISTOL.PNG
+      222: Resources/TFTDaquaweapons/handob_Disrupterlauncher.png
+      232: Resources/Weapons/HANDOB_ACIDRIFLE.PNG
+      242: Resources/TFTDaquaweapons/handob_GasCannon.png
+      252: Resources/TFTDaquaweapons/handob_hydroautocannon.png	  
+      272: Resources/TFTDaquaweapons/handob_torpedolauncher.png
+      282: Resources/TFTDaquaweapons/handob_torpedoammo.png
+      301: Resources/TFTDaquaweapons/handob_DartPistol.png  
+      312: Resources/TFTDaquaweapons/handob_hydrocannonclipAP.png
+      322: Resources/TFTDaquaweapons/handob_gascannonclipAP.png
+      344: Resources/Weapons/HANDOB_ACIDCANNON.PNG
+      381: Resources/AlienWeapon/handob_SonicCannon.PNG
+      392: Resources/AlienWeapon/handob_HeavyThermiclance.PNG
+      412: Resources/AlienWeapon/handob_VibroBlade.PNG
+      419: Resources/AlienWeapon/handob_Disruptorammo.PNG
+      435: Resources/AlienWeapon/handob_ThermicLance.PNG
+      444: Resources/AlienWeapon/handob_SonicPistol.PNG
+      456: Resources/AlienWeapon/handob_SonicBlastaRifle.PNG
+      685: Resources/TFTDaquaweapons/Weapons/HandOb_DartRifle.png	  
+      1225: Resources/TFTDaquaweapons/Weapons/Handob_ionrifleclip.png
+      1255: Resources/TFTDaquaweapons/Weapons/Handob_ionpistolclip.png
+      1275: Resources/TFTDaquaweapons/Weapons/Handob_ioncannonclip.png
+      1315: Resources/TFTDaquaweapons/handob_dartpistolclip.png
+      1325: Resources/TFTDaquaweapons/handob_harpoonclip.png
+      1335: Resources/TFTDaquaweapons/Weapons/Handob_ioncannonclip.png #Cannon Sonic
+      1345: Resources/TFTDaquaweapons/Weapons/Handob_ionrifleclip.png #Rifle Sonic
+      1355: Resources/TFTDaquaweapons/Weapons/Handob_ionpistolclip.png #Pistol Sonic
+      1365: Resources/TFTDaquaweapons/Weapons/Handob_ioncannonclipguass.png #Cannon Gauss
+      1375: Resources/TFTDaquaweapons/Weapons/Handob_riflenclipguass.png
+      1385: Resources/TFTDaquaweapons/Weapons/Handob_ionpistolgaussclip.png 
+      1395: Resources/AlienAlloyammo/handob_AAheavyclip.png  
+      1405: Resources/AlienAlloyammo/handob_AApistolclip.png  
+      1415: Resources/AlienAlloyammo/handob_AArifleclip.png
+      1425: Resources/AlienWeapon/handob_SonicPulser.png    	  
+  - type: XCOM_20.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armour/DivingSuit/DIVING_SUIT.png
+  - type: MAN_88M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88M0.gif
+  - type: MAN_88M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88M1.gif
+  - type: MAN_88M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88M2.gif
+  - type: MAN_88M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88M3.gif
+  - type: MAN_88F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88F0.gif
+  - type: MAN_88F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88F1.gif
+  - type: MAN_88F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88F2.gif
+  - type: MAN_88F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/MAN_88F3.gif	  
+  - type: MAN_20F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F0.png
+  - type: MAN_20F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F1.png
+  - type: MAN_20F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F2.png
+  - type: MAN_20F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F3.png
+  - type: MAN_20F4.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F4.png
+  - type: MAN_20F5.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F5.png
+  - type: MAN_20F6.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F6.png
+  - type: MAN_20F7.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F7.png
+  - type: MAN_20F8.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F8.png
+  - type: MAN_20F9.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F9.png
+  - type: MAN_20F10.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F10.png
+  - type: MAN_20F11.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F11.png
+  - type: MAN_20F12.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F12.png
+  - type: MAN_20F13.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F13.png
+  - type: MAN_20F14.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F14.png
+  - type: MAN_20F15.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F15.png
+  - type: MAN_20F16.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F16.png
+  - type: MAN_20F17.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F17.png
+  - type: MAN_20F18.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F18.png
+  - type: MAN_20F19.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F19.png
+  - type: MAN_20F20.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F20.png
+  - type: MAN_20F21.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F21.png
+  - type: MAN_20F22.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F22.png
+  - type: MAN_20F23.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F23.png
+  - type: MAN_20F24.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F24.png
+  - type: MAN_20F25.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F25.png
+  - type: MAN_20F26.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F26.png
+  - type: MAN_20F27.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20F27.png
+  - type: MAN_20M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M0.png
+  - type: MAN_20M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M1.png
+  - type: MAN_20M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M2.png
+  - type: MAN_20M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M3.png
+  - type: MAN_20M4.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M4.png
+  - type: MAN_20M5.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M5.png
+  - type: MAN_20M6.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M6.png
+  - type: MAN_20M7.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M7.png
+  - type: MAN_20M8.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M8.png
+  - type: MAN_20M9.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M9.png
+  - type: MAN_20M10.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M10.png
+  - type: MAN_20M11.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M11.png
+  - type: MAN_20M12.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M12.png
+  - type: MAN_20M13.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M13.png
+  - type: MAN_20M14.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M14.png
+  - type: MAN_20M15.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M15.png
+  - type: MAN_20M16.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M16.png
+  - type: MAN_20M17.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M17.png
+  - type: MAN_20M18.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M18.png
+  - type: MAN_20M19.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M19.png
+  - type: MAN_20M20.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M20.png
+  - type: MAN_20M21.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M21.png
+  - type: MAN_20M22.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M22.png
+  - type: MAN_20M23.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M23.png
+  - type: MAN_20M24.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M24.png
+  - type: MAN_20M25.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M25.png
+  - type: MAN_20M26.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M26.png
+  - type: MAN_20M27.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/DivingSuit/Inventory/MAN_20M27.png	  
+  - type: XCOM11.PCK #ION ARMOR 
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armour/ClanOfficerArmor/XCOM11.png
+  - type: MAN_12F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12f0.gif
+  - type: MAN_12F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12f1.gif
+  - type: MAN_12F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12f2.gif
+  - type: MAN_12F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12f3.gif
+  - type: MAN_12M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12m0.gif
+  - type: MAN_12M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12m1.gif
+  - type: MAN_12M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12m2.gif
+  - type: MAN_12M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armour/ClanOfficerArmor/Inventory/man_12m3.gif
+  - type: XCOM10.PCK #PLASTIC ARMOR
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/armour/XCOM10.PNG
+  - type: MAN_23F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23f0.png
+  - type: MAN_23F1.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23f1.png
+  - type: MAN_23F2.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23f2.png
+  - type: MAN_23F3.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23f3.png #end f
+  - type: MAN_23M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23m0.png
+  - type: MAN_23M1.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23m1.png
+  - type: MAN_23M2.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23m2.png
+  - type: MAN_23M3.SPK
+    singleImage: true
+    files:
+      0: Resources/armour/man_23m3.png #end m
+  - type: X1.PCK                       
+    width: 1024
+    height: 448
+    subX: 128
+    subY: 64
+    files:
+      0: Resources/Projectiles/bubbleexplosion.png    
+      #1: Resources/Projectiles/bubbleexplosion.png 
+      #7: Resources/Projectiles/bubbleexplosion.png 
+      8: Resources/Projectiles/Xexplosion.png 
+      201: Resources/Projectiles/XStun.png
+  - type: Projectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      #385: Resources/Projectiles/LMG_bullet.png
+      420: Resources/Projectiles/Magnum_bullet.png
+      455: Resources/Projectiles/Taser_bullet.png
+      490: Resources/Projectiles/Sniper_bullet.png
+      525: Resources/Projectiles/Toxic_bullet.png
+      560: Resources/Projectiles/PsiBeam_bullet.png
+      595: Resources/Projectiles/SMG_bullet.png
+      630: Resources/Projectiles/Gauss_bullet.png
+      665: Resources/Projectiles/MassDriver_bullet.png
+      700: Resources/Projectiles/BlueLaser_bullet.png
+      735: Resources/Projectiles/BlueHeavyLaser_bullet.png
+      770: Resources/Projectiles/ThrowingKnife_bullet.png
+      805: Resources/Projectiles/Arrow_bullet.png
+      840: Resources/Projectiles/Fireball_bullet.png
+      875: Resources/Projectiles/SonicPistol_bullet.png 
+      910: Resources/Projectiles/PlasmaBulletSprite_red.png
+      945: Resources/Projectiles/PurpleHeavyLaser_bullet.png
+      980: Resources/Projectiles/RedLightLaser_bullet.png
+      1015: Resources/Projectiles/RedMediumLaser_bullet.png
+      1050: Resources/Projectiles/RedHeavyLaser_bullet.png
+      1085: Resources/Projectiles/Boomeroid_bullet.png
+      1120: Resources/Projectiles/Cero_green_bullet.png
+      1155: Resources/Projectiles/Cero_red_bullet.png
+      1190: Resources/Projectiles/Dreamsprite_bullet.png
+      1225: Resources/TFTDaquaweapons/BulletSprites/harpoon_bullet.png
+      1260: Resources/TFTDaquaweapons/BulletSprites/TFTD-TORPEDOESSPRITE.png
+      1295: Resources/TFTDaquaweapons/BulletSprites/TFTD-GASCANNONBulletsprite.png
+      1330: Resources/TFTDaquaweapons/BulletSprites/DisruptorTorpedoes.png
+      1365: Resources/TFTDaquaweapons/BulletSprites/TFTD-UNDERWATERHYDROJET.png
+      1400: Resources/Projectiles/Arrow_bulletRPG.png
+  - type: UnderwaterProjectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      700: Resources/Projectiles/BlueLaser_bullet.png
+      735: Resources/Projectiles/BlueHeavyLaser_bullet.png
+      805: Resources/Projectiles/Arrow_bullet.png
+      875: Resources/Projectiles/SonicPistol_bullet.png 
+      910: Resources/Projectiles/PlasmaBulletSprite_red.png
+      1225: Resources/TFTDaquaweapons/BulletSprites/harpoon_bullet.png
+      1260: Resources/TFTDaquaweapons/BulletSprites/TFTD-TORPEDOESSPRITE.png
+      1295: Resources/TFTDaquaweapons/BulletSprites/TFTD-GASCANNONBulletsprite.png
+      1330: Resources/TFTDaquaweapons/BulletSprites/DisruptorTorpedoes.png
+      1365: Resources/TFTDaquaweapons/BulletSprites/TFTD-UNDERWATERHYDROJET.png
+      1400: Resources/Projectiles/Arrow_bulletRPG.png
+  - type: Projectiles
+    height: 3
+    width: 87
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Weapons/PlasmaBulletSprite_red.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      230: Resources/HitAnimations/smoke_hit.png	
+      238: Resources/HitAnimations/bubble_hit.png	
+      56: Resources/HitAnimations/Taser_hit.png
+      66: Resources/HitAnimations/Toxic_hit.png
+      76: Resources/HitAnimations/PsiBeam_hit.png
+      86: Resources/HitAnimations/BlueLaser_hit.png
+      96: Resources/HitAnimations/DagonStaff_hit.png
+      99: Resources/Weapons/HitAnimation_Plasma_red.gif
+      #106: Resources/AlienWeapon/Sonichitanimation.png
+      116: Resources/HitAnimations/Gauss_hit.png
+      126: Resources/HitAnimations/PurpleLaser_hit.png
+      136: Resources/HitAnimations/Electro_hit.png
+      146: Resources/HitAnimations/OrangeSkull_hit.png
+      150: Resources/HitAnimations/SonicPistol_hit.png
+      #156: Resources/HitAnimations/RedSkull_hit.png
+      166: Resources/HitAnimations/GreenSkull_hit.png
+      176: Resources/HitAnimations/BlackSkull_hit.png
+      186: Resources/HitAnimations/RedLaser_hit.png
+      196: Resources/HitAnimations/Flames_hit.png
+      206: Resources/HitAnimations/Sound_hit.png
+      216: Resources/HitAnimations/Harpoon_hit.png

@@ -1,0 +1,323 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_STARGATEFIRST: "Recover Ancient Artifact"
+      STR_ALERT_STARGATEFIRST: "Recover Ancient Artifact"
+      STR_STARGATEFIRST_DESCRIPTION: "Greetings, we represent an international organization that its mission is to recover ancient artifacts. Our decades long research has led us to a conclusion that an ancient and important artifact of vital importance is hidden in a cave in Antartica. Unfortuantely, a rival organization has also discover this artifact and it has send mercenaries searching for it. We need a top notch Mercenary team to recover this artifact. Failure to means disaster to the whole world. You need to elimiate all hostile units that are also recovering the artifact."
+      STR_STARGATEFIRST_BRIEFING: "Greetings, we represent an international organization that its mission is to recover ancient artifacts. Our decades long research has led us to a conclusion that an ancient and important artifact of vital importance is hidden in a cave in Antartica. Unfortuantely, a rival organization has also discover this artifact and it has send mercenaries searching for it. We need a top notch Mercenary team to recover this artifact. Failure to means disaster to the whole world. You need to elimiate all hostile units that are also recovering the artifact."
+      STR_STARGATE: "Stargate Missions."
+      STR_STARGATE_UFOPEDIA: "With the Recovery of the Artifact,we, the International Organization has studied it throughly. Thus the artifact is an ancient Stargate, capable of travelling to other worlds. We have now reformed our organization and structure, thus we are now known as Stargate Command. We are base in the us in the usa Cheyenne Mountain Complex. If we have any mission requires of any Mercenary Units to help, we will definately call you. Our missions is different than all others. If we offer you a mission, you need to come to our mountain base, and use the Stargate to travel to the distant world and participate in it."	  
+ufopaedia:	  
+  - id: STR_STARGATE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_STARGATE
+    text: STR_STARGATE_UFOPEDIA
+    text_width: 100
+    listOrder: 23500	  
+alienDeployments:
+  - type: STR_STARGATEFIRST
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 80
+    height: 18
+    shade: 6
+    alert: STR_ALERT_STARGATEFIRST
+    alertBackground: BACK04.SCR
+    alertDescription: STR_STARGATEFIRST_DESCRIPTION
+    script: STARGATECAVES
+    briefing:
+      background: BACK04.SCR
+      textOffset: -16
+      showTarget: false
+    markerName: STR_STARGATEFIRST
+    unlockedResearch: STR_STARGATE	
+    duration: [25, 10000000000000]
+    despawnPenalty: 100
+    enviroEffects: STR_LANDARMOURTOLAND
+    terrains:
+      - POLAR	
+    data:
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 8
+        highQty: 16
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 12
+        highQty: 20
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 9
+        lowQty: 5
+        highQty: 11
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 5
+        highQty: 9
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 8
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_STARGATEFIRSTFIRSTMISSION
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SPARTANS: 20
+          STR_MAGMA_MERCS: 20		  
+          STR_NINJA: 20
+          STR_SYNDICATE: 20
+          STR_MIB: 20	  
+    waves:
+      - ufo: STR_STARGATEFIRST
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+terrains:
+  - name: STARGATEARTICCAVEENTRY
+    mapDataSets:
+      - BLANKS
+      - MOUNT	  
+      - POLARMOUNTBITS
+      - POLARBITS
+      - POLAR
+      - StargateX
+    mapBlocks:
+      - name: STARGATECAVESMISSION1
+        width: 20
+        length: 20 
+  - name: MOUNTAINCOMPLEX
+    mapDataSets:
+      - BLANKS
+      - MOUNT	  
+      - StargateX
+      - COMPUTERS
+      - XBASE1	  
+      - PORT01
+    mapBlocks:
+      - name: STARGATECOMPLEX
+        width: 20
+        length: 20 
+        items:
+            STR_STARGATEENGINEER_SPAWNER:
+              - [5, 5, 0]
+              - [5, 11, 0]			  
+              - [6, 2, 0]	
+              - [6, 12, 0]			
+            STR_STARGATESCIENTIST_SPAWNER:	  
+              - [7, 3, 1] 
+              - [9, 3, 1] 
+              - [10, 3, 1] 			
+            STR_STARGATEGUARD_SPAWNER:   
+              - [12, 5, 0]
+              - [11, 17, 0]  
+              - [13, 12, 0]  
+        fuseTimers:
+            STR_STARGATESCIENTIST_SPAWNER: [0, 0]
+            STR_STARGATEENGINEER_SPAWNER: [0, 0]
+            STR_STARGATEGUARD_SPAWNER: [0, 0]			
+  - name: STARGATEENTRYX
+    mapDataSets:
+      - BLANKS
+      - StargateX	  
+    mapBlocks:
+      - name: STARGATEENTRY
+        width: 10
+        length: 10	
+  - name: STARGATECAVEENTRY
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - XBASE1
+      - CULTIVAT 
+      - StargateX
+    mapBlocks:
+      - name: STARGATEUNDERGROUNDCAVE
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1 
+  - name: STARGATECAVEPASSAGE
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - XBASE1
+      - CULTIVAT 
+      - StargateX
+    mapBlocks:
+      - name: STARGATEUNDERCAVEPASSAGE
+        width: 10
+        length: 10
+      - name: STARGATEUNDERCAVEPASSAGE1
+        width: 10
+        length: 10		
+  - name: STARGATEENTRYNOGATES
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN 
+      - XBASE1	  
+      - StargateX
+    mapBlocks:
+      - name: STARGATEENTRYNOGATE
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1 
+  - name: STARGATEENTRYNOGATES
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN 
+      - XBASE1	  
+      - StargateX
+    mapBlocks:
+      - name: STARGATEENTRYNOGATE
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1 		
+  - name: STARGATEENTRYTUNNELS
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN 
+      - XBASE1	  
+      - StargateX
+    mapBlocks:
+      - name: STARGATEUNDERGROUND
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1 			
+research:		
+  - name: STR_STARGATE
+    requiresBaseFunc: [RESEARCH]  
+    cost: 0
+    points: 10
+    listOrder: 200750	
+    needItem: true
+mapScripts:
+  - type: STARGATECAVES
+    commands:
+    - type: resize
+      size: [6, 6, 20]	  
+    - type: addCraft
+      groups: 1
+      terrain: POLAR
+    - type: addUFO
+      UFOName: STR_VESSEL_MILITARY_TRANSPORT
+      groups: 1
+      terrain: POLAR		  
+    - type: addBlock
+      size: 2
+      executions: 1  
+      executionChances: 100 	  
+      terrain: STARGATEARTICCAVEENTRY		  
+    - type: fillArea
+      terrain: POLAR	  
+regions:	  
+  - type: STARGATESPAWNS
+    missionZones:
+      -
+        - [71, 71, 80, 80]
+items: 		
+  - type: STR_STARGATEGUARD_SPAWNER
+    spawnUnit: STR_MALE_CIVILIAN_BODYGUARD
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4			
+  - type: STR_STARGATESCIENTIST_SPAWNER
+    spawnUnit: STR_UAC_MANAGER
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_STARGATEENGINEER_SPAWNER
+    spawnUnit: STR_UAC_ENGINEER
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4		
+missionScripts:
+  - type: firststargatemission
+    firstMonth: 20
+    executionOdds: 100
+    varName: gatefirst
+    maxRuns: 1	
+    avoidRepeats: 1	
+    researchTriggers:	
+      STR_STARGATE: false	
+    missionWeights:
+      0:
+        STR_STARGATEFIRSTFIRSTMISSION: 100
+    regionWeights:
+      0:
+        STARGATESPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500

@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - MGS Adam
+  - MGS Adrian
+  - MGS Aidan
+  - MGS Alan
+  - MGS Alexander
+  - MGS Alistair
+  - MGS Andrew
+  - MGS Arthur
+  - MGS Ben
+  - MGS Benjamin
+  - MGS Bradley
+  - MGS Brendan
+  - MGS Brett
+  - MGS Bruce
+  - MGS Carl
+  - MGS Charles
+  - MGS Charlie
+  - MGS Christopher
+  - MGS Colin
+  - MGS Connor
+  - MGS Craig
+  - MGS Damien
+  - MGS Daniel
+  - MGS David
+  - MGS Declan
+  - MGS Derek
+  - MGS Desmond
+  - MGS Donald
+  - MGS Dylan
+  - MGS Edmund
+  - MGS Edward
+  - MGS Euan
+  - MGS Frank
+  - MGS Francis
+  - MGS Gareth
+  - MGS Gary
+  - MGS Geoffrey
+  - MGS George
+  - MGS Graeme
+  - MGS Graham
+  - MGS Grant
+  - MGS Gregor
+  - MGS Gregory
+  - MGS Hamish
+  - MGS Harold
+  - MGS Harry
+  - MGS Ian
+  - MGS Iain
+  - MGS James
+  - MGS Jason
+  - MGS John
+  - MGS Jordan
+  - MGS Keith
+  - MGS Ken
+  - MGS Kenneth
+  - MGS Lewis
+  - MGS Liam
+  - MGS Malcolm
+  - MGS Mark
+  - MGS Michael
+  - MGS Neil
+  - MGS Patrick
+  - MGS Paul
+  - MGS Peter
+  - MGS Raymond
+  - MGS Rhys
+  - MGS Richard
+  - MGS Robert
+  - MGS Rory
+  - MGS Roy
+  - MGS Ryan
+  - MGS Samuel
+  - MGS Scott
+  - MGS Simon
+  - MGS Stephen
+  - MGS Steven
+  - MGS Thomas
+  - MGS William
+femaleFirst:
+  - MGS Abigail
+  - MGS Aileen
+  - MGS Ailsa
+  - MGS Alice
+  - MGS Alison
+  - MGS Amy
+  - MGS Andrea
+  - MGS Ann
+  - MGS Anna
+  - MGS Annabel
+  - MGS Anne
+  - MGS Bridget
+  - MGS Carol
+  - MGS Catherine
+  - MGS Clara
+  - MGS Claire
+  - MGS Clare
+  - MGS Courtney
+  - MGS Cynthia
+  - MGS Eleanor
+  - MGS Elizabeth
+  - MGS Emily
+  - MGS Emma
+  - MGS Fiona
+  - MGS Frances
+  - MGS Gail
+  - MGS Gemma
+  - MGS Gillian
+  - MGS Gilly
+  - MGS Grace
+  - MGS Hanna
+  - MGS Hannah
+  - MGS Harriet
+  - MGS Heather
+  - MGS Helen
+  - MGS Holly
+  - MGS Isabel
+  - MGS Isobel
+  - MGS Isla
+  - MGS Jade
+  - MGS Jane
+  - MGS Janet
+  - MGS Janice
+  - MGS Janine
+  - MGS Jayne
+  - MGS Jean
+  - MGS Jenna
+  - MGS Jennifer
+  - MGS Jenny
+  - MGS Jessica
+  - MGS Jill
+  - MGS Joyce
+  - MGS Kate
+  - MGS Katie
+  - MGS Kimberley
+  - MGS Kirsten
+  - MGS Kirsty
+  - MGS Kylie
+  - MGS Lauren
+  - MGS Lesley
+  - MGS Leslie
+  - MGS Lilleth
+  - MGS Lillian
+  - MGS Lindsay
+  - MGS Lisa
+  - MGS Lorna
+  - MGS Lucy
+  - MGS Lynn
+  - MGS Lynette
+  - MGS Margaret
+  - MGS Maria
+  - MGS Mary
+  - MGS Megan
+  - MGS Moira
+  - MGS Murron
+  - MGS Patricia
+  - MGS Rebecca
+  - MGS Samantha
+  - MGS Sarah
+  - MGS Shannon
+  - MGS Siobhan
+  - MGS Stacey
+  - MGS Theresa
+  - MGS Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

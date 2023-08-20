@@ -1,0 +1,121 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_SYNDICATE_FIELD_TEST: "Sydnerion Field Test"
+        STR_ALERT_SYNDICATE_FIELD_TEST: "Sydnerion Field Test"
+        STR_SYNDICATE_FIELD_TEST_DESCRIPTION: "This is the Merc guild here. I have news that the Synedrion has unleast their vile genetic creation on the civilian population. You must do what you can to contain and eliminate these vile spawn. Eliminate these vile creations and their Masters! So you get paid."
+        STR_SYNDICATE_FIELD_TEST_BRIEFING: "This is the Merc guild here. I have news that the Synedrion has unleast their vile genetic creation on the civilian population. You must do what you can to contain and eliminate these vile spawn. Eliminate these vile creations and their Masters! So you get paid."
+alienDeployments:
+  - type: STR_SYNDICATE_FIELD_TEST
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONLARGE  
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND		
+    alert: STR_ALERT_SYNDICATE_FIELD_TEST
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SYNDICATE_FIELD_TEST_DESCRIPTION
+    briefing:
+      desc: STR_SYNDICATE_FIELD_TEST_BRIEFING	
+      palette: 2
+      music: GMTACDRY
+      background: BACK04.SCR
+      showTarget: false
+    markerName: STR_SYNDICATE_FIELD_TEST
+    duration: [6, 10]
+    despawnPenalty: 350
+    civilians: 25
+    customUfo: STR_VESSEL_MILITARY_TRANSPORT
+    width: 60
+    length: 60
+    height: 9
+    script: SYNEDRIONFIELDTEST
+    music:
+      - GMTACTIC
+    data:
+      - alienRank: 8
+        lowQty: 6
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []	
+mapScripts:
+  - type: SYNEDRIONFIELDTEST
+    commands:
+    - type: resize
+      size: [8,8,12]		  
+    - type: addCraft
+      groups: 1
+      terrain: globeTerrain
+    - type: addUFO
+      groups: 1	
+      terrain: globeTerrain	
+    - type: addBlock
+      size: [1,1,2]
+      executions: 9	 
+      executionChances: 100	  
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: globeTerrain		
+        groups: 1   
+      - type: middle
+        size: [1,1,2]
+        terrain: VILLAGES	
+    - type: addBlock
+      size: 2
+      executions: 2
+      terrain: globeTerrain
+    - type: addBlock
+      executions: 4
+      terrain: globeTerrain	  
+    - type: fillArea
+      terrain: globeTerrain			
+alienMissions:
+  - type: STR_SYNDICATE_FIELD_TEST
+    #interruptResearch: STR_SYNDICATE_HQ_DEFEATED
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 100
+    waves:
+      - ufo: STR_SYNDICATE_FIELD_TEST
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: SyndicateFieldTest
+    firstMonth: 20
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_SYNDICATE_FIELD_TEST: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

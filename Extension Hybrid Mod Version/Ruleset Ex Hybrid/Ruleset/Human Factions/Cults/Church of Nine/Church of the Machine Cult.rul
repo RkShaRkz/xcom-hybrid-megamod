@@ -1,0 +1,854 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CHURCHPIRATE: "Sisterhood of Steel"  
+      STR_CHURCH_TERROR: "Sisterhood of Steel Elite"
+      STR_CHURCH_NONCOM: "Sisterhood of Steel"
+      STR_CHURCH_INDUSTRIAL: "Sisterhood of Steel"
+      STR_CHURCH_MANSION: "Sisterhood of Steel Regulars"		
+      STR_CHURCH_MANSION: "Sisterhood of Steel"	
+      STR_CHURCH_MANSION_UFOPEDIA: "The Sisterhood of Steel is a sect of amazonian warriors-cultist that worships a Computer. Consisted mainly of female recruits, whom has chosen to have of their repoductive organs removed since young and indocrinated to be fanatical cultists. The goal of a Sister, while serving the Sisterhood, is to be one day chosen, gifted and grafted, with the sacred cybernetics that their Computer god will afford them. As crazy as these Sisters can be, they believe that their Computer is of humanity's one day salvation and these sisters will protect and promote of its goals at all cost."  
+      STR_BEASTMASTER_TERRORIST: "The Chosen ones"	  
+      STR_BEASTMASTER_TERRORIST_UFOPEDIA: "The Chosen ones are elite warriors whom are chosen to be cybernetically enhanced by the Machine God. The Cybernetics wihtin of these chosen ones has made them to appear more male like than female. However, make no mistake, they are heavily armed and deadly, when encountered. No matter what they look like." 	
+      STR_CHURCH_MATRON: "Sister Initiate"	  
+      STR_CHURCH_MATRON_UFOPEDIA: "If a Sister has shown of considerable skills and proven of herself in battle, she would be promoted to Initiate. Shown to be loyal, fanatical and to serve the Sisterhood with the highest of merits. A Sister Initiate is the highst ranking warrior in the ranks of the Sisterhood of Steel. If she's lucky and survive the years while in the rank, with more experience and skill, she can be selected as the Chosen ones."
+      STR_CHURCH_MAIDEN: "Sister Warmaiden"	  
+      STR_CHURCH_MAIDEN_UFOPEDIA: "If a female Neophyte has shown of considerable experience and skill, then she might be raised as a Warmaiden. A Warmaiden is a gifted elite female warrior within the Sisterhood of Steel. Highly motivated and fanatical, they are ready to defend the way of the Sisterhood to the death in battle."
+      STR_CHURCH_HANDMAID: "Sister Neophyte"
+      STR_CHURCH_HANDMAID_UFOPEDIA: "A Sisterhood Neophyte is often recruited from orphans. To avoid of unnecessary relationship and procreation complication, usually at the coming of age, a girl would have of her reproductive organs are surgically removed. The duties of a female neophyte's is to serve the Sisterhood in whatever way possible. Some if they are lucky, would be train as soldiers. Only those whom were trained in the ways of a Soldier, could she get the chance of rising up in the Sisterhood."  
+alienRaces:
+  - id: STR_CHURCH_INDUSTRIAL
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_BEASTMASTER_TERRORIST
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_HANDMAID	
+      - STR_CHURCH_HANDMAID		  
+      - STR_CHURCH_HANDMAID	
+      - STR_CHURCH_HANDMAID	
+    retaliationAggression: -100
+  - id: STR_CHURCH_INDUSTRIAL_UNDERWATER	
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_BEASTMASTER_TERRORIST
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_HANDMAID	
+      - STR_CHURCH_HANDMAID		  
+      - STR_CHURCH_HANDMAID	
+      - STR_CHURCH_HANDMAID
+    retaliationAggression: -100	
+  - id: STR_CHURCH_NONCOM
+    membersRandom:
+      - [STR_BEASTMASTER_TERRORIST]
+      - [STR_BEASTMASTER_TERRORIST]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+    retaliationAggression: -100	
+  - id: STR_CHURCH_NONCOM_UNDERWATER	
+    membersRandom:
+      - [STR_BEASTMASTER_TERRORIST]
+      - [STR_BEASTMASTER_TERRORIST]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MATRON]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_MAIDEN]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]
+      - [STR_CHURCH_HANDMAID]    
+  - id: STR_CHURCHPIRATE
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+    retaliationAggression: -100	  
+  - id: STR_CHURCHPIRATE_UNDERWATER	
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+    retaliationAggression: -100	  	
+  - id: STR_CHURCH_TERROR
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+  - id: STR_CHURCH_TERROR_UNDERWATER	
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+  - id: STR_CHURCH_MANSION
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+    retaliationAggression: -100
+  - id: STR_CHURCH_MANSION_UNDERWATER	
+    members:
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON #boss
+      - STR_CHURCH_MATRON
+      - STR_CHURCH_MAIDEN #student
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_MAIDEN #maintenance
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID
+      - STR_CHURCH_HANDMAID	 
+      - STR_CHURCH_HANDMAID	 
+ufopaedia:	 
+  - id: STR_CHURCH_MANSION
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CHURCH_MANSION_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_CHURCH_MANSION
+    listOrder: 179990		  	 
+  - id: STR_CHURCH_HANDMAID
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CHURCH_HANDMAID
+    text: STR_CHURCH_HANDMAID_UFOPEDIA
+    text_width: 180
+    listOrder: 22116
+  - id: STR_CHURCH_MAIDEN
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CHURCH_MAIDEN
+    text: STR_CHURCH_MAIDEN_UFOPEDIA
+    text_width: 200
+    listOrder: 22125
+  - id: STR_BEASTMASTER_TERRORIST
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_BEASTMASTER_TERRORIST
+    text: STR_BEASTMASTER_TERRORIST_UFOPEDIA
+    text_width: 180
+    listOrder: 22140
+  - id: STR_CHURCH_MATRON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_CHURCH_MATRON
+    text: STR_CHURCH_MATRON_UFOPEDIA
+    text_width: 180
+    listOrder: 22148
+research:
+  - name: STR_CHURCH_MANSION
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_CHURCH_MAIDEN
+      - STR_CHURCH_HANDMAID
+      - STR_BEASTMASTER_TERRORIST
+      - STR_CHURCH_MATRON
+  - name: STR_BEASTMASTER_TERRORIST
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_MANSION
+  - name: STR_CHURCH_MATRON 
+    cost: 15
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_MANSION	
+  - name: STR_CHURCH_MAIDEN   
+    cost: 10
+    points: 33
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_MANSION		
+  - name: STR_CHURCH_HANDMAID
+    cost: 5
+    points: 32
+    needItem: true
+    destroyItem: true	
+    unlocks:
+      - STR_CHURCH_MANSION
+units:	  
+  - type: STR_BEASTMASTER_TERRORIST
+    race: STR_SNAKEMAN
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 75
+      stamina: 90
+      health: 75
+      bravery: 90
+      reactions: 65
+      firing: 70
+      throwing: 65
+      strength: 54
+      psiStrength: 99
+      psiSkill: 30
+      melee: 75
+      #Mana: 85
+    armor: CHURCH_ARMOR_P4
+    #armor: STR_DEFENDER_SLAVE	
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    energyRecovery: 42
+    intelligence: 6
+    aggression: 1
+    sniper: 50
+    spotter: 3
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_AC_HE_AMMO
+        - STR_GRENADE
+  - type: STR_CHURCH_HANDMAID
+    race: STR_SNAKEMAN
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 40
+      bravery: 60
+      reactions: 40
+      firing: 25
+      throwing: 40
+      strength: 28
+      psiStrength: 52
+      psiSkill: 0
+      melee: 45
+      #Mana: 65
+    armor: CHURCH_ARMOR_P11
+    #armor: STR_BARBARIAN_ARMOR_UC	
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: [44, 45, 46]
+    energyRecovery: 40
+    intelligence: 3
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_MAGNUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+        - STR_MAGNUM_DRUM
+  - type: STR_CHURCH_MAIDEN
+    race: STR_SNAKEMAN
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 40
+      bravery: 80
+      reactions: 50
+      firing: 55
+      throwing: 35
+      strength: 32
+      psiStrength: 55
+      psiSkill: 0
+      melee: 55
+      #Mana: 70
+    #armor: STR_SNIPER_ARMOR
+    armor: CHURCH_ARMOR_P9	
+    standHeight: 22
+    kneelHeight: 14
+    value: 12
+    deathSound: [44, 45, 46]
+    energyRecovery: 40
+    intelligence: 5
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+  - type: STR_CHURCH_MATRON
+    race: STR_SNAKEMAN
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 50
+      bravery: 90
+      reactions: 60
+      firing: 60
+      throwing: 35
+      strength: 36
+      psiStrength: 65
+      psiSkill: 0
+      melee: 65
+      #Mana: 100
+    armor: CHURCH_ARMOR_P8
+    #armor: STR_BASIC_ARMOR	
+    standHeight: 22
+    kneelHeight: 14
+    value: 32
+    deathSound: [44, 45, 46]
+    energyRecovery: 40
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    builtInWeaponSets:	
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+armors:	
+  - type: CHURCH_ARMOR_P3
+    spriteSheet: SYNDICATE_SCIENTIST.PCK
+    spriteInv: inventory_SYNDICATE_SCIENTIST
+    corpseBattle:
+      - STR_CHURCH_1EE_CORPSE_BATTLE	  
+    #corpseGeo: STR_SPARTAN_CORPSE	  
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.1
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.75
+      - 4.0 #SMoke
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		
+    loftempsSet: [ 3 ]  
+  - type: CHURCH_ARMOR_P4
+    spriteSheet: PIR_8.PCK
+    customArmorPreviewIndex: 23
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    corpseBattle:
+      - STR_CHURCH_3_CORPSE_BATTLE
+    #corpseGeo: STR_CHURCH_CORPSE	
+    weight: 7
+    personalLight: 5
+    visibilityAtDark: 12
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    meleeDodge:
+      reactions: 0.15
+      melee: 0.3
+    meleeDodgeBackPenalty: 0.5
+    damageModifier:
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ] 
+  - type: CHURCH_ARMOR_P8
+    spriteSheet: PIR_25.PCK
+    customArmorPreviewIndex: 15
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    #storeItem: STR_BASIC_ARMOR
+    corpseBattle:
+      - STR_CHURCH_8_CORPSE_BATTLE	  
+    #corpseGeo: STR_SCRAPMETAL
+    personalLight: 5
+    stats:
+       #tu: -15
+       stamina: -15
+       firing: 5
+       melee: 5
+       #health: 5
+       #bravery: 10
+    visibilityAtDark: 12
+    weight: 12
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    meleeDodge:
+      melee: 0.1
+    meleeDodgeBackPenalty: 0.5
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.5
+      #moraleCurrent: 0.33
+      #bravery: 0.2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.9
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: CHURCH_ARMOR_P9 
+    spriteSheet: PIR_410.PCK
+    customArmorPreviewIndex: 17
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    #storeItem: STR_SNIPER_ARMOR
+    corpseBattle:
+      - STR_CHURCH_9_CORPSE_BATTLE 
+    #corpseGeo: STR_ELECTRONIC_PIECES
+    weight: -5
+    personalLight: 5
+    camouflageAtDay: -16
+    camouflageAtDark: -4
+    visibilityAtDark: 20
+    heatVision: 50
+    stats:
+       reactions: 25
+       firing: 20
+       #tu: -15
+       melee: -10
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #time:
+        #tu: 0.5
+        ##manaNormalized: 150.0
+      ##mana:
+        #moraleCurrent: -0.014
+      #energy:
+        ##manaNormalized: 20.0
+        #healthCurrent: 0.25
+        #stunCurrent: -0.2
+      #morale:
+        #flatHundred: -0.1
+        #flatOne -1.0
+        ##manaNormalized: 14.0
+        #moraleCurrent: -0.1777
+        #bravery: 0.0888
+      #stun:
+        #healthCurrent: 0.045
+        #health: -0.08
+        #stunCurrent: 0.036
+        ##manaNormalized: 9.0
+      #health:
+        #stunNormalized: -0.165
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.5
+      #moraleCurrent: 0.33
+      #bravery: 0.2
+    damageModifier:
+      - 0.6
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]
+  - type: CHURCH_ARMOR_P10
+    spriteSheet: COS_10.PCK
+    spriteInv: ChurchBoyInventoryImage
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 96, 160, 161, 162]
+    corpseBattle:
+      - STR_CHURCH_10_CORPSE_BATTLE
+    #corpseGeo: STR_GOVT_CORPSE
+    visibilityAtDark: 9
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.35
+      melee: 0.1
+      #bravery: 0.15
+    meleeDodgeBackPenalty: 0.5
+    #recovery: 
+      ##time: *SECTION_TIME_RECOVERY_NORMAL
+      ##mana: *SECTION_FRESH_RECOVERY_NORMAL
+      ##morale: *SECTION_MORALE_RECOVERY_NORMAL
+      ##energy: *SECTION_ENERGY_RECOVERY_NORMAL
+      ##stun: *SECTION_STUN_RECOVERY_NORMAL
+      ##health: *SECTION_HEALTH_RECOVERY_NORMAL
+    #psiDefence: *SECTION_PSIDEF_NORMAL
+    damageModifier:
+      - 2.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	
+    loftempsSet: [ 2 ]
+  - type: CHURCH_ARMOR_P11
+    spriteSheet: PIR_371.PCK
+    customArmorPreviewIndex: 64
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 94, 94, 160, 160, 163, 163, 94, 94, 94, 94, 160, 163, 160, 160, 94, 94, 94, 94, 163, 160, 160, 163, 94, 94, 94, 94, 160, 163, 163, 163, 94, 94, 94, 94, 163, 163, 160, 160, 94, 94, 94, 94, 160, 160, 160, 160, 94, 95, 94, 94, 161, 160, 161, 162, 94, 94, 94, 94, 163, 163, 161, 160, 94, 94, 94, 94, 163, 163, 163, 160, 94, 94, 94, 94, 161, 162, 162, 162, 94, 94, 94, 94, 161, 162, 163, 161, 94, 94, 94, 94, 160, 162, 163, 163, 94, 94, 94, 94, 162, 162, 162, 162, 94, 94, 94, 94, 160, 160, 161, 160]
+    spriteHairGroup: 9
+    spriteHairColor: [224, 17, 246, 36, 38, 208, 246, 246, 36, 246, 246, 144, 145, 22, 22, 246, 178, 160, 160, 163, 38, 146, 246, 52, 246, 145, 37, 196, 161, 224, 224, 37, 144, 246, 146, 230, 86, 245, 246, 80, 34, 80, 144, 144, 246, 244, 198, 35, 38, 246, 144, 18, 246, 246, 246, 80, 80, 162, 130, 144, 224, 246, 82, 181, 145, 161, 246, 246, 37, 246, 36, 178, 161, 161, 192, 32, 240, 246, 19, 193, 246, 80, 144, 246, 246, 131, 245, 22, 50, 246, 144, 163, 19, 38, 246, 226, 36, 22, 246, 144, 194, 146, 132, 193, 94, 144, 37, 128, 246, 38, 246, 246]
+    #storeItem: STR_BARBARIAN_ARMOR
+    weight: 8
+    personalLight: 5
+    corpseBattle:
+      - STR_CHURCH_11_CORPSE_BATTLE
+    visibilityAtDark: 12
+    stats:
+       melee: 10
+       #health: 10
+       #bravery: 10
+       reactions: 5
+       firing: -10
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    meleeDodge:
+      reactions: 0.3
+      melee: 0.2
+    meleeDodgeBackPenalty: 0.5
+    #recovery:
+      #time:
+        #tu: 0.5
+        ##manaNormalized: 150.0
+      ##mana:
+        #moraleCurrent: -0.014
+      #energy:
+        ##manaNormalized: 20.0
+        #healthCurrent: 0.25
+        #stunCurrent: -0.2
+      #morale:
+        #flatHundred: -0.1
+        #moraleCurrent: -0.1777
+        #bravery: 0.0888
+        ##manaNormalized: 14.0
+      #stun:
+        #healthCurrent: 0.045
+        #health: -0.08
+        #stunCurrent: 0.063
+        ##manaNormalized: 9.0
+      #health:
+        #stunNormalized: -0.165
+    #psiDefence:
+      #psiStrength: 1.0
+      #psiSkill: 0.5
+      #moraleCurrent: 0.33
+      #bravery: 0.2
+    damageModifier:
+      - 0.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.0 #GaussAP
+      - 1.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon
+    loftempsSet: [ 3 ]	
+items:
+#Corpse	
+  - type: STR_CHURCH_1EE_CORPSE_BATTLE
+    categories: [STR_CORPSES]  
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 45
+    bigSprite: 498
+    floorSprite: 415 
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    battleType: 11
+    recoveryPoints: 5
+  - type: STR_CHURCH_3_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 55
+    bigSprite: 3908
+    floorSprite: 3904
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    battleType: 11
+    recoveryPoints: 9
+  - type: STR_CHURCH_8_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 45
+    bigSprite: 3925
+    floorSprite: 3925
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    battleType: 11
+    recoveryPoints: 9
+  - type: STR_CHURCH_9_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3410
+    floorSprite: 3913
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: 9	
+  - type: STR_CHURCH_10_CORPSE_BATTLE
+    name: STR_CORPSE
+    weight: 35
+    #supportedInventorySections: *InventorySectionsStandard
+    bigSprite: 3810
+    floorSprite: 3810
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 11
+    recoveryPoints: -10
+    armor: 40
+  - type: STR_CHURCH_11_CORPSE_BATTLE
+    name: STR_CORPSE
+    #supportedInventorySections: *InventorySectionsStandard
+    weight: 40
+    bigSprite: 3373
+    floorSprite: 3373
+    costThrow:
+      energy: 20
+      time: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    battleType: 11
+    recoveryPoints: 9	
+  - type: STR_CHURCH_CORPSE
+    categories: [STR_BAT_CAT_COMPONENT]
+    #supportedInventorySections: *InventorySectionsStandard
+    size: 0.1
+    costSell: 2000
+    bigSprite: 3653
+    floorSprite: 3702
+    weight: 6
+    costThrow:
+      energy: 10
+      time: 40
+    invWidth: 2
+    invHeight: 2	
+  - type: STR_BEASTMASTER_TERRORIST
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    liveAlien: true
+    prisonType: 2	
+    costSell: 70000
+    transferTime: 180	
+  - type: STR_CHURCH_MATRON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 60000		
+  - type: STR_CHURCH_BOY
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 25000
+  - type: STR_CHURCH_HANDMAID
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 30000
+  - type: STR_CHURCH_MAIDEN
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    prisonType: 1		
+    liveAlien: true
+    costSell: 35000

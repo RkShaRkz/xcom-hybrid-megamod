@@ -1,0 +1,596 @@
+armors:
+  - type: STR_HALLUCINOID_ARMOR
+    spriteSheet: HALLUCINOID.PCK
+    spriteInv: inventory_HALLUCINOID
+    allowInv: false
+    corpseGeo: STR_HALLUCINOID_CORPSE
+    corpseBattle:
+      - HALLUCINOID_CORPSE_1
+      - HALLUCINOID_CORPSE_2
+      - HALLUCINOID_CORPSE_3
+      - HALLUCINOID_CORPSE_4
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 25
+    size: 2
+    movementType: 1
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #NormalBullets
+      - 1.7 #Fire
+      - 0.7 #HE
+      - 0.4 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 0.6 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.8 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.9 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 12
+    constantAnimation: true
+  - type: XARQUID_ARMOR
+    spriteSheet: XARSQUID.PCK
+    corpseBattle:
+      - XARQUID_CORPSE_1
+      - XARQUID_CORPSE_2
+      - XARQUID_CORPSE_3
+      - XARQUID_CORPSE_4
+    frontArmor: 130
+    sideArmor: 120
+    rearArmor: 100
+    underArmor: 80
+    movementType: 1
+    drawingRoutine: 11
+    size: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 0.6 #Fire
+      - 0.6 #HE
+      - 0.35 #Laser
+      - 0.0 #Plasma
+      - 0.9 #Stunt
+      - 1.45 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 0.9 #Sonic
+      - 0.8 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.9 #XCOMBioweapon		  
+    loftempsSet: [ 92, 89, 90, 91 ]	
+  - type: STR_SWIMAQUALUNGLAND
+    spriteSheet: SwimwearAQUALUNG.PCK  
+    spriteInv: CANAQUA_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 96, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairGroup: 9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    #storeItem: STR_SWIMAQUALUNG
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR   
+    visibilityAtDark: 9
+    personalLight: 5
+    stats:
+       tu: 5
+       stamina: 10
+       melee: 5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 0.7 #Sonic
+      - 0.7 #GaussAP
+      - 1.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.1 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]	
+  - type: STR_SWIMAQUALUNG_UC 
+    spriteSheet: SwimwearAQUALUNG.PCK  
+    spriteInv: CANAQUA_1
+    drawBubbles: true
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 96, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairGroup: 9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    #storeItem: STR_SWIMAQUALUNG
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR   
+    visibilityAtDark: 9
+    personalLight: 5
+    stats:
+       tu: 5
+       stamina: 10
+       melee: 5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.7 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.1 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		 	  
+    loftempsSet: [ 3 ]
+  - type: STR_SWIMAQUALUNGF
+    spriteSheet: SwimwearAQUALUNG.PCK  
+    spriteInv: CANAQUA_1
+    drawBubbles: true
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 96, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairGroup: 9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR   
+    visibilityAtDark: 9
+    personalLight: 5
+    stats:
+       tu: 5
+       stamina: 10
+       melee: 5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.7 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.1 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]
+    forcedTorso: 2	
+  - type: STR_SWIMAQUALUNGM
+    spriteSheet: SwimwearAQUALUNG.PCK  
+    spriteInv: CANAQUA_1
+    drawBubbles: true
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 96, 163, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairGroup: 9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    #spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_SWIMWEAR   
+    visibilityAtDark: 9
+    personalLight: 5
+    stats:
+       tu: 5
+       stamina: 10
+       melee: 5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    meleeDodge:
+      reactions: 0.4
+    meleeDodgeBackPenalty: 0.5
+    recovery:
+      energy:
+        flatHundred: 0.2
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.1
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #NormalBullets
+      - 1.0 #Fire
+      - 1.0 #HE
+      - 0.5 #Laser
+      - 0.0 #Plasma
+      - 1.0 #Stunt
+      - 1.2 #Melee 
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Sonic
+      - 0.7 #GaussAP
+      - 0.0 #Electric
+      - 1.0 #BiorganicSpikes
+      - 0.1 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.3 #XCOMBioweapon		  
+    loftempsSet: [ 3 ]
+    forcedTorso: 1	
+extraSprites:
+  - type: HALLUCINOID.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 160
+    files:
+      0: Resources/Aliens/AlienBombRace/HALLUCINOID.png
+  - type: SwimwearAQUALUNG.PCK  
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/TFTDARMOR/default/Swimwear.png
+  - type: CANAQUA_1F0.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1f0.png
+  - type: CANAQUA_1F1.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1f1.png
+  - type: CANAQUA_1F2.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1f2.png
+  - type: CANAQUA_1F3.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1f3.png
+  - type: CANAQUA_1M0.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1m0.png
+  - type: CANAQUA_1M1.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1m1.png
+  - type: CANAQUA_1M2.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1m2.png
+  - type: CANAQUA_1M3.SPK
+    singleImage: true
+    files:
+      0: Resources/TFTDARMOR/default/can_1m3.png
+  - type: inventory_HALLUCINOID
+    singleImage: true
+    files:
+      0: Resources/Aliens/AlienBombRace/inventory_HALLUCINOID.png
+  - type: XARSQUID.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/tank2/XARQUID/XARSQUIDA.png
+  - type: FLOOROB.PCK
+    files:
+      711: Resources/Corpses/FLOOROB_50.PNG	
+      1974: Resources/Aliens/AlienBombRace/floorob_hallucinoid_1.png
+      1975: Resources/Aliens/AlienBombRace/floorob_hallucinoid_2.png
+      1976: Resources/Aliens/AlienBombRace/floorob_hallucinoid_3.png
+      1977: Resources/Aliens/AlienBombRace/floorob_hallucinoid_4.png	
+      1985: Resources/tank2/XARQUID/floor_DISRUPTOR1.png
+      1986: Resources/tank2/XARQUID/floor_DISRUPTOR2.png
+      1987: Resources/tank2/XARQUID/floor_DISRUPTOR3.png
+      1988: Resources/tank2/XARQUID/floor_DISRUPTOR4.png
+  - type: BIGOBS.PCK
+    files:
+      528: Resources/TFTDARMOR/default/bigob_SwimwearCorpse.png 	
+units:
+  - type: STR_XARQUID_TERRORIST
+    race: STR_XARQUID
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 40
+      stamina: 80
+      health: 114
+      bravery: 90
+      reactions: 50
+      firing: 65
+      throwing: 50
+      strength: 70
+      psiStrength: 100
+      psiSkill: 0
+      melee: 50
+    armor: XARQUID_ARMOR
+    standHeight: 23
+    floatHeight: 2
+    kneelHeight: 13
+    value: 30
+    deathSound: 418
+    moveSound: 411
+    intelligence: 7
+    aggression: 2
+    livingWeapon: true
+    builtInWeapons:
+      - STR_TRIBIO_SONIC_WEAPON
+  - type: STR_HALLUCINOID_TERRORIST
+    race: STR_HALLUCINOID
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 62
+      stamina: 90
+      health: 120
+      bravery: 100
+      reactions: 90
+      firing: 80
+      throwing: 80
+      strength: 90
+      psiStrength: 90
+      psiSkill: 0
+      melee: 90
+    armor: STR_HALLUCINOID_ARMOR
+    standHeight: 23
+    floatHeight: 2
+    kneelHeight: 18
+    value: 35
+    deathSound: 410
+    moveSound: 411
+    intelligence: 7
+    aggression: 2
+    livingWeapon: true
+    builtInWeapons:
+      - HALLUCINOID_WEAPON
+  - type: MALE_CIVILIAN_AQUA
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_SWIMAQUALUNGM
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: FEMALE_CIVILIAN_AQUA
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_SWIMAQUALUNGF
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+items:
+  - type: STR_XARQUID_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_XARQUID_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: XARQUID_CORPSE_1
+    name: STR_XARQUID_CORPSE
+    floorSprite: 1985
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: XARQUID_CORPSE_2
+    floorSprite: 1986
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: XARQUID_CORPSE_3
+    floorSprite: 1987
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: XARQUID_CORPSE_4
+    floorSprite: 1988
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_HALLUCINOID_TERRORIST
+
+    size: 0.0
+
+    recover: true
+
+    liveAlien: true
+
+    costSell: 80000
+  - type: STR_HALLUCINOID_CORPSE
+
+    size: 1
+
+    costSell: 20000
+
+    battleType: 11
+  - type: HALLUCINOID_CORPSE_1
+    name: STR_HALLUCINOID_CORPSE
+    floorSprite: 1974
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: HALLUCINOID_CORPSE_2
+    floorSprite: 1975
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HALLUCINOID_CORPSE_3
+    floorSprite: 1976
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HALLUCINOID_CORPSE_4
+    floorSprite: 1977
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_CORPSE_SWIMWEAR
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 33
+    bigSprite: 528
+    floorSprite: 711
+    invWidth: 2
+    invHeight: 3
+    recover: true
+    recoverCorpse: true
+    battleType: 11
+  - type: STR_SWIMAQUALUNG
+    size: 0.8
+ufopaedia:
+  - id: STR_HALLUCINOID
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_HALLUCINOID
+    image_id: HALLUCINOID.SPK
+    text: STR_HALLUCINOID_UFOPEDIA
+  - id: STR_HALLUCINOID_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_HALLUCINOID_AUTOPSY
+    image_id: HALLUCINOIDAUTOPSY.SPK
+    text: STR_HALLUCINOID_AUTOPSY_UFOPEDIA
+  - id: STR_XARQUID
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_XARQUID
+    image_id: XARSQUID.SPK
+    text: STR_XARQUID_UFOPEDIA
+  - id: STR_XARQUID_AUTOPSY
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_XARQUID_AUTOPSY
+    image_id: XARSQUIDAUTOPSY.SPK
+    text: STR_XARQUID_AUTOPSY_UFOPEDIA

@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - CS Aimé Dorian
+  - CS Alban
+  - CS Ange
+  - CS Annoud Prestige
+  - CS Appollinaire
+  - CS Arcel
+  - CS Archange
+  - CS Aristide
+  - CS Armand
+  - CS Arthur
+  - CS Awax
+  - CS Baurion
+  - CS Ben
+  - CS Benjamin
+  - CS Bensadaa
+  - CS Bonte
+  - CS Boris
+  - CS Bouse
+  - CS Calice
+  - CS Céléstin
+  - CS Chatel
+  - CS Cherald
+  - CS Cherubin
+  - CS Chriss
+  - CS Christian
+  - CS Claude
+  - CS Davy
+  - CS Dbacom
+  - CS Donnel
+  - CS Dorian
+  - CS Dos
+  - CS Dulcine
+  - CS Eden
+  - CS Edvin
+  - CS Elyse
+  - CS Eudes
+  - CS Evrard
+  - CS Fred
+  - CS Fresnel
+  - CS Gata
+  - CS Geslin
+  - CS Giordani
+  - CS Guychel
+  - CS Harold
+  - CS Heldora
+  - CS Hilde
+  - CS Japhet
+  - CS Joad Louad
+  - CS Jules
+  - CS Julle
+  - CS Karome
+  - CS Leonce
+  - CS Lima
+  - CS Lionel
+  - CS Lucien
+  - CS Mack
+  - CS Marzin
+  - CS Mbayo
+  - CS Milan
+  - CS Murphy
+  - CS Oudry
+  - CS Pascal
+  - CS Paterne
+  - CS Patrick
+  - CS Prevner
+  - CS Prince
+  - CS Ray
+  - CS Régis
+  - CS Resnik
+  - CS Rishi
+  - CS Rodrigue
+  - CS Rudolf
+  - CS Sajila
+  - CS Severin
+  - CS Shabani
+  - CS Stanis
+  - CS Stephane
+  - CS Sylvio
+  - CS Thierry
+  - CS Van Carrel
+  - CS Yohan
+femaleFirst:
+  - CS Arich
+  - CS Arrielle
+  - CS Ashley
+  - CS Aubierge
+  - CS Aude
+  - CS Belcha
+  - CS Belvie
+  - CS Brunelle
+  - CS Capricia
+  - CS Carole
+  - CS Cecile
+  - CS Celvie
+  - CS Chanfrelle
+  - CS Christelle
+  - CS Christiane
+  - CS Clavidia
+  - CS Darlène
+  - CS Deborah
+  - CS Diche
+  - CS Dina
+  - CS Docile
+  - CS Djany
+  - CS Emmanuelle
+  - CS Estelle
+  - CS Fallone
+  - CS Fernande
+  - CS Florèse
+  - CS Gaelle
+  - CS Garcia
+  - CS Geanna
+  - CS Giovanna
+  - CS Gloire
+  - CS Grace
+  - CS Granie
+  - CS Jaelle
+  - CS Jannie
+  - CS Jeanny
+  - CS Jelvie
+  - CS Jessica
+  - CS Jen
+  - CS Jodrey
+  - CS Jolienne
+  - CS Judith
+  - CS Julie
+  - CS Jupsie
+  - CS Keicha
+  - CS Liu
+  - CS Lys
+  - CS Melaine
+  - CS Merveille
+  - CS Michelle
+  - CS Parfaite
+  - CS Patrique
+  - CS Polly
+  - CS Privel
+  - CS Lirna
+  - CS Madelenne
+  - CS Manu
+  - CS Mary
+  - CS Mbeko
+  - CS Milyne
+  - CS Monia
+  - CS Nardelie
+  - CS Nathalie
+  - CS Nel
+  - CS Nicia
+  - CS Nuptia
+  - CS Opportune
+  - CS Patricia
+  - CS Pitchou
+  - CS Raan-sady
+  - CS Reine
+  - CS Rose
+  - CS Rosa
+  - CS Rudelle
+  - CS Sabrina
+  - CS Sagely
+  - CS Sidorelle
+  - CS Sony
+  - CS Staelle
+  - CS Synthyche
+  - CS Tan
+  - CS Vanessa
+  - CS Winnie
+  - CS Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

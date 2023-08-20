@@ -1,0 +1,157 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CULT_BASE: "Hostile Mansion Investigation"
+      STR_CULT_BASE_TEMPERATE_BLACK_LOTUS: "Hostile Mansion Investigation"
+      STR_ALERT_CULT_BASE: "HOSTILE MANSION DETECTED"
+      STR_CULT_BASE_BLACK_LOTUS_BRIEFING: "The Mercenary guild has intercept information of that a hostile faction has taken over a mansion within of this area for a major operation. Investigate and Destroy."
+alienDeployments:
+  - type: STR_CULT_BASE_TEMPERATE_BLACK_LOTUS
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED  
+    width: 60
+    length: 60
+    height: 18
+    alert: STR_ALERT_CULT_BASE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_CULT_BASE_BLACK_LOTUS_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_CULT_BASE_BLACK_LOTUS_BRIEFING
+    markerName: STR_CULT_BASE
+    duration: [72, 144]
+    despawnPenalty: 100
+    enviroEffects: STR_LANDARMOURTOLAND
+    music:
+      - GMTACTIC
+    customUfo: STR_CULT_VILLA
+    script: GENERALSPAWNXP1	
+    data:
+      - alienRank: 4
+        lowQty: 10
+        highQty: 20
+        dQty: 4
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 6
+        highQty: 12
+        dQty: 3
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_CULT_BASE_CHURCH_OF_DAGON
+    #interruptResearch: STR_DESTROY_CHURCH_OF_DAGON
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 5
+          STR_TRANS_STELLAR: 5
+          STR_SPARTANS: 5
+          STR_MIXED_KKK: 5
+          STR_GUILD: 5
+          STR_CHURCH_INDUSTRIAL: 5			  
+          STR_CHURCH_NONCOM: 5
+          STR_CHURCHPIRATE: 5
+          STR_CHURCH_TERROR: 5
+          STR_CHURCH_MANSION: 5
+          STR_MARSEC: 5
+          STR_SYNDICATE: 5
+          STR_SPARTANS: 5
+          STR_ACADEMY: 5	
+          STR_UAC: 5
+          STR_CULT_OF_SPIRITS: 5
+          STR_APOCALYPSE_CULT: 5
+          STR_CULT_OF_CHERNOBOG: 5
+          STR_CYBERWEB: 5			  
+          STR_CULT_OF_APOCALYPSE: 5	
+    waves:
+      - ufo: STR_CULT_BASE_TEMPERATE_BLACK_LOTUS
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+ufos:
+  - type: STR_CULT_VILLA
+    battlescapeTerrainData:
+      name: D_MANSN
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - BATHBITZ_HT
+        - TAVERN
+      mapBlocks:
+        - name: D_MANSN
+          width: 30
+          length: 20			
+missionScripts:
+  - type: CultBaseEXALT
+    firstMonth: 0
+    executionOdds: 4
+    missionWeights:
+      0:
+        STR_CULT_BASE_CHURCH_OF_DAGON: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    #researchTriggers:
+    #  STR_EXALT_OPERATIONS: true
+    #  STR_DESTROY_EXALT: false
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

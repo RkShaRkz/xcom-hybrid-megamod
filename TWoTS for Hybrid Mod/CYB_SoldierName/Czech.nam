@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - CS Jan
+  - CS Tomas
+  - CS Zbysek
+  - CS Zdenik
+  - CS Michal
+  - CS Martin
+  - CS Jioi
+  - CS Ivo
+  - CS Pavel
+  - CS Karel
+  - CS Frantisek
+  - CS Ctirad
+  - CS Zbynik
+  - CS Vladimir
+  - CS Jaroslav
+  - CS Petr
+  - CS Josef
+  - CS Vaclav
+  - CS Miroslav
+  - CS Mila
+  - CS Lukas
+  - CS David
+  - CS Jakub
+  - CS Stanislav
+  - CS Roman
+  - CS Ondoej
+  - CS Radek
+  - CS Antonin
+  - CS Jozef
+  - CS Emil
+  - CS Filip
+  - CS Ales  
+  - CS Alexandr
+  - CS Alexej
+  - CS Ambroz	
+  - CS Andrej
+  - CS Arnost
+  - CS Artur
+  - CS Augustyn
+  - CS Bartolomej	
+  - CS Bedrich
+  - CS Benedikt
+  - CS Bernard
+  - CS Blahoslav
+  - CS Blazej
+  - CS Bohdan
+  - CS Bohumil
+  - CS Bohumir	
+  - CS Bohuslav
+  - CS Boleslav
+  - CS Bonifac
+  - CS Borek
+  - CS Boris
+  - CS Borivoj
+  - CS Bretislav
+  - CS Bronislav
+  - CS Bruno
+  - CS Ctibor
+  - CS Cenek
+  - CS Cestmir	
+  - CS Dalibor
+  - CS Dalimil
+  - CS Dobroslav
+  - CS Dominik
+  - CS Drahoslav
+  - CS Dusan
+  - CS Eduard
+  - CS Erik
+  - CS Evzen
+  - CS Felix
+  - CS Ferdinand
+  - CS Gustav
+  - CS Hanus	
+  - CS Havel
+  - CS Herman
+  - CS Hubert
+  - CS Hugo
+  - CS Hynek
+  - CS Ignac
+  - CS Igor
+  - CS Ilja
+  - CS Ivan
+  - CS Jachym
+  - CS Jarmil
+  - CS Jaromir
+  - CS Jeronym
+  - CS Jindrich
+  - CS Jiri	
+  - CS Jonas	
+  - CS Julius
+  - CS Kamil
+  - CS Kazimir
+  - CS Klement
+  - CS Kristian
+  - CS Krystof
+  - CS Kvetoslav
+  - CS Kvido
+  - CS Ladislav
+  - CS Leopold
+  - CS Leos	
+  - CS Libor
+  - CS Lubomir
+  - CS Lubor
+  - CS Lubos	
+  - CS Ludek
+  - CS Ludvik
+  - CS Lukas	
+  - CS Lumir
+  - CS Marcel
+  - CS Marek
+  - CS Marian
+  - CS Matej	
+  - CS Matous	
+  - CS Maxmilian	
+  - CS Medard
+  - CS Mikulas	
+  - CS Milan
+  - CS Milos	
+  - CS Miloslav
+  - CS Mojmir
+  - CS Oldrich
+  - CS Oleg
+  - CS Oliver
+  - CS Ondrej	
+  - CS Oskar
+  - CS Otakar
+  - CS Otmar
+  - CS Oto
+  - CS Pankrac	
+  - CS Patrik
+  - CS Pravoslav
+  - CS Prokop
+  - CS Premysl
+  - CS Radim
+  - CS Radomir
+  - CS Radoslav
+  - CS Radovan
+  - CS Rostislav
+  - CS Rudolf
+  - CS Rehor	
+  - CS Samuel
+  - CS Servac
+  - CS Silvestr
+  - CS Slavomir
+  - CS Sobeslav
+  - CS Svatopluk
+  - CS Svatoslav
+  - CS Simon
+  - CS Stefan
+  - CS Stepan	
+  - CS Tadeas	
+  - CS Teodor
+  - CS Tibor
+  - CS Tomas	
+  - CS Valdemar
+  - CS Valentyn
+  - CS Vavrinec
+  - CS Venceslav
+  - CS Vendelin
+  - CS Veroslav
+  - CS Viktor
+  - CS Vilem
+  - CS Vincenc
+  - CS Vit
+  - CS Vitezslav
+  - CS Vladan
+  - CS Vladislav
+  - CS Vlastimil
+  - CS Vlastislav
+  - CS Vojtech
+  - CS Vratislav
+  - CS Zbynek
+  - CS Zdenek
+  - CS Zikmund
+femaleFirst:
+  - CS Anna
+  - CS Marie
+  - CS Jana
+  - CS Iva
+  - CS Irina
+  - CS Ludmila
+  - CS Pavla
+  - CS Kateoina
+  - CS Simona
+  - CS Lucie
+  - CS Lenka
+  - CS Alena
+  - CS Gabina
+  - CS Jioina
+  - CS Michaela
+  - CS Ivana
+  - CS Monika
+  - CS Veronika
+  - CS Jarmila
+  - CS Zdeoka
+  - CS Jitka
+  - CS Helena
+  - CS Petra
+  - CS Eva
+  - CS Hana
+  - CS Vira
+  - CS Tereza
+  - CS Adela
+  - CS Adele
+  - CS Adriena
+  - CS Agata
+  - CS Alica
+  - CS Alzbeta
+  - CS Ana
+  - CS Ancika
+  - CS Andel
+  - CS Andela
+  - CS Aneta
+  - CS Anezka
+  - CS Anichka
+  - CS Antoinetta
+  - CS Antonie
+  - CS Bara
+  - CS Barbora
+  - CS Barcinka
+  - CS Barunka
+  - CS Baruska
+  - CS Blanka
+  - CS Bohdana
+  - CS Bohumila
+  - CS Bohuslava
+  - CS Bora
+  - CS Bozena
+  - CS Branislava
+  - CS Dagmar
+  - CS Daleka
+  - CS Dalibora
+  - CS Dominika
+  - CS Drahomira
+  - CS Drahoslava
+  - CS Dusa
+  - CS Dusana
+  - CS Dusanka
+  - CS Duska
+  - CS Edita
+  - CS Eliska
+  - CS Elita
+  - CS Emilia
+  - CS Frantiska
+  - CS Hedvika
+  - CS Irena
+  - CS Izabela
+  - CS Jaromila
+  - CS Jaroslava
+  - CS Jindriska
+  - CS Jirina
+  - CS Johana
+  - CS Jolana
+  - CS Josefa
+  - CS Judita
+  - CS Julia
+  - CS Kamila
+  - CS Karina
+  - CS Karolina
+  - CS Katarina
+  - CS Katerina
+  - CS Katica
+  - CS Kristyna
+  - CS Kunigunde
+  - CS Kveta
+  - CS Ladislava
+  - CS Leona
+  - CS Libena
+  - CS Libuse
+  - CS Lida
+  - CS Lidmila
+  - CS Lubomira
+  - CS Lucina
+  - CS Lydie
+  - CS Madlenka
+  - CS Magdalena
+  - CS Maria
+  - CS Marketa
+  - CS Matylda
+  - CS Milada
+  - CS Milana
+  - CS Milena
+  - CS Miloslava
+  - CS Nada
+  - CS Nadezda
+  - CS Otilie
+  - CS Pavlina
+  - CS Radka
+  - CS Radomila
+  - CS Radomira
+  - CS Radoslava
+  - CS Ruzena
+  - CS Sara
+  - CS Sobeska
+  - CS Sobeslava
+  - CS Stanislava
+  - CS Stefanija
+  - CS Stepanka
+  - CS Svetla
+  - CS Svetlana
+  - CS Tatana
+  - CS Ursula
+  - CS Vaclava
+  - CS Vendula
+  - CS Vera
+  - CS Vladimira
+  - CS Vlasta
+  - CS Zdenka
+  - CS Zofie
+  - CS Zoja
+  - CS Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

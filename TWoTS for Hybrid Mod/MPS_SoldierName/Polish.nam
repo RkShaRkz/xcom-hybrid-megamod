@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MPS Jan
+  - MPS Andrzej
+  - MPS Piotr
+  - MPS Krzysztof
+  - MPS Stanislaw
+  - MPS Tomasz
+  - MPS Pawel
+  - MPS Jozef
+  - MPS Marcin
+  - MPS Marek
+  - MPS Michal
+  - MPS Grzegorz
+  - MPS Jerzy
+  - MPS Tadeusz
+  - MPS Adam
+  - MPS Lukasz
+  - MPS Zbigniew
+  - MPS Ryszard
+  - MPS Dariusz
+  - MPS Henryk
+  - MPS Mariusz
+  - MPS Kazimierz
+  - MPS Wojciech
+  - MPS Robert
+  - MPS Mateusz
+  - MPS Marian
+  - MPS Rafal
+  - MPS Jacek
+  - MPS Janusz
+  - MPS Miroslaw  
+femaleFirst:
+  - MPS Anna
+  - MPS Maria
+  - MPS Katarzyna
+  - MPS Malgorzata
+  - MPS Agnieszka
+  - MPS Krystyna
+  - MPS Barbara
+  - MPS Ewa
+  - MPS Elzbieta
+  - MPS Zofia
+  - MPS Janina
+  - MPS Teresa
+  - MPS Joanna
+  - MPS Magdalena
+  - MPS Monika
+  - MPS Jadwiga
+  - MPS Danuta
+  - MPS Irena
+  - MPS Halina
+  - MPS Helena
+  - MPS Beata
+  - MPS Aleksandra
+  - MPS Marta
+  - MPS Dorota
+  - MPS Marianna
+  - MPS Grazyna
+  - MPS Jolanta
+  - MPS Stanislawa
+  - MPS Iwona
+  - MPS Karolina
+maleLast:
+  - Nowak
+  - Kowalski
+  - Wisniewski
+  - Dabrowski
+  - Lewandowski
+  - Wojcik
+  - Kaminski
+  - Kowalczyk
+  - Zielinski
+  - Szymanski
+  - Wozniak
+  - Kozlowski
+  - Jankowski
+  - Wojciechowski
+  - Kwiatkowski
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowski
+  - Grabowski
+  - Nowakowski
+  - Pawlowski
+  - Michalski
+  - Nowicki
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonski
+  - Krol
+femaleLast:
+  - Nowak
+  - Kowalska
+  - Wisniewska
+  - Dabrowska
+  - Lewandowska
+  - Wojcik
+  - Kaminska
+  - Kowalczyk
+  - Zielinska
+  - Szymanska
+  - Wozniak
+  - Kozlowska
+  - Jankowska
+  - Wojciechowska
+  - Kwiatkowska
+  - Kaczmarek
+  - Mazur
+  - Krawczyk
+  - Piotrowska
+  - Grabowska
+  - Nowakowska
+  - Pawlowska
+  - Michalska
+  - Nowicka
+  - Adamczyk
+  - Dudek
+  - Zajac
+  - Wieczorek
+  - Jablonska
+  - Krol

@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - CS Abderus
+  - CS Absyrtus
+  - CS Abydos
+  - CS Acastus
+  - CS Achates
+  - CS Achelous
+  - CS Acheron
+  - CS Achilles
+  - CS Achlys
+  - CS Acrisius
+  - CS Actaeon
+  - CS Acteon
+  - CS Adelphos
+  - CS Admes
+  - CS Admetus
+  - CS Adonis
+  - CS Adras
+  - CS Adrastos
+  - CS Adrastus
+  - CS Adrian
+  - CS Aeacus
+  - CS Aeetes
+  - CS Aegeus
+  - CS Aegis
+  - CS Aegisthus
+  - CS Aegyptus
+  - CS Aeneas
+  - CS Aeolus
+  - CS Aesculapius
+  - CS Aeson
+  - CS Aetos
+  - CS Agamedes
+  - CS Agape
+  - CS Agatone
+  - CS Aindreas
+  - CS Aindriu
+  - CS Ajax
+  - CS Akil
+  - CS Alasd
+  - CS Alcander
+  - CS Alcinoos
+  - CS Alcinous
+  - CS Alcnaeon
+  - CS Alcyoneus
+  - CS Alddes
+  - CS Alessandro
+  - CS Alex
+  - CS Alexander
+  - CS Alexandras
+  - CS Alexandros
+  - CS Alexandrukas
+  - CS Alexei
+  - CS Alexio
+  - CS Alix
+  - CS Aloeus
+  - CS Alpheus
+  - CS Altair
+  - CS Amaoebus
+  - CS Ambrocio
+  - CS Ambrose
+  - CS Ambrus
+  - CS Amphiaraus
+  - CS Amphion
+  - CS Amphitryon
+  - CS Ampyx
+  - CS Amycus
+  - CS Anastagio
+  - CS Anastasio
+  - CS Anastasios
+  - CS Anastasius
+  - CS Anasztaz
+  - CS Anatol
+  - CS Anatole
+  - CS Anatoli
+  - CS Anatolijus
+  - CS Anatolio
+  - CS Ancaeus
+  - CS Anchises
+  - CS Andor
+  - CS Andreas
+  - CS Andres
+  - CS Andreus
+  - CS Andrew
+  - CS Andries
+  - CS Androgeus
+  - CS Androu
+  - CS Anstice
+  - CS Anstiss
+  - CS Antaeus
+  - CS Antares
+  - CS Anteros
+  - CS Antilochus
+  - CS Antinous
+  - CS Antiphates
+  - CS Anton
+  - CS Antony
+  - CS Aonghas
+  - CS Apollo
+  - CS Apoloniusz
+  - CS Apostolos
+  - CS Arcadicus
+  - CS Arcas
+  - CS Arcenio
+  - CS Archemorus
+  - CS Ares
+  - CS Argo
+  - CS Argos
+  - CS Argus
+  - CS Arion
+  - CS Aristaeus
+  - CS Aristo
+  - CS Arsen
+  - CS Arsenio
+  - CS Artemas
+  - CS Artemesio
+  - CS Artemus
+  - CS Ascalaphus
+  - CS Asklepios
+  - CS Asopus
+  - CS Athamas
+  - CS Athan
+  - CS Athanasios
+  - CS Athanasius
+  - CS Atlas
+  - CS Atreus
+  - CS Attis
+  - CS Autolycus
+  - CS Avernus
+  - CS Baccaus
+  - CS Baccus
+  - CS Balasi
+  - CS Baltsaros
+  - CS Baptiste
+  - CS Basil
+  - CS Basile
+  - CS Basilio
+  - CS Baste
+  - CS Bastiaan
+  - CS Bastien
+  - CS Baucis
+  - CS Bazyli
+  - CS Bemus
+  - CS Biton
+  - CS Boreas
+  - CS Brasidas
+  - CS Briareus
+  - CS Brygus
+  - CS Butades
+  - CS Cadmus
+  - CS Caesare
+  - CS Calchas
+  - CS Calisto
+  - CS Capaneus
+  - CS Caseareo
+  - CS Castor
+  - CS Cecrops
+  - CS Celeus
+  - CS Cenon
+  - CS Cephalus
+  - CS Cepheus
+  - CS Cesare
+  - CS Cetus
+  - CS Ceyx
+  - CS Chris
+  - CS Christan
+  - CS Christiano
+  - CS Christoph
+  - CS Christopher
+  - CS Christophoros
+  - CS Christos
+  - CS Chruse
+  - CS Chrysostom
+  - CS Cimon
+  - CS Cirio
+  - CS Ciro
+  - CS Claas
+  - CS Claus
+  - CS Cleobis
+  - CS Cleon
+  - CS Cletus
+  - CS Cleytus
+  - CS Clio
+  - CS Cocytus
+  - CS Coeus
+  - CS Coireall
+  - CS Cole
+  - CS Colin
+  - CS Colum
+  - CS Corban
+  - CS Coridan
+  - CS Corybantes
+  - CS Corydon
+  - CS Cos
+  - CS Cosmas
+  - CS Cosmo
+  - CS Cottus
+  - CS Creon
+  - CS Cretien
+  - CS Cristoforo
+  - CS Cristophe
+  - CS Cronus
+  - CS Ctesippus
+  - CS Cyrano
+  - CS Cyrek
+  - CS Cyril
+  - CS Cyrus
+  - CS Cyryl
+  - CS Damae
+  - CS Damalis
+  - CS Damaris
+  - CS Damaskenos
+  - CS Damaskinos
+  - CS Damen
+  - CS Dameon
+  - CS Damian
+  - CS Damion
+  - CS Damon
+  - CS Danaus
+  - CS Dardanus
+  - CS Darian
+  - CS Darien
+  - CS Darion
+  - CS Darrian
+  - CS Darrien
+  - CS Darrion
+  - CS Daymon
+  - CS Deke
+  - CS Dekel
+  - CS Dekle
+  - CS Delbin
+  - CS Demetre
+  - CS Demetri
+  - CS Demetrios
+  - CS Demetrius
+  - CS Demitri
+  - CS Demitrius
+  - CS Demodocus
+  - CS Demophon
+  - CS Demoritus
+  - CS Denes
+  - CS Dennis
+  - CS Deo
+  - CS Deucalion
+  - CS Doran
+  - CS Dorian
+  - CS Dorion
+  - CS Drakon
+  - CS Drew
+  - CS Dymas
+  - CS Eachann
+  - CS Efterpi
+  - CS Egidio
+  - CS Eleftherios
+  - CS Elek
+  - CS Eleutherios
+  - CS Eli
+  - CS Enceladus
+  - CS Endre
+  - CS Endymion
+  - CS Eneas
+  - CS Eoghan
+  - CS Epeius
+  - CS Erasmus
+  - CS Erebus
+  - CS Erechtheus
+  - CS Erichthonius
+  - CS Erymanthus
+  - CS Erysichthon
+  - CS Eryx
+  - CS Estevao
+  - CS Eteocles
+  - CS Etor
+  - CS Eubuleus
+  - CS Eugen
+  - CS Eugene
+  - CS Eugenio
+  - CS Eugenios
+  - CS Eumaeus
+  - CS Eupeithes
+  - CS Euphrosyne
+  - CS Eurus
+  - CS Euryalus
+  - CS Eurylochus
+  - CS Eurymachus
+  - CS Eurypylus
+  - CS Eurystheus
+  - CS Euryton
+  - CS Eusebius
+  - CS Eustace
+  - CS Eustachy
+  - CS Eustis
+  - CS Evan
+  - CS Evzen
+  - CS Fedor
+  - CS Feodor
+  - CS Feodras
+  - CS Filippo
+  - CS Filips
+  - CS Flip
+  - CS Fulop
+  - CS Gaelan
+  - CS Galan
+  - CS Galen
+  - CS Galinthias
+  - CS Galyn
+  - CS Gelasius
+  - CS Georg
+  - CS George
+  - CS Georges
+  - CS Giles
+  - CS Glaucus
+  - CS Goran
+  - CS Graeae
+  - CS Gregoire
+  - CS Gregoly
+  - CS Gregor
+  - CS Gregorie
+  - CS Gregorior
+  - CS Gregory
+  - CS Gregos
+  - CS Grigor
+  - CS Grigorov
+  - CS Gruev
+  - CS Guilio
+  - CS Gyes
+  - CS Gyoergy
+  - CS Gyorgy
+  - CS Gyuri
+  - CS Haemon
+  - CS Hali
+  - CS Halithersis
+  - CS Hector
+  - CS Helios
+  - CS Herodotus
+  - CS Homar
+  - CS Homer
+  - CS Homeros
+  - CS Homerus
+  - CS Hypnos
+  - CS Ibycus
+  - CS Icarius
+  - CS Icarus
+  - CS Icelos
+  - CS Icos
+  - CS Idas
+  - CS Igorr
+  - CS Inachus
+  - CS Iorgas
+  - CS Iphitus
+  - CS Istvan
+  - CS Ivan
+  - CS Ivankor
+  - CS Ixion
+  - CS Jaison
+  - CS Jase
+  - CS Jasen
+  - CS Jason
+  - CS Jayce
+  - CS Jayr
+  - CS Jaysen
+  - CS Jayson
+  - CS Jencir
+  - CS Jeno
+  - CS Jeroenr
+  - CS Jerome
+  - CS Jerzyr
+  - CS Jirkar
+  - CS Jorenr
+  - CS Julius
+  - CS Jurgisr
+  - CS Kadmus
+  - CS Kairos
+  - CS Khristos
+  - CS Khrystiyanr
+  - CS Kit
+  - CS Klaasr
+  - CS Klaus
+  - CS Korudon
+  - CS Kosmosr
+  - CS Kratos
+  - CS Krikor
+  - CS Krischnan
+  - CS Kristian
+  - CS Kristofr
+  - CS Krystupasr
+  - CS Krzysztofr
+  - CS Kuirilr
+  - CS Kyrillos
+  - CS Kyrillosr
+  - CS Kyros
+  - CS Ladon
+  - CS Laertes
+  - CS Laestrygones
+  - CS Laius
+  - CS Lander
+  - CS Laocoon
+  - CS Laomedon
+  - CS Leander
+  - CS Leandro
+  - CS Leonidas
+  - CS Lichas
+  - CS Linus
+  - CS Lippio
+  - CS Lotus
+  - CS Loxias
+  - CS Luke
+  - CS Lycaon
+  - CS Lycomedes
+  - CS Lycurgus
+  - CS Lynceus
+  - CS Lysander
+  - CS Marcario
+  - CS Maurice
+  - CS Medus
+  - CS Melampus
+  - CS Melancton
+  - CS Melanthius
+  - CS Menelaus
+  - CS Menoeceus
+  - CS Mentor
+  - CS Midas
+  - CS Mikolas
+  - CS Miles
+  - CS Milo
+  - CS Minos
+  - CS Momus
+  - CS Mopsus
+  - CS Moses
+  - CS Myles
+  - CS Myron
+  - CS Narkis
+  - CS Nauplius
+  - CS Neleus
+  - CS Nemo
+  - CS Nemos
+  - CS Neo
+  - CS Nicholas
+  - CS Nicholaus
+  - CS Nicias
+  - CS Nick
+  - CS Nicodemus
+  - CS Nicolas
+  - CS Nicolaus
+  - CS Nik
+  - CS Nike
+  - CS Niklaus
+  - CS Nikodem
+  - CS Nikolai
+  - CS Nikolajis
+  - CS Nikolos
+  - CS Niles
+  - CS Nilo
+  - CS Nilos
+  - CS Nisus
+  - CS Notus
+  - CS Obiareus
+  - CS Oighrig
+  - CS Oles
+  - CS Orrin
+  - CS Orthros
+  - CS Otis
+  - CS Pan
+  - CS Panagiotis
+  - CS Pancratius
+  - CS Panos
+  - CS Panteleimon
+  - CS Papandrou
+  - CS Paris
+  - CS Patroclus
+  - CS Patroklos
+  - CS Pavlos
+  - CS Peadair
+  - CS Peder
+  - CS Pegeen
+  - CS Peleus
+  - CS Pelias
+  - CS Pello
+  - CS Pelops
+  - CS Pero
+  - CS Perrin
+  - CS Peterke
+  - CS Petrelis
+  - CS Petros
+  - CS Petter
+  - CS Phantasos
+  - CS Phaon
+  - CS Philemon
+  - CS Philip
+  - CS Philipp
+  - CS Philippe
+  - CS Phillip
+  - CS Philo
+  - CS Phineas
+  - CS Phineus
+  - CS Phrixus
+  - CS Phylo
+  - CS Piero
+  - CS Pierro
+  - CS Pieter
+  - CS Pietr
+  - CS Pietro
+  - CS Pilib
+  - CS Piotr
+  - CS Pippo
+  - CS Pirithous
+  - CS Pirro
+  - CS Pittheus
+  - CS Plato
+  - CS Platon
+  - CS Plexippus
+  - CS Plutus
+  - CS Pollux
+  - CS Poseidon
+  - CS Preben
+  - CS Priam
+  - CS Priapus
+  - CS Procrustes
+  - CS Prokopios
+  - CS Prometheus
+  - CS Prophyrios
+  - CS Protesilaus
+  - CS Ptolemy
+  - CS Pyramus
+  - CS Rasmus
+  - CS Rhodes
+  - CS Risto
+  - CS Sabastian
+  - CS Salmoneus
+  - CS Scopas
+  - CS Sebasten
+  - CS Sebastian
+  - CS Sebastiano
+  - CS Simon
+  - CS Sinon
+  - CS Socrates
+  - CS Sofronio
+  - CS Soterios
+  - CS Spyridon
+  - CS Stamitos
+  - CS Stavros
+  - CS Steafan
+  - CS Stefan
+  - CS Stefano
+  - CS Stefanos
+  - CS Stefford
+  - CS Stefon
+  - CS Stephano
+  - CS Stephanos
+  - CS Stephen
+  - CS Stephon
+  - CS Steven
+  - CS Steverino
+  - CS Takis
+  - CS Talos
+  - CS Talus
+  - CS Tantalus
+  - CS Tarasios
+  - CS Teague
+  - CS Telamon
+  - CS Telegonus
+  - CS Telemachus
+  - CS Telephus
+  - CS Tellus
+  - CS Teodors
+  - CS Teofile
+  - CS Teuthras
+  - CS Thad
+  - CS Thaddeus
+  - CS Thaddius
+  - CS Thadeus
+  - CS Thais
+  - CS Thanatos
+  - CS Thanos
+  - CS Thaumas
+  - CS Theo
+  - CS Theociymenus
+  - CS Theodon
+  - CS Theodore
+  - CS Theodosios
+  - CS Theodrekr
+  - CS Theodric
+  - CS Theon
+  - CS Theophile
+  - CS Theophilus
+  - CS Theron
+  - CS Therron
+  - CS Thersites
+  - CS Theseus
+  - CS Thomas
+  - CS Thyestes
+  - CS Tiege
+  - CS Tim
+  - CS Timeus
+  - CS Timmy
+  - CS Timocrates
+  - CS Timoleon
+  - CS Timon
+  - CS Timotheos
+  - CS Timothy
+  - CS Timun
+  - CS Tiomoid
+  - CS Tito
+  - CS Titos
+  - CS Titus
+  - CS Tityus
+  - CS Tivadar
+  - CS Todor
+  - CS Toxeus
+  - CS Triton
+  - CS Trophonius
+  - CS Turannos
+  - CS Tydeus
+  - CS Tylissus
+  - CS Tymek
+  - CS Tymon
+  - CS Tyndareus
+  - CS Typhoeus
+  - CS Typhon
+  - CS Tyrone
+  - CS Ulysses
+  - CS Urian
+  - CS Vasileios
+  - CS Vasilios
+  - CS Vasilis
+  - CS Vasos
+  - CS VasyItso
+  - CS Vasyklo
+  - CS Vasyl
+  - CS Xanthus
+  - CS Xeno
+  - CS Xenophon
+  - CS Xenos
+  - CS Xerxes
+  - CS Xuthus
+  - CS Xylon
+  - CS Yanni
+  - CS Yehor
+  - CS Yuri
+  - CS Zale
+  - CS Zarek
+  - CS Zelotes
+  - CS Zeno
+  - CS Zenobio
+  - CS Zenon
+  - CS Zenos
+  - CS Zephyr
+  - CS Zero
+  - CS Zerro
+  - CS Zetes
+  - CS Zoltan
+  - CS Zoltar
+  - CS Zorba
+  - CS Zotico
+femaleFirst:
+  - CS Acacia
+  - CS Acantha
+  - CS Aegea
+  - CS Aeola
+  - CS Agalia
+  - CS Alala
+  - CS Aldora
+  - CS Aleni
+  - CS Anatolia
+  - CS Andrianna
+  - CS Anemone
+  - CS Angeline
+  - CS Aphrodite
+  - CS Athena
+  - CS Athenagora
+  - CS Calantha
+  - CS Calida
+  - CS Cassia
+  - CS Cyra
+  - CS Damia
+  - CS Daphne
+  - CS Deianira
+  - CS Delia
+  - CS Dido
+  - CS Dimitra
+  - CS Echo
+  - CS Elma
+  - CS Elpida
+  - CS Emalia
+  - CS Erianthe
+  - CS Euphemia
+  - CS Euphenia
+  - CS Evadne
+  - CS Evanthe
+  - CS Fotini
+  - CS Galatea
+  - CS Georgia
+  - CS Halcyone
+  - CS Helena
+  - CS Helia
+  - CS Hera
+  - CS Hermione
+  - CS Isadora
+  - CS Jocasta
+  - CS Kalidas
+  - CS Kaligenia
+  - CS Kalligenia
+  - CS Kallirrhoe
+  - CS Kalonice
+  - CS Kyriakoula
+  - CS Lalage
+  - CS Leandra
+  - CS Leda
+  - CS Lycoris
+  - CS Lyris
+  - CS Marina
+  - CS Medora
+  - CS Melantha
+  - CS Melina
+  - CS Melissa
+  - CS Mona
+  - CS Neola
+  - CS Neona
+  - CS Nerissa
+  - CS Niobe
+  - CS Olga
+  - CS Orthia
+  - CS Pandora
+  - CS Pangiota
+  - CS Pelagia
+  - CS Penelope
+  - CS Persephone
+  - CS Philantha
+  - CS Philomela
+  - CS Philomena
+  - CS Philothea
+  - CS Phoebe
+  - CS Rhea
+  - CS Saphhira
+  - CS Sofronia
+  - CS Stamata
+  - CS Stella
+  - CS Tassia
+  - CS Tassula
+  - CS Tessa
+  - CS Thaddea
+  - CS Thalassa
+  - CS Tharsia
+  - CS Theodosia
+  - CS Theophilia
+  - CS Thetis
+  - CS Timothea
+  - CS Toula
+  - CS Xantippe
+  - CS Yana
+  - CS Zenaida
+  - CS Zenobia
+  - CS Zephyra
+  - CS Zoe
+maleLast:
+  - Alexopoulos
+  - Anagyros
+  - Anastassios
+  - Andreadis
+  - Andreos
+  - Andriopoulos
+  - Andronikos
+  - Andros
+  - Androuchelli
+  - Androupolos
+  - Androutsos
+  - Angelis
+  - Angelomatis
+  - Angelos
+  - Anistonopoulos
+  - Anninos
+  - Antikatzides
+  - Antonatos
+  - Antonious
+  - Argyra
+  - Athanasiadis
+  - Athanassiadi
+  - Averoff
+  - Axelos
+  - Bakirdzis
+  - Bakogianni
+  - Balanos
+  - Bazignos
+  - Bessarion
+  - Bizos
+  - Borbokis
+  - Botsaris
+  - Boudouris
+  - Bourgani
+  - Capodistria
+  - Carides
+  - Castriota
+  - Catalactus
+  - Chacoliades
+  - Chakiris
+  - Christodoulos
+  - Clerides
+  - Constandouros
+  - Constantinis
+  - Cosmatos
+  - Costanduros
+  - Costi
+  - Cotsadis
+  - Couloumbis
+  - Coulouris
+  - Deligiannis
+  - Deligiorgis
+  - Delivorias
+  - Dellas
+  - Demertzis
+  - Demosthenous
+  - Dimas
+  - Dimitrakos
+  - Dimitriades
+  - Dimitris
+  - Dimotsios
+  - Diomedes
+  - Dontas
+  - Doxiadis
+  - Dukakis
+  - Duvis
+  - Economakis
+  - Economos
+  - Eliades
+  - Elipandas
+  - Ellinas
+  - Farakos
+  - Fettas
+  - Florakis
+  - Galonopoulas
+  - Gatsioudis
+  - Gatzioudis
+  - Gavrielides
+  - Gennadios
+  - Genovelis
+  - Georghios
+  - Giorgiou
+  - Gislenus
+  - Gizikis
+  - Glezos
+  - Gogos
+  - Gonatas
+  - Goulandris
+  - Gounaris
+  - Gousetti
+  - Grivas
+  - Hagiorgis
+  - Hajiyanni
+  - Halara
+  - Harteros
+  - Iakovakis
+  - Iakovos
+  - Iatrides
+  - Ioannidis
+  - Ioannos
+  - Issigonis
+  - Joakimides
+  - Kairis
+  - Kaklamanakis
+  - Kakoulli
+  - Kalergi
+  - Kallabis
+  - Kalvos
+  - Kanaris
+  - Kanellopoulos
+  - Kaphandaris
+  - Karahi
+  - Karaiskakis
+  - Karamanlis
+  - Karatossos
+  - Karoki
+  - Karyoti
+  - Kasomoulis
+  - Katsantonis
+  - Katsaris
+  - Kenteris
+  - Khadjikyriakos
+  - Klaras
+  - Kochalakos
+  - Koffa
+  - Kokkinos
+  - Kokotis
+  - Kolettis
+  - Kollias
+  - Kolokotronis
+  - Kondylis
+  - Kontoghiorghes
+  - Korais
+  - Korkizoglu
+  - Korres
+  - Koryzis
+  - Koskotas
+  - Kostanopoulos
+  - Kostopulos
+  - Kotaridos
+  - Koukodimos
+  - Koukoudimos
+  - Koumoundouros
+  - Koundouriotis
+  - Kourniakis
+  - Kousoulas
+  - Kozani
+  - Kritopoulos
+  - Kyprianos
+  - Kyriacos
+  - Kyriakos
+  - Kyriazis
+  - Lambrakis
+  - Lambrianos
+  - Lambrinos
+  - Lathouris
+  - Lazardis
+  - Leonidis
+  - Lianis
+  - Logotheti
+  - Louca
+  - Louganis
+  - Louvaris
+  - Lyssarides
+  - Maganas
+  - Magos
+  - Maharis
+  - Makarezos
+  - Makrigiannis
+  - Malachias
+  - Maliagros
+  - Mangakis
+  - Marcoullides
+  - Mardas
+  - Marinatos
+  - Markezinis
+  - Markoulides
+  - Markoullides
+  - Marsolais
+  - Martis
+  - Matacena
+  - Mavridos
+  - Mavrogordatos
+  - Mavrokordatos
+  - Mavromikhalis
+  - Mavros
+  - Mavroudis
+  - Maximos
+  - Melas
+  - Meletoglos
+  - Melikis
+  - Melissanides
+  - Mercouri
+  - Merukides
+  - Messimeris
+  - Metaxas
+  - Michaelis
+  - Mikalis
+  - Mikhalakopoulos
+  - Militis
+  - Mitros
+  - Mitsotakis
+  - Monomachus
+  - Moscopolis
+  - Moumoulidis
+  - Muscouri
+  - Mylonas
+  - Nafpliotis
+  - Negris
+  - Niarkhos
+  - Nikolaides
+  - Onassis
+  - Orphanides
+  - Oxinos
+  - Palamas
+  - Pallis
+  - Panagiatopoulos
+  - Panagiopoulos
+  - Panagiotopos
+  - Panagou
+  - Panagoulias
+  - Panagoulis
+  - Panaotis
+  - Panavoglos
+  - Panayi
+  - Panayides
+  - Panayiotopoulos
+  - Panayiotos
+  - Pangalos
+  - Papadakis
+  - Papademetrios
+  - Papadias
+  - Papadopolos
+  - Papadopoulos
+  - Papadoupolos
+  - Papafagos
+  - Papageorgios
+  - Papagos
+  - Papakostas
+  - Papamichael
+  - Papanastasiou
+  - Papandreou
+  - Papasotiriou
+  - Papatamelis
+  - Papathanassios
+  - Papoulias
+  - Pappas
+  - Parastadidis
+  - Pattakos
+  - Pavlakakis
+  - Pentzopoulos
+  - Pesmazoglos
+  - Pheraios
+  - Philipousis
+  - Pierides
+  - Pietris
+  - Pipinelis
+  - Pittakis
+  - Pittakys
+  - Plastiras
+  - Polides
+  - Polycarpous
+  - Polychroniadis
+  - Polychronios
+  - Polydoros
+  - Polymeropoulos
+  - Polymeros
+  - Polyzos
+  - Popotas
+  - Porpurogenitos
+  - Pratkanis
+  - Prevalakis
+  - Primikynos
+  - Psara
+  - Psaros
+  - Psaroulakis
+  - Rallis
+  - Saltsidis
+  - Samos
+  - Sampras
+  - Sanassis
+  - Sarakatsani
+  - Saraphis
+  - Sardzetakis
+  - Sarris
+  - Sartzetakis
+  - Sarus
+  - Savakis
+  - Savalos
+  - Savvides
+  - Sbokos
+  - Senteildis
+  - Siantos
+  - Sicilianos
+  - Simopoulos
+  - Sirtis
+  - Skandalis
+  - Skiotis
+  - Skouloudis
+  - Skouphas
+  - Solomos
+  - Sophoulis
+  - Souvaltzis
+  - Stamanakis
+  - Stasi
+  - Stavrakis
+  - Stavrianakis
+  - Stavrianos
+  - Stephanopoulos
+  - Stoikos
+  - Strapoudopolos
+  - Stratis
+  - Stroubakos
+  - Taliadoros
+  - Tathouris
+  - Tavoularis
+  - Terzin
+  - Theodopoulos
+  - Theodorakis
+  - Theophanous
+  - Theothanos
+  - Theotokis
+  - Touliatos
+  - Tournikiotis
+  - Tragianopoulos
+  - Trikoupis
+  - Tsakolov
+  - Tsaldaris
+  - Tsatsos
+  - Tsavdaridos
+  - Tsiamita
+  - Tsigakos
+  - Tsikouna
+  - Tsiolakoudi
+  - Tsirigolis
+  - Tsirimokos
+  - Tsolakoglos
+  - Tsoni
+  - Tsouderos
+  - Tsougarakis
+  - Tsoutsouvas
+  - Tsyoma
+  - Tzannetakis
+  - Tzivas
+  - Vadeki
+  - Valaoritis
+  - Valvis
+  - Vaphiadis
+  - Vardakastanis
+  - Varvaressos
+  - Vasdeki
+  - Vasdekis
+  - Vasiliou
+  - Vassilides
+  - Vatatzes
+  - Veloukhiotis
+  - Venizelos
+  - Verdanis
+  - Vergopoulos
+  - Vlakhos
+  - Voulgaris
+  - Voulgaropoulos
+  - Vouris
+  - Xanthos
+  - Xenakis
+  - Xydis
+  - Yannopoulos
+  - Yialouris
+  - Ypsilantis
+  - Zafiropoulos
+  - Zaimis
+  - Zakhariadis
+  - Zarikos
+  - Zervakos
+  - Zervas
+  - Zikos
+  - Zindilis
+  - Zisimides
+  - Zographas
+  - Zoitakis
+  - Zolotas

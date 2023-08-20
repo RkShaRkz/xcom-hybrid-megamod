@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - CS Francesco
+  - CS Alessandro
+  - CS Andrea
+  - CS Lorenzo
+  - CS Matteo
+  - CS Mattia
+  - CS Gabriele
+  - CS Riccardo
+  - CS Davide
+  - CS Leonardo
+  - CS Federico
+  - CS Luca
+  - CS Marco
+  - CS Giuseppe
+  - CS Tommaso
+  - CS Antonio
+  - CS Simone
+  - CS Giovanni
+  - CS Samuele
+  - CS Christian
+  - CS Alessio
+  - CS Nicola
+  - CS Diego
+  - CS Pietro
+  - CS Filippo
+  - CS Edoardo
+  - CS Cristian
+  - CS Daniele
+  - CS Emanuele
+  - CS Michele
+  - CS Gennaro
+  - CS Vincenzo
+  - CS Pasquale
+  - CS Carmine
+  - CS Carmelo
+  - CS Paolo
+femaleFirst:
+  - CS Sofia
+  - CS Giulia
+  - CS Sara
+  - CS Martina
+  - CS Giorgia
+  - CS Chiara
+  - CS Aurora
+  - CS Alice
+  - CS Emma
+  - CS Alessia
+  - CS Anna
+  - CS Francesca
+  - CS Noemi
+  - CS Elisa
+  - CS Matilde
+  - CS Giada
+  - CS Gaia
+  - CS Greta
+  - CS Elena
+  - CS Beatrice
+  - CS Viola
+  - CS Rebecca
+  - CS Nicole
+  - CS Arianna
+  - CS Ginevra
+  - CS Vittoria
+  - CS Asia
+  - CS Ilaria
+  - CS Federica
+  - CS Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

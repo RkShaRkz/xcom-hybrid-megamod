@@ -1,0 +1,132 @@
+extraStrings:
+  - type: en-US
+    strings:
+        STR_SYNDICATE_WAREHOUSE: "Corporate Warehouse Raid"
+        STR_ALERT_SYNDICATE_WAREHOUSE: "Corporate Warehouse Raid"
+        STR_SYNDICATE_WAREHOUSE_DESCRIPTION: "Some Major Corporation has a huge cache of equipment on storage in these Warehouses. The Merc Guild has factions that's willing to pay for these Warehouses to be destroyed in order to protect of their interest."
+        STR_SYNDICATE_WAREHOUSE_BRIEFING: "Some Major Corporation has a huge cache of equipment on storage in these Warehouses. The Merc Guild has factions that's willing to pay for these Warehouses to be destroyed in order to protect of their interest."
+alienDeployments:
+  - type: STR_SYNDICATE_WAREHOUSE
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED   
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND 
+    width: 50
+    length: 50
+    height: 16
+    alert: STR_ALERT_SYNDICATE_WAREHOUSE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_SYNDICATE_WAREHOUSE_DESCRIPTION
+    briefing:
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+      desc: STR_SYNDICATE_WAREHOUSE_BRIEFING  
+    markerName: STR_SYNDICATE_WAREHOUSE
+    duration: [130, 260]
+    despawnPenalty: 100
+    music:
+      - GMTACTIC
+    script: GENERALSYNDICATWAREHOUSE
+    data:
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+alienMissions:
+  - type: STR_SYNDICATE_WAREHOUSE
+    #interruptResearch: STR_SYNDICATE_HQ_DEFEATED
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_SYNDICATE: 20
+          STR_TRANS_STELLAR: 20
+          STR_UAC: 20
+          STR_MEGAPOL: 20		  
+    waves:
+      - ufo: STR_SYNDICATE_WAREHOUSE
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+mapScripts:
+  - type: GENERALSYNDICATWAREHOUSE
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      terrain: URBAN
+      groups: 1		
+    - type: addBlock
+      executions: 1
+      size: [1,1,2]
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: URBAN
+        groups: 1
+      - type: decoration
+        size: [1,1,2]
+        terrain: WAREHOUSESSYNDICATEXP1
+        maxRepeats: 1 	  		
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: SLUMURBAN	  
+    - type: fillArea
+      terrain: SLUMURBAN
+terrains:		
+  - name: WAREHOUSESSYNDICATEXP1
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE  
+    mapBlocks:
+      - name: WAREHOUSES
+        width: 10
+        length: 10	
+        items:
+          STR_GUARD_SPAWNER:   
+            - [3, 8, 0]	
+            - [3, 5, 0]  
+            - [5, 8, 0]  			
+            - [4, 5, 1]
+            - [8, 5, 0]  		
+        fuseTimers:            
+          STR_GUARD_SPAWNER: [0, 0] 
+items: 		
+  - type: STR_GUARD_SPAWNER
+    spawnUnit: STR_MALE_CIVILIAN_BODYGUARD
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	 		  
+missionScripts:
+  - type: syndicateWarehouse
+    firstMonth: 0
+    executionOdds: 5
+    missionWeights:
+      0:
+        STR_SYNDICATE_WAREHOUSE: 100
+    useTable: false
+    regionWeights:
+      0:
+        CITIESUFO: 100
+    executionOdds: 5
+    startDelay: 20
+    randomDelay: 43500
+    facilityTriggers:
+      STR_MERCFACILITY: true

@@ -1,0 +1,163 @@
+extraStrings:
+  - type: en-US
+    strings:	
+      STR_VESSEL_RAIDER_FIGHTER: SkyHauler  
+      STR_VESSEL_RAIDER_FIGHTER_UFOPEDIA: "The Military Sky Hauler is uses by most major military faction as a fast medium cargo hauler. Capable of delivering a good load of supplies in between bases with a very long range. Most are lightly armed so to dettered being captured." 
+ufopaedia:
+  - id: STR_VESSEL_RAIDER_FIGHTER
+    type_id: 9
+    section: STR_UFOS_HUMAN
+    requires:
+      - STR_VESSEL_RAIDER_FIGHTER
+    text: STR_VESSEL_RAIDER_FIGHTER_UFOPEDIA
+research:
+  - name: STR_VESSEL_GUNBOAT
+    points: 50
+    cost: 180	
+    needItem: true		
+    lookup: STR_VESSEL_GUNBOAT
+ufos:
+  - type: STR_VESSEL_RAIDER_FIGHTER
+    size: STR_VERY_SMALL
+    modSprite: InterceptionCCSkybus
+    damageMax: 45
+    speedMax: 700
+    accel: 2
+    power: 10
+    range: 22
+    score: 50
+    reload: 10
+    fireSound: 304	
+    breakOffTime: 200
+    splashdownSurvivalChance: 100
+    fakeWaterLandingChance: 0	
+    battlescapeTerrainData:
+      name: SCARAB
+      mapDataSets:
+        - BLANKS
+        - C_EXT_WALL_BLACK
+        - C_EXT_ROOF_BLACK
+        - C_EXT_NOSE_BUMPLESS_BLACK
+        - C_EXT_NOSE_SIDE_RED
+        - C_EXT_ENGINE_S_BLACK
+        - C_INT_XCOM
+        - C_EXT_XCOM_DARK
+        - LIFTER
+        - PLANEENGINE1	
+      mapBlocks:
+        - name: SCARAB
+          width: 20
+          length: 20
+alienDeployments:
+  - type: STR_VESSEL_RAIDER_FIGHTER
+    startingCondition: STR_LANDONLY
+    enviroEffects: STR_LANDARMOURTOLAND 
+    unlockedResearch: STR_VESSEL_RAIDER_FIGHTER	
+    width: 40
+    length: 40
+    height: 19
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+  - type: STR_VESSEL_RAIDER_FIGHTER_UNDERWATER
+    #startingCondition: STR_LANDONLY
+    #enviroEffects: STR_LANDARMOURTOLAND
+    unlockedResearch: STR_VESSEL_RAIDER_FIGHTER	
+    width: 40
+    length: 40
+    height: 19
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []

@@ -1,0 +1,98 @@
+extraStrings:
+  - type: en-US
+    strings: 	
+      STR_HITMANXP2: "Criminal Bounty"
+      STR_LOC_HITMAN_TITLE: "Criminal Bounty"
+      STR_MARKER_LOC_HITMAN: "Criminal Bounty"
+      STR_LOC_HITMAN_BRIEFING: "The Mercenary guild has a job for you. One of their informants has located a notorius criminal wanted by a Govt faction. Locate and eliminate the criminal for a standard payout."  
+alienDeployments:
+  - type: STR_HITMANXP2
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED 
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND	        
+    alert: STR_LOC_HITMAN_TITLE
+    alertBackground: BACK04.SCR
+    alertDescription: STR_LOC_HITMAN_BRIEFING
+    music:
+      - GMTACTIC
+    briefing:
+      palette: 4
+      background: BACK04.SCR
+      showTarget: false
+      title: STR_LOC_HITMAN_TITLE
+      desc: STR_LOC_HITMAN_BRIEFING
+    markerName: STR_MARKER_LOC_HITMAN
+    duration: [54, 100]
+    width: 60
+    length: 60
+    height: 9
+    customUfo: STR_DOGHOUSE
+    script: GENERALSPAWN
+    data:
+      - alienRank: 9
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []				
+alienMissions:
+  - type: STR_LOC_HITMAN
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_MEGAPOL: 100	
+          STR_MEGAPOL_LATE: 100	
+          STR_MEGAPOL_AND_FACTIONS_MIXED: 10
+    waves:
+      - ufo: STR_HITMANXP2
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 1000
+        objective: true
+ufos:
+  - type: STR_DOGHOUSE
+    size: STR_VERY_SMALL
+    damageMax: 1
+    speedMax: 500
+    accel: 1
+    battlescapeTerrainData:
+      name: TRAITORHOUSE
+      mapDataSets:
+        - BLANKS
+        - ROADS
+        - URBITS
+        - URBAN
+        - FRNITURE
+        - PORT02	
+      mapBlocks:
+        - name: DEBTORHOUSE
+          width: 10
+          length: 10	
+missionScripts:
+  - type: ReservoirDog
+    firstMonth: 0  
+    missionWeights:
+      0:
+        STR_LOC_HITMAN: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    executionOdds: 2
+    startDelay: 1000
+    randomDelay: 40000
+    facilityTriggers:
+      STR_PUBSANDBROTHEL: true

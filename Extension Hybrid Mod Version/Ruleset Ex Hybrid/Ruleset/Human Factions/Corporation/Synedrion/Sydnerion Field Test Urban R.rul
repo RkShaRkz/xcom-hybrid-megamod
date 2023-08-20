@@ -1,0 +1,114 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ALERT_JARHEAD_TERROR: "Sydnerion Field Test Urban"
+      STR_JARHEAD_TERROR: "Sydnerion Field Test Urban"
+      STR_JARHEAD_TERROR_DESCRIPTION: "This is the Merc guild here. The Synedrion has unleast their vile genetic creation on a city population. You must do what you can to contain and eliminate these vile spawn with your Merc units. You will be rewarded upon the mission's completion."
+      STR_JARHEAD_TERROR_BRIEFING: "This is the Merc guild here. The Synedrion has unleast their vile genetic creation on a city population. You must do what you can to contain and eliminate these vile spawn with your Merc units. You will be rewarded upon the mission's completion."
+alienDeployments:
+  - type: STR_JARHEAD_TERROR
+    missionBountyItem: STR_BOUNTYOSIINVESTIGATIONMED 
+    startingCondition: STR_MISSIONSMALLAREATOLANDCRAFTLAND
+    enviroEffects: STR_LANDARMOURTOLAND		
+    width: 60
+    length: 60
+    height: 16
+    civilians: 16
+    customUfo: STR_VESSEL_MILITARY_TRANSPORT
+    alert: STR_ALERT_JARHEAD_TERROR
+    alertBackground: BACK04.SCR
+    alertDescription: STR_JARHEAD_TERROR_DESCRIPTION
+    briefing:
+      desc: STR_JARHEAD_TERROR_BRIEFING	
+      background: BACK04.SCR
+      palette: 2
+      music: GMTACDRY
+      showTarget: false
+    enviroEffects: STR_LANDARMOURTOLAND
+    music:
+      - GMTACTIC
+    markerName: STR_JARHEAD_TERROR
+    duration: [18, 30]
+    despawnPenalty: 700
+    script: MISSIONJARHEADASSAULT
+    data:
+      - alienRank: 7
+        lowQty: 8
+        highQty: 16
+        dQty: 2
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+mapScripts:				
+  - type: MISSIONJARHEADASSAULT
+    commands:
+    - type: resize
+      size: [6, 6, 18]	
+    - type: addCraft
+      terrain: URBAN
+      groups: 1		
+    - type: addUFO
+      groups: 1	
+      terrain: URBAN		  
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+      terrain: URBANROADSNEW	
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+      terrain: URBANROADSNEW		
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]	
+      terrain: URBANROADSNEW	
+    - type: addUFO
+      terrain: globeTerrain
+      groups: 1			
+    - type: addBlock
+      terrain: URBAN
+      executions: 8
+      executionChances: 100		  
+    - type: fillArea
+      randomTerrain: [SLUMURBAN,URBAN,COMRCURBAN1X]				
+alienMissions:
+  - type: STR_JARHEAD_TERROR
+    despawnEvenIfTargeted: true
+    points: 0
+    objective: 0
+    retaliationOdds: 0
+    spawnZone: 0 
+    raceWeights:
+      0:
+          STR_ACADEMY: 100
+    waves:
+      - ufo: STR_JARHEAD_TERROR
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 2000
+        objective: true
+missionScripts:
+  - type: jarheadTerror
+    firstMonth: 20
+    executionOdds: 5	
+    missionWeights:
+      0:
+        STR_JARHEAD_TERROR: 100
+    regionWeights:
+      0:
+        LANDSPAWNS: 100
+    useTable: false
+    startDelay: 50
+    randomDelay: 48000
+    facilityTriggers:
+      STR_MERCFACILITY: true

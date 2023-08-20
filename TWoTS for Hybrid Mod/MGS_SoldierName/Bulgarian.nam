@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - MGS Aleksandar
+  - MGS Andon
+  - MGS Andrey
+  - MGS Andrian
+  - MGS Anton
+  - MGS Antoni
+  - MGS Angel
+  - MGS Apostol
+  - MGS Atanas
+  - MGS Bogdan
+  - MGS Bogomil
+  - MGS Borislav
+  - MGS Boyko
+  - MGS Damyan
+  - MGS Danail
+  - MGS Desislav
+  - MGS Dimitar
+  - MGS Dragomir
+  - MGS Gavrail
+  - MGS Georgi
+  - MGS Hristo
+  - MGS Ilian
+  - MGS Iliya
+  - MGS Ivan
+  - MGS Ivaylo
+  - MGS Ivo
+  - MGS Kaloyan
+  - MGS Kiril
+  - MGS Konstantin
+  - MGS Krasimir
+  - MGS Krastyo
+  - MGS Lyuben
+  - MGS Lyubomir
+  - MGS Lyudmil
+  - MGS Marko
+  - MGS Miroslav
+  - MGS Momchil
+  - MGS Nikola
+  - MGS Ognyan
+  - MGS Penko
+  - MGS Petar
+  - MGS Plamen
+  - MGS Radomir
+  - MGS Samuil
+  - MGS Spas
+  - MGS Stanimir
+  - MGS Stanislav
+  - MGS Stoyan
+  - MGS Teodor
+  - MGS Tihomir
+  - MGS Todor
+  - MGS Toma
+  - MGS Tsvetan
+  - MGS Vasil
+  - MGS Ventsislav
+  - MGS Viktor
+  - MGS Vladimir
+  - MGS Vladislav
+  - MGS Yanko
+  - MGS Yoan
+  - MGS Yordan
+  - MGS Yosif
+  - MGS Zahari
+  - MGS Zhivko
+  - MGS Zlatko
+femaleFirst:
+  - MGS Ana
+  - MGS Antonia
+  - MGS Bilyana
+  - MGS Bisera
+  - MGS Bogomila
+  - MGS Borislava
+  - MGS Boyana
+  - MGS Desislava
+  - MGS Elisaveta
+  - MGS Emiliya
+  - MGS Gergana
+  - MGS Hristina
+  - MGS Iva
+  - MGS Ivana
+  - MGS Ivelina
+  - MGS Ivet
+  - MGS Izabela
+  - MGS Krasimira
+  - MGS Lidiya
+  - MGS Lilyana
+  - MGS Lyubina
+  - MGS Lyubomira
+  - MGS Lyudmila
+  - MGS Maya
+  - MGS Mirela
+  - MGS Miroslava
+  - MGS Nadejda
+  - MGS Nevena
+  - MGS Nikolina
+  - MGS Pavla
+  - MGS Pavlina
+  - MGS Radomira
+  - MGS Radoslava
+  - MGS Radostina
+  - MGS Rayna
+  - MGS Rosa
+  - MGS Rositsa
+  - MGS Silviya
+  - MGS Simona
+  - MGS Snezhana
+  - MGS Sofiya
+  - MGS Stanislava
+  - MGS Stanka
+  - MGS Stoyanka
+  - MGS Svetla
+  - MGS Svetlana
+  - MGS Tanya
+  - MGS Tatyana
+  - MGS Teodora
+  - MGS Tereza
+  - MGS Tsveta
+  - MGS Tsvetelina
+  - MGS Veselina
+  - MGS Viktoria
+  - MGS Violeta
+  - MGS Vladimira
+  - MGS Yana
+  - MGS Yoana
+  - MGS Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

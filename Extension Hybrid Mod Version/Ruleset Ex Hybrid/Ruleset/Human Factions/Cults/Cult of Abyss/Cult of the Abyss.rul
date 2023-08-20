@@ -1,0 +1,1103 @@
+extraStrings:
+  - type: en-US
+    strings: 
+      STR_SORCERER_OF_DAGON_UFOPEDIA: "The role of Cult Sorcerers are reserved for the highest ranks of the Chosen ones. They are the movers and shakers of the cult. Usually, females who possessed the abillity to have visions, usually granted through the inhaling of certain fumes that's given off by the burning of certain sea algae. These visions are highly valued from by Sorcerers, for they can influence of future decision making for the cult. "
+      STR_SUPPORTER_OF_DAGON_UFOPEDIA: "At the lower rung of the Cult hierarchy, these recent recruits are the grunts of the cult. They do everything from cleaning to guard duties. If situation requires, they are train to go into battle beneath the sea. It is a basic requirement that an average cult recruit to have underwater combat training."	  
+      STR_DISCIPLE_OF_DAGON_UFOPEDIA: "Proven recruits are often promoted to Disciple within the cultist rank, these seasoned cultists are die hard fanatics that will defend the cult to the death. These Disciples are fully trained in land and sea warfare and you will find them in hotspots to where the cult are found."
+      STR_PRIEST_OF_DAGON_UFOPEDIA: "The Priest are a high ranking position within of the cult. They were special pressure suit which allows of them the freedom to go into the sea and perform of deep ocean rituals, so they could appease of their suppose underwater gods or superior aquatic beings."
+      STR_CHOSEN_OF_DAGON_UFOPEDIA: "The Chosen ones are reserved for female only. Uusually within the Cult, only of females are allow of higher role. The Chosen ones are usually women within of the cult whom has demonstrated certain desirable skill, charisma and influence. As a result of being chosen, they were surgically given gills that enable them to breath underwater. So they could partipate in important undersea rituals "
+      STR_DISCIPLE_OF_DAGON: "Disciple of the Abyss"
+      STR_PRIEST_OF_DAGON: "Priest of the Abyss"
+      STR_CHOSEN_OF_DAGON: "Chosen of the Abyss"	  	
+      STR_SUPPORTER_OF_DAGON: "Supporter of the Abyss"	
+      STR_MESSENGERS_OF_DAGON: "Messengers of Abyss"
+      STR_DISCIPLE_OF_DAGONID: "Disciple of the Abyss ID"
+      STR_PRIEST_OF_DAGONID: "Priest of the Abyss ID"
+      STR_CHOSEN_OF_DAGONID: "Chosen of the Abyss ID"	  	
+      STR_SUPPORTER_OF_DAGONID: "Supporter of the Abyss ID"	
+      STR_MESSENGERS_OF_DAGONID: "Messengers of Abyss ID"	  
+      STR_SUPPORTER_OF_DAGON_UNDERWATER: "Supporter of the Abyss"
+      STR_DISCIPLE_OF_DAGON_UNDERWATER: "Disciple of the Abyss"
+      STR_PRIEST_OF_DAGON_UNDERWATER: "Priest of the Abyss"	  
+      STR_CHOSEN_OF_DAGON_UNDERWATER: "Chosen of the Abyss"
+      STR_SORCERER_OF_DAGON_UNDERWATER: "Sorcerer of the Abyss"
+      STR_CHURCH_OF_DAGON: "Cult of the Abyss"
+      STR_CHURCH_OF_DAGON_UFOPEDIA: "The Cult of the Abyss is an ancient cult, having of its origin in the ancient middle east. It then grew prominently over the centuries. The high priests of this Cult believes fervantly that humanity itself can only be saved by the suppose superior aquatic beings which lives in the depth of Earth's ocean. To appease of these beings, of them one day coming out of the sea and save these cultist. Periodic ritual sacrifices of animals and even humans were made, always close to the waters of the ocean, so their suppose gods would come up and reward them."	 	 
+      STR_DAGON: "The Abyss"
+      STR_DAGON_UFOPEDIA: "The Abyss, according to the ancient legends and Myths from the old scrolls kept by the Priests, is the place at where the Ancient city of Atlantis was sunk. The Ancient Atlantians has incured the wrath of these ancient aquatic beings and thus the whole city and themselves were sacrificed. Since then, from the spot at where Atlantis was sunk, it is allleged by these priests that its is where these aquatic beings or their gods can be found."
+      STR_CHURCH_OF_DAGON_RATIONALE: "Cult of the Abyss Rationale"
+      STR_CHURCH_OF_DAGON_RATIONALE_UFOPEDIA: "The leading objective of cultists of the Abyss is to cause the end of the world as we know it by helping awaken their alien god who will take over the planet and transform it into something else. Why would they do something like this? Well, it turns out that they have a very pessimistic view on reality: according to them, the Universe is full of things too powerful and dangerous for humans to survive on their own. In their eyes, becoming a part of one such power is necessary for our race to survive, and retaining humanity is a luxury we cannot afford.{NEWLINE}Let us hope that they are the ones in the wrong, not us."
+      STR_MESSENGERS_OF_DAGON_UFOPEDIA: "It appears the Messengers that Cultists of the Abyss spoke of are no myth: indeed they come from the sea and are unlikely to be humans. Whoever they are, they possess technology beyond human understanding and are likely a threat to Earth societies, and therefore will be classified as aliens.{NEWLINE}Since now we know what to look for, we will attempt to catch these messengers on land and learn about their origins and motives."
+      STR_DAGON: "The Abyss"
+      STR_DAGON_UFOPEDIA: "Our previous guesses and grim predictions are now confirmed: The Abyss is indeed a very powerful and ancient alien being, reigning over a humongous undersea base full of inhuman intelligences. Although this the Abyss is currently in a state of 'dreaming', which refers to some sort of psionic hibernation, the eyes of his fortress are set upon humanity. They consider us a lesser race, at best fit for exploitation, at worst to be wiped off the planet.{NEWLINE}The city is still decades away from full combat readiness, but it is certainly an enemy that can prove very difficult to overcome. For now, the Abyss's messengers must be stopped at every opportunity."	
+      STR_SUPPORTER_OF_DAGON_ARMOR: "Supporter of the Abyss Combat Analysis"
+      STR_DISCIPLE_OF_DAGON_ARMOR: "Disciple of the Abyss Combat Analysis"
+      STR_PRIEST_OF_DAGON_ARMOR: "Priest of the Abyss Combat Analysis"
+      STR_CHOSEN_OF_DAGON_ARMOR: "Chosen of the Abyss Combat Analysis"
+      STR_DAGON_MORPH: "the Abyss Morph"
+      STR_DAGON_MORPH_UFOPEDIA: "This creature used to be human, but now is almost completely alien, physically and mentally. His 'the Abyss syndrome' has developed fully, transforming him into a semi-aquatic being with frightening psi powers."
+      STR_SORCERER_OF_DAGON_CORPSE: "the Abyss Morph Corpse"
+      STR_SORCERER_OF_DAGON: "Sorcerer of the Abyss"
+      STR_SORCERER_OF_DAGON_AUTOPSY: "the Abyss Morph Autopsy"
+      STR_SORCERER_OF_DAGON_AUTOPSY_UFOPEDIA: "This being used to be human, but has been extensively modified with unearthly technology down to its genetic code and resulting biochemistry. Its horrifying appearance aside, most of the changes serve to adapt the creature to living underwater. It seems susceptible to fire and should have some trouble breathing air."	
+      STR_CHURCH_OF_DAGON_NETWORK: "Cult of the Abyss Network"
+      STR_CHURCH_OF_DAGON_NETWORK_UFOPEDIA: "The Cult of the Abyss is a secretive organization, with many members hardly ever leaving their settlements. It does, however, maintain a network of emergency storage facilities, usually hidden in remote areas and always guarded by a group of Church members. These facilities are our best bet to apprehend the cult's leaders, since they often use the hideouts to contact each other and coordinate cooperation between the villages. We don't know what's really taking place there, but it's definitely fishy."  
+      STR_DAGON_STAFF: "the Abyss's Staff"
+      STR_DAGON_STAFF_USE: "Using the Abyss's Staff"
+      STR_DAGON_STAFF_UFOPEDIA: "This mysterious object is covered in eldritch runes which speak of sorcery and perfection. It converts psionic energy into a powerful effect which somehow turns water particles into a deadly, sizzling chemical missile. It was reported to sometimes vibrate slightly upon direct contact, but we were unable to measure such movements."  
+      STR_BUY_CHURCH_OF_DAGON_WEAPONS: "Purchase from Cult of the Abyss Suppliers"
+      STR_BUY_CHURCH_OF_DAGON_WEAPONS_UFOPEDIA: "The Council is reluctant to give us authorization to purchase real military equipment, even though the Cult of the Abyss is not bound by such limitations. Rather than getting frustrated over this, we chose to have the cake and eat it too: purchase weapons from the same place as our enemy does, with or without the Council's blessing.{NEWLINE}The Council will naturally object.... [-50 points]"  
+      STR_DAGON_STATUE: "Cult of the Abyss Statue"
+      STR_DAGON_STATUE_UFOPEDIA: "This statue is made of some unearthly material and is extremely hard to damage with saws, lasers or chemical torches. Once we finally managed to open it, we found a lot of texts written in the Eldritch Language concerning the Church, its general operations, orders received from the Abyss and so on. This information is enough to target the crucial nodes of the cult with support from national governments. If you wish us to release this intel and be done with them, just say the word - it won't take long."
+      STR_DESTROY_CHURCH_OF_DAGON: "Terminate The Cult of the Abyss!"
+      STR_DESTROY_CHURCH_OF_DAGON_UFOPEDIA: "So it is done, Commander - the Cult of the Abyss is beaten. It still exists, but was forced into hiding and we're unlikely to ever hear about them again. I can't say I'll miss them much.{NEWLINE}If you happen to have any the Abyss statues left, I suggest we throw them away. They creep me out, you know?"
+      STR_CHURCH_OF_DAGON_OPERATIONS: "Cult of the Abyss Operations"
+      STR_CHURCH_OF_DAGON_OPERATIONS_UFOPEDIA: "Commander, I have devised a plan on how to capture a cult leader. We already know that they can be found at parties devoted to the Abyss, performing all sorts of evil rituals and probably enjoying themselves, too. Now I have a fairly good idea on how to calculate when and where this ceremony will take place. I'll give you a call when I have something.{NEWLINE}{NEWLINE}{NEWLINE}Also from now on, we will not bother with Cult of the Abyss safehouses; such tasks will be delegated to Council Salvagers instead."	
+      STR_CHURCH_OF_DAGON_HQ: "Cult of the Abyss HQ"
+      STR_CHURCH_OF_DAGON_HQ_UFOPEDIA: "According to the information we 'obtained' from the Sorcerer, the Cult of the Abyss maintains a network of stony pyramids in Equatorial Africa. These pyramids are used as bases, and one of them - the High Temple - contains a golden statue that appears to be the holiest object of the cult, the greatest gift of the Abyss. We don't know what exactly this statue is, but if we capture it, it should cripple the cult like nothing else.{NEWLINE}The problem is that the statue often changes location between the pyramids, but we can still trace it with reasonable accuracy. After all, a High Temple is a High Temple, right?{NEWLINE}I'll let you know when we locate that golden statue and you'll decide whether we're ready for some action or not."
+      STR_CORRUPT_POLITICIAN_CHURCH_OF_DAGON: "Corrupt Politician"
+      STR_CORRUPT_POLITICIAN_CHURCH_OF_DAGON_DESCRIPTION: "A local politician from {0} was arrested and is now awaiting trial on grounds of corruption. The true reason behind this arrest was evidence that the individual secretly supported the Cult of the Abyss, carefully put together by your trusted operatives. It feels good to be on top of things.{NEWLINE}[150 points]"	
+      STR_CHURCH_OF_DAGON_DEATH_GRIP: "Death Grip"
+      STR_CHURCH_OF_DAGON_DEATH_GRIP_DESCRIPTION: "Some local Council agents were found dead in {0} with their hearts crushed. These agents had been helping us locate Cult of the Abyss safehouses in the area...{NEWLINE}[-25 points]"
+      STR_CHURCH_OF_DAGON_GONE_WITH_THE_FISH: "Gone With The Fish?"
+      STR_CHURCH_OF_DAGON_GONE_WITH_THE_FISH_DESCRIPTION: "Population of an entire fishing village in {0} went missing, leaving no clue as to their fate except Cult of the Abyss iconography written in blood all over the place. The Council sent us this report as something that doesn't need any further comments.{NEWLINE}[-125 points]"
+      STR_CHURCH_OF_DAGON_GRIM_RITUAL_SITE: "Grim Ritual Site"
+      STR_CHURCH_OF_DAGON_GRIM_RITUAL_SITE_DESCRIPTION: "Some tourists discovered a grim totem made of fresh human bones, located in a forest in {0}. It looks like it was made by the Cult of the Abyss. The Council suggests that we probably should increase our efforts in fighting this menace.{NEWLINE}[-50 points]"
+      STR_SHADOW_OVER_TOWN_CHURCH_OF_DAGON: "Shadow over Town"
+      STR_SHADOW_OVER_TOWN_CHURCH_OF_DAGON_DESCRIPTION: "A video surfaced with some teenagers watching humanoid shapes come out of the sea. The teenagers claim these shapes are not human and are heading towards a nearby town. The Council contained the leak and sent Salvagers to investigate. When they arrived at the location, everyone at the village was either dead or missing, though it looks like a pitched battle took place at the local tavern. Exactly what happened there remains a mystery.{NEWLINE}[-100 points]"
+      STR_SACRIFICIAL_RING_CHURCH_OF_DAGON: "Sacrificial Ring"
+      STR_SACRIFICIAL_RING_CHURCH_OF_DAGON_DESCRIPTION: "A local investigator from {0} discovered instructions on a ritual sacrifice of young women to 'the people of the sea' in exchange for prosperity. After taking control of the investigation, the Salvagers confirmed these sacrifices to actually happen regularly. After staking out and then ambushing the most recent case, the operation has been shut down.{NEWLINE}[Deep One Corpse, Deep One Spear acquired"	 	
+alienRaces:
+  - id: STR_CHURCH_OF_DAGON
+    membersRandom:
+      - [STR_CHOSEN_OF_DAGON] #replace.
+      - [STR_SORCERER_OF_DAGON] #Repurpose for something else? Used by TWOT
+      - [STR_PRIEST_OF_DAGON]   #Change colour?
+      - [STR_PRIEST_OF_DAGON]
+      - [STR_SUPPORTER_OF_DAGON]
+      - [STR_SUPPORTER_OF_DAGON]
+      - [STR_SUPPORTER_OF_DAGON] #Reuse asset for something else.
+      - [STR_DISCIPLE_OF_DAGON]  #Keep
+      - [STR_DISCIPLE_OF_DAGON]
+      - [STR_DISCIPLE_OF_DAGON]
+      - [STR_TANKTERROR_CANNON,STR_TANKTERROR_CANNON,STR_TANKTERROR_LAUNCHER]
+      - [STR_TANKTERROR_CANNON,STR_TANKTERROR_CANNON,STR_TANKTERROR_LAUNCHER]
+      - [STR_TANKTERROR_CANNON,STR_TANKTERROR_CANNON,STR_TANKTERROR_LAUNCHER]
+    retaliationAggression: -100
+  - id: STR_CHURCH_OF_DAGON_UNDERWATER	  	
+    retaliationAggression: -100
+    membersRandom:
+      - [STR_CHOSEN_OF_DAGON_UNDERWATER] #replace.
+      - [STR_SORCERER_OF_DAGON_UNDERWATER] #Repurpose for something else? Used by TWOT
+      - [STR_PRIEST_OF_DAGON_UNDERWATER]
+      - [STR_PRIEST_OF_DAGON_UNDERWATER]
+      - [STR_SUPPORTER_OF_DAGON_UNDERWATER]
+      - [STR_SUPPORTER_OF_DAGON_UNDERWATER]
+      - [STR_SUPPORTER_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+      - [STR_DISCIPLE_OF_DAGON_UNDERWATER]
+ufopaedia:
+  - id: STR_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_DAGON_UFOPEDIA
+    requires:
+      - STR_DAGON
+    listOrder: 169740	  
+  - id: STR_DAGON_MORPH
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    requires:
+      - STR_DAGON_MORPH
+    text: STR_DAGON_MORPH_UFOPEDIA
+    text_width: 158
+    listOrder: 164640	
+  - id: STR_SORCERER_OF_DAGON_CORPSE
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SORCERER_OF_DAGON_AUTOPSY_UFOPEDIA
+    requires:
+      - STR_SORCERER_OF_DAGON_CORPSE
+    listOrder: 164650	
+  - id: STR_MESSENGERS_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_MESSENGERS_OF_DAGON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_MESSENGERS_OF_DAGON
+    listOrder: 150020	
+  - id: STR_DISCIPLE_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_DISCIPLE_OF_DAGON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_DISCIPLE_OF_DAGON
+    listOrder: 150020	
+  - id: STR_PRIEST_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_PRIEST_OF_DAGON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_PRIEST_OF_DAGON
+    listOrder: 150020		
+  - id: STR_CHOSEN_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CHOSEN_OF_DAGON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_CHOSEN_OF_DAGON
+    listOrder: 150020			
+  - id: STR_SUPPORTER_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_SUPPORTER_OF_DAGON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_SUPPORTER_OF_DAGON
+    listOrder: 150020	
+  - id: STR_CHURCH_OF_DAGON
+    type_id: 8
+    section: STR_HUMAN_RESEARCH_UC
+    text: STR_CHURCH_OF_DAGON_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 179990		
+research:
+  - name: STR_DAGON
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 300
+    points: 60
+    dependencies:
+      - STR_DAGON_MORPH
+    listOrder: 169740	  
+  - name: STR_DAGON_MORPH
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SORCERER_OF_DAGON
+  - name: STR_SORCERER_OF_DAGON_CORPSE
+    #requiresBaseFunc: [RESEARCH]  
+    cost: 180
+    points: 50
+    lookup: STR_SORCERER_OF_DAGON_CORPSE	
+    needItem: true
+    destroyItem: true
+    listOrder: 62800
+    unlocks:
+      - STR_DAGON_MORPH	
+  - name: STR_SUPPORTER_OF_DAGON
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 5
+    points: 5
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 149970
+  - name: STR_DISCIPLE_OF_DAGON
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 10
+    points: 10
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 149980
+  - name: STR_PRIEST_OF_DAGON
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 30
+    points: 20
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 150000	
+  - name: STR_CHOSEN_OF_DAGON
+    requiresBaseFunc: [INTERROGATION]	
+    cost: 50
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 150010	
+  - name: STR_SORCERER_OF_DAGON
+    requiresBaseFunc: [INTERROGATION]	  
+    cost: 75
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 150020	
+  - name: STR_CHURCH_OF_DAGON
+    #requiresBaseFunc: [RESEARCH]    
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_SUPPORTER_OF_DAGON
+      - STR_DISCIPLE_OF_DAGON
+      - STR_PRIEST_OF_DAGON
+      - STR_CHOSEN_OF_DAGON
+      - STR_SORCERER_OF_DAGON
+    listOrder: 179990		
+units:
+  - type: STR_DISCIPLE_OF_DAGON
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 70
+      reactions: 20
+      firing: 30
+      throwing: 35
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_DISCIPLE_OF_DAGON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 4
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_LMG
+        - STR_LMG_CLIP
+        - STR_LMG_CLIP	
+  - type: STR_DISCIPLE_OF_DAGON_UNDERWATER
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 70
+      reactions: 20
+      firing: 30
+      throwing: 35
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 55
+      #mana: 50
+    armor: STR_DEEPSEASUIT_MERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 4
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 2
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_HYDRO_JET_CANNON
+        - STR_HJC_AP_AMMO
+        - STR_HJC_AP_AMMO		
+        - STR_HJC_HE_AMMO
+  - type: STR_SUPPORTER_OF_DAGON
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 58
+      health: 40
+      bravery: 70
+      reactions: 35
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_SUPPORTER_OF_DAGON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 2
+    deathSound: [44, 45, 46]
+    intelligence: 2
+    aggression: 1
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+  - type: STR_SUPPORTER_OF_DAGON_UNDERWATER
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 58
+      health: 40
+      bravery: 70
+      reactions: 35
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 40
+      psiSkill: 0
+      melee: 30
+      #mana: 50
+    armor: STR_DEEPSEASUIT_MERC
+    standHeight: 22
+    kneelHeight: 14
+    value: 2
+    deathSound: [44, 45, 46]
+    intelligence: 2
+    aggression: 1
+    spotter: 1
+    canSurrender: true
+    builtInWeaponSets:
+      - - STR_JET_HARPOON
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD		
+  - type: STR_PRIEST_OF_DAGON
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 50
+      bravery: 80
+      reactions: 35
+      firing: 40
+      throwing: 45
+      strength: 50
+      psiStrength: 65
+      psiSkill: 0
+      melee: 65
+      #mana: 55
+    armor: STR_PRIEST_OF_DAGON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 4
+    sniper: 35
+    spotter: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+  - type: STR_PRIEST_OF_DAGON_UNDERWATER
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 50
+      bravery: 80
+      reactions: 35
+      firing: 40
+      throwing: 45
+      strength: 50
+      psiStrength: 65
+      psiSkill: 0
+      melee: 65
+      #mana: 55
+    armor: STR_PRIEST_OF_DAGON_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 7
+    deathSound: [41, 42, 43]
+    energyRecovery: 40
+    intelligence: 4
+    sniper: 35
+    spotter: 1
+    aggression: 2
+    builtInWeaponSets:
+      - - STR_JET_HARPOON
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+        - STR_HARPOON_POD
+  - type: STR_CHOSEN_OF_DAGON
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 50
+      psiStrength: 70
+      psiSkill: 0
+      melee: 70
+      #mana: 60
+    armor: STR_CHOSEN_OF_DAGON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [44, 45, 46]
+    energyRecovery: 40
+    intelligence: 4
+    aggression: 2
+    sniper: 50
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_HE_AMMO
+  - type: STR_SORCERER_OF_DAGON
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 70
+      bravery: 100
+      reactions: 60
+      firing: 50
+      throwing: 70
+      strength: 60
+      psiStrength: 75
+      psiSkill: 20
+      melee: 75
+      #mana: 70
+    armor: STR_SORCERER_OF_DAGON_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 40
+    energyRecovery: 50
+    intelligence: 5
+    aggression: 2
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+  - type: STR_CHOSEN_OF_DAGON_UNDERWATER
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 50
+      psiStrength: 70
+      psiSkill: 0
+      melee: 70
+      #mana: 60
+    armor: STR_CHOSEN_OF_DAGON_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [44, 45, 46]
+    energyRecovery: 40
+    intelligence: 4
+    aggression: 2
+    sniper: 50
+    spotter: 1
+    builtInWeaponSets:
+      - - STR_GAS_CANNON
+        - STR_GC_AP_AMMO
+        - STR_GC_HE_AMMO
+        - STR_GRENADE		
+  - type: STR_SORCERER_OF_DAGON_UNDERWATER
+    race: STR_CHURCH_OF_DAGON
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 70
+      bravery: 100
+      reactions: 60
+      firing: 50
+      throwing: 70
+      strength: 60
+      psiStrength: 75
+      psiSkill: 20
+      melee: 75
+      #mana: 70
+    armor: STR_SORCERER_OF_DAGON_ARMOR_UNDERWATER
+    standHeight: 22
+    kneelHeight: 14
+    deathSound: [44, 45, 46]
+    value: 40
+    energyRecovery: 50
+    intelligence: 5
+    aggression: 2
+    spotter: 2
+    builtInWeaponSets:
+      - - STR_HYDRO_JET_CANNON
+        - STR_HJC_AP_AMMO
+        - STR_HJC_HE_AMMO	
+        - STR_GRENADE			
+armors:
+  - type: STR_SORCERER_OF_DAGON_ARMOR_UNDERWATER
+    spriteSheet: TZEENTCH_FEM_CULTIST_1BS.PCK 
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_SORCERER_OF_DAGON_CORPSE	  
+    visibilityAtDark: 15
+    drawBubbles: true	
+    psiVision: 10
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    drawingRoutine: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.15
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.45
+      - 0.0
+      - 0.8
+      - 0.9
+      - 0.0
+      - 6.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_CHOSEN_OF_DAGON_ARMOR_UNDERWATER
+    visibilityAtDay: 30
+    visibilityAtDark: 25
+    drawBubbles: true	
+    heatVision: 10
+    spriteSheet: TZEENTCH_WITCH_BS.PCK
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_CHOSEN_OF_DAGON_CORPSE	
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    movementType: 1 #flying Tzeentch flight
+    damageModifier: #CULTIST ARMOR
+      - 1.0
+      - 1.0
+      - 1.2
+      - 0.7
+      - 0.5
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+  - type: STR_CHOSEN_OF_DAGON_ARMOR
+    visibilityAtDay: 30
+    visibilityAtDark: 25
+    heatVision: 10
+    spriteSheet: TZEENTCH_WITCH_BS.PCK
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_CHOSEN_OF_DAGON_CORPSE	
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    movementType: 1 #flying Tzeentch flight
+    damageModifier: #CULTIST ARMOR
+      - 1.0
+      - 1.0
+      - 1.2
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.7
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 2 ]
+  - type: STR_SUPPORTER_OF_DAGON_ARMOR
+    corpseBattle:
+      - STR_SUPPORTER_OF_DAGON_CORPSE  
+    spriteSheet: tzeentchfemguardcommandoBS.PCK
+    spriteInv: inventory_BLANK	
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 3
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon		 	  
+    loftemps: 3
+    #drawBubbles: true
+    #drawingRoutine: 13
+    #moveSound: 411
+    #movementType: 3
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]  
+  - type: STR_DISCIPLE_OF_DAGON_ARMOR
+    spriteInv: inventory_BLANK	
+    spriteSheet: tzeentchbasicguardBS.PCK
+    corpseBattle:
+      - STR_DISCIPLE_OF_DAGON_CORPSE	  
+    visibilityAtDark: 6    
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_SORCERER_OF_DAGON_ARMOR
+    spriteSheet: TZEENTCH_FEM_CULTIST_1BS.PCK 
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_SORCERER_OF_DAGON_CORPSE	  
+    visibilityAtDark: 15
+    psiVision: 10
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    drawingRoutine: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.15
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.85
+      - 1.0
+      - 0.8
+      - 0.9
+      - 0.4
+      - 6.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_PRIEST_OF_DAGON_ARMOR
+    spriteSheet: TZEENTCH_CULTIST_SERVITOR.PCK 
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_PRIEST_OF_DAGON_CORPSE
+    visibilityAtDark: 10
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    drawingRoutine: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.15
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 4.0
+      - 0.7 #Sonic
+      - 1.1 #GaussAP
+      - 1.1 #Electric
+      - 1.1 #BiorganicSpikes
+      - 2000.0 #Depth1
+      - 2.0 #Cold
+      - 2.0 #Heat
+      - 2.0 #Radiation
+      - 0.5 #XCOMBioweapon	 
+    loftempsSet: [ 3 ]	
+  - type: STR_PRIEST_OF_DAGON_ARMOR_UNDERWATER
+    spriteSheet: TZEENTCH_CULTIST_SERVITOR.PCK 
+    spriteInv: inventory_BLANK	
+    corpseBattle:
+      - STR_PRIEST_OF_DAGON_CORPSE
+    visibilityAtDark: 10
+    drawBubbles: true		
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 6
+    meleeDodge:
+      reactions: 0.3
+    meleeDodgeBackPenalty: 0.5
+    drawingRoutine: 0
+    recovery:
+      #mana:
+        #flatHundred: 0.1
+      energy:
+        #flatHundred: 0.1
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.15
+        health: -0.05
+      health:
+        stunNormalized: -0.1
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 0.8
+      - 0.5
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 4.0
+      - 1.0 #Sonic
+      - 0.9 #GaussAP
+      - 0.0 #Electric
+      - 1.1 #BiorganicSpikes
+      - 0.0 #Depth1
+      - 0.0 #Cold
+      - 3.0 #Heat
+      - 1.0 #Radiation
+      - 0.2 #XCOMBioweapon	
+    loftempsSet: [ 3 ]		
+items:
+  - type: STR_PRIEST_OF_DAGON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 2877
+    floorSprite: 2877
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_SORCERER_OF_DAGON_CORPSE
+    categories: [STR_CORPSES]
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 2876
+    floorSprite: 2876
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    costThrow:
+      energy: 15
+    battleType: 11
+    armor: 30
+    listOrder: 62800
+  - type: STR_SUPPORTER_OF_DAGON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 36
+    bigSprite: 2879
+    floorSprite: 2879
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1
+  - type: STR_CHOSEN_OF_DAGON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 30
+    bigSprite: 2875
+    floorSprite: 2875
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 15
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1	
+  - type: STR_DISCIPLE_OF_DAGON_CORPSE
+    categories: [STR_CORPSES]
+    name: STR_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 2878
+    floorSprite: 2878
+    invWidth: 2
+    invHeight: 3
+    costThrow:
+      energy: 20
+    battleType: 11
+    armor: 30
+    recover: true
+    recoverCorpse: false
+    recoveryPoints: 1	
+  - type: STR_CHURCH_OF_DAGON_OPERATIONS
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_CHURCH_OF_DAGON_NETWORK
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_CHURCH_OF_DAGON_HQ
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_DESTROY_CHURCH_OF_DAGON
+    bigSprite: 299
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SORCERER_OF_DAGON_AUTOPSY
+    bigSprite: 297
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_MESSENGERS_OF_DAGON
+    bigSprite: 306
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+  - type: STR_DAGON
+    bigSprite: 306
+    weight: 0
+    invWidth: 2
+    invHeight: 3	
+  - type: STR_CULTOFABYSSPRIEST_SPAWNER
+    spawnUnit: STR_PRIEST_OF_DAGON_UNDERWATER
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4	  	
+  - type: STR_SUPPORTER_OF_DAGON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+  - type: STR_DISCIPLE_OF_DAGON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+  - type: STR_PRIEST_OF_DAGON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000 
+  - type: STR_SUPPORTER_OF_DAGON_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+    recoveryTransformations:
+      STR_SUPPORTER_OF_DAGON: [1] 	
+  - type: STR_DISCIPLE_OF_DAGON_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000	 
+    recoveryTransformations:
+      STR_DISCIPLE_OF_DAGON: [1] 		
+  - type: STR_PRIEST_OF_DAGON_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+    recoveryTransformations:
+      STR_PRIEST_OF_DAGON: [1] 	
+  - type: STR_CHOSEN_OF_DAGON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+  - type: STR_SORCERER_OF_DAGON
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+  - type: STR_CHOSEN_OF_DAGON_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+    recoveryTransformations:
+      STR_CHOSEN_OF_DAGON: [1] 
+  - type: STR_SORCERER_OF_DAGON_UNDERWATER
+    requiresBaseFunc: [INTERROGATION] 
+    size: 0.0
+    recover: true
+    #liveAlien: true
+    prisonType: 1
+    costSell: 90000
+    listOrder: 151000
+    recoveryTransformations:
+      STR_SORCERER_OF_DAGON: [1] 	
